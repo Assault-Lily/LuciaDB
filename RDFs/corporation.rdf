@@ -21,7 +21,34 @@
 
 <rdf:Description rdf:about="Grand_Guignol">
   <schema:name xml:lang="ja">グランギニョル社</schema:name>
-  <schema:name xml:lang="fr">Grand Guignol</schema:name>
+  <schema:name xml:lang="en">Grand Guignol</schema:name>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Tsukuyomi_Giken">
+  <schema:name xml:lang="ja">月詠技研</schema:name>
+  <schema:name xml:lang="en">Tsukuyomi Giken</schema:name>
+  <schema:subOrganization rdf:resource="Tsukuyomi_Giken_Vietnam"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Tsukuyomi_Giken_Vietnam">
+  <schema:name xml:lang="ja">月詠技研ベトナム支社</schema:name>
+  <schema:name xml:lang="en">Tsukuyomi Giken Vietnam</schema:name>
+  <schema:parentOrganization rdf:resource="Tsukuyomi_Giken"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Taipei_Fengshen_Company">
+  <schema:name xml:lang="cn">台北封神公司</schema:name>
+  <schema:name xml:lang="ja">台北封神公司</schema:name>
+  <schema:name xml:lang="en">Taipei Fengshen Company</schema:name>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Hihiirokane_International">
+  <schema:name xml:lang="ja">ヒヒイロカネインターナショナル</schema:name>
+  <schema:name xml:lang="en">Hihiirokane International</schema:name>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
 </rdf:Description>
 

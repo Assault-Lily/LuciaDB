@@ -10,10 +10,16 @@
 <rdf:Description rdf:about="Radgrid">
   <schema:name xml:lang="ja">ラーズグリーズ</schema:name>
   <schema:alternateName xml:lang="ja">一柳隊</schema:alternateName>
-  <schema:member rdf:resource="Riri_Hitotsuyanagi"/>
-  <schema:member rdf:resource="Yuyu_Shirai"/>
+  <schema:member rdf:resource="Hitotsuyanagi_Riri"/>
+  <schema:member rdf:resource="Shirai_Yuyu"/>
   <schema:member rdf:resource="Kaede_Johan_Nouvel"/>
-  <schema:member rdf:resource="Fumi_Futagawa"/>
+  <schema:member rdf:resource="Futagawa_Fumi"/>
+  <schema:member rdf:resource="Ando_Tazusa"/>
+  <schema:member rdf:resource="Yoshimura_Thi_Mai"/>
+  <schema:member rdf:resource="Kuo_Shenlin"/>
+  <schema:member rdf:resource="Wang_Yujia"/>
+  <schema:member rdf:resource="Miliam_Hildegard_von_Guropius"/>
+  <!--schema:alumni rdf:resource="Hitotsuyanagi_Yuri"-->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 

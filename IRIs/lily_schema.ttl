@@ -27,7 +27,8 @@ lily:Lily                       a   rdfs:Class ;
 
 lily:Charm                      a   rdfs:Class ;
     rdfs:comment                    "チャームを表すクラス" ;
-    rdfs:label                      "チャーム"@ja .
+    rdfs:label                      "チャーム"@ja ;
+    rdfs:subClassOf                 schema:Product .
 
 lily:Corporation                a   rdfs:Class ;
     rdfs:comment                    "会社組織を表すクラス" ;
@@ -64,9 +65,9 @@ lily:bloodType          a   rdf:Property ;
     rdfs:comment            "血液型を表すプロパティ" ;
     rdfs:label              "血液型"@ja .
 
-lily:talent_hobby       a   rdf:Property ;
-    rdfs:comment            "特技・趣味を表すプロパティ" ;
-    rdfs:label              "特技・趣味"@ja .
+lily:color              a   rdf:Property ;
+    rdfs:comment            "イメージカラーを表すプロパティ" ;
+    rdfs:label              "イメージカラー"@ja .
 
 lily:favorite           a   rdf:Property ;
     rdfs:comment            "好きなものを表すプロパティ" ;
@@ -76,17 +77,25 @@ lily:notGood            a   rdf:Property ;
     rdfs:comment            "苦手なものを表すプロパティ" ;
     rdfs:label              "苦手なもの"@ja .
 
-lily:color              a   rdf:Property ;
-    rdfs:comment            "イメージカラーを表すプロパティ" ;
-    rdfs:label              "イメージカラー"@ja .
+lily:hobby_talent       a   rdf:Property ;
+    rdfs:comment            "趣味・特技を表すプロパティ" ;
+    rdfs:label              "趣味・特技"@ja .
 
-lily:cast               a   rdf:Property ;
-    rdfs:comment            "キャストを表すプロパティ" ;
-    rdfs:label              "キャスト"@ja .
+lily:rareSkill          a   rdf:Property ;
+    rdfs:comment            "レアスキルを表すプロパティ" ;
+    rdfs:label              "レアスキル"@ja .
 
-lily:pastCast           a   rdf:Property ;
-    rdfs:comment            "過去のキャストを表すプロパティ" ;
-    rdfs:label              "過去のキャスト"@ja .
+lily:boostedSkill       a   rdf:Property ;
+    rdfs:comment            "ブーステッドスキルを表すプロパティ" ;
+    rdfs:label              "ブーステッドスキル"@ja .
+
+lily:charm              a  rdf:Property ;
+    rdfs:comment            "主な使用CHARMを表すプロパティ" ;
+    rdfs:label              "主な使用CHARM"@ja .
+
+lily:charmAdditionalInformation  a  rdf:Property ;
+    rdfs:comment            "主な使用CHARMの追加情報（量産先行型など）を表すプロパティ" ;
+    rdfs:label              "主な使用CHARMの追加情報"@ja .
 
 lily:garden             a   rdf:Property ;
     rdfs:comment            "所属ガーデンを表すプロパティ" ;
@@ -104,10 +113,50 @@ lily:legion             a   rdf:Property ;
     rdfs:comment            "所属レギオンを表すプロパティ" ;
     rdfs:label              "所属レギオン"@ja .
 
+lily:schutzengel        a   rdf:Property ;
+    rdfs:comment            "シュッツエンゲルを表すプロパティ" ;
+    rdfs:label              "シュッツエンゲル"@ja .
+
+lily:pastSchutzengel    a   rdf:Property ;
+    rdfs:comment            "過去のシュッツエンゲルを表すプロパティ" ;
+    rdfs:label              "過去のシュッツエンゲル"@ja .
+
+lily:schild             a   rdf:Property ;
+    rdfs:comment            "シルトを表すプロパティ" ;
+    rdfs:label              "シルト"@ja .
+
+lily:pastSchild         a   rdf:Property ;
+    rdfs:comment            "過去のシルトを表すプロパティ" ;
+    rdfs:label              "過去のシルト"@ja .
+
+lily:roomMate           a   rdf:Property ;
+    rdfs:comment            "寮のルームメイトを表すプロパティ" ;
+    rdfs:label              "ルームメイト"@ja .
+
+lily:cast               a   rdf:Property ;
+    rdfs:comment            "キャストを表すプロパティ" ;
+    rdfs:label              "キャスト"@ja .
+
+lily:pastCast           a   rdf:Property ;
+    rdfs:comment            "過去のキャストを表すプロパティ" ;
+    rdfs:label              "過去のキャスト"@ja .
+
+lily:seriesName         a   rdf:Property ;
+    rdfs:comment            "シリーズ名を表すプロパティ" ;
+    rdfs:label              "シリーズ名"@ja .
+
 lily:generation         a   rdf:Property ;
     rdfs:comment            "CHARMの世代を表すプロパティ" ;
     rdfs:label              "世代"@ja .
 
 lily:user               a   rdf:Property ;
-    rdfs:comment            "使用者を表すプロパティ" ;
+    rdfs:comment            "CHARMなどの使用者を表すプロパティ" ;
     rdfs:label              "使用者"@ja .
+
+lily:isVariantOf        a   rdf:Property ;
+    rdfs:comment            "CHARMなどの派生元を表すプロパティ" ;
+    rdfs:label              "派生元"@ja .
+
+lily:hasVariant         a   rdf:Property ;
+    rdfs:comment            "CHARMなどの派生先を表すプロパティ" ;
+    rdfs:label              "派生先"@ja .

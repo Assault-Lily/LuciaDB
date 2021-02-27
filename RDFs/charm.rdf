@@ -9,33 +9,172 @@
   xml:base="https://lily.fvhp.net/rdf/RDFs/detail/">
 
 <rdf:Description rdf:about="Gungnir">
-  <schema:model rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-13</schema:model>
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-13</schema:productID>
+  <lily:seriesName xml:lang="ja">グングニル</lily:seriesName>
+  <lily:seriesName xml:lang="en">Gungnir</lily:seriesName>
   <schema:name xml:lang="ja">グングニル</schema:name>
   <schema:name xml:lang="en">Gungnir</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
   <schema:manufacturer rdf:resource="Yggdrasill"/>
-  <lily:user rdf:resource="Riri_Hitotsuyanagi"/>
-  <lily:user rdf:resource="Fumi_Futagawa"/>
+  <lily:user rdf:resource="Hitotsuyanagi_Riri"/>
+  <lily:user rdf:resource="Futagawa_Fumi"/>
+  <lily:user rdf:resource="Kaede_Johan_Nouvel"/>
+  <!--lily:user rdf:resource="Hitotsuyanagi_Yuri"/-->
+  <!--lily:user rdf:resource="Ito_Shizu"/-->
+  <!--lily:user rdf:resource="Egawa_Kusumi"/-->
+  <!--lily:user rdf:resource="Takasuga_Tsukushi"/-->
+  <!--lily:user rdf:resource="Taniguchi_Hijiri"/-->
+  <!--lily:user rdf:resource="Tamura_Nagi"/-->
+  <!--lily:user rdf:resource="Hata_Matsuri"/-->
+  <!--lily:user rdf:resource="Kawamura_Yuzuriha"/-->
+  <lily:user rdf:resource="Miliam_Hildegard_von_Guropius"/>
+  <!--lily:user rdf:resource="Wang_Yujia"/-->
+  <!--lily:user rdf:resource="Yoshizaka_Nagisa"/-->
+  <lily:hasVariant rdf:resource="Gungnir_Carbin"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Gungnir_Carbin">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-13SS</schema:productID>
+  <lily:seriesName xml:lang="ja">グングニル</lily:seriesName>
+  <lily:seriesName xml:lang="en">Gungnir</lily:seriesName>
+  <schema:name xml:lang="ja">グングニル・カービン</schema:name>
+  <schema:name xml:lang="en">Gungnir Carbin</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <!--lily:user rdf:resource="Toda_Eulalia_Kotohi"/-->
+  <!--lily:user rdf:resource="Narumi_Clara_Yuko"/-->
+  <!--lily:user rdf:resource="Hasegawa_Gabriella_Tsugumi"/-->
+  <!--lily:user rdf:resource="Funada_Ui"/-->
+  <lily:isVariantOf rdf:resource="Gungnir"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="Brionac">
-  <schema:model rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-21</schema:model>
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-21</schema:productID>
+  <lily:seriesName xml:lang="ja">ブリューナク</lily:seriesName>
+  <lily:seriesName xml:lang="en">Brionac</lily:seriesName>
   <schema:name xml:lang="ja">ブリューナク</schema:name>
   <schema:name xml:lang="en">Brionac</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
   <schema:manufacturer rdf:resource="Celticdale"/>
-  <lily:user rdf:resource="Yuyu_Shirai"/>
+  <lily:user rdf:resource="Shirai_Yuyu"/>
+  <lily:user rdf:resource="Hitotsuyanagi_Riri"/>
+  <lily:user rdf:resource="Yoshimura_Thi_Mai"/>
+  <!--lily:user rdf:resource="Kawazoe_Misuzu"/-->
+  <!--lily:user rdf:resource="Tanaka_Ichi"/-->
+  <!--lily:user rdf:resource="Egawa_Kusumi"/-->
+  <!--lily:user rdf:resource="Kawanabe Nazuna"/-->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="Joyeuse">
-  <schema:model rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-19</schema:model>
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-19</schema:productID>
+  <lily:seriesName xml:lang="ja">ジョワユーズ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Joyeuse</lily:seriesName>
   <schema:name xml:lang="ja">ジョワユーズ</schema:name>
   <schema:name xml:lang="en">Joyeuse</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
   <schema:manufacturer rdf:resource="Grand_Guignol"/>
   <lily:user rdf:resource="Kaede_Johan_Nouvel"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Tyrfing_Prototype">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-17</schema:productID>
+  <lily:seriesName xml:lang="ja">ティルフィング</lily:seriesName>
+  <lily:seriesName xml:lang="en">Tyrfing</lily:seriesName>
+  <schema:name xml:lang="ja">ティルフィング プロトタイプ</schema:name>
+  <schema:name xml:lang="en">Tyrfing Prototype</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <!--lily:user rdf:resource="Shiori_Rokkaku"/-->
+  <lily:hasVariant rdf:resource="Tyrfing_type_T"/>
+  <lily:hasVariant rdf:resource="Tyrfing_type_R"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Tyrfing_type_T">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-17</schema:productID>
+  <lily:seriesName xml:lang="ja">ティルフィング</lily:seriesName>
+  <lily:seriesName xml:lang="en">Tyrfing</lily:seriesName>
+  <schema:name xml:lang="ja">ティルフィング T型</schema:name>
+  <schema:name xml:lang="en">Tyrfing type T</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Ando_Tazusa"/>
+  <!--lily:user rdf:resource="Chemir_Friedheim"/-->
+  <lily:isVariantOf rdf:resource="Tyrfing_Prototype"/>
+  <schema:isSimilarTo rdf:resource="Tyrfing_type_R"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Tyrfing_type_R">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-17</schema:productID>
+  <lily:seriesName xml:lang="ja">ティルフィング</lily:seriesName>
+  <lily:seriesName xml:lang="en">Tyrfing</lily:seriesName>
+  <schema:name xml:lang="ja">ティルフィング R型</schema:name>
+  <schema:name xml:lang="en">Tyrfing type R</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <!--lily:user rdf:resource="Louloudis_Bromstedt"/-->
+  <lily:isVariantOf rdf:resource="Tyrfing_Prototype"/>
+  <schema:isSimilarTo rdf:resource="Tyrfing_type_T"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="ThanKiem">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DC-23</schema:productID>
+  <lily:seriesName xml:lang="ja">タンキエム</lily:seriesName>
+  <lily:seriesName xml:lang="en">Than Kiem</lily:seriesName>
+  <schema:name xml:lang="ja">タンキエム</schema:name>
+  <schema:name xml:lang="en">Than Kiem</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <schema:manufacturer rdf:resource="Tsukuyomi_Giken"/>
+  <lily:user rdf:resource="Yoshimura_Thi_Mai"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Ma_Zu_Relic">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-16</schema:productID>
+  <lily:seriesName xml:lang="cn">媽祖聖札</lily:seriesName>
+  <lily:seriesName xml:lang="ja">マソレリック</lily:seriesName>
+  <lily:seriesName xml:lang="en">Ma-Zu Relic</lily:seriesName>
+  <schema:name xml:lang="cn">媽祖聖札</schema:name>
+  <schema:name xml:lang="ja">マソレリック</schema:name>
+  <schema:name xml:lang="en">Ma-Zu Relic</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <schema:manufacturer rdf:resource="Taipei_Fengshen_Company"/>
+  <lily:user rdf:resource="Kuo_Shenlin"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Asterion">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC-15</schema:productID>
+  <lily:seriesName xml:lang="ja">アステリオン</lily:seriesName>
+  <lily:seriesName xml:lang="en">Asterion</lily:seriesName>
+  <schema:name xml:lang="ja">アステリオン</schema:name>
+  <schema:name xml:lang="en">Asterion</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <schema:manufacturer rdf:resource="Hihiirokane_International"/>
+  <lily:user rdf:resource="Wang_Yujia"/>
+  <lily:user rdf:resource="Kuo_Shenlin"/>
+  <!--lily:user rdf:resource="Ishigami_Mio"/-->
+  <!--lily:user rdf:resource="Ishikawa_Aoi"/-->
+  <!--lily:user rdf:resource="Izue_Shinobu"/-->
+  <!--lily:user rdf:resource="Imagawa_Homare"/-->
+  <!--lily:user rdf:resource="Endo_Araya"/-->
+  <!--lily:user rdf:resource="Katakura_Shion"/-->
+  <!--lily:user rdf:resource="Kanabako_Misora"/-->
+  <!--lily:user rdf:resource="Kishimoto_Maria_Mirai"/-->
+  <!--lily:user rdf:resource="Kishimoto_Lucia_Raimu"/-->
+  <!--lily:user rdf:resource="Date_Furiru"/-->
+  <!--lily:user rdf:resource="Taneda_Seina"/-->
+  <!--lily:user rdf:resource="Banshoya_Ena"/-->
+  <!--lily:user rdf:resource="Mashima_Moyu"/-->
+  <!--lily:user rdf:resource="Yumeno_Kanon"/-->
+  <!--lily:user rdf:resource="Rosalinde_Friedegunde_von_Otto"/-->
+  <!--lily:user rdf:resource="Watanabe_Akane"/-->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
