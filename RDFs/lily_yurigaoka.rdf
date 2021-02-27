@@ -5,7 +5,7 @@
   xmlns:owl="http://www.w3.org/2002/07/owl#"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-  xmlns:lily="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#"
+  xmlns:lily="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#"
   xml:base="https://lily.fvhp.net/rdf/RDFs/detail/">
 
 <rdf:Description rdf:about="Riri_Hitotsuyanagi">
@@ -40,7 +40,7 @@
   <lily:legion rdf:resource="Radgrid"/>
   <lily:cast xml:lang="ja">赤尾ひかる</lily:cast>
   <lily:cast rdf:resource="http://www.wikidata.org/entity/Q28685785"/>
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#Lily"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="Yuyu_Shirai">
@@ -78,7 +78,7 @@
   <lily:legion rdf:resource="Radgrid"/>
   <lily:cast xml:lang="ja">夏吉ゆうこ</lily:cast>
   <lily:cast rdf:resource="https://www.wikidata.org/wiki/Q66365004"/>
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#Lily"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="Kaede_Johan_Nouvel">
@@ -119,7 +119,7 @@
   <lily:cast xml:lang="ja">井澤美香子</lily:cast>
   <lily:cast rdf:resource="https://www.wikidata.org/wiki/Q20038660"/>
   <lily:cast rdf:resource="http://ja.dbpedia.org/resource/井澤美香子"/>
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#Lily"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="Fumi_Futagawa">
@@ -156,7 +156,7 @@
   <lily:legion rdf:resource="Radgrid"/>
   <lily:cast xml:lang="ja">西本りみ</lily:cast>
   <lily:cast rdf:resource="https://www.wikidata.org/wiki/Q24902567"/>
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#Lily"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
 </rdf:RDF>

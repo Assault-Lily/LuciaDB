@@ -10,25 +10,25 @@
 <rdf:Description rdf:about="Yggdrasill">
   <schema:name xml:lang="ja">ユグドラシル社</schema:name>
   <schema:name xml:lang="en">Yggdrasill</schema:name>
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#Corporation"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="Celticdale">
   <schema:name xml:lang="ja">ケルティックデール社</schema:name>
   <schema:name xml:lang="en">Celticdale</schema:name>
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#Corporation"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="Grand_Guignol">
   <schema:name xml:lang="ja">グランギニョル社</schema:name>
   <schema:name xml:lang="fr">Grand Guignol</schema:name>
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#Corporation"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="GEHENA">
   <schema:name xml:lang="ja">ゲヘナ</schema:name>
   <schema:name xml:lang="en">GEHENA</schema:name>
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#Corporation"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
 </rdf:Description>
 
 </rdf:RDF>

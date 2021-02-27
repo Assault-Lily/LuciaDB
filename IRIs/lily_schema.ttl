@@ -4,9 +4,9 @@
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix schema: <http://schema.org/>.
-@prefix lily: <https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#>.
+@prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#>.
 
-<https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#>
+<https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#>
         a               owl:Ontology ;
         rdfs:label          "lily-schema語彙"@ja ;
         dcterms:creator     [   foaf:homepage   <https://twitter.com/fvhP_> ;

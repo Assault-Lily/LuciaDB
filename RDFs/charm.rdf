@@ -5,7 +5,7 @@
   xmlns:owl="http://www.w3.org/2002/07/owl#"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-  xmlns:lily="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#"
+  xmlns:lily="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#"
   xml:base="https://lily.fvhp.net/rdf/RDFs/detail/">
 
 <rdf:Description rdf:about="Gungnir">
@@ -16,7 +16,7 @@
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Riri_Hitotsuyanagi"/>
   <lily:user rdf:resource="Fumi_Futagawa"/>
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#Charm"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="Brionac">
@@ -26,7 +26,7 @@
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
   <schema:manufacturer rdf:resource="Celticdale"/>
   <lily:user rdf:resource="Yuyu_Shirai"/>
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#Charm"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="Joyeuse">
@@ -36,7 +36,7 @@
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
   <schema:manufacturer rdf:resource="Grand_Guignol"/>
   <lily:user rdf:resource="Kaede_Johan_Nouvel"/>
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#Charm"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
 </rdf:RDF>
