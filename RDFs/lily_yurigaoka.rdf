@@ -254,7 +254,7 @@
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
   <lily:class xml:lang="ja">櫻組</lily:class>
   <lily:legion rdf:resource="Radgrid"/>
-  <!--schema:parent rdf:resource="Susumu_Yoshimura"/-->
+  <!--schema:parent rdf:resource="Yoshimura_Susumu"/-->
   <lily:cast xml:lang="ja">岩田陽葵</lily:cast>
   <lily:cast rdf:resource="https://www.wikidata.org/wiki/Q16264369"/>
   <lily:cast rdf:resource="http://ja.dbpedia.org/resource/岩田陽葵"/>
