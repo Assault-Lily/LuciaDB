@@ -1,0 +1,113 @@
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf:  <http://xmlns.com/foaf/0.1/>.
+@prefix owl:   <http://www.w3.org/2002/07/owl#>.
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix lily: <https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#>.
+
+<https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#>
+        a               owl:Ontology ;
+        rdfs:label          "lily-schema語彙"@ja ;
+        dcterms:creator     [   foaf:homepage   <https://twitter.com/fvhP_> ;
+                                foaf:name       "ふぁぼ原"@ja
+                            ] ;
+        dcterms:issued   "2021-02-26" .
+
+# ここからはクラス
+lily:Character                  a   rdfs:Class ;
+    rdfs:comment                    "登場人物を表すクラス" ;
+    rdfs:label                      "登場人物"@ja ;
+    rdfs:subClassOf                 schema:Person .
+
+lily:Lily                       a   rdfs:Class ;
+    rdfs:comment                    "リリィを表すクラス" ;
+    rdfs:label                      "リリィ"@ja ;
+    rdfs:subClassOf                 lily:Character .
+
+lily:Charm                      a   rdfs:Class ;
+    rdfs:comment                    "チャームを表すクラス" ;
+    rdfs:label                      "チャーム"@ja .
+
+lily:Corporation                a   rdfs:Class ;
+    rdfs:comment                    "会社組織を表すクラス" ;
+    rdfs:label                      "会社組織"@ja ;
+    rdfs:subClassOf                 schema:Corporation .
+
+lily:Legion                     a   rdfs:Class ;
+    rdfs:comment                    "レギオンを表すクラス" ;
+    rdfs:label                      "レギオン"@ja ;
+    rdfs:subClassOf                 schema:Organization .
+
+# ここからはプロパティ
+lily:familyNameKana     a   rdf:Property ;
+    rdfs:comment            "姓のよみがなを表すプロパティ" ;
+    rdfs:label              "姓よみがな"@ja .
+
+lily:additionalNameKana a   rdf:Property ;
+    rdfs:comment            "ミドルネームのよみがなを表すプロパティ" ;
+    rdfs:label              "ミドルネームよみがな"@ja .
+
+lily:givenNameKana      a   rdf:Property ;
+    rdfs:comment            "名のよみがなを表すプロパティ" ;
+    rdfs:label              "名よみがな"@ja .
+
+lily:nameKana           a   rdf:Property ;
+    rdfs:comment            "名前のよみがなを表すプロパティ" ;
+    rdfs:label              "名前よみがな"@ja .
+
+lily:alternateNameKana  a   rdf:Property ;
+    rdfs:comment            "通称のよみがなを表すプロパティ" ;
+    rdfs:label              "通称よみがな"@ja .
+
+lily:bloodType          a   rdf:Property ;
+    rdfs:comment            "血液型を表すプロパティ" ;
+    rdfs:label              "血液型"@ja .
+
+lily:talent_hobby       a   rdf:Property ;
+    rdfs:comment            "特技・趣味を表すプロパティ" ;
+    rdfs:label              "特技・趣味"@ja .
+
+lily:favorite           a   rdf:Property ;
+    rdfs:comment            "好きなものを表すプロパティ" ;
+    rdfs:label              "好きなもの"@ja .
+
+lily:notGood            a   rdf:Property ;
+    rdfs:comment            "苦手なものを表すプロパティ" ;
+    rdfs:label              "苦手なもの"@ja .
+
+lily:color              a   rdf:Property ;
+    rdfs:comment            "イメージカラーを表すプロパティ" ;
+    rdfs:label              "イメージカラー"@ja .
+
+lily:cast               a   rdf:Property ;
+    rdfs:comment            "キャストを表すプロパティ" ;
+    rdfs:label              "キャスト"@ja .
+
+lily:pastCast           a   rdf:Property ;
+    rdfs:comment            "過去のキャストを表すプロパティ" ;
+    rdfs:label              "過去のキャスト"@ja .
+
+lily:garden             a   rdf:Property ;
+    rdfs:comment            "所属ガーデンを表すプロパティ" ;
+    rdfs:label              "所属ガーデン"@ja .
+
+lily:gardenDepartment   a   rdf:Property ;
+    rdfs:comment            "所属学科を表すプロパティ" ;
+    rdfs:label              "所属学科"@ja .
+
+lily:grade              a   rdf:Property ;
+    rdfs:comment            "学年を表すプロパティ" ;
+    rdfs:label              "学年"@ja .
+
+lily:legion             a   rdf:Property ;
+    rdfs:comment            "所属レギオンを表すプロパティ" ;
+    rdfs:label              "所属レギオン"@ja .
+
+lily:generation         a   rdf:Property ;
+    rdfs:comment            "CHARMの世代を表すプロパティ" ;
+    rdfs:label              "世代"@ja .
+
+lily:user               a   rdf:Property ;
+    rdfs:comment            "使用者を表すプロパティ" ;
+    rdfs:label              "使用者"@ja .

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:schema="http://schema.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:lily="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#"
+  xml:base="https://lily.fvhp.net/rdf/RDFs/detail/">
+
+<rdf:Description rdf:about="Gungnir">
+  <schema:model rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-13</schema:model>
+  <schema:name xml:lang="ja">グングニル</schema:name>
+  <schema:name xml:lang="en">Gungnir</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Riri_Hitotsuyanagi"/>
+  <lily:user rdf:resource="Fumi_Futagawa"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Brionac">
+  <schema:model rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-21</schema:model>
+  <schema:name xml:lang="ja">ブリューナク</schema:name>
+  <schema:name xml:lang="en">Brionac</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <schema:manufacturer rdf:resource="Celticdale"/>
+  <lily:user rdf:resource="Yuyu_Shirai"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Joyeuse">
+  <schema:model rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-19</schema:model>
+  <schema:name xml:lang="ja">ジョワユーズ</schema:name>
+  <schema:name xml:lang="en">Joyeuse</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <schema:manufacturer rdf:resource="Grand_Guignol"/>
+  <lily:user rdf:resource="Kaede_Johan_Nouvel"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/URIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+</rdf:RDF>
