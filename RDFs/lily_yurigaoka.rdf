@@ -588,7 +588,7 @@
   <lily:gardenDepartment xml:lang="ja">普通科</lily:gardenDepartment>
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
   <lily:class xml:lang="ja">椿組</lily:class>
-  <lily:gardenJobTitle xml:lang="ja">学級委員長</lily:class>
+  <lily:gardenJobTitle xml:lang="ja">学級委員長</lily:gardenJobTitle>
   <lily:legion rdf:resource="Alfheim"/>
   <!-- <lily:pastLegion rdf:resource=""> -->
   <!-- <lily:schutzengel rdf:resource=""> -->

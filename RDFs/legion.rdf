@@ -22,7 +22,7 @@
   <schema:member rdf:resource="Kuo_Shenlin"/>
   <schema:member rdf:resource="Wang_Yujia"/>
   <schema:member rdf:resource="Miliam_Hildegard_von_Guropius"/>
-  <schema:alumni rdf:resource="Hitotsuyanagi_Yuri">
+  <schema:alumni rdf:resource="Hitotsuyanagi_Yuri"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
