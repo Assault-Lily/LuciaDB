@@ -26,7 +26,8 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">156.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--06-19</schema:birthDate>
-  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">living</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">FF9DAE</lily:color>
@@ -79,7 +80,8 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">163.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--04-12</schema:birthDate>
-  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">living</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">7F90DC</lily:color>
@@ -134,7 +136,8 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">164.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--01-01</schema:birthDate>
-  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">living</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">9CA5AA</lily:color>
@@ -190,7 +193,8 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">152.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">44.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--12-21</schema:birthDate>
-  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">living</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">94D7FF</lily:color>
@@ -245,7 +249,8 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">158.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--02-13</schema:birthDate>
-  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">living</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">FF7969</lily:color>
@@ -300,7 +305,8 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">156.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--07-21</schema:birthDate>
-  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">living</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">FFEB5A</lily:color>
@@ -352,7 +358,8 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">165.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--02-06</schema:birthDate>
-  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">living</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">FFAD48</lily:color>
@@ -410,7 +417,8 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">163.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--12-21</schema:birthDate>
-  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">living</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">9AE187</lily:color>
@@ -465,7 +473,8 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">153.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--11-25</schema:birthDate>
-  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">living</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">B09DDC</lily:color>
@@ -519,6 +528,7 @@
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
   <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
   <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dead</lily:lifeStatus>
+  <lily:killedIn xml:lang="ja">Hurleburlebutz戦</lily:killedIn>
   <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">F0B6FF</lily:color>
@@ -569,7 +579,8 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">161.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--11-03</schema:birthDate>
-  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">living</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
@@ -622,7 +633,8 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">157.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">43.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--06-21</schema:birthDate>
-  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">living</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->

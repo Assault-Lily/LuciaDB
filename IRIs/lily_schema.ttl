@@ -65,6 +65,10 @@ lily:lifeStatus         a   rdf:Property ;
     rdfs:comment            "存命・死亡・行方不明を表すプロパティ" ;
     rdfs:label              "生命状態"@ja .
 
+lily:killedIn           a   rdf:Property ;
+    rdfs:comment            "死因や戦死した戦闘を表すプロパティ" ;
+    rdfs:label              "死因・死地"@ja .
+
 lily:bloodType          a   rdf:Property ;
     rdfs:comment            "血液型を表すプロパティ" ;
     rdfs:label              "血液型"@ja .
