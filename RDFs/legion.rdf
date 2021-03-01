@@ -35,6 +35,18 @@
   <schema:member rdf:resource="Takasuga_Tsukushi"/>
   <schema:member rdf:resource="Endo_Araya"/>
   <schema:member rdf:resource="Egawa_Kusumi"/>
+  <schema:member rdf:resource="Amano_Soraha"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Alfheim_First">
+  <schema:name xml:lang="ja">アールヴヘイム（初代）</schema:name>
+  <schema:name xml:lang="en">Alfheim (1st)</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
+  <schema:member rdf:resource="Shirai_Yuyu"/>
+  <schema:member rdf:resource="Amano_Soraha"/>
+  <schema:member rdf:resource="Yoshimura_Thi_Mai"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 

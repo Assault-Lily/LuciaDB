@@ -106,6 +106,7 @@
   <lily:class xml:lang="ja">櫻組</lily:class>
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Radgrid"/>
+  <lily:pastLegion rdf:resource="Alfheim_First"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource="Kawazoe_Misuzu"/> -->
   <lily:schild rdf:resource="Hitotsuyanagi_Riri"/>
@@ -326,7 +327,7 @@
   <lily:class xml:lang="ja">櫻組</lily:class>
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Radgrid"/>
-  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <lily:pastLegion rdf:resource="Alfheim_First"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <!-- <lily:schild rdf:resource=""/> -->
@@ -773,6 +774,59 @@
   <!-- <schema:sibling rdf:resource=""/> -->
   <lily:castName xml:lang="ja">原田彩楓</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q27507360"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Amano_Soraha">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">天野天葉</rdfs:label>
+  <schema:familyName xml:lang="ja">天野</schema:familyName>
+  <schema:familyName xml:lang="en">Amano</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">あまの</lily:familyNameKana>
+  <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
+  <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
+  <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
+  <schema:givenName xml:lang="ja">天葉</schema:givenName>
+  <schema:givenName xml:lang="en">Soraha</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">そらは</lily:givenNameKana>
+  <schema:name xml:lang="ja">天野天葉</schema:name>
+  <schema:name xml:lang="en">Amano Soraha</schema:name>
+  <lily:nameKana xml:lang="ja">あまのそらは</lily:nameKana>
+  <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
+  <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">158.0</schema:height>
+  <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</schema:weight>
+  <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--10-27</schema:birthDate>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">living</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
+  <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</lily:bloodType>
+  <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
+  <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
+  <schema:birthPlace xml:lang="ja">横浜</schema:birthPlace>
+  <schema:birthPlace xml:lang="en">Yokohama</schema:birthPlace>
+  <lily:favorite xml:lang="ja">食べること</lily:favorite>
+  <lily:notGood xml:lang="ja">蜂</lily:notGood>
+  <lily:hobby_talent xml:lang="ja">お花を育てること</lily:hobby_talent>
+  <lily:rareSkill xml:lang="ja">ヘリオスフィア</lily:rareSkill>
+  <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
+  <lily:charm rdf:resource="Gram"/>
+  <lily:charmAdditionalInformation xml:lang="ja">軽量モデル</lily:charmAdditionalInformation>
+  <lily:charmAdditionalInformation xml:lang="ja">高スペックバスターキャノン搭載</lily:charmAdditionalInformation>
+  <lily:garden xml:lang="ja">私立百合ヶ丘女学院</lily:garden>
+  <lily:gardenDepartment xml:lang="ja">普通科</lily:gardenDepartment>
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
+  <lily:class xml:lang="ja">藤組</lily:class>
+  <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
+  <lily:legion rdf:resource="Alfheim"/>
+  <lily:pastLegion rdf:resource="Alfheim_First"/>
+  <!-- <lily:schutzengel rdf:resource="Maki_Wakana"/> -->
+  <!-- <lily:pastSchutzengel rdf:resource=""/> -->
+  <lily:schild rdf:resource="Egawa_Kusumi"/>
+  <!-- <lily:pastSchild rdf:resource=""/> -->
+  <lily:roomMate rdf:resource="Banshoya_Ena"/>
+  <!-- <schema:parent rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:resource=""/> -->
+  <lily:castName xml:lang="ja">津田美波</lily:castName>
+  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q901835"/>
+  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/津田美波"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 

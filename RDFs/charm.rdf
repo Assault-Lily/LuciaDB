@@ -190,4 +190,20 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Gram">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-28</schema:productID>
+  <lily:seriesName xml:lang="ja">グラム</lily:seriesName>
+  <lily:seriesName xml:lang="en">Gram</lily:seriesName>
+  <schema:name xml:lang="ja">グラム</schema:name>
+  <schema:name xml:lang="en">Gram</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Shirai_Yuyu"/>
+  <lily:user rdf:resource="Amano_Soraha"/>
+  <lily:user rdf:resource="Banshoya_Ena"/>
+  <!-- <lily:user rdf:resource="Akashi_Aika"/> -->
+  <!-- <lily:user rdf:resource="Aoki_Kaho"/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
 </rdf:RDF>
