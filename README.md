@@ -17,6 +17,8 @@ An unofficial RDF of Assault Lily
 
 SPARQL という問い合わせ言語を使って、ここで公開されているデータを Web 経由で検索することができます。
 
+注意: データは現在構築中で、頻繁に更新されると思われます。データの構造ごと変化する場合もありますのでご了承ください。
+
 ## SPARQL エンドポイントの使い方
 https://lily.fvhp.net/sparql/query?format=json&query=
 のあとに SPARQL のクエリをつなげてアクセスするとクエリの実行結果が得られます。
