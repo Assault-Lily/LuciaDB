@@ -34,6 +34,7 @@
   <schema:member rdf:resource="Tanaka_Ichi"/>
   <schema:member rdf:resource="Takasuga_Tsukushi"/>
   <schema:member rdf:resource="Endo_Araya"/>
+  <schema:member rdf:resource="Egawa_Kusumi"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 

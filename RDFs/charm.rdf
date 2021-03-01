@@ -19,16 +19,16 @@
   <lily:user rdf:resource="Hitotsuyanagi_Riri"/>
   <lily:user rdf:resource="Futagawa_Fumi"/>
   <lily:user rdf:resource="Kaede_Johan_Nouvel"/>
-  <!-- <lily:user rdf:resource="Hitotsuyanagi_Yuri"/> -->
+  <lily:user rdf:resource="Hitotsuyanagi_Yuri"/>
   <!-- <lily:user rdf:resource="Ito_Shizu"/> -->
-  <!-- <lily:user rdf:resource="Egawa_Kusumi"/> -->
+  <lily:user rdf:resource="Egawa_Kusumi"/>
   <lily:user rdf:resource="Takasuga_Tsukushi"/>
   <!-- <lily:user rdf:resource="Taniguchi_Hijiri"/> -->
   <!-- <lily:user rdf:resource="Tamura_Nagi"/> -->
   <!-- <lily:user rdf:resource="Hata_Matsuri"/> -->
   <!-- <lily:user rdf:resource="Kawamura_Yuzuriha"/> -->
   <lily:user rdf:resource="Miliam_Hildegard_von_Guropius"/>
-  <!-- <lily:user rdf:resource="Wang_Yujia"/> -->
+  <lily:user rdf:resource="Wang_Yujia"/>
   <!-- <lily:user rdf:resource="Yoshizaka_Nagisa"/> -->
   <lily:hasVariant rdf:resource="Gungnir_Carbin"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -62,8 +62,8 @@
   <lily:user rdf:resource="Hitotsuyanagi_Riri"/>
   <lily:user rdf:resource="Yoshimura_Thi_Mai"/>
   <!-- <lily:user rdf:resource="Kawazoe_Misuzu"/> -->
-  <!-- <lily:user rdf:resource="Tanaka_Ichi"/> -->
-  <!-- <lily:user rdf:resource="Egawa_Kusumi"/> -->
+  <lily:user rdf:resource="Tanaka_Ichi"/>
+  <lily:user rdf:resource="Egawa_Kusumi"/>
   <!-- <lily:user rdf:resource="Kawanabe Nazuna"/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
