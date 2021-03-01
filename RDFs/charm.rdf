@@ -137,10 +137,10 @@
 
 <rdf:Description rdf:about="Ma_Zu_Relic">
   <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-16</schema:productID>
-  <lily:seriesName xml:lang="cn">媽祖聖札</lily:seriesName>
+  <lily:seriesName xml:lang="zh">媽祖聖札</lily:seriesName>
   <lily:seriesName xml:lang="ja">マソレリック</lily:seriesName>
   <lily:seriesName xml:lang="en">Ma-Zu Relic</lily:seriesName>
-  <schema:name xml:lang="cn">媽祖聖札</schema:name>
+  <schema:name xml:lang="zh">媽祖聖札</schema:name>
   <schema:name xml:lang="ja">マソレリック</schema:name>
   <schema:name xml:lang="en">Ma-Zu Relic</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>

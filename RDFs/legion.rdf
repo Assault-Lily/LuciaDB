@@ -9,6 +9,7 @@
 
 <rdf:Description rdf:about="Radgrid">
   <schema:name xml:lang="ja">ラーズグリーズ</schema:name>
+  <schema:name xml:lang="en">Radgrid</schema:name>
   <schema:alternateName xml:lang="ja">一柳隊</schema:alternateName>
   <schema:member rdf:resource="Hitotsuyanagi_Riri"/>
   <schema:member rdf:resource="Shirai_Yuyu"/>
@@ -25,6 +26,7 @@
 
 <rdf:Description rdf:about="Alfheim">
   <schema:name xml:lang="ja">アールヴヘイム</schema:name>
+  <schema:name xml:lang="en">Alfheim</schema:name>
   <schema:alternateName xml:lang="ja">壱盤隊</schema:alternateName>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>

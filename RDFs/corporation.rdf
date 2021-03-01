@@ -40,7 +40,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="Taipei_Fengshen_Company">
-  <schema:name xml:lang="cn">台北封神公司</schema:name>
+  <schema:name xml:lang="zh">台北封神公司</schema:name>
   <schema:name xml:lang="ja">台北封神公司</schema:name>
   <schema:name xml:lang="en">Taipei Fengshen Company</schema:name>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
