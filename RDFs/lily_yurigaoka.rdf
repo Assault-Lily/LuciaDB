@@ -23,6 +23,7 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">156.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--06-19</schema:birthDate>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">FF9DAE</lily:color>
@@ -42,9 +43,9 @@
   <lily:class xml:lang="ja">椿組</lily:class>
   <lily:legion rdf:resource="Radgrid"/>
   <lily:schutzengel rdf:resource="Shirai_Yuyu"/>
-  <!--lily:roomMate rdf:resource="Ito_Shizu"/-->
-  <lily:cast xml:lang="ja">赤尾ひかる</lily:cast>
-  <lily:cast rdf:resource="http://www.wikidata.org/entity/Q28685785"/>
+  <!-- <lily:roomMate rdf:resource="Ito_Shizu"/> -->
+  <lily:castName xml:lang="ja">赤尾ひかる</lily:castName>
+  <lily:castResource rdf:resource="http://www.wikidata.org/entity/Q28685785"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -63,6 +64,7 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">163.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--04-12</schema:birthDate>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">7F90DC</lily:color>
@@ -85,11 +87,11 @@
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
   <lily:class xml:lang="ja">櫻組</lily:class>
   <lily:legion rdf:resource="Radgrid"/>
-  <!--lily:pastSchutzengel rdf:resource="Kawazoe_Misuzu"/-->
+  <!-- <lily:pastSchutzengel rdf:resource="Kawazoe_Misuzu"/> -->
   <lily:schild rdf:resource="Hitotsuyanagi_Riri"/>
-  <!--lily:roomMate rdf:resource="Hata_Matsuri"/-->
-  <lily:cast xml:lang="ja">夏吉ゆうこ</lily:cast>
-  <lily:cast rdf:resource="https://www.wikidata.org/wiki/Q66365004"/>
+  <!-- <lily:roomMate rdf:resource="Hata_Matsuri"/> -->
+  <lily:castName xml:lang="ja">夏吉ゆうこ</lily:castName>
+  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q66365004"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -111,6 +113,7 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">164.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--01-01</schema:birthDate>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">9CA5AA</lily:color>
@@ -131,9 +134,9 @@
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
   <lily:class xml:lang="ja">椿組</lily:class>
   <lily:legion rdf:resource="Radgrid"/>
-  <lily:cast xml:lang="ja">井澤美香子</lily:cast>
-  <lily:cast rdf:resource="https://www.wikidata.org/wiki/Q20038660"/>
-  <lily:cast rdf:resource="http://ja.dbpedia.org/resource/井澤美香子"/>
+  <lily:castName xml:lang="ja">井澤美香子</lily:castName>
+  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q20038660"/>
+  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/井澤美香子"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -152,6 +155,7 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">152.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">44.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--12-21</schema:birthDate>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">94D7FF</lily:color>
@@ -173,8 +177,8 @@
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
   <lily:class xml:lang="ja">椿組</lily:class>
   <lily:legion rdf:resource="Radgrid"/>
-  <lily:cast xml:lang="ja">西本りみ</lily:cast>
-  <lily:cast rdf:resource="https://www.wikidata.org/wiki/Q24902567"/>
+  <lily:castName xml:lang="ja">西本りみ</lily:castName>
+  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q24902567"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -193,6 +197,7 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">158.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--02-13</schema:birthDate>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">FF7969</lily:color>
@@ -215,8 +220,8 @@
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
   <lily:class xml:lang="ja">椿組</lily:class>
   <lily:legion rdf:resource="Radgrid"/>
-  <lily:cast xml:lang="ja">紡木吏佐</lily:cast>
-  <lily:cast rdf:resource="https://www.wikidata.org/wiki/Q55534197"/>
+  <lily:castName xml:lang="ja">紡木吏佐</lily:castName>
+  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q55534197"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -238,6 +243,7 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">156.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--07-21</schema:birthDate>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">FFEB5A</lily:color>
@@ -254,10 +260,10 @@
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
   <lily:class xml:lang="ja">櫻組</lily:class>
   <lily:legion rdf:resource="Radgrid"/>
-  <!--schema:parent rdf:resource="Yoshimura_Susumu"/-->
-  <lily:cast xml:lang="ja">岩田陽葵</lily:cast>
-  <lily:cast rdf:resource="https://www.wikidata.org/wiki/Q16264369"/>
-  <lily:cast rdf:resource="http://ja.dbpedia.org/resource/岩田陽葵"/>
+  <!-- <schema:parent rdf:resource="Yoshimura_Susumu"/> -->
+  <lily:castName xml:lang="ja">岩田陽葵</lily:castName>
+  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q16264369"/>
+  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/岩田陽葵"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -276,6 +282,7 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">165.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--02-06</schema:birthDate>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">FFAD48</lily:color>
@@ -300,8 +307,8 @@
   <lily:class xml:lang="ja">椿組</lily:class>
   <lily:legion rdf:resource="Radgrid"/>
   <lily:roomMate rdf:resource="Wang_Yujia"/>
-  <lily:cast xml:lang="ja">星守紗凪</lily:cast>
-  <lily:cast rdf:resource="https://www.wikidata.org/wiki/Q69635313"/>
+  <lily:castName xml:lang="ja">星守紗凪</lily:castName>
+  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q69635313"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -320,6 +327,7 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">163.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--12-21</schema:birthDate>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">9AE187</lily:color>
@@ -340,10 +348,10 @@
   <lily:class xml:lang="ja">李組</lily:class>
   <lily:legion rdf:resource="Radgrid"/>
   <lily:roomMate rdf:resource="Kuo_Shenlin"/>
-  <!--schema:sibling rdf:resource="Wang_Ruixi"/-->
-  <!--schema:sibling rdf:resource="Wang_Lifen"/-->
-  <lily:cast xml:lang="ja">遠野ひかる</lily:cast>
-  <lily:cast rdf:resource="https://www.wikidata.org/wiki/Q48762060"/>
+  <!-- <schema:sibling rdf:resource="Wang_Ruixi"/> -->
+  <!-- <schema:sibling rdf:resource="Wang_Lifen"/> -->
+  <lily:castName xml:lang="ja">遠野ひかる</lily:castName>
+  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q48762060"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -365,6 +373,7 @@
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">153.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--11-25</schema:birthDate>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live</lily:lifeStatus>
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AB</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">B09DDC</lily:color>
@@ -382,10 +391,47 @@
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
   <lily:class xml:lang="ja">檜組</lily:class>
   <lily:legion rdf:resource="Radgrid"/>
-  <!--lily:schutzengel rdf:resource="Mashima_Moyu"/-->
-  <lily:cast xml:lang="ja">高橋花林</lily:cast>
-  <lily:cast rdf:resource="https://www.wikidata.org/wiki/Q20041113"/>
-  <lily:cast rdf:resource="http://ja.dbpedia.org/resource/高橋花林"/>
+  <!-- <lily:schutzengel rdf:resource="Mashima_Moyu"> -->
+  <lily:castName xml:lang="ja">高橋花林</lily:castName>
+  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q20041113"/>
+  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/高橋花林"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Hitotsuyanagi_Yuri">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">一柳結梨</rdfs:label>
+  <schema:familyName xml:lang="ja">一柳</schema:familyName>
+  <schema:familyName xml:lang="en">Hitotsuyanagi</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">ひとつやなぎ</lily:familyNameKana>
+  <schema:givenName xml:lang="ja">結梨</schema:givenName>
+  <schema:givenName xml:lang="en">Yuri</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">ゆり</lily:givenNameKana>
+  <schema:name xml:lang="ja">一柳結梨</schema:name>
+  <schema:name xml:lang="en">Hitotsuyanagi Yuri</schema:name>
+  <lily:nameKana xml:lang="ja">ひとつやなぎゆり</lily:nameKana>
+  <!-- <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></foaf:age> -->
+  <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
+  <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
+  <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dead</lily:lifeStatus>
+  <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
+  <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
+  <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">F0B6FF</lily:color>
+  <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
+  <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
+  <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
+  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
+  <!-- <lily:rareSkill xml:lang="ja"></lily:rareSkill> -->
+  <lily:charm rdf:resource="Gungnir"/>
+  <lily:garden xml:lang="ja">私立百合ヶ丘女学院</lily:garden>
+  <lily:gardenDepartment xml:lang="ja">普通科</lily:gardenDepartment>
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
+  <lily:class xml:lang="ja">椿組</lily:class>
+  <lily:pastLegion rdf:resource="Radgrid"/>
+  <lily:castName xml:lang="ja">伊藤美来</lily:castName>
+  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q16264202"/>
+  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/伊藤美来"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
