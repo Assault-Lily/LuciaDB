@@ -31,6 +31,7 @@
   <schema:name xml:lang="en">Alfheim</schema:name>
   <schema:alternateName xml:lang="ja">壱盤隊</schema:alternateName>
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <schema:member rdf:resource="Tanaka_Ichi"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
