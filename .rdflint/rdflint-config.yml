@@ -5,7 +5,7 @@ rules:
     target: "RDFs/.*"
     query: |
       PREFIX schema: <http://schema.org/>
-      PREFIX imas: <https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#>
+PREFIX lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#>
       SELECT ?s ?fn ?gn ?nm ?fnk ?gnk ?nmk
       WHERE {
        ?s schema:familyName ?fn; schema:givenName ?gn; schema:name ?nm;
