@@ -20,7 +20,7 @@
   <schema:givenName xml:lang="en">Riri</schema:givenName>
   <lily:givenNameKana xml:lang="ja">りり</lily:givenNameKana>
   <schema:name xml:lang="ja">一柳梨璃</schema:name>
-  <schema:name xml:lang="en">Hitotsuyanagi_Riri</schema:name>
+  <schema:name xml:lang="en">Hitotsuyanagi Riri</schema:name>
   <lily:nameKana xml:lang="ja">ひとつやなぎりり</lily:nameKana>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">156.0</schema:height>
@@ -628,7 +628,7 @@
   <schema:givenName xml:lang="en">Tsukushi</schema:givenName>
   <lily:givenNameKana xml:lang="ja">つくし</lily:givenNameKana>
   <schema:name xml:lang="ja">高須賀月詩</schema:name>
-  <schema:name xml:lang="en">Takasuga Ichi</schema:name>
+  <schema:name xml:lang="en">Takasuga Tsukushi</schema:name>
   <lily:nameKana xml:lang="ja">たかすがつくし</lily:nameKana>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">157.0</schema:height>
