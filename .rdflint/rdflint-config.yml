@@ -1,17 +1,20 @@
 
 baseUri: https://lily.fvhp.net/sparql/
 rules:
-  - name: 姓名整合(和文)
+  - name: 姓名整合(日本語・ミドルネームがない人)
     target: "RDFs/.*"
     query: |
       PREFIX schema: <http://schema.org/>
       PREFIX lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#>
       SELECT ?s ?fn ?gn ?nm ?fnk ?gnk ?nmk
       WHERE {
-       ?s schema:familyName ?fn; schema:givenName ?gn; schema:name ?nm;
-         lily:familyNameKana ?fnk; lily:givenNameKana ?gnk; lily:nameKana ?nmk.
-       FILTER(LANG(?fn) = 'ja' && LANG(?gn) = 'ja' && LANG(?nm) = 'ja'
-         && LANG(?fnk) = 'ja' && LANG(?gnk) = 'ja' && LANG(?nmk) = 'ja')
+        ?s schema:familyName ?fn; schema:givenName ?gn; schema:name ?nm;
+          lily:familyNameKana ?fnk; lily:givenNameKana ?gnk; lily:nameKana ?nmk.
+        FILTER NOT EXISTS {
+          ?s schema:additionalName ?name
+        }
+        FILTER(LANG(?fn) = 'ja' && LANG(?gn) = 'ja' && LANG(?nm) = 'ja'
+          && LANG(?fnk) = 'ja' && LANG(?gnk) = 'ja' && LANG(?nmk) = 'ja')
       }
     valid: |
       while(rs.hasNext()) {
@@ -31,20 +34,45 @@ rules:
           log.warn("姓名, 姓+名が不一致(かな): " + nmk + " != " + jnk.join("|"))
         }
       }
-  - name: 姓名整合(英文)
+  - name: 姓名整合(英語・ミドルネームがない人)
     target: "RDFs/.*"
     query: |
       PREFIX schema: <http://schema.org/>
       SELECT ?s ?fn ?gn ?nm
       WHERE {
-       ?s schema:familyName ?fn; schema:givenName ?gn; schema:name ?nm
-       FILTER(LANG(?fn) = 'en' && LANG(?gn) = 'en' && LANG(?nm) = 'en')
+        ?s schema:familyName ?fn; schema:givenName ?gn; schema:name ?nm
+        FILTER NOT EXISTS {
+          ?s schema:additionalName ?name
+        }
+        FILTER(LANG(?fn) = 'en' && LANG(?gn) = 'en' && LANG(?nm) = 'en')
       }
     valid: |
       while(rs.hasNext()) {
         r = rs.next()
         jn = [r.getLiteral("fn").value + " " + r.getLiteral("gn").value,
               r.getLiteral("gn").value + " " + r.getLiteral("fn").value]
+        nm = r.getLiteral("nm").value
+        if (!(nm in jn)) {
+          log.warn("姓名, 姓+名が不一致: " + nm + " != " + jn.join("|"))
+        }
+      }
+  - name: 姓名整合(英語・ミドルネームがある人)
+    target: "RDFs/.*"
+    query: |
+      PREFIX schema: <http://schema.org/>
+      SELECT ?s ?fn ?an ?gn ?nm
+      WHERE {
+        ?s schema:familyName ?fn; schema:additionalName ?an; schema:givenName ?gn; schema:name ?nm
+        FILTER EXISTS {
+          ?s schema:additionalName ?name
+        }
+        FILTER(LANG(?fn) = 'en' && LANG(?an) = 'en' && LANG(?gn) = 'en' && LANG(?nm) = 'en')
+      }
+    valid: |
+      while(rs.hasNext()) {
+        r = rs.next()
+        jn = [r.getLiteral("fn").value + " " + r.getLiteral("an").value + " " + r.getLiteral("gn").value,
+              r.getLiteral("gn").value + " " + r.getLiteral("an").value + " " + r.getLiteral("fn").value]
         nm = r.getLiteral("nm").value
         if (!(nm in jn)) {
           log.warn("姓名, 姓+名が不一致: " + nm + " != " + jn.join("|"))
