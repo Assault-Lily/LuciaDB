@@ -5,11 +5,11 @@ rules:
     target: "RDFs/.*"
     query: |
       PREFIX schema: <http://schema.org/>
-PREFIX lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#>
+      PREFIX lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#>
       SELECT ?s ?fn ?gn ?nm ?fnk ?gnk ?nmk
       WHERE {
        ?s schema:familyName ?fn; schema:givenName ?gn; schema:name ?nm;
-         imas:familyNameKana ?fnk; imas:givenNameKana ?gnk; imas:nameKana ?nmk.
+         lily:familyNameKana ?fnk; lily:givenNameKana ?gnk; lily:nameKana ?nmk.
        FILTER(LANG(?fn) = 'ja' && LANG(?gn) = 'ja' && LANG(?nm) = 'ja'
          && LANG(?fnk) = 'ja' && LANG(?gnk) = 'ja' && LANG(?nmk) = 'ja')
       }
@@ -50,7 +50,7 @@ PREFIX lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#>
           log.warn("姓名, 姓+名が不一致: " + nm + " != " + jn.join("|"))
         }
       }
-suppressPath: .rdflint/rdflint-suppress.yml
+#suppressPath: .rdflint/rdflint-suppress.yml
 validation:
   fileEncoding:
     - target: "*"
