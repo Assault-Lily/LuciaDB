@@ -127,11 +127,19 @@ lily:class              a   rdf:Property ;
 
 lily:gardenJobTitle     a   rdf:Property ;
     rdfs:comment            "ガーデン内の役職を表すプロパティ" ;
-    rdfs:label              "ガーデン内の役職"@ja .
+    rdfs:label              "ガーデン役職"@ja .
 
 lily:legion             a   rdf:Property ;
     rdfs:comment            "所属レギオンを表すプロパティ" ;
     rdfs:label              "所属レギオン"@ja .
+
+lily:legionJobTitle     a   rdf:Property ;
+    rdfs:comment            "レギオン内の役職を表すプロパティ" ;
+    rdfs:label              "レギオン役職"@ja .
+
+lily:position           a   rdf:Property ;
+    rdfs:comment            "ポジションを表すプロパティ" ;
+    rdfs:label              "ポジション"@ja .
 
 lily:pastLegion         a   rdf:Property ;
     rdfs:comment            "過去の所属レギオンを表すプロパティ" ;
