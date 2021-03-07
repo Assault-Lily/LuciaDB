@@ -40,6 +40,7 @@
   <lily:hobby_talent xml:lang="ja">身体を動かすこと</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">水晶集め</lily:hobby_talent>
   <lily:rareSkill xml:lang="ja">カリスマ</lily:rareSkill>
+  <!-- <lily:subSkill xml:lang="ja"></lily:subSkill> -->
   <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
   <lily:charm rdf:resource="Gungnir"/>
   <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
@@ -97,6 +98,7 @@
   <lily:hobby_talent xml:lang="ja">観劇</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">音楽鑑賞</lily:hobby_talent>
   <lily:rareSkill xml:lang="ja">ルナティックトランサー</lily:rareSkill>
+  <!-- <lily:subSkill xml:lang="ja"></lily:subSkill> -->
   <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
   <lily:charm rdf:resource="Brionac"/>
   <lily:charmAdditionalInformation xml:lang="ja">先行試作機</lily:charmAdditionalInformation>
@@ -153,6 +155,7 @@
   <lily:hobby_talent xml:lang="ja">カメラ</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">トレーニング</lily:hobby_talent>
   <lily:rareSkill xml:lang="ja">レジスタ</lily:rareSkill>
+  <!-- <lily:subSkill xml:lang="ja"></lily:subSkill> -->
   <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
   <lily:charm rdf:resource="Joyeuse"/>
   <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
@@ -210,6 +213,7 @@
   <lily:hobby_talent xml:lang="ja">コスプレ</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">カワウソグッズ集め</lily:hobby_talent>
   <lily:rareSkill xml:lang="ja">鷹の目</lily:rareSkill>
+  <!-- <lily:subSkill xml:lang="ja"></lily:subSkill> -->
   <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
   <lily:charm rdf:resource="Gungnir"/>
   <lily:charmAdditionalInformation xml:lang="ja">SP.fumi</lily:charmAdditionalInformation>
@@ -263,6 +267,7 @@
   <lily:hobby_talent xml:lang="ja">折り紙</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">猫好き</lily:hobby_talent>
   <lily:rareSkill xml:lang="ja">ファンタズム</lily:rareSkill>
+  <!-- <lily:subSkill xml:lang="ja"></lily:subSkill> -->
   <lily:boostedSkill xml:lang="ja">リジェネレーター</lily:boostedSkill>
   <lily:boostedSkill xml:lang="ja">アルケミートレース</lily:boostedSkill>
   <lily:boostedSkill xml:lang="ja">連続強化補助</lily:boostedSkill>
@@ -318,6 +323,7 @@
   <lily:hobby_talent xml:lang="ja">亀のマスコット集め</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">お絵かき</lily:hobby_talent>
   <lily:rareSkill xml:lang="ja">縮地</lily:rareSkill>
+  <!-- <lily:subSkill xml:lang="ja"></lily:subSkill> -->
   <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
   <lily:charm rdf:resource="ThanKiem"/>
   <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
@@ -378,6 +384,7 @@
   <lily:hobby_talent xml:lang="ja">サイクリング</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">お風呂</lily:hobby_talent>
   <lily:rareSkill xml:lang="ja">テスタメント</lily:rareSkill>
+  <!-- <lily:subSkill xml:lang="ja"></lily:subSkill> -->
   <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
   <lily:charm rdf:resource="Ma_Zu_Relic"/>
   <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
@@ -433,6 +440,7 @@
   <lily:hobby_talent xml:lang="ja">料理</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">手芸</lily:hobby_talent>
   <lily:rareSkill xml:lang="ja">天の秤目</lily:rareSkill>
+  <lily:subSkill xml:lang="ja">インビジブルワン</lily:subSkill>
   <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
   <lily:charm rdf:resource="Asterion"/>
   <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
@@ -487,6 +495,7 @@
   <lily:hobby_talent xml:lang="ja">機械いじり</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">変身魔法少女チャーミーリリィのグッズ集め</lily:hobby_talent>
   <lily:rareSkill xml:lang="ja">フェイズトランセンデンス</lily:rareSkill>
+  <!-- <lily:subSkill xml:lang="ja"></lily:subSkill> -->
   <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
   <lily:charm rdf:resource="Njolnir"/>
   <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
@@ -539,6 +548,7 @@
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <!-- <lily:rareSkill xml:lang="ja"></lily:rareSkill> -->
+  <!-- <lily:subSkill xml:lang="ja"></lily:subSkill> -->
   <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
   <lily:charm rdf:resource="Gungnir"/>
   <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
@@ -593,6 +603,7 @@
   <lily:hobby_talent xml:lang="ja">歌唱</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">デザインの学習</lily:hobby_talent>
   <lily:rareSkill xml:lang="ja">この世の理</lily:rareSkill>
+  <lily:subSkill xml:lang="ja">軍神の加護</lily:subSkill>
   <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
   <lily:charm rdf:resource="Brionac"/>
   <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
@@ -646,7 +657,7 @@
   <lily:notGood xml:lang="ja">片付け</lily:notGood>
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill xml:lang="ja">円環の御手</lily:rareSkill>
-  <lily:rareSkill xml:lang="en">Circlet Brace</lily:rareSkill>
+  <!-- <lily:subSkill xml:lang="ja"></lily:subSkill> -->
   <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
   <lily:charm rdf:resource="Gungnir"/>
   <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
@@ -699,6 +710,7 @@
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <lily:hobby_talent xml:lang="ja">油彩画</lily:hobby_talent>
   <lily:rareSkill xml:lang="ja">フェイズトランセンデンス</lily:rareSkill>
+  <!-- <lily:subSkill xml:lang="ja"></lily:subSkill> -->
   <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
   <lily:charm rdf:resource="Asterion"/>
   <lily:charmAdditionalInformation xml:lang="ja">特別仕様</lily:charmAdditionalInformation>
@@ -755,6 +767,7 @@
   <lily:hobby_talent xml:lang="ja">掃除</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">温泉巡り</lily:hobby_talent>
   <lily:rareSkill xml:lang="ja">ファンタズム</lily:rareSkill>
+  <!-- <lily:subSkill xml:lang="ja"></lily:subSkill> -->
   <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
   <lily:charm rdf:resource="Gungnir"/>
   <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
@@ -807,6 +820,7 @@
   <lily:hobby_talent xml:lang="ja">お花を育てること</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">運動</lily:hobby_talent>
   <lily:rareSkill xml:lang="ja">ヘリオスフィア</lily:rareSkill>
+  <!-- <lily:subSkill xml:lang="ja"></lily:subSkill> -->
   <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
   <lily:charm rdf:resource="Gram"/>
   <lily:charmAdditionalInformation xml:lang="ja">軽量モデル</lily:charmAdditionalInformation>
@@ -863,6 +877,7 @@
   <lily:hobby_talent xml:lang="ja">テラリウム</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">コスプレ</lily:hobby_talent>
   <lily:rareSkill xml:lang="ja">円環の御手</lily:rareSkill>
+  <lily:subSkill xml:lang="ja">軍神の加護</lily:subSkill>
   <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
   <lily:charm rdf:resource="Asterion"/>
   <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->

@@ -93,6 +93,10 @@ lily:rareSkill          a   rdf:Property ;
     rdfs:comment            "レアスキルを表すプロパティ" ;
     rdfs:label              "レアスキル"@ja .
 
+lily:subSkill           a   rdf:Property ;
+    rdfs:comment            "サブスキルを表すプロパティ" ;
+    rdfs:label              "サブスキル"@ja .
+
 lily:boostedSkill       a   rdf:Property ;
     rdfs:comment            "ブーステッドスキルを表すプロパティ" ;
     rdfs:label              "ブーステッドスキル"@ja .
