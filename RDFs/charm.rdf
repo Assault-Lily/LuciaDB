@@ -165,7 +165,7 @@
   <!-- <lily:user rdf:resource="Imagawa_Homare"/> -->
   <lily:user rdf:resource="Endo_Araya"/>
   <!-- <lily:user rdf:resource="Katakura_Shion"/> -->
-  <!-- <lily:user rdf:resource="Kanabako_Misora"/> -->
+  <lily:user rdf:resource="Kanabako_Misora"/>
   <!-- <lily:user rdf:resource="Kishimoto_Maria_Mirai"/> -->
   <!-- <lily:user rdf:resource="Kishimoto_Lucia_Raimu"/> -->
   <!-- <lily:user rdf:resource="Date_Furiru"/> -->
