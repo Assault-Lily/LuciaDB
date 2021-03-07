@@ -805,6 +805,7 @@
   <lily:favorite xml:lang="ja">食べること</lily:favorite>
   <lily:notGood xml:lang="ja">蜂</lily:notGood>
   <lily:hobby_talent xml:lang="ja">お花を育てること</lily:hobby_talent>
+  <lily:hobby_talent xml:lang="ja">運動</lily:hobby_talent>
   <lily:rareSkill xml:lang="ja">ヘリオスフィア</lily:rareSkill>
   <!-- <lily:boostedSkill xml:lang="ja"></lily:boostedSkill> -->
   <lily:charm rdf:resource="Gram"/>
