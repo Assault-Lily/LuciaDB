@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:schema="http://schema.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:lily="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#"
+  xml:base="https://lily.fvhp.net/rdf/RDFs/detail/">
+
+<rdf:Description rdf:about="Aizawa_Kazuha">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">相澤一葉</rdfs:label>
+  <schema:familyName xml:lang="ja">相澤</schema:familyName>
+  <schema:familyName xml:lang="en">Aizawa</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">あいざわ</lily:familyNameKana>
+  <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
+  <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
+  <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
+  <schema:givenName xml:lang="ja">一葉</schema:givenName>
+  <schema:givenName xml:lang="en">Kazuha</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">かずは</lily:givenNameKana>
+  <schema:name xml:lang="ja">相澤一葉</schema:name>
+  <schema:name xml:lang="en">Aizawa Kazuha</schema:name>
+  <lily:nameKana xml:lang="ja">あいざわかずは</lily:nameKana>
+  <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
+  <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
+  <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
+  <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--08-13</schema:birthDate>
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
+  <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</lily:bloodType>
+  <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
+  <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">599AEB</lily:color>
+  <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
+  <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
+  <lily:favorite xml:lang="ja">コーヒー</lily:favorite>
+  <lily:favorite xml:lang="ja">クリームシチュー</lily:favorite>
+  <lily:favorite xml:lang="ja">健康補助食品</lily:favorite>
+  <lily:favorite xml:lang="ja">完全食</lily:favorite>
+  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <lily:hobby_talent xml:lang="ja">ボードゲーム</lily:hobby_talent>
+  <lily:hobby_talent xml:lang="ja">ツーリング</lily:hobby_talent>
+  <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">レジスタ</lily:rareSkill>
+  <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
+  <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
+  <lily:charm rdf:resource="Blutgang"/>
+  <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
+  <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">エレンスゲ女学園</lily:garden>
+  <lily:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:rank>
+  <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
+  <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
+  <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
+  <lily:legion rdf:resource="Hervarar"/>
+  <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
+  <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
+  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:roomMate rdf:resource=""/> -->
+  <!-- <schema:parent rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:resource=""/> -->
+  <lily:castName xml:lang="ja">藤井彩加</lily:castName>
+  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q28068428"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
+</rdf:Description>
+
+</rdf:RDF>

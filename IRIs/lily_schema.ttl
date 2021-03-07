@@ -113,6 +113,10 @@ lily:garden             a   rdf:Property ;
     rdfs:comment            "所属ガーデンを表すプロパティ" ;
     rdfs:label              "所属ガーデン"@ja .
 
+lily:rank               a   rdf:Property ;
+    rdfs:comment            "序列を表すプロパティ" ;
+    rdfs:label              "序列"@ja .
+
 lily:gardenDepartment   a   rdf:Property ;
     rdfs:comment            "所属学科を表すプロパティ" ;
     rdfs:label              "所属学科"@ja .

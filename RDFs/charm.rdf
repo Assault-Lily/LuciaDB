@@ -207,4 +207,17 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Blutgang">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">ブルトガング</lily:seriesName>
+  <lily:seriesName xml:lang="en">Blutgang</lily:seriesName>
+  <schema:name xml:lang="ja">ブルトガング</schema:name>
+  <schema:name xml:lang="en">Blutgang</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Aizawa_Kazuha"/>
+  <!-- <lily:user rdf:resource="Rokkaku_Shiori"/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
 </rdf:RDF>
