@@ -32,8 +32,31 @@ https://lily.fvhp.net/sparql/query?format=json&query=
   ```
   実行結果は[こちら](https://lily.fvhp.net/sparql/query?format=json&query=PREFIX%20lilyrdf%3A%20%3Chttps%3A%2F%2Flily.fvhp.net%2Frdf%2FRDFs%2Fdetail%2F%3E%0D%0ADESCRIBE%20lilyrdf%3AYoshimura_Thi_Mai)
 
-- 氏名の読みがなに「あ」を含むリリィの氏名を日本語の通常表記で取得するクエリ
+- レギオン・ヘルヴォルの全メンバーのリソース情報を取得するクエリ
   ```sample2.ttl
+  PREFIX lilyrdf: <https://lily.fvhp.net/rdf/RDFs/detail/>
+  PREFIX schema: <http://schema.org/>
+  SELECT ?member
+    WHERE {
+      lilyrdf:Hervarar schema:member ?member.
+  }
+  ```
+  実行結果は[こちら](https://lily.fvhp.net/sparql/query?format=json&query=PREFIX%20lilyrdf%3A%20%3Chttps%3A%2F%2Flily.fvhp.net%2Frdf%2FRDFs%2Fdetail%2F%3E%0D%0APREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3E%0D%0ASELECT%20%3Fmember%0D%0A%20%20WHERE%20%7B%0D%0A%20%20%20%20lilyrdf%3AHervarar%20schema%3Amember%20%3Fmember.%0D%0A%7D%0D%0A)
+
+- レギオン・ヘルヴォルの全メンバーのリソース情報を使って全メンバーのプロフィールを取得するクエリ
+  ```sample2.ttl
+  PREFIX lilyrdf: <https://lily.fvhp.net/rdf/RDFs/detail/>
+  PREFIX schema: <http://schema.org/>
+  SELECT ?member ?predicate ?object
+    WHERE {
+      lilyrdf:Hervarar schema:member ?member.
+      ?member ?predicate ?object.
+  }
+  ```
+  実行結果は[こちら](https://lily.fvhp.net/sparql/query?format=json&query=PREFIX%20lilyrdf%3A%20%3Chttps%3A%2F%2Flily.fvhp.net%2Frdf%2FRDFs%2Fdetail%2F%3E%0D%0APREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3E%0D%0ASELECT%20%3Fmember%20%3Fpredicate%20%3Fobject%0D%0A%20%20WHERE%20%7B%0D%0A%20%20%20%20lilyrdf%3AHervarar%20schema%3Amember%20%3Fmember.%0D%0A%20%20%20%20%3Fmember%20%3Fpredicate%20%3Fobject.%0D%0A%7D)
+
+- 氏名の読みがなに「あ」を含むリリィの氏名を日本語の通常表記で取得するクエリ
+  ```sample4.ttl
   PREFIX schema: <http://schema.org/>
   PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
   PREFIX lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#>
