@@ -36,6 +36,11 @@
   <schema:member rdf:resource="Endo_Araya"/>
   <schema:member rdf:resource="Egawa_Kusumi"/>
   <schema:member rdf:resource="Amano_Soraha"/>
+  <schema:member rdf:resource="Banshoya_Ena"/>
+  <schema:member rdf:resource="Watanabe_Akane"/>
+  <schema:member rdf:resource="Kanabako_Misora"/>
+  <schema:member rdf:resource="Mori_Tatsuki"/>
+  <!-- <schema:member rdf:resource=""/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
@@ -47,6 +52,8 @@
   <schema:member rdf:resource="Shirai_Yuyu"/>
   <schema:member rdf:resource="Amano_Soraha"/>
   <schema:member rdf:resource="Yoshimura_Thi_Mai"/>
+  <schema:member rdf:resource="Banshoya_Ena"/>
+  <schema:member rdf:resource="Watanabe_Akane"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
