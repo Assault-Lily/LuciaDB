@@ -220,4 +220,16 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Mondragon">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">モンドラゴン</lily:seriesName>
+  <lily:seriesName xml:lang="en">Mondragon</lily:seriesName>
+  <schema:name xml:lang="ja">モンドラゴン</schema:name>
+  <schema:name xml:lang="en">Mondragon</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <schema:manufacturer rdf:resource="Auniamendi_Systemas"/>
+  <lily:user rdf:resource="Sasaki_Ran"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
 </rdf:RDF>

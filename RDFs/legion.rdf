@@ -64,7 +64,7 @@
   <schema:alternateName xml:lang="en">Shield Maiden</schema:alternateName>
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
   <schema:member rdf:resource="Aizawa_Kazuha"/>
-  <!-- <schema:member rdf:resource="Sasaki_Ran"/> -->
+  <schema:member rdf:resource="Sasaki_Ran"/>
   <!-- <schema:member rdf:resource="Iijima Renka"/> -->
   <!-- <schema:member rdf:resource="Hatsukano Yo"/> -->
   <!-- <schema:member rdf:resource="Serizawa Chikaru"/> -->

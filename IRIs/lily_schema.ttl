@@ -97,6 +97,10 @@ lily:subSkill           a   rdf:Property ;
     rdfs:comment            "サブスキルを表すプロパティ" ;
     rdfs:label              "サブスキル"@ja .
 
+lily:isBoosted          a   rdf:Property ;
+    rdfs:comment            "強化リリィかどうかを表すプロパティ" ;
+    rdfs:label              "強化リリィ"@ja .
+
 lily:boostedSkill       a   rdf:Property ;
     rdfs:comment            "ブーステッドスキルを表すプロパティ" ;
     rdfs:label              "ブーステッドスキル"@ja .

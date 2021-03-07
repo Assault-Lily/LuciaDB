@@ -52,6 +52,12 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Auniamendi_Systemas">
+  <schema:name xml:lang="ja">アウニャメンディシステマス社</schema:name>
+  <schema:name xml:lang="en">Auñamendi Systemas</schema:name>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="GEHENA">
   <schema:name xml:lang="ja">ゲヘナ</schema:name>
   <schema:name xml:lang="en">GEHENA</schema:name>
