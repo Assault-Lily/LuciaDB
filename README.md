@@ -52,7 +52,7 @@ https://lily.fvhp.net/sparql/query?format=json&query=
   SELECT ?member ?predicate ?object
   WHERE {
     lilyrdf:Hervarar schema:member ?member.
-      ?member ?predicate ?object.
+    ?member          ?predicate    ?object.
   }
   ```
   実行結果は[こちら](https://lily.fvhp.net/sparql/query?format=json&query=PREFIX%20lilyrdf%3A%20%3Chttps%3A%2F%2Flily.fvhp.net%2Frdf%2FRDFs%2Fdetail%2F%3E%0D%0APREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3E%0D%0ASELECT%20%3Fmember%20%3Fpredicate%20%3Fobject%0D%0A%20%20WHERE%20%7B%0D%0A%20%20%20%20lilyrdf%3AHervarar%20schema%3Amember%20%3Fmember.%0D%0A%20%20%20%20%3Fmember%20%3Fpredicate%20%3Fobject.%0D%0A%7D)
