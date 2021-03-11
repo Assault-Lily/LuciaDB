@@ -54,6 +54,7 @@
   <schema:member rdf:resource="Yoshimura_Thi_Mai"/>
   <schema:member rdf:resource="Banshoya_Ena"/>
   <schema:member rdf:resource="Watanabe_Akane"/>
+  <schema:member rdf:resource="Kawazoe_Misuzu"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 

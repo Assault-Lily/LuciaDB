@@ -50,6 +50,58 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Dainsleif">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-18</schema:productID>
+  <lily:seriesName xml:lang="ja">ダインスレイフ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Dainsleif</lily:seriesName>
+  <schema:name xml:lang="ja">ダインスレイフ</schema:name>
+  <schema:name xml:lang="en">Dainsleif</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Ando_Tazusa"/>
+  <lily:user rdf:resource="Kawazoe_Misuzu"/>
+  <lily:user rdf:resource="Kuo_Shenlin"/>
+  <!-- <lily:user rdf:resource="Gozen"/> -->
+  <lily:user rdf:resource="Shirai_Yuyu"/>
+  <!-- <lily:user rdf:resource="Funada_Kiito"/> -->
+  <!-- <lily:user rdf:resource="Rokkaku_Shiori"/> -->
+  <lily:hasVariant rdf:resource="Dainsleif_Carbin"/>
+  <lily:hasVariant rdf:resource="Dainsleif_Marksman"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Dainsleif_Carbin">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-18SS</schema:productID>
+  <lily:seriesName xml:lang="ja">ダインスレイフ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Dainsleif</lily:seriesName>
+  <schema:name xml:lang="ja">ダインスレイフ・カービン</schema:name>
+  <schema:name xml:lang="en">Dainsleif Carbin</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <!-- <lily:user rdf:resource="Amamiya_Sophia_Seren"/> -->
+  <!-- <lily:user rdf:resource="Ichinomiya_Michaela_Himari"/> -->
+  <!-- <lily:user rdf:resource="Kawamura_Yuzuriha"/> -->
+  <!-- <lily:user rdf:resource="Kon_Kanaho"/> -->
+  <!-- <lily:user rdf:resource="Fukuyama_Janne_Sachie"/> -->
+  <!-- <lily:user rdf:resource="Matsunaga_Brigid_Kayo"/> -->
+  <!-- <lily:user rdf:resource="Rokkaku_Shiori"/> -->
+  <lily:isVariantOf rdf:resource="Dainsleif"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Dainsleif_Marksman">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">ダインスレイフ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Dainsleif</lily:seriesName>
+  <schema:name xml:lang="ja">ダインスレイフ・マークスマン</schema:name>
+  <schema:name xml:lang="en">Dainsleif Marksman</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <!-- <lily:user rdf:resource="Funada_Kiito"/> -->
+  <lily:isVariantOf rdf:resource="Dainsleif"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="Brionac">
   <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-21</schema:productID>
   <lily:seriesName xml:lang="ja">ブリューナク</lily:seriesName>
