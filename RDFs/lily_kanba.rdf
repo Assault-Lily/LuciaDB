@@ -56,7 +56,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <!-- <lily:roomMate rdf:resource=""/> -->
+  <!-- <lily:roomMate rdf:resource="Miyagawa_Takane"/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:resource=""/> -->
   <lily:castName xml:lang="ja">前田佳織里</lily:castName>
@@ -110,7 +110,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <!-- <lily:roomMate rdf:resource=""/> -->
+  <!-- <lily:roomMate rdf:resource="Kon_Kanaho"/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:resource=""/> -->
   <lily:castName xml:lang="ja">礒部花凜</lily:castName>
@@ -157,7 +157,7 @@
   <lily:charm rdf:resource="Sugaar"/>
   <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">神庭女子藝術高校</lily:garden>
-  <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">声楽科</lily:gardenDepartment>
+  <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">音楽科（声楽）</lily:gardenDepartment>
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
@@ -212,7 +212,7 @@
   <lily:charm rdf:resource="Maltet"/>
   <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">神庭女子藝術高校</lily:garden>
-  <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">美術科</lily:gardenDepartment>
+  <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">美術科（絵画）</lily:gardenDepartment>
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
@@ -268,7 +268,7 @@
   <lily:charm rdf:resource="Durandal"/>
   <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">神庭女子藝術高校</lily:garden>
-  <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">声楽科</lily:gardenDepartment>
+  <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">音楽科（声楽）</lily:gardenDepartment>
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
