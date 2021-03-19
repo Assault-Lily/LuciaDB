@@ -72,5 +72,16 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Gran_Eple">
+  <schema:name xml:lang="ja">グラン・エプレ</schema:name>
+  <schema:name xml:lang="en">Gran Eple</schema:name>
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <schema:member rdf:resource="Kon_Kanaho"/>
+  <schema:member rdf:resource="Miyagawa_Takane"/>
+  <schema:member rdf:resource="Toki_Kureha"/>
+  <schema:member rdf:resource="Tanba_Akari"/>
+  <schema:member rdf:resource="Sadamori_Himeka"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
 
 </rdf:RDF>
