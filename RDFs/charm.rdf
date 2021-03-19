@@ -81,7 +81,7 @@
   <!-- <lily:user rdf:resource="Amamiya_Sophia_Seren"/> -->
   <!-- <lily:user rdf:resource="Ichinomiya_Michaela_Himari"/> -->
   <!-- <lily:user rdf:resource="Kawamura_Yuzuriha"/> -->
-  <!-- <lily:user rdf:resource="Kon_Kanaho"/> -->
+  <lily:user rdf:resource="Kon_Kanaho"/>
   <!-- <lily:user rdf:resource="Fukuyama_Janne_Sachie"/> -->
   <!-- <lily:user rdf:resource="Matsunaga_Brigid_Kayo"/> -->
   <!-- <lily:user rdf:resource="Rokkaku_Shiori"/> -->
@@ -320,6 +320,71 @@
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
   <schema:manufacturer rdf:resource="Celticdale"/>
   <lily:user rdf:resource="Serizawa_Chikaru"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Claiomh_Solais">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">クラウ・ソラス</lily:seriesName>
+  <lily:seriesName xml:lang="en">Claíomh Solais</lily:seriesName>
+  <schema:name xml:lang="ja">クラウ・ソラス</schema:name>
+  <schema:name xml:lang="en">Claíomh Solais</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <schema:manufacturer rdf:resource="Celticdale"/>
+  <lily:user rdf:resource="Kon_Kanaho"/>
+  <!-- <lily:user rdf:resource="Hayami_Katsura"/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Risanautr">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">リサナウト</lily:seriesName>
+  <lily:seriesName xml:lang="en">Risanautr</lily:seriesName>
+  <schema:name xml:lang="ja">リサナウト</schema:name>
+  <schema:name xml:lang="en">Risanautr</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Miyagawa_Takane"/>
+  <!-- <lily:user rdf:resource="Noguchi_Shinano"/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Sugaar">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">シュガール</lily:seriesName>
+  <lily:seriesName xml:lang="en">Sugaar</lily:seriesName>
+  <schema:name xml:lang="ja">シュガール</schema:name>
+  <schema:name xml:lang="en">Sugaar</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <schema:manufacturer rdf:resource="Auniamendi_Systemas"/>
+  <lily:user rdf:resource="Toki_Kureha"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Maltet">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">マルテ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Maltet</lily:seriesName>
+  <schema:name xml:lang="ja">マルテ</schema:name>
+  <schema:name xml:lang="en">Maltet</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <schema:manufacturer rdf:resource="Grand_Guignol"/>
+  <lily:user rdf:resource="Tanba_Akari"/>
+  <!-- <lily:user rdf:resource="Murakami_Tokiwa"/> -->
+  <!-- <lily:user rdf:resource="Yokoyama_Azusa"/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Durandal">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">デュランダル</lily:seriesName>
+  <lily:seriesName xml:lang="en">Durandal</lily:seriesName>
+  <schema:name xml:lang="ja">デュランダル</schema:name>
+  <schema:name xml:lang="en">Durandal</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <schema:manufacturer rdf:resource="Grand_Guignol"/>
+  <lily:user rdf:resource="Sadamori_Himeka"/>
+  <!-- <lily:user rdf:resource="Uchida_Mayuri"/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
