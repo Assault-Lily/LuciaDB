@@ -113,7 +113,7 @@
   <lily:user rdf:resource="Shirai_Yuyu"/>
   <lily:user rdf:resource="Hitotsuyanagi_Riri"/>
   <lily:user rdf:resource="Yoshimura_Thi_Mai"/>
-  <!-- <lily:user rdf:resource="Kawazoe_Misuzu"/> -->
+  <lily:user rdf:resource="Kawazoe_Misuzu"/>
   <lily:user rdf:resource="Tanaka_Ichi"/>
   <lily:user rdf:resource="Egawa_Kusumi"/>
   <!-- <lily:user rdf:resource="Kawanabe Nazuna"/> -->
