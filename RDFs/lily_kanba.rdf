@@ -174,10 +174,10 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="Tanba_Akari">
+<rdf:Description rdf:about="Tamba_Akari">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">丹羽灯莉</rdfs:label>
   <schema:familyName xml:lang="ja">丹羽</schema:familyName>
-  <schema:familyName xml:lang="en">Tanba</schema:familyName>
+  <schema:familyName xml:lang="en">Tamba</schema:familyName>
   <lily:familyNameKana xml:lang="ja">たんば</lily:familyNameKana>
   <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
   <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
@@ -186,7 +186,7 @@
   <schema:givenName xml:lang="en">Akari</schema:givenName>
   <lily:givenNameKana xml:lang="ja">あかり</lily:givenNameKana>
   <schema:name xml:lang="ja">丹羽灯莉</schema:name>
-  <schema:name xml:lang="en">Tanba Akari</schema:name>
+  <schema:name xml:lang="en">Tamba Akari</schema:name>
   <lily:nameKana xml:lang="ja">たんばあかり</lily:nameKana>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
@@ -276,7 +276,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">副隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <lily:roomMate rdf:resource="Tanba_Akari"/>
+  <lily:roomMate rdf:resource="Tamba_Akari"/>
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:resource=""/> -->
   <lily:castName xml:lang="ja">富田美憂</lily:castName>
