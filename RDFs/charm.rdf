@@ -369,7 +369,7 @@
   <schema:name xml:lang="en">Maltet</schema:name>
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
   <schema:manufacturer rdf:resource="Grand_Guignol"/>
-  <lily:user rdf:resource="Tanba_Akari"/>
+  <lily:user rdf:resource="Tamba_Akari"/>
   <!-- <lily:user rdf:resource="Murakami_Tokiwa"/> -->
   <!-- <lily:user rdf:resource="Yokoyama_Azusa"/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>

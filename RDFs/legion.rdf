@@ -79,7 +79,7 @@
   <schema:member rdf:resource="Kon_Kanaho"/>
   <schema:member rdf:resource="Miyagawa_Takane"/>
   <schema:member rdf:resource="Toki_Kureha"/>
-  <schema:member rdf:resource="Tanba_Akari"/>
+  <schema:member rdf:resource="Tamba_Akari"/>
   <schema:member rdf:resource="Sadamori_Himeka"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
