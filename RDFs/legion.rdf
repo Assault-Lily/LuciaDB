@@ -42,6 +42,7 @@
   <schema:member rdf:resource="Mori_Tatsuki"/>
   <lily:submember rdf:resource="Maki_Wakana"/>
   <lily:submember rdf:resource="Okada_Kisara"/>
+  <lily:submember rdf:resource="Mozuna_Noa"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
