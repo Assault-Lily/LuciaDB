@@ -208,3 +208,7 @@ lily:hasVariant         a   rdf:Property ;
 lily:disbanded          a   rdf:Property ;
     rdfs:comment            "解散・消滅したレギオンを表すプロパティ" ;
     rdfs:label              "解散済み"@ja .
+
+lily:submember          a   rdf:Property ;
+    rdfs:comment            "レギオンのサブメンバーを表すプロパティ" ;
+    rdfs:label              "サブメンバー"@ja .
