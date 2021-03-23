@@ -40,7 +40,7 @@
   <schema:member rdf:resource="Watanabe_Akane"/>
   <schema:member rdf:resource="Kanabako_Misora"/>
   <schema:member rdf:resource="Mori_Tatsuki"/>
-  <!-- <schema:member rdf:resource=""/> -->
+  <lily:submember rdf:resource="Maki_Wakana"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
