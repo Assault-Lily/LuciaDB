@@ -57,6 +57,7 @@
   <schema:member rdf:resource="Banshoya_Ena"/>
   <schema:member rdf:resource="Watanabe_Akane"/>
   <schema:member rdf:resource="Kawazoe_Misuzu"/>
+  <schema:member rdf:resource="Taniguchi_Hijiri"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
@@ -92,7 +93,7 @@
   <schema:alternateName xml:lang="ja">水夕会</schema:alternateName>
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
   <schema:member rdf:resource="Rokkaku_Shiori"/>
-  <!-- <schema:member rdf:resource="Taniguchi_Hijiri"/> -->
+  <schema:member rdf:resource="Taniguchi_Hijiri"/>
   <!-- <schema:member rdf:resource="Araya_Waka"/> -->
   <!-- <schema:member rdf:resource="Izumi_Botan"/> -->
   <!-- <schema:member rdf:resource="Kudo_Sakua"/> -->
