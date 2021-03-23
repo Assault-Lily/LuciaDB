@@ -224,7 +224,7 @@
   <!-- <lily:user rdf:resource="Date_Furiru"/> -->
   <!-- <lily:user rdf:resource="Taneda_Seina"/> -->
   <lily:user rdf:resource="Banshoya_Ena"/>
-  <!-- <lily:user rdf:resource="Mashima_Moyu"/> -->
+  <lily:user rdf:resource="Mashima_Moyu"/>
   <!-- <lily:user rdf:resource="Yumeno_Kanon"/> -->
   <!-- <lily:user rdf:resource="Rosalinde_Friedegunde_von_Otto"/> -->
   <lily:user rdf:resource="Watanabe_Akane"/>
