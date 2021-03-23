@@ -86,4 +86,24 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Reginleif">
+  <schema:name xml:lang="ja">レギンレイヴ</schema:name>
+  <schema:name xml:lang="en">Reginleif</schema:name>
+  <schema:alternateName xml:lang="ja">水夕会</schema:alternateName>
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <schema:member rdf:resource="Rokkaku_Shiori"/>
+  <!-- <schema:member rdf:resource="Taniguchi_Hijiri"/> -->
+  <!-- <schema:member rdf:resource="Araya_Waka"/> -->
+  <!-- <schema:member rdf:resource="Izumi_Botan"/> -->
+  <!-- <schema:member rdf:resource="Kudo_Sakua"/> -->
+  <!-- <schema:member rdf:resource="Hara_Midori"/> -->
+  <!-- <schema:member rdf:resource="Kumagaya_Nayuru"/> -->
+  <!-- <schema:member rdf:resource="Isozaki_Mika"/> -->
+  <!-- <schema:member rdf:resource="Ushida_Watsuki"/> -->
+  <!-- <schema:member rdf:resource="Tamura_Nagi"/> -->
+  <!-- <schema:member rdf:resource="Diana_Koolhaas"/> -->
+  <!-- <schema:member rdf:resource="Arima_Mitsune"/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
 </rdf:RDF>

@@ -64,7 +64,7 @@
   <!-- <lily:user rdf:resource="Gozen"/> -->
   <lily:user rdf:resource="Shirai_Yuyu"/>
   <!-- <lily:user rdf:resource="Funada_Kiito"/> -->
-  <!-- <lily:user rdf:resource="Rokkaku_Shiori"/> -->
+  <lily:user rdf:resource="Rokkaku_Shiori"/>
   <lily:hasVariant rdf:resource="Dainsleif_Carbin"/>
   <lily:hasVariant rdf:resource="Dainsleif_Marksman"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -84,7 +84,7 @@
   <lily:user rdf:resource="Kon_Kanaho"/>
   <!-- <lily:user rdf:resource="Fukuyama_Janne_Sachie"/> -->
   <!-- <lily:user rdf:resource="Matsunaga_Brigid_Kayo"/> -->
-  <!-- <lily:user rdf:resource="Rokkaku_Shiori"/> -->
+  <lily:user rdf:resource="Rokkaku_Shiori"/>
   <lily:isVariantOf rdf:resource="Dainsleif"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
@@ -140,7 +140,7 @@
   <schema:name xml:lang="en">Tyrfing Prototype</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
   <schema:manufacturer rdf:resource="Yggdrasill"/>
-  <!-- <lily:user rdf:resource="Shiori_Rokkaku"/> -->
+  <lily:user rdf:resource="Rokkaku_Shiori"/>
   <lily:hasVariant rdf:resource="Tyrfing_type_T"/>
   <lily:hasVariant rdf:resource="Tyrfing_type_R"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
