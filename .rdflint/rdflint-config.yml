@@ -1,5 +1,5 @@
 
-baseUri: https://lily.fvhp.net/sparql/
+baseUri: https://lily.fvhp.net/rdf/RDFs/detail/
 rules:
   - name: 姓名整合(日本語・ミドルネームがない人)
     target: "RDFs/.*"
