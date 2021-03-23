@@ -540,7 +540,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <lily:schutzengel rdf:resource="Mashima_Moyu">
+  <lily:schutzengel rdf:resource="Mashima_Moyu"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <!-- <lily:schild rdf:resource=""/> -->
   <!-- <lily:pastSchild rdf:resource=""/> -->
