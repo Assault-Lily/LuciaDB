@@ -907,6 +907,7 @@
   <schema:name xml:lang="ja">江川樟美</schema:name>
   <schema:name xml:lang="en">Egawa Kusumi</schema:name>
   <lily:nameKana xml:lang="ja">えがわくすみ</lily:nameKana>
+  <lily:anotherName xml:lang="ja">神の子</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">154.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">47.0</schema:weight>
@@ -966,6 +967,7 @@
   <schema:name xml:lang="ja">天野天葉</schema:name>
   <schema:name xml:lang="en">Amano Soraha</schema:name>
   <lily:nameKana xml:lang="ja">あまのそらは</lily:nameKana>
+  <lily:anotherName xml:lang="ja">蒼き月の御使い</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">158.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</schema:weight>
@@ -1024,6 +1026,7 @@
   <schema:name xml:lang="ja">番匠谷依奈</schema:name>
   <schema:name xml:lang="en">Banshoya Ena</schema:name>
   <lily:nameKana xml:lang="ja">ばんしょうやえな</lily:nameKana>
+  <lily:anotherName xml:lang="ja">プランセス</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">158.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.0</schema:weight>
@@ -1085,6 +1088,7 @@
   <schema:name xml:lang="ja">渡邉茜</schema:name>
   <schema:name xml:lang="en">Watanabe Akane</schema:name>
   <lily:nameKana xml:lang="ja">わたなべあかね</lily:nameKana>
+  <lily:anotherName xml:lang="ja">コンダクター</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">163.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.0</schema:weight>
@@ -1308,6 +1312,7 @@
   <schema:name xml:lang="ja">岡田綺更</schema:name>
   <schema:name xml:lang="en">Okada Kisara</schema:name>
   <lily:nameKana xml:lang="ja">おかだきさら</lily:nameKana>
+  <lily:anotherName xml:lang="ja">吸血姫</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
