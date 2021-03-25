@@ -142,6 +142,7 @@
   <schema:name xml:lang="ja">楓・J・ヌーベル</schema:name>
   <schema:name xml:lang="en">Kaede Johan Nouvel</schema:name>
   <lily:nameKana xml:lang="ja">かえで・じょあん・ぬーべる</lily:nameKana>
+  <lily:anotherName xml:lang="ja">百合ヶ丘の至宝</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">164.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.0</schema:weight>
@@ -265,6 +266,7 @@
   <schema:name xml:lang="ja">安藤鶴紗</schema:name>
   <schema:name xml:lang="en">Ando Tazusa</schema:name>
   <lily:nameKana xml:lang="ja">あんどうたづさ</lily:nameKana>
+  <lily:anotherName xml:lang="ja">血煙のリリィ</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">158.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.0</schema:weight>
