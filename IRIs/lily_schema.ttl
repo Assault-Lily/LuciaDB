@@ -61,6 +61,10 @@ lily:alternateNameKana  a   rdf:Property ;
     rdfs:comment            "通称のよみがなを表すプロパティ" ;
     rdfs:label              "通称よみがな"@ja .
 
+lily:anotherName        a   rdf:Property ;
+    rdfs:comment            "異名・二つ名を表すプロパティ" ;
+    rdfs:label              "異名・二つ名"@ja .
+
 lily:lifeStatus         a   rdf:Property ;
     rdfs:comment            "存命・死亡・行方不明を表すプロパティ" ;
     rdfs:label              "生命状態"@ja .
