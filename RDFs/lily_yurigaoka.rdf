@@ -22,6 +22,7 @@
   <schema:name xml:lang="ja">一柳梨璃</schema:name>
   <schema:name xml:lang="en">Hitotsuyanagi Riri</schema:name>
   <lily:nameKana xml:lang="ja">ひとつやなぎりり</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">156.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.0</schema:weight>
@@ -81,6 +82,7 @@
   <schema:name xml:lang="ja">白井夢結</schema:name>
   <schema:name xml:lang="en">Shirai Yuyu</schema:name>
   <lily:nameKana xml:lang="ja">しらいゆゆ</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">163.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.0</schema:weight>
@@ -206,6 +208,7 @@
   <schema:name xml:lang="ja">二川二水</schema:name>
   <schema:name xml:lang="en">Futagawa Fumi</schema:name>
   <lily:nameKana xml:lang="ja">ふたがわふみ</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">152.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">44.0</schema:weight>
@@ -328,6 +331,7 @@
   <schema:name xml:lang="ja">吉村・Thi・梅</schema:name>
   <schema:name xml:lang="en">Yoshimura Thi Mai</schema:name>
   <lily:nameKana xml:lang="ja">よしむら・てぃ・まい</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">156.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</schema:weight>
@@ -386,6 +390,7 @@
   <schema:name xml:lang="ja">郭神琳</schema:name>
   <schema:name xml:lang="en">Kuo Shenlin</schema:name>
   <lily:nameKana xml:lang="ja">くぉしぇんりん</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">165.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.0</schema:weight>
@@ -450,6 +455,7 @@
   <schema:name xml:lang="ja">王雨嘉</schema:name>
   <schema:name xml:lang="en">Wang Yujia</schema:name>
   <lily:nameKana xml:lang="ja">わんゆーじあ</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">163.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</schema:weight>
@@ -510,6 +516,7 @@
   <schema:name xml:lang="ja">ミリアム・ヒルデガルド・v・グロピウス</schema:name>
   <schema:name xml:lang="en">Miliam Hildegard von Guropius</schema:name>
   <lily:nameKana xml:lang="ja">みりあむ・ひるでがるど・ふぉん・ぐろぴうす</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">153.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</schema:weight>
@@ -569,6 +576,7 @@
   <schema:name xml:lang="ja">一柳結梨</schema:name>
   <schema:name xml:lang="en">Hitotsuyanagi Yuri</schema:name>
   <lily:nameKana xml:lang="ja">ひとつやなぎゆり</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <!-- <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></foaf:age> -->
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
@@ -625,6 +633,7 @@
   <schema:name xml:lang="ja">川添美鈴</schema:name>
   <schema:name xml:lang="en">Kawazoe Misuzu</schema:name>
   <lily:nameKana xml:lang="ja">かわぞえみすず</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <!-- <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></foaf:age> -->
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
@@ -681,6 +690,7 @@
   <schema:name xml:lang="ja">真島百由</schema:name>
   <schema:name xml:lang="en">Mashima Moyu</schema:name>
   <lily:nameKana xml:lang="ja">ましまもゆ</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">164.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.0</schema:weight>
@@ -737,6 +747,7 @@
   <schema:name xml:lang="ja">田中壱</schema:name>
   <schema:name xml:lang="en">Tanaka Ichi</schema:name>
   <lily:nameKana xml:lang="ja">たなかいち</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">161.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.0</schema:weight>
@@ -795,6 +806,7 @@
   <schema:name xml:lang="ja">高須賀月詩</schema:name>
   <schema:name xml:lang="en">Takasuga Tsukushi</schema:name>
   <lily:nameKana xml:lang="ja">たかすがつくし</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">157.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">43.0</schema:weight>
@@ -851,6 +863,7 @@
   <schema:name xml:lang="ja">遠藤亜羅椰</schema:name>
   <schema:name xml:lang="en">Endo Araya</schema:name>
   <lily:nameKana xml:lang="ja">えんどうあらや</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">165.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">56.0</schema:weight>
@@ -1144,6 +1157,7 @@
   <schema:name xml:lang="ja">金箱弥宙</schema:name>
   <schema:name xml:lang="en">Kanabako Misora</schema:name>
   <lily:nameKana xml:lang="ja">かなばこみそら</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">153.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</schema:weight>
@@ -1200,6 +1214,7 @@
   <schema:name xml:lang="ja">森辰姫</schema:name>
   <schema:name xml:lang="en">Mori Tatsuki</schema:name>
   <lily:nameKana xml:lang="ja">もりたつき</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">163.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.0</schema:weight>
@@ -1255,6 +1270,7 @@
   <schema:name xml:lang="ja">槇若菜</schema:name>
   <schema:name xml:lang="en">Maki Wakana</schema:name>
   <lily:nameKana xml:lang="ja">まきわかな</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
@@ -1370,61 +1386,7 @@
   <schema:name xml:lang="ja">毛綱乃彩</schema:name>
   <schema:name xml:lang="en">Mozuna Noa</schema:name>
   <lily:nameKana xml:lang="ja">もづなのあ</lily:nameKana>
-  <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
-  <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
-  <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
-  <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
-  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
-  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
-  <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
-  <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
-  <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
-  <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
-  <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
-  <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
-  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
-  <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
-  <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">カリスマ</lily:rareSkill>
-  <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">狂乱の閾</lily:subSkill>
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
-  <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
-  <!-- <lily:charm rdf:resource=""/> -->
-  <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
-  <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立百合ヶ丘女学院</lily:garden>
-  <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">普通科</lily:gardenDepartment>
-  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
-  <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
-  <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
-  <lily:legion rdf:resource="Alfheim"/>
-  <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
-  <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
-  <!-- <lily:pastLegion rdf:resource=""/> -->
-  <!-- <lily:schutzengel rdf:resource=""/> -->
-  <!-- <lily:pastSchutzengel rdf:resource=""/> -->
-  <!-- <lily:schild rdf:resource=""/> -->
-  <!-- <lily:pastSchild rdf:resource=""/> -->
-  <!-- <lily:roomMate rdf:resource=""/> -->
-  <!-- <schema:parent rdf:resource=""/> -->
-  <!-- <schema:sibling rdf:resource=""/> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="Mozuna_Noa">
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">毛綱乃彩</rdfs:label>
-  <schema:familyName xml:lang="ja">毛綱</schema:familyName>
-  <schema:familyName xml:lang="en">Mozuna</schema:familyName>
-  <lily:familyNameKana xml:lang="ja">もづな</lily:familyNameKana>
-  <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
-  <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
-  <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
-  <schema:givenName xml:lang="ja">乃彩</schema:givenName>
-  <schema:givenName xml:lang="en">Noa</schema:givenName>
-  <lily:givenNameKana xml:lang="ja">のあ</lily:givenNameKana>
-  <schema:name xml:lang="ja">毛綱乃彩</schema:name>
-  <schema:name xml:lang="en">Mozuna Noa</schema:name>
-  <lily:nameKana xml:lang="ja">もづなのあ</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
