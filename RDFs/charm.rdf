@@ -24,7 +24,7 @@
   <lily:user rdf:resource="Egawa_Kusumi"/>
   <lily:user rdf:resource="Takasuga_Tsukushi"/>
   <lily:user rdf:resource="Taniguchi_Hijiri"/>
-  <!-- <lily:user rdf:resource="Tamura_Nagi"/> -->
+  <lily:user rdf:resource="Tamura_Nagi"/>
   <!-- <lily:user rdf:resource="Hata_Matsuri"/> -->
   <!-- <lily:user rdf:resource="Kawamura_Yuzuriha"/> -->
   <lily:user rdf:resource="Miliam_Hildegard_von_Guropius"/>
@@ -268,7 +268,7 @@
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Aizawa_Kazuha"/>
-  <!-- <lily:user rdf:resource="Rokkaku_Shiori"/> -->
+  <lily:user rdf:resource="Rokkaku_Shiori"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
@@ -397,6 +397,30 @@
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Taniguchi_Hijiri"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Nothung">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">ノートゥング</lily:seriesName>
+  <lily:seriesName xml:lang="en">Nothung</lily:seriesName>
+  <schema:name xml:lang="ja">ノートゥング</schema:name>
+  <schema:name xml:lang="en">Nothung</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Hara_Midori"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Thor_Hammer">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">トールハンマー</lily:seriesName>
+  <lily:seriesName xml:lang="en">Thor's Hammer</lily:seriesName>
+  <schema:name xml:lang="ja">トールハンマー</schema:name>
+  <schema:name xml:lang="en">Thor's Hammer</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Ushida_Watsuki"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 

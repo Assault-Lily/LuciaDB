@@ -12,6 +12,7 @@
   <schema:name xml:lang="ja">ラーズグリーズ</schema:name>
   <schema:name xml:lang="en">Radgrid</schema:name>
   <schema:alternateName xml:lang="ja">一柳隊</schema:alternateName>
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
   <schema:member rdf:resource="Hitotsuyanagi_Riri"/>
   <schema:member rdf:resource="Shirai_Yuyu"/>
@@ -30,6 +31,7 @@
   <schema:name xml:lang="ja">アールヴヘイム</schema:name>
   <schema:name xml:lang="en">Alfheim</schema:name>
   <schema:alternateName xml:lang="ja">壱盤隊</schema:alternateName>
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
   <schema:member rdf:resource="Tanaka_Ichi"/>
   <schema:member rdf:resource="Takasuga_Tsukushi"/>
@@ -50,6 +52,7 @@
   <schema:name xml:lang="ja">アールヴヘイム（初代）</schema:name>
   <schema:name xml:lang="en">Alfheim (1st)</schema:name>
   <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
   <schema:member rdf:resource="Shirai_Yuyu"/>
   <schema:member rdf:resource="Amano_Soraha"/>
@@ -78,6 +81,8 @@
 <rdf:Description rdf:about="Gran_Eple">
   <schema:name xml:lang="ja">グラン・エプレ</schema:name>
   <schema:name xml:lang="en">Gran Eple</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
   <schema:member rdf:resource="Kon_Kanaho"/>
   <schema:member rdf:resource="Miyagawa_Takane"/>
@@ -91,19 +96,38 @@
   <schema:name xml:lang="ja">レギンレイヴ</schema:name>
   <schema:name xml:lang="en">Reginleif</schema:name>
   <schema:alternateName xml:lang="ja">水夕会</schema:alternateName>
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
   <schema:member rdf:resource="Rokkaku_Shiori"/>
   <schema:member rdf:resource="Taniguchi_Hijiri"/>
-  <!-- <schema:member rdf:resource="Araya_Waka"/> -->
-  <!-- <schema:member rdf:resource="Izumi_Botan"/> -->
-  <!-- <schema:member rdf:resource="Kudo_Sakua"/> -->
-  <!-- <schema:member rdf:resource="Hara_Midori"/> -->
-  <!-- <schema:member rdf:resource="Kumagaya_Nayuru"/> -->
-  <!-- <schema:member rdf:resource="Isozaki_Mika"/> -->
-  <!-- <schema:member rdf:resource="Ushida_Watsuki"/> -->
-  <!-- <schema:member rdf:resource="Tamura_Nagi"/> -->
-  <!-- <schema:member rdf:resource="Diana_Koolhaas"/> -->
-  <!-- <schema:member rdf:resource="Arima_Mitsune"/> -->
+  <schema:member rdf:resource="Araya_Waka"/>
+  <schema:member rdf:resource="Izumi_Botan"/>
+  <schema:member rdf:resource="Kudo_Sakua"/>
+  <schema:member rdf:resource="Hara_Midori"/>
+  <schema:member rdf:resource="Kumagaya_Nayuru"/>
+  <schema:member rdf:resource="Isozaki_Mika"/>
+  <schema:member rdf:resource="Ushida_Watsuki"/>
+  <lily:submember rdf:resource="Tamura_Nagi"/>
+  <schema:member rdf:resource="Diana_Koolhaas"/>
+  <schema:member rdf:resource="Arima_Mitsune"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Svanhvit">
+  <schema:name xml:lang="ja">スヴァンフヴィート</schema:name>
+  <schema:name xml:lang="en">Svanhvít</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
+  <schema:member rdf:resource="Tamura_Nagi"/>
+  <!-- <schema:member rdf:resource="Mitsui_Ko"/> -->
+  <schema:member rdf:resource="Izumi_Botan"/>
+  <!-- <schema:member rdf:resource="Soyogi_Ataru"/> -->
+  <!-- <schema:member rdf:resource="Tanijiri_Shizuku"/> -->
+  <!-- <schema:member rdf:resource="Yamanashi_Hibari"/> -->
+  <!-- <schema:member rdf:resource="Yanagisawa_Ayako"/> -->
+  <!-- <schema:member rdf:resource="Arakawa_Hitomi"/> -->
+  <schema:member rdf:resource="Mozuna_Noa"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
