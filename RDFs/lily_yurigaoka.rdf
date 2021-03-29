@@ -2111,4 +2111,61 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Yamanashi_Hibari">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">山梨日羽梨</rdfs:label>
+  <schema:familyName xml:lang="ja">山梨</schema:familyName>
+  <schema:familyName xml:lang="en">Yamanashi</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">やまなし</lily:familyNameKana>
+  <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
+  <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
+  <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
+  <schema:givenName xml:lang="ja">日羽梨</schema:givenName>
+  <schema:givenName xml:lang="en">Hibari</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">ひばり</lily:givenNameKana>
+  <schema:name xml:lang="ja">山梨日羽梨</schema:name>
+  <schema:name xml:lang="en">Yamanashi Hibari</schema:name>
+  <lily:nameKana xml:lang="ja">やまなしひばり</lily:nameKana>
+  <lily:anotherName xml:lang="ja">サングリーズルの魔術師</lily:anotherName>
+  <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
+  <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">158.0</schema:height>
+  <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
+  <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
+  <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
+  <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
+  <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
+  <schema:birthPlace xml:lang="ja">鎌倉府（神奈川県）</schema:birthPlace>
+  <schema:birthPlace xml:lang="en">Kamakura (Kanagawa)</schema:birthPlace>
+  <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
+  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <lily:hobby_talent xml:lang="ja">戦譜分析</lily:hobby_talent>
+  <lily:hobby_talent xml:lang="ja">戦術理解</lily:hobby_talent>
+  <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">レジスタ</lily:rareSkill>
+  <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
+  <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
+  <lily:charm rdf:resource="Tyrfing_type_T"/>
+  <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
+  <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立百合ヶ丘女学院</lily:garden>
+  <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">普通科</lily:gardenDepartment>
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
+  <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
+  <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
+  <lily:legion rdf:resource="Sanngridr"/>
+  <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
+  <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
+  <lily:pastLegion rdf:resource="Svanhvit"/>
+  <!-- <lily:schutzengel rdf:resource=""/> -->
+  <!-- <lily:pastSchutzengel rdf:resource=""/> -->
+  <!-- <lily:schild rdf:resource=""/> -->
+  <!-- <lily:pastSchild rdf:resource=""/> -->
+  <!-- <lily:roomMate rdf:resource=""/> -->
+  <!-- <schema:parent rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:resource=""/> -->
+  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
+  <!-- <lily:castResource rdf:resource=""/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
+</rdf:Description>
+
 </rdf:RDF>

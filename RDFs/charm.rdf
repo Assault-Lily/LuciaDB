@@ -156,6 +156,7 @@
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Ando_Tazusa"/>
   <lily:user rdf:resource="Mori_Tatsuki"/>
+  <lily:user rdf:resource="Yamanashi_Hibari"/>
   <!-- <lily:user rdf:resource="Chemir_Friedheim"/> -->
   <lily:isVariantOf rdf:resource="Tyrfing_Prototype"/>
   <schema:isSimilarTo rdf:resource="Tyrfing_type_R"/>
