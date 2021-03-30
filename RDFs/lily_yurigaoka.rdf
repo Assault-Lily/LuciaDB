@@ -223,6 +223,7 @@
   <lily:favorite xml:lang="ja">駄菓子</lily:favorite>
   <lily:favorite xml:lang="ja">牛丼</lily:favorite>
   <lily:notGood xml:lang="ja">数学</lily:notGood>
+  <lily:notGood xml:lang="ja">物理</lily:notGood>
   <lily:hobby_talent xml:lang="ja">官報を読むこと</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">漫画を描くこと</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">キャンプ</lily:hobby_talent>
@@ -690,7 +691,7 @@
   <schema:name xml:lang="ja">真島百由</schema:name>
   <schema:name xml:lang="en">Mashima Moyu</schema:name>
   <lily:nameKana xml:lang="ja">ましまもゆ</lily:nameKana>
-  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
+  <lily:anotherName xml:lang="ja">聖学工房の魔術師</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">164.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.0</schema:weight>
