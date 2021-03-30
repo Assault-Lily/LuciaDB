@@ -70,6 +70,7 @@
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Aizawa_Kazuha"/>
   <!-- <lily:user rdf:resource="Toda_Eulalia_Kotohi"/> -->
   <!-- <lily:user rdf:resource="Narumi_Clara_Yuko"/> -->
   <!-- <lily:user rdf:resource="Hasegawa_Gabriella_Tsugumi"/> -->
