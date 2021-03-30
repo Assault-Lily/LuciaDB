@@ -8,6 +8,32 @@
   xmlns:lily="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#"
   xml:base="https://lily.fvhp.net/rdf/RDFs/detail/">
 
+<rdf:Description rdf:about="First_Generation_Charm">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">第1世代CHARM</lily:seriesName>
+  <lily:seriesName xml:lang="en">First Generation CHARM</lily:seriesName>
+  <schema:name xml:lang="ja">第1世代CHARM</schema:name>
+  <schema:name xml:lang="en">First Generation CHARM</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:generation>
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Miliam_Hildegard_von_Guropius"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Zeroshiki_Mikasa">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">零式御蓋</lily:seriesName>
+  <lily:seriesName xml:lang="en">Zeroshiki Mikasa</lily:seriesName>
+  <schema:name xml:lang="ja">零式御蓋</schema:name>
+  <schema:name xml:lang="en">Zeroshiki Mikasa</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:generation>
+  <schema:manufacturer rdf:resource="Amatsu_Heavy_Industry"/>
+  <lily:user rdf:resource="Mashima_Moyu"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="Gungnir">
   <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-13</schema:productID>
   <lily:seriesName xml:lang="ja">グングニル</lily:seriesName>
@@ -122,6 +148,7 @@
   <lily:user rdf:resource="Kawazoe_Misuzu"/>
   <lily:user rdf:resource="Tanaka_Ichi"/>
   <lily:user rdf:resource="Egawa_Kusumi"/>
+  <lily:user rdf:resource="Ando_Tazusa"/>
   <!-- <lily:user rdf:resource="Kawanabe Nazuna"/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
@@ -253,8 +280,9 @@
   <schema:name xml:lang="en">Njolnir</schema:name>
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
-  <schema:manufacturer rdf:resource="Miliam_Hildegard_von_Guropius"/>
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Miliam_Hildegard_von_Guropius"/>
+  <lily:additionalInformation xml:lang="ja">ユグドラシル社「ミョルニール公開コンペ」出品機体</lily:additionalInformation>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
@@ -450,6 +478,160 @@
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Ushida_Watsuki"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Trigrav">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC-09</schema:productID>
+  <lily:seriesName xml:lang="ja">トリグラフ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Trigrav</lily:seriesName>
+  <schema:name xml:lang="ja">トリグラフ</schema:name>
+  <schema:name xml:lang="en">Trigrav</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <schema:manufacturer rdf:resource="Hihiirokane_International"/>
+  <!-- <lily:user rdf:resource="Ishikawa_Aoi"/> -->
+  <!-- <lily:user rdf:resource="Matsunaga_Yui"/> -->
+  <lily:user rdf:resource="Kaede_Johan_Nouvel"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Durindarte">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">ドゥリンダルテ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Durindarte</lily:seriesName>
+  <schema:name xml:lang="ja">ドゥリンダルテ</schema:name>
+  <schema:name xml:lang="en">Durindarte</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Kaede_Johan_Nouvel"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Naglering">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">ナーゲルリング</lily:seriesName>
+  <lily:seriesName xml:lang="en">Naglering</lily:seriesName>
+  <schema:name xml:lang="ja">ナーゲルリング</schema:name>
+  <schema:name xml:lang="en">Naglering</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Ando_Tazusa"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Aroundight">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">アロンダイト</lily:seriesName>
+  <lily:seriesName xml:lang="en">Aroundight</lily:seriesName>
+  <schema:name xml:lang="ja">アロンダイト</schema:name>
+  <schema:name xml:lang="en">Aroundight</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <schema:manufacturer rdf:resource="Camelot_Castle"/>
+  <lily:user rdf:resource="Tanaka_Ichi"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Ipetam">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">イペタム</lily:seriesName>
+  <lily:seriesName xml:lang="en">Ipetam</lily:seriesName>
+  <schema:name xml:lang="ja">イペタム</schema:name>
+  <schema:name xml:lang="en">Ipetam</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <schema:manufacturer rdf:resource="Amatsu_Heavy_Industry"/>
+  <lily:user rdf:resource="Egawa_Kusumi"/>
+  <lily:additionalInformation xml:lang="ja">開発終了</lily:additionalInformation>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Laevateinn">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">レーヴァティン</lily:seriesName>
+  <lily:seriesName xml:lang="en">Laevateinn</lily:seriesName>
+  <schema:name xml:lang="ja">レーヴァティン</schema:name>
+  <schema:name xml:lang="en">Laevateinn</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</lily:requiredSkillerVal>
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Egawa_Kusumi"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Fragarach">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-20</schema:productID>
+  <lily:seriesName xml:lang="ja">フラガラッハ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Fragarach</lily:seriesName>
+  <schema:name xml:lang="ja">フラガラッハ</schema:name>
+  <schema:name xml:lang="en">Fragarach</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Celticdale"/>
+  <lily:user rdf:resource="Amano_Soraha"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Miming">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-14</schema:productID>
+  <lily:seriesName xml:lang="ja">ミミング</lily:seriesName>
+  <lily:seriesName xml:lang="en">Miming</lily:seriesName>
+  <schema:name xml:lang="ja">ミミング</schema:name>
+  <schema:name xml:lang="en">Miming</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Banshoya_Ena"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Gunnfjodur">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-09</schema:productID>
+  <lily:seriesName xml:lang="ja">グンフィエズル</lily:seriesName>
+  <lily:seriesName xml:lang="en">Gunnfjödur</lily:seriesName>
+  <schema:name xml:lang="ja">グンフィエズル</schema:name>
+  <schema:name xml:lang="en">Gunnfjödur</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Banshoya_Ena"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Einherjar">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">エインヘリャル</lily:seriesName>
+  <lily:seriesName xml:lang="en">Einherjar</lily:seriesName>
+  <schema:name xml:lang="ja">エインヘリャル</schema:name>
+  <schema:name xml:lang="en">Einherjar</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Mashima_Moyu"/>
+  <!-- <lily:user rdf:resource="Hasebe_Touka"/> -->
+  <lily:user rdf:resource="Banshoya_Ena"/>
+  <lily:additionalInformation xml:lang="ja">実験機</lily:additionalInformation>
+  <lily:additionalInformation xml:lang="ja">精神直結型CHARM</lily:additionalInformation>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Charlemagne">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DC-22</schema:productID>
+  <lily:seriesName xml:lang="ja">シャルルマーニュ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Charlemagne</lily:seriesName>
+  <schema:name xml:lang="ja">シャルルマーニュ</schema:name>
+  <schema:name xml:lang="en">Charlemagne</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Grand_Guignol"/>
+  <lily:user rdf:resource="Rokkaku_Shiori"/>
+  <!-- <lily:user rdf:resource="Fukuyama_Janne_Sachie"/> -->
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
