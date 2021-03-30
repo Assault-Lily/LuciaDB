@@ -251,6 +251,7 @@
   <schema:name xml:lang="ja">グラム</schema:name>
   <schema:name xml:lang="en">Gram</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</lily:requiredSkillerVal>
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Shirai_Yuyu"/>
   <lily:user rdf:resource="Amano_Soraha"/>
@@ -319,6 +320,7 @@
   <schema:name xml:lang="ja">ゲイボルグ</schema:name>
   <schema:name xml:lang="en">Gáe Bolg</schema:name>
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</lily:requiredSkillerVal>
   <schema:manufacturer rdf:resource="Celticdale"/>
   <lily:user rdf:resource="Serizawa_Chikaru"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>

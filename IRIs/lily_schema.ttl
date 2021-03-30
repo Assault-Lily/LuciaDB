@@ -209,6 +209,10 @@ lily:hasVariant         a   rdf:Property ;
     rdfs:comment            "CHARMなどの派生先を表すプロパティ" ;
     rdfs:label              "派生先"@ja .
 
+lily:requiredSkillerVal a   rdf:Property ;
+    rdfs:comment            "CHARMの最低起動スキラー数値を表すプロパティ" ;
+    rdfs:label              "最低起動スキラー数値"@ja .
+
 lily:disbanded          a   rdf:Property ;
     rdfs:comment            "解散・消滅したレギオンを表すプロパティ" ;
     rdfs:label              "解散済み"@ja .
