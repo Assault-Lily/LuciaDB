@@ -45,8 +45,16 @@
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
-  <lily:charm rdf:resource="Claiomh_Solais"/>
-  <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
+  <lily:charm rdf:parseType="Resource">
+    <lily:resource rdf:resource="Dainsleif_Carbin"/>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台LoG</lily:usedIn>
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  </lily:charm>
+  <lily:charm rdf:parseType="Resource">
+    <lily:resource rdf:resource="Claiomh_Solais"/>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ラスバレ</lily:usedIn>
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">神庭女子藝術高校</lily:garden>
   <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">造園科</lily:gardenDepartment>
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
@@ -101,8 +109,11 @@
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
-  <lily:charm rdf:resource="Risanautr"/>
-  <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
+  <lily:charm rdf:parseType="Resource">
+    <lily:resource rdf:resource="Risanautr"/>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ラスバレ</lily:usedIn>
+    <lily:additionalInformation xml:lang="ja">試作機</lily:additionalInformation>
+  </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">神庭女子藝術高校</lily:garden>
   <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">造園科</lily:gardenDepartment>
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
@@ -157,8 +168,11 @@
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
-  <lily:charm rdf:resource="Sugaar"/>
-  <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
+  <lily:charm rdf:parseType="Resource">
+    <lily:resource rdf:resource="Sugaar"/>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ラスバレ</lily:usedIn>
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">神庭女子藝術高校</lily:garden>
   <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">音楽科（声楽）</lily:gardenDepartment>
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
@@ -213,8 +227,11 @@
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
-  <lily:charm rdf:resource="Maltet"/>
-  <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
+  <lily:charm rdf:parseType="Resource">
+    <lily:resource rdf:resource="Maltet"/>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ラスバレ</lily:usedIn>
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">神庭女子藝術高校</lily:garden>
   <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">美術科（絵画）</lily:gardenDepartment>
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
@@ -270,8 +287,11 @@
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
-  <lily:charm rdf:resource="Durandal"/>
-  <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
+  <lily:charm rdf:parseType="Resource">
+    <lily:resource rdf:resource="Durandal"/>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ラスバレ</lily:usedIn>
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">神庭女子藝術高校</lily:garden>
   <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">音楽科（声楽）</lily:gardenDepartment>
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
