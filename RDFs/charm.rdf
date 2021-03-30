@@ -15,6 +15,7 @@
   <schema:name xml:lang="ja">グングニル</schema:name>
   <schema:name xml:lang="en">Gungnir</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Hitotsuyanagi_Riri"/>
   <lily:user rdf:resource="Futagawa_Fumi"/>
@@ -41,6 +42,7 @@
   <schema:name xml:lang="ja">グングニル・カービン</schema:name>
   <schema:name xml:lang="en">Gungnir Carbin</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <!-- <lily:user rdf:resource="Toda_Eulalia_Kotohi"/> -->
   <!-- <lily:user rdf:resource="Narumi_Clara_Yuko"/> -->
@@ -57,6 +59,7 @@
   <schema:name xml:lang="ja">ダインスレイフ</schema:name>
   <schema:name xml:lang="en">Dainsleif</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Ando_Tazusa"/>
   <lily:user rdf:resource="Kawazoe_Misuzu"/>
@@ -77,6 +80,7 @@
   <schema:name xml:lang="ja">ダインスレイフ・カービン</schema:name>
   <schema:name xml:lang="en">Dainsleif Carbin</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <!-- <lily:user rdf:resource="Amamiya_Sophia_Seren"/> -->
   <!-- <lily:user rdf:resource="Ichinomiya_Michaela_Himari"/> -->
@@ -96,6 +100,7 @@
   <schema:name xml:lang="ja">ダインスレイフ・マークスマン</schema:name>
   <schema:name xml:lang="en">Dainsleif Marksman</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <!-- <lily:user rdf:resource="Funada_Kiito"/> -->
   <lily:isVariantOf rdf:resource="Dainsleif"/>
@@ -109,6 +114,7 @@
   <schema:name xml:lang="ja">ブリューナク</schema:name>
   <schema:name xml:lang="en">Brionac</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Celticdale"/>
   <lily:user rdf:resource="Shirai_Yuyu"/>
   <lily:user rdf:resource="Hitotsuyanagi_Riri"/>
@@ -127,6 +133,7 @@
   <schema:name xml:lang="ja">ジョワユーズ</schema:name>
   <schema:name xml:lang="en">Joyeuse</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Grand_Guignol"/>
   <lily:user rdf:resource="Kaede_Johan_Nouvel"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -139,6 +146,7 @@
   <schema:name xml:lang="ja">ティルフィング プロトタイプ</schema:name>
   <schema:name xml:lang="en">Tyrfing Prototype</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Rokkaku_Shiori"/>
   <lily:hasVariant rdf:resource="Tyrfing_type_T"/>
@@ -153,6 +161,7 @@
   <schema:name xml:lang="ja">ティルフィング T型</schema:name>
   <schema:name xml:lang="en">Tyrfing type T</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Ando_Tazusa"/>
   <lily:user rdf:resource="Mori_Tatsuki"/>
@@ -170,6 +179,7 @@
   <schema:name xml:lang="ja">ティルフィング R型</schema:name>
   <schema:name xml:lang="en">Tyrfing type R</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <!-- <lily:user rdf:resource="Louloudis_Bromstedt"/> -->
   <lily:isVariantOf rdf:resource="Tyrfing_Prototype"/>
@@ -184,6 +194,7 @@
   <schema:name xml:lang="ja">タンキエム</schema:name>
   <schema:name xml:lang="en">Than Kiem</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Tsukuyomi_Giken"/>
   <lily:user rdf:resource="Yoshimura_Thi_Mai"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -198,6 +209,7 @@
   <schema:name xml:lang="ja">マソレリック</schema:name>
   <schema:name xml:lang="en">Ma-Zu Relic</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Taipei_Fengshen_Company"/>
   <lily:user rdf:resource="Kuo_Shenlin"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -210,6 +222,7 @@
   <schema:name xml:lang="ja">アステリオン</schema:name>
   <schema:name xml:lang="en">Asterion</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Hihiirokane_International"/>
   <lily:user rdf:resource="Wang_Yujia"/>
   <lily:user rdf:resource="Kuo_Shenlin"/>
@@ -239,6 +252,7 @@
   <schema:name xml:lang="ja">ニョルニール</schema:name>
   <schema:name xml:lang="en">Njolnir</schema:name>
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Miliam_Hildegard_von_Guropius"/>
   <lily:user rdf:resource="Miliam_Hildegard_von_Guropius"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -268,6 +282,7 @@
   <schema:name xml:lang="ja">ブルトガング</schema:name>
   <schema:name xml:lang="en">Blutgang</schema:name>
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Aizawa_Kazuha"/>
   <lily:user rdf:resource="Rokkaku_Shiori"/>
@@ -281,6 +296,7 @@
   <schema:name xml:lang="ja">モンドラゴン</schema:name>
   <schema:name xml:lang="en">Mondragon</schema:name>
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Auniamendi_Systemas"/>
   <lily:user rdf:resource="Sasaki_Ran"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -293,6 +309,7 @@
   <schema:name xml:lang="ja">ブルンツヴィーク</schema:name>
   <schema:name xml:lang="en">Bruncvík</schema:name>
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Hihiirokane_International"/>
   <lily:user rdf:resource="Watanabe_Akane"/>
   <lily:user rdf:resource="Iijima_Renka"/>
@@ -306,6 +323,7 @@
   <schema:name xml:lang="ja">クリューサーオール</schema:name>
   <schema:name xml:lang="en">Chrȳsāōr</schema:name>
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Hihiirokane_International"/>
   <lily:user rdf:resource="Hatsukano_Yo"/>
   <!-- <lily:user rdf:resource="Ito_Naehi"/> -->
@@ -333,6 +351,7 @@
   <schema:name xml:lang="ja">クラウ・ソラス</schema:name>
   <schema:name xml:lang="en">Claíomh Solais</schema:name>
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Celticdale"/>
   <lily:user rdf:resource="Kon_Kanaho"/>
   <!-- <lily:user rdf:resource="Hayami_Katsura"/> -->
@@ -346,6 +365,7 @@
   <schema:name xml:lang="ja">リサナウト</schema:name>
   <schema:name xml:lang="en">Risanautr</schema:name>
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Miyagawa_Takane"/>
   <!-- <lily:user rdf:resource="Noguchi_Shinano"/> -->
@@ -359,6 +379,7 @@
   <schema:name xml:lang="ja">シュガール</schema:name>
   <schema:name xml:lang="en">Sugaar</schema:name>
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Auniamendi_Systemas"/>
   <lily:user rdf:resource="Toki_Kureha"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -371,6 +392,7 @@
   <schema:name xml:lang="ja">マルテ</schema:name>
   <schema:name xml:lang="en">Maltet</schema:name>
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Grand_Guignol"/>
   <lily:user rdf:resource="Tamba_Akari"/>
   <!-- <lily:user rdf:resource="Murakami_Tokiwa"/> -->
@@ -385,6 +407,7 @@
   <schema:name xml:lang="ja">デュランダル</schema:name>
   <schema:name xml:lang="en">Durandal</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Grand_Guignol"/>
   <lily:user rdf:resource="Sadamori_Himeka"/>
   <!-- <lily:user rdf:resource="Uchida_Mayuri"/> -->
@@ -398,6 +421,7 @@
   <schema:name xml:lang="ja">バルムンク</schema:name>
   <schema:name xml:lang="en">Balmung</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Taniguchi_Hijiri"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -410,6 +434,7 @@
   <schema:name xml:lang="ja">ノートゥング</schema:name>
   <schema:name xml:lang="en">Nothung</schema:name>
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <!-- <schema:manufacturer rdf:resource=""/> -->
   <lily:user rdf:resource="Hara_Midori"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -422,6 +447,7 @@
   <schema:name xml:lang="ja">トールハンマー</schema:name>
   <schema:name xml:lang="en">Thor's Hammer</schema:name>
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Ushida_Watsuki"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
