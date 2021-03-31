@@ -17,6 +17,7 @@
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:generation>
   <!-- <schema:manufacturer rdf:resource=""/> -->
   <lily:user rdf:resource="Miliam_Hildegard_von_Guropius"/>
+  <lily:user rdf:resource="Mashima_Moyu"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
