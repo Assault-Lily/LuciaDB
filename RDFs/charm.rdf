@@ -425,7 +425,7 @@
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Grand_Guignol"/>
   <lily:user rdf:resource="Tamba_Akari"/>
-  <!-- <lily:user rdf:resource="Murakami_Tokiwa"/> -->
+  <lily:user rdf:resource="Murakami_Tokiwa"/>
   <!-- <lily:user rdf:resource="Yokoyama_Azusa"/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
@@ -618,6 +618,32 @@
   <!-- <lily:user rdf:resource="Hasebe_Touka"/> -->
   <lily:user rdf:resource="Banshoya_Ena"/>
   <lily:additionalInformation xml:lang="ja">実験機</lily:additionalInformation>
+<rdf:Description rdf:about="Vinst_Lilie">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC-17</schema:productID>
+  <lily:seriesName xml:lang="ja">ヴィンセツ・リーリエ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Vinst Lilie</lily:seriesName>
+  <schema:name xml:lang="ja">ヴィンセツ・リーリエ</schema:name>
+  <schema:name xml:lang="en">Vinst Lilie</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <!-- <lily:user rdf:resource="Shiba_Tomoshibi"/> -->
+  <lily:additionalInformation xml:lang="ja">開発試験機</lily:additionalInformation>
+  <lily:additionalInformation xml:lang="ja">精神直結型CHARM</lily:additionalInformation>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Vampire">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">ヴィンセツ・リーリエ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Vinst Lilie</lily:seriesName>
+  <schema:name xml:lang="ja">ヴァンピール</schema:name>
+  <schema:name xml:lang="en">Vampire</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Hasebe_Touka"/>
+  <lily:additionalInformation xml:lang="ja">起動実証機</lily:additionalInformation>
   <lily:additionalInformation xml:lang="ja">精神直結型CHARM</lily:additionalInformation>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
@@ -633,6 +659,21 @@
   <schema:manufacturer rdf:resource="Grand_Guignol"/>
   <lily:user rdf:resource="Rokkaku_Shiori"/>
   <!-- <lily:user rdf:resource="Fukuyama_Janne_Sachie"/> -->
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Yaren_Grable">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-25</schema:productID>
+  <lily:seriesName xml:lang="ja">ヤーレングレイブル</lily:seriesName>
+  <lily:seriesName xml:lang="en">Yaren Grable</lily:seriesName>
+  <schema:name xml:lang="ja">ヤーレングレイブル</schema:name>
+  <schema:name xml:lang="en">Yaren Grable</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <!-- <lily:user rdf:resource="Nagasawa_Yuki"/> -->
+  <lily:user rdf:resource="Luise_Ingels"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>

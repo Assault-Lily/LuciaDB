@@ -61,6 +61,7 @@
   <schema:member rdf:resource="Watanabe_Akane"/>
   <schema:member rdf:resource="Kawazoe_Misuzu"/>
   <schema:member rdf:resource="Taniguchi_Hijiri"/>
+  <schema:member rdf:resource="Hasebe_Touka"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
@@ -137,14 +138,14 @@
   <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
-  <!-- <schema:member rdf:resource="Kondo_Misaka"/> -->
-  <!-- <schema:member rdf:resource="Kiko_Totori"/> -->
-  <!-- <schema:member rdf:resource="Imagawa_Homare"/> -->
-  <!-- <schema:member rdf:resource="Seike_Tomoyo"/> -->
+  <schema:member rdf:resource="Kondo_Misaka"/>
+  <schema:member rdf:resource="Kiko_Totori"/>
+  <schema:member rdf:resource="Imagawa_Homare"/>
+  <schema:member rdf:resource="Seike_Tomoyo"/>
   <schema:member rdf:resource="Yamanashi_Hibari"/>
-  <!-- <schema:member rdf:resource="Kurokawa_Nady_Hanna"/> -->
-  <!-- <schema:member rdf:resource="Luise_Ingels"/> -->
-  <!-- <schema:member rdf:resource="Hasebe_Touka"/> -->
+  <schema:member rdf:resource="Kurokawa_Nady_Hanna"/>
+  <schema:member rdf:resource="Luise_Ingels"/>
+  <schema:member rdf:resource="Hasebe_Touka"/>
   <!-- <schema:member rdf:resource="Murakami_Tokiwa"/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
