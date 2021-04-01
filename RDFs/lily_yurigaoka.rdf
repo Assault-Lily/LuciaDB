@@ -2551,7 +2551,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <!-- <lily:schutzengel rdf:resource=""/> -->
+  <lily:schutzengel rdf:resource="Murakami_Tokiwa"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <!-- <lily:schild rdf:resource=""/> -->
   <!-- <lily:pastSchild rdf:resource=""/> -->
@@ -2973,7 +2973,7 @@
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
-  <!-- <lily:schild rdf:resource=""/> -->
+  <lily:schild rdf:resource="Kondo_Misaka"/>
   <!-- <lily:pastSchild rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
