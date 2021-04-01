@@ -672,7 +672,7 @@
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
-  <!-- <lily:user rdf:resource="Nagasawa_Yuki"/> -->
+  <lily:user rdf:resource="Nagasawa_Yuki"/>
   <lily:user rdf:resource="Luise_Ingels"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -702,6 +702,78 @@
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Funada_Ui"/>
   <lily:additionalInformation xml:lang="ja">B型兵装</lily:additionalInformation>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Beagnoth_Seax">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC-19</schema:productID>
+  <lily:seriesName xml:lang="ja">ベアノグスサクス</lily:seriesName>
+  <lily:seriesName xml:lang="en">Beagnoth Seax</lily:seriesName>
+  <schema:name xml:lang="ja">ベアノグスサクス</schema:name>
+  <schema:name xml:lang="en">Beagnoth Seax</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Kawabata_Hotaru"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Failnaught">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SC-11</schema:productID>
+  <lily:seriesName xml:lang="ja">フェイルノート</lily:seriesName>
+  <lily:seriesName xml:lang="en">Failnaught</lily:seriesName>
+  <schema:name xml:lang="ja">フェイルノート</schema:name>
+  <schema:name xml:lang="en">Failnaught</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Camelot_Castle"/>
+  <lily:user rdf:resource="Kozue_West"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Hildr">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DC-07</schema:productID>
+  <lily:seriesName xml:lang="ja">ヒルドル</lily:seriesName>
+  <lily:seriesName xml:lang="en">Hildr</lily:seriesName>
+  <schema:name xml:lang="ja">ヒルドル</schema:name>
+  <schema:name xml:lang="en">Hildr</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Igusa_Subaru"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Gray_Side">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC-10</schema:productID>
+  <lily:seriesName xml:lang="ja">グラーシーザ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Gray Side</lily:seriesName>
+  <lily:seriesName xml:lang="is">Grásiða</lily:seriesName>
+  <schema:name xml:lang="ja">グラーシーザ</schema:name>
+  <schema:name xml:lang="en">Gray Side</schema:name>
+  <schema:name xml:lang="is">Grásiða</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Fujita_Asagao"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Keraunos">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SC-14</schema:productID>
+  <lily:seriesName xml:lang="ja">ケラウノス</lily:seriesName>
+  <lily:seriesName xml:lang="en">Keraunos</lily:seriesName>
+  <schema:name xml:lang="ja">ケラウノス</schema:name>
+  <schema:name xml:lang="en">Keraunos</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Vulcanus_Industry"/>
+  <lily:user rdf:resource="Imamura_Yukari"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 

@@ -176,13 +176,13 @@
   <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers>
   <schema:member rdf:resource="Funada_Kiito"/>
   <schema:member rdf:resource="Funada_Ui"/>
-  <!-- <schema:member rdf:resource="Shiba_Tomoshibi"/> -->
-  <!-- <schema:member rdf:resource="Kawabata_Hotaru"/> -->
-  <!-- <schema:member rdf:resource="Kozue_West"/> -->
-  <!-- <schema:member rdf:resource="Igusa_Subaru"/> -->
-  <!-- <schema:member rdf:resource="Fujita_Asagao"/> -->
-  <!-- <schema:member rdf:resource="Imamura_Yukari"/> -->
-  <!-- <schema:member rdf:resource="Nagasawa_Yuki"/> -->
+  <schema:member rdf:resource="Shiba_Tomoshibi"/>
+  <schema:member rdf:resource="Kawabata_Hotaru"/>
+  <schema:member rdf:resource="Kozue_West"/>
+  <schema:member rdf:resource="Igusa_Subaru"/>
+  <schema:member rdf:resource="Fujita_Asagao"/>
+  <schema:member rdf:resource="Imamura_Yukari"/>
+  <schema:member rdf:resource="Nagasawa_Yuki"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 

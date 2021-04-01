@@ -70,6 +70,12 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Vulcanus_Industry">
+  <schema:name xml:lang="ja">ウルカヌス・インダストリー社</schema:name>
+  <schema:name xml:lang="en">Vulcanus Industry</schema:name>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="GEHENA">
   <schema:name xml:lang="ja">ゲヘナ</schema:name>
   <schema:name xml:lang="en">GEHENA</schema:name>
