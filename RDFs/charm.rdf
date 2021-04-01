@@ -75,7 +75,7 @@
   <!-- <lily:user rdf:resource="Toda_Eulalia_Kotohi"/> -->
   <!-- <lily:user rdf:resource="Narumi_Clara_Yuko"/> -->
   <!-- <lily:user rdf:resource="Hasegawa_Gabriella_Tsugumi"/> -->
-  <!-- <lily:user rdf:resource="Funada_Ui"/> -->
+  <lily:user rdf:resource="Funada_Ui"/>
   <lily:isVariantOf rdf:resource="Gungnir"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
@@ -94,7 +94,7 @@
   <lily:user rdf:resource="Kuo_Shenlin"/>
   <!-- <lily:user rdf:resource="Gozen"/> -->
   <lily:user rdf:resource="Shirai_Yuyu"/>
-  <!-- <lily:user rdf:resource="Funada_Kiito"/> -->
+  <lily:user rdf:resource="Funada_Kiito"/>
   <lily:user rdf:resource="Rokkaku_Shiori"/>
   <lily:hasVariant rdf:resource="Dainsleif_Carbin"/>
   <lily:hasVariant rdf:resource="Dainsleif_Marksman"/>
@@ -130,7 +130,7 @@
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
-  <!-- <lily:user rdf:resource="Funada_Kiito"/> -->
+  <lily:user rdf:resource="Funada_Kiito"/>
   <lily:isVariantOf rdf:resource="Dainsleif"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
@@ -675,6 +675,33 @@
   <!-- <lily:user rdf:resource="Nagasawa_Yuki"/> -->
   <lily:user rdf:resource="Luise_Ingels"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Hrunting">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC-16</schema:productID>
+  <lily:seriesName xml:lang="ja">フルンティング</lily:seriesName>
+  <lily:seriesName xml:lang="en">Hrunting</lily:seriesName>
+  <schema:name xml:lang="ja">フルンティング</schema:name>
+  <schema:name xml:lang="en">Hrunting</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Funada_Kiito"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Nailling">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-15</schema:productID>
+  <lily:seriesName xml:lang="ja">ネイリング</lily:seriesName>
+  <lily:seriesName xml:lang="en">Nailling</lily:seriesName>
+  <schema:name xml:lang="ja">ネイリング</schema:name>
+  <schema:name xml:lang="en">Nailling</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Funada_Ui"/>
+  <lily:additionalInformation xml:lang="ja">B型兵装</lily:additionalInformation>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 

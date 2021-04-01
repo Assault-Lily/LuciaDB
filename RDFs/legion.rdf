@@ -166,4 +166,24 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Hronesness">
+  <schema:name xml:lang="ja">ロネスネス</schema:name>
+  <schema:name xml:lang="en">Hronesness</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S</lily:legionGrade>
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers>
+  <schema:member rdf:resource="Funada_Kiito"/>
+  <schema:member rdf:resource="Funada_Ui"/>
+  <!-- <schema:member rdf:resource="Shiba_Tomoshibi"/> -->
+  <!-- <schema:member rdf:resource="Kawabata_Hotaru"/> -->
+  <!-- <schema:member rdf:resource="Kozue_West"/> -->
+  <!-- <schema:member rdf:resource="Igusa_Subaru"/> -->
+  <!-- <schema:member rdf:resource="Fujita_Asagao"/> -->
+  <!-- <schema:member rdf:resource="Imamura_Yukari"/> -->
+  <!-- <schema:member rdf:resource="Nagasawa_Yuki"/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
 </rdf:RDF>
