@@ -228,3 +228,7 @@ lily:submember          a   rdf:Property ;
 lily:numberOfMembers    a   rdf:Property ;
     rdfs:comment            "レギオンのメンバー数を表すプロパティ" ;
     rdfs:label              "メンバー数"@ja .
+
+lily:legionGrade        a   rdf:Property ;
+    rdfs:comment            "レギオンの格付けを表すプロパティ" ;
+    rdfs:label              "レギオン格付け"@ja .

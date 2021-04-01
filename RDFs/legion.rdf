@@ -14,7 +14,8 @@
   <schema:alternateName xml:lang="ja">一柳隊</schema:alternateName>
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
-  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers>
   <schema:member rdf:resource="Hitotsuyanagi_Riri"/>
   <schema:member rdf:resource="Shirai_Yuyu"/>
   <schema:member rdf:resource="Kaede_Johan_Nouvel"/>
@@ -34,7 +35,8 @@
   <schema:alternateName xml:lang="ja">壱盤隊</schema:alternateName>
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
-  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SSS</lily:legionGrade>
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</lily:numberOfMembers>
   <schema:member rdf:resource="Tanaka_Ichi"/>
   <schema:member rdf:resource="Takasuga_Tsukushi"/>
   <schema:member rdf:resource="Endo_Araya"/>
@@ -56,7 +58,8 @@
   <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
-  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</lily:numberOfMembers>
   <schema:member rdf:resource="Shirai_Yuyu"/>
   <schema:member rdf:resource="Amano_Soraha"/>
   <schema:member rdf:resource="Yoshimura_Thi_Mai"/>
@@ -74,7 +77,8 @@
   <schema:alternateName xml:lang="ja">楯の乙女</schema:alternateName>
   <schema:alternateName xml:lang="en">Shield Maiden</schema:alternateName>
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
-  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</lily:numberOfMembers>
   <schema:member rdf:resource="Aizawa_Kazuha"/>
   <schema:member rdf:resource="Sasaki_Ran"/>
   <schema:member rdf:resource="Iijima_Renka"/>
@@ -89,7 +93,8 @@
   <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
-  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</lily:numberOfMembers>
   <schema:member rdf:resource="Kon_Kanaho"/>
   <schema:member rdf:resource="Miyagawa_Takane"/>
   <schema:member rdf:resource="Toki_Kureha"/>
@@ -104,7 +109,8 @@
   <schema:alternateName xml:lang="ja">水夕会</schema:alternateName>
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
-  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SSS</lily:legionGrade>
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</lily:numberOfMembers>
   <schema:member rdf:resource="Rokkaku_Shiori"/>
   <schema:member rdf:resource="Taniguchi_Hijiri"/>
   <schema:member rdf:resource="Araya_Waka"/>
@@ -126,7 +132,8 @@
   <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
-  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers>
   <schema:member rdf:resource="Tamura_Nagi"/>
   <!-- <schema:member rdf:resource="Mitsui_Ko"/> -->
   <schema:member rdf:resource="Izumi_Botan"/>
@@ -145,7 +152,8 @@
   <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
-  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SSS</lily:legionGrade>
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</lily:numberOfMembers>
   <schema:member rdf:resource="Kondo_Misaka"/>
   <schema:member rdf:resource="Kiko_Totori"/>
   <schema:member rdf:resource="Imagawa_Homare"/>
