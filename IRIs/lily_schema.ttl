@@ -224,3 +224,7 @@ lily:disbanded          a   rdf:Property ;
 lily:submember          a   rdf:Property ;
     rdfs:comment            "レギオンのサブメンバーを表すプロパティ" ;
     rdfs:label              "サブメンバー"@ja .
+
+lily:numberOfMembers    a   rdf:Property ;
+    rdfs:comment            "レギオンのメンバー数を表すプロパティ" ;
+    rdfs:label              "メンバー数"@ja .
