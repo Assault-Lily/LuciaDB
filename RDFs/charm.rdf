@@ -618,6 +618,9 @@
   <!-- <lily:user rdf:resource="Hasebe_Touka"/> -->
   <lily:user rdf:resource="Banshoya_Ena"/>
   <lily:additionalInformation xml:lang="ja">実験機</lily:additionalInformation>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="Vinst_Lilie">
   <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC-17</schema:productID>
   <lily:seriesName xml:lang="ja">ヴィンセツ・リーリエ</lily:seriesName>
