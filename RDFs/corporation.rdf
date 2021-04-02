@@ -58,6 +58,18 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Camelot_Castle">
+  <schema:name xml:lang="ja">キャメロットキャッスル社</schema:name>
+  <schema:name xml:lang="en">Camelot Castle</schema:name>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Amatsu_Heavy_Industry">
+  <schema:name xml:lang="ja">天津重工</schema:name>
+  <schema:name xml:lang="en">Amatsu Heavy Industry</schema:name>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Corporation"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="GEHENA">
   <schema:name xml:lang="ja">ゲヘナ</schema:name>
   <schema:name xml:lang="en">GEHENA</schema:name>

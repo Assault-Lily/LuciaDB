@@ -113,9 +113,13 @@ lily:charm              a  rdf:Property ;
     rdfs:comment            "主な使用CHARMを表すプロパティ" ;
     rdfs:label              "主な使用CHARM"@ja .
 
-lily:charmAdditionalInformation  a  rdf:Property ;
-    rdfs:comment            "主な使用CHARMの追加情報（量産先行型など）を表すプロパティ" ;
-    rdfs:label              "主な使用CHARMの追加情報"@ja .
+lily:resource           a  rdf:Property ;
+    rdfs:comment            "参照先リソースを表すプロパティ" ;
+    rdfs:label              "参照先リソース"@ja .
+
+lily:additionalInformation  a  rdf:Property ;
+    rdfs:comment            "備考や追加情報を表すプロパティ" ;
+    rdfs:label              "備考"@ja .
 
 lily:garden             a   rdf:Property ;
     rdfs:comment            "所属ガーデンを表すプロパティ" ;
