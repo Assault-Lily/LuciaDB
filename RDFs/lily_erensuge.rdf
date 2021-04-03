@@ -157,8 +157,8 @@
   <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">FED374</lily:color>
-  <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
-  <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
+  <schema:birthPlace xml:lang="ja">京都府</schema:birthPlace>
+  <schema:birthPlace xml:lang="en">Kyoto</schema:birthPlace>
   <lily:favorite xml:lang="ja">ラーメン</lily:favorite>
   <lily:favorite xml:lang="ja">フォトジェニックなもの</lily:favorite>
   <lily:notGood xml:lang="ja">サラダ</lily:notGood>
