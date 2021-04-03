@@ -1957,7 +1957,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:pastLegion rdf:resource="Svanhvit"/>
-  <!-- <lily:schutzengel rdf:resource=""/> -->
+  <lily:schutzengel rdf:resource="Tamura_Nagi"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <lily:schild rdf:resource="Kudo_Sakua"/>
   <!-- <lily:pastSchild rdf:resource=""/> -->
@@ -2315,7 +2315,7 @@
   <lily:pastLegion rdf:resource="Svanhvit"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
-  <!-- <lily:schild rdf:resource=""/> -->
+  <lily:schild rdf:resource="Izumi_Botan"/>
   <!-- <lily:pastSchild rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
