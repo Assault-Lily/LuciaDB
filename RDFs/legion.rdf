@@ -68,6 +68,8 @@
   <schema:member rdf:resource="Kawazoe_Misuzu"/>
   <schema:member rdf:resource="Taniguchi_Hijiri"/>
   <schema:member rdf:resource="Hasebe_Touka"/>
+  <schema:member rdf:resource="Aoki_Kaho"/>
+  <schema:member rdf:resource="Takegoshi_Chihana"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
@@ -183,6 +185,29 @@
   <schema:member rdf:resource="Fujita_Asagao"/>
   <schema:member rdf:resource="Imamura_Yukari"/>
   <schema:member rdf:resource="Nagasawa_Yuki"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Lohengrin">
+  <schema:name xml:lang="ja">ローエングリン</schema:name>
+  <schema:name xml:lang="en">Lohengrin</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SSS</lily:legionGrade>
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Aoki_Kaho"/>
+  <schema:member rdf:resource="Sejima_Hiromu"/>
+  <schema:member rdf:resource="Kuramata_Yukiyo"/>
+  <schema:member rdf:resource="Tachihara_Sayu"/>
+  <schema:member rdf:resource="Tatsuno_Himiko"/>
+  <schema:member rdf:resource="Ban_Kaya"/>
+  <schema:member rdf:resource="Nishizawa_Mako"/>
+  <schema:member rdf:resource="Takegoshi_Chihana"/>
+  <schema:member rdf:resource="Sakaizawa_Naru"/>
+  <lily:submember rdf:resource="Sugiura_Hozumi"/>
+  <lily:submember rdf:resource="Hayashi_Kaoru"/>
+  <lily:submember rdf:resource="Fukuya_Maasa"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
