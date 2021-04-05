@@ -115,7 +115,7 @@
   <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</lily:numberOfMembers>
   <schema:member rdf:resource="Rokkaku_Shiori"/>
   <schema:member rdf:resource="Taniguchi_Hijiri"/>
-  <schema:member rdf:resource="Araya_Waka"/>
+  <schema:member rdf:resource="Niinomi_Nodoka"/>
   <schema:member rdf:resource="Izumi_Botan"/>
   <schema:member rdf:resource="Kudo_Sakua"/>
   <schema:member rdf:resource="Hara_Midori"/>

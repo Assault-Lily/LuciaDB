@@ -1842,7 +1842,7 @@
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <lily:schild rdf:resource="Rokkaku_Shiori"/>
   <!-- <lily:pastSchild rdf:resource=""/> -->
-  <lily:roomMate rdf:resource="Araya_Waka"/>
+  <lily:roomMate rdf:resource="Niinomi_Nodoka"/>
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:resource="Rokkaku_Sena"/> -->
   <!-- <lily:castName xml:lang="ja"></lily:castName> -->
@@ -1850,20 +1850,20 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="Araya_Waka">
+<rdf:Description rdf:about="Niinomi_Nodoka">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">新家和香</rdfs:label>
   <schema:familyName xml:lang="ja">新家</schema:familyName>
-  <!-- <schema:familyName xml:lang="en"></schema:familyName> -->
-  <!-- <lily:familyNameKana xml:lang="ja"></lily:familyNameKana> -->
+  <schema:familyName xml:lang="en">Niinomi</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">にいのみ</lily:familyNameKana>
   <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
   <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
   <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
   <schema:givenName xml:lang="ja">和香</schema:givenName>
-  <!-- <schema:givenName xml:lang="en"></schema:givenName> -->
-  <!-- <lily:givenNameKana xml:lang="ja"></lily:givenNameKana> -->
+  <schema:givenName xml:lang="en">Nodoka</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">のどか</lily:givenNameKana>
   <schema:name xml:lang="ja">新家和香</schema:name>
-  <!-- <schema:name xml:lang="en"></schema:name> -->
-  <!-- <lily:nameKana xml:lang="ja"></lily:nameKana> -->
+  <schema:name xml:lang="en">Niinomi Nodoka</schema:name>
+  <lily:nameKana xml:lang="ja">にいのみのどか</lily:nameKana>
   <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
