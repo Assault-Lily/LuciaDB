@@ -211,4 +211,24 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Heorot_Saints">
+  <schema:name xml:lang="ja">ヘオロットセインツ</schema:name>
+  <schema:name xml:lang="en">Heorot Saints</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade>
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers>
+  <schema:member rdf:resource="Hayami_Katsura"/>
+  <schema:member rdf:resource="Kawanabe_Nazuna"/>
+  <schema:member rdf:resource="Takehisa_Nakaba"/>
+  <schema:member rdf:resource="Saigo_Kurena"/>
+  <schema:member rdf:resource="Kawamura_Yuzuriha"/>
+  <schema:member rdf:resource="Suzuki_Chinami"/>
+  <schema:member rdf:resource="Yokoyama_Azusa"/>
+  <schema:member rdf:resource="Hishida_Haru"/>
+  <schema:member rdf:resource="Tsukioka_Momiji"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
 </rdf:RDF>

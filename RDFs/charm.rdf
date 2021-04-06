@@ -35,6 +35,36 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Yotunschwert">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">ヨートゥンシュベルト</lily:seriesName>
+  <lily:seriesName xml:lang="en">Yotunschwert</lily:seriesName>
+  <schema:name xml:lang="ja">ヨートゥンシュベルト</schema:name>
+  <schema:name xml:lang="en">Yotunschwert</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:generation>
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Funada_Kiito"/>
+  <lily:user rdf:resource="Funada_Ui"/>
+  <lily:user rdf:resource="Shiba_Tomoshibi"/>
+  <lily:user rdf:resource="Kawabata_Hotaru"/>
+  <lily:user rdf:resource="Kozue_West"/>
+  <lily:user rdf:resource="Igusa_Subaru"/>
+  <lily:user rdf:resource="Fujita_Asagao"/>
+  <lily:user rdf:resource="Imamura_Yukari"/>
+  <lily:user rdf:resource="Nagasawa_Yuki"/>
+  <lily:user rdf:resource="Hayami_Katsura"/>
+  <lily:user rdf:resource="Kawanabe_Nazuna"/>
+  <lily:user rdf:resource="Takehisa_Nakaba"/>
+  <lily:user rdf:resource="Saigo_Kurena"/>
+  <lily:user rdf:resource="Kawamura_Yuzuriha"/>
+  <lily:user rdf:resource="Suzuki_Chinami"/>
+  <lily:user rdf:resource="Yokoyama_Azusa"/>
+  <lily:user rdf:resource="Hishida_Haru"/>
+  <lily:user rdf:resource="Tsukioka_Momiji"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="Gungnir">
   <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-13</schema:productID>
   <lily:seriesName xml:lang="ja">グングニル</lily:seriesName>
@@ -54,7 +84,7 @@
   <lily:user rdf:resource="Taniguchi_Hijiri"/>
   <lily:user rdf:resource="Tamura_Nagi"/>
   <!-- <lily:user rdf:resource="Hata_Matsuri"/> -->
-  <!-- <lily:user rdf:resource="Kawamura_Yuzuriha"/> -->
+  <lily:user rdf:resource="Kawamura_Yuzuriha"/>
   <lily:user rdf:resource="Miliam_Hildegard_von_Guropius"/>
   <lily:user rdf:resource="Wang_Yujia"/>
   <!-- <lily:user rdf:resource="Yoshizaka_Nagisa"/> -->
@@ -72,6 +102,7 @@
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Aizawa_Kazuha"/>
+  <lily:user rdf:resource="Tsukioka_Momiji"/>
   <!-- <lily:user rdf:resource="Toda_Eulalia_Kotohi"/> -->
   <!-- <lily:user rdf:resource="Narumi_Clara_Yuko"/> -->
   <!-- <lily:user rdf:resource="Hasegawa_Gabriella_Tsugumi"/> -->
@@ -112,7 +143,7 @@
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <!-- <lily:user rdf:resource="Amamiya_Sophia_Seren"/> -->
   <!-- <lily:user rdf:resource="Ichinomiya_Michaela_Himari"/> -->
-  <!-- <lily:user rdf:resource="Kawamura_Yuzuriha"/> -->
+  <lily:user rdf:resource="Kawamura_Yuzuriha"/>
   <lily:user rdf:resource="Kon_Kanaho"/>
   <!-- <lily:user rdf:resource="Fukuyama_Janne_Sachie"/> -->
   <!-- <lily:user rdf:resource="Matsunaga_Brigid_Kayo"/> -->
@@ -151,7 +182,7 @@
   <lily:user rdf:resource="Tanaka_Ichi"/>
   <lily:user rdf:resource="Egawa_Kusumi"/>
   <lily:user rdf:resource="Ando_Tazusa"/>
-  <!-- <lily:user rdf:resource="Kawanabe Nazuna"/> -->
+  <lily:user rdf:resource="Kawanabe_Nazuna"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
@@ -385,7 +416,7 @@
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Celticdale"/>
   <lily:user rdf:resource="Kon_Kanaho"/>
-  <!-- <lily:user rdf:resource="Hayami_Katsura"/> -->
+  <lily:user rdf:resource="Hayami_Katsura"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
@@ -427,7 +458,7 @@
   <schema:manufacturer rdf:resource="Grand_Guignol"/>
   <lily:user rdf:resource="Tamba_Akari"/>
   <lily:user rdf:resource="Murakami_Tokiwa"/>
-  <!-- <lily:user rdf:resource="Yokoyama_Azusa"/> -->
+  <lily:user rdf:resource="Yokoyama_Azusa"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
@@ -777,6 +808,65 @@
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Vulcanus_Industry"/>
   <lily:user rdf:resource="Imamura_Yukari"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Futsu_No_Mitama">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-26</schema:productID>
+  <lily:seriesName xml:lang="ja">布都御魂</lily:seriesName>
+  <lily:seriesName xml:lang="en">Futsu No Mitama</lily:seriesName>
+  <schema:name xml:lang="ja">布都御魂</schema:name>
+  <schema:name xml:lang="en">Futsu No Mitama</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Amatsu_Heavy_Industry"/>
+  <lily:user rdf:resource="Takehisa_Nakaba"/>
+  <lily:user rdf:resource="Tsukioka_Momiji"/>
+  <!-- <lily:user rdf:resource="Katsuya_Fuyou"/> -->
+  <!-- <lily:user rdf:resource="Miyazaki_Hikaru"/> -->
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Hrotti">
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-29</schema:productID>
+  <lily:seriesName xml:lang="ja">フロッティ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Hrotti</lily:seriesName>
+  <schema:name xml:lang="ja">フロッティ</schema:name>
+  <schema:name xml:lang="en">Hrotti</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Kawamura_Yuzuriha"/>
+  <lily:additionalInformation xml:lang="ja">開発中</lily:additionalInformation>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Kuruzzi">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">クルッジ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Kuruzzi</lily:seriesName>
+  <schema:name xml:lang="ja">クルッジ</schema:name>
+  <schema:name xml:lang="en">Kuruzzi</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Hihiirokane_International"/>
+  <lily:user rdf:resource="Suzuki_Chinami"/>
+  <lily:additionalInformation xml:lang="ja">テスト運用中</lily:additionalInformation>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Caladbolg">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">カラドボルグ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Caladbolg</lily:seriesName>
+  <schema:name xml:lang="ja">カラドボルグ</schema:name>
+  <schema:name xml:lang="en">Caladbolg</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Hishida_Haru"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
