@@ -3289,7 +3289,7 @@
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Kurokawa_Nady_Hanna"/>
+    <lily:resource rdf:resource="Egawa_Kusumi"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
   <!-- <lily:castName xml:lang="ja"></lily:castName> -->
