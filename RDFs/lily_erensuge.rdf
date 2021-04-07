@@ -68,7 +68,14 @@
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
-  <!-- <schema:sibling rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </schema:sibling> -->
+  <!-- <lily:relationship rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </lily:relationship> -->
   <lily:castName xml:lang="ja">藤井彩加</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q28068428"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
@@ -127,7 +134,14 @@
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
-  <!-- <schema:sibling rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </schema:sibling> -->
+  <!-- <lily:relationship rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </lily:relationship> -->
   <lily:castName xml:lang="ja">夏目愛海</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q47582342"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
@@ -188,7 +202,14 @@
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
-  <!-- <schema:sibling rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </schema:sibling> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Hatsukano_Yo"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">石飛恵里花</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q51166206"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
@@ -247,7 +268,14 @@
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
-  <!-- <schema:sibling rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </schema:sibling> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Iijima_Renka"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">三村遥佳</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q97590111"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
@@ -310,7 +338,14 @@
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
-  <!-- <schema:sibling rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </schema:sibling> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Yoshimura_Thi_Mai"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">野中深愛</lily:castName>
   <!-- <lily:castResource rdf:resource=""/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>

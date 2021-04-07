@@ -181,6 +181,10 @@ lily:roomMate           a   rdf:Property ;
     rdfs:comment            "寮のルームメイトを表すプロパティ" ;
     rdfs:label              "ルームメイト"@ja .
 
+lily:relationship       a   rdf:Property ;
+    rdfs:comment            "人間関係を表すプロパティ" ;
+    rdfs:label              "人間関係"@ja .
+
 lily:castName           a   rdf:Property ;
     rdfs:comment            "キャスト名を表すプロパティ" ;
     rdfs:label              "キャスト名"@ja .

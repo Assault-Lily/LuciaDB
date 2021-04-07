@@ -22,7 +22,7 @@
   <schema:name xml:lang="ja">今叶星</schema:name>
   <schema:name xml:lang="en">Kon Kanaho</schema:name>
   <lily:nameKana xml:lang="ja">こんかなほ</lily:nameKana>
-  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
+  <lily:anotherName xml:lang="ja">グラン・エプレの双璧</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
@@ -67,7 +67,14 @@
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource="Miyagawa_Takane"/> -->
   <!-- <schema:parent rdf:resource=""/> -->
-  <!-- <schema:sibling rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </schema:sibling> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Miyagawa_Takane"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">幼馴染</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">前田佳織里</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q41693141"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
@@ -87,7 +94,7 @@
   <schema:name xml:lang="ja">宮川高嶺</schema:name>
   <schema:name xml:lang="en">Miyagawa Takane</schema:name>
   <lily:nameKana xml:lang="ja">みやがわたかね</lily:nameKana>
-  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
+  <lily:anotherName xml:lang="ja">グラン・エプレの双璧</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
@@ -125,7 +132,14 @@
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource="Kon_Kanaho"/> -->
   <!-- <schema:parent rdf:resource=""/> -->
-  <!-- <schema:sibling rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </schema:sibling> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Kon_Kanaho"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">幼馴染</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">礒部花凜</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q18990383"/>
   <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/礒部花凜"/>
@@ -184,7 +198,14 @@
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
-  <!-- <schema:sibling rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </schema:sibling> -->
+  <!-- <lily:relationship rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </lily:relationship> -->
   <lily:castName xml:lang="ja">東城咲耶子</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q20041619"/>
   <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/東城咲耶子"/>
@@ -243,7 +264,14 @@
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <lily:roomMate rdf:resource="Sadamori_Himeka"/>
   <!-- <schema:parent rdf:resource=""/> -->
-  <!-- <schema:sibling rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </schema:sibling> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Kozue_West"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">進藤あまね</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q60989810"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
@@ -303,7 +331,14 @@
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <lily:roomMate rdf:resource="Tamba_Akari"/>
   <!-- <schema:parent rdf:resource=""/> -->
-  <!-- <schema:sibling rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </schema:sibling> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Kuo_Shenlin"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル視</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">富田美憂</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q22131362"/>
   <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/富田美憂"/>
