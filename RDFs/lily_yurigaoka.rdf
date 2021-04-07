@@ -22,7 +22,7 @@
   <schema:name xml:lang="ja">一柳梨璃</schema:name>
   <schema:name xml:lang="en">Hitotsuyanagi Riri</schema:name>
   <lily:nameKana xml:lang="ja">ひとつやなぎりり</lily:nameKana>
-  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
+  <lily:anotherName xml:lang="ja">スノーフレイク</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">156.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.0</schema:weight>
