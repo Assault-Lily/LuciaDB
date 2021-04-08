@@ -78,7 +78,7 @@
   <lily:user rdf:resource="Futagawa_Fumi"/>
   <lily:user rdf:resource="Kaede_Johan_Nouvel"/>
   <lily:user rdf:resource="Hitotsuyanagi_Yuri"/>
-  <!-- <lily:user rdf:resource="Ito_Shizu"/> -->
+  <lily:user rdf:resource="Ito_Shizu"/>
   <lily:user rdf:resource="Egawa_Kusumi"/>
   <lily:user rdf:resource="Takasuga_Tsukushi"/>
   <lily:user rdf:resource="Taniguchi_Hijiri"/>
@@ -227,6 +227,7 @@
   <lily:user rdf:resource="Mori_Tatsuki"/>
   <lily:user rdf:resource="Yamanashi_Hibari"/>
   <lily:user rdf:resource="Takegoshi_Chihana"/>
+  <lily:user rdf:resource="Uchida_Mayuri"/>
   <!-- <lily:user rdf:resource="Chemir_Friedheim"/> -->
   <lily:isVariantOf rdf:resource="Tyrfing_Prototype"/>
   <schema:isSimilarTo rdf:resource="Tyrfing_type_R"/>
@@ -472,7 +473,7 @@
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Grand_Guignol"/>
   <lily:user rdf:resource="Sadamori_Himeka"/>
-  <!-- <lily:user rdf:resource="Uchida_Mayuri"/> -->
+  <lily:user rdf:resource="Uchida_Mayuri"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 

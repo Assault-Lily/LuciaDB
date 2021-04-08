@@ -231,4 +231,24 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Schwartz_Grail">
+  <schema:name xml:lang="ja">シュバルツグレイル</schema:name>
+  <schema:name xml:lang="en">Schwartz Grail</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade>
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers>
+  <schema:member rdf:resource="Hosuda_Kotoko"/>
+  <schema:member rdf:resource="Maekawa_Kina"/>
+  <schema:member rdf:resource="Takahashi_Yayori"/>
+  <schema:member rdf:resource="Ito_Shizu"/>
+  <schema:member rdf:resource="Sara_Stackenschneider"/>
+  <schema:member rdf:resource="Yamamoto_Mirei"/>
+  <schema:member rdf:resource="Uchida_Mayuri"/>
+  <schema:member rdf:resource="Kemmochi_Noriko"/>
+  <schema:member rdf:resource="Murano_Kokoro"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
 </rdf:RDF>
