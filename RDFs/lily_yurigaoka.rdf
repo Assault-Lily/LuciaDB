@@ -3015,7 +3015,7 @@
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Murakami_Tokiwa"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
-  <!-- <lily:schild rdf:resource=""/> -->
+  <lily:schild rdf:resource="Kurokawa_Nady_Hanna"/>
   <!-- <lily:pastSchild rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
@@ -3283,7 +3283,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <!-- <lily:schutzengel rdf:resource=""/> -->
+  <lily:schutzengel rdf:resource="Kondo_Misaka"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <!-- <lily:schild rdf:resource=""/> -->
   <!-- <lily:pastSchild rdf:resource=""/> -->
