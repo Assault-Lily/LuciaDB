@@ -679,6 +679,7 @@
   <schema:birthPlace xml:lang="ja">レイキャヴィーク</schema:birthPlace>
   <schema:birthPlace xml:lang="en">Reykjavik</schema:birthPlace>
   <lily:favorite xml:lang="ja">魚料理</lily:favorite>
+  <lily:favorite xml:lang="ja">サウナ</lily:favorite>
   <lily:notGood xml:lang="ja">心霊現象</lily:notGood>
   <lily:hobby_talent xml:lang="ja">猫のマスコットの小物集め</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">テラリウム</lily:hobby_talent>
@@ -4224,8 +4225,8 @@
   <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
-  <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
-  <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
+  <schema:birthPlace xml:lang="ja">千葉県</schema:birthPlace>
+  <schema:birthPlace xml:lang="en">Chiba</schema:birthPlace>
   <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
