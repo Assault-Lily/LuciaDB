@@ -4774,6 +4774,7 @@
   <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <lily:favorite xml:lang="ja">本</lily:favorite>
+  <lily:favorite xml:lang="ja">ラタトゥイユ</lily:favorite>
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <lily:hobby_talent xml:lang="ja">屋根裏暮らし</lily:hobby_talent>
   <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
