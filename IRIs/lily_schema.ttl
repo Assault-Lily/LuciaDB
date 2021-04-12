@@ -177,6 +177,22 @@ lily:pastSchild         a   rdf:Property ;
     rdfs:comment            "過去のシルトを表すプロパティ" ;
     rdfs:label              "過去のシルト"@ja .
 
+lily:olderSchwester     a   rdf:Property ;
+    rdfs:comment            "シュベスター（姉）を表すプロパティ" ;
+    rdfs:label              "シュベスター（姉）"@ja .
+
+lily:pastOlderSchwester a   rdf:Property ;
+    rdfs:comment            "過去のシュベスター（姉）を表すプロパティ" ;
+    rdfs:label              "過去のシュベスター（姉）"@ja .
+
+lily:youngerSchwester   a   rdf:Property ;
+    rdfs:comment            "シュベスター（妹）を表すプロパティ" ;
+    rdfs:label              "シュベスター（妹）"@ja .
+
+lily:pastYoungerSchwester a   rdf:Property ;
+    rdfs:comment            "過去のシュベスター（妹）を表すプロパティ" ;
+    rdfs:label              "過去のシュベスター（妹）"@ja .
+
 lily:roomMate           a   rdf:Property ;
     rdfs:comment            "寮のルームメイトを表すプロパティ" ;
     rdfs:label              "ルームメイト"@ja .

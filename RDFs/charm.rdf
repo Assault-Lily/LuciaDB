@@ -103,6 +103,7 @@
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Aizawa_Kazuha"/>
   <lily:user rdf:resource="Tsukioka_Momiji"/>
+  <lily:user rdf:resource="Kishimoto_Lucia_Raimu"/>
   <!-- <lily:user rdf:resource="Toda_Eulalia_Kotohi"/> -->
   <!-- <lily:user rdf:resource="Narumi_Clara_Yuko"/> -->
   <!-- <lily:user rdf:resource="Hasegawa_Gabriella_Tsugumi"/> -->
@@ -141,11 +142,12 @@
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:generation>
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
-  <!-- <lily:user rdf:resource="Amamiya_Sophia_Seren"/> -->
   <!-- <lily:user rdf:resource="Ichinomiya_Michaela_Himari"/> -->
   <lily:user rdf:resource="Kawamura_Yuzuriha"/>
   <lily:user rdf:resource="Kon_Kanaho"/>
-  <!-- <lily:user rdf:resource="Fukuyama_Janne_Sachie"/> -->
+  <lily:user rdf:resource="Amamiya_Sofia_Seren"/>
+  <lily:user rdf:resource="Fukuyama_Jeanne_Sachie"/>
+  <lily:user rdf:resource="Kuroki_Francisca_Yuria"/>
   <!-- <lily:user rdf:resource="Matsunaga_Brigid_Kayo"/> -->
   <lily:user rdf:resource="Rokkaku_Shiori"/>
   <lily:isVariantOf rdf:resource="Dainsleif"/>
@@ -295,7 +297,7 @@
   <lily:user rdf:resource="Endo_Araya"/>
   <!-- <lily:user rdf:resource="Katakura_Shion"/> -->
   <lily:user rdf:resource="Kanabako_Misora"/>
-  <!-- <lily:user rdf:resource="Kishimoto_Maria_Mirai"/> -->
+  <lily:user rdf:resource="Kishimoto_Maria_Mirai"/>
   <!-- <lily:user rdf:resource="Kishimoto_Lucia_Raimu"/> -->
   <!-- <lily:user rdf:resource="Date_Furiru"/> -->
   <!-- <lily:user rdf:resource="Taneda_Seina"/> -->
@@ -694,7 +696,7 @@
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Grand_Guignol"/>
   <lily:user rdf:resource="Rokkaku_Shiori"/>
-  <!-- <lily:user rdf:resource="Fukuyama_Janne_Sachie"/> -->
+  <lily:user rdf:resource="Fukuyama_Jeanne_Sachie"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
@@ -882,6 +884,34 @@
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Vulcanus_Industry"/>
   <lily:user rdf:resource="Endo_Araya"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Fierbois">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">フィエルボワ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Fierbois</lily:seriesName>
+  <schema:name xml:lang="ja">フィエルボワ</schema:name>
+  <schema:name xml:lang="en">Fierbois</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Fukuyama_Jeanne_Sachie"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Adelring">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">エゼルリング</lily:seriesName>
+  <lily:seriesName xml:lang="en">Adelring</lily:seriesName>
+  <schema:name xml:lang="ja">エゼルリング</schema:name>
+  <schema:name xml:lang="en">Adelring</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="GEHENA"/>
+  <lily:user rdf:resource="Kuroki_Francisca_Yuria"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>

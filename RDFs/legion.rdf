@@ -251,4 +251,25 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Ironside">
+  <schema:name xml:lang="ja">アイアンサイド</schema:name>
+  <schema:name xml:lang="en">Ironside</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade>
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</lily:numberOfMembers>
+  <schema:member rdf:resource="Fukuyama_Jeanne_Sachie"/>
+  <schema:member rdf:resource="Kishimoto_Lucia_Raimu"/>
+  <schema:member rdf:resource="Amamiya_Sofia_Seren"/>
+  <schema:member rdf:resource="Kuroki_Francisca_Yuria"/>
+  <!-- <schema:member rdf:resource="Li_Clystina_Sisi"/> -->
+  <!-- <schema:member rdf:resource="Saeki_Julia_Karen"/> -->
+  <!-- <schema:member rdf:resource="Seto_Veronica_Ichika"/> -->
+  <!-- <schema:member rdf:resource="Takatori_Natalie_Towa"/> -->
+  <!-- <schema:member rdf:resource="Hasegawa_Gabriela_Tsugumi"/> -->
+  <!-- <schema:member rdf:resource="Matsunaga_Brigitta_Kayo"/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
 </rdf:RDF>
