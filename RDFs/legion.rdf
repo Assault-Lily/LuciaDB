@@ -263,12 +263,12 @@
   <schema:member rdf:resource="Kishimoto_Lucia_Raimu"/>
   <schema:member rdf:resource="Amamiya_Sofia_Seren"/>
   <schema:member rdf:resource="Kuroki_Francisca_Yuria"/>
-  <!-- <schema:member rdf:resource="Li_Clystina_Sisi"/> -->
-  <!-- <schema:member rdf:resource="Saeki_Julia_Karen"/> -->
-  <!-- <schema:member rdf:resource="Seto_Veronica_Ichika"/> -->
-  <!-- <schema:member rdf:resource="Takatori_Natalie_Towa"/> -->
-  <!-- <schema:member rdf:resource="Hasegawa_Gabriela_Tsugumi"/> -->
-  <!-- <schema:member rdf:resource="Matsunaga_Brigitta_Kayo"/> -->
+  <schema:member rdf:resource="Li_Clystina_Sisi"/>
+  <schema:member rdf:resource="Saeki_Julia_Karen"/>
+  <schema:member rdf:resource="Seto_Veronica_Ichika"/>
+  <schema:member rdf:resource="Takatori_Natalie_Towa"/>
+  <schema:member rdf:resource="Matsunaga_Brigitta_Kayo"/>
+  <schema:member rdf:resource="Hasegawa_Gabriela_Tsugumi"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
