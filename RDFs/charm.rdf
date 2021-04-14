@@ -8,6 +8,19 @@
   xmlns:lily="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#"
   xml:base="https://lily.fvhp.net/rdf/RDFs/detail/">
 
+<rdf:Description rdf:about="Unknown_Named_Charm">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">CHARM名称不明</lily:seriesName>
+  <lily:seriesName xml:lang="en">Unknown Named CHARM</lily:seriesName>
+  <schema:name xml:lang="ja">CHARM名称不明</schema:name>
+  <schema:name xml:lang="en">Unknown Named CHARM</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:generation> -->
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Tachibana_Theresia_Nagisa"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="First_Generation_Charm">
   <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
   <lily:seriesName xml:lang="ja">第1世代CHARM</lily:seriesName>

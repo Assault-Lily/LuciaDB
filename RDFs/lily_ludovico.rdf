@@ -1101,7 +1101,7 @@
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
-    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:resource rdf:resource="Unknown_Named_Charm"/>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
     <lily:additionalInformation xml:lang="ja">名称不明</lily:additionalInformation>
