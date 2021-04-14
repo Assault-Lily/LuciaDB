@@ -272,4 +272,24 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Temple_Legion">
+  <schema:name xml:lang="ja">テンプルレギオン</schema:name>
+  <schema:name xml:lang="en">Temple Legion</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Ichinomiya_Michaela_Himari"/>
+  <schema:member rdf:resource="Tachibana_Theresia_Nagisa"/>
+  <schema:member rdf:resource="Sano_Matilda_Kokoro"/>
+  <schema:member rdf:resource="Matsunaga_Brigitta_Kayo"/>
+  <schema:member rdf:resource="Narumi_Clara_Yuko"/>
+  <schema:member rdf:resource="Hojo_Monica_Asahi"/>
+  <schema:member rdf:resource="Hanaoka_Angela_Moe"/>
+  <schema:member rdf:resource="Hasegawa_Gabriela_Tsugumi"/>
+  <schema:member rdf:resource="Haneda_Catalina_Mei"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
 </rdf:RDF>
