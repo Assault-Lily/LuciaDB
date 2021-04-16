@@ -348,6 +348,7 @@
   <lily:user rdf:resource="Shirai_Yuyu"/>
   <lily:user rdf:resource="Amano_Soraha"/>
   <lily:user rdf:resource="Banshoya_Ena"/>
+  <lily:user rdf:resource="Yoshimura_Thi_Mai"/>
   <!-- <lily:user rdf:resource="Akashi_Aika"/> -->
   <!-- <lily:user rdf:resource="Aoki_Kaho"/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
