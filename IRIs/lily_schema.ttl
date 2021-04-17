@@ -40,6 +40,16 @@ lily:Legion                     a   rdfs:Class ;
     rdfs:label                      "レギオン"@ja ;
     rdfs:subClassOf                 schema:Organization .
 
+lily:MediaContent               a   rdfs:Class ;
+    rdfs:comment                    "メディアミックスコンテンツを表すクラス" ;
+    rdfs:label                      "コンテンツ"@ja ;
+    rdfs:subClassOf                 schema:CreativeWork .
+
+lily:Book                       a   rdfs:Class ;
+    rdfs:comment                    "書籍を表すクラス" ;
+    rdfs:label                      "書籍"@ja ;
+    rdfs:subClassOf                 lily:MediaContent .
+
 # ここからはプロパティ
 lily:familyNameKana     a   rdf:Property ;
     rdfs:comment            "姓のよみがなを表すプロパティ" ;
