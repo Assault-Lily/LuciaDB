@@ -25,6 +25,11 @@ lily:Lily                       a   rdfs:Class ;
     rdfs:label                      "リリィ"@ja ;
     rdfs:subClassOf                 lily:Character .
 
+lily:Teacher                    a   rdfs:Class ;
+    rdfs:comment                    "教導官を表すクラス" ;
+    rdfs:label                      "教導官"@ja ;
+    rdfs:subClassOf                 lily:Character .
+
 lily:Charm                      a   rdfs:Class ;
     rdfs:comment                    "チャームを表すクラス" ;
     rdfs:label                      "チャーム"@ja ;
@@ -49,6 +54,16 @@ lily:Book                       a   rdfs:Class ;
     rdfs:comment                    "書籍を表すクラス" ;
     rdfs:label                      "書籍"@ja ;
     rdfs:subClassOf                 lily:MediaContent .
+
+lily:Play                       a   rdfs:Class ;
+    rdfs:comment                    "舞台作品を表すクラス" ;
+    rdfs:label                      "舞台"@ja ;
+    rdfs:subClassOf                 schema:TheaterEvent .
+
+lily:TheaterPerformance         a   rdfs:Class ;
+    rdfs:comment                    "舞台公演を表すクラス" ;
+    rdfs:label                      "舞台公演"@ja ;
+    rdfs:subClassOf                 schema:TheaterEvent .
 
 # ここからはプロパティ
 lily:familyNameKana     a   rdf:Property ;
@@ -262,3 +277,55 @@ lily:numberOfMembers    a   rdf:Property ;
 lily:legionGrade        a   rdf:Property ;
     rdfs:comment            "レギオンの格付けを表すプロパティ" ;
     rdfs:label              "レギオン格付け"@ja .
+
+lily:genre              a   rdf:Property ;
+    rdfs:comment            "作品ジャンルを表すプロパティ" ;
+    rdfs:label              "ジャンル"@ja .
+
+lily:showTime           a   rdf:Property ;
+    rdfs:comment            "公演日時を表すプロパティ" ;
+    rdfs:label              "公演日時"@ja .
+
+lily:producer           a   rdf:Property ;
+    rdfs:comment            "プロデューサーを表すプロパティ" ;
+    rdfs:label              "プロデューサー"@ja .
+
+lily:scenarioWriter     a   rdf:Property ;
+    rdfs:comment            "脚本家を表すプロパティ" ;
+    rdfs:label              "脚本"@ja .
+
+lily:director           a   rdf:Property ;
+    rdfs:comment            "演出家を表すプロパティ" ;
+    rdfs:label              "演出"@ja .
+
+lily:composer           a   rdf:Property ;
+    rdfs:comment            "作曲者を表すプロパティ" ;
+    rdfs:label              "作曲"@ja .
+
+lily:originalAuthor     a   rdf:Property ;
+    rdfs:comment            "原作者を表すプロパティ" ;
+    rdfs:label              "原作"@ja .
+
+lily:planning           a   rdf:Property ;
+    rdfs:comment            "企画者を表すプロパティ" ;
+    rdfs:label              "企画"@ja .
+
+lily:production         a   rdf:Property ;
+    rdfs:comment            "制作者を表すプロパティ" ;
+    rdfs:label              "制作"@ja .
+
+lily:contributor        a   rdf:Property ;
+    rdfs:comment            "協力・協賛を表すプロパティ" ;
+    rdfs:label              "協力・協賛"@ja .
+
+lily:organizer          a   rdf:Property ;
+    rdfs:comment            "主催者を表すプロパティ" ;
+    rdfs:label              "主催"@ja .
+
+lily:cast               a   rdf:Property ;
+    rdfs:comment            "キャストを表すプロパティ" ;
+    rdfs:label              "キャスト"@ja .
+
+lily:performAs          a   rdf:Property ;
+    rdfs:comment            "役柄を表すプロパティ" ;
+    rdfs:label              "役柄"@ja .

@@ -117,9 +117,15 @@
   <lily:user rdf:resource="Aizawa_Kazuha"/>
   <lily:user rdf:resource="Tsukioka_Momiji"/>
   <lily:user rdf:resource="Kishimoto_Lucia_Raimu"/>
-  <!-- <lily:user rdf:resource="Toda_Eulalia_Kotohi"/> -->
-  <!-- <lily:user rdf:resource="Narumi_Clara_Yuko"/> -->
-  <!-- <lily:user rdf:resource="Hasegawa_Gabriella_Tsugumi"/> -->
+  <lily:user rdf:resource="Toda_Eulalia_Kotohi"/>
+  <lily:user rdf:resource="Narumi_Clara_Yuko"/>
+  <lily:user rdf:resource="Hasegawa_Gabriela_Tsugumi"/>
+  <lily:user rdf:resource="Seto_Veronica_Ichika"/>
+  <lily:user rdf:resource="Takatori_Natalie_Towa"/>
+  <lily:user rdf:resource="Tachibana_Theresia_Nagisa"/>
+  <lily:user rdf:resource="Sano_Matilda_Kokoro"/>
+  <lily:user rdf:resource="Hanaoka_Angela_Moe"/>
+  <lily:user rdf:resource="Kosaka_Anastasiya_Ryoko"/>
   <lily:user rdf:resource="Funada_Ui"/>
   <lily:isVariantOf rdf:resource="Gungnir"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -161,7 +167,17 @@
   <lily:user rdf:resource="Amamiya_Sofia_Seren"/>
   <lily:user rdf:resource="Fukuyama_Jeanne_Sachie"/>
   <lily:user rdf:resource="Kuroki_Francisca_Yuria"/>
-  <!-- <lily:user rdf:resource="Matsunaga_Brigid_Kayo"/> -->
+  <lily:user rdf:resource="Amamiya_Sofia_Seren"/>
+  <lily:user rdf:resource="Li_Clystina_Sisi"/>
+  <lily:user rdf:resource="Saeki_Julia_Karen"/>
+  <lily:user rdf:resource="Matsunaga_Brigitta_Kayo"/>
+  <lily:user rdf:resource="Ichinomiya_Michaela_Himari"/>
+  <lily:user rdf:resource="Hojo_Monica_Asahi"/>
+  <lily:user rdf:resource="Haneda_Catalina_Mei"/>
+  <lily:user rdf:resource="Nagase_Marta_Nonoka"/>
+  <lily:user rdf:resource="Suzushiro_Catarina_Miyabi"/>
+  <lily:user rdf:resource="Natsume_Elizabeth_Ema"/>
+  <lily:user rdf:resource="Izumi_Rosa_Rina"/>
   <lily:user rdf:resource="Rokkaku_Shiori"/>
   <lily:isVariantOf rdf:resource="Dainsleif"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -543,6 +559,7 @@
   <!-- <lily:user rdf:resource="Ishikawa_Aoi"/> -->
   <!-- <lily:user rdf:resource="Matsunaga_Yui"/> -->
   <lily:user rdf:resource="Kaede_Johan_Nouvel"/>
+  <lily:user rdf:resource="Akutsu_Lucifer_Maaya"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>

@@ -9,7 +9,7 @@
   xml:base="https://lily.fvhp.net/rdf/RDFs/detail/">
 
 <rdf:Description rdf:about="Assault_Lily_Hitotsuyanagi_Tai_Shutsugeki_Shimasu">
-  <schema:genre xml:lang="ja">小説</schema:genre>
+  <lily:genre xml:lang="ja">小説</lily:genre>
   <schema:name xml:lang="ja">アサルトリリィ～一柳隊、出撃します！～</schema:name>
   <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-4-89637-513-8</schema:isbn>
   <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">345</schema:numberOfPages>
@@ -19,6 +19,7 @@
   <schema:author xml:lang="ja">笠間裕之</schema:author>
   <schema:illustrator xml:lang="ja">八重樫南</schema:illustrator>
   <schema:illustrator xml:lang="ja">細居美恵子</schema:illustrator>
+  <lily:originalAuthor xml:lang="ja">尾花沢軒栄</lily:originalAuthor>
   <schema:character rdf:resource="Hitotsuyanagi_Riri"/>
   <schema:character rdf:resource="Shirai_Yuyu"/>
   <schema:character rdf:resource="Kaede_Johan_Nouvel"/>
@@ -50,7 +51,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="Assault_Lily_Arms">
-  <schema:genre xml:lang="ja">小説</schema:genre>
+  <lily:genre xml:lang="ja">小説</lily:genre>
   <schema:name xml:lang="ja">アサルトリリィ アームズ</schema:name>
   <!-- <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:isbn> -->
   <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">446</schema:numberOfPages>
@@ -60,6 +61,7 @@
   <schema:author xml:lang="ja">笠間裕之</schema:author>
   <schema:illustrator xml:lang="ja">八重樫南</schema:illustrator>
   <schema:illustrator xml:lang="ja">白玉団子</schema:illustrator>
+  <lily:originalAuthor xml:lang="ja">尾花沢軒栄</lily:originalAuthor>
   <schema:character rdf:resource="Hitotsuyanagi_Riri"/>
   <schema:character rdf:resource="Shirai_Yuyu"/>
   <schema:character rdf:resource="Kaede_Johan_Nouvel"/>
