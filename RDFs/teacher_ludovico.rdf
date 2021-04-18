@@ -38,8 +38,8 @@
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">鷹の目</lily:rareSkill>
-  <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
+  <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">魔眼</lily:subSkill>
+  <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole order</lily:subSkill>
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
@@ -102,8 +102,8 @@
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z</lily:rareSkill>
-  <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
+  <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">聖域転換</lily:subSkill>
+  <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">千里眼</lily:subSkill>
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
@@ -166,8 +166,10 @@
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">天の秤目</lily:rareSkill>
-  <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
+  <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">インビジブルワン</lily:subSkill>
+  <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whole order</lily:subSkill>
+  <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">狂乱の閾</lily:subSkill>
+  <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">聖域転換</lily:subSkill>
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
