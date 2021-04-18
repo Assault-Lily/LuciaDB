@@ -125,6 +125,11 @@
   <lily:user rdf:resource="Tachibana_Theresia_Nagisa"/>
   <lily:user rdf:resource="Sano_Matilda_Kokoro"/>
   <lily:user rdf:resource="Hanaoka_Angela_Moe"/>
+  <lily:user rdf:resource="Nishina_Elizabeth_Otoha"/>
+  <lily:user rdf:resource="Yagami_Catalina_Mahiro"/>
+  <lily:user rdf:resource="Igarashi_Bernadetta_Sumire"/>
+  <lily:user rdf:resource="Horie_Agata_Yukino"/>
+  <lily:user rdf:resource="Yamabuki_Elizabeth_Keito"/>
   <lily:user rdf:resource="Kosaka_Anastasiya_Ryoko"/>
   <lily:user rdf:resource="Funada_Ui"/>
   <lily:isVariantOf rdf:resource="Gungnir"/>
@@ -167,7 +172,6 @@
   <lily:user rdf:resource="Amamiya_Sofia_Seren"/>
   <lily:user rdf:resource="Fukuyama_Jeanne_Sachie"/>
   <lily:user rdf:resource="Kuroki_Francisca_Yuria"/>
-  <lily:user rdf:resource="Amamiya_Sofia_Seren"/>
   <lily:user rdf:resource="Li_Clystina_Sisi"/>
   <lily:user rdf:resource="Saeki_Julia_Karen"/>
   <lily:user rdf:resource="Matsunaga_Brigitta_Kayo"/>
@@ -177,6 +181,8 @@
   <lily:user rdf:resource="Nagase_Marta_Nonoka"/>
   <lily:user rdf:resource="Suzushiro_Catarina_Miyabi"/>
   <lily:user rdf:resource="Natsume_Elizabeth_Ema"/>
+  <lily:user rdf:resource="Asahina_Agnes_Fuuka"/>
+  <lily:user rdf:resource="Kagami_Agnes_Mio"/>
   <lily:user rdf:resource="Izumi_Rosa_Rina"/>
   <lily:user rdf:resource="Rokkaku_Shiori"/>
   <lily:isVariantOf rdf:resource="Dainsleif"/>
