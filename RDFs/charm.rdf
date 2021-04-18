@@ -545,6 +545,7 @@
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Ushida_Watsuki"/>
+  <lily:additionalInformation xml:lang="ja">ユグドラシル社「ミョルニール公開コンペ」出品機体</lily:additionalInformation>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 

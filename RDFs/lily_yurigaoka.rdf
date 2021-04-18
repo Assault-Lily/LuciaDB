@@ -2672,6 +2672,8 @@
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ヘリオスフィア</lily:rareSkill>
   <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">軍神の加護</lily:subSkill>
   <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">約束の領域</lily:subSkill>
+  <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Awakening</lily:subSkill>
+  <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ステルス</lily:subSkill>
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
