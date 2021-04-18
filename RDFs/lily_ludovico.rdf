@@ -1414,10 +1414,6 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Kosaka_Anastasiya_Ryoko"/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">応援団を託される</lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Narumi_Clara_Yuko"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
