@@ -566,6 +566,7 @@
   <!-- <lily:user rdf:resource="Ishikawa_Aoi"/> -->
   <!-- <lily:user rdf:resource="Matsunaga_Yui"/> -->
   <lily:user rdf:resource="Kaede_Johan_Nouvel"/>
+  <lily:user rdf:resource="Nosaka_Jacqueline_Kazane"/>
   <lily:user rdf:resource="Akutsu_Lucifer_Maaya"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
