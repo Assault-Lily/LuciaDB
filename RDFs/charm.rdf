@@ -326,7 +326,7 @@
   <lily:user rdf:resource="Wang_Yujia"/>
   <lily:user rdf:resource="Kuo_Shenlin"/>
   <!-- <lily:user rdf:resource="Ishigami_Mio"/> -->
-  <!-- <lily:user rdf:resource="Ishikawa_Aoi"/> -->
+  <lily:user rdf:resource="Ishikawa_Aoi"/>
   <!-- <lily:user rdf:resource="Izue_Shinobu"/> -->
   <!-- <lily:user rdf:resource="Imagawa_Homare"/> -->
   <lily:user rdf:resource="Endo_Araya"/>
@@ -563,7 +563,7 @@
   <schema:name xml:lang="en">Trigrav</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:generation>
   <schema:manufacturer rdf:resource="Hihiirokane_International"/>
-  <!-- <lily:user rdf:resource="Ishikawa_Aoi"/> -->
+  <lily:user rdf:resource="Ishikawa_Aoi"/>
   <!-- <lily:user rdf:resource="Matsunaga_Yui"/> -->
   <lily:user rdf:resource="Kaede_Johan_Nouvel"/>
   <lily:user rdf:resource="Nosaka_Jacqueline_Kazane"/>

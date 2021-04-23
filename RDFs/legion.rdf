@@ -293,4 +293,19 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Sagajo_Tokusentai">
+  <schema:name xml:lang="ja">生徒会特選隊</schema:name>
+  <!-- <schema:name xml:lang="en"></schema:name> -->
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade>
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Ishikawa_Aoi"/>
+  <!-- <schema:member rdf:resource="Matsunaga_Yui"/> -->
+  <!-- <schema:member rdf:resource="Katakura_Shion"/> -->
+  <!-- <schema:member rdf:resource="Date_Furiru"/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
 </rdf:RDF>
