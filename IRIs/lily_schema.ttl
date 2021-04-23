@@ -318,6 +318,10 @@ lily:contributor        a   rdf:Property ;
     rdfs:comment            "協力・協賛を表すプロパティ" ;
     rdfs:label              "協力・協賛"@ja .
 
+lily:cooperation        a   rdf:Property ;
+    rdfs:comment            "運営協力を表すプロパティ" ;
+    rdfs:label              "運営協力"@ja .
+
 lily:organizer          a   rdf:Property ;
     rdfs:comment            "主催者を表すプロパティ" ;
     rdfs:label              "主催"@ja .
