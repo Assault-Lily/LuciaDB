@@ -125,6 +125,7 @@
   <lily:submember rdf:resource="Tamura_Nagi"/>
   <schema:member rdf:resource="Diana_Koolhaas"/>
   <schema:member rdf:resource="Arima_Mitsune"/>
+  <schema:member rdf:resource="Ashihara_Konomi"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
