@@ -10,7 +10,7 @@ An unofficial RDF of Assault Lily
 
 このリポジトリではアサルトリリィに登場するリリィやCHARMなどの情報をRDF形式で蓄積・公開しています。
 
-データの収集・加筆にご協力頂ける方は是非 pull request をお願いいたします。
+#### データの収集・加筆にご協力頂ける方は是非 [こちら](CONTRIBUTING.md) をお読みください。
 
 ### 注意
 
