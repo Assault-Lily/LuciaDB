@@ -302,9 +302,9 @@
   <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade>
   <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
   <schema:member rdf:resource="Ishikawa_Aoi"/>
-  <!-- <schema:member rdf:resource="Matsunaga_Yui"/> -->
-  <!-- <schema:member rdf:resource="Katakura_Shion"/> -->
-  <!-- <schema:member rdf:resource="Date_Furiru"/> -->
+  <schema:member rdf:resource="Matsunaga_Yui"/>
+  <schema:member rdf:resource="Katakura_Shion"/>
+  <schema:member rdf:resource="Date_Furiru"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
