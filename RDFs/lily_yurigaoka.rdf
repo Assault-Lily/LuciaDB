@@ -4666,10 +4666,10 @@
   <!-- <lily:pastSchild rdf:resource=""/> -->
   <lily:roomMate rdf:resource="Hitotsuyanagi_Riri"/>
   <!-- <schema:parent rdf:resource=""/> -->
-  <!-- <schema:sibling rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Ito_Naehi"/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">異母姉</lily:additionalInformation> -->
-  <!-- </schema:sibling> -->
+  <schema:sibling rdf:parseType="Resource">
+    <lily:resource rdf:resource="Ito_Naehi"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">異母姉</lily:additionalInformation>
+  </schema:sibling>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Tachihara_Sayu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル</lily:additionalInformation>
