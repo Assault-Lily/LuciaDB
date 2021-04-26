@@ -1211,6 +1211,11 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">アニメ</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
+  <lily:charm rdf:parseType="Resource">
+    <lily:resource rdf:resource="Precieuse"/>
+    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <lily:additionalInformation xml:lang="ja">ユニーク機体</lily:additionalInformation>
+  </lily:charm>
   <!-- <lily:charmAdditionalInformation xml:lang="ja"></lily:charmAdditionalInformation> -->
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立百合ヶ丘女学院</lily:garden>
   <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">普通科</lily:gardenDepartment>
