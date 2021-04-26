@@ -60,10 +60,15 @@ lily:Play                       a   rdfs:Class ;
     rdfs:label                      "舞台"@ja ;
     rdfs:subClassOf                 schema:TheaterEvent .
 
-lily:TheaterPerformance         a   rdfs:Class ;
-    rdfs:comment                    "舞台公演を表すクラス" ;
-    rdfs:label                      "舞台公演"@ja ;
-    rdfs:subClassOf                 schema:TheaterEvent .
+lily:AnimeSeries                a   rdfs:Class ;
+    rdfs:comment                    "アニメシリーズを表すクラス" ;
+    rdfs:label                      "アニメシリーズ"@ja ;
+    rdfs:subClassOf                 schema:TVSeries .
+
+lily:AnimeEpisode               a   rdfs:Class ;
+    rdfs:comment                    "アニメの各話を表すクラス" ;
+    rdfs:label                      "アニメ各話"@ja ;
+    rdfs:subClassOf                 schema:Episode .
 
 # ここからはプロパティ
 lily:familyNameKana     a   rdf:Property ;
@@ -291,12 +296,20 @@ lily:producer           a   rdf:Property ;
     rdfs:label              "プロデューサー"@ja .
 
 lily:scenarioWriter     a   rdf:Property ;
-    rdfs:comment            "脚本家を表すプロパティ" ;
+    rdfs:comment            "脚本を表すプロパティ" ;
     rdfs:label              "脚本"@ja .
 
-lily:director           a   rdf:Property ;
-    rdfs:comment            "演出家を表すプロパティ" ;
+lily:chiefEpisodeDirection a   rdf:Property ;
+    rdfs:comment            "チーフ演出を表すプロパティ" ;
+    rdfs:label              "チーフ演出"@ja .
+
+lily:episodeDirection   a   rdf:Property ;
+    rdfs:comment            "演出を表すプロパティ" ;
     rdfs:label              "演出"@ja .
+
+lily:director           a   rdf:Property ;
+    rdfs:comment            "監督を表すプロパティ" ;
+    rdfs:label              "監督"@ja .
 
 lily:composer           a   rdf:Property ;
     rdfs:comment            "作曲者を表すプロパティ" ;
@@ -325,6 +338,106 @@ lily:cooperation        a   rdf:Property ;
 lily:organizer          a   rdf:Property ;
     rdfs:comment            "主催者を表すプロパティ" ;
     rdfs:label              "主催"@ja .
+
+lily:characterDesign    a   rdf:Property ;
+    rdfs:comment            "キャラクターデザインを表すプロパティ" ;
+    rdfs:label              "キャラクターデザイン"@ja .
+
+lily:subCharacterDesign a   rdf:Property ;
+    rdfs:comment            "サブキャラクターデザインを表すプロパティ" ;
+    rdfs:label              "サブキャラクターデザイン"@ja .
+
+lily:chiefAnimationSupervisor a   rdf:Property ;
+    rdfs:comment            "総作画監督を表すプロパティ" ;
+    rdfs:label              "総作画監督"@ja .
+
+lily:CASAssistance      a   rdf:Property ;
+    rdfs:comment            "総作画監督協力を表すプロパティ" ;
+    rdfs:label              "総作画監督協力"@ja .
+
+lily:animationSupervisor a   rdf:Property ;
+    rdfs:comment            "作画監督を表すプロパティ" ;
+    rdfs:label              "作画監督"@ja .
+
+lily:ASAssistance       a   rdf:Property ;
+    rdfs:comment            "作画監督協力を表すプロパティ" ;
+    rdfs:label              "作画監督協力"@ja .
+
+lily:assistantDirector  a   rdf:Property ;
+    rdfs:comment            "副監督を表すプロパティ" ;
+    rdfs:label              "副監督"@ja .
+
+lily:propDesign         a   rdf:Property ;
+    rdfs:comment            "プロップデザインを表すプロパティ" ;
+    rdfs:label              "プロップデザイン"@ja .
+
+lily:actionDirector     a   rdf:Property ;
+    rdfs:comment            "アクションディレクターを表すプロパティ" ;
+    rdfs:label              "アクションディレクター"@ja .
+
+lily:charmDesign        a   rdf:Property ;
+    rdfs:comment            "CHARMデザインを表すプロパティ" ;
+    rdfs:label              "CHARMデザイン"@ja .
+
+lily:hugeDesign         a   rdf:Property ;
+    rdfs:comment            "ヒュージデザインを表すプロパティ" ;
+    rdfs:label              "ヒュージデザイン"@ja .
+
+lily:backgroundArtDirector a   rdf:Property ;
+    rdfs:comment            "美術監督を表すプロパティ" ;
+    rdfs:label              "美術監督"@ja .
+
+lily:colorDesign        a   rdf:Property ;
+    rdfs:comment            "色彩設計を表すプロパティ" ;
+    rdfs:label              "色彩設計"@ja .
+
+lily:CGDirector         a   rdf:Property ;
+    rdfs:comment            "3DCGディレクターを表すプロパティ" ;
+    rdfs:label              "3DCGディレクター"@ja .
+
+lily:compositingDirector a   rdf:Property ;
+    rdfs:comment            "撮影監督を表すプロパティ" ;
+    rdfs:label              "撮影監督"@ja .
+
+lily:editor             a   rdf:Property ;
+    rdfs:comment            "編集者を表すプロパティ" ;
+    rdfs:label              "編集"@ja .
+
+lily:soundDirector      a   rdf:Property ;
+    rdfs:comment            "音響監督を表すプロパティ" ;
+    rdfs:label              "音響監督"@ja .
+
+lily:music              a   rdf:Property ;
+    rdfs:comment            "音楽を表すプロパティ" ;
+    rdfs:label              "音楽"@ja .
+
+lily:musicProducer      a   rdf:Property ;
+    rdfs:comment            "音楽プロデューサーを表すプロパティ" ;
+    rdfs:label              "音楽プロデューサー"@ja .
+
+lily:musicProduction    a   rdf:Property ;
+    rdfs:comment            "音楽制作を表すプロパティ" ;
+    rdfs:label              "音楽制作"@ja .
+
+lily:animationProducer a   rdf:Property ;
+    rdfs:comment            "アニメーションプロデューサーを表すプロパティ" ;
+    rdfs:label              "アニメーションプロデューサー"@ja .
+
+lily:animationProduction a   rdf:Property ;
+    rdfs:comment            "アニメーション制作を表すプロパティ" ;
+    rdfs:label              "アニメーション制作"@ja .
+
+lily:storyboard         a   rdf:Property ;
+    rdfs:comment            "絵コンテを表すプロパティ" ;
+    rdfs:label              "絵コンテ"@ja .
+
+lily:subtitle           a   rdf:Property ;
+    rdfs:comment            "サブタイトルを表すプロパティ" ;
+    rdfs:label              "サブタイトル"@ja .
+
+lily:parentheses        a   rdf:Property ;
+    rdfs:comment            "サブタイトル下部の括弧書きを表すプロパティ" ;
+    rdfs:label              "括弧書き"@ja .
 
 lily:cast               a   rdf:Property ;
     rdfs:comment            "キャストを表すプロパティ" ;

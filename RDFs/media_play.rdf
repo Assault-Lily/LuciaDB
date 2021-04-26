@@ -34,7 +34,7 @@
   <lily:producer xml:lang="ja">林修司</lily:producer>
   <lily:producer xml:lang="ja">早園正</lily:producer>
   <lily:scenarioWriter xml:lang="ja">桜木さやか</lily:scenarioWriter>
-  <lily:director xml:lang="ja">桜木さやか</lily:director>
+  <lily:episodeDirection xml:lang="ja">桜木さやか</lily:episodeDirection>
   <lily:composer xml:lang="ja">谷ナオキ</lily:composer>
   <lily:originalAuthor xml:lang="ja">尾花沢軒栄</lily:originalAuthor>
   <lily:planning xml:lang="ja">ルドビコ★</lily:planning>
@@ -187,7 +187,7 @@
   <lily:producer xml:lang="ja">林修司</lily:producer>
   <lily:producer xml:lang="ja">早園正</lily:producer>
   <lily:scenarioWriter xml:lang="ja">桜木さやか</lily:scenarioWriter>
-  <lily:director xml:lang="ja">桜木さやか</lily:director>
+  <lily:episodeDirection xml:lang="ja">桜木さやか</lily:episodeDirection>
   <lily:composer xml:lang="ja">谷ナオキ</lily:composer>
   <lily:originalAuthor xml:lang="ja">尾花沢軒栄</lily:originalAuthor>
   <lily:planning xml:lang="ja">ピウス</lily:planning>
@@ -338,7 +338,7 @@
   <lily:producer xml:lang="ja">林修司</lily:producer>
   <lily:producer xml:lang="ja">早園正</lily:producer>
   <lily:scenarioWriter xml:lang="ja">桜木さやか</lily:scenarioWriter>
-  <lily:director xml:lang="ja">桜木さやか</lily:director>
+  <lily:episodeDirection xml:lang="ja">桜木さやか</lily:episodeDirection>
   <lily:composer xml:lang="ja">谷ナオキ</lily:composer>
   <lily:originalAuthor xml:lang="ja">尾花沢軒栄</lily:originalAuthor>
   <lily:planning xml:lang="ja">私立ルドビコ女学院</lily:planning>
@@ -517,7 +517,7 @@
   <lily:producer xml:lang="ja">林修司</lily:producer>
   <lily:producer xml:lang="ja">早園正</lily:producer>
   <lily:scenarioWriter xml:lang="ja">桜木さやか</lily:scenarioWriter>
-  <lily:director xml:lang="ja">桜木さやか</lily:director>
+  <lily:episodeDirection xml:lang="ja">桜木さやか</lily:episodeDirection>
   <lily:composer xml:lang="ja">谷ナオキ</lily:composer>
   <lily:originalAuthor xml:lang="ja">尾花沢軒栄</lily:originalAuthor>
   <lily:planning xml:lang="ja">ピウス</lily:planning>
@@ -701,7 +701,7 @@
   <lily:producer xml:lang="ja">林修司</lily:producer>
   <lily:producer xml:lang="ja">早園正</lily:producer>
   <lily:scenarioWriter xml:lang="ja">桜木さやか</lily:scenarioWriter>
-  <lily:director xml:lang="ja">桜木さやか</lily:director>
+  <lily:episodeDirection xml:lang="ja">桜木さやか</lily:episodeDirection>
   <lily:composer xml:lang="ja">谷ナオキ</lily:composer>
   <lily:originalAuthor xml:lang="ja">尾花沢軒栄</lily:originalAuthor>
   <lily:planning xml:lang="ja">ピウス</lily:planning>
@@ -889,7 +889,7 @@
   <lily:producer xml:lang="ja">大嶋実句</lily:producer>
   <lily:producer xml:lang="ja">小林正英</lily:producer>
   <lily:scenarioWriter xml:lang="ja">桜木さやか</lily:scenarioWriter>
-  <lily:director xml:lang="ja">林修司</lily:director>
+  <lily:episodeDirection xml:lang="ja">林修司</lily:episodeDirection>
   <lily:composer xml:lang="ja">谷ナオキ</lily:composer>
   <lily:planning xml:lang="ja">ブシロード</lily:planning>
   <lily:planning xml:lang="ja">アゾンインターナショナル</lily:planning>
@@ -1055,7 +1055,7 @@
   <lily:executiveProducer xml:lang="ja">林修司</lily:executiveProducer>
   <lily:producer xml:lang="ja">岡田太郎</lily:producer>
   <lily:scenarioWriter xml:lang="ja">桜木さやか</lily:scenarioWriter>
-  <lily:director xml:lang="ja">松崎史也</lily:director>
+  <lily:episodeDirection xml:lang="ja">松崎史也</lily:episodeDirection>
   <lily:composer xml:lang="ja">谷ナオキ</lily:composer>
   <lily:planning xml:lang="ja">ブシロード</lily:planning>
   <lily:production xml:lang="ja">ピウス</lily:production>
