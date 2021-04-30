@@ -12,7 +12,7 @@
     <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ティシア・パウムガルトナー</rdfs:label>
     <schema:familyName xml:lang="ja">パウムガルトナー</schema:familyName>
     <schema:familyName xml:lang="en">Paumgartner</schema:familyName>
-    <<lily:familyNameKana xml:lang="ja">ぱうむがるとなー</lily:familyNameKana>
+    <lily:familyNameKana xml:lang="ja">ぱうむがるとなー</lily:familyNameKana>
     <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
     <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
     <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
