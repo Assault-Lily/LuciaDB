@@ -342,7 +342,7 @@
 
 <rdf:Description rdf:about="Raguel">
   <schema:name xml:lang="ja">第5飛空艇団ラグエル</schema:name>
-  <schema:name xml:lang="en">5th Airborne Brigade Raguel</schema:name>
+  <schema:name xml:lang="en">5th Gunship Brigade Raguel</schema:name>
   <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
@@ -350,28 +350,6 @@
   <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers> -->
   <schema:member rdf:resource="Tiuccia_Paumgartner"/>
   <!-- <schema:member rdf:resource="(リーアリデル・Eschenbach)"/> -->
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="Odaiba_Interceptor_Group_4">
-  <schema:name xml:lang="ja">御台場迎撃戦第4部隊</schema:name>
-  <schema:name xml:lang="en">Odaiba Interceptor Group 4</schema:name>
-  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
-  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
-  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
-  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade> -->
-  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers> -->
-  <schema:member rdf:resource="Shinkai_Chikage"/>
-  <schema:member rdf:resource="Saigo_Kurena"/>
-  <schema:member rdf:resource="Imagawa_Homare"/>
-  <schema:member rdf:resource="Kuroki_Francisca_Yuria"/>
-  <schema:member rdf:resource="Yamanashi_Hibari"/>
-  <schema:member rdf:resource="Takehisa_Nakaba"/>
-  <schema:member rdf:resource="Kawanabe_Nazuna"/>
-  <schema:member rdf:resource="Tiuccia_Paumgartner"/>
-  <!-- <schema:member rdf:resource="(リーアリデル・Eschenbach)"/> -->
-  <!--<schema:member rdf:resource="Hirose_Minato"/> -->
-  <!-- <schema:member rdf:resource="Soga_Suzuna"/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 

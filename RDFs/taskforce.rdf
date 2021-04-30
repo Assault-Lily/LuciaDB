@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:schema="http://schema.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:lily="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#"
+  xml:base="https://lily.fvhp.net/rdf/RDFs/detail/">
+
+<rdf:Description rdf:about="Odaiba_Interception_Taskforce_4">
+  <schema:name xml:lang="ja">御台場迎撃戦第4部隊</schema:name>
+  <schema:name xml:lang="en">Odaiba Interception Battle the 4th Task Force</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade> -->
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers> -->
+  <schema:member rdf:resource="Shinkai_Chikage"/>
+  <schema:member rdf:resource="Saigo_Kurena"/>
+  <schema:member rdf:resource="Imagawa_Homare"/>
+  <schema:member rdf:resource="Kuroki_Francisca_Yuria"/>
+  <schema:member rdf:resource="Yamanashi_Hibari"/>
+  <schema:member rdf:resource="Takehisa_Nakaba"/>
+  <schema:member rdf:resource="Kawanabe_Nazuna"/>
+  <schema:member rdf:resource="Tiuccia_Paumgartner"/>
+  <!-- <schema:member rdf:resource="(リーアリデル・Eschenbach)"/> -->
+  <!--<schema:member rdf:resource="Hirose_Minato"/> -->
+  <!-- <schema:member rdf:resource="Soga_Suzuna"/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Taskforce"/>
+</rdf:Description>
+
+</rdf:RDF>
