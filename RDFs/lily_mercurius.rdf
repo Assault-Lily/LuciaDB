@@ -51,7 +51,7 @@
     <!-- <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:grade> -->
     <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
     <lily:gardenJobTitle xml:lang="ja">生徒会長</lily:gardenJobTitle>
-    <lily:legion rdf:resource=""/>
+    <lily:legion rdf:resource="Raguel"/>
     <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">団長</lily:legionJobTitle>
     <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
     <lily:pastLegion rdf:resource="Odaiba_Interceptor_Group_4"/>
