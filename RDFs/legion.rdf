@@ -320,4 +320,24 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Eir">
+  <schema:name xml:lang="ja">エイル</schema:name>
+  <schema:name xml:lang="en">Eir</schema:name>
+  <schema:alternateName xml:lang="ja">秦祀隊</schema:alternateName>
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade>
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers>
+  <schema:member rdf:resource="Hata_Matsuri"/>
+  <!-- <schema:member rdf:resource="Kimura_Kazuki"/> -->
+  <!-- <schema:member rdf:resource="Takasaki_Sumire"/> -->
+  <!-- <schema:member rdf:resource="Naito_Hanano"/> -->
+  <!-- <schema:member rdf:resource="Fujimura_Ryuka"/> -->
+  <!-- <schema:member rdf:resource="Monica_Rossi"/> -->
+  <!-- <schema:member rdf:resource="Sakurai_Hazuki"/> -->
+  <!-- <schema:member rdf:resource="Rachelle_de_Moureaux"/> -->
+  <!-- <schema:member rdf:resource="Takeda_Mitsumi"/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
 </rdf:RDF>
