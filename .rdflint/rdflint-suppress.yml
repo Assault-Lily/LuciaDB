@@ -1,0 +1,160 @@
+RDFs/legion.rdf:
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '134'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Svanhvit
+    predicate: http://schema.org/name
+    object: '"Svanhvít"@en'
+    message: 'Data LanguageType not matched: lang is en, but Svanhvít (line: 134,
+        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Svanhvit - http://schema.org/name
+        - "Svanhvít"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '154'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Sanngridr
+    predicate: http://schema.org/name
+    object: '"Sanngrídr"@en'
+    message: 'Data LanguageType not matched: lang is en, but Sanngrídr (line: 154,
+        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Sanngridr - http://schema.org/name
+        - "Sanngrídr"@en)'
+RDFs/corporation.rdf:
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '57'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Auniamendi_Systemas
+    predicate: http://schema.org/name
+    object: '"Auñamendi Systemas"@en'
+    message: 'Data LanguageType not matched: lang is en, but Auñamendi Systemas (line:
+        57, col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Auniamendi_Systemas
+        - http://schema.org/name - "Auñamendi Systemas"@en)'
+RDFs/lily_yurigaoka.rdf:
+  - key: com.github.imas.rdflint.validator.impl.customError
+    level: WARN
+    message: '姓名整合(日本語・ミドルネームがある人): 姓名, 姓+名が不一致: ミリアム・ヒルデガルド・v・グロピウス != フォン・グロピウスヒルデガルドミリアム|ミリアムヒルデガルドフォン・グロピウス|フォン・グロピウス・ヒルデガルド・ミリアム|ミリアム・ヒルデガルド・フォン・グロピウス'
+  - key: com.github.imas.rdflint.validator.impl.customError
+    level: WARN
+    message: '姓名整合(日本語・ミドルネームがある人): 姓名, 姓+名が不一致: 楓・J・ヌーベル != ヌーベルジョアン楓|楓ジョアンヌーベル|ヌーベル・ジョアン・楓|楓・ジョアン・ヌーベル'
+RDFs/charm.rdf:
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '409'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Bruncvik
+    predicate: https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+    object: '"Bruncvík"@en'
+    message: 'Data LanguageType not matched: lang is en, but Bruncvík (line: 409,
+        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Bruncvik - https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+        - "Bruncvík"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '411'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Bruncvik
+    predicate: http://schema.org/name
+    object: '"Bruncvík"@en'
+    message: 'Data LanguageType not matched: lang is en, but Bruncvík (line: 411,
+        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Bruncvik - http://schema.org/name
+        - "Bruncvík"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '423'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Chrysaor
+    predicate: https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+    object: '"Chrȳsāōr"@en'
+    message: 'Data LanguageType not matched: lang is en, but Chrȳsāōr (line: 423,
+        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Chrysaor - https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+        - "Chrȳsāōr"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '425'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Chrysaor
+    predicate: http://schema.org/name
+    object: '"Chrȳsāōr"@en'
+    message: 'Data LanguageType not matched: lang is en, but Chrȳsāōr (line: 425,
+        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Chrysaor - http://schema.org/name
+        - "Chrȳsāōr"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '438'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Gae_Bolg
+    predicate: https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+    object: '"Gáe Bolg"@en'
+    message: 'Data LanguageType not matched: lang is en, but Gáe Bolg (line: 438,
+        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Gae_Bolg - https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+        - "Gáe Bolg"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '440'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Gae_Bolg
+    predicate: http://schema.org/name
+    object: '"Gáe Bolg"@en'
+    message: 'Data LanguageType not matched: lang is en, but Gáe Bolg (line: 440,
+        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Gae_Bolg - http://schema.org/name
+        - "Gáe Bolg"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '451'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Claiomh_Solais
+    predicate: https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+    object: '"Claíomh Solais"@en'
+    message: 'Data LanguageType not matched: lang is en, but Claíomh Solais (line:
+        451, col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Claiomh_Solais
+        - https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName - "Claíomh Solais"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '453'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Claiomh_Solais
+    predicate: http://schema.org/name
+    object: '"Claíomh Solais"@en'
+    message: 'Data LanguageType not matched: lang is en, but Claíomh Solais (line:
+        453, col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Claiomh_Solais
+        - http://schema.org/name - "Claíomh Solais"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '672'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Gunnfjodur
+    predicate: https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+    object: '"Gunnfjödur"@en'
+    message: 'Data LanguageType not matched: lang is en, but Gunnfjödur (line: 672,
+        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Gunnfjodur - https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+        - "Gunnfjödur"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '674'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Gunnfjodur
+    predicate: http://schema.org/name
+    object: '"Gunnfjödur"@en'
+    message: 'Data LanguageType not matched: lang is en, but Gunnfjödur (line: 674,
+        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Gunnfjodur - http://schema.org/name
+        - "Gunnfjödur"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '975'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Precieuse
+    predicate: https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+    object: '"Précieuse"@en'
+    message: 'Data LanguageType not matched: lang is en, but Précieuse (line: 975,
+        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Precieuse - https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+        - "Précieuse"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '977'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Precieuse
+    predicate: http://schema.org/name
+    object: '"Précieuse"@en'
+    message: 'Data LanguageType not matched: lang is en, but Précieuse (line: 977,
+        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Precieuse - http://schema.org/name
+        - "Précieuse"@en)'
