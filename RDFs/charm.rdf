@@ -96,7 +96,7 @@
   <lily:user rdf:resource="Takasuga_Tsukushi"/>
   <lily:user rdf:resource="Taniguchi_Hijiri"/>
   <lily:user rdf:resource="Tamura_Nagi"/>
-  <!-- <lily:user rdf:resource="Hata_Matsuri"/> -->
+  <lily:user rdf:resource="Hata_Matsuri"/>
   <lily:user rdf:resource="Kawamura_Yuzuriha"/>
   <lily:user rdf:resource="Miliam_Hildegard_von_Guropius"/>
   <lily:user rdf:resource="Wang_Yujia"/>
