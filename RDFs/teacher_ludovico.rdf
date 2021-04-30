@@ -12,13 +12,13 @@
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">泉・ローザ・莉奈</rdfs:label>
   <schema:familyName xml:lang="ja">泉</schema:familyName>
   <schema:familyName xml:lang="en">Izumi</schema:familyName>
-  <lily:familyNameKana xml:lang="ja">ふくやま</lily:familyNameKana>
+  <lily:familyNameKana xml:lang="ja">いずみ</lily:familyNameKana>
   <schema:additionalName xml:lang="ja">ローザ</schema:additionalName>
   <schema:additionalName xml:lang="en">Rosa</schema:additionalName>
-  <lily:additionalNameKana xml:lang="ja">じゃんぬ</lily:additionalNameKana>
+  <lily:additionalNameKana xml:lang="ja">ろーざ</lily:additionalNameKana>
   <schema:givenName xml:lang="ja">莉奈</schema:givenName>
   <schema:givenName xml:lang="en">Rina</schema:givenName>
-  <lily:givenNameKana xml:lang="ja">さちえ</lily:givenNameKana>
+  <lily:givenNameKana xml:lang="ja">りな</lily:givenNameKana>
   <schema:name xml:lang="ja">泉・ローザ・莉奈</schema:name>
   <schema:name xml:lang="en">Izumi Rosa Rina</schema:name>
   <lily:nameKana xml:lang="ja">いずみ・ろーざ・りな</lily:nameKana>

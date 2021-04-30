@@ -56,6 +56,40 @@ rules:
           log.warn("姓名, 姓+名が不一致: " + nm + " != " + jn.join("|"))
         }
       }
+  - name: 姓名整合(日本語・ミドルネームがある人)
+    target: "RDFs/.*"
+    query: |
+      PREFIX schema: <http://schema.org/>
+      PREFIX lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#>
+      SELECT ?s ?fn ?an ?gn ?nm ?fnk ?ank ?gnk ?nmk
+      WHERE {
+        ?s schema:familyName ?fn; schema:additionalName ?an; schema:givenName ?gn; schema:name ?nm;
+          lily:familyNameKana ?fnk; lily:additionalNameKana ?ank; lily:givenNameKana ?gnk; lily:nameKana ?nmk.
+        FILTER(LANG(?fn) = 'ja' && LANG(?an) = 'ja' && LANG(?gn) = 'ja' && LANG(?nm) = 'ja'
+          && LANG(?fnk) = 'ja' && LANG(?ank) = 'ja' && LANG(?gnk) = 'ja' && LANG(?nmk) = 'ja')
+      }
+    valid: |
+      while(rs.hasNext()) {
+        r = rs.next()
+        jn = [r.getLiteral("fn").value + r.getLiteral("an").value + r.getLiteral("gn").value,
+              r.getLiteral("gn").value + r.getLiteral("an").value + r.getLiteral("fn").value,
+              r.getLiteral("fn").value + "・" + r.getLiteral("an").value + "・" + r.getLiteral("gn").value,
+              r.getLiteral("gn").value + "・" + r.getLiteral("an").value + "・" + r.getLiteral("fn").value,
+              "ミリアム・ヒルデガルド・v・グロピウス",
+              "楓・J・ヌーベル"]
+        nm = r.getLiteral("nm").value
+        if (!(nm in jn)) {
+          log.warn("姓名, 姓+名が不一致: " + nm + " != " + jn.join("|"))
+        }
+        jnk = [r.getLiteral("fnk").value + r.getLiteral("ank").value + r.getLiteral("gnk").value,
+               r.getLiteral("gnk").value + r.getLiteral("ank").value + r.getLiteral("fnk").value,
+               r.getLiteral("fnk").value + "・" + r.getLiteral("ank").value + "・" + r.getLiteral("gnk").value,
+               r.getLiteral("gnk").value + "・" + r.getLiteral("ank").value + "・" + r.getLiteral("fnk").value]
+        nmk = r.getLiteral("nmk").value
+        if (!(nmk in jnk)) {
+          log.warn("姓名, 姓+名が不一致(かな): " + nmk + " != " + jnk.join("|"))
+        }
+      }
   - name: 姓名整合(英語・ミドルネームがある人)
     target: "RDFs/.*"
     query: |
@@ -63,9 +97,6 @@ rules:
       SELECT ?s ?fn ?an ?gn ?nm
       WHERE {
         ?s schema:familyName ?fn; schema:additionalName ?an; schema:givenName ?gn; schema:name ?nm
-        FILTER EXISTS {
-          ?s schema:additionalName ?name
-        }
         FILTER(LANG(?fn) = 'en' && LANG(?an) = 'en' && LANG(?gn) = 'en' && LANG(?nm) = 'en')
       }
     valid: |
@@ -78,12 +109,12 @@ rules:
           log.warn("姓名, 姓+名が不一致: " + nm + " != " + jn.join("|"))
         }
       }
-#suppressPath: .rdflint/rdflint-suppress.yml
+suppressPath: .rdflint/rdflint-suppress.yml
 validation:
   fileEncoding:
     - target: "*"
       charset: utf-8
-      end_of_line: lf
+      end_of_line: lf|crlf
       indent_style: space
       insert_final_newline: true
       trim_trailing_whitespace: true
