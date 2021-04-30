@@ -181,6 +181,10 @@
     <lily:resource rdf:resource="Fukuyama_Jeanne_Sachie"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Takahata_Masaki"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">過去のシルト候補</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">夏吉ゆうこ</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q66365004"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
@@ -470,10 +474,10 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Takahata_Masaki"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">紡木吏佐</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q55534197"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
@@ -1086,6 +1090,10 @@
     <!-- <lily:resource rdf:resource="Amatsu_Marei"/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation> -->
   <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Takahata_Masaki"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">仲の良かった後輩</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">水瀬いのり</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q11548933"/>
   <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/水瀬いのり"/>
@@ -1174,10 +1182,10 @@
     <lily:resource rdf:resource="Watanabe_Akane"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">伍人組</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Takahata_Masaki"/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Takahata_Masaki"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">洲崎綾</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q888218"/>
   <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/洲崎綾"/>
