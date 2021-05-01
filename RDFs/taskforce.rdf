@@ -38,9 +38,9 @@
   <schema:member rdf:resource="Amano_Soraha"/>
   <schema:member rdf:resource="Tsukioka_Momiji"/>
   <schema:member rdf:resource="Hasebe_Touka"/>
-  <schema:member rdf:resource="Amatsu_Marei"/>
+  <!-- <schema:member rdf:resource="Amatsu_Marei"/> -->
   <!-- <schema:member rdf:resource="Sengo_Yuna"/> -->
-  <schema:member rdf:resource="Altea_Alessandrini"/>
+  <!-- <schema:member rdf:resource="Altea_Alessandrini"/> -->
   <schema:member rdf:resource="Seto_Veronica_Ichika"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Taskforce"/>
 </rdf:Description>

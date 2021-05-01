@@ -1601,7 +1601,7 @@
   <lily:legion rdf:resource="Coast_Guard"/>
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">副長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
-  <lily:pastLegion rdf:resource="Odaiba_Interceptor_Group_4"/>
+  <!-- <lily:pastLegion rdf:resource="Odaiba_Interceptor_Group_4"/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -1663,7 +1663,7 @@
   <lily:legion rdf:resource="Coast_Guard"/>
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
-  <lily:pastLegion rdf:resource="Odaiba_Interceptor_Group_4"/>
+  <!-- <lily:pastLegion rdf:resource="Odaiba_Interceptor_Group_4"/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
