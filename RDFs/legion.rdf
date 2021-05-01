@@ -367,49 +367,6 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
-<<<<<<< HEAD
-<rdf:Description rdf:about="Odaiba_Interceptor_Group_1">
-  <schema:name xml:lang="ja">御台場迎撃戦第1部隊</schema:name>
-  <schema:name xml:lang="en">Odaiba Interceptor Group 1</schema:name>
-  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
-  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
-  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
-  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
-  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
-  <!-- <schema:member rdf:resource="Hibino_Waku"/> -->
-  <schema:member rdf:resource="Sono_Mao"/>
-  <schema:member rdf:resource="Shirai_Yuyu"/>
-  <schema:member rdf:resource="Izumi_Botan"/>
-  <schema:member rdf:resource="Taniguchi_Hijiri"/>
-  <schema:member rdf:resource="Fukuyama_Jeanne_Sachie"/>
-  <schema:member rdf:resource="Kawamura_Yuzuriha"/>
-  <schema:member rdf:resource="Ichinomiya_Michaela_Himari"/>
-  <schema:member rdf:resource="Takegoshi_Chihana"/>
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="Odaiba_Interceptor_Group_4">
-  <schema:name xml:lang="ja">御台場迎撃戦第4部隊</schema:name>
-  <schema:name xml:lang="en">Odaiba Interceptor Group 4</schema:name>
-  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
-  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
-  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
-  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
-  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
-  <schema:member rdf:resource="Shinkai_Chikage"/>
-  <schema:member rdf:resource="Saigo_Kurena"/>
-  <schema:member rdf:resource="Imagawa_Homare"/>
-  <schema:member rdf:resource="Kuroki_Francisca_Yuria"/>
-  <schema:member rdf:resource="Yamanashi_Hibari"/>
-  <schema:member rdf:resource="Takehisa_Nakaba"/>
-  <schema:member rdf:resource="Kawanabe_Nazuna"/>
-  <schema:member rdf:resource="Tiuccia_Paumgartner"/>
-  <!-- <schema:member rdf:resource="(リーアリデル・Eschenbach)"/> -->
-  <!--<schema:member rdf:resource="Hirose_Minato"/> -->
-  <!-- <schema:member rdf:resource="Soga_Suzuna"/> -->
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="Illumine_Shines">
   <schema:name xml:lang="ja">イルミンシャイネス</schema:name>
   <!-- <schema:name xml:lang="en"></schema:name> -->
@@ -446,6 +403,4 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
-=======
->>>>>>> 72efd7631e21cc9453f7084025a9b8345d1f0c50
 </rdf:RDF>
