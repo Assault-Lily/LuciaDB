@@ -356,7 +356,7 @@
 
 <rdf:Description rdf:about="Raguel">
   <schema:name xml:lang="ja">第5飛空艇団ラグエル</schema:name>
-  <schema:name xml:lang="en">5th Airborne Brigade Raguel</schema:name>
+  <schema:name xml:lang="en">5th Gunship Brigade Raguel</schema:name>
   <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
@@ -367,6 +367,7 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<<<<<<< HEAD
 <rdf:Description rdf:about="Odaiba_Interceptor_Group_1">
   <schema:name xml:lang="ja">御台場迎撃戦第1部隊</schema:name>
   <schema:name xml:lang="en">Odaiba Interceptor Group 1</schema:name>
@@ -445,4 +446,6 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+=======
+>>>>>>> 72efd7631e21cc9453f7084025a9b8345d1f0c50
 </rdf:RDF>

@@ -45,6 +45,11 @@ lily:Legion                     a   rdfs:Class ;
     rdfs:label                      "レギオン"@ja ;
     rdfs:subClassOf                 schema:Organization .
 
+lily:Taskforce                  a   rdfs:Class ;
+    rdfs:comment                    "臨時・特別部隊を表すクラス" ;
+    rdfs:label                      "特別部隊"@ja ;
+    rdfs:subClassOf                 schema:Organization .
+
 lily:MediaContent               a   rdfs:Class ;
     rdfs:comment                    "メディアミックスコンテンツを表すクラス" ;
     rdfs:label                      "コンテンツ"@ja ;
@@ -190,6 +195,10 @@ lily:position           a   rdf:Property ;
 lily:pastLegion         a   rdf:Property ;
     rdfs:comment            "過去の所属レギオンを表すプロパティ" ;
     rdfs:label              "過去の所属レギオン"@ja .
+
+lily:taskforce          a   rdf:Property ;
+    rdfs:comment            "レギオン以外で参加した戦闘部隊を表すプロパティ" ;
+    rdfs:label              "参加部隊"@ja .
 
 lily:schutzengel        a   rdf:Property ;
     rdfs:comment            "シュッツエンゲルを表すプロパティ" ;
