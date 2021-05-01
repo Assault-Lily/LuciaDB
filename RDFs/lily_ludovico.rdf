@@ -974,12 +974,9 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <lily:pastLegion rdf:resource="Temple_Legion"/>
-<<<<<<< .merge_file_pey1Cl
   <lily:pastLegion rdf:resource="Illumine_Shines"/>
-=======
   <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastLegion rdf:resource="Illumine_Shines"/> -->
->>>>>>> .merge_file_mSrSur
   <!-- <lily:olderSchwester rdf:resource=""/> -->
   <!-- <lily:pastOlderSchwester rdf:resource=""/> -->
   <lily:youngerSchwester rdf:resource="Narumi_Clara_Yuko"/>
