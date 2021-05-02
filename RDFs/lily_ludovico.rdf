@@ -77,7 +77,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource="Temple_Legion"/> -->
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <!-- <lily:olderSchwester rdf:resource=""/> -->
   <lily:pastOlderSchwester rdf:resource="Kishimoto_Maria_Mirai"/>
   <lily:youngerSchwester rdf:resource="Kishimoto_Lucia_Raimu"/>
@@ -603,7 +603,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource="Temple_Legion"/> -->
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
   <!-- <lily:olderSchwester rdf:resource=""/> -->
   <lily:pastOlderSchwester rdf:resource="Nosaka_Jacqueline_Kazane"/>
   <lily:youngerSchwester rdf:resource="Saeki_Julia_Karen"/>
@@ -983,8 +983,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <lily:pastLegion rdf:resource="Temple_Legion"/>
   <lily:pastLegion rdf:resource="Illumine_Shines"/>
-  <!-- <lily:taskforce rdf:resource=""/> -->
-  <!-- <lily:pastLegion rdf:resource="Illumine_Shines"/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <!-- <lily:olderSchwester rdf:resource=""/> -->
   <!-- <lily:pastOlderSchwester rdf:resource=""/> -->
   <lily:youngerSchwester rdf:resource="Narumi_Clara_Yuko"/>
@@ -997,15 +996,19 @@
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Nishikawa_Miharu"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」・友人、ライバル</lily:additionalInformation>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」</lily:additionalInformation>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Tejima_Komachi"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」・理解者</lily:additionalInformation>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」</lily:additionalInformation>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">理解者</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Hibino_Waku"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」・親友・イルマ退学後にルドビコ女学院薦めた</lily:additionalInformation>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」</lily:additionalInformation>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
   </lily:relationship>
   <lily:castName xml:lang="ja">西本りみ</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q24902567"/>
@@ -1548,7 +1551,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">未覚醒</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Dainsleif_Carbin"/>
@@ -1614,7 +1617,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">未覚醒</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Dainsleif_Carbin"/>
@@ -1680,7 +1683,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">未覚醒</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Gungnir_Carbin"/>
@@ -1746,7 +1749,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">未覚醒</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Gungnir_Carbin"/>
@@ -1812,7 +1815,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">未覚醒</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Dainsleif_Carbin"/>
@@ -1878,7 +1881,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">未覚醒</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Gungnir_Carbin"/>
@@ -1943,7 +1946,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">未覚醒</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Gungnir_Carbin"/>
@@ -2008,7 +2011,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">未覚醒</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Dainsleif_Carbin"/>
@@ -2073,7 +2076,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">未覚醒</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Gungnir_Carbin"/>

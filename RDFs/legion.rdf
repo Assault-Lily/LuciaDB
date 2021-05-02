@@ -8,8 +8,6 @@
   xmlns:lily="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#"
   xml:base="https://lily.fvhp.net/rdf/RDFs/detail/">
 
-<!-- 百合ヶ丘女学院 -->
-
 <rdf:Description rdf:about="Radgrid">
   <schema:name xml:lang="ja">ラーズグリーズ</schema:name>
   <schema:name xml:lang="en">Radgrid</schema:name>
@@ -171,6 +169,26 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Hronesness">
+  <schema:name xml:lang="ja">ロネスネス</schema:name>
+  <schema:name xml:lang="en">Hronesness</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S</lily:legionGrade>
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers>
+  <schema:member rdf:resource="Funada_Kiito"/>
+  <schema:member rdf:resource="Funada_Ui"/>
+  <schema:member rdf:resource="Shiba_Tomoshibi"/>
+  <schema:member rdf:resource="Kawabata_Hotaru"/>
+  <schema:member rdf:resource="Kozue_West"/>
+  <schema:member rdf:resource="Igusa_Subaru"/>
+  <schema:member rdf:resource="Fujita_Asagao"/>
+  <schema:member rdf:resource="Imamura_Yukari"/>
+  <schema:member rdf:resource="Nagasawa_Yuki"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="Lohengrin">
   <schema:name xml:lang="ja">ローエングリン</schema:name>
   <schema:name xml:lang="en">Lohengrin</schema:name>
@@ -191,68 +209,6 @@
   <lily:submember rdf:resource="Sugiura_Hozumi"/>
   <lily:submember rdf:resource="Hayashi_Kaoru"/>
   <lily:submember rdf:resource="Fukuya_Maasa"/>
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="Schwartz_Grail">
-  <schema:name xml:lang="ja">シュバルツグレイル</schema:name>
-  <schema:name xml:lang="en">Schwartz Grail</schema:name>
-  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
-  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
-  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
-  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade>
-  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers>
-  <schema:member rdf:resource="Hosuda_Kotoko"/>
-  <schema:member rdf:resource="Maekawa_Kina"/>
-  <schema:member rdf:resource="Takahashi_Yayori"/>
-  <schema:member rdf:resource="Ito_Shizu"/>
-  <schema:member rdf:resource="Sara_Stackenschneider"/>
-  <schema:member rdf:resource="Yamamoto_Mirei"/>
-  <schema:member rdf:resource="Uchida_Mayuri"/>
-  <schema:member rdf:resource="Kemmochi_Noriko"/>
-  <schema:member rdf:resource="Murano_Kokoro"/>
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="Eir">
-  <schema:name xml:lang="ja">エイル</schema:name>
-  <schema:name xml:lang="en">Eir</schema:name>
-  <schema:alternateName xml:lang="ja">秦祀隊</schema:alternateName>
-  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
-  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
-  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade>
-  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers>
-  <schema:member rdf:resource="Hata_Matsuri"/>
-  <!-- <schema:member rdf:resource="Kimura_Kazuki"/> -->
-  <!-- <schema:member rdf:resource="Takasaki_Sumire"/> -->
-  <!-- <schema:member rdf:resource="Naito_Hanano"/> -->
-  <!-- <schema:member rdf:resource="Fujimura_Ryuka"/> -->
-  <!-- <schema:member rdf:resource="Monica_Rossi"/> -->
-  <!-- <schema:member rdf:resource="Sakurai_Hazuki"/> -->
-  <!-- <schema:member rdf:resource="Rachelle_de_Moureaux"/> -->
-  <!-- <schema:member rdf:resource="Takeda_Mitsumi"/> -->
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
-</rdf:Description>
-
-<!-- 御台場女学校 -->
-
-<rdf:Description rdf:about="Hronesness">
-  <schema:name xml:lang="ja">ロネスネス</schema:name>
-  <schema:name xml:lang="en">Hronesness</schema:name>
-  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
-  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
-  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
-  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S</lily:legionGrade>
-  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers>
-  <schema:member rdf:resource="Funada_Kiito"/>
-  <schema:member rdf:resource="Funada_Ui"/>
-  <schema:member rdf:resource="Shiba_Tomoshibi"/>
-  <schema:member rdf:resource="Kawabata_Hotaru"/>
-  <schema:member rdf:resource="Kozue_West"/>
-  <schema:member rdf:resource="Igusa_Subaru"/>
-  <schema:member rdf:resource="Fujita_Asagao"/>
-  <schema:member rdf:resource="Imamura_Yukari"/>
-  <schema:member rdf:resource="Nagasawa_Yuki"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
@@ -290,7 +246,25 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
-<!-- 私立ルドビコ女学院 -->
+<rdf:Description rdf:about="Schwartz_Grail">
+  <schema:name xml:lang="ja">シュバルツグレイル</schema:name>
+  <schema:name xml:lang="en">Schwartz Grail</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade>
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers>
+  <schema:member rdf:resource="Hosuda_Kotoko"/>
+  <schema:member rdf:resource="Maekawa_Kina"/>
+  <schema:member rdf:resource="Takahashi_Yayori"/>
+  <schema:member rdf:resource="Ito_Shizu"/>
+  <schema:member rdf:resource="Sara_Stackenschneider"/>
+  <schema:member rdf:resource="Yamamoto_Mirei"/>
+  <schema:member rdf:resource="Uchida_Mayuri"/>
+  <schema:member rdf:resource="Kemmochi_Noriko"/>
+  <schema:member rdf:resource="Murano_Kokoro"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
 
 <rdf:Description rdf:about="Ironside">
   <schema:name xml:lang="ja">アイアンサイド</schema:name>
@@ -333,8 +307,6 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
-<!-- 相模女子高等学館 -->
-
 <rdf:Description rdf:about="Sagajo_Tokusentai">
   <schema:name xml:lang="ja">生徒会特選隊</schema:name>
   <!-- <schema:name xml:lang="en"></schema:name> -->
@@ -347,10 +319,6 @@
   <schema:member rdf:resource="Matsunaga_Yui"/>
   <schema:member rdf:resource="Katakura_Shion"/>
   <schema:member rdf:resource="Date_Furiru"/>
-  <schema:member rdf:resource="Yuishiro_Suzuma"/>
-  <schema:member rdf:resource="Kobayakawa_Jun"/>
-  <schema:member rdf:resource="Kuki_Hatsume"/>
-  <schema:member rdf:resource="Takigawa_Mira"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
@@ -366,7 +334,25 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
-<!-- 聖メルクリウスインターナショナルスクール -->
+<rdf:Description rdf:about="Eir">
+  <schema:name xml:lang="ja">エイル</schema:name>
+  <schema:name xml:lang="en">Eir</schema:name>
+  <schema:alternateName xml:lang="ja">秦祀隊</schema:alternateName>
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade>
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers>
+  <schema:member rdf:resource="Hata_Matsuri"/>
+  <!-- <schema:member rdf:resource="Kimura_Kazuki"/> -->
+  <!-- <schema:member rdf:resource="Takasaki_Sumire"/> -->
+  <!-- <schema:member rdf:resource="Naito_Hanano"/> -->
+  <!-- <schema:member rdf:resource="Fujimura_Ryuka"/> -->
+  <!-- <schema:member rdf:resource="Monica_Rossi"/> -->
+  <!-- <schema:member rdf:resource="Sakurai_Hazuki"/> -->
+  <!-- <schema:member rdf:resource="Rachelle_de_Moureaux"/> -->
+  <!-- <schema:member rdf:resource="Takeda_Mitsumi"/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
 
 <rdf:Description rdf:about="Raguel">
   <schema:name xml:lang="ja">第5飛空艇団ラグエル</schema:name>
@@ -377,18 +363,16 @@
   <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
   <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
   <schema:member rdf:resource="Tiuccia_Paumgartner"/>
-  <!-- <schema:member rdf:resource="Liearidel_Eschenbach"/> -->
+  <!-- <schema:member rdf:resource="(リーアリデル・Eschenbach)"/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
-<!-- イルマ女子美術高校 -->
-
 <rdf:Description rdf:about="Illumine_Shines">
   <schema:name xml:lang="ja">イルミンシャイネス</schema:name>
-  <schema:name xml:lang="en">Illumine Shines</schema:name>
+  <!-- <schema:name xml:lang="en"></schema:name> -->
   <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
-  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
   <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
   <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
   <schema:member rdf:resource="Nishikawa_Miharu"/>
@@ -402,20 +386,21 @@
   <schema:member rdf:resource="Hidai_Miyazu"/>
   <schema:member rdf:resource="Iwaya_Kokori"/>
   <schema:member rdf:resource="Nakabayashi_Mina"/>
+  <schema:alumni rdf:resource="Ichinomiya_Michaela_Himari"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="Hakoruberando"> <!-- 元ネタ不明のため仮 -->
+<rdf:Description rdf:about="Hacolberand">
   <schema:name xml:lang="ja">ハコルベランド</schema:name>
-  <!-- <schema:name xml:lang="en"></schema:name> -->
+  <schema:name xml:lang="en">Hacolberand</schema:name>
   <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
-  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
   <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
   <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
   <schema:member rdf:resource="Kamigoori_Marimo"/>
   <schema:member rdf:resource="Ueda_Imari"/>
-  <schema:member rdf:resource="Tokyu_Setoko"/>
+  <schema:member rdf:resource="Tokyu_Setoko"/> <!-- 東久世徳子 -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 

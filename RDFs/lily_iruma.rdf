@@ -53,7 +53,7 @@
   <!-- <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:grade> -->
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
-  <lily:legion rdf:resource="Hakoruberando"/>
+  <lily:legion rdf:resource="Hacolberand"/>
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
@@ -116,7 +116,7 @@
   <!-- <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:grade> -->
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
-  <lily:legion rdf:resource="Hakoruberando"/>
+  <lily:legion rdf:resource="Hacolberand"/>
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
@@ -184,8 +184,8 @@
   <lily:legion rdf:resource="Illumine_Shines"/>
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">主将</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
-  <!-- <lily:pastLegion rdf:resource="Odaiba_Interceptor_Group_3"/> -->
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_3"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -199,29 +199,17 @@
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Ichinomiya_Michaela_Himari"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」</lily:additionalInformation>
-  </lily:relationship>
-  <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Ichinomiya_Michaela_Himari"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
-  </lily:relationship>
-  <lily:relationship rdf:parseType="Resource">
-  <lily:resource rdf:resource="Ichinomiya_Michaela_Himari"/>
   <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Tejima_Komachi"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」</lily:additionalInformation>
-  </lily:relationship>
-  <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Tejima_Komachi"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Hibino_Waku"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」</lily:additionalInformation>
-  </lily:relationship>
-  <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Hibino_Waku"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
   <!-- <lily:castName xml:lang="ja"></lily:castName> -->
@@ -275,8 +263,8 @@
   <lily:legion rdf:resource="Illumine_Shines"/>
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ディフェンシブAZ</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
-  <!-- <lily:pastLegion rdf:resource="Odaiba_Interceptor_Group_2"/> -->
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -290,25 +278,16 @@
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Ichinomiya_Michaela_Himari"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」</lily:additionalInformation>
-  </lily:relationship>
-  <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Ichinomiya_Michaela_Himari"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Nishikawa_Miharu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」</lily:additionalInformation>
-  </lily:relationship>
-  <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Nishikawa_Miharu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Hibino_Waku"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」</lily:additionalInformation>
-  </lily:relationship>
-  <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Hibino_Waku"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">幼馴染</lily:additionalInformation>
   </lily:relationship>
   <!-- <lily:castName xml:lang="ja"></lily:castName> -->
@@ -362,8 +341,8 @@
   <lily:legion rdf:resource="Illumine_Shines"/>
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
-  <!-- <lily:pastLegion rdf:resource="Odaiba_Interceptor_Group_2"/> -->
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -377,25 +356,17 @@
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Ichinomiya_Michaela_Himari"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」</lily:additionalInformation>
-  </lily:relationship>
-  <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Ichinomiya_Michaela_Himari"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">日葵のイルマ退学時にルドビコ女学院を薦めた</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Nishikawa_Miharu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」</lily:additionalInformation>
-  </lily:relationship>
-  <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Nishikawa_Miharu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Tejima_Komachi"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」</lily:additionalInformation>
-  </lily:relationship>
-  <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Tejima_Komachi"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">幼馴染</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
@@ -713,8 +684,8 @@
   <lily:legion rdf:resource="Illumine_Shines"/>
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
-  <!-- <lily:pastLegion rdf:resource="Odaiba_Interceptor_Group_5"/> -->
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_5"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->

@@ -615,11 +615,18 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ファンタズム</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
+<<<<<<< HEAD
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:isBoosted>
   <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">エンハンスメント</lily:boostedSkill>
   <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">リジェネレーター</lily:boostedSkill>
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Chrysaor"/>
+=======
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
+  <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
+  <!-- <lily:charm rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+>>>>>>> 02842420637ba303ec49a2fc028cd39746dec4cc
     <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
     <lily:additionalInformation xml:lang="ja">ユニーク機体</lily:additionalInformation>
   </lily:charm>

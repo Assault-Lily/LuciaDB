@@ -158,7 +158,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">副隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <lily:pastSchutzengel rdf:resource="Kawazoe_Misuzu"/>
   <lily:schild rdf:resource="Hitotsuyanagi_Riri"/>
@@ -546,6 +546,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_5"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <!-- <lily:schild rdf:resource=""/> -->
@@ -881,7 +882,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Gungnir"/>
@@ -950,7 +951,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Dainsleif"/>
@@ -1530,7 +1531,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
   <lily:schutzengel rdf:resource="Maki_Wakana"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <lily:schild rdf:resource="Egawa_Kusumi"/>
@@ -1627,7 +1628,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_3"/>
   <lily:schutzengel rdf:resource="Okada_Kisara"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <!-- <lily:schild rdf:resource=""/> -->
@@ -1716,7 +1717,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">副隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_3"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <lily:schild rdf:resource="Takasuga_Tsukushi"/>
@@ -2003,7 +2004,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <!-- <lily:charm rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -2072,7 +2073,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">カリスマ</lily:rareSkill>
   <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">狂乱の閾</lily:subSkill>
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <!-- <lily:charm rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -2270,7 +2271,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <lily:schild rdf:resource="Rokkaku_Shiori"/>
@@ -2421,7 +2422,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:pastLegion rdf:resource="Svanhvit"/>
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <lily:schutzengel rdf:resource="Tamura_Nagi"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <lily:schild rdf:resource="Kudo_Sakua"/>
@@ -3582,7 +3583,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <lily:schild rdf:resource="Luise_Ingels"/>
@@ -3716,7 +3717,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_3"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <lily:schild rdf:resource="Sejima_Hiromu"/>
@@ -4218,7 +4219,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <lily:schutzengel rdf:resource="Hayashi_Kaoru"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <lily:schild rdf:resource="Tachihara_Sayu"/>
@@ -4474,7 +4475,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <!-- <lily:charm rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -4541,7 +4542,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <!-- <lily:charm rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -4608,7 +4609,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <!-- <lily:charm rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -4679,7 +4680,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">円環の御手</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <!-- <lily:charm rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -4747,7 +4748,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">レジスタ</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Gungnir"/>
@@ -4823,7 +4824,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <!-- <lily:charm rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -4894,7 +4895,7 @@
   <lily:hobby_talent xml:lang="ja">小説の執筆</lily:hobby_talent>
   <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <!-- <lily:charm rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -4962,7 +4963,7 @@
   <lily:hobby_talent xml:lang="ja">屋根裏暮らし</lily:hobby_talent>
   <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Tyrfing_type_T"/>
@@ -5042,7 +5043,7 @@
   <lily:hobby_talent xml:lang="ja">料理</lily:hobby_talent>
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">レジスタ</lily:rareSkill>
   <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">約束の領域</lily:subSkill>
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <!-- <lily:charm rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -5109,7 +5110,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <!-- <lily:charm rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -5176,7 +5177,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ゼノンパラドキサ</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Gungnir"/>
@@ -5252,7 +5253,11 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ゼノンパラドキサ</lily:rareSkill>
   <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ステルス</lily:subSkill>
+<<<<<<< HEAD
   <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+=======
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
+>>>>>>> 02842420637ba303ec49a2fc028cd39746dec4cc
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <!-- <lily:charm rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -5267,7 +5272,12 @@
   <!-- <lily:legion rdf:resource=""/> -->
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
+<<<<<<< HEAD
   <lily:pastLegion rdf:resource="Sono_Mao"/>
+=======
+  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
+>>>>>>> 02842420637ba303ec49a2fc028cd39746dec4cc
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <!-- <lily:schild rdf:resource=""/> -->

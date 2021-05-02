@@ -322,7 +322,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_5"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -565,7 +565,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_3"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -1062,10 +1062,10 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Soga_Suzuna"/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Soga_Suzuna"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
+  </lily:relationship>
   <!-- <lily:castName xml:lang="ja"></lily:castName> -->
   <!-- <lily:castResource rdf:resource=""/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
@@ -1139,7 +1139,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">司令塔</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <lily:roomMate rdf:resource="Tsukioka_Momiji"/>
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -1306,7 +1306,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_3"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -1385,7 +1385,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_3"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -1478,7 +1478,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">司令塔</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
   <lily:roomMate rdf:resource="Kawamura_Yuzuriha"/>
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -1539,7 +1539,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <!-- <lily:charm rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -1554,7 +1554,8 @@
   <lily:legion rdf:resource="Coast_Guard"/>
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
-  <!-- <lily:pastLegion rdf:resource="Odaiba_Interceptor_Group_4"/> -->
+  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_4"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -1616,17 +1617,18 @@
   <lily:legion rdf:resource="Coast_Guard"/>
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">副隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
-  <!-- <lily:pastLegion rdf:resource="Odaiba_Interceptor_Group_4"/> -->
+  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_4"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Saigo_Kurena"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
+  </lily:relationship>
   <!-- <lily:castName xml:lang="ja"></lily:castName> -->
   <!-- <lily:castResource rdf:resource=""/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
@@ -1679,6 +1681,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
