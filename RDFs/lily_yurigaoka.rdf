@@ -5253,11 +5253,7 @@
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ゼノンパラドキサ</lily:rareSkill>
   <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ステルス</lily:subSkill>
-<<<<<<< HEAD
-  <!-- <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"></lily:isBoosted> -->
-=======
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
->>>>>>> 02842420637ba303ec49a2fc028cd39746dec4cc
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <!-- <lily:charm rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -5272,12 +5268,8 @@
   <!-- <lily:legion rdf:resource=""/> -->
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
-<<<<<<< HEAD
-  <lily:pastLegion rdf:resource="Sono_Mao"/>
-=======
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
->>>>>>> 02842420637ba303ec49a2fc028cd39746dec4cc
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <!-- <lily:schild rdf:resource=""/> -->
