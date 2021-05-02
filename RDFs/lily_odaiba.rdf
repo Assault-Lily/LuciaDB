@@ -8,6 +8,8 @@
   xmlns:lily="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#"
   xml:base="https://lily.fvhp.net/rdf/RDFs/detail/">
 
+<!-- LGロネスネス -->
+
 <rdf:Description rdf:about="Funada_Kiito">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">船田純</rdfs:label>
   <schema:familyName xml:lang="ja">船田</schema:familyName>
@@ -770,6 +772,8 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
+<!-- LGへオロットセインツ -->
+
 <rdf:Description rdf:about="Hayami_Katsura">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">速水桂</rdfs:label>
   <schema:familyName xml:lang="ja">速水</schema:familyName>
@@ -1501,20 +1505,22 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="Kishida_Hanabusa">
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">岸田英</rdfs:label>
-  <schema:familyName xml:lang="ja">岸田</schema:familyName>
-  <schema:familyName xml:lang="en">Kishida</schema:familyName>
-  <lily:familyNameKana xml:lang="ja">きしだ</lily:familyNameKana>
+<!-- LGコーストガード -->
+
+<rdf:Description rdf:about="Hirose_Minato">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">弘瀬湊</rdfs:label>
+  <schema:familyName xml:lang="ja">弘瀬</schema:familyName>
+  <schema:familyName xml:lang="en">Hirose</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">ひろせ</lily:familyNameKana>
   <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
   <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
   <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
-  <schema:givenName xml:lang="ja">英</schema:givenName>
-  <schema:givenName xml:lang="en">Hanabusa</schema:givenName>
-  <lily:givenNameKana xml:lang="ja">はなぶさ</lily:givenNameKana>
-  <schema:name xml:lang="ja">岸田英</schema:name>
-  <schema:name xml:lang="en">Kishida Hanabusa</schema:name>
-  <lily:nameKana xml:lang="ja">きしだはなぶさ</lily:nameKana>
+  <schema:givenName xml:lang="ja">湊</schema:givenName>
+  <schema:givenName xml:lang="en">Minato</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">みなと</lily:givenNameKana>
+  <schema:name xml:lang="ja">弘瀬湊</schema:name>
+  <schema:name xml:lang="en">Hirose Minato</schema:name>
+  <lily:nameKana xml:lang="ja">ひろせみなと</lily:nameKana>
   <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <!-- <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></foaf:age> -->
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
@@ -1545,9 +1551,9 @@
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Coast_Guard"/>
-  <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
+  <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
-  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:pastLegion rdf:resource="Odaiba_Interceptor_Group_4"/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -1625,20 +1631,20 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="Hirose_Minato">
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">弘瀬湊</rdfs:label>
-  <schema:familyName xml:lang="ja">弘瀬</schema:familyName>
-  <schema:familyName xml:lang="en">Hirose</schema:familyName>
-  <lily:familyNameKana xml:lang="ja">ひろせ</lily:familyNameKana>
+<rdf:Description rdf:about="Kishida_Hanabusa">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">岸田英</rdfs:label>
+  <schema:familyName xml:lang="ja">岸田</schema:familyName>
+  <schema:familyName xml:lang="en">Kishida</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">きしだ</lily:familyNameKana>
   <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
   <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
   <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
-  <schema:givenName xml:lang="ja">湊</schema:givenName>
-  <schema:givenName xml:lang="en">Minato</schema:givenName>
-  <lily:givenNameKana xml:lang="ja">みなと</lily:givenNameKana>
-  <schema:name xml:lang="ja">弘瀬湊</schema:name>
-  <schema:name xml:lang="en">Hirose Minato</schema:name>
-  <lily:nameKana xml:lang="ja">ひろせみなと</lily:nameKana>
+  <schema:givenName xml:lang="ja">英</schema:givenName>
+  <schema:givenName xml:lang="en">Hanabusa</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">はなぶさ</lily:givenNameKana>
+  <schema:name xml:lang="ja">岸田英</schema:name>
+  <schema:name xml:lang="en">Kishida Hanabusa</schema:name>
+  <lily:nameKana xml:lang="ja">きしだはなぶさ</lily:nameKana>
   <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <!-- <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></foaf:age> -->
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
@@ -1669,9 +1675,9 @@
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Coast_Guard"/>
-  <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
+  <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
-  <!-- <lily:pastLegion rdf:resource="Odaiba_Interceptor_Group_4"/> -->
+  <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
