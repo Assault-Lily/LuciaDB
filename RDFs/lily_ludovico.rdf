@@ -77,7 +77,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource="Temple_Legion"/> -->
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <!-- <lily:olderSchwester rdf:resource=""/> -->
   <lily:pastOlderSchwester rdf:resource="Kishimoto_Maria_Mirai"/>
   <lily:youngerSchwester rdf:resource="Kishimoto_Lucia_Raimu"/>
@@ -603,7 +603,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource="Temple_Legion"/> -->
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
   <!-- <lily:olderSchwester rdf:resource=""/> -->
   <lily:pastOlderSchwester rdf:resource="Nosaka_Jacqueline_Kazane"/>
   <lily:youngerSchwester rdf:resource="Saeki_Julia_Karen"/>
@@ -983,8 +983,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <lily:pastLegion rdf:resource="Temple_Legion"/>
   <lily:pastLegion rdf:resource="Illumine_Shines"/>
-  <!-- <lily:taskforce rdf:resource=""/> -->
-  <!-- <lily:pastLegion rdf:resource="Illumine_Shines"/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <!-- <lily:olderSchwester rdf:resource=""/> -->
   <!-- <lily:pastOlderSchwester rdf:resource=""/> -->
   <lily:youngerSchwester rdf:resource="Narumi_Clara_Yuko"/>
