@@ -386,6 +386,7 @@
   <schema:member rdf:resource="Hidai_Miyazu"/>
   <schema:member rdf:resource="Iwaya_Kokori"/>
   <schema:member rdf:resource="Nakabayashi_Mina"/>
+  <schema:alumni rdf:resource="Ichinomiya_Michaela_Himari"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
