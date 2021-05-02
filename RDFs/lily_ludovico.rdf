@@ -93,16 +93,24 @@
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Kawamura_Yuzuriha"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
-  </lily:relationship>
-  <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Shirai_Yuyu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Yoshimura_Thi_Mai"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Kawamura_Yuzuriha"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場迎撃戦で抜群の連携を誇った「カルテット」・友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Taniguchi_Hijiri"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場迎撃戦で抜群の連携を誇った「カルテット」</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Hibino_Waku"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場迎撃戦で抜群の連携を誇った「カルテット」</lily:additionalInformation>
   </lily:relationship>
   <lily:castName xml:lang="ja">中村裕香里</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q60613344"/>
@@ -974,6 +982,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <lily:pastLegion rdf:resource="Temple_Legion"/>
+  <lily:pastLegion rdf:resource="Illumine_Shines"/>
   <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastLegion rdf:resource="Illumine_Shines"/> -->
   <!-- <lily:olderSchwester rdf:resource=""/> -->
@@ -986,18 +995,18 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Nishikawa_Miharu"/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル</lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Tejima_Komachi"/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">理解者</lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Hibino_Waku"/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Nishikawa_Miharu"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」・友人、ライバル</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Tejima_Komachi"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」・理解者</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Hibino_Waku"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」・親友・イルマ退学後にルドビコ女学院薦めた</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">西本りみ</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q24902567"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>

@@ -232,6 +232,20 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Coast_Guard">
+  <schema:name xml:lang="ja">コーストガード</schema:name>
+  <schema:name xml:lang="en">Coast Guard</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Hirose_Minato"/>
+  <schema:member rdf:resource="Soga_Suzuna"/>
+  <schema:member rdf:resource="Kishida_Hanabusa"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="Schwartz_Grail">
   <schema:name xml:lang="ja">シュバルツグレイル</schema:name>
   <schema:name xml:lang="en">Schwartz Grail</schema:name>
@@ -346,10 +360,46 @@
   <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
-  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade> -->
-  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers> -->
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
   <schema:member rdf:resource="Tiuccia_Paumgartner"/>
   <!-- <schema:member rdf:resource="(リーアリデル・Eschenbach)"/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Illumine_Shines">
+  <schema:name xml:lang="ja">イルミンシャイネス</schema:name>
+  <!-- <schema:name xml:lang="en"></schema:name> -->
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Nishikawa_Miharu"/>
+  <schema:member rdf:resource="Tejima_Komachi"/>
+  <schema:member rdf:resource="Hibino_Waku"/>
+  <schema:member rdf:resource="Ueda_Imari"/>
+  <schema:member rdf:resource="Miyamoto_Komuku"/>
+  <schema:member rdf:resource="Kusakabe_Rengetsu"/>
+  <schema:member rdf:resource="Kusakabe_Murasame"/>
+  <schema:member rdf:resource="Yoshii_Kako"/>
+  <schema:member rdf:resource="Hidai_Miyazu"/>
+  <schema:member rdf:resource="Iwaya_Kokori"/>
+  <schema:member rdf:resource="Nakabayashi_Mina"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Hakoruberando"> <!-- 元ネタ不明のため仮 -->
+  <schema:name xml:lang="ja">ハコルベランド</schema:name>
+  <!-- <schema:name xml:lang="en"></schema:name> -->
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Kamigoori_Marimo"/>
+  <schema:member rdf:resource="Ueda_Imari"/>
+  <schema:member rdf:resource="Tokyu_Setoko"/> <!-- 東久世徳子 -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 

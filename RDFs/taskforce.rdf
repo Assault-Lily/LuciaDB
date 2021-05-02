@@ -8,13 +8,69 @@
   xmlns:lily="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#"
   xml:base="https://lily.fvhp.net/rdf/RDFs/detail/">
 
+<rdf:Description rdf:about="Odaiba_Interception_Taskforce_1">
+  <schema:name xml:lang="ja">御台場迎撃戦第1部隊</schema:name>
+  <schema:name xml:lang="en">Odaiba Interception Battle the 1st Task Force</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Hibino_Waku"/>
+  <schema:member rdf:resource="Sono_Mao"/>
+  <schema:member rdf:resource="Shirai_Yuyu"/>
+  <schema:member rdf:resource="Izumi_Botan"/>
+  <schema:member rdf:resource="Taniguchi_Hijiri"/>
+  <schema:member rdf:resource="Fukuyama_Jeanne_Sachie"/>
+  <schema:member rdf:resource="Kawamura_Yuzuriha"/>
+  <schema:member rdf:resource="Ichinomiya_Michaela_Himari"/>
+  <schema:member rdf:resource="Takegoshi_Chihana"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Taskforce"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Odaiba_Interception_Taskforce_2">
+  <schema:name xml:lang="ja">御台場迎撃戦第2部隊</schema:name>
+  <schema:name xml:lang="en">Odaiba Interception Battle the 2nd Task Force</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Tejima_Komachi"/>
+  <schema:member rdf:resource="Amano_Soraha"/>
+  <schema:member rdf:resource="Tsukioka_Momiji"/>
+  <schema:member rdf:resource="Hasebe_Touka"/>
+  <!-- <schema:member rdf:resource="Amatsu_Marei"/> -->
+  <!-- <schema:member rdf:resource="Sengo_Yuna"/> -->
+  <!-- <schema:member rdf:resource="Altea_Alessandrini"/> -->
+  <schema:member rdf:resource="Seto_Veronica_Ichika"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Taskforce"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Odaiba_Interception_Taskforce_3">
+  <schema:name xml:lang="ja">御台場迎撃戦第3部隊</schema:name>
+  <schema:name xml:lang="en">Odaiba Interception Battle the 3rd Task Force</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers> -->
+  <schema:member rdf:resource="Aoki_Kaho"/>
+  <schema:member rdf:resource="Yokoyama_Azusa"/>
+  <schema:member rdf:resource="Banshoya_Ena"/>
+  <!-- <schema:member rdf:resource="Akashi_Aika"/> -->
+  <schema:member rdf:resource="Watanabe_Akane"/>
+  <schema:member rdf:resource="Nishikawa_Miharu"/>
+  <schema:member rdf:resource="Fujita_Asagao"/>
+  <schema:member rdf:resource="Hishida_Haru"/>
+  <schema:member rdf:resource="Serizawa_Chikaru"/>
+  <!-- <schema:member rdf:resource="Tada_Shiera"/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Taskforce"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="Odaiba_Interception_Taskforce_4">
   <schema:name xml:lang="ja">御台場迎撃戦第4部隊</schema:name>
   <schema:name xml:lang="en">Odaiba Interception Battle the 4th Task Force</schema:name>
   <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
-  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade> -->
   <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers> -->
   <schema:member rdf:resource="Shinkai_Chikage"/>
   <schema:member rdf:resource="Saigo_Kurena"/>
@@ -24,9 +80,28 @@
   <schema:member rdf:resource="Takehisa_Nakaba"/>
   <schema:member rdf:resource="Kawanabe_Nazuna"/>
   <schema:member rdf:resource="Tiuccia_Paumgartner"/>
-  <!-- <schema:member rdf:resource="(リーアリデル・Eschenbach)"/> -->
-  <!--<schema:member rdf:resource="Hirose_Minato"/> -->
-  <!-- <schema:member rdf:resource="Soga_Suzuna"/> -->
+  <!-- <schema:member rdf:resource="Liearidel_Eschenbach"/> -->
+  <schema:member rdf:resource="Hirose_Minato"/>
+  <schema:member rdf:resource="Soga_Suzuna"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Taskforce"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Odaiba_Interception_Taskforce_5">
+  <schema:name xml:lang="ja">御台場迎撃戦第5部隊</schema:name>
+  <schema:name xml:lang="en">Odaiba Interception Battle the 5th Task Force</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers> -->
+  <!-- <schema:member rdf:resource="Senda_Koume"/> -->
+  <schema:member rdf:resource="Yoshimura_Thi_Mai"/>
+  <schema:member rdf:resource="Kawabata_Hotaru"/>
+  <!-- <schema:member rdf:resource="Toono_Natsuki"/> -->
+  <!-- <schema:member rdf:resource="Sasaki_Yasuna"/> -->
+  <!-- <schema:member rdf:resource="Osumi_Azuki"/> -->
+  <!-- <schema:member rdf:resource="Noguchi_Shinano"/> -->
+  <schema:member rdf:resource="Miyamoto_Komuku"/>
+  <!-- <schema:member rdf:resource="Danzuka_Erisa"/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Taskforce"/>
 </rdf:Description>
 
