@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:schema="http://schema.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:lily="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#"
+  xml:base="https://lily.fvhp.net/rdf/RDFs/detail/">
+
+<!-- LGヒミングレーヴァ -->
+
+<rdf:Description rdf:about="Amatsu_Marei">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">天津麻嶺</rdfs:label>
+  <schema:familyName xml:lang="ja">天津</schema:familyName>
+  <schema:familyName xml:lang="en">Amatsu</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">あまつ</lily:familyNameKana>
+  <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
+  <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
+  <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
+  <schema:givenName xml:lang="ja">麻嶺</schema:givenName>
+  <schema:givenName xml:lang="en">Marei</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">まれい</lily:givenNameKana>
+  <schema:name xml:lang="ja">天津麻嶺</schema:name>
+  <schema:name xml:lang="en">Amatsu Marei</schema:name>
+  <lily:nameKana xml:lang="ja">あまつまれい</lily:nameKana>
+  <lily:anotherName xml:lang="ja">CHARMマイスター</lily:anotherName>
+  <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
+  <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
+  <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
+  <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
+  <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
+  <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
+  <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
+  <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
+  <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
+  <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
+  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
+  <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z</lily:rareSkill>
+  <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">軍神の加護</lily:subSkill>
+  <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">虹の軌跡</lily:subSkill>
+  <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">狂乱の閾</lily:subSkill>
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
+  <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
+  <!-- <lily:charm rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <!-- </lily:charm> -->
+  <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">柳都女学館</lily:garden>
+  <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">工廠科</lily:gardenDepartment>
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
+  <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
+  <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
+  <lily:legion rdf:resource="Himinglaeva"/>
+  <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
+  <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
+  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
+  <!-- <lily:roomMate rdf:resource=""/> -->
+  <!-- <schema:parent rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </schema:sibling> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Mashima_Moyu"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Amano_Soraha"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Banshoya_Ena"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Uchida_Mayuri"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:castName xml:lang="ja">武藤志織</lily:castName>
+  <!-- <lily:castResource rdf:resource=""/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Sengo_Yuna">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">千子夕七</rdfs:label>
+  <schema:familyName xml:lang="ja">千子</schema:familyName>
+  <schema:familyName xml:lang="en">Sengo</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">せんご</lily:familyNameKana>
+  <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
+  <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
+  <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
+  <schema:givenName xml:lang="ja">夕七</schema:givenName>
+  <schema:givenName xml:lang="en">Yuna</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">ゆうな</lily:givenNameKana>
+  <schema:name xml:lang="ja">千子夕七</schema:name>
+  <schema:name xml:lang="en">Sengo Yuna</schema:name>
+  <lily:nameKana xml:lang="ja">せんごゆうな</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
+  <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
+  <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
+  <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
+  <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
+  <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
+  <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
+  <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
+  <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
+  <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
+  <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
+  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
+  <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">カリスマ</lily:rareSkill>
+  <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
+  <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
+  <!-- <lily:charm rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <!-- </lily:charm> -->
+  <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">柳都女学館</lily:garden>
+  <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
+  <!-- <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:grade> -->
+  <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
+  <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
+  <lily:legion rdf:resource="Himinglaeva"/>
+  <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
+  <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
+  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:roomMate rdf:resource=""/> -->
+  <!-- <schema:parent rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </schema:sibling> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Amano_Soraha"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場迎撃戦の戦友</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Amano_Soraha"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">柳都外征を依頼する</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Yoshihara_Nanoha"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル</lily:additionalInformation>
+  </lily:relationship>
+  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
+  <!-- <lily:castResource rdf:resource=""/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
+</rdf:Description>
+
+<!-- LGドゥーヴァ -->
+
+<rdf:Description rdf:about="Sumitani_Miki">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隅谷水晶</rdfs:label>
+  <schema:familyName xml:lang="ja">隅谷</schema:familyName>
+  <schema:familyName xml:lang="en">Sumitani</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">すみたに</lily:familyNameKana>
+  <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
+  <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
+  <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
+  <schema:givenName xml:lang="ja">水晶</schema:givenName>
+  <schema:givenName xml:lang="en">Miki</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">みき</lily:givenNameKana>
+  <schema:name xml:lang="ja">隅谷水晶</schema:name>
+  <schema:name xml:lang="en">Sumitani Miki</schema:name>
+  <lily:nameKana xml:lang="ja">すみたにみき</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
+  <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
+  <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
+  <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
+  <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
+  <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
+  <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
+  <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
+  <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
+  <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
+  <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
+  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
+  <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">レジスタ</lily:rareSkill>
+  <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
+  <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
+  <!-- <lily:charm rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <!-- </lily:charm> -->
+  <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">柳都女学館</lily:garden>
+  <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
+  <!-- <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:grade> -->
+  <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
+  <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
+  <lily:legion rdf:resource="Dufa"/>
+  <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
+  <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
+  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:roomMate rdf:resource=""/> -->
+  <!-- <schema:parent rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </schema:sibling> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Enomoto_Komomo"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">姉妹契約制度における姉の実の妹</lily:additionalInformation>
+  </lily:relationship>
+  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
+  <!-- <lily:castResource rdf:resource=""/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
+</rdf:Description>
+
+<!-- LGフレン -->
+
+<rdf:Description rdf:about="Enomoto_Komomo">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">榎本瑚桃</rdfs:label>
+  <schema:familyName xml:lang="ja">榎本</schema:familyName>
+  <schema:familyName xml:lang="en">Enomoto</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">えのもと</lily:familyNameKana>
+  <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
+  <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
+  <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
+  <schema:givenName xml:lang="ja">瑚桃</schema:givenName>
+  <schema:givenName xml:lang="en">Komomo</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">こもも</lily:givenNameKana>
+  <schema:name xml:lang="ja">榎本瑚桃</schema:name>
+  <schema:name xml:lang="en">Enomoto Komomo</schema:name>
+  <lily:nameKana xml:lang="ja">えのもとこもも</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
+  <!-- <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></foaf:age> -->
+  <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
+  <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
+  <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
+  <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
+  <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
+  <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
+  <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
+  <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
+  <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
+  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
+  <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
+  <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
+  <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
+  <!-- <lily:charm rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <!-- </lily:charm> -->
+  <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">柳都女学館</lily:garden>
+  <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
+  <!-- <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:grade> -->
+  <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
+  <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
+  <lily:legion rdf:resource="Hronn"/>
+  <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
+  <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
+  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:roomMate rdf:resource=""/> -->
+  <!-- <schema:parent rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </schema:sibling> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Sumitani_Miki"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">実の姉の姉妹契約制度における妹</lily:additionalInformation>
+  </lily:relationship>
+  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
+  <!-- <lily:castResource rdf:resource=""/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
+</rdf:Description>
+
+<!-- LGヘヴリング-->
+
+<rdf:Description rdf:about="Yoshihara_Nanoha">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">吉原菜乃葉</rdfs:label>
+  <schema:familyName xml:lang="ja">吉原</schema:familyName>
+  <schema:familyName xml:lang="en">Yoshihara</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">よしはら</lily:familyNameKana>
+  <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
+  <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
+  <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
+  <schema:givenName xml:lang="ja">菜乃葉</schema:givenName>
+  <schema:givenName xml:lang="en">Nanoha</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">なのは</lily:givenNameKana>
+  <schema:name xml:lang="ja">吉原菜乃葉</schema:name>
+  <schema:name xml:lang="en">Yoshihara_Nanoha</schema:name>
+  <lily:nameKana xml:lang="ja">よしはらなのは</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
+  <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
+  <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
+  <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
+  <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
+  <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
+  <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
+  <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
+  <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
+  <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
+  <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
+  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
+  <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
+  <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
+  <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
+  <!-- <lily:charm rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <!-- </lily:charm> -->
+  <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">柳都女学館</lily:garden>
+  <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
+  <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
+  <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
+  <lily:legion rdf:resource="Hefring"/>
+  <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
+  <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
+  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:roomMate rdf:resource=""/> -->
+  <!-- <schema:parent rdf:resource=""/> -->
+  <!-- <schema:sibling rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  <!-- </schema:sibling> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Sengo_Yuna"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル</lily:additionalInformation>
+  </lily:relationship>
+  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
+  <!-- <lily:castResource rdf:resource=""/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
+</rdf:Description>
+
+</rdf:RDF>
