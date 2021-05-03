@@ -1,0 +1,389 @@
+PREFIX lily-shape: <https://lily.fvhp.net/rdf/constraints/>
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+
+lily-shape:lily-charmShape a sh:NodeShape;
+    sh:property [
+        sh:path lily:resource ;
+        sh:class lily:Charm ;
+        sh:minCount 1 ;
+    ] .
+
+lily-shape:lily-relationshipShape a sh:NodeShape;
+    sh:property [
+        sh:path lily:resource ;
+        sh:class lily:Lily ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path lily:additionalInformation ;
+        sh:minCount 1 ;
+    ] .
+
+lily-shape:lilyShape a sh:NodeShape;
+    sh:targetClass lily:Lily;
+    sh:property [
+        rdfs:label "リリィのラベルの制約";
+        rdfs:comment "必ず一つだけ存在する";
+        sh:path rdfs:label;
+        sh:datatype xsd:string;
+        sh:minCount 1;
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "リリィの名前の制約";
+        rdfs:comment "日本語と英語表記が最大一つづつ存在する想定のため、uniqueLang=true";
+        sh:path schema:name;
+        sh:datatype rdf:langString;
+        sh:uniqueLang true;
+    ];
+    sh:property [
+        rdfs:label "名前の仮名の制約";
+        rdfs:comment "仮名は日本語なのでlang=ja";
+        sh:path lily:nameKana;
+        sh:datatype rdf:langString;
+        sh:languageIn ("ja");
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "下の名前の制約";
+        rdfs:comment "日本語、英語表記一つづつ存在する想定のため、uniqueLang=true";
+        sh:path schema:givenName;
+        sh:datatype rdf:langString;
+        sh:uniqueLang true;
+    ];
+    sh:property [
+        rdfs:label "上の名前の制約";
+        rdfs:comment "日本語、英語表記一つづつ存在する想定のため、uniqueLang=true";
+        sh:path schema:familyName;
+        sh:datatype rdf:langString;
+        sh:uniqueLang true;
+    ];
+    sh:property [
+        rdfs:label "下の名前の仮名の制約";
+        rdfs:comment "仮名は日本語なのでlang=ja";
+        sh:path lily:givenNameKana;
+        sh:datatype rdf:langString;
+        sh:languageIn ("ja");
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "上の名前の仮名の制約";
+        rdfs:comment "仮名は日本語なのでlang=ja";
+        sh:path lily:familyNameKana;
+        sh:datatype rdf:langString;
+        sh:languageIn ("ja");
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "年齢の制約";
+        rdfs:comment "年齢が数値じゃない人がいるかもしれない";
+        sh:path foaf:age;
+        sh:xone (
+            [
+                sh:datatype xsd:integer;
+                sh:minInclusive 0;
+            ]
+            [
+                sh:datatype rdf:langString;
+                sh:languageIn ("ja")
+            ]
+        );
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "身長の制約";
+        rdfs:comment "何人かのリリィは身長が数値じゃないかもしれない";
+        sh:path schema:height;
+        sh:xone (
+            [
+                sh:datatype xsd:float;
+                sh:minExclusive 0;
+            ]
+            [
+                sh:datatype rdf:langString;
+                sh:languageIn ("ja")
+            ]
+        );
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "体重の制約";
+        rdfs:comment "何人かのリリィは体重が数値じゃない（例: 秘密）";
+        sh:path schema:weight;
+        sh:xone (
+            [
+                sh:datatype xsd:float;
+                sh:minExclusive 0;
+            ]
+            [
+                sh:datatype rdf:langString;
+                sh:languageIn ("ja")
+            ]
+        );
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "誕生日の制約";
+        sh:path schema:birthDate;
+        sh:datatype xsd:gMonthDay;
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "姓名状態の制約";
+        rdfs:comment "存命・死亡・不明のいずれか";
+        sh:path lily:lifeStatus;
+        sh:datatype xsd:string;
+        sh:in ("alive" "dead" "unknown");
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "血液型の制約";
+        rdfs:comment "公式に「不明」の場合も想定して「不明」も許容";
+        sh:path lily:bloodType;
+        sh:datatype xsd:string;
+        sh:in ("A" "B" "O" "AB" "不明");
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "性別の制約";
+        rdfs:comment "femaleかmaleのみで、性別は必ず一つだけ存在する";
+        sh:path schema:gender;
+        sh:datatype xsd:string;
+        sh:in ("female" "male");
+        sh:minCount 1;
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "テーマカラーの制約";
+        rdfs:comment "最大一つだけ存在して、目的語の型はhexBinary";
+        sh:path lily:color;
+        sh:datatype xsd:hexBinary;
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "出身地の制約";
+        rdfs:comment "日本語、英語表記が最大一つづつ存在する想定のため、uniqueLang=true";
+        sh:path schema:birthPlace;
+        sh:datatype rdf:langString;
+        sh:uniqueLang true;
+    ];
+    sh:property [
+        rdfs:label "好きなものの制約";
+        rdfs:comment "今の所英語で書くリリィはいないので日本語のみ受け入れ、リリィによっては複数あるので数の制限はない";
+        sh:path lily:favorite;
+        sh:datatype rdf:langString;
+        sh:languageIn ("ja");
+    ];
+    sh:property [
+        rdfs:label "苦手なものの制約";
+        rdfs:comment "今の所英語で書くリリィはいないので日本語のみ受け入れ、リリィによっては複数あるので数の制限はない";
+        sh:path lily:notGood;
+        sh:datatype rdf:langString;
+        sh:languageIn ("ja");
+    ];
+    sh:property [
+        rdfs:label "趣味・特技の制約";
+        rdfs:comment "今の所英語で書くリリィはいないので日本語のみ受け入れ、リリィによっては複数あるので数の制限はない";
+        sh:path lily:hobby_talent;
+        sh:datatype rdf:langString;
+        sh:languageIn ("ja");
+    ];
+    sh:property [
+        rdfs:label "レアスキルの制約";
+        sh:path lily:rareSkill;
+        sh:datatype xsd:string;
+        sh:maxCount 1;
+        sh:in (
+            "ファンタズム"
+            "鷹の目"
+            "ルナティックトランサー"
+            "天の秤目"
+            "ヘリオスフィア"
+            "ブレイブ"
+            "縮地"
+            "レジスタ"
+            "テスタメント"
+            "ゼノンパラドキサ"
+            "円環の御手"
+            "Z"
+            "ユーバーザイン"
+            "この世の理"
+            "フェイズトランセンデンス"
+            "カリスマ"
+            "未覚醒"
+        );
+    ];
+    sh:property [
+        rdfs:label "サブスキルの制約";
+        sh:path lily:subSkill;
+        sh:datatype xsd:string;
+        sh:in (
+            "虹の軌跡"
+            "千里眼"
+            "狂乱の閾"
+            "魔眼"
+            "聖域転換"
+            "インビジブルワン"
+            "軍神の加護"
+            "約束の領域"
+            "ステルス"
+            "Whole order"
+            "Awakening"
+        );
+    ];
+    sh:property [
+        rdfs:label "強化リリィかどうかの制約";
+        rdfs:comment "強化リリィであることが明言されている or 自明である場合はtrue、そうでない場合は不明も含めて必ずfalse";
+        sh:path lily:isBoosted;
+        sh:datatype xsd:boolean;
+        sh:minCount 1;
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "ブーステッドスキルの制約";
+        sh:path lily:boostedSkill;
+        sh:datatype xsd:string;
+        sh:in (
+            "リジェネレーター"
+            "アルケミートレース"
+            "エンハンスメント"
+            "エーテルボディ"
+            "ドレイン"
+            "連続強化補助"
+            "ノスフェラトゥ"
+            "マギリフレクター"
+        );
+    ];
+    sh:property [
+        rdfs:label "使用CHARMの制約";
+        rdfs:comment "空白ノードのShapeを検証";
+        sh:path lily:charm;
+        sh:node lily-shape:lily-charmShape;
+    ];
+    sh:property [
+        rdfs:label "所属ガーデンの制約";
+        sh:path lily:garden;
+        sh:datatype xsd:string;
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "所属学科の制約";
+        sh:path lily:gardenDepartment;
+        sh:datatype xsd:string;
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "学年の制約";
+        sh:path lily:grade;
+        sh:datatype xsd:integer;
+        sh:minInclusive 1;
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "所属クラスの制約";
+        sh:path lily:class;
+        sh:datatype xsd:string;
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "所属レギオンの制約";
+        rdfs:comment "目的語はlily:Legion、最大一つ";
+        sh:path lily:legion;
+        sh:class lily:Legion;
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "ポジションの制約";
+        sh:path lily:position;
+        sh:datatype xsd:string;
+        sh:in (
+            "AZ"
+            "TZ"
+            "BZ"
+        );
+        sh:maxCount 3;
+    ];
+    sh:property [
+        rdfs:label "過去の所属レギオンの制約";
+        rdfs:comment "目的語はlily:Legion";
+        sh:path lily:pastLegion;
+        sh:class lily:Legion;
+    ];
+    sh:property [
+        rdfs:label "参加部隊の制約";
+        rdfs:comment "目的語はlily:Taskforce";
+        sh:path lily:taskforces;
+        sh:class lily:Taskforce;
+    ];
+    sh:property [
+        rdfs:label "シュッツエンゲルの制約";
+        rdfs:comment "シュッツエンゲルは最大一人";
+        sh:path lily:schutzengel;
+        sh:class lily:Lily;
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "過去のシュッツエンゲルの制約";
+        rdfs:comment "過去のシュッツエンゲルは複数いる可能性が否定できない";
+        sh:path lily:pastSchutzengel;
+        sh:class lily:Lily;
+    ];
+    sh:property [
+        rdfs:label "シルトの制約";
+        rdfs:comment "シルトは最大一人";
+        sh:path lily:schild;
+        sh:class lily:Lily;
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "過去のシルトの制約";
+        rdfs:comment "過去のシルトは複数いる可能性が否定できない";
+        sh:path lily:pastSchild;
+        sh:class lily:Lily;
+    ];
+    sh:property [
+        rdfs:label "シュベスター(姉)の制約";
+        rdfs:comment "シュベスター(姉)は最大一人";
+        sh:path lily:olderSchwester;
+        sh:class lily:Lily;
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "過去のシュベスター(姉)の制約";
+        rdfs:comment "過去のシュベスター(姉)は複数いる可能性が否定できない";
+        sh:path lily:pastOlderSchwester;
+        sh:class lily:Lily;
+    ];
+    sh:property [
+        rdfs:label "シュベスター(妹)の制約";
+        rdfs:comment "シュベスター(妹)は最大一人";
+        sh:path lily:youngerSchwester;
+        sh:class lily:Lily;
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "過去のシュベスター(妹)の制約";
+        rdfs:comment "過去のシュベスター(妹)は複数いる可能性が否定できない";
+        sh:path lily:pastYoungerSchwester;
+        sh:class lily:Lily;
+    ];
+    sh:property [
+        rdfs:label "ルームメイトの制約";
+        rdfs:comment "ルームメイトは最大一人";
+        sh:path lily:roomMate;
+        sh:class lily:Lily;
+        sh:maxCount 1;
+    ];
+    sh:property [
+        rdfs:label "リリィ同士の関係の制約";
+        rdfs:comment "空白ノードのShapeを検証";
+        sh:path lily:relationship;
+        sh:node lily-shape:lily-relationshipShape;
+    ];
+    sh:closed false.
