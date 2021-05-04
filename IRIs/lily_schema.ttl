@@ -245,17 +245,17 @@ lily:relationship       a   rdf:Property ;
     rdfs:comment            "人間関係を表すプロパティ" ;
     rdfs:label              "人間関係"@ja .
 
-lily:castName           a   rdf:Property ;
-    rdfs:comment            "キャスト名を表すプロパティ" ;
-    rdfs:label              "キャスト名"@ja .
+lily:cast               a   rdf:Property ;
+    rdfs:comment            "キャスト情報を表すプロパティ" ;
+    rdfs:label              "キャスト"@ja .
 
-lily:castResource       a   rdf:Property ;
-    rdfs:comment            "キャスト情報へのリンクを表すプロパティ" ;
-    rdfs:label              "キャスト情報"@ja .
+lily:performAs          a   rdf:Property ;
+    rdfs:comment            "役柄を表すプロパティ" ;
+    rdfs:label              "役柄"@ja .
 
-lily:pastCastName       a   rdf:Property ;
-    rdfs:comment            "過去のキャスト名を表すプロパティ" ;
-    rdfs:label              "過去のキャスト名"@ja .
+lily:performIn          a   rdf:Property ;
+    rdfs:comment            "出演作を表すプロパティ" ;
+    rdfs:label              "出演作"@ja .
 
 lily:seriesName         a   rdf:Property ;
     rdfs:comment            "シリーズ名を表すプロパティ" ;
@@ -452,11 +452,3 @@ lily:subtitle           a   rdf:Property ;
 lily:parentheses        a   rdf:Property ;
     rdfs:comment            "サブタイトル下部の括弧書きを表すプロパティ" ;
     rdfs:label              "括弧書き"@ja .
-
-lily:cast               a   rdf:Property ;
-    rdfs:comment            "キャストを表すプロパティ" ;
-    rdfs:label              "キャスト"@ja .
-
-lily:performAs          a   rdf:Property ;
-    rdfs:comment            "役柄を表すプロパティ" ;
-    rdfs:label              "役柄"@ja .

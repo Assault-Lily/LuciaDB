@@ -70,8 +70,11 @@
     <lily:resource rdf:resource="Kubuki_Reina"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">妹分</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -133,8 +136,11 @@
     <lily:resource rdf:resource="Kitano_Futae"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">姉がわり</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -208,8 +214,11 @@
     <lily:resource rdf:resource="Mashima_Moyu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">仲の良かった先輩</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -271,8 +280,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
