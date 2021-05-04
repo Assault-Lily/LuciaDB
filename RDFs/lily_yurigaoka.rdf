@@ -1087,10 +1087,10 @@
     <lily:resource rdf:resource="Banshoya_Ena"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Amatsu_Marei"/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Amatsu_Marei"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+  </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Takahata_Masaki"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">仲の良かった後輩</lily:additionalInformation>
@@ -1550,6 +1550,15 @@
     <lily:resource rdf:resource="Tejima_Komachi"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Amatsu_Marei"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Sengo_Yuna"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場迎撃戦の戦友</lily:additionalInformation>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">柳都外征の依頼を受ける</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">津田美波</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q901835"/>
   <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/津田美波"/>
@@ -1655,10 +1664,10 @@
     <lily:resource rdf:resource="Mashima_Moyu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Amatsu_Marei"/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Amatsu_Marei"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">立花理香</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q9046310"/>
   <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/立花理香"/>
@@ -4999,10 +5008,10 @@
     <!-- <lily:resource rdf:resource="Morishita_Miyabi"/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Amatsu_Marei"/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Amatsu_Marei"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+  </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Yamanashi_Hibari"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
