@@ -302,7 +302,7 @@
   <schema:givenName xml:lang="en">Nanoha</schema:givenName>
   <lily:givenNameKana xml:lang="ja">なのは</lily:givenNameKana>
   <schema:name xml:lang="ja">吉原菜乃葉</schema:name>
-  <schema:name xml:lang="en">Yoshihara_Nanoha</schema:name>
+  <schema:name xml:lang="en">Yoshihara Nanoha</schema:name>
   <lily:nameKana xml:lang="ja">よしはらなのは</lily:nameKana>
   <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
