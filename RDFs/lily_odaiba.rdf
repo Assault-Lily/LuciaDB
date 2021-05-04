@@ -95,9 +95,13 @@
     <lily:resource rdf:resource="Kawabata_Hotaru"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">石井陽菜</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q18817351"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/石井陽菜"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">石井陽菜</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q18817351"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/石井陽菜"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -177,9 +181,13 @@
     <lily:resource rdf:resource="Nagasawa_Yuki"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">姉のような存在</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">西葉瑞希</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q98734254"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/西葉瑞希"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">西葉瑞希</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q98734254"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/西葉瑞希"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -259,9 +267,18 @@
     <lily:resource rdf:resource="Kawanabe_Nazuna"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ハーブティ好き同士</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">野元空</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q18999130"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/野元空"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">富田麻帆</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q9026977"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/富田麻帆"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">野元空</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q18999130"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/野元空"/>
+    <!-- <lily:performIn rdf:resource="御台場舞台"/> -->
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -333,8 +350,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">広沢麻衣</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q34856960"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">広沢麻衣</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q34856960"/>
+    <!-- <lily:performIn rdf:resource="御台場舞台"/> -->
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -430,8 +450,11 @@
     <!-- <lily:resource rdf:resource="Miyazaki_Hikaru"/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">水墨画仲間</lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">有沢澪風</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q30933448"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">有沢澪風</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q30933448"/>
+    <!-- <lily:performIn rdf:resource="御台場舞台"/> -->
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -501,8 +524,11 @@
     <lily:resource rdf:resource="Hayami_Katsura"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">海乃るり</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q54292702"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">海乃るり</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q54292702"/>
+    <!-- <lily:performIn rdf:resource="御台場舞台"/> -->
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -588,8 +614,11 @@
     <lily:resource rdf:resource="Kawabata_Hotaru"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">春咲暖</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q35172355"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">春咲暖</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q35172355"/>
+    <!-- <lily:performIn rdf:resource="御台場舞台"/> -->
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -675,8 +704,11 @@
     <lily:resource rdf:resource="Hishida_Haru"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">幼馴染 (今は疎遠)</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">高辻麗</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q56556215"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">高辻麗</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q56556215"/>
+    <!-- <lily:performIn rdf:resource="御台場舞台"/> -->
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -767,8 +799,11 @@
     <lily:resource rdf:resource="Mashima_Moyu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ロネスネスに紹介</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">長谷川里桃</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q38279051"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">長谷川里桃</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q38279051"/>
+    <!-- <lily:performIn rdf:resource="御台場舞台"/> -->
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -846,8 +881,11 @@
     <lily:resource rdf:resource="Kanabako_Misora"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -928,8 +966,11 @@
     <lily:resource rdf:resource="Takehisa_Nakaba"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">河内美里</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q65272225"/>
+    <!-- <lily:performIn rdf:resource="御台場舞台"/> -->
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1002,8 +1043,11 @@
     <lily:resource rdf:resource="Kawamura_Yuzuriha"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1066,8 +1110,11 @@
     <lily:resource rdf:resource="Soga_Suzuna"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1180,8 +1227,13 @@
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">憧れられている</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">あわつまい</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q56253675"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">あわつまい</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q56253675"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <!-- <lily:performIn rdf:resource="御台場舞台"/> -->
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1253,8 +1305,11 @@
     <lily:resource rdf:resource="Hishida_Haru"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">憧れ</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">白石まゆみ</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource="御台場舞台"/> -->
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1330,9 +1385,12 @@
     <!-- <lily:resource rdf:resource="Imamura_Sakumi"/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">幼馴染</lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">野本ほたる</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q11645500"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/野本ほたる"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">野本ほたる</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q11645500"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/野本ほたる"/>
+    <!-- <lily:performIn rdf:resource="御台場舞台"/> -->
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1417,8 +1475,12 @@
     <lily:resource rdf:resource="Kawamura_Yuzuriha"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">固い絆</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">林田真尋</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q19162226"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/林田真尋"/>
+    <!-- <lily:performIn rdf:resource="御台場舞台"/> -->
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1506,8 +1568,11 @@
     <lily:resource rdf:resource="Hishida_Haru"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">固い絆</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">夏目愛海</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q47582342"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">夏目愛海</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q47582342"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1571,8 +1636,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1634,8 +1702,11 @@
     <lily:resource rdf:resource="Saigo_Kurena"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1697,8 +1768,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 

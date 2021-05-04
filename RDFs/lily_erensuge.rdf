@@ -77,8 +77,13 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">藤井彩加</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q28068428"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">藤井彩加</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q28068428"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -144,8 +149,12 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">夏目愛海</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q47582342"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">夏目愛海</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q47582342"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -213,8 +222,12 @@
     <lily:resource rdf:resource="Hatsukano_Yo"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">石飛恵里花</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q51166206"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">石飛恵里花</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q51166206"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -280,8 +293,12 @@
     <lily:resource rdf:resource="Iijima_Renka"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">三村遙佳</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q97590111"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">三村遙佳</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q97590111"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -351,8 +368,12 @@
     <lily:resource rdf:resource="Yoshimura_Thi_Mai"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">野中深愛</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">野中深愛</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 

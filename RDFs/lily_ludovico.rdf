@@ -112,8 +112,23 @@
     <lily:resource rdf:resource="Hibino_Waku"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場迎撃戦で抜群の連携を誇った「カルテット」</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">中村裕香里</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q60613344"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">中村裕香里</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q60613344"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">石井陽菜</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q18817351"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/石井陽菜"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -184,8 +199,21 @@
     <lily:resource rdf:resource="Nagasawa_Yuki"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">黒原優梨</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">森本未来</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">黒原優梨</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">あわつまい</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q56253675"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -261,8 +289,25 @@
     <lily:resource rdf:resource="Amamiya_Sofia_Seren"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">幼馴染</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">宮瀬玲奈</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q56556209"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">前田美里</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q63131313"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">あわつまい</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q56253675"/>
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">宮瀬玲奈</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q56556209"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -336,8 +381,20 @@
     <lily:resource rdf:resource="Kishimoto_Maria_Mirai"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">幼馴染</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">星守紗凪</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q69635313"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">緒方もも</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q38277455"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">星守紗凪</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q69635313"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -412,8 +469,26 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">梅原サエリ</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q74146771"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">未浜杏梨</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q47464977"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">安藤遥</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q11451430"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/安藤遥"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">梅原サエリ</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q74146771"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -479,8 +554,16 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">はぎのりな</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q30927435"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">河合柚花</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">はぎのりな</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q30927435"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -549,8 +632,16 @@
     <lily:resource rdf:resource="Kishimoto_Lucia_Raimu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">小菅怜衣</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">小菅怜衣</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -622,8 +713,25 @@
     <lily:resource rdf:resource="Tachibana_Theresia_Nagisa"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">七海とろろ</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">土山茜</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q22123610"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/土山茜"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">小野瀬みらい</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q16769880"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/小野瀬みらい"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">七海とろろ</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -689,8 +797,12 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">手島沙樹</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">手島沙樹</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -762,8 +874,25 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">緒方ありさ</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">緒方有里沙</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">緒方ありさs</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">大滝紗緒里</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -835,8 +964,21 @@
     <lily:resource rdf:resource="Kishimoto_Lucia_Raimu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">長橋有沙</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q29526415"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">長橋有沙</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q29526415"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">西田有愛</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -923,8 +1065,24 @@
     <lily:resource rdf:resource="Ishikawa_Aoi"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ルドビコ女学院中等部時代の友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">一本鎗希華</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q98757922"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">さいとう雅子</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q11500389"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">夏目愛海</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q47582342"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">一本鎗希華</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q98757922"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1010,8 +1168,27 @@
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">元「イルマ四天王」</lily:additionalInformation>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">西本りみ</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q24902567"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">栞菜</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q1193372"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/栞菜"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">西本りみ</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q24902567"/>
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">花奈澪</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q17210554"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/花奈澪"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1088,8 +1265,23 @@
     <lily:resource rdf:resource="Amamiya_Sofia_Seren"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">山﨑悠稀</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">江藤彩也香</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q60988873"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">広沢麻衣</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q34856960"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">山﨑悠稀</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1167,9 +1359,21 @@
     <lily:resource rdf:resource="Wang_Yujia"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">顔見知り</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">白河優菜</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q11579954"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/白河優菜"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">白河優菜</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q11579954"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/白河優菜"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">石井陽菜</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q18817351"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/石井陽菜"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1239,8 +1443,20 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">藤堂光結</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q105711377"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">藤堂光結</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q105711377"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">清水凜</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q105704315"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1307,8 +1523,26 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">柴田茉莉</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">夏目愛海</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q47582342"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">遠野ひかる</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q48762060"/>
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">柴田茉莉</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">湯田陽花</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1379,8 +1613,23 @@
     <lily:resource rdf:resource="Ichinomiya_Michaela_Himari"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">尊敬</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">仲野りおん</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">水月桃子</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q11548740"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/水月桃子"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">仲野りおん</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">岩倉あずさ</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q96715454"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1448,8 +1697,24 @@
     <lily:resource rdf:resource="Narumi_Clara_Yuko"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">沖あすか</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">長谷川愛紗</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q18460330"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/長谷川愛紗"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">朝比奈南</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">沖あすか</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1514,9 +1779,12 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">小野瀬みらい</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q16769880"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/小野瀬みらい"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">小野瀬みらい</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q16769880"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/小野瀬みらい"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1581,8 +1849,11 @@
     <lily:resource rdf:resource="Kishimoto_Lucia_Raimu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">長谷川美月</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">長谷川美月</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1647,8 +1918,11 @@
     <lily:resource rdf:resource="Kishimoto_Lucia_Raimu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">飯田菜々</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">飯田菜々</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1713,8 +1987,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">池内理紗</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">池内理紗</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1779,8 +2056,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">松尾絵瑠夢</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">松尾絵瑠夢</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1845,8 +2125,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">二宮響子</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">二宮響子</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1910,8 +2193,11 @@
     <lily:resource rdf:resource="Narumi_Clara_Yuko"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル視</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">伊藤みのり</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">伊藤みのり</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1975,8 +2261,11 @@
     <lily:resource rdf:resource="Narumi_Clara_Yuko"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル視</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">石川純</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">石川純</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2040,8 +2329,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-    <lily:castName xml:lang="ja">藤井彩加</lily:castName>
-    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q28068428"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">藤井彩加</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q28068428"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2105,8 +2397,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">荒井杏子</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">荒井杏子</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2176,9 +2471,13 @@
     <lily:resource rdf:resource="Shirai_Yuyu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私怨</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">田上真里奈</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q17161003"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/田上真里奈"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">田上真里奈</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q17161003"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/田上真里奈"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 

@@ -85,8 +85,13 @@
     <lily:resource rdf:resource="Uchida_Mayuri"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">武藤志織</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">武藤志織</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q17217245"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/武藤志織"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -153,8 +158,11 @@
     <lily:resource rdf:resource="Yoshihara_Nanoha"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -218,8 +226,11 @@
     <lily:resource rdf:resource="Enomoto_Komomo"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">姉妹契約制度における姉の実の妹</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -283,8 +294,11 @@
     <lily:resource rdf:resource="Sumitani_Miki"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">実の姉の姉妹契約制度における妹</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -348,8 +362,11 @@
     <lily:resource rdf:resource="Sengo_Yuna"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -413,8 +430,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 

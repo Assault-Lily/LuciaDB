@@ -86,8 +86,14 @@
     <lily:resource rdf:resource="Hitotsuyanagi_Yuri"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">かけがえのない存在</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">赤尾ひかる</lily:castName>
-  <lily:castResource rdf:resource="http://www.wikidata.org/entity/Q28685785"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">赤尾ひかる</schema:name>
+    <lily:resource rdf:resource="http://www.wikidata.org/entity/Q28685785"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -189,8 +195,14 @@
     <lily:resource rdf:resource="Altea_Alessandrini"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">夏吉ゆうこ</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q66365004"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">夏吉ゆうこ</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q66365004"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -302,9 +314,15 @@
     <lily:resource rdf:resource="Tachihara_Sayu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">井澤美香子</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q20038660"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/井澤美香子"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">井澤美香子</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q20038660"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/井澤美香子"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -389,8 +407,14 @@
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親しい先輩</lily:additionalInformation>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">戦術を教わる師匠</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">西本りみ</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q24902567"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">西本りみ</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q24902567"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -482,8 +506,14 @@
     <lily:resource rdf:resource="Takahata_Masaki"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">紡木吏佐</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q55534197"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">紡木吏佐</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q55534197"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -585,9 +615,15 @@
     <lily:resource rdf:resource="Hata_Matsuri"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">岩田陽葵</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q16264369"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/岩田陽葵"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">岩田陽葵</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q16264369"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/岩田陽葵"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -675,8 +711,14 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">星守紗凪</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q69635313"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">星守紗凪</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q69635313"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -761,8 +803,14 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">遠野ひかる</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q48762060"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">遠野ひかる</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q48762060"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -849,9 +897,15 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">高橋花林</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q20041113"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/高橋花林"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">高橋花林</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q20041113"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/高橋花林"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -918,9 +972,12 @@
     <lily:resource rdf:resource="Hitotsuyanagi_Riri"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">第一接触者</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">伊藤美来</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q16264202"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/伊藤美来"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">伊藤美来</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q16264202"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/伊藤美来"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -992,9 +1049,12 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">川澄綾子</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q49566"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/川澄綾子"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">川澄綾子</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q49566"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/川澄綾子"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1099,9 +1159,13 @@
     <lily:resource rdf:resource="Takahata_Masaki"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">仲の良かった後輩</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">水瀬いのり</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q11548933"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/水瀬いのり"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">水瀬いのり</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q11548933"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/水瀬いのり"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1191,9 +1255,15 @@
     <lily:resource rdf:resource="Takahata_Masaki"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">洲崎綾</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q888218"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/洲崎綾"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">洲崎綾</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q888218"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/洲崎綾"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1278,9 +1348,12 @@
     <lily:resource rdf:resource="Watanabe_Akane"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">伍人組</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">前島亜美</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q9003804"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/前島亜美"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">前島亜美</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q9003804"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/前島亜美"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1356,9 +1429,12 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">関根明良</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q17160276"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/関根明良"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">関根明良</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q17160276"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/関根明良"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1475,8 +1551,11 @@
     <lily:resource rdf:resource="Mozuna_Noa"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">戦闘スタイルのお手本</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">原田彩楓</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q27507360"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">原田彩楓</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q27507360"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1567,9 +1646,12 @@
     <lily:resource rdf:resource="Altea_Alessandrini"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">実力を認め合う仲</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">津田美波</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q901835"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/津田美波"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">津田美波</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q901835"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/津田美波"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1676,9 +1758,12 @@
     <lily:resource rdf:resource="Amatsu_Marei"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">立花理香</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q9046310"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/立花理香"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">立花理香</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q9046310"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/立花理香"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1765,8 +1850,11 @@
     <lily:resource rdf:resource="Egawa_Kusumi"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">伍人組</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1848,9 +1936,12 @@
     <lily:resource rdf:resource="Egawa_Kusumi"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">伍人組</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">広瀬ゆうき</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q20042582"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/広瀬ゆうき"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">広瀬ゆうき</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q20042582"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/広瀬ゆうき"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1916,8 +2007,11 @@
     <lily:resource rdf:resource="Kanabako_Misora"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">三川華月</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">三川華月</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1985,8 +2079,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2054,8 +2151,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2125,8 +2225,11 @@
     <lily:resource rdf:resource="Watanabe_Akane"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2234,9 +2337,12 @@
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">似通ったスペックを持つためよく比較される</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">高橋李依</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q17160610"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/高橋李依"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">高橋李依</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q17160610"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/高橋李依"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2329,8 +2435,11 @@
     <!-- <lily:resource rdf:resource="Ishigami_Mio"/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2396,8 +2505,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2464,8 +2576,11 @@
     <lily:resource rdf:resource="Taniguchi_Hijiri"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(自称) ライバル</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2537,8 +2652,11 @@
     <lily:resource rdf:resource="Rokkaku_Shiori"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2604,8 +2722,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2671,8 +2792,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2738,8 +2862,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2808,8 +2935,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2875,8 +3005,11 @@
     <!-- <lily:resource rdf:resource="Rosalinde_Friedegunde_von_Otto"/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2942,8 +3075,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -3010,8 +3146,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -3077,8 +3216,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -3153,8 +3295,11 @@
     <lily:resource rdf:resource="Uchida_Mayuri"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -3220,8 +3365,11 @@
     <lily:resource rdf:resource="Kiko_Totori"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -3287,8 +3435,11 @@
     <lily:resource rdf:resource="Kondo_Misaka"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -3355,8 +3506,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -3422,8 +3576,11 @@
     <lily:resource rdf:resource="Tachihara_Sayu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -3490,8 +3647,11 @@
     <lily:resource rdf:resource="Egawa_Kusumi"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -3558,8 +3718,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -3630,8 +3793,11 @@
     <lily:resource rdf:resource="Mashima_Moyu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -3697,8 +3863,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -3764,8 +3933,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -3835,8 +4007,11 @@
     <lily:resource rdf:resource="Kuramata_Yukiyo"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">佐伯伊織</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q53844631"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">佐伯伊織</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q53844631"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -3911,9 +4086,12 @@
     <lily:resource rdf:resource="Sakaizawa_Naru"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">シュッツエンゲル候補</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">M・A・O</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q1186964"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/市道真央"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">M・A・O</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q1186964"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/市道真央"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -3996,8 +4174,11 @@
     <lily:resource rdf:resource="Miyamoto_Komuku"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">主催する戦術サロンに参加</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">根本京里</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q81968067"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">根本京里</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q81968067"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -4063,8 +4244,11 @@
     <lily:resource rdf:resource="Ban_Kaya"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">一目惚れ</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -4131,8 +4315,11 @@
     <lily:resource rdf:resource="Akashi_Aika"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">シュッツエンゲルの契りを結ぶ約束をしていた先輩</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -4198,8 +4385,11 @@
     <lily:resource rdf:resource="Sejima_Hiromu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">好きだけど素直になれない</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -4266,8 +4456,11 @@
     <lily:resource rdf:resource="Sakaizawa_Naru"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">盟友</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -4337,8 +4530,11 @@
     <lily:resource rdf:resource="Kuramata_Yukiyo"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">シルト候補</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -4404,8 +4600,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -4471,8 +4670,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -4538,8 +4740,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -4605,8 +4810,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -4676,8 +4884,11 @@
     <lily:resource rdf:resource="Sara_Stackenschneider"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">初等部からの友人</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -4743,8 +4954,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -4819,9 +5033,12 @@
     <lily:resource rdf:resource="Sara_Stackenschneider"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">初等部からの友人</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">七瀬彩夏</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q22126767"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/七瀬彩夏"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">七瀬彩夏</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q22126767"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/七瀬彩夏"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -4891,8 +5108,11 @@
     <lily:resource rdf:resource="Maekawa_Kina"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">初等部からの友人</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -4958,8 +5178,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -5039,8 +5262,11 @@
     <lily:resource rdf:resource="Yamanashi_Hibari"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親友</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">櫻川めぐ</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q11538022"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">櫻川めぐ</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q11538022"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -5106,8 +5332,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -5173,8 +5402,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -5249,8 +5481,11 @@
     <lily:resource rdf:resource="Hitotsuyanagi_Riri"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">弟子</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">田中那実</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q65962751"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">田中那実</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q65962751"/>
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -5316,8 +5551,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -5387,8 +5625,11 @@
     <lily:resource rdf:resource="Ban_Kaya"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">シュッツエンゲルの契りを結ぶ約束をしていた後輩</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
