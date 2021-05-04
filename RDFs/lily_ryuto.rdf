@@ -144,9 +144,6 @@
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Amano_Soraha"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場迎撃戦の戦友</lily:additionalInformation>
-  </lily:relationship>
-  <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Amano_Soraha"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">柳都外征を依頼する</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">

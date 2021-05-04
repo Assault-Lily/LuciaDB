@@ -1557,9 +1557,6 @@
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Sengo_Yuna"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場迎撃戦の戦友</lily:additionalInformation>
-  </lily:relationship>
-  <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Sengo_Yuna"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">柳都外征の依頼を受ける</lily:additionalInformation>
   </lily:relationship>
   <lily:castName xml:lang="ja">津田美波</lily:castName>
