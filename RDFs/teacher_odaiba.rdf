@@ -84,8 +84,11 @@
     <lily:resource rdf:resource="Shiba_Tomoshibi"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場女学校への所属に関与</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
+    <!-- <schema:name xml:lang="ja"></schema:name> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:performIn rdf:resource=""/> -->
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
 
@@ -147,8 +150,12 @@
     <lily:resource rdf:resource="Kawanabe_Nazuna"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">激励</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">小野瀬みらい</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">小野瀬みらい</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q16769880"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/小野瀬みらい"/>
+    <!-- <lily:performIn rdf:resource="御台場舞台"/> -->
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
 

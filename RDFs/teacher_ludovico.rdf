@@ -66,8 +66,21 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">今吉めぐみ</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q3304445"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">今吉めぐみ</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q3304445"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">楠世蓮</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q11541155"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/楠世蓮"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
 
@@ -130,8 +143,21 @@
     <lily:resource rdf:resource="Nagase_Marta_Nonoka"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">応援団を託す</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">木村若菜</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q3304445"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">木村若菜</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">遠藤三貴</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q55177725"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/遠藤三貴"/>
+    <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
 
@@ -190,8 +216,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">内多優</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">内多優</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
 
@@ -255,8 +284,12 @@
     <lily:resource rdf:resource="Kosaka_Anastasiya_Ryoko"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">苦手</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">酒井栞</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">酒井栞</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
 
@@ -315,9 +348,13 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">嘉陽愛子</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q2602933"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/嘉陽愛子"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">嘉陽愛子</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q2602933"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/嘉陽愛子"/>
+    <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
+    <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
 
@@ -380,8 +417,13 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <lily:castName xml:lang="ja">桜木さやか</lily:castName>
-  <!-- <lily:castResource rdf:resource=""/> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">桜木さやか</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Schwester_No_Inori"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu"/>
+    <lily:performIn rdf:resource="Schwester_No_Chikai"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
 
