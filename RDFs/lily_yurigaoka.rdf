@@ -1563,6 +1563,10 @@
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場迎撃戦の戦友</lily:additionalInformation>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">柳都外征の依頼を受ける</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Altea_Aressandrini"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">実力を認め合う仲</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">津田美波</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q901835"/>
   <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/津田美波"/>
