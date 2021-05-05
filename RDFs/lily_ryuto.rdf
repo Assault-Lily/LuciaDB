@@ -36,9 +36,12 @@
   <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
   <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
-  <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
+  <lily:favorite xml:lang="ja">フルーツ</lily:favorite>
+  <lily:favorite xml:lang="ja">ミントスティック</lily:favorite>
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
-  <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
+  <lily:hobby_talent xml:lang="ja">CHARMの研究開発</lily:hobby_talent>
+  <lily:hobby_talent xml:lang="ja">DIY</lily:hobby_talent>
+  <lily:hobby_talent xml:lang="ja">建築に興味がある</lily:hobby_talent>
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z</lily:rareSkill>
   <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">軍神の加護</lily:subSkill>
   <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">虹の軌跡</lily:subSkill>
