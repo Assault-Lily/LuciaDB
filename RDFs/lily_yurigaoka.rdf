@@ -5317,7 +5317,7 @@
 
 <rdf:Description rdf:about="Akashi_Aika">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">明石愛華</rdfs:label>
-  <schema:familyName xml:lang="ja">明石愛華</schema:familyName>
+  <schema:familyName xml:lang="ja">明石</schema:familyName>
   <schema:familyName xml:lang="en">Akashi</schema:familyName>
   <lily:familyNameKana xml:lang="ja">あかし</lily:familyNameKana>
   <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
