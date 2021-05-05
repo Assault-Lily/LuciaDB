@@ -74,6 +74,7 @@
   <schema:member rdf:resource="Takegoshi_Chihana"/>
   <schema:member rdf:resource="Hayashi_Kaoru"/>
   <schema:member rdf:resource="Niinomi_Nodoka"/>
+  <schema:member rdf:resource="Akashi_Aika"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
