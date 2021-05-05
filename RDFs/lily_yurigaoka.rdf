@@ -286,14 +286,14 @@
     <lily:resource rdf:resource="Ishikawa_Aoi"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">無二の親友</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Chemir_Friedheim"/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Louloudis_Bromstedt"/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Chemir_Friedheim"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">聖メルクリウス中等部時代の友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Louloudis_Bromstedt"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">聖メルクリウス中等部時代の友人</lily:additionalInformation>
+  </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Tachihara_Sayu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル</lily:additionalInformation>
