@@ -1175,6 +1175,11 @@
     <lily:resource rdf:resource="Taniguchi_Hijiri"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場迎撃戦で抜群の連携を誇った「カルテット」</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Chemir_Friedheim"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">憧れられている</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">あわつまい</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q56253675"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
