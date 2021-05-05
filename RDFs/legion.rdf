@@ -384,7 +384,7 @@
   <schema:member rdf:resource="Lemie_Alessandrini"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
-  
+
 <rdf:Description rdf:about="Raguel">
   <schema:name xml:lang="ja">第5飛空艇団ラグエル</schema:name>
   <schema:name xml:lang="en">5th Gunship Brigade Raguel</schema:name>
