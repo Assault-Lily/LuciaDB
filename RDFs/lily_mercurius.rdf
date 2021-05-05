@@ -280,7 +280,7 @@
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <lily:gardenJobTitle xml:lang="ja">生徒会副会長</lily:gardenJobTitle>
   <lily:legion rdf:resource="Michael"/>
-  <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle> -->
+  <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
