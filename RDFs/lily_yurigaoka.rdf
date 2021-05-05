@@ -5351,7 +5351,7 @@
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Gram"/>
     <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
-   </lily:charm>
+  </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立百合ヶ丘女学院</lily:garden>
   <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">普通科</lily:gardenDepartment>
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
