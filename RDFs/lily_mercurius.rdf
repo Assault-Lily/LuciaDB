@@ -306,7 +306,7 @@
   <!-- <lily:castResource rdf:resource=""/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
-  
+
 <rdf:Description rdf:about="Tiuccia_Paumgartner">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ティシア・パウムガルトナー</rdfs:label>
   <schema:familyName xml:lang="ja">パウムガルトナー</schema:familyName>
