@@ -786,7 +786,7 @@
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
     <lily:castName xml:lang="ja">柴田茉莉</lily:castName>
-    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q48762060"/>
+    <!-- <lily:castResource rdf:resource=""/> -->
     <lily:performAs rdf:resource="Haneda_Catalina_Mei"/>
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   </lily:cast>
@@ -823,7 +823,7 @@
   <lily:cast rdf:parseType="Resource">
     <lily:castName xml:lang="ja">小野瀬みらい</lily:castName>
     <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q16769880"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/小野瀬みらい"/>
+    <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/小野瀬みらい"/>
     <lily:performAs rdf:resource="Nosaka_Jacqueline_Kazane"/>
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   </lily:cast>
