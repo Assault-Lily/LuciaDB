@@ -4124,7 +4124,7 @@
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Akashi_Aika"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">シュッツエンゲルの契りを結ぶ約束をしていた先輩</lily:additionalInformation>
-  </lily:relationship> -->
+  </lily:relationship>
   <!-- <lily:castName xml:lang="ja"></lily:castName> -->
   <!-- <lily:castResource rdf:resource=""/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
