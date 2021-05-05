@@ -235,15 +235,15 @@
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
-  <lily:castName xml:lang="ja">白河優菜</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q11579954"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/白河優菜"/>
+    <lily:castName xml:lang="ja">白河優菜</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q11579954"/>
+    <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/白河優菜"/>
     <lily:performAs rdf:resource="Tachibana_Theresia_Nagisa"/>
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
-  <lily:castName xml:lang="ja">江藤彩也香</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q60988873"/>
+    <lily:castName xml:lang="ja">江藤彩也香</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q60988873"/>
     <lily:performAs rdf:resource="Hojo_Monica_Asahi"/>
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   </lily:cast>
@@ -387,15 +387,15 @@
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
-  <lily:castName xml:lang="ja">白河優菜</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q11579954"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/白河優菜"/>
+    <lily:castName xml:lang="ja">白河優菜</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q11579954"/>
+    <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/白河優菜"/>
     <lily:performAs rdf:resource="Tachibana_Theresia_Nagisa"/>
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
-  <lily:castName xml:lang="ja">広沢麻衣</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q34856960"/>
+    <lily:castName xml:lang="ja">広沢麻衣</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q34856960"/>
     <lily:performAs rdf:resource="Hojo_Monica_Asahi"/>
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   </lily:cast>
@@ -558,16 +558,16 @@
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
-  <lily:castName xml:lang="ja">白河優菜</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q11579954"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/白河優菜"/>
+    <lily:castName xml:lang="ja">白河優菜</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q11579954"/>
+    <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/白河優菜"/>
     <lily:performAs rdf:resource="Tachibana_Theresia_Nagisa"/>
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
-  <lily:castName xml:lang="ja">広沢麻衣</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q34856960"/>
-    <lily:performAs rdf:resource="Hojo_Monica_Asahi"/>
+    <lily:castName xml:lang="ja">広沢麻衣</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q34856960"/>
+      <lily:performAs rdf:resource="Hojo_Monica_Asahi"/>
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
@@ -742,15 +742,15 @@
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
-  <lily:castName xml:lang="ja">白河優菜</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q11579954"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/白河優菜"/>
+    <lily:castName xml:lang="ja">白河優菜</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q11579954"/>
+    <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/白河優菜"/>
     <lily:performAs rdf:resource="Tachibana_Theresia_Nagisa"/>
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
-  <lily:castName xml:lang="ja">広沢麻衣</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q34856960"/>
+    <lily:castName xml:lang="ja">広沢麻衣</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q34856960"/>
     <lily:performAs rdf:resource="Hojo_Monica_Asahi"/>
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
   </lily:cast>
