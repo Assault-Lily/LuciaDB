@@ -2221,6 +2221,11 @@
     <!-- <lily:resource rdf:resource="Yoshizaka_Nagisa"/> -->
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">養母</lily:additionalInformation> -->
   <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Louloudis_Bromstedt"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">似通ったスペックを持つためよく比較される</lily:additionalInformation>
+  </lily:relationship>
   <lily:castName xml:lang="ja">高橋李依</lily:castName>
   <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q17160610"/>
   <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/高橋李依"/>

@@ -91,8 +91,8 @@
   <lily:nameKana xml:lang="ja">るるでぃす・ぶろむしゅてっと</lily:nameKana>
   <lily:anotherName xml:lang="ja">鬼軍曹</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
-  <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">165</schema:height>
-  <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">55</schema:weight>
+  <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">165.0</schema:height>
+  <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">55.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--06-06</schema:birthDate>
   <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
   <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
@@ -172,8 +172,8 @@
   <lily:nameKana xml:lang="ja">ちぇみる・ふりーどはいむ</lily:nameKana>
   <lily:anotherName xml:lang="ja">鬼軍曹</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
-  <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">155</schema:height>
-  <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45</schema:weight>
+  <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">155.0</schema:height>
+  <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--05-05</schema:birthDate>
   <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
   <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
