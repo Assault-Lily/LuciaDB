@@ -123,7 +123,7 @@
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Michael"/>
-  <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
+  <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">司令塔</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:taskforce rdf:resource="(中等部レギオン予備隊)"/> -->
@@ -151,6 +151,14 @@
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">似通ったスペックを持つためよく比較される</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Lemie_Alessandrini"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">甘やかして依存される</lily:additionalInformation>
+  </lily:relationship>
+  <!-- <lily:relationship rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource="Ronja_Milling"/> --><!-- ロニヤ・ミリング -->
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">良きライバル、親友（行方不明）</lily:additionalInformation> -->
+  <!-- </lily:relationship> -->
   <!-- <lily:castName xml:lang="ja"></lily:castName> -->
   <!-- <lily:castResource rdf:resource=""/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
@@ -170,7 +178,7 @@
   <schema:name xml:lang="ja">チェミル・フリードハイム</schema:name>
   <schema:name xml:lang="en">Chemir Friedheim</schema:name>
   <lily:nameKana xml:lang="ja">ちぇみる・ふりーどはいむ</lily:nameKana>
-  <lily:anotherName xml:lang="ja">鬼軍曹</lily:anotherName>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">155.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</schema:weight>
@@ -228,6 +236,140 @@
     <lily:resource rdf:resource="Kawamura_Yuzuriha"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">遊び相手</lily:additionalInformation>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">憧れの人</lily:additionalInformation>
+  </lily:relationship>
+  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
+  <!-- <lily:castResource rdf:resource=""/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Lemie_Alessandrini">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">レミエ・アレッサンドリーニ</rdfs:label>
+  <schema:familyName xml:lang="ja">アレッサンドリーニ</schema:familyName>
+  <schema:familyName xml:lang="en">Alessandrini</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">あれっさんどりーに</lily:familyNameKana>
+  <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
+  <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
+  <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
+  <schema:givenName xml:lang="ja">レミエ</schema:givenName>
+  <schema:givenName xml:lang="en">Lemie</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">れみえ</lily:givenNameKana>
+  <schema:name xml:lang="ja">レミエ・アレッサンドリーニ</schema:name>
+  <schema:name xml:lang="en">Lemie Alessandrini</schema:name>
+  <lily:nameKana xml:lang="ja">れみえ・あれっさんどりーに</lily:nameKana>
+  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
+  <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
+  <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
+  <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
+  <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
+  <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
+  <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
+  <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
+  <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
+  <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
+  <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
+  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
+  <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">カリスマ</lily:rareSkill>
+  <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> --><!-- 多数（内容不明）-->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
+  <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
+  <!-- <lily:charm rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <!-- </lily:charm> -->
+  <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">聖メルクリウスインターナショナルスクール</lily:garden>
+  <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
+  <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
+  <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
+  <lily:legion rdf:resource="Michael"/>
+  <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
+  <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
+  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:roomMate rdf:resource=""/> -->
+  <!-- <schema:parent rdf:resource=""/> -->
+  <schema:sibling rdf:parseType="Resource">
+    <lily:resource rdf:resource="Altea_Alessandrini"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">姉（不仲、コンプレックスの対象）</lily:additionalInformation>
+  </schema:sibling>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Louloudis_Bromstedt"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">依存対象</lily:additionalInformation>
+  </lily:relationship>
+  <!-- <lily:castName xml:lang="ja"></lily:castName> -->
+  <!-- <lily:castResource rdf:resource=""/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Altea_Alessandrini">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">アルテア・アレッサンドリーニ</rdfs:label>
+  <schema:familyName xml:lang="ja">アレッサンドリーニ</schema:familyName>
+  <schema:familyName xml:lang="en">Alessandrini</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">あれっさんどりーに</lily:familyNameKana>
+  <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
+  <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
+  <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
+  <schema:givenName xml:lang="ja">アルテア</schema:givenName>
+  <schema:givenName xml:lang="en">Altea</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">あるてあ</lily:givenNameKana>
+  <schema:name xml:lang="ja">アルテア・アレッサンドリーニ</schema:name>
+  <schema:name xml:lang="en">Altea Alessandrini</schema:name>
+  <lily:nameKana xml:lang="ja">あるてあ・あれっさんどりーに</lily:nameKana>
+  <lily:anotherName xml:lang="ja">メルクリウスの暴君</lily:anotherName>
+  <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
+  <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
+  <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
+  <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
+  <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
+  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
+  <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
+  <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
+  <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
+  <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
+  <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
+  <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
+  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
+  <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ファンタズム</lily:rareSkill>
+  <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
+  <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
+  <!-- <lily:charm rdf:parseType="Resource"> -->
+    <!-- <lily:resource rdf:resource=""/> -->
+    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <!-- </lily:charm> -->
+  <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">聖メルクリウスインターナショナルスクール</lily:garden>
+  <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
+  <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
+  <lily:gardenJobTitle xml:lang="ja">生徒会副会長</lily:gardenJobTitle>
+  <lily:legion rdf:resource="Michael"/>
+  <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
+  <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
+  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
+  <!-- <lily:roomMate rdf:resource=""/> -->
+  <!-- <schema:parent rdf:resource=""/> -->
+  <schema:sibling rdf:parseType="Resource">
+    <lily:resource rdf:resource="Lemie_Alessandrini"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">妹（不仲）</lily:additionalInformation>
+  </schema:sibling>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Tsukioka_Momiji"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">最高のパートナー</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Amano_Soraha"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">実力を認め合う仲</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Shirai_Yuyu"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル</lily:additionalInformation>
   </lily:relationship>
   <!-- <lily:castName xml:lang="ja"></lily:castName> -->
   <!-- <lily:castResource rdf:resource=""/> -->
