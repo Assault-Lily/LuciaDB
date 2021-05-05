@@ -60,6 +60,11 @@ lily:Book                       a   rdfs:Class ;
     rdfs:label                      "書籍"@ja ;
     rdfs:subClassOf                 lily:MediaContent .
 
+lily:Game                       a   rdfs:Class ;
+    rdfs:comment                    "ゲームを表すクラス" ;
+    rdfs:label                      "ゲーム"@ja ;
+    rdfs:subClassOf                 lily:MediaContent .
+
 lily:Play                       a   rdfs:Class ;
     rdfs:comment                    "舞台作品を表すクラス" ;
     rdfs:label                      "舞台"@ja ;
