@@ -1235,4 +1235,177 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Play"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Schwester_No_Inori_2021">
+  <lily:genre xml:lang="ja">舞台</lily:genre>
+  <schema:name xml:lang="ja">アサルトリリィ×私立ルドビコ女学院vol.6 『シュベスターの祈り 2021』</schema:name>
+  <schema:inLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">ja-JP</schema:inLanguage>
+  <schema:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">シアターグリーン BIG TREE THEATER</schema:location>
+  <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-27</schema:startDate>
+  <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-06-06</schema:endDate>
+  <!-- <schema:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration"></schema:duration> -->
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-27T19:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-28T19:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-29T13:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-29T19:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-30T13:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-30T19:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-31T19:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-01T13:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-01T19:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-02T19:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-03T13:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-03T19:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-04T19:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-05T13:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-05T18:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-06T12:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-06T17:00:00+09:00</lily:showTime>
+  <!-- <lily:producer xml:lang="ja">林修司</lily:producer> -->
+  <!-- <lily:producer xml:lang="ja">早園正</lily:producer> -->
+  <lily:scenarioWriter xml:lang="ja">桜木さやか</lily:scenarioWriter>
+  <lily:episodeDirection xml:lang="ja">林修司</lily:episodeDirection>
+  <lily:episodeDirection xml:lang="ja">桜木さやか</lily:episodeDirection>
+  <lily:composer xml:lang="ja">谷ナオキ</lily:composer>
+  <lily:originalAuthor xml:lang="ja">尾花沢軒栄</lily:originalAuthor>
+  <lily:planning xml:lang="ja">ピウス</lily:planning>
+  <lily:production xml:lang="ja">ピウス</lily:production>
+  <!-- <lily:contributor xml:lang="ja"></lily:contributor> -->
+  <lily:organizer xml:lang="ja">ピウス</lily:organizer>
+  <lily:organizer xml:lang="ja">acus</lily:organizer>
+  <lily:organizer xml:lang="ja">アゾンインターナショナル</lily:organizer>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">宮瀬玲奈</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q56556209"/>
+    <lily:performAs rdf:resource="Kishimoto_Lucia_Raimu"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">星守紗凪</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q69635313"/>
+    <lily:performAs rdf:resource="Amamiya_Sofia_Seren"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">中村裕香里</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q60613344"/>
+    <lily:performAs rdf:resource="Fukuyama_Jeanne_Sachie"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">あわつまい</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q56253675"/>
+    <lily:performAs rdf:resource="Kishimoto_Maria_Mirai"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">西本りみ</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q24902567"/>
+    <lily:performAs rdf:resource="Ichinomiya_Michaela_Himari"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">出演期間: 5月27日（木）～6月3日（木）</lily:additionalInformation>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">花奈澪</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q17210554"/>
+    <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/花奈澪"/>
+    <lily:performAs rdf:resource="Ichinomiya_Michaela_Himari"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">出演期間: 6月4日（金）～6月6日（日）</lily:additionalInformation>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">大滝紗緒里</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q60989916"/>
+    <lily:performAs rdf:resource="Matsunaga_Brigitta_Kayo"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">七海とろろ</lily:castName>
+    <!-- <lily:castResource rdf:resource=""/> -->
+    <lily:performAs rdf:resource="Seto_Veronica_Ichika"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">石井陽菜</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q18817351"/>
+    <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/石井陽菜"/>
+    <lily:performAs rdf:resource="Tachibana_Theresia_Nagisa"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">梅原サエリ</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q74146771"/>
+    <lily:performAs rdf:resource="Kuroki_Francisca_Yuria"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">清水凜</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q105704315"/>
+    <lily:performAs rdf:resource="Sano_Matilda_Kokoro"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">一本鎗希華</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q98757922"/>
+    <lily:performAs rdf:resource="Narumi_Clara_Yuko"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">岩倉あずさ</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q96715454"/>
+    <lily:performAs rdf:resource="Hanaoka_Angela_Moe"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">小菅怜衣</lily:castName>
+    <!-- <lily:castResource rdf:resource=""/> -->
+    <lily:performAs rdf:resource="Saeki_Julia_Karen"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">西田有愛</lily:castName>
+    <!-- <lily:castResource rdf:resource=""/> -->
+    <lily:performAs rdf:resource="Hasegawa_Gabriela_Tsugumi"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">沖あすか</lily:castName>
+    <!-- <lily:castResource rdf:resource=""/> -->
+    <lily:performAs rdf:resource="Nagase_Marta_Nonoka"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">山﨑悠稀</lily:castName>
+    <!-- <lily:castResource rdf:resource=""/> -->
+    <lily:performAs rdf:resource="Hojo_Monica_Asahi"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">湯田陽花</lily:castName>
+    <!-- <lily:castResource rdf:resource=""/> -->
+    <lily:performAs rdf:resource="Haneda_Catalina_Mei"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">武藤志織</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q17217245"/>
+    <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/武藤志織"/>
+    <lily:performAs rdf:resource="Amatsu_Marei"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">楠世蓮</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q11541155"/>
+    <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/楠世蓮"/>
+    <lily:performAs rdf:resource="Izumi_Rosa_Rina"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <lily:castName xml:lang="ja">遠藤三貴</lily:castName>
+    <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q55177725"/>
+    <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/遠藤三貴"/>
+    <lily:performAs rdf:resource="Kosaka_Anastasiya_Ryoko"/>
+    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+  </lily:cast>
+  <!-- <schema:abstract xml:lang="ja"></schema:abstract> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Play"/>
+</rdf:Description>
+
 </rdf:RDF>
