@@ -107,15 +107,15 @@
   <!-- <schema:parent rdf:resource=""/> -->          # 親のリソース名 (現在不使用なので更新不要)
   <!-- <schema:sibling rdf:parseType="Resource"> -->                                                                          # ┓  (疑似でない) 兄弟姉妹のデータ
     <!-- <lily:resource rdf:resource=""/> -->                                                                                 # ┃  # 兄弟姉妹のリソース名 
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> --> # ┃  # 当人から見た関係の説明
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> --> # ┃  # 当人から見た関係の説明
   <!-- </schema:sibling> -->                                                                                                  # ┛
   <!-- <lily:relationship rdf:parseType="Resource"> -->                                                                           # ┓  その他人間関係のデータ
     <!-- <lily:resource rdf:resource="Hata_Matsuri"/> -->                                                                         # ┃  # 関係のある人物のリソース名
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">師匠</lily:additionalInformation> --> # ┃  # 当人から見た関係の説明
+    <!-- <lily:additionalInformation xml:lang="ja">師匠</lily:additionalInformation> --> # ┃  # 当人から見た関係の説明
   <!-- </lily:relationship> -->                                                                                                   # ┛
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Hitotsuyanagi_Yuri"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">かけがえのない存在</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">かけがえのない存在</lily:additionalInformation>
   </lily:relationship>
   <lily:castName xml:lang="ja">赤尾ひかる</lily:castName>                         # キャスト名
   <lily:castResource rdf:resource="http://www.wikidata.org/entity/Q28685785"/>   # Wikidata や DBPedia でのキャストのリソース
