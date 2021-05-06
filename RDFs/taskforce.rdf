@@ -40,7 +40,7 @@
   <schema:member rdf:resource="Hasebe_Touka"/>
   <schema:member rdf:resource="Amatsu_Marei"/>
   <schema:member rdf:resource="Sengo_Yuna"/>
-  <!-- <schema:member rdf:resource="Altea_Alessandrini"/> -->
+  <schema:member rdf:resource="Altea_Alessandrini"/>
   <schema:member rdf:resource="Seto_Veronica_Ichika"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Taskforce"/>
 </rdf:Description>
@@ -55,7 +55,7 @@
   <schema:member rdf:resource="Aoki_Kaho"/>
   <schema:member rdf:resource="Yokoyama_Azusa"/>
   <schema:member rdf:resource="Banshoya_Ena"/>
-  <!-- <schema:member rdf:resource="Akashi_Aika"/> -->
+  <schema:member rdf:resource="Akashi_Aika"/>
   <schema:member rdf:resource="Watanabe_Akane"/>
   <schema:member rdf:resource="Nishikawa_Miharu"/>
   <schema:member rdf:resource="Fujita_Asagao"/>
