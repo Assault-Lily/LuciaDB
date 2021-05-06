@@ -99,6 +99,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>      # レギオンでの役職 (隊長・主将・リーダーなど全て「隊長」に統一)
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>                    # リリィの適正ポジション (複数ポジションをこなすリリィの場合、1つずつ複数行に分けて書く)
   <!-- <lily:pastLegion rdf:resource=""/> -->        # 過去の所属レギオンのリソース名
+  <!-- <lily:taskforce rdf:resource=""/> -->         # 参加した臨時・特別部隊のリソース名
   <lily:schutzengel rdf:resource="Shirai_Yuyu"/>     # シュッツエンゲルのリソース名 (ルド女の場合は lily:olderSchwester になっている)
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->   # 過去のシュッツエンゲルのリソース名 (シュッツエンゲル関係を解消していたり、死別している場合はこちらに記入)
   <!-- <lily:schild rdf:resource=""/> -->            # シルトのリソース名 (ルド女の場合は lily:youngerSchwester になっている)
@@ -109,19 +110,39 @@
     <!-- <lily:resource rdf:resource=""/> -->                                                                                 # ┃  # 兄弟姉妹のリソース名 
     <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> --> # ┃  # 当人から見た関係の説明
   <!-- </schema:sibling> -->                                                                                                  # ┛
-  <!-- <lily:relationship rdf:parseType="Resource"> -->                                                                           # ┓  その他人間関係のデータ
-    <!-- <lily:resource rdf:resource="Hata_Matsuri"/> -->                                                                         # ┃  # 関係のある人物のリソース名
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">師匠</lily:additionalInformation> --> # ┃  # 当人から見た関係の説明
-  <!-- </lily:relationship> -->                                                                                                   # ┛
+  <lily:relationship rdf:parseType="Resource">                                                                                # ┓  その他人間関係のデータ
+    <lily:resource rdf:resource="Hata_Matsuri"/>                                                                              # ┃  # 関係のある人物のリソース名
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">師匠</lily:additionalInformation>      # ┃  # 当人から見た関係の説明
+  </lily:relationship>                                                                                                        # ┛
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Hitotsuyanagi_Yuri"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">かけがえのない存在</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">赤尾ひかる</lily:castName>                         # キャスト名
-  <lily:castResource rdf:resource="http://www.wikidata.org/entity/Q28685785"/>   # Wikidata や DBPedia でのキャストのリソース
+  <lily:cast rdf:parseType="Resource">                                         # ┓ キャストのデータ
+    <schema:name xml:lang="ja">赤尾ひかる</schema:name>                         # ┃ キャスト名
+    <lily:resource rdf:resource="http://www.wikidata.org/entity/Q28685785"/>   # ┃ Wikidata や DBPedia でのキャストのリソース
+    <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>                      # ┃ 出演作のリソース名
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>                  # ┃ 
+    <lily:performIn rdf:resource="League_of_Gardens"/>                         # ┃ 
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>                          # ┃ 
+  </lily:cast>                                                                 # ┛
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/> # このデータの種類 (リリィなら末尾 Lily、CHARMなら末尾 Charm、舞台公演なら末尾 Play など)
 </rdf:Description>
 ```
 
 データを作成する際は、基本的に同じ種類（リリィならリリィ）の既存のデータをコピーして、データの部分を書き換えるようにして頂くと素早く作成できます。
 
+### リリィ同士の関係性について
+
+リリィ同士の関係性を記述する場合、「友人」のような双方向の関係は必ず双方のリリィに記述してください。
+
+また、一つの関係性に対して複数の説明が存在する場合、それぞれの説明を別々に `lily:additionalInformation` に記述してください。
+例として、二水 -> 日羽梨の関係の説明を載せておきます。
+
+```rdf
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Yamanashi_Hibari"/>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">親しい先輩</lily:additionalInformation>
+    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">戦術を教わる師匠</lily:additionalInformation>
+  </lily:relationship>
+```
