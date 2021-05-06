@@ -148,7 +148,7 @@
   <lily:user rdf:resource="Ando_Tazusa"/>
   <lily:user rdf:resource="Kawazoe_Misuzu"/>
   <lily:user rdf:resource="Kuo_Shenlin"/>
-  <!-- <lily:user rdf:resource="Gozen"/> -->
+  <lily:user rdf:resource="Gozen"/>
   <lily:user rdf:resource="Shirai_Yuyu"/>
   <lily:user rdf:resource="Funada_Kiito"/>
   <lily:user rdf:resource="Rokkaku_Shiori"/>
@@ -166,7 +166,7 @@
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</lily:generation>
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
-  <!-- <lily:user rdf:resource="Ichinomiya_Michaela_Himari"/> -->
+  <lily:user rdf:resource="Ichinomiya_Michaela_Himari"/>
   <lily:user rdf:resource="Kawamura_Yuzuriha"/>
   <lily:user rdf:resource="Kon_Kanaho"/>
   <lily:user rdf:resource="Amamiya_Sofia_Seren"/>
@@ -328,7 +328,7 @@
   <!-- <lily:user rdf:resource="Ishigami_Mio"/> -->
   <lily:user rdf:resource="Ishikawa_Aoi"/>
   <!-- <lily:user rdf:resource="Izue_Shinobu"/> -->
-  <!-- <lily:user rdf:resource="Imagawa_Homare"/> -->
+  <lily:user rdf:resource="Imagawa_Homare"/>
   <lily:user rdf:resource="Endo_Araya"/>
   <lily:user rdf:resource="Katakura_Shion"/>
   <lily:user rdf:resource="Kanabako_Misora"/>
@@ -371,8 +371,8 @@
   <lily:user rdf:resource="Amano_Soraha"/>
   <lily:user rdf:resource="Banshoya_Ena"/>
   <lily:user rdf:resource="Yoshimura_Thi_Mai"/>
-  <!-- <lily:user rdf:resource="Akashi_Aika"/> -->
-  <!-- <lily:user rdf:resource="Aoki_Kaho"/> -->
+  <lily:user rdf:resource="Akashi_Aika"/>
+  <lily:user rdf:resource="Aoki_Kaho"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
@@ -428,7 +428,7 @@
   <schema:manufacturer rdf:resource="Hihiirokane_International"/>
   <lily:user rdf:resource="Hatsukano_Yo"/>
   <lily:user rdf:resource="Ito_Naehi"/>
-  <!-- <lily:user rdf:resource="Thisia_Paumgartner"/> -->
+  <lily:user rdf:resource="Tiuccia_Paumgartner"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
@@ -564,7 +564,7 @@
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</lily:generation>
   <schema:manufacturer rdf:resource="Hihiirokane_International"/>
   <lily:user rdf:resource="Ishikawa_Aoi"/>
-  <!-- <lily:user rdf:resource="Matsunaga_Yui"/> -->
+  <lily:user rdf:resource="Matsunaga_Yui"/>
   <lily:user rdf:resource="Kaede_Johan_Nouvel"/>
   <lily:user rdf:resource="Nosaka_Jacqueline_Kazane"/>
   <lily:user rdf:resource="Akutsu_Lucifer_Maaya"/>
@@ -689,7 +689,7 @@
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</lily:generation>
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Mashima_Moyu"/>
-  <!-- <lily:user rdf:resource="Hasebe_Touka"/> -->
+  <lily:user rdf:resource="Hasebe_Touka"/>
   <lily:user rdf:resource="Banshoya_Ena"/>
   <lily:additionalInformation xml:lang="ja">実験機</lily:additionalInformation>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -704,7 +704,7 @@
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</lily:generation>
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
-  <!-- <lily:user rdf:resource="Shiba_Tomoshibi"/> -->
+  <lily:user rdf:resource="Shiba_Tomoshibi"/>
   <lily:additionalInformation xml:lang="ja">開発試験機</lily:additionalInformation>
   <lily:additionalInformation xml:lang="ja">精神直結型CHARM</lily:additionalInformation>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>

@@ -85,10 +85,10 @@
   <schema:character rdf:resource="Ito_Shizu"/>
   <schema:character rdf:resource="Taniguchi_Hijiri"/>
   <schema:character rdf:resource="Hasebe_Touka"/>
+  <schema:character rdf:resource="Matsunaga_Yui"/>
+  <schema:character rdf:resource="Katakura_Shion"/>
+  <schema:character rdf:resource="Kitano_Futae"/>
   <!-- <schema:character rdf:resource="Izue_Shinobu"/> -->
-  <!-- <schema:character rdf:resource="Matsunaga_Yui"/> -->
-  <!-- <schema:character rdf:resource="Katakura_Shion"/> -->
-  <!-- <schema:character rdf:resource="Kitano_Futae"/> -->
   <!-- <schema:character rdf:resource="Shelice_Jacobsen"/> -->
   <!-- <schema:character rdf:resource="Yoshizaka_Nagisa"/> -->
   <!-- <schema:character rdf:resource="Ishikawa_Seiei"/> -->
