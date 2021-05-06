@@ -87,14 +87,14 @@
   <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade>
   <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers>
   <schema:member rdf:resource="Hata_Matsuri"/>
-  <!-- <schema:member rdf:resource="Kimura_Kazuki"/> -->
-  <!-- <schema:member rdf:resource="Takasaki_Sumire"/> -->
-  <!-- <schema:member rdf:resource="Naito_Hanano"/> -->
-  <!-- <schema:member rdf:resource="Fujimura_Ryuka"/> -->
-  <!-- <schema:member rdf:resource="Monica_Rossi"/> -->
-  <!-- <schema:member rdf:resource="Sakurai_Hazuki"/> -->
-  <!-- <schema:member rdf:resource="Rachelle_de_Moureaux"/> -->
-  <!-- <schema:member rdf:resource="Takeda_Mitsumi"/> -->
+  <schema:member rdf:resource="Kimura_Kazuki"/>
+  <schema:member rdf:resource="Takasaki_Sumire"/>
+  <schema:member rdf:resource="Naito_Hanano"/>
+  <schema:member rdf:resource="Fujimura_Ryuka"/>
+  <schema:member rdf:resource="Monica_Rossi"/>
+  <schema:member rdf:resource="Sakurai_Hazuki"/>
+  <schema:member rdf:resource="Rachelle_de_Moureaux"/>
+  <schema:member rdf:resource="Takeda_Mitsumi"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
