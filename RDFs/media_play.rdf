@@ -11,6 +11,7 @@
 <rdf:Description rdf:about="Schwester_No_Inori">
   <lily:genre xml:lang="ja">舞台</lily:genre>
   <schema:name xml:lang="ja">アサルトリリィ×私立ルドビコ女学院vol.1 『シュベスターの祈り』</schema:name>
+  <schema:alternateName xml:lang="ja">シュベスターの祈り</schema:alternateName>
   <schema:inLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">ja-JP</schema:inLanguage>
   <schema:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">サンモールスタジオ</schema:location>
   <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-04-16</schema:startDate>
@@ -163,6 +164,7 @@
 <rdf:Description rdf:about="Schwester_No_Himitsu">
   <lily:genre xml:lang="ja">舞台</lily:genre>
   <schema:name xml:lang="ja">アサルトリリィ×私立ルドビコ女学院vol.2 『シュベスターの秘密』</schema:name>
+  <schema:alternateName xml:lang="ja">シュベスターの秘密</schema:alternateName>
   <schema:inLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">ja-JP</schema:inLanguage>
   <schema:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">サンモールスタジオ</schema:location>
   <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-16</schema:startDate>
@@ -321,6 +323,7 @@
 <rdf:Description rdf:about="Schwester_No_Chikai">
   <lily:genre xml:lang="ja">舞台</lily:genre>
   <schema:name xml:lang="ja">アサルトリリィ×私立ルドビコ女学院vol.3 『シュベスターの誓い』</schema:name>
+  <schema:alternateName xml:lang="ja">シュベスターの誓い</schema:alternateName>
   <schema:inLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">ja-JP</schema:inLanguage>
   <schema:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">中野ザ・ポケット</schema:location>
   <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-03-01</schema:startDate>
@@ -498,6 +501,7 @@
 <rdf:Description rdf:about="Yakusoku_No_Yukue">
   <lily:genre xml:lang="ja">舞台</lily:genre>
   <schema:name xml:lang="ja">アサルトリリィ×私立ルドビコ女学院vol.4 『白きレジスタンス～約束の行方～』</schema:name>
+  <schema:alternateName xml:lang="ja">白きレジスタンス～約束の行方～</schema:alternateName>
   <schema:inLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">ja-JP</schema:inLanguage>
   <schema:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">シアターグリーン BIG TREE THEATER</schema:location>
   <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-09-21</schema:startDate>
@@ -684,6 +688,7 @@
 <rdf:Description rdf:about="Shinjitsu_No_Yaiba">
   <lily:genre xml:lang="ja">舞台</lily:genre>
   <schema:name xml:lang="ja">アサルトリリィ×私立ルドビコ女学院vol.5 『白きレジスタンス～真実の刃～』</schema:name>
+  <schema:alternateName xml:lang="ja">白きレジスタンス～真実の刃～</schema:alternateName>
   <schema:inLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">ja-JP</schema:inLanguage>
   <schema:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">新宿村LIVE</schema:location>
   <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-29</schema:startDate>
@@ -862,6 +867,7 @@
 <rdf:Description rdf:about="League_of_Gardens">
   <lily:genre xml:lang="ja">舞台</lily:genre>
   <schema:name xml:lang="ja">アサルトリリィ League of Gardens</schema:name>
+  <schema:alternateName xml:lang="ja">LoG</schema:alternateName>
   <schema:inLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">ja-JP</schema:inLanguage>
   <schema:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">新宿FACE</schema:location>
   <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-09</schema:startDate>
@@ -1028,6 +1034,7 @@
 <rdf:Description rdf:about="The_Fateful_Gift">
   <lily:genre xml:lang="ja">舞台</lily:genre>
   <schema:name xml:lang="ja">アサルトリリィ The Fateful Gift</schema:name>
+  <schema:alternateName xml:lang="ja">TFG</schema:alternateName>
   <schema:inLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">ja-JP</schema:inLanguage>
   <schema:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">東京建物 Brillia HALL</schema:location>
   <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-03</schema:startDate>
@@ -1238,6 +1245,7 @@
 <rdf:Description rdf:about="Schwester_No_Inori_2021">
   <lily:genre xml:lang="ja">舞台</lily:genre>
   <schema:name xml:lang="ja">アサルトリリィ×私立ルドビコ女学院vol.6 『シュベスターの祈り 2021』</schema:name>
+  <schema:alternateName xml:lang="ja">シュベスターの祈り 2021</schema:alternateName>
   <schema:inLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">ja-JP</schema:inLanguage>
   <schema:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">シアターグリーン BIG TREE THEATER</schema:location>
   <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-27</schema:startDate>
