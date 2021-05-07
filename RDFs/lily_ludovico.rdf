@@ -882,7 +882,7 @@
     <lily:performIn rdf:resource="Schwester_No_Chikai"/>
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
-    <schema:name xml:lang="ja">緒方ありさs</schema:name>
+    <schema:name xml:lang="ja">緒方ありさ</schema:name>
     <!-- <lily:resource rdf:resource=""/> -->
     <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
     <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>

@@ -63,9 +63,13 @@
     <lily:resource rdf:resource="Shirai_Yuyu"/>
     <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">手に入れたい</lily:additionalInformation>
   </lily:relationship>
-  <lily:castName xml:lang="ja">佃井皆美</lily:castName>
-  <lily:castResource rdf:resource="https://www.wikidata.org/wiki/Q11381598"/>
-  <lily:castResource rdf:resource="http://ja.dbpedia.org/resource/佃井皆美"/>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">佃井皆美</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q11381598"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/佃井皆美"/>
+    <lily:performIn rdf:resource="League_of_Gardens"/>
+    <lily:performIn rdf:resource="The_Fateful_Gift"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
