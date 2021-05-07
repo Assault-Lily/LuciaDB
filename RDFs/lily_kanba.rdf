@@ -70,11 +70,11 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Miyagawa_Takane"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">幼馴染</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">幼馴染</lily:additionalInformation>
   </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">前田佳織里</schema:name>
@@ -140,11 +140,11 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Kon_Kanaho"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">幼馴染</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">幼馴染</lily:additionalInformation>
   </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">礒部花凜</schema:name>
@@ -210,11 +210,11 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Abiko_Hiromi"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">音楽科（声楽）の先輩</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">音楽科（声楽）の先輩</lily:additionalInformation>
   </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">東城咲耶子</schema:name>
@@ -280,11 +280,11 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Kozue_West"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">進藤あまね</schema:name>
@@ -351,15 +351,15 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Kuo_Shenlin"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル視</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">ライバル視</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Abiko_Hiromi"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">音楽科（声楽）の先輩</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">音楽科（声楽）の先輩</lily:additionalInformation>
   </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">富田美憂</schema:name>
@@ -422,15 +422,15 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Toki_Kureha"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">音楽科（声楽）の後輩</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">音楽科（声楽）の後輩</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Sadamori_Himeka"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">音楽科（声楽）の後輩</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">音楽科（声楽）の後輩</lily:additionalInformation>
   </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->

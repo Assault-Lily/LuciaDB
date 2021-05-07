@@ -67,30 +67,30 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Mashima_Moyu"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Amano_Soraha"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Banshoya_Ena"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Uchida_Mayuri"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">友人</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">武藤志織</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q17217245"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/武藤志織"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -147,16 +147,16 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Amano_Soraha"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場迎撃戦の戦友</lily:additionalInformation>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">柳都外征を依頼する</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">御台場迎撃戦の戦友</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">柳都外征を依頼する</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Yoshihara_Nanoha"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">ライバル</lily:additionalInformation>
   </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
@@ -220,11 +220,11 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Enomoto_Komomo"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">姉妹契約制度における姉の実の妹</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">姉妹契約制度における姉の実の妹</lily:additionalInformation>
   </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
@@ -288,11 +288,11 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Sumitani_Miki"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">実の姉の姉妹契約制度における妹</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">実の姉の姉妹契約制度における妹</lily:additionalInformation>
   </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
@@ -356,11 +356,11 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Sengo_Yuna"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ライバル</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">ライバル</lily:additionalInformation>
   </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
@@ -424,11 +424,11 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <!-- <lily:relationship rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->

@@ -60,11 +60,11 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <!-- <lily:relationship rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">今吉めぐみ</schema:name>
@@ -137,11 +137,11 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Nagase_Marta_Nonoka"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">応援団を託す</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">応援団を託す</lily:additionalInformation>
   </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">木村若菜</schema:name>
@@ -210,11 +210,11 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <!-- <lily:relationship rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">内多優</schema:name>
@@ -278,11 +278,11 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Kosaka_Anastasiya_Ryoko"/>
-    <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">苦手</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">苦手</lily:additionalInformation>
   </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">酒井栞</schema:name>
@@ -342,11 +342,11 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <!-- <lily:relationship rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">嘉陽愛子</schema:name>
@@ -411,11 +411,11 @@
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <!-- <lily:relationship rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:additionalInformation> -->
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">桜木さやか</schema:name>
