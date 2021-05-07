@@ -5391,7 +5391,7 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
-<!-- LGエイル -->
+<!-- LGエイル 秦祀隊 -->
 
 <rdf:Description rdf:about="Hata_Matsuri">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">秦祀</rdfs:label>
@@ -6144,6 +6144,7 @@
     <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
     <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
   </lily:cast>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="Sono_Mao">
