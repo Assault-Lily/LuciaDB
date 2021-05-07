@@ -272,7 +272,7 @@
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
-  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <lily:pastLegion rdf:resource="Temple_Legion"/>
   <!-- <lily:pastOlderSchwester rdf:resource=""/> -->
   <!-- <lily:pastYoungerSchwester rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
@@ -336,7 +336,7 @@
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
-  <!-- <lily:pastLegion rdf:resource=""/> -->
+  <lily:pastLegion rdf:resource="Temple_Legion"/>
   <!-- <lily:pastOlderSchwester rdf:resource=""/> -->
   <!-- <lily:pastYoungerSchwester rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->

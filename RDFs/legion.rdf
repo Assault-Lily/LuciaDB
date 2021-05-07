@@ -337,6 +337,17 @@
   <schema:member rdf:resource="Hanaoka_Angela_Moe"/>
   <schema:member rdf:resource="Hasegawa_Gabriela_Tsugumi"/>
   <schema:member rdf:resource="Haneda_Catalina_Mei"/>
+  <schema:alumni rdf:resource="Kishimoto_Maria_Mirai"/>
+  <schema:alumni rdf:resource="Nosaka_Jacqueline_Kazane"/>
+  <schema:alumni rdf:resource="Takatori_Natalie_Towa"/>
+  <schema:alumni rdf:resource="Fukuyama_Jeanne_Sachie"/>
+  <schema:alumni rdf:resource="Kuroki_Francisca_Yuria"/>
+  <schema:alumni rdf:resource="Seto_Veronica_Ichika"/>
+  <schema:alumni rdf:resource="Amamiya_Sofia_Seren"/>
+  <schema:alumni rdf:resource="Kishimoto_Lucia_Raimu"/>
+  <!-- <schema:alumni rdf:resource="Izumi_Rosa_Rina"/> --> <!-- 先生の扱いは別途検討 -->
+  <!-- <schema:alumni rdf:resource="Makabe_Melania_Sayoko"/> -->
+  <!-- <schema:alumni rdf:resource="Toride_Suzanne_Reika"/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
