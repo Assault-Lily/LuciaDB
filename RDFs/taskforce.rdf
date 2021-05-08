@@ -93,15 +93,15 @@
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:disbanded>
   <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers> -->
-  <!-- <schema:member rdf:resource="Senda_Koume"/> -->
+  <schema:member rdf:resource="Senda_Koume"/>
   <schema:member rdf:resource="Yoshimura_Thi_Mai"/>
   <schema:member rdf:resource="Kawabata_Hotaru"/>
   <!-- <schema:member rdf:resource="Toono_Natsuki"/> -->
-  <!-- <schema:member rdf:resource="Sasaki_Yasuna"/> -->
+  <schema:member rdf:resource="Sasaki_Yasuna"/>
   <!-- <schema:member rdf:resource="Osumi_Azuki"/> -->
-  <!-- <schema:member rdf:resource="Noguchi_Shinano"/> -->
+  <schema:member rdf:resource="Noguchi_Shinano"/>
   <schema:member rdf:resource="Miyamoto_Komuku"/>
-  <!-- <schema:member rdf:resource="Danzuka_Erisa"/> -->
+  <schema:member rdf:resource="Danzuka_Erisa"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Taskforce"/>
 </rdf:Description>
 
