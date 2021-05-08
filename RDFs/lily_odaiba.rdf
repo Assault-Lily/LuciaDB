@@ -25,6 +25,7 @@
   <schema:name xml:lang="en">Funada Kiito</schema:name>
   <lily:nameKana xml:lang="ja">ふなだきいと</lily:nameKana>
   <lily:anotherName xml:lang="ja">狂乱の姫巫女</lily:anotherName>
+  <lily:anotherName xml:lang="ja">輝ける者たち</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">163.0</schema:height>
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
@@ -120,6 +121,7 @@
   <schema:name xml:lang="en">Funada Ui</schema:name>
   <lily:nameKana xml:lang="ja">ふなだうい</lily:nameKana>
   <lily:anotherName xml:lang="ja">台場の白き魔女</lily:anotherName>
+  <lily:anotherName xml:lang="ja">輝ける者たち</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">163.0</schema:height>
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
@@ -991,12 +993,12 @@
   <lily:anotherName xml:lang="ja">ロイヤルエレガンス</lily:anotherName>
   <lily:anotherName xml:lang="ja">輝ける者たち</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
-  <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
-  <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
+  <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">162.0</schema:height>
+  <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</schema:weight>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--05-06</schema:birthDate>
   <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
   <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
-  <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
+  <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</lily:bloodType>
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
   <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
@@ -1133,6 +1135,7 @@
   <schema:name xml:lang="en">Kawamura Yuzuriha</schema:name>
   <lily:nameKana xml:lang="ja">かわむらゆずりは</lily:nameKana>
   <lily:anotherName xml:lang="ja">セインツの宝石</lily:anotherName>
+  <lily:anotherName xml:lang="ja">輝ける者たち</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">156.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">43.0</schema:weight>
@@ -1499,6 +1502,7 @@
   <schema:name xml:lang="en">Tsukioka Momiji</schema:name>
   <lily:nameKana xml:lang="ja">つきおかもみじ</lily:nameKana>
   <lily:anotherName xml:lang="ja">暴君の花嫁</lily:anotherName>
+  <lily:anotherName xml:lang="ja">輝ける者たち</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">158.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">47.0</schema:weight>
