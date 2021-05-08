@@ -38,9 +38,12 @@
   <lily:favorite xml:lang="ja">クリームシチュー</lily:favorite>
   <lily:favorite xml:lang="ja">健康補助食品</lily:favorite>
   <lily:favorite xml:lang="ja">完全食</lily:favorite>
-  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <lily:notGood xml:lang="ja">コーラ</lily:notGood>
+  <lily:notGood xml:lang="ja">小動物</lily:notGood>
   <lily:hobby_talent xml:lang="ja">ボードゲーム</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">ツーリング</lily:hobby_talent>
+  <lily:hobby_talent xml:lang="ja">バイクの運転</lily:hobby_talent>
+  <lily:hobby_talent xml:lang="ja">操縦技術</lily:hobby_talent>
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">レジスタ</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
@@ -114,7 +117,9 @@
   <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <lily:favorite xml:lang="ja">たい焼き</lily:favorite>
-  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <lily:notGood xml:lang="ja">コーヒー</lily:notGood>
+  <lily:notGood xml:lang="ja">辛いカレー</lily:notGood>
+  <lily:notGood xml:lang="ja">注射</lily:notGood>
   <lily:hobby_talent xml:lang="ja">お昼寝すること</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">食べること</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">戦うこと</lily:hobby_talent>
