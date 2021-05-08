@@ -450,6 +450,21 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<!-- 那賀大串女学園 -->
+
+<rdf:Description rdf:about="Thrymheim">
+  <schema:name xml:lang="ja">スリュムヘイム</schema:name>
+  <schema:name xml:lang="en">Thrymheim</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Noguchi_Shinano"/>
+  <schema:member rdf:resource="Sasaki_Yasuna"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
 <!-- 柳都女学館 -->
 
 <rdf:Description rdf:about="Himinglaeva">
