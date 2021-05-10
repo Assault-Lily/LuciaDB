@@ -131,10 +131,10 @@
   <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
   <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers>
   <schema:member rdf:resource="Tamura_Nagi"/>
-  <!-- <schema:member rdf:resource="Mitsui_Ko"/> -->
+  <schema:member rdf:resource="Mitsui_Ko"/>
   <schema:member rdf:resource="Izumi_Botan"/>
-  <!-- <schema:member rdf:resource="Soyogi_Ataru"/> -->
-  <!-- <schema:member rdf:resource="Tanijiri_Shizuku"/> -->
+  <schema:member rdf:resource="Soyogi_Ataru"/>
+  <schema:member rdf:resource="Tanijiri_Shizuku"/>
   <schema:member rdf:resource="Yamanashi_Hibari"/>
   <!-- <schema:member rdf:resource="Yanagisawa_Ayako"/> -->
   <!-- <schema:member rdf:resource="Arakawa_Hitomi"/> -->
@@ -202,6 +202,24 @@
   <schema:member rdf:resource="Uchida_Mayuri"/>
   <schema:member rdf:resource="Kemmochi_Noriko"/>
   <schema:member rdf:resource="Murano_Kokoro"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Brynhildr_Line">
+  <schema:name xml:lang="ja">ブリュンヒルデライン</schema:name>
+  <schema:name xml:lang="en">Brynhildr Line</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade>
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Izue_Shinobu"/>
+  <schema:member rdf:resource="Soyogi_Ataru"/>
+  <schema:member rdf:resource="Katayama_Shuka"/>
+  <schema:member rdf:resource="Nakamura_Tsubame"/>
+  <schema:member rdf:resource="Alicja_Libeskind"/>
+  <schema:member rdf:resource="Mitsui_Ko"/>
+  <schema:member rdf:resource="Tanijiri_Shizuku"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 

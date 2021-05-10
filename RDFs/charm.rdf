@@ -327,7 +327,7 @@
   <lily:user rdf:resource="Kuo_Shenlin"/>
   <!-- <lily:user rdf:resource="Ishigami_Mio"/> -->
   <lily:user rdf:resource="Ishikawa_Aoi"/>
-  <!-- <lily:user rdf:resource="Izue_Shinobu"/> -->
+  <lily:user rdf:resource="Izue_Shinobu"/>
   <lily:user rdf:resource="Imagawa_Homare"/>
   <lily:user rdf:resource="Endo_Araya"/>
   <lily:user rdf:resource="Katakura_Shion"/>
