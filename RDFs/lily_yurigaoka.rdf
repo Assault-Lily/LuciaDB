@@ -5438,7 +5438,7 @@
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立百合ヶ丘女学院</lily:garden>
   <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
-  <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">櫻</lily:class>
+  <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">櫻組</lily:class>
   <lily:gardenJobTitle xml:lang="ja">オルトリンデ代行</lily:gardenJobTitle>
   <lily:gardenJobTitle xml:lang="ja">級長連絡会議議長</lily:gardenJobTitle>
   <lily:legion rdf:resource="Eir"/>
