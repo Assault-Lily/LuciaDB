@@ -6334,13 +6334,13 @@
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">アリツィア・リベスキンド</rdfs:label>
   <schema:familyName xml:lang="ja">リベスキンド</schema:familyName>
   <schema:familyName xml:lang="en">Libeskind</schema:familyName>
-  <lily:familyNameKana xml:lang="ja">ありつぃあ</lily:familyNameKana>
+  <lily:familyNameKana xml:lang="ja">りべすきんど</lily:familyNameKana>
   <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
   <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
   <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
   <schema:givenName xml:lang="ja">アリツィア</schema:givenName>
   <schema:givenName xml:lang="en">Alicja</schema:givenName>
-  <lily:givenNameKana xml:lang="ja">りべすきんど</lily:givenNameKana>
+  <lily:givenNameKana xml:lang="ja">ありつぃあ</lily:givenNameKana>
   <schema:name xml:lang="ja">アリツィア・リベスキンド</schema:name>
   <schema:name xml:lang="en">Alicja Libeskind</schema:name>
   <lily:nameKana xml:lang="ja">ありつぃあ・りべすきんど</lily:nameKana>
