@@ -136,8 +136,8 @@
   <schema:member rdf:resource="Soyogi_Ataru"/>
   <schema:member rdf:resource="Tanijiri_Shizuku"/>
   <schema:member rdf:resource="Yamanashi_Hibari"/>
-  <!-- <schema:member rdf:resource="Yanagisawa_Ayako"/> -->
-  <!-- <schema:member rdf:resource="Arakawa_Hitomi"/> -->
+  <schema:member rdf:resource="Yanagisawa_Ayako"/>
+  <schema:member rdf:resource="Arakawa_Hitomi"/>
   <schema:member rdf:resource="Mozuna_Noa"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
