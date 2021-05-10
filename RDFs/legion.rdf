@@ -223,6 +223,35 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Vingolf">
+  <schema:name xml:lang="ja">ヴィーンゴールヴ</schema:name>
+  <schema:name xml:lang="en">Vingólf</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade>
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Yamazaki_Meika"/><!-- 隊長 -->
+  <schema:member rdf:resource="Yanagisawa_Ayako"/><!-- 副隊長 -->
+  <schema:member rdf:resource="Arakawa_Hitomi"/><!-- 司令塔 -->
+  <!-- <schema:member rdf:resource=""/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Sigrdrifa">
+  <schema:name xml:lang="ja">シグルドリーヴァ</schema:name>
+  <schema:name xml:lang="en">Sigrdrífa</schema:name>
+  <schema:alternateName xml:lang="ja">レギオンリーコン</schema:alternateName>
+  <schema:alternateName xml:lang="en">Legion Recon</schema:alternateName>
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade>
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Tono_Natsuki"/><!-- 隊長 -->
+  <schema:member rdf:resource="Osumi_Azuki"/><!-- 副隊長 -->
+  <!-- <schema:member rdf:resource=""/> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
 <!-- エレンスゲ女学園 -->
 
 <rdf:Description rdf:about="Hervarar">
