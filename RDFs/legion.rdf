@@ -220,6 +220,7 @@
   <schema:member rdf:resource="Alicja_Libeskind"/>
   <schema:member rdf:resource="Mitsui_Ko"/>
   <schema:member rdf:resource="Tanijiri_Shizuku"/>
+  <schema:alumni rdf:resource="Yamazaki_Meika"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
