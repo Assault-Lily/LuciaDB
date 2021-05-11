@@ -96,9 +96,9 @@
   <schema:member rdf:resource="Senda_Koume"/>
   <schema:member rdf:resource="Yoshimura_Thi_Mai"/>
   <schema:member rdf:resource="Kawabata_Hotaru"/>
-  <!-- <schema:member rdf:resource="Toono_Natsuki"/> -->
+  <schema:member rdf:resource="Tono_Natsuki"/>
   <schema:member rdf:resource="Sasaki_Yasuna"/>
-  <!-- <schema:member rdf:resource="Osumi_Azuki"/> -->
+  <schema:member rdf:resource="Osumi_Azuki"/>
   <schema:member rdf:resource="Noguchi_Shinano"/>
   <schema:member rdf:resource="Miyamoto_Komuku"/>
   <schema:member rdf:resource="Danzuka_Erisa"/>
