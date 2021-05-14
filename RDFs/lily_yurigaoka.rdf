@@ -5286,7 +5286,7 @@
   <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
-  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <lily:notGood xml:lang="ja">ホラー</lily:notGood>
   <lily:hobby_talent xml:lang="ja">料理</lily:hobby_talent>
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">レジスタ</lily:rareSkill>
   <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">約束の領域</lily:subSkill>
