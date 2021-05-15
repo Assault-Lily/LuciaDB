@@ -490,7 +490,7 @@
   <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
-  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAA</lily:legionGrade>
   <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
   <schema:member rdf:resource="Kamigoori_Marimo"/>
   <schema:member rdf:resource="Ueda_Imari"/>
