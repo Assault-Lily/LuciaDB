@@ -159,6 +159,7 @@
   <schema:member rdf:resource="Luise_Ingels"/>
   <schema:member rdf:resource="Hasebe_Touka"/>
   <schema:member rdf:resource="Murakami_Tokiwa"/>
+  <lily:submember rdf:resource="Tetsukawa_Toa"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
