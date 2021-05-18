@@ -1520,6 +1520,7 @@
   <lily:hobby_talent xml:lang="ja">茶道</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">和歌</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">華道</lily:hobby_talent>
+  <lily:hobby_talent xml:lang="ja">書道</lily:hobby_talent>
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">レジスタ</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
