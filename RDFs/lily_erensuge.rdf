@@ -62,7 +62,7 @@
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">エレンスゲ女学園</lily:garden>
   <lily:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:rank>
   <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
-  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Hervarar"/>
@@ -136,7 +136,7 @@
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">エレンスゲ女学園</lily:garden>
   <lily:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</lily:rank>
   <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
-  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Hervarar"/>
@@ -209,7 +209,7 @@
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">エレンスゲ女学園</lily:garden>
   <lily:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</lily:rank>
   <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
-  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Hervarar"/>
@@ -280,7 +280,7 @@
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">エレンスゲ女学園</lily:garden>
   <lily:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</lily:rank>
   <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
-  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Hervarar"/>
@@ -355,7 +355,7 @@
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">エレンスゲ女学園</lily:garden>
   <lily:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</lily:rank>
   <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
-  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Hervarar"/>
