@@ -1862,7 +1862,7 @@
   <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
-  <lily:notGood xml:lang="ja">蛇みたいなもの</lily:notGood>
+  <lily:notGood xml:lang="ja">爬虫類</lily:notGood>
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">レジスタ</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
