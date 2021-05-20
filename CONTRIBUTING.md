@@ -92,7 +92,7 @@
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立百合ヶ丘女学院</lily:garden>          # 所属ガーデン (なるべく正式名称)
   <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">普通科</lily:gardenDepartment> # 所属学科 (必ず「科」まで記入する)
-  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>                          # 学年 (数値のみ)
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</lily:grade>                          # 学年 (数値のみ)
   <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">椿組</lily:class>                         # 組 (必ず「組」まで記入する)
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->                                          # ガーデンでの役職 (例: 田中壱なら「学級委員長」、出江史房なら「ブリュンヒルデ」と書かれる)
   <lily:legion rdf:resource="Radgrid"/>                                                                       # 所属レギオンのリソース名 (リソース名は legion.rdf で定義されている)

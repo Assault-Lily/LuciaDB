@@ -57,7 +57,7 @@
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">神庭女子藝術高校</lily:garden>
   <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">造園科</lily:gardenDepartment>
-  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Gran_Eple"/>
@@ -128,7 +128,7 @@
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">神庭女子藝術高校</lily:garden>
   <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">造園科</lily:gardenDepartment>
-  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lily:grade>
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Gran_Eple"/>
@@ -198,7 +198,7 @@
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">神庭女子藝術高校</lily:garden>
   <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">音楽科（声楽）</lily:gardenDepartment>
-  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Gran_Eple"/>
@@ -268,7 +268,7 @@
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">神庭女子藝術高校</lily:garden>
   <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">美術科（絵画）</lily:gardenDepartment>
-  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Gran_Eple"/>
@@ -339,7 +339,7 @@
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">神庭女子藝術高校</lily:garden>
   <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">音楽科（声楽）</lily:gardenDepartment>
-  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lily:grade>
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Gran_Eple"/>
@@ -410,7 +410,7 @@
   <!-- </lily:charm> -->
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">神庭女子藝術高校</lily:garden>
   <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">音楽科（声楽）</lily:gardenDepartment>
-  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lily:grade>
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <!-- <lily:legion rdf:resource=""/> -->
