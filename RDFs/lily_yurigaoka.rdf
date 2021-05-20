@@ -797,14 +797,14 @@
   <!-- <lily:pastSchild rdf:resource=""/> -->
   <lily:roomMate rdf:resource="Kuo_Shenlin"/>
   <!-- <schema:parent rdf:resource=""/> -->
-  <!-- <schema:sibling rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Wang_Ruixi"/> -->
-    <!-- <lily:additionalInformation xml:lang="ja">姉</lily:additionalInformation> -->
-  <!-- </schema:sibling> -->
-  <!-- <schema:sibling rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Wang_Lifen"/> -->
-    <!-- <lily:additionalInformation xml:lang="ja">妹</lily:additionalInformation> -->
-  <!-- </schema:sibling> -->
+  <schema:sibling rdf:parseType="Resource">
+    <lily:resource rdf:resource="Wang_Ruixi"/>
+    <lily:additionalInformation xml:lang="ja">姉</lily:additionalInformation>
+  </schema:sibling>
+  <schema:sibling rdf:parseType="Resource">
+    <lily:resource rdf:resource="Wang_Lifen"/>
+    <lily:additionalInformation xml:lang="ja">妹</lily:additionalInformation>
+  </schema:sibling>
   <!-- <lily:relationship rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
