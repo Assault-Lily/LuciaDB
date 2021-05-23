@@ -258,6 +258,8 @@ lily-shape:lilyShape a sh:NodeShape;
             "連続強化補助"
             "ノスフェラトゥ"
             "マギリフレクター"
+            "オートヒール"
+            "アストラルガーダー"
         );
     ];
     sh:property [
