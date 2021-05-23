@@ -325,7 +325,7 @@
   <schema:manufacturer rdf:resource="Hihiirokane_International"/>
   <lily:user rdf:resource="Wang_Yujia"/>
   <lily:user rdf:resource="Kuo_Shenlin"/>
-  <!-- <lily:user rdf:resource="Ishigami_Mio"/> -->
+  <lily:user rdf:resource="Ishigami_Mio"/>
   <lily:user rdf:resource="Ishikawa_Aoi"/>
   <lily:user rdf:resource="Izue_Shinobu"/>
   <lily:user rdf:resource="Imagawa_Homare"/>
@@ -339,7 +339,7 @@
   <lily:user rdf:resource="Banshoya_Ena"/>
   <lily:user rdf:resource="Mashima_Moyu"/>
   <!-- <lily:user rdf:resource="Yumeno_Kanon"/> -->
-  <!-- <lily:user rdf:resource="Rosalinde_Friedegunde_von_Otto"/> -->
+  <lily:user rdf:resource="Rosalinde_Friedegunde_von_Otto"/>
   <lily:user rdf:resource="Watanabe_Akane"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
