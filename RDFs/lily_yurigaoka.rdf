@@ -6046,20 +6046,20 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="Takeda_Mitsumi">
+<rdf:Description rdf:about="Takeda_Mimi">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">武田光未</rdfs:label>
   <schema:familyName xml:lang="ja">武田</schema:familyName>
-  <!-- <schema:familyName xml:lang="en"></schema:familyName> -->
-  <!-- <lily:familyNameKana xml:lang="ja"></lily:familyNameKana> -->
+  <schema:familyName xml:lang="en">Takeda</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">たけだ</lily:familyNameKana>
   <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
   <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
   <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
   <schema:givenName xml:lang="ja">光未</schema:givenName>
-  <!-- <schema:givenName xml:lang="en"></schema:givenName> -->
-  <!-- <lily:givenNameKana xml:lang="ja"></lily:givenNameKana> -->
+  <schema:givenName xml:lang="en">Mimi</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">みみ</lily:givenNameKana>
   <schema:name xml:lang="ja">武田光未</schema:name>
-  <!-- <schema:name xml:lang="en"></schema:name> -->
-  <!-- <lily:nameKana xml:lang="ja"></lily:nameKana> -->
+  <schema:name xml:lang="en">Takeda Mimi</schema:name>
+  <lily:nameKana xml:lang="ja">たけだみみ</lily:nameKana>
   <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <!-- <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></foaf:age> -->
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->

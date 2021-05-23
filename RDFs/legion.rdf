@@ -94,7 +94,7 @@
   <schema:member rdf:resource="Monica_Rossi"/>
   <schema:member rdf:resource="Sakurai_Hazuki"/>
   <schema:member rdf:resource="Rachelle_de_Moureaux"/>
-  <schema:member rdf:resource="Takeda_Mitsumi"/>
+  <schema:member rdf:resource="Takeda_Mimi"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
