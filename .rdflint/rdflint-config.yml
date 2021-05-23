@@ -76,6 +76,7 @@ rules:
               r.getLiteral("fn").value + "・" + r.getLiteral("an").value + "・" + r.getLiteral("gn").value,
               r.getLiteral("gn").value + "・" + r.getLiteral("an").value + "・" + r.getLiteral("fn").value,
               "ミリアム・ヒルデガルド・v・グロピウス",
+              "ロザリンデ・フリーデグンデ・v・オットー",
               "楓・J・ヌーベル"]
         nm = r.getLiteral("nm").value
         if (!(nm in jn)) {
