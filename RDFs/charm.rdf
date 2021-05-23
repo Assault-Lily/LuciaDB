@@ -562,6 +562,7 @@
   <schema:name xml:lang="ja">トリグラフ</schema:name>
   <schema:name xml:lang="en">Trigrav</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</lily:generation>
+  <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</lily:requiredSkillerVal>
   <schema:manufacturer rdf:resource="Hihiirokane_International"/>
   <lily:user rdf:resource="Ishikawa_Aoi"/>
   <lily:user rdf:resource="Matsunaga_Yui"/>
@@ -586,7 +587,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="Naglering">
-  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-22</schema:productID>
   <lily:seriesName xml:lang="ja">ナーゲルリング</lily:seriesName>
   <lily:seriesName xml:lang="en">Naglering</lily:seriesName>
   <schema:name xml:lang="ja">ナーゲルリング</schema:name>
@@ -1021,6 +1022,34 @@
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <!-- <schema:manufacturer rdf:resource=""/> -->
   <lily:user rdf:resource="Sengo_Yuna"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Eckesachs">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">エッケザックス</lily:seriesName>
+  <lily:seriesName xml:lang="en">Eckesachs</lily:seriesName>
+  <schema:name xml:lang="ja">エッケザックス</schema:name>
+  <schema:name xml:lang="en">Eckesachs</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Senda_Koume"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Ukonvasara">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">ウコンバサラ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Ukonvasara</lily:seriesName>
+  <schema:name xml:lang="ja">ウコンバサラ</schema:name>
+  <schema:name xml:lang="en">Ukonvasara</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Senda_Koume"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
