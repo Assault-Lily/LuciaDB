@@ -254,6 +254,26 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Rossweisse">
+  <schema:name xml:lang="ja">ロスヴァイセ</schema:name>
+  <schema:name xml:lang="en">Rossweisse</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade>
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Kitagawara_Inori"/><!-- 隊長 -->
+  <schema:member rdf:resource="Ishigami_Mio"/><!-- 副隊長 -->
+  <schema:member rdf:resource="Rosalinde_Friedegunde_von_Otto"/>
+  <!-- <schema:member rdf:resource="Oshima_"/> --><!-- 大島某 -->
+  <!-- <schema:member rdf:resource="Goto_"/> --><!-- 後藤某 -->
+  <schema:member rdf:resource="Yamada_Samidori"/>
+  <!-- <schema:member rdf:resource="Kaneda_"/> --><!-- 金田某 -->
+  <schema:member rdf:resource="Onogi_Sato"/>
+  <schema:member rdf:resource="Yasui_Ryo"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="Herfjotur">
   <schema:name xml:lang="ja">ヘルフィヨトゥル</schema:name>
   <schema:name xml:lang="en">Herfjötur</schema:name>
