@@ -7155,7 +7155,7 @@
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:isBoosted>
   <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">リジェネレーター</lily:boostedSkill>
-  <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">エ－テルボディ</lily:boostedSkill>
+  <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">エーテルボディ</lily:boostedSkill>
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Asterion"/>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">アニメ</lily:usedIn>
