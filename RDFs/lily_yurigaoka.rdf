@@ -2414,7 +2414,7 @@
     <lily:resource rdf:resource="Ishigami_Mio"/>
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
-  <!--lily:cast rdf:parseType="Resource"> -->
+  <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:performIn rdf:resource=""/> -->
@@ -7123,7 +7123,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="Rosalinde_Friedegunde_von_Otto">
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ロザリンデ・フリーデグンデ・フォン・オットー</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ロザリンデ・フリーデグンデ・v・オットー</rdfs:label>
   <schema:familyName xml:lang="ja">フォン・オットー</schema:familyName>
   <schema:familyName xml:lang="en">von Otto</schema:familyName>
   <lily:familyNameKana xml:lang="ja">ふぉん・おっとー</lily:familyNameKana>
@@ -7133,7 +7133,7 @@
   <schema:givenName xml:lang="ja">ロザリンデ</schema:givenName>
   <schema:givenName xml:lang="en">Rosalinde</schema:givenName>
   <lily:givenNameKana xml:lang="ja">ろざりんで</lily:givenNameKana>
-  <schema:name xml:lang="ja">ロザリンデ・フリーデグンデ・フォン・オットー</schema:name>
+  <schema:name xml:lang="ja">ロザリンデ・フリーデグンデ・v・オットー</schema:name>
   <schema:name xml:lang="en">Rosalinde Friedegunde von Otto</schema:name>
   <lily:nameKana xml:lang="ja">ろざりんで・ふりーでぐんで・ふぉん・おっとー</lily:nameKana>
   <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
