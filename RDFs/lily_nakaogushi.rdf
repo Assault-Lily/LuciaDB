@@ -142,8 +142,6 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
-<!-- LG不明・無所属 -->
-
 <rdf:Description rdf:about="Senda_Koume">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">千田昊苺</rdfs:label>
   <schema:familyName xml:lang="ja">千田</schema:familyName>
@@ -158,8 +156,8 @@
   <schema:name xml:lang="ja">千田昊苺</schema:name>
   <schema:name xml:lang="en">Senda Koume</schema:name>
   <lily:nameKana xml:lang="ja">せんだこうめ</lily:nameKana>
-  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
-  <!-- <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></foaf:age> -->
+  <lily:anotherName xml:lang="ja">重戦車（チャリオット）</lily:anotherName>
+  <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
   <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
@@ -177,17 +175,22 @@
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
-  <!-- <lily:charm rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource=""/> -->
+  <lily:charm rdf:parseType="Resource">
+    <lily:resource rdf:resource="Eckesachs"/>
     <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
-    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
-  <!-- </lily:charm> -->
+    <lily:additionalInformation xml:lang="ja">先行量産型</lily:additionalInformation>
+  </lily:charm>
+  <lily:charm rdf:parseType="Resource">
+    <lily:resource rdf:resource="Ukonvasara"/>
+    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <lily:additionalInformation xml:lang="ja">SP</lily:additionalInformation>
+  </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">那賀大串女学園</lily:garden>
   <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
-  <!-- <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:grade> -->
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
-  <!-- <lily:legion rdf:resource=""/> -->
+  <lily:legion rdf:resource="Thrymheim"/>
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
@@ -198,10 +201,10 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Danzuka_Erisa"/>
+    <lily:additionalInformation xml:lang="ja">盟友</lily:additionalInformation>
+  </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -225,7 +228,7 @@
   <schema:name xml:lang="en">Danzuka Erisa</schema:name>
   <lily:nameKana xml:lang="ja">だんづかえりさ</lily:nameKana>
   <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
-  <!-- <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></foaf:age> -->
+  <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
   <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
@@ -239,7 +242,7 @@
   <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
-  <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
+  <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ヘリオスフィア</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
@@ -250,10 +253,10 @@
   <!-- </lily:charm> -->
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">那賀大串女学園</lily:garden>
   <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
-  <!-- <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:grade> -->
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
-  <!-- <lily:legion rdf:resource=""/> -->
+  <lily:legion rdf:resource="Thrymheim"/>
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
@@ -264,10 +267,10 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Senda_Koume"/>
+    <lily:additionalInformation xml:lang="ja">盟友</lily:additionalInformation>
+  </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
     <!-- <lily:resource rdf:resource=""/> -->
