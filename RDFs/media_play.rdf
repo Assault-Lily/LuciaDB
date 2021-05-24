@@ -1248,7 +1248,7 @@
   <schema:alternateName xml:lang="ja">シュベスターの祈り 2021</schema:alternateName>
   <schema:inLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">ja-JP</schema:inLanguage>
   <schema:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">シアターグリーン BIG TREE THEATER</schema:location>
-  <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-27</schema:startDate>
+  <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-28</schema:startDate>
   <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-06-06</schema:endDate>
   <!-- <schema:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration"></schema:duration> -->
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-28T19:00:00+09:00</lily:showTime>
