@@ -1286,16 +1286,16 @@
     <schema:name xml:lang="ja">宮瀬玲奈</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q56556209"/>
     <lily:performAs rdf:resource="Kishimoto_Lucia_Raimu"/>
-    <lily:additionalInformation xml:lang="ja">出演期間: 5月31日(月)～6月6日(日)</lily:additionalInformation>
     <lily:additionalInformation xml:lang="ja">新型コロナウイルス感染者の濃厚接触者に該当したため、5月30日(日)まで休演</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">出演期間: 5月31日(月)～6月6日(日)</lily:additionalInformation>
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">花奈澪</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q17210554"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/花奈澪"/>
     <lily:performAs rdf:resource="Kishimoto_Lucia_Raimu"/>
-    <lily:additionalInformation xml:lang="ja">出演期間: 5月28日(金)～5月30日(日)</lily:additionalInformation>
     <lily:additionalInformation xml:lang="ja">宮瀬玲奈さんの代役として出演</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">出演期間: 5月28日(金)～5月30日(日)</lily:additionalInformation>
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">星守紗凪</schema:name>
@@ -1319,6 +1319,7 @@
     <schema:name xml:lang="ja">西本りみ</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q24902567"/>
     <lily:performAs rdf:resource="Ichinomiya_Michaela_Himari"/>
+    <lily:additionalInformation xml:lang="ja">ダブルキャスト</lily:additionalInformation>
     <lily:additionalInformation xml:lang="ja">出演期間: 5月27日(木)～6月3日(木)</lily:additionalInformation>
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
@@ -1326,6 +1327,7 @@
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q17210554"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/花奈澪"/>
     <lily:performAs rdf:resource="Ichinomiya_Michaela_Himari"/>
+    <lily:additionalInformation xml:lang="ja">ダブルキャスト</lily:additionalInformation>
     <lily:additionalInformation xml:lang="ja">出演期間: 6月4日(金)～6月6日(日)</lily:additionalInformation>
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
