@@ -544,6 +544,8 @@
   <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
   <schema:member rdf:resource="Noguchi_Shinano"/>
   <schema:member rdf:resource="Sasaki_Yasuna"/>
+  <schema:member rdf:resource="Senda_Koume"/>
+  <schema:member rdf:resource="Danzuka_Erisa"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
