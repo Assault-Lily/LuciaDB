@@ -1251,7 +1251,6 @@
   <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-27</schema:startDate>
   <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-06-06</schema:endDate>
   <!-- <schema:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration"></schema:duration> -->
-  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-27T19:00:00+09:00</lily:showTime>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-28T19:00:00+09:00</lily:showTime>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-29T13:00:00+09:00</lily:showTime>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-29T19:00:00+09:00</lily:showTime>
@@ -1260,6 +1259,7 @@
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-31T19:00:00+09:00</lily:showTime>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-01T13:00:00+09:00</lily:showTime>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-01T19:00:00+09:00</lily:showTime>
+  <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-02T13:00:00+09:00</lily:showTime>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-02T19:00:00+09:00</lily:showTime>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-03T13:00:00+09:00</lily:showTime>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-03T19:00:00+09:00</lily:showTime>
@@ -1268,6 +1268,7 @@
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-05T18:00:00+09:00</lily:showTime>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-06T12:00:00+09:00</lily:showTime>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-06T17:00:00+09:00</lily:showTime>
+  <lily:additionalInformation xml:lang="ja">出演者が新型コロナウイルス感染者の濃厚接触者に該当したため、5月27日(木)19時公演を中止、28日(金)から30日(日)の計5公演で該当出演者に代役を立てて上演し、6月2日(水)13時公演を追加。</lily:additionalInformation>
   <!-- <lily:producer xml:lang="ja">林修司</lily:producer> -->
   <!-- <lily:producer xml:lang="ja">早園正</lily:producer> -->
   <lily:scenarioWriter xml:lang="ja">桜木さやか</lily:scenarioWriter>
@@ -1285,7 +1286,16 @@
     <schema:name xml:lang="ja">宮瀬玲奈</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q56556209"/>
     <lily:performAs rdf:resource="Kishimoto_Lucia_Raimu"/>
-    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+    <lily:additionalInformation xml:lang="ja">出演期間: 5月31日(月)～6月6日(日)</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">新型コロナウイルス感染者の濃厚接触者に該当したため、5月30日(日)まで休演</lily:additionalInformation>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">花奈澪</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q17210554"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/花奈澪"/>
+    <lily:performAs rdf:resource="Kishimoto_Lucia_Raimu"/>
+    <lily:additionalInformation xml:lang="ja">出演期間: 5月28日(金)～5月30日(日)</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">宮瀬玲奈さんの代役として出演</lily:additionalInformation>
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">星守紗凪</schema:name>
@@ -1309,14 +1319,14 @@
     <schema:name xml:lang="ja">西本りみ</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q24902567"/>
     <lily:performAs rdf:resource="Ichinomiya_Michaela_Himari"/>
-    <lily:additionalInformation xml:lang="ja">出演期間: 5月27日（木）～6月3日（木）</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">出演期間: 5月27日(木)～6月3日(木)</lily:additionalInformation>
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">花奈澪</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q17210554"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/花奈澪"/>
     <lily:performAs rdf:resource="Ichinomiya_Michaela_Himari"/>
-    <lily:additionalInformation xml:lang="ja">出演期間: 6月4日（金）～6月6日（日）</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">出演期間: 6月4日(金)～6月6日(日)</lily:additionalInformation>
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">大滝紗緒里</schema:name>
