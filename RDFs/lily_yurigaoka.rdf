@@ -2243,7 +2243,7 @@
   <lily:favorite xml:lang="ja">スバル360</lily:favorite>
   <lily:favorite xml:lang="ja">豊田市美術館</lily:favorite>
   <lily:favorite xml:lang="ja">ジャズ音楽</lily:favorite>
-  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <lily:notGood xml:lang="ja">雷</lily:notGood>
   <lily:hobby_talent xml:lang="ja">陶芸</lily:hobby_talent>
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">円環の御手</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
