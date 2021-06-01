@@ -61,7 +61,7 @@
   <schema:member rdf:resource="Fujita_Asagao"/>
   <schema:member rdf:resource="Hishida_Haru"/>
   <schema:member rdf:resource="Serizawa_Chikaru"/>
-  <!-- <schema:member rdf:resource="Tada_Shiera"/> -->
+  <schema:member rdf:resource="Tada_Shiera"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Taskforce"/>
 </rdf:Description>
 
