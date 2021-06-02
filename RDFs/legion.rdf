@@ -462,6 +462,10 @@
   <schema:member rdf:resource="Matsunaga_Yui"/>
   <schema:member rdf:resource="Katakura_Shion"/>
   <schema:member rdf:resource="Date_Furiru"/>
+  <schema:member rdf:resource="Yuki_Suzuma"/>
+  <schema:member rdf:resource="Kobayakawa_Jun"/>
+  <schema:member rdf:resource="Kuki_Hatsume"/>
+  <schema:member rdf:resource="Takigawa_Mira"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 

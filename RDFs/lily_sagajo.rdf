@@ -343,7 +343,7 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="Yuishiro_Suzuma">
+<rdf:Description rdf:about="Yuki_Suzuma">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">結城鈴瑪</rdfs:label>
   <schema:familyName xml:lang="ja">結城</schema:familyName>
   <!-- <schema:familyName xml:lang="en"></schema:familyName> -->
