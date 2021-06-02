@@ -441,6 +441,7 @@
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></lily:generation> -->
   <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</lily:requiredSkillerVal>
   <schema:manufacturer rdf:resource="Celticdale"/>
+  <lily:user rdf:resource="Kemmochi_Noriko"/>
   <lily:user rdf:resource="Serizawa_Chikaru"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
@@ -469,7 +470,7 @@
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Miyagawa_Takane"/>
-  <!-- <lily:user rdf:resource="Noguchi_Shinano"/> -->
+  <lily:user rdf:resource="Noguchi_Shinano"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
@@ -866,8 +867,8 @@
   <schema:manufacturer rdf:resource="Amatsu_Heavy_Industry"/>
   <lily:user rdf:resource="Takehisa_Nakaba"/>
   <lily:user rdf:resource="Tsukioka_Momiji"/>
-  <!-- <lily:user rdf:resource="Katsuya_Fuyou"/> -->
-  <!-- <lily:user rdf:resource="Miyazaki_Hikaru"/> -->
+  <lily:user rdf:resource="Katsuya_Fuyou"/>
+  <lily:user rdf:resource="Miyazaki_Hikaru"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>

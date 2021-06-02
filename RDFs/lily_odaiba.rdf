@@ -448,10 +448,10 @@
     <lily:resource rdf:resource="Tamba_Akari"/>
     <lily:additionalInformation xml:lang="ja">絵画繋がりの友人</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Miyazaki_Hikaru"/> -->
-    <!-- <lily:additionalInformation xml:lang="ja">水墨画仲間</lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Miyazaki_Hikaru"/>
+    <lily:additionalInformation xml:lang="ja">水墨画仲間</lily:additionalInformation>
+  </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">有沢澪風</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q30933448"/>
