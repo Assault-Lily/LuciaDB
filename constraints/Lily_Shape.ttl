@@ -195,8 +195,8 @@ lily-shape:lilyShape a sh:NodeShape;
         sh:languageIn ("ja");
     ];
     sh:property [
-        rdf:label "スキラー数値の制約";
-        rdf:comment "リリィのスキラー数値は50以上100以下の整数";
+        rdfs:label "スキラー数値の制約";
+        rdfs:comment "リリィのスキラー数値は50以上100以下の整数";
         sh:path lily:skillerVal;
         sh:datatype xsd:integer;
         sh:minInclusive 50;
