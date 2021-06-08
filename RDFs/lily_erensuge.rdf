@@ -44,6 +44,7 @@
   <lily:hobby_talent xml:lang="ja">ツーリング</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">バイクの運転</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">操縦技術</lily:hobby_talent>
+  <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">レジスタ</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
@@ -123,6 +124,7 @@
   <lily:hobby_talent xml:lang="ja">お昼寝すること</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">食べること</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">戦うこと</lily:hobby_talent>
+  <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ルナティックトランサー</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:isBoosted>
@@ -196,6 +198,7 @@
   <lily:hobby_talent xml:lang="ja">ファッション誌を読むこと</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">コーディネート</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">フットサル</lily:hobby_talent>
+  <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">フェイズトランセンデンス</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
@@ -267,6 +270,7 @@
   <lily:notGood xml:lang="ja">レバー</lily:notGood>
   <lily:hobby_talent xml:lang="ja">アニマルグッズ集め</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">裁縫</lily:hobby_talent>
+  <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ブレイブ</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
@@ -341,6 +345,7 @@
   <lily:hobby_talent xml:lang="ja">料理</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">家事全般</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">水泳</lily:hobby_talent>
+  <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ヘリオスフィア</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>

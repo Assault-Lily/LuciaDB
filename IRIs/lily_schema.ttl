@@ -133,6 +133,10 @@ lily:hobby_talent       a   rdf:Property ;
     rdfs:comment            "趣味・特技を表すプロパティ" ;
     rdfs:label              "趣味・特技"@ja .
 
+lily:skillerVal          a   rdf:Property ;
+    rdfs:comment            "スキラー数値を表すプロパティ" ;
+    rdfs:label              "スキラー数値"@ja .
+
 lily:rareSkill          a   rdf:Property ;
     rdfs:comment            "レアスキルを表すプロパティ" ;
     rdfs:label              "レアスキル"@ja .

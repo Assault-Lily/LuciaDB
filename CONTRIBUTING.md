@@ -73,6 +73,7 @@
   <lily:notGood xml:lang="ja">虫</lily:notGood>                               # 苦手なもの
   <lily:hobby_talent xml:lang="ja">身体を動かすこと</lily:hobby_talent>        # 趣味・特技
   <lily:hobby_talent xml:lang="ja">水晶集め</lily:hobby_talent>               # 趣味・特技
+  <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">カリスマ</lily:rareSkill>         # レアスキル
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->         # サブスキル (複数判明している場合は複数行に分けて書く)
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>          # 強化リリィと判明している人は true、それ以外は false
