@@ -857,7 +857,7 @@
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Claiomh_Solais"/>
     <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
-    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+    <lily:additionalInformation xml:lang="ja">ユニーク機体</lily:additionalInformation>
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Yotunschwert"/>
@@ -892,6 +892,10 @@
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Kanabako_Misora"/>
     <lily:additionalInformation xml:lang="ja">親友</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Luise_Ingels"/>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
@@ -1219,6 +1223,10 @@
     <lily:additionalInformation xml:lang="ja">固い絆</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Yokoyama_Azusa"/>
+    <lily:additionalInformation xml:lang="ja">固い絆</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Takehisa_Nakaba"/>
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
@@ -1404,6 +1412,14 @@
     <!-- <lily:resource rdf:resource="Imamura_Sakumi"/> -->
     <!-- <lily:additionalInformation xml:lang="ja">幼馴染</lily:additionalInformation> -->
   <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Tsukioka_Momiji"/>
+    <lily:additionalInformation xml:lang="ja">固い絆</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Kawamura_Yuzuriha"/>
+    <lily:additionalInformation xml:lang="ja">固い絆</lily:additionalInformation>
+  </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">野本ほたる</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q11645500"/>
@@ -1571,24 +1587,28 @@
   <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
   <lily:roomMate rdf:resource="Kawamura_Yuzuriha"/>
   <!-- <schema:parent rdf:resource=""/> -->
-  <!-- <schema:sibling rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
-  <!-- </schema:sibling> -->
+  <schema:sibling rdf:parseType="Resource">
+    <lily:resource rdf:resource="Tsukioka_Chino"/>
+    <lily:additionalInformation xml:lang="ja">妹</lily:additionalInformation>
+  </schema:sibling>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Kawamura_Yuzuriha"/>
     <lily:additionalInformation xml:lang="ja">幼馴染</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Oguri_Hidaka"/> -->
-    <!-- <lily:additionalInformation xml:lang="ja">幼馴染</lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Oguri_Hidaka"/>
+    <lily:additionalInformation xml:lang="ja">幼馴染</lily:additionalInformation>
+  </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Altea_Alessandrini"/>
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Hishida_Haru"/>
+    <lily:additionalInformation xml:lang="ja">固い絆</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Yokoyama_Azusa"/>
     <lily:additionalInformation xml:lang="ja">固い絆</lily:additionalInformation>
   </lily:relationship>
   <lily:cast rdf:parseType="Resource">
@@ -1682,8 +1702,8 @@
   <schema:name xml:lang="ja">曾我菘</schema:name>
   <schema:name xml:lang="en">Soga Suzuna</schema:name>
   <lily:nameKana xml:lang="ja">そがすずな</lily:nameKana>
-  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
-  <!-- <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></foaf:age> -->
+  <lily:anotherName xml:lang="ja">武神</lily:anotherName>
+  <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
   <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
@@ -1698,7 +1718,7 @@
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
-  <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
+  <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">フェイズトランセンデンス</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
@@ -1709,12 +1729,13 @@
   <!-- </lily:charm> -->
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場女学校</lily:garden>
   <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
-  <!-- <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:grade> -->
+  <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Coast_Guard"/>
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">副隊長</lily:legionJobTitle>
-  <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
+  <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
+  <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_4"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
@@ -1765,7 +1786,7 @@
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
-  <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
+  <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ファンタズム</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->

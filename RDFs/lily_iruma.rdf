@@ -191,7 +191,7 @@
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Illumine_Shines"/>
-  <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">主将</lily:legionJobTitle>
+  <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_3"/>
@@ -421,7 +421,7 @@
   <!-- <schema:name xml:lang="en"></schema:name> -->
   <!-- <lily:nameKana xml:lang="ja"></lily:nameKana> -->
   <lily:anotherName xml:lang="ja">イルミンスールの巫女</lily:anotherName>
-  <!-- <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></foaf:age> -->
+  <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
   <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->

@@ -189,6 +189,10 @@
     <lily:additionalInformation xml:lang="ja">聖メルクリウス中等部時代の友人</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Hiraga_Toko"/>
+    <lily:additionalInformation xml:lang="ja">聖メルクリウス中等部時代のライバル</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Narumi_Clara_Yuko"/>
     <lily:additionalInformation xml:lang="ja">ルドビコ女学院中等部時代の友人</lily:additionalInformation>
   </lily:relationship>

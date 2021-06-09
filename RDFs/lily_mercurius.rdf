@@ -71,6 +71,10 @@
     <lily:resource rdf:resource="Shinkai_Chikage"/>
     <lily:additionalInformation xml:lang="ja">御台場迎撃戦で才能を引き出す</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Izue_Shinobu"/>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+  </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
     <!-- <lily:resource rdf:resource=""/> -->
