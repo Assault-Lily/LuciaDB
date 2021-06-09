@@ -953,7 +953,7 @@
   <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
-  <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
+  <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</lily:skillerVal>
   <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
@@ -1028,7 +1028,7 @@
   <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
-  <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
+  <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73</lily:skillerVal>
   <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
@@ -3281,7 +3281,7 @@
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <lily:hobby_talent xml:lang="ja">戦譜分析</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">戦術理解</lily:hobby_talent>
-  <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
+  <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</lily:skillerVal>
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">レジスタ</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
@@ -4237,7 +4237,7 @@
   <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
-  <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
+  <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</lily:skillerVal>
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">レジスタ</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
