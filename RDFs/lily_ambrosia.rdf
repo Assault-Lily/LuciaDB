@@ -170,7 +170,7 @@
   <schema:givenName xml:lang="en">Toko</schema:givenName>
   <lily:givenNameKana xml:lang="ja">とうこ</lily:givenNameKana>
   <schema:name xml:lang="ja">平賀東子</schema:name>
-  <schema:name xml:lang="en">Hiraga_Toko</schema:name>
+  <schema:name xml:lang="en">Hiraga Toko</schema:name>
   <lily:nameKana xml:lang="ja">ひらがとうこ</lily:nameKana>
   <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
