@@ -156,7 +156,7 @@
     <schema:name xml:lang="ja">小野瀬みらい</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q16769880"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/小野瀬みらい"/>
-    <!-- <lily:performIn rdf:resource="御台場舞台"/> -->
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Jogakkou_Hen"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
