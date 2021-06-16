@@ -99,6 +99,16 @@ RDFs/legion.rdf:
     message: 'Data LanguageType not matched: lang is en, but Blóðughadda (line: 638,
         col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Blodughadda - http://schema.org/name
         - "Blóðughadda"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '651'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Kolga
+    predicate: http://schema.org/name
+    object: '"Kólga"@en'
+    message: 'Data LanguageType not matched: lang is en, but Kólga (line: 651, col:
+        1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Kolga - http://schema.org/name
+        - "Kólga"@en)'
 RDFs/corporation.rdf:
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
