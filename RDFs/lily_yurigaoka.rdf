@@ -1377,7 +1377,7 @@
   <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <lily:favorite xml:lang="ja">女性</lily:favorite>
-  <lily:favorite xml:lang="ja">果物</lily:favorite>
+  <lily:favorite xml:lang="ja">果物 (ザクロ)</lily:favorite>
   <lily:favorite xml:lang="ja">ライオン</lily:favorite>
   <lily:notGood xml:lang="ja">退屈なこと</lily:notGood>
   <lily:notGood xml:lang="ja">単調な作業</lily:notGood>
