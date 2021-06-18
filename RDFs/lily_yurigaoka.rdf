@@ -368,6 +368,7 @@
   <schema:birthPlace xml:lang="en">Kamakura (Kanagawa)</schema:birthPlace>
   <lily:favorite xml:lang="ja">駄菓子</lily:favorite>
   <lily:favorite xml:lang="ja">牛丼</lily:favorite>
+  <lily:favorite xml:lang="ja">桃</lily:favorite>
   <lily:notGood xml:lang="ja">数学</lily:notGood>
   <lily:notGood xml:lang="ja">物理</lily:notGood>
   <lily:notGood xml:lang="ja">しそ</lily:notGood>
