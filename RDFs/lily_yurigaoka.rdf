@@ -1287,9 +1287,10 @@
   <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <lily:favorite xml:lang="ja">ホラー</lily:favorite>
-  <lily:favorite xml:lang="ja">怪談</lily:favorite>
+  <lily:favorite xml:lang="ja">ラッシー</lily:favorite>
   <lily:notGood xml:lang="ja">片付け</lily:notGood>
-  <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
+  <lily:notGood xml:lang="ja">勉強</lily:notGood>
+  <lily:hobby_talent xml:lang="ja">怪談・奇談</lily:hobby_talent>
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">円環の御手</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
