@@ -869,6 +869,22 @@
   <lily:user rdf:resource="Tsukioka_Momiji"/>
   <lily:user rdf:resource="Katsuya_Fuyou"/>
   <lily:user rdf:resource="Miyazaki_Hikaru"/>
+  <lily:hasVariant rdf:resource="Ame_No_Habakiri"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Ame_No_Habakiri">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-26</schema:productID> -->
+  <lily:seriesName xml:lang="ja">布都御魂</lily:seriesName>
+  <lily:seriesName xml:lang="en">Futsu No Mitama</lily:seriesName>
+  <schema:name xml:lang="ja">天羽々斬</schema:name>
+  <schema:name xml:lang="en">Ame No Habakiri</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Amatsu_Heavy_Industry"/>
+  <lily:user rdf:resource="Tsukioka_Momiji"/>
+  <lily:isVariantOf rdf:resource="Futsu_No_Mitama"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
