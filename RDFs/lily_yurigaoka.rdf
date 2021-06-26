@@ -369,6 +369,7 @@
   <lily:favorite xml:lang="ja">駄菓子</lily:favorite>
   <lily:favorite xml:lang="ja">牛丼</lily:favorite>
   <lily:favorite xml:lang="ja">桃</lily:favorite>
+  <lily:favorite xml:lang="ja">コツメカワウソ</lily:favorite>
   <lily:notGood xml:lang="ja">数学</lily:notGood>
   <lily:notGood xml:lang="ja">物理</lily:notGood>
   <lily:notGood xml:lang="ja">しそ</lily:notGood>
@@ -2280,6 +2281,7 @@
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <lily:favorite xml:lang="ja">黒色</lily:favorite>
   <lily:favorite xml:lang="ja">モルモット</lily:favorite>
+  <lily:favorite xml:lang="ja">ハイラックス</lily:favorite>
   <lily:favorite xml:lang="ja">スバル360</lily:favorite>
   <lily:favorite xml:lang="ja">豊田市美術館</lily:favorite>
   <lily:favorite xml:lang="ja">ジャズ音楽</lily:favorite>
