@@ -1895,7 +1895,7 @@
     <!-- <schema:name xml:lang="ja">柴田茉莉</schema:name> -->
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:performIn rdf:resource="Assault_Lily_Odaiba_Jogakkou_Hen"/> -->
-  </lily:cast>
+  <!-- </lily:cast> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
