@@ -391,6 +391,7 @@
   <schema:member rdf:resource="Yokoyama_Azusa"/>
   <schema:member rdf:resource="Hishida_Haru"/>
   <schema:member rdf:resource="Tsukioka_Momiji"/>
+  <lily:submember rdf:resource="Maruyama_Amane"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 

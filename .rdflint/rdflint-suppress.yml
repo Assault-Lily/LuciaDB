@@ -241,3 +241,23 @@ RDFs/charm.rdf:
     message: 'Data LanguageType not matched: lang is en, but Précieuse (line: 979,
         col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Precieuse - http://schema.org/name
         - "Précieuse"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedGuessedDataType
+    level: INFO
+    line: '526'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Balmung
+    predicate: https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#generation
+    object: '"2.5"^^http://www.w3.org/2001/XMLSchema#decimal'
+    message: 'DataType not matched: expected NATURAL, but FLOAT (line: 526, col: 1,
+        triple: https://lily.fvhp.net/rdf/RDFs/detail/Balmung - https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#generation
+        - "2.5"^^http://www.w3.org/2001/XMLSchema#decimal)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedGuessedDataType
+    level: INFO
+    line: '552'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Thor_Hammer
+    predicate: https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#generation
+    object: '"3.5"^^http://www.w3.org/2001/XMLSchema#decimal'
+    message: 'DataType not matched: expected NATURAL, but FLOAT (line: 552, col: 1,
+        triple: https://lily.fvhp.net/rdf/RDFs/detail/Thor_Hammer - https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#generation
+        - "3.5"^^http://www.w3.org/2001/XMLSchema#decimal)'

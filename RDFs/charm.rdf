@@ -281,6 +281,7 @@
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Chemir_Friedheim"/>
+  <lily:user rdf:resource="Yokoyama_Azusa"/>
   <lily:isVariantOf rdf:resource="Tyrfing_Prototype"/>
   <schema:isSimilarTo rdf:resource="Tyrfing_type_T"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -923,9 +924,9 @@
   <lily:seriesName xml:lang="en">Caladbolg</lily:seriesName>
   <schema:name xml:lang="ja">カラドボルグ</schema:name>
   <schema:name xml:lang="en">Caladbolg</schema:name>
-  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></lily:generation> -->
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</lily:generation>
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
-  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <schema:manufacturer rdf:resource="Celticdale"/>
   <lily:user rdf:resource="Hishida_Haru"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -1030,14 +1031,14 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="Dragvandil">
-  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-12</schema:productID>
   <lily:seriesName xml:lang="ja">ドラグヴァンディル</lily:seriesName>
-  <lily:seriesName xml:lang="en">Dragvandil</lily:seriesName>
+  <lily:seriesName xml:lang="en">Drag van dill</lily:seriesName>
   <schema:name xml:lang="ja">ドラグヴァンディル</schema:name>
-  <schema:name xml:lang="en">Dragvandil</schema:name>
-  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></lily:generation> -->
+  <schema:name xml:lang="en">Drag van dill</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</lily:generation>
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
-  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Sengo_Yuna"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>

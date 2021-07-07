@@ -369,6 +369,7 @@
   <lily:favorite xml:lang="ja">駄菓子</lily:favorite>
   <lily:favorite xml:lang="ja">牛丼</lily:favorite>
   <lily:favorite xml:lang="ja">桃</lily:favorite>
+  <lily:favorite xml:lang="ja">コツメカワウソ</lily:favorite>
   <lily:notGood xml:lang="ja">数学</lily:notGood>
   <lily:notGood xml:lang="ja">物理</lily:notGood>
   <lily:notGood xml:lang="ja">しそ</lily:notGood>
@@ -2280,6 +2281,7 @@
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <lily:favorite xml:lang="ja">黒色</lily:favorite>
   <lily:favorite xml:lang="ja">モルモット</lily:favorite>
+  <lily:favorite xml:lang="ja">ハイラックス</lily:favorite>
   <lily:favorite xml:lang="ja">スバル360</lily:favorite>
   <lily:favorite xml:lang="ja">豊田市美術館</lily:favorite>
   <lily:favorite xml:lang="ja">ジャズ音楽</lily:favorite>
@@ -3580,7 +3582,7 @@
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
-  <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
+  <lily:hobby_talent xml:lang="ja">ファッション</lily:hobby_talent>
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">テスタメント</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
@@ -3711,7 +3713,7 @@
   <lily:nameKana xml:lang="ja">るいせ・いんげるす</lily:nameKana>
   <lily:anotherName xml:lang="ja">金狼</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
-  <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
+  <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">165.0</schema:height>
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
   <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
   <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
