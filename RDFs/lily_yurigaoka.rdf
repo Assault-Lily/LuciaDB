@@ -3068,8 +3068,8 @@
   <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
-  <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
-  <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
+  <schema:birthPlace xml:lang="ja">オランダ</schema:birthPlace>
+  <schema:birthPlace xml:lang="en">Netherlands</schema:birthPlace>
   <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <lily:hobby_talent xml:lang="ja">お菓子作り</lily:hobby_talent>
@@ -3287,7 +3287,9 @@
   <schema:birthPlace xml:lang="ja">鎌倉府（神奈川県）</schema:birthPlace>
   <schema:birthPlace xml:lang="en">Kamakura (Kanagawa)</schema:birthPlace>
   <lily:favorite xml:lang="ja">チンチラ</lily:favorite>
-  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <lily:favorite xml:lang="ja">冷やし中華</lily:favorite>
+  <lily:favorite xml:lang="ja">ナッツ類</lily:favorite>
+  <lily:notGood xml:lang="ja">熱いもの</lily:notGood>
   <lily:hobby_talent xml:lang="ja">戦譜分析</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">戦術理解</lily:hobby_talent>
   <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</lily:skillerVal>
@@ -3797,7 +3799,7 @@
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <lily:favorite xml:lang="ja">鯖の塩焼き</lily:favorite>
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
-  <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
+  <lily:hobby_talent xml:lang="ja">占い</lily:hobby_talent>
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ヘリオスフィア</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
