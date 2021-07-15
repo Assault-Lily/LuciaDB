@@ -7557,7 +7557,7 @@
   <!-- <lily:givenNameKana xml:lang="ja"></lily:givenNameKana> -->
   <schema:name xml:lang="ja">安井諒</schema:name>
   <!-- <schema:name xml:lang="en"></schema:name> -->
-  <lily:nameKana xml:lang="ja"></lily:nameKana>
+  <!-- <lily:nameKana xml:lang="ja"></lily:nameKana> -->
   <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
