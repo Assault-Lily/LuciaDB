@@ -523,6 +523,7 @@
   <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SSS</lily:legionGrade>
   <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
   <schema:member rdf:resource="Tiuccia_Paumgartner"/>
+  <schema:member rdf:resource="Catalina_Asensio"/>
   <!-- <schema:member rdf:resource="(リーアリデル・Eschenbach)"/> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
