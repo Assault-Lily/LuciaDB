@@ -1686,6 +1686,7 @@
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <lily:favorite xml:lang="ja">マンゴー</lily:favorite>
   <lily:favorite xml:lang="ja">熱帯魚</lily:favorite>
+  <lily:notGood xml:lang="ja">不潔なもの</lily:notGood>
   <lily:notGood xml:lang="ja">犬</lily:notGood>
   <lily:hobby_talent xml:lang="ja">アクアリウム</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">テラリウム</lily:hobby_talent>
