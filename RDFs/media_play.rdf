@@ -1430,7 +1430,7 @@
 
 <rdf:Description rdf:about="Assault_Lily_Odaiba_Jogakkou_Hen">
   <lily:genre xml:lang="ja">舞台</lily:genre>
-  <schema:name xml:lang="ja">アサルトリリィ・御台場女学校編</schema:name>
+  <schema:name xml:lang="ja">舞台アサルトリリィ―御台場女学校編― The Singular Ability</schema:name>
   <schema:alternateName xml:lang="ja">御台場舞台</schema:alternateName>
   <schema:inLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">ja-JP</schema:inLanguage>
   <schema:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">紀伊國屋ホール</schema:location>
