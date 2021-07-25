@@ -1189,7 +1189,10 @@
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <lily:favorite xml:lang="ja">和食</lily:favorite>
   <lily:favorite xml:lang="ja">味のり</lily:favorite>
+  <lily:favorite xml:lang="ja">紅茶</lily:favorite>
+  <lily:favorite xml:lang="ja">ビーフシチュー</lily:favorite>
   <lily:notGood xml:lang="ja">蛇</lily:notGood>
+  <lily:hobby_talent xml:lang="ja">ピアノ</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">歌唱</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">デザインの学習</lily:hobby_talent>
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
@@ -1380,7 +1383,7 @@
   <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <lily:favorite xml:lang="ja">女性</lily:favorite>
-  <lily:favorite xml:lang="ja">果物 (ザクロ)</lily:favorite>
+  <lily:favorite xml:lang="ja">ザクロ</lily:favorite>
   <lily:favorite xml:lang="ja">ライオン</lily:favorite>
   <lily:notGood xml:lang="ja">退屈なこと</lily:notGood>
   <lily:notGood xml:lang="ja">単調な作業</lily:notGood>
@@ -1397,7 +1400,7 @@
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
-    <lily:resource rdf:resource="Marmiadoise"/>
+    <lily:resource rdf:resource="Marmyadose"/>
     <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
     <lily:additionalInformation xml:lang="ja">ユニーク機体</lily:additionalInformation>
   </lily:charm>
