@@ -446,6 +446,10 @@
     <lily:resource rdf:resource="Sengo_Yuna"/>
     <lily:additionalInformation xml:lang="ja">ライバル</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Miyairi_Fubuki"/>
+    <lily:additionalInformation xml:lang="ja">姉貴分</lily:additionalInformation>
+  </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
     <!-- <lily:resource rdf:resource=""/> -->
