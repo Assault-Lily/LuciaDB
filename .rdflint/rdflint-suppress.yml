@@ -109,6 +109,16 @@ RDFs/legion.rdf:
     message: 'Data LanguageType not matched: lang is en, but Kólga (line: 651, col:
         1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Kolga - http://schema.org/name
         - "Kólga"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '665'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Udr
+    predicate: http://schema.org/name
+    object: '"Uðr"@en'
+    message: 'Data LanguageType not matched: lang is en, but Uðr (line: 665, col:
+        1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Udr - http://schema.org/name
+        - "Uðr"@en)'
 RDFs/corporation.rdf:
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
