@@ -639,7 +639,7 @@
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ファンタズム</lily:rareSkill>
   <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">軍神の加護</lily:subSkill>
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:isBoosted>
-  <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
+  <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">リジェネレーター</lily:boostedSkill>
   <!-- <lily:charm rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
