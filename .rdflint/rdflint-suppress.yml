@@ -251,6 +251,46 @@ RDFs/charm.rdf:
     message: 'Data LanguageType not matched: lang is en, but Précieuse (line: 979,
         col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Precieuse - http://schema.org/name
         - "Précieuse"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '1078'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Hofud
+    predicate: https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+    object: '"Hofuð"@en'
+    message: 'Data LanguageType not matched: lang is en, but Hofuð (line: 1078, col:
+        1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Hofud - https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+        - "Hofuð"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '1080'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Hofud
+    predicate: http://schema.org/name
+    object: '"Hofuð"@en'
+    message: 'Data LanguageType not matched: lang is en, but Hofuð (line: 1080, col:
+        1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Hofud - http://schema.org/name
+        - "Hofuð"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '1092'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Megingjord
+    predicate: https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+    object: '"Megingjörð"@en'
+    message: 'Data LanguageType not matched: lang is en, but Megingjörð (line: 1092,
+        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Megingjord - https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+        - "Megingjörð"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '1094'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Megingjord
+    predicate: http://schema.org/name
+    object: '"Megingjörð"@en'
+    message: 'Data LanguageType not matched: lang is en, but Megingjörð (line: 1094,
+        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Megingjord - http://schema.org/name
+        - "Megingjörð"@en)'
   - key: com.github.imas.rdflint.validator.impl.notmatchedGuessedDataType
     level: INFO
     line: '526'

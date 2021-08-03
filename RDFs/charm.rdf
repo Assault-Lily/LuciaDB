@@ -1072,4 +1072,46 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Hofud">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">ホウズ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Hofuð</lily:seriesName>
+  <schema:name xml:lang="ja">ホウズ</schema:name>
+  <schema:name xml:lang="en">Hofuð</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Okada_Kisara"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Megingjord">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">メギンギョルズ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Megingjörð</lily:seriesName>
+  <schema:name xml:lang="ja">メギンギョルズ</schema:name>
+  <schema:name xml:lang="en">Megingjörð</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Maki_Wakana"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Gambanteinn">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">ガンバンテイン</lily:seriesName>
+  <lily:seriesName xml:lang="en">Gambanteinn</lily:seriesName>
+  <schema:name xml:lang="ja">ガンバンテイン</schema:name>
+  <schema:name xml:lang="en">Gambanteinn</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Mozuna_Noa"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
 </rdf:RDF>
