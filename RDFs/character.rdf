@@ -132,11 +132,11 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:cast rdf:parseType="Resource"> -->
-    <!-- <schema:name xml:lang="ja">柴田茉莉</schema:name> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">柴田茉莉</schema:name>
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:performIn rdf:resource="Assault_Lily_Odaiba_Jogakkou_Hen"/> -->
-  <!-- </lily:cast> -->
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Jogakkou_Hen"/>
+  </lily:cast>
   <lily:additionalInformation xml:lang="ja">御台場女学校中等科に進学する直前に死去</lily:additionalInformation>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Character"/>
 </rdf:Description>

@@ -1557,8 +1557,8 @@
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">柴田茉莉</schema:name>
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:performAs rdf:resource=""/> -->
-    <lily:additionalInformation xml:lang="ja">？？？</lily:additionalInformation>
+    <lily:performAs rdf:resource="Imamura_Sakumi"/>
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">小野瀬みらい</schema:name>
