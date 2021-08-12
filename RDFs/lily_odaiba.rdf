@@ -1359,7 +1359,7 @@
   <schema:name xml:lang="ja">横山梓</schema:name>
   <schema:name xml:lang="en">Yokoyama Azusa</schema:name>
   <lily:nameKana xml:lang="ja">よこやまあずさ</lily:nameKana>
-  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
+  <lily:anotherName xml:lang="ja">ファントム</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
