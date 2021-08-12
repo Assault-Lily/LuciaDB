@@ -1454,7 +1454,7 @@
   <schema:name xml:lang="ja">菱田治</schema:name>
   <schema:name xml:lang="en">Hishida Haru</schema:name>
   <lily:nameKana xml:lang="ja">ひしだはる</lily:nameKana>
-  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
+  <lily:anotherName xml:lang="ja">怪異斬り（フリークスレイヤー）</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
