@@ -795,7 +795,7 @@
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Kawabata_Hotaru"/>
-  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <lily:additionalInformation xml:lang="ja">円環の御手保持者向けCHARM</lily:additionalInformation>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
