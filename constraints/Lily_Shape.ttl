@@ -224,6 +224,7 @@ lily-shape:lilyShape a sh:NodeShape;
             "この世の理"
             "フェイズトランセンデンス"
             "カリスマ"
+            "ラプラス"
             "未覚醒"
         );
     ];

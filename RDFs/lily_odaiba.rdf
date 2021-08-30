@@ -238,7 +238,7 @@
   <lily:hobby_talent xml:lang="ja">サウナ</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">ハーブティー</lily:hobby_talent>
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
-  <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">カリスマ</lily:rareSkill>
+  <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ラプラス</lily:rareSkill>
   <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Awakening</lily:subSkill>
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:isBoosted>
   <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">リジェネレーター</lily:boostedSkill>
