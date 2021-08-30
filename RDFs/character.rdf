@@ -91,9 +91,9 @@
   <!-- <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></foaf:age> -->
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
-  <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
+  <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--04-23</schema:birthDate>
   <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dead</lily:lifeStatus>
-  <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
+  <lily:killedIn xml:lang="ja">中等科1年の時に病死</lily:killedIn>
   <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
@@ -112,7 +112,7 @@
     <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </lily:charm> -->
-  <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場女学校初等科</lily:garden>
+  <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場女学校中等科</lily:garden>
   <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
   <!-- <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:grade> -->
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
@@ -128,16 +128,21 @@
     <lily:resource rdf:resource="Imamura_Yukari"/>
     <lily:additionalInformation xml:lang="ja">妹</lily:additionalInformation>
   </schema:sibling>
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Hishida_Haru"/>
+    <lily:additionalInformation xml:lang="ja">幼馴染</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">「御台場を守る一番のリリィとなる」という夢を託す</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Yokoyama_Azusa"/>
+    <lily:additionalInformation xml:lang="ja">幼馴染</lily:additionalInformation>
+  </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">柴田茉莉</schema:name>
     <!-- <lily:resource rdf:resource=""/> -->
     <lily:performIn rdf:resource="Assault_Lily_Odaiba_The_Singular_Ability"/>
   </lily:cast>
-  <lily:additionalInformation xml:lang="ja">御台場女学校中等科に進学する直前に死去</lily:additionalInformation>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Character"/>
 </rdf:Description>
 
