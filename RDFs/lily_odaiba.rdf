@@ -441,6 +441,10 @@
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Fujita_Asagao"/>
+    <lily:additionalInformation xml:lang="ja">憧れの先輩</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Shiba_Tomoshibi"/>
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
@@ -528,7 +532,7 @@
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Hronesness"/>
-  <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
+  <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">司令塔</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
@@ -542,6 +546,10 @@
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Hayami_Katsura"/>
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Imamura_Yukari"/>
+    <lily:additionalInformation xml:lang="ja">気にかけている後輩</lily:additionalInformation>
   </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">海乃るり</schema:name>
@@ -709,6 +717,10 @@
     <lily:resource rdf:resource="Imamura_Sakumi"/>
     <lily:additionalInformation xml:lang="ja">姉</lily:additionalInformation>
   </schema:sibling>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Igusa_Subaru"/>
+    <lily:additionalInformation xml:lang="ja">道を示してくれる先輩</lily:additionalInformation>
+  </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Kozue_West"/>
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
