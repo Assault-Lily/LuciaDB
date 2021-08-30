@@ -233,6 +233,26 @@ RDFs/charm.rdf:
         - "Gunnfjödur"@en)'
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
+    line: '777'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Naegling
+    predicate: https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+    object: '"Nægling"@en'
+    message: 'Data LanguageType not matched: lang is en, but Nægling (line: 777, col:
+        1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Naegling - https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#seriesName
+        - "Nægling"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '779'
+    column: '1'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Naegling
+    predicate: http://schema.org/name
+    object: '"Nægling"@en'
+    message: 'Data LanguageType not matched: lang is en, but Nægling (line: 779, col:
+        1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Naegling - http://schema.org/name
+        - "Nægling"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
     line: '977'
     column: '1'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Precieuse

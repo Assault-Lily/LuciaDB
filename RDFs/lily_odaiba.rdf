@@ -66,7 +66,8 @@
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Hrunting"/>
-    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ドール</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台御台場TSA</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
@@ -158,8 +159,9 @@
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
-    <lily:resource rdf:resource="Nailling"/>
+    <lily:resource rdf:resource="Naegling"/>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ドール</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台御台場TSA</lily:usedIn>
     <lily:additionalInformation xml:lang="ja">ユニーク機体</lily:additionalInformation>
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
@@ -240,6 +242,7 @@
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Vinst_Lilie"/>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台TFG</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台御台場TSA</lily:usedIn>
     <lily:additionalInformation xml:lang="ja">実験機</lily:additionalInformation>
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
@@ -331,7 +334,7 @@
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Beagonth_Seax"/>
-    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台御台場TSA</lily:usedIn>
     <lily:additionalInformation xml:lang="ja">試作機</lily:additionalInformation>
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
@@ -408,7 +411,7 @@
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Failnaught"/>
-    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台御台場TSA</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
@@ -507,7 +510,7 @@
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Hildr"/>
-    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台御台場TSA</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
@@ -586,8 +589,8 @@
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Gray_Side"/>
-    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
-    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台御台場TSA</lily:usedIn>
+    <lily:additionalInformation xml:lang="ja">先行試作機</lily:additionalInformation>
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Yotunschwert"/>
@@ -677,7 +680,7 @@
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Keraunos"/>
-    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台御台場TSA</lily:usedIn>
     <lily:additionalInformation xml:lang="ja">ユニーク機体</lily:additionalInformation>
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
@@ -764,8 +767,8 @@
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
-    <lily:resource rdf:resource="Yaren_Grable"/>
-    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <lily:resource rdf:resource="Jarngreipr"/>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台御台場TSA</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
@@ -949,7 +952,7 @@
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Brionac"/>
-    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場舞台</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台御台場TSA</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
@@ -1195,7 +1198,7 @@
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Hrotti"/>
-    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場舞台</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台御台場TSA</lily:usedIn>
     <lily:additionalInformation xml:lang="ja">ユニーク機体</lily:additionalInformation>
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
@@ -1304,7 +1307,7 @@
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Kuruzzi"/>
-    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台御台場TSA</lily:usedIn>
     <lily:additionalInformation xml:lang="ja">試験機</lily:additionalInformation>
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
@@ -1386,7 +1389,7 @@
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Tyrfing_type_R"/>
-    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場舞台</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台御台場TSA</lily:usedIn>
     <lily:additionalInformation xml:lang="ja">試験機</lily:additionalInformation>
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
@@ -1476,7 +1479,7 @@
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Caladbolg"/>
-    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">御台場舞台</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台御台場TSA</lily:usedIn>
     <lily:additionalInformation xml:lang="ja">ユニーク機体</lily:additionalInformation>
   </lily:charm>
   <lily:charm rdf:parseType="Resource">

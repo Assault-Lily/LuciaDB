@@ -3739,7 +3739,7 @@
   <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">マギリフレクター</lily:boostedSkill>
   <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">エンハンスメント</lily:boostedSkill>
   <lily:charm rdf:parseType="Resource">
-    <lily:resource rdf:resource="Yaren_Grable"/>
+    <lily:resource rdf:resource="Jarngreipr"/>
     <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
     <lily:additionalInformation xml:lang="ja">試作機</lily:additionalInformation>
   </lily:charm>
