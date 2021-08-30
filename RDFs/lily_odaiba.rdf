@@ -822,10 +822,10 @@
     <lily:resource rdf:resource="Funada_Ui"/>
     <lily:additionalInformation xml:lang="ja">妹のような存在</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Yamazaki_Meika"/> -->
-    <!-- <lily:additionalInformation xml:lang="ja">幕張奪還戦で共闘</lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Yamazaki_Meika"/>
+    <lily:additionalInformation xml:lang="ja">幕張奪還戦で共闘</lily:additionalInformation>
+  </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Murakami_Tokiwa"/>
     <lily:additionalInformation xml:lang="ja">幕張奪還戦で共闘</lily:additionalInformation>
@@ -836,7 +836,7 @@
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Mashima_Moyu"/>
-    <lily:additionalInformation xml:lang="ja">ロネスネスに紹介</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">アーセナルとしてロネスネスに紹介</lily:additionalInformation>
   </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">長谷川里桃</schema:name>
