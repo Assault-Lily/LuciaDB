@@ -743,12 +743,12 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="Yaren_Grable">
+<rdf:Description rdf:about="Jarngreipr">
   <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-25</schema:productID>
-  <lily:seriesName xml:lang="ja">ヤーレングレイブル</lily:seriesName>
-  <lily:seriesName xml:lang="en">Yaren Grable</lily:seriesName>
-  <schema:name xml:lang="ja">ヤーレングレイブル</schema:name>
-  <schema:name xml:lang="en">Yaren Grable</schema:name>
+  <lily:seriesName xml:lang="ja">ヤールングレイプル</lily:seriesName>
+  <lily:seriesName xml:lang="en">Jarngreipr</lily:seriesName>
+  <schema:name xml:lang="ja">ヤールングレイプル</schema:name>
+  <schema:name xml:lang="en">Jarngreipr</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</lily:generation>
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
@@ -771,12 +771,12 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="Nailling">
+<rdf:Description rdf:about="Naegling">
   <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC-15</schema:productID>
   <lily:seriesName xml:lang="ja">ネイリング</lily:seriesName>
-  <lily:seriesName xml:lang="en">Nailling</lily:seriesName>
+  <lily:seriesName xml:lang="en">Nægling</lily:seriesName>
   <schema:name xml:lang="ja">ネイリング</schema:name>
-  <schema:name xml:lang="en">Nailling</schema:name>
+  <schema:name xml:lang="en">Nægling</schema:name>
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</lily:generation>
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
@@ -795,7 +795,7 @@
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Kawabata_Hotaru"/>
-  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <lily:additionalInformation xml:lang="ja">円環の御手保持者向けCHARM</lily:additionalInformation>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
@@ -1125,6 +1125,21 @@
   <!-- <schema:manufacturer rdf:resource=""/> -->
   <lily:user rdf:resource="Takegoshi_Chihana"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Galateia">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">ガラテイア</lily:seriesName>
+  <lily:seriesName xml:lang="en">Galateia</lily:seriesName>
+  <schema:name xml:lang="ja">ガラテイア</schema:name>
+  <schema:name xml:lang="en">Galateia</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Vulcanus_Industry"/>
+  <lily:user rdf:resource="Hishida_Haru"/>
+  <lily:additionalInformation xml:lang="ja">ダミークリスタルコア搭載</lily:additionalInformation>
+  <lily:additionalInformation xml:lang="ja">「契約代行システム」実験機</lily:additionalInformation>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 

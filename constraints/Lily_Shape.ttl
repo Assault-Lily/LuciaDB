@@ -17,7 +17,7 @@ lily-shape:lily-charmShape a sh:NodeShape;
 lily-shape:lily-relationshipShape a sh:NodeShape;
     sh:property [
         sh:path lily:resource ;
-        sh:class lily:Lily ;
+        sh:class lily:Character ;
         sh:minCount 1 ;
     ] ;
     sh:property [
@@ -224,6 +224,7 @@ lily-shape:lilyShape a sh:NodeShape;
             "この世の理"
             "フェイズトランセンデンス"
             "カリスマ"
+            "ラプラス"
             "未覚醒"
         );
     ];

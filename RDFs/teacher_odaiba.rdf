@@ -93,19 +93,19 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="Nakahara_Mary_Tomoyo">
+<rdf:Description rdf:about="Nakahara_Meary_Tomoyo">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">中原・メアリィ・倫夜</rdfs:label>
   <schema:familyName xml:lang="ja">中原</schema:familyName>
   <schema:familyName xml:lang="en">Nakahara</schema:familyName>
   <lily:familyNameKana xml:lang="ja">なかはら</lily:familyNameKana>
   <schema:additionalName xml:lang="ja">メアリィ</schema:additionalName>
-  <schema:additionalName xml:lang="en">Mary</schema:additionalName>
+  <schema:additionalName xml:lang="en">Meary</schema:additionalName>
   <lily:additionalNameKana xml:lang="ja">めありぃ</lily:additionalNameKana>
   <schema:givenName xml:lang="ja">倫夜</schema:givenName>
   <schema:givenName xml:lang="en">Tomoyo</schema:givenName>
   <lily:givenNameKana xml:lang="ja">ともよ</lily:givenNameKana>
   <schema:name xml:lang="ja">中原・メアリィ・倫夜</schema:name>
-  <schema:name xml:lang="en">Nakahara Mary Tomoyo</schema:name>
+  <schema:name xml:lang="en">Nakahara Meary Tomoyo</schema:name>
   <lily:nameKana xml:lang="ja">なかはら・めありぃ・ともよ</lily:nameKana>
   <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <!-- <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></foaf:age> -->
@@ -156,7 +156,7 @@
     <schema:name xml:lang="ja">小野瀬みらい</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q16769880"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/小野瀬みらい"/>
-    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Jogakkou_Hen"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_The_Singular_Ability"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>

@@ -1428,10 +1428,10 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Play"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="Assault_Lily_Odaiba_Jogakkou_Hen">
+<rdf:Description rdf:about="Assault_Lily_Odaiba_The_Singular_Ability">
   <lily:genre xml:lang="ja">舞台</lily:genre>
   <schema:name xml:lang="ja">舞台アサルトリリィ―御台場女学校編― The Singular Ability</schema:name>
-  <schema:alternateName xml:lang="ja">御台場舞台</schema:alternateName>
+  <schema:alternateName xml:lang="ja">舞台御台場TSA</schema:alternateName>
   <schema:inLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">ja-JP</schema:inLanguage>
   <schema:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">紀伊國屋ホール</schema:location>
   <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-08-20</schema:startDate>
@@ -1564,7 +1564,7 @@
     <schema:name xml:lang="ja">小野瀬みらい</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q16769880"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/小野瀬みらい"/>
-    <lily:performAs rdf:resource="Nakahara_Mary_Tomoyo"/>
+    <lily:performAs rdf:resource="Nakahara_Meary_Tomoyo"/>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:cast>
   <!-- <schema:abstract xml:lang="ja"></schema:abstract> -->
