@@ -1493,8 +1493,8 @@
   <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
   <schema:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</schema:gender>
   <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
-  <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
-  <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
+  <schema:birthPlace xml:lang="ja">東京都</schema:birthPlace>
+  <schema:birthPlace xml:lang="en">Tokyo</schema:birthPlace>
   <lily:favorite xml:lang="ja">フクロウ</lily:favorite>
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
@@ -1539,10 +1539,11 @@
     <lily:resource rdf:resource="Imamura_Yukari"/>
     <lily:additionalInformation xml:lang="ja">幼馴染 (今は疎遠)</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Imamura_Sakumi"/> -->
-    <!-- <lily:additionalInformation xml:lang="ja">幼馴染</lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Imamura_Sakumi"/>
+    <lily:additionalInformation xml:lang="ja">幼馴染</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">「御台場を守る一番のリリィとなる」と約束した</lily:additionalInformation>
+  </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Tsukioka_Momiji"/>
     <lily:additionalInformation xml:lang="ja">固い絆</lily:additionalInformation>
@@ -1550,6 +1551,14 @@
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Kawamura_Yuzuriha"/>
     <lily:additionalInformation xml:lang="ja">固い絆</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Kawanabe_Nazuna"/>
+    <lily:additionalInformation xml:lang="ja">かわいがっている後輩</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Suzuki_Chinami"/>
+    <lily:additionalInformation xml:lang="ja">憧れられている後輩</lily:additionalInformation>
   </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">林田真尋</schema:name>
