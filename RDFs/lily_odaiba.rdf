@@ -189,6 +189,10 @@
     <lily:resource rdf:resource="Nagasawa_Yuki"/>
     <lily:additionalInformation xml:lang="ja">姉のような存在</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Fujita_Asagao"/>
+    <lily:additionalInformation xml:lang="ja">実力を認める仲</lily:additionalInformation>
+  </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">西葉瑞希</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q98734254"/>
