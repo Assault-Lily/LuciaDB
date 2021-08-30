@@ -1564,7 +1564,7 @@
     <schema:name xml:lang="ja">小野瀬みらい</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q16769880"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/小野瀬みらい"/>
-    <lily:performAs rdf:resource="Nakahara_Mary_Tomoyo"/>
+    <lily:performAs rdf:resource="Nakahara_Meary_Tomoyo"/>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:cast>
   <!-- <schema:abstract xml:lang="ja"></schema:abstract> -->
