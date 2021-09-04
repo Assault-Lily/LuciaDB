@@ -961,7 +961,7 @@
   <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
   <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
-  <lily:favorite xml:lang="ja">ハーブティーー</lily:favorite>
+  <lily:favorite xml:lang="ja">ハーブティー</lily:favorite>
   <lily:favorite xml:lang="ja">ウサギ (特にロップイヤー)</lily:favorite>
   <lily:favorite xml:lang="ja">カエル</lily:favorite>
   <lily:notGood xml:lang="ja">心霊ものなど怖い話</lily:notGood>
