@@ -1250,7 +1250,7 @@
   <schema:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">シアターグリーン BIG TREE THEATER</schema:location>
   <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-28</schema:startDate>
   <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-06-06</schema:endDate>
-  <!-- <schema:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration"></schema:duration> -->
+  <schema:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT1H50M</schema:duration>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-28T19:00:00+09:00</lily:showTime>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-29T13:00:00+09:00</lily:showTime>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-29T18:00:00+09:00</lily:showTime>
