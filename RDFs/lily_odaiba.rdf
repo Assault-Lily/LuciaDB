@@ -1367,6 +1367,10 @@
     <lily:resource rdf:resource="Hishida_Haru"/>
     <lily:additionalInformation xml:lang="ja">憧れの先輩</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Otake_Sunao"/>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+  </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">白石まゆみ</schema:name>
     <!-- <lily:resource rdf:resource=""/> -->
@@ -1734,10 +1738,10 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Suzuki_Chinami"/>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+  </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
     <!-- <lily:resource rdf:resource=""/> -->
