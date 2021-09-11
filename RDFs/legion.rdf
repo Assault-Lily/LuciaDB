@@ -283,7 +283,8 @@
   <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade>
   <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
   <schema:member rdf:resource="Yoshida_Ageha"/><!-- 隊長 -->
-  <!-- <schema:member rdf:resource=""/> -->
+  <schema:member rdf:resource="Ikeda_Sunao"/>
+  <schema:member rdf:resource="Hidari_Teruka"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
