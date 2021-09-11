@@ -2290,6 +2290,7 @@
   <lily:favorite xml:lang="ja">豊田市美術館</lily:favorite>
   <lily:favorite xml:lang="ja">ジャズ音楽</lily:favorite>
   <lily:notGood xml:lang="ja">雷</lily:notGood>
+  <lily:notGood xml:lang="ja">歯医者</lily:notGood>
   <lily:hobby_talent xml:lang="ja">陶芸</lily:hobby_talent>
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">円環の御手</lily:rareSkill>
@@ -2400,7 +2401,7 @@
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <lily:favorite xml:lang="ja">麺類</lily:favorite>
   <lily:favorite xml:lang="ja">棒付き飴</lily:favorite>
-  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <lily:notGood xml:lang="ja">歯医者</lily:notGood>
   <lily:hobby_talent xml:lang="ja">裁縫</lily:hobby_talent>
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ファンタズム</lily:rareSkill>
