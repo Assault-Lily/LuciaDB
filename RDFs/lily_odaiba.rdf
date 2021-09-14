@@ -835,6 +835,10 @@
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Maruyama_Amane"/>
+    <lily:additionalInformation xml:lang="ja">盟友</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Mashima_Moyu"/>
     <lily:additionalInformation xml:lang="ja">アーセナルとしてロネスネスに紹介</lily:additionalInformation>
   </lily:relationship>
@@ -1753,17 +1757,17 @@
 <rdf:Description rdf:about="Maruyama_Amane">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">円山周</rdfs:label>
   <schema:familyName xml:lang="ja">円山</schema:familyName>
-  <!-- <schema:familyName xml:lang="en"></schema:familyName> -->
-  <!-- <lily:familyNameKana xml:lang="ja"></lily:familyNameKana> -->
+  <schema:familyName xml:lang="en">Maruyama</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">まるやま</lily:familyNameKana>
   <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
   <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
   <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
   <schema:givenName xml:lang="ja">周</schema:givenName>
-  <!-- <schema:givenName xml:lang="en"></schema:givenName> -->
-  <!-- <lily:givenNameKana xml:lang="ja"></lily:givenNameKana> -->
+  <schema:givenName xml:lang="en">Amane</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">あまね</lily:givenNameKana>
   <schema:name xml:lang="ja">円山周</schema:name>
-  <!-- <schema:name xml:lang="en"></schema:name> -->
-  <!-- <lily:nameKana xml:lang="ja"></lily:nameKana> -->
+  <schema:name xml:lang="en">Maruyama Amane</schema:name>
+  <lily:nameKana xml:lang="ja">まるやまあまね</lily:nameKana>
   <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
@@ -1805,10 +1809,10 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Nagasawa_Yuki"/>
+    <lily:additionalInformation xml:lang="ja">盟友</lily:additionalInformation>
+  </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
     <!-- <lily:resource rdf:resource=""/> -->
