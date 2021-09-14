@@ -1003,6 +1003,10 @@
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Suzuki_Chinami"/>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Imamura_Yukari"/>
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
