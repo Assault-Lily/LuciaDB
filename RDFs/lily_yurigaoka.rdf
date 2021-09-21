@@ -1552,6 +1552,10 @@
     <lily:resource rdf:resource="Mozuna_Noa"/>
     <lily:additionalInformation xml:lang="ja">戦闘スタイルのお手本</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Kitagawara_Inori"/>
+    <lily:additionalInformation xml:lang="ja">特別寮時代に親しくなった友人</lily:additionalInformation>
+  </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">原田彩楓</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q27507360"/>
@@ -2026,6 +2030,10 @@
     <lily:resource rdf:resource="Tada_Shiera"/>
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Kitagawara_Inori"/>
+    <lily:additionalInformation xml:lang="ja">特別寮時代に親しくなった友人</lily:additionalInformation>
+  </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">三川華月</schema:name>
     <!-- <lily:resource rdf:resource=""/> -->
@@ -2363,6 +2371,10 @@
     <lily:resource rdf:resource="Louloudis_Bromstedt"/>
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
     <lily:additionalInformation xml:lang="ja">似通ったスペックを持つためよく比較される</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Kitagawara_Inori"/>
+    <lily:additionalInformation xml:lang="ja">特別寮時代に親しくなった友人</lily:additionalInformation>
   </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">高橋李依</schema:name>
@@ -7173,10 +7185,18 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Egawa_Kusumi"/>
+    <lily:additionalInformation xml:lang="ja">特別寮時代に親しくなった友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Rokkaku_Shiori"/>
+    <lily:additionalInformation xml:lang="ja">特別寮時代に親しくなった友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Mori_Tatsuki"/>
+    <lily:additionalInformation xml:lang="ja">特別寮時代に親しくなった友人</lily:additionalInformation>
+  </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
     <!-- <lily:resource rdf:resource=""/> -->
