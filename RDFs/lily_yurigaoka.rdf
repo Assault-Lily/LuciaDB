@@ -2300,6 +2300,7 @@
   <lily:notGood xml:lang="ja">雷</lily:notGood>
   <lily:notGood xml:lang="ja">歯医者</lily:notGood>
   <lily:hobby_talent xml:lang="ja">陶芸</lily:hobby_talent>
+  <lily:hobby_talent xml:lang="ja">茶道</lily:hobby_talent>
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">円環の御手</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
