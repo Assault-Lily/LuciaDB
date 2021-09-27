@@ -1143,4 +1143,18 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Ascalon">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">アスカロン</lily:seriesName>
+  <lily:seriesName xml:lang="en">Ascalon</lily:seriesName>
+  <schema:name xml:lang="ja">アスカロン</schema:name>
+  <schema:name xml:lang="en">Ascalon</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Yamanashi_Hibari"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
 </rdf:RDF>
