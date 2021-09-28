@@ -509,7 +509,7 @@
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
-  <lily:legion rdf:resource="Cuelebre"/>
+  <lily:legion rdf:resource="Basa_Andre"/>
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
