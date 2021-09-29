@@ -1269,8 +1269,8 @@
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-06T12:00:00+09:00</lily:showTime>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-06T17:00:00+09:00</lily:showTime>
   <lily:additionalInformation xml:lang="ja">出演者が新型コロナウイルス感染者の濃厚接触者に該当したため、5月27日(木)19時公演を中止、28日(金)から30日(日)の計5公演で該当出演者に代役を立てて上演し、6月2日(水)13時公演を追加。</lily:additionalInformation>
-  <!-- <lily:producer xml:lang="ja">林修司</lily:producer> -->
-  <!-- <lily:producer xml:lang="ja">早園正</lily:producer> -->
+  <lily:producer xml:lang="ja">林修司</lily:producer>
+  <lily:producer xml:lang="ja">早園正</lily:producer>
   <lily:scenarioWriter xml:lang="ja">桜木さやか</lily:scenarioWriter>
   <lily:episodeDirection xml:lang="ja">林修司</lily:episodeDirection>
   <lily:episodeDirection xml:lang="ja">桜木さやか</lily:episodeDirection>
