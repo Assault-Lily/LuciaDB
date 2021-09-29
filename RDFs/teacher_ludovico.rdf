@@ -81,6 +81,7 @@
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q11541155"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/楠世蓮"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
@@ -159,6 +160,7 @@
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q55177725"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/遠藤三貴"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>

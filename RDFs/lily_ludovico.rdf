@@ -123,6 +123,7 @@
     <lily:performIn rdf:resource="League_of_Gardens"/>
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">石井陽菜</schema:name>
@@ -215,6 +216,7 @@
     <schema:name xml:lang="ja">あわつまい</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q56253675"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -310,6 +312,7 @@
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q56556209"/>
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -398,6 +401,7 @@
     <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
     <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -493,6 +497,7 @@
     <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -648,6 +653,7 @@
     <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
     <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -739,6 +745,7 @@
     <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
     <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -902,6 +909,7 @@
     <schema:name xml:lang="ja">大滝紗緒里</schema:name>
     <!-- <lily:resource rdf:resource=""/> -->
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -989,6 +997,7 @@
     <schema:name xml:lang="ja">西田有愛</schema:name>
     <!-- <lily:resource rdf:resource=""/> -->
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -1094,6 +1103,7 @@
     <schema:name xml:lang="ja">一本鎗希華</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q98757922"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -1195,6 +1205,7 @@
     <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
     <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">花奈澪</schema:name>
@@ -1295,6 +1306,7 @@
     <schema:name xml:lang="ja">山﨑悠稀</schema:name>
     <!-- <lily:resource rdf:resource=""/> -->
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -1388,6 +1400,7 @@
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q18817351"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/石井陽菜"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -1472,6 +1485,7 @@
     <schema:name xml:lang="ja">清水凜</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q105704315"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -1559,6 +1573,7 @@
     <schema:name xml:lang="ja">湯田陽花</schema:name>
     <!-- <lily:resource rdf:resource=""/> -->
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -1647,6 +1662,7 @@
     <schema:name xml:lang="ja">岩倉あずさ</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q96715454"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -1733,6 +1749,7 @@
     <lily:performIn rdf:resource="Yakusoku_No_Yukue"/>
     <lily:performIn rdf:resource="Shinjitsu_No_Yaiba"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
+    <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
