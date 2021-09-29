@@ -100,6 +100,7 @@
   <lily:user rdf:resource="Kawamura_Yuzuriha"/>
   <lily:user rdf:resource="Miliam_Hildegard_von_Guropius"/>
   <lily:user rdf:resource="Wang_Yujia"/>
+  <lily:user rdf:resource="Kosaka_Anastasiya_Ryoko"/>
   <!-- <lily:user rdf:resource="Yoshizaka_Nagisa"/> -->
   <lily:hasVariant rdf:resource="Gungnir_Carbin"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -152,6 +153,7 @@
   <lily:user rdf:resource="Shirai_Yuyu"/>
   <lily:user rdf:resource="Funada_Kiito"/>
   <lily:user rdf:resource="Rokkaku_Shiori"/>
+  <lily:user rdf:resource="Izumi_Rosa_Rina"/>
   <lily:hasVariant rdf:resource="Dainsleif_Carbin"/>
   <lily:hasVariant rdf:resource="Dainsleif_Marksman"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -185,6 +187,7 @@
   <lily:user rdf:resource="Kagami_Agnes_Mio"/>
   <lily:user rdf:resource="Izumi_Rosa_Rina"/>
   <lily:user rdf:resource="Rokkaku_Shiori"/>
+  <lily:user rdf:resource="Amatsu_Marei"/>
   <lily:isVariantOf rdf:resource="Dainsleif"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>

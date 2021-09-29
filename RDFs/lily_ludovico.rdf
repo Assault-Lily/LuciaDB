@@ -47,6 +47,7 @@
     <lily:resource rdf:resource="Fierbois"/>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台LoG</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台TFG</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <lily:additionalInformation xml:lang="ja">ユニーク機体</lily:additionalInformation>
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
@@ -57,6 +58,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台TFG</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <lily:additionalInformation xml:lang="ja">SP</lily:additionalInformation>
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
@@ -66,6 +68,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの誓い</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ドール</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
@@ -173,6 +176,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの秘密</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの誓い</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立ルドビコ女学院</lily:garden>
@@ -263,6 +267,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台TFG</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <lily:additionalInformation xml:lang="ja">SP</lily:additionalInformation>
     <lily:additionalInformation xml:lang="ja">姉の形見</lily:additionalInformation>
   </lily:charm>
@@ -358,6 +363,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの誓い</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ドール</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
@@ -447,6 +453,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの誓い</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ドール</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
@@ -619,6 +626,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの誓い</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立ルドビコ女学院</lily:garden>
@@ -698,6 +706,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの誓い</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立ルドビコ女学院</lily:garden>
@@ -866,6 +875,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台LoG</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立ルドビコ女学院</lily:garden>
@@ -956,6 +966,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台TFG</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立ルドビコ女学院</lily:garden>
@@ -1044,6 +1055,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの誓い</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立ルドビコ女学院</lily:garden>
@@ -1153,6 +1165,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの誓い</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <lily:additionalInformation xml:lang="ja">ユニーク機体</lily:additionalInformation>
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立ルドビコ女学院</lily:garden>
@@ -1257,6 +1270,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの誓い</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立ルドビコ女学院</lily:garden>
@@ -1447,6 +1461,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの誓い</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立ルドビコ女学院</lily:garden>
@@ -1529,6 +1544,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの誓い</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立ルドビコ女学院</lily:garden>
@@ -1617,6 +1633,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立ルドビコ女学院</lily:garden>
@@ -1707,6 +1724,7 @@
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの誓い</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 約束の行方</lily:usedIn>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 真実の刃</lily:usedIn>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立ルドビコ女学院</lily:garden>

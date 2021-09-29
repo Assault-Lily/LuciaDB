@@ -50,11 +50,11 @@
   <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">狂乱の閾</lily:subSkill>
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
-  <!-- <lily:charm rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+  <lily:charm rdf:parseType="Resource">
+    <lily:resource rdf:resource="Dainsleif_Carbin"/>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">舞台 シュベスターの祈り 2021</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
-  <!-- </lily:charm> -->
+  </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">柳都女学館</lily:garden>
   <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">工廠科</lily:gardenDepartment>
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</lily:grade>
