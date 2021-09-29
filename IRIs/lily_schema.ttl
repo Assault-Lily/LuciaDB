@@ -338,8 +338,8 @@ lily:originalAuthor     a   rdf:Property ;
     rdfs:label              "原作"@ja .
 
 lily:planning           a   rdf:Property ;
-    rdfs:comment            "企画者を表すプロパティ" ;
-    rdfs:label              "企画"@ja .
+    rdfs:comment            "企画・製作者を表すプロパティ" ;
+    rdfs:label              "企画・製作"@ja .
 
 lily:production         a   rdf:Property ;
     rdfs:comment            "制作者を表すプロパティ" ;

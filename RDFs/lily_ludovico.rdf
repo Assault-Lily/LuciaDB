@@ -127,6 +127,7 @@
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
     <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
+    <lily:performIn rdf:resource="Lost_Memories"/>
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">石井陽菜</schema:name>
@@ -318,6 +319,7 @@
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
     <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
+    <lily:performIn rdf:resource="Lost_Memories"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -2542,6 +2544,7 @@
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/田上真里奈"/>
     <lily:performIn rdf:resource="League_of_Gardens"/>
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Lost_Memories"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>

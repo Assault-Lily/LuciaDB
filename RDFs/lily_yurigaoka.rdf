@@ -96,6 +96,7 @@
     <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
     <lily:performIn rdf:resource="League_of_Gardens"/>
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Lost_Memories"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -210,6 +211,7 @@
     <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
     <lily:performIn rdf:resource="League_of_Gardens"/>
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Lost_Memories"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -336,6 +338,7 @@
     <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
     <lily:performIn rdf:resource="League_of_Gardens"/>
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Lost_Memories"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -431,6 +434,7 @@
     <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
     <lily:performIn rdf:resource="League_of_Gardens"/>
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Lost_Memories"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -531,6 +535,7 @@
     <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
     <lily:performIn rdf:resource="League_of_Gardens"/>
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Lost_Memories"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -642,6 +647,7 @@
     <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
     <lily:performIn rdf:resource="League_of_Gardens"/>
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Lost_Memories"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -738,6 +744,7 @@
     <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
     <lily:performIn rdf:resource="League_of_Gardens"/>
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Lost_Memories"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -831,6 +838,7 @@
     <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
     <lily:performIn rdf:resource="League_of_Gardens"/>
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Lost_Memories"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -927,6 +935,7 @@
     <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
     <lily:performIn rdf:resource="League_of_Gardens"/>
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
+    <lily:performIn rdf:resource="Lost_Memories"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -5689,6 +5698,7 @@
     <schema:name xml:lang="ja">田中那実</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q65962751"/>
     <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+    <lily:performIn rdf:resource="Lost_Memories"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>

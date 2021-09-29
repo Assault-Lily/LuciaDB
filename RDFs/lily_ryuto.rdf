@@ -93,6 +93,7 @@
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/武藤志織"/>
     <lily:performIn rdf:resource="Schwester_No_Inori_2021"/>
     <lily:performIn rdf:resource="Schwester_No_Himitsu_2021"/>
+    <lily:performIn rdf:resource="Lost_Memories"/>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
