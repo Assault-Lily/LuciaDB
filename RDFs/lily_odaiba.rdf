@@ -1379,7 +1379,7 @@
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Otake_Sunao"/>
-    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">親友</lily:additionalInformation>
   </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">白石まゆみ</schema:name>
@@ -1739,7 +1739,8 @@
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Heorot_Saints"/>
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
-  <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
+  <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
+  <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
@@ -1750,7 +1751,7 @@
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Suzuki_Chinami"/>
-    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">親友</lily:additionalInformation>
   </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
