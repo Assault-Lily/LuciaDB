@@ -931,6 +931,10 @@
     <lily:resource rdf:resource="Luise_Ingels"/>
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Otake_Sunao"/>
+    <lily:additionalInformation xml:lang="ja">ライバル視されている</lily:additionalInformation>
+  </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -1685,6 +1689,10 @@
     <lily:resource rdf:resource="Yokoyama_Azusa"/>
     <lily:additionalInformation xml:lang="ja">固い絆</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Otake_Sunao"/>
+    <lily:additionalInformation xml:lang="ja">慕われている</lily:additionalInformation>
+  </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">夏目愛海</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q47582342"/>
@@ -1757,6 +1765,14 @@
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Suzuki_Chinami"/>
     <lily:additionalInformation xml:lang="ja">親友</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Tsukioka_Momiji"/>
+    <lily:additionalInformation xml:lang="ja">慕っている</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Hayami_Katsura"/>
+    <lily:additionalInformation xml:lang="ja">ライバル視している</lily:additionalInformation>
   </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
