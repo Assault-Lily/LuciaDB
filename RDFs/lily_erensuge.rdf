@@ -458,6 +458,10 @@
     <lily:resource rdf:resource="Aizawa_Kazuha"/>
     <lily:additionalInformation xml:lang="ja">仲が悪い</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Tsuboi_Nanaho"/>
+    <lily:additionalInformation xml:lang="ja">仲が悪い</lily:additionalInformation>
+  </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -513,7 +517,7 @@
   <!-- <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:gardenDepartment> -->
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
-  <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
+  <lily:gardenJobTitle xml:lang="ja">風紀委員長</lily:gardenJobTitle>
   <lily:legion rdf:resource="Basa_Andre"/>
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
@@ -525,10 +529,10 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Matsumura_Fuka"/>
+    <lily:additionalInformation xml:lang="ja">仲が悪い</lily:additionalInformation>
+  </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
     <!-- <lily:resource rdf:resource=""/> -->
