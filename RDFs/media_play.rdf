@@ -1636,7 +1636,7 @@
     <schema:name xml:lang="ja">西本りみ</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q24902567"/>
     <lily:performAs rdf:resource="Ichinomiya_Michaela_Himari"/>
-    <lily:additionalInformation xml:lang="ja"></lily:additionalInformation>
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:cast>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">大滝紗緒里</schema:name>
