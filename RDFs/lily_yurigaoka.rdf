@@ -1441,6 +1441,7 @@
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q17160276"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/関根明良"/>
     <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -1668,6 +1669,7 @@
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q901835"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/津田美波"/>
     <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -1790,6 +1792,7 @@
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q9046310"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/立花理香"/>
     <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
+    <lily:performIn rdf:resource="Assault_Lily_Last_Bullet"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
