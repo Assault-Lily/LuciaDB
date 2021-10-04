@@ -7062,7 +7062,7 @@
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <!-- <lily:schild rdf:resource=""/> -->
   <!-- <lily:pastSchild rdf:resource=""/> -->
-  <!-- <lily:roomMate rdf:resource=""/> -->
+  <lily:roomMate rdf:resource="Osumi_Azuki"/>
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -7133,7 +7133,7 @@
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <!-- <lily:schild rdf:resource=""/> -->
   <!-- <lily:pastSchild rdf:resource=""/> -->
-  <!-- <lily:roomMate rdf:resource=""/> -->
+  <lily:roomMate rdf:resource="Tono_Natsuki"/>
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
