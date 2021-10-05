@@ -6217,7 +6217,7 @@
   <schema:name xml:lang="ja">武田光未</schema:name>
   <schema:name xml:lang="en">Takeda Mimi</schema:name>
   <lily:nameKana xml:lang="ja">たけだみみ</lily:nameKana>
-  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
+  <lily:anotherName xml:lang="ja">黒衣の宰相</lily:anotherName>
   <!-- <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></foaf:age> -->
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
