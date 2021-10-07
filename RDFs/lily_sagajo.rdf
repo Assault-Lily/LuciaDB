@@ -125,6 +125,7 @@
   <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <lily:favorite xml:lang="ja">B級グルメ全般</lily:favorite>
+  <lily:favorite xml:lang="ja">天津飯</lily:favorite>
   <lily:notGood xml:lang="ja">動物 (特に犬)</lily:notGood>
   <lily:hobby_talent xml:lang="ja">楽器演奏 (ピアノ, ヴァイオリン, トランペット, 篠笛)</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">芸術鑑賞</lily:hobby_talent>
