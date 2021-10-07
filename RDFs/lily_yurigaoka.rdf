@@ -2387,6 +2387,10 @@
     <lily:resource rdf:resource="Yamazaki_Meika"/>
     <lily:additionalInformation xml:lang="ja">そうさく倶楽部</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Tanijiri_Shizuku"/>
+    <lily:additionalInformation xml:lang="ja">そうさく倶楽部</lily:additionalInformation>
+  </lily:relationship>
   <!-- <lily:relationship rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource="Yoshizaka_Nagisa"/> -->
     <!-- <lily:additionalInformation xml:lang="ja">養母</lily:additionalInformation> -->
@@ -6416,7 +6420,7 @@
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <!-- <lily:schild rdf:resource=""/> -->
   <!-- <lily:pastSchild rdf:resource=""/> -->
-  <!-- <lily:roomMate rdf:resource=""/> -->
+  <lily:roomMate rdf:resource="Tanijiri_Shizuku"/>
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -6771,7 +6775,7 @@
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
   <!-- <lily:schild rdf:resource=""/> -->
   <!-- <lily:pastSchild rdf:resource=""/> -->
-  <!-- <lily:roomMate rdf:resource=""/> -->
+  <lily:roomMate rdf:resource="Soyogi_Ataru"/>
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
     <!-- <lily:resource rdf:resource=""/> -->
