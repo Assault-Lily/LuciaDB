@@ -4073,7 +4073,7 @@
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
-  <!-- <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:rareSkill> -->
+  <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">フェイズトランセンデンス</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
@@ -4102,10 +4102,10 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Takegoshi_Chihana"/>
+    <lily:additionalInformation xml:lang="ja">親友</lily:additionalInformation>
+  </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
     <!-- <lily:resource rdf:resource=""/> -->
@@ -4641,6 +4641,10 @@
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Sakaizawa_Naru"/>
     <lily:additionalInformation xml:lang="ja">盟友</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Aoki_Kaho"/>
+    <lily:additionalInformation xml:lang="ja">親友</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Tada_Shiera"/>
