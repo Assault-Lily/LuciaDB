@@ -266,7 +266,7 @@
   <schema:member rdf:resource="Ishigami_Mio"/><!-- 副隊長 -->
   <schema:member rdf:resource="Rosalinde_Friedegunde_von_Otto"/>
   <schema:member rdf:resource="Oshima_Suiren"/>
-  <!-- <schema:member rdf:resource="Goto_"/> --><!-- 後藤某 -->
+  <schema:member rdf:resource="Goto_Sakura"/>
   <schema:member rdf:resource="Yamada_Samidori"/>
   <!-- <schema:member rdf:resource="Kaneda_"/> --><!-- 金田某 -->
   <schema:member rdf:resource="Onogi_Sato"/>
