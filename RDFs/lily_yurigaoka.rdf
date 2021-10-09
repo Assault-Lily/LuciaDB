@@ -3849,6 +3849,7 @@
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <lily:favorite xml:lang="ja">鯖の塩焼き</lily:favorite>
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
+  <lily:hobby_talent xml:lang="ja">料理</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">占い</lily:hobby_talent>
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ヘリオスフィア</lily:rareSkill>
