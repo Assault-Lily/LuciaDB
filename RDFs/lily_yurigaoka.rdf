@@ -4643,6 +4643,10 @@
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Ito_Shizu"/>
+    <lily:additionalInformation xml:lang="ja">一時期シルト候補だった</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Sakaizawa_Naru"/>
     <lily:additionalInformation xml:lang="ja">盟友</lily:additionalInformation>
   </lily:relationship>
@@ -5237,6 +5241,10 @@
     <lily:resource rdf:resource="Ito_Naehi"/>
     <lily:additionalInformation xml:lang="ja">異母姉</lily:additionalInformation>
   </schema:sibling>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Takegoshi_Chihana"/>
+    <lily:additionalInformation xml:lang="ja">一時期シュッツエンゲル候補だった</lily:additionalInformation>
+  </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Tachihara_Sayu"/>
     <lily:additionalInformation xml:lang="ja">ライバル</lily:additionalInformation>
