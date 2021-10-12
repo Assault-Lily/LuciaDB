@@ -7227,7 +7227,7 @@
   <lily:gardenJobTitle xml:lang="ja">学級委員長</lily:gardenJobTitle>
   <lily:legion rdf:resource="Rossweisse"/>
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
-  <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
+  <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Ishigami_Mio"/>
