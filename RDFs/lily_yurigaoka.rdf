@@ -1354,6 +1354,10 @@
     <lily:resource rdf:resource="Watanabe_Akane"/>
     <lily:additionalInformation xml:lang="ja">伍人組</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Mori_Tatsuki"/>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+  </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">前島亜美</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q9003804"/>
@@ -2050,6 +2054,10 @@
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Tada_Shiera"/>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Takasuga_Tsukushi"/>
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
