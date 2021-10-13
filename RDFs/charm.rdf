@@ -1069,7 +1069,7 @@
   <schema:name xml:lang="en">Ukonvasara</schema:name>
   <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></lily:generation> -->
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
-  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <schema:manufacturer rdf:resource="Linnunrata_Electronics"/>
   <lily:user rdf:resource="Senda_Koume"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
