@@ -536,6 +536,7 @@
   <schema:member rdf:resource="Chemir_Friedheim"/>
   <schema:member rdf:resource="Lemie_Alessandrini"/>
   <schema:member rdf:resource="Altea_Alessandrini"/>
+  <schema:member rdf:resource="Stella_Elle_Sasson"/>
   <!-- LGヘオロットセインツと同盟を結んでいる-->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
