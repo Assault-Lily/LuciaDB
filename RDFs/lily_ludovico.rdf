@@ -207,6 +207,14 @@
     <lily:resource rdf:resource="Nagasawa_Yuki"/>
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Izue_Shinobu"/>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Yoshii_Kako"/>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+  </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">森本未来</schema:name>
     <!-- <lily:resource rdf:resource=""/> -->
