@@ -6383,6 +6383,10 @@
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Maruyama_Amane"/>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Maki_Wakana"/>
     <lily:additionalInformation xml:lang="ja">好意を寄せる</lily:additionalInformation>
   </lily:relationship>
