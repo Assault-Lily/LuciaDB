@@ -406,7 +406,7 @@
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
   <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</lily:legionGrade>
-  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</lily:numberOfMembers>
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</lily:numberOfMembers>
   <schema:member rdf:resource="Hayami_Katsura"/>
   <schema:member rdf:resource="Kawanabe_Nazuna"/>
   <schema:member rdf:resource="Takehisa_Nakaba"/>

@@ -44,6 +44,21 @@
   <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</lily:generation>
   <schema:manufacturer rdf:resource="Amatsu_Heavy_Industry"/>
   <lily:user rdf:resource="Mashima_Moyu"/>
+  <lily:user rdf:resource="Yoshizaka_Nagisa"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Svizrir">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">スヴィズリル</lily:seriesName>
+  <lily:seriesName xml:lang="en">Svizrir</lily:seriesName>
+  <schema:name xml:lang="ja">スヴィズリル</schema:name>
+  <schema:name xml:lang="en">Szivrir</schema:name>
+  <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</lily:generation>
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Yggdrasill"/>
+  <lily:user rdf:resource="Yoshizaka_Nagisa"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
@@ -101,7 +116,7 @@
   <lily:user rdf:resource="Miliam_Hildegard_von_Guropius"/>
   <lily:user rdf:resource="Wang_Yujia"/>
   <lily:user rdf:resource="Kosaka_Anastasiya_Ryoko"/>
-  <!-- <lily:user rdf:resource="Yoshizaka_Nagisa"/> -->
+  <lily:user rdf:resource="Yoshizaka_Nagisa"/>
   <lily:hasVariant rdf:resource="Gungnir_Carbin"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
