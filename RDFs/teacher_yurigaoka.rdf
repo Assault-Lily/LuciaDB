@@ -98,7 +98,7 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:performIn rdf:resource=""/> -->
   <!-- </lily:cast> -->
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="Chelice_Jacobsen">
@@ -174,7 +174,7 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:performIn rdf:resource=""/> -->
   <!-- </lily:cast> -->
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="Takamatsu_Shiera">
@@ -245,7 +245,7 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:performIn rdf:resource=""/> -->
   <!-- </lily:cast> -->
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="Takamatsu_Kogetsu">
@@ -308,7 +308,7 @@
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q1372791"/>
     <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
   </lily:cast>
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
 
 </rdf:RDF>
