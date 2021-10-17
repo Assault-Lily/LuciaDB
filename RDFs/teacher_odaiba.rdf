@@ -85,6 +85,10 @@
     <lily:resource rdf:resource="Shiba_Tomoshibi"/>
     <lily:additionalInformation xml:lang="ja">御台場女学校への所属に関与</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Yoshizaka_Nagisa"/>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+  </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
     <!-- <lily:resource rdf:resource=""/> -->
