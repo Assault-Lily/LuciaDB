@@ -307,7 +307,7 @@
     <schema:name xml:lang="ja">中田譲治</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q1372791"/>
     <lily:performIn rdf:resource="Assault_Lily_Bouquet"/>
-  </lily:cast> -->
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
