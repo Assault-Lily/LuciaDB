@@ -24,6 +24,7 @@
   <schema:member rdf:resource="Kawamura_Yuzuriha"/>
   <schema:member rdf:resource="Ichinomiya_Michaela_Himari"/>
   <schema:member rdf:resource="Takegoshi_Chihana"/>
+  <lily:submember rdf:resource="Mozuna_Noa"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Taskforce"/>
 </rdf:Description>
 
@@ -41,7 +42,9 @@
   <schema:member rdf:resource="Amatsu_Marei"/>
   <schema:member rdf:resource="Sengo_Yuna"/>
   <schema:member rdf:resource="Altea_Alessandrini"/>
-  <schema:member rdf:resource="Seto_Veronica_Ichika"/>
+  <schema:member rdf:resource="Kondo_Misaka"/>
+  <schema:member rdf:resource="Kiko_Totori"/>
+  <lily:submember rdf:resource="Seto_Veronica_Ichika"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Taskforce"/>
 </rdf:Description>
 
