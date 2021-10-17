@@ -1828,7 +1828,8 @@
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Heorot_Saints"/>
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
-  <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
+  <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
+  <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
@@ -1840,6 +1841,22 @@
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Nagasawa_Yuki"/>
     <lily:additionalInformation xml:lang="ja">盟友</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Kishimoto_Maria_Mirai"/>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Yoshii_Kako"/>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Izue_Shinobu"/>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Hishida_Haru"/>
+    <lily:additionalInformation xml:lang="ja">気にかけている後輩</lily:additionalInformation>
   </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
