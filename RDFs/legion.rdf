@@ -432,6 +432,7 @@
   <schema:member rdf:resource="Hirose_Minato"/>
   <schema:member rdf:resource="Soga_Suzuna"/>
   <schema:member rdf:resource="Kishida_Hanabusa"/>
+  <lily:submember rdf:resource="Munakata_Ushio"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
