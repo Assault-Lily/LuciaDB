@@ -1175,4 +1175,32 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Shura_Vhara">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">シューラ・ヴァラ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Shura Vhara</lily:seriesName>
+  <schema:name xml:lang="ja">シューラ・ヴァラ</schema:name>
+  <schema:name xml:lang="en">Shura Vhara</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Asukai_Tsubasa"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Aparajita">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">アパラージタ</lily:seriesName>
+  <lily:seriesName xml:lang="en">Aparajita</lily:seriesName>
+  <schema:name xml:lang="ja">アパラージタ</schema:name>
+  <schema:name xml:lang="en">Aparajita</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <!-- <schema:manufacturer rdf:resource=""/> -->
+  <lily:user rdf:resource="Ichijo_Mizumi"/>
+  <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
 </rdf:RDF>
