@@ -284,6 +284,7 @@
   <lily:user rdf:resource="Takegoshi_Chihana"/>
   <lily:user rdf:resource="Uchida_Mayuri"/>
   <lily:user rdf:resource="Louloudis_Bromstedt"/>
+  <lily:user rdf:resource="Asanaga_Ichigo"/>
   <lily:isVariantOf rdf:resource="Tyrfing_Prototype"/>
   <schema:isSimilarTo rdf:resource="Tyrfing_type_R"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -300,6 +301,7 @@
   <schema:manufacturer rdf:resource="Yggdrasill"/>
   <lily:user rdf:resource="Chemir_Friedheim"/>
   <lily:user rdf:resource="Yokoyama_Azusa"/>
+  <lily:user rdf:resource="Masukawa_Uta"/>
   <lily:isVariantOf rdf:resource="Tyrfing_Prototype"/>
   <schema:isSimilarTo rdf:resource="Tyrfing_type_T"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
@@ -360,6 +362,7 @@
   <!-- <lily:user rdf:resource="Yumeno_Kanon"/> -->
   <lily:user rdf:resource="Rosalinde_Friedegunde_von_Otto"/>
   <lily:user rdf:resource="Watanabe_Akane"/>
+  <lily:user rdf:resource="Asanaga_Ichigo"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
@@ -503,6 +506,7 @@
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Auniamendi_Systemas"/>
   <lily:user rdf:resource="Toki_Kureha"/>
+  <lily:user rdf:resource="Yukawa_Mizuki"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
@@ -589,6 +593,7 @@
   <lily:user rdf:resource="Kaede_Johan_Nouvel"/>
   <lily:user rdf:resource="Nosaka_Jacqueline_Kazane"/>
   <lily:user rdf:resource="Akutsu_Lucifer_Maaya"/>
+  <lily:user rdf:resource="Koshiba_Eishin"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
@@ -886,7 +891,7 @@
   <schema:manufacturer rdf:resource="Amatsu_Heavy_Industry"/>
   <lily:user rdf:resource="Takehisa_Nakaba"/>
   <lily:user rdf:resource="Tsukioka_Momiji"/>
-  <lily:user rdf:resource="Katsuya_Fuyou"/>
+  <lily:user rdf:resource="Katsuya_Fuyo"/>
   <lily:user rdf:resource="Miyazaki_Hikaru"/>
   <lily:hasVariant rdf:resource="Ame_No_Habakiri"/>
   <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
@@ -932,6 +937,7 @@
   <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
   <schema:manufacturer rdf:resource="Hihiirokane_International"/>
   <lily:user rdf:resource="Suzuki_Chinami"/>
+  <lily:user rdf:resource="Masukawa_Uta"/>
   <lily:additionalInformation xml:lang="ja">テスト運用中</lily:additionalInformation>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
