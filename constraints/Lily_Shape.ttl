@@ -277,12 +277,44 @@ lily-shape:lilyShape a sh:NodeShape;
         sh:path lily:charm;
         sh:node lily-shape:lily-charmShape;
     ];
-    sh:property [
-        rdfs:label "所属ガーデンの制約";
-        sh:path lily:garden;
-        sh:datatype xsd:string;
-        sh:maxCount 1;
-    ];
+    sh:xone (
+        [
+            sh:property [
+                rdfs:label "所属ガーデンの制約";
+                sh:path lily:garden;
+                sh:datatype xsd:string;
+                sh:not [
+                    sh:pattern "^鹿野苑高等女学園$";
+                ] ;
+                sh:maxCount 1;
+            ]
+        ]
+        [
+            sh:property [
+                rdfs:label "所属ガーデンの制約(鹿野苑高等女学園)";
+                sh:path lily:garden;
+                sh:datatype xsd:string;
+                sh:pattern "^鹿野苑高等女学園$";
+                sh:maxCount 1;
+            ] ;
+            sh:property [
+                rdfs:label "僧名の制約";
+                sh:path lily:dharmaName;
+                sh:datatype rdf:langString;
+                sh:languageIn ("ja");
+                sh:minCount 1;
+                sh:maxCount 1;
+            ] ;
+            sh:property [
+                rdfs:label "僧名よみがなの制約";
+                sh:path lily:dharmaNameKana;
+                sh:datatype rdf:langString;
+                sh:languageIn ("ja");
+                sh:minCount 1;
+                sh:maxCount 1;
+            ]
+        ]
+    );
     sh:property [
         rdfs:label "所属学科の制約";
         sh:path lily:gardenDepartment;

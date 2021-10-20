@@ -105,6 +105,14 @@ lily:anotherName        a   rdf:Property ;
     rdfs:comment            "異名・二つ名を表すプロパティ" ;
     rdfs:label              "異名・二つ名"@ja .
 
+lily:dharmaName         a   rdf:Property ;
+    rdfs:comment            "僧名を表すプロパティ" ;
+    rdfs:label              "僧名"@ja .
+
+lily:dharmaNameKana     a   rdf:Property ;
+    rdfs:comment            "僧名のよみがなを表すプロパティ" ;
+    rdfs:label              "僧名よみがな"@ja .
+
 lily:lifeStatus         a   rdf:Property ;
     rdfs:comment            "存命・死亡・行方不明を表すプロパティ" ;
     rdfs:label              "生命状態"@ja .

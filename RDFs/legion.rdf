@@ -713,4 +713,37 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<!-- 鹿野苑高等女学園 -->
+
+<rdf:Description rdf:about="Enrantai">
+  <schema:name xml:lang="ja">焔蘭隊</schema:name>
+  <schema:name xml:lang="en">Enrantai</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</lily:numberOfMembers>
+  <schema:member rdf:resource="Yosano_Honoho"/>
+  <schema:member rdf:resource="Chino_Shirabe"/>
+  <schema:member rdf:resource="Saionji_Kaoru"/>
+  <schema:member rdf:resource="Kino_Amami"/>
+  <schema:member rdf:resource="Aliunia_Lesko_Oki"/>
+  <schema:member rdf:resource="Harumichi_Mako"/>
+  <schema:member rdf:resource="Asukai_Tsubasa"/>
+  <schema:member rdf:resource="Ichijo_Mizumi"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Kirintai">
+  <schema:name xml:lang="ja">輝凛隊</schema:name>
+  <schema:name xml:lang="en">Kirintais</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</lily:numberOfMembers>
+  <schema:member rdf:resource="Mibu_Kirari"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
 </rdf:RDF>
