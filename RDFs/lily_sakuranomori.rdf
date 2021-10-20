@@ -81,7 +81,7 @@
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Katsuya_Fuyou"/>
+    <lily:resource rdf:resource="Katsuya_Fuyo"/>
     <lily:additionalInformation xml:lang="ja">目をかけている後輩</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
@@ -172,7 +172,7 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="Katsuya_Fuyou">
+<rdf:Description rdf:about="Katsuya_Fuyo">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">勝谷芙蓉</rdfs:label>
   <schema:familyName xml:lang="ja">勝谷</schema:familyName>
   <schema:familyName xml:lang="en">Katsuya</schema:familyName>
@@ -181,10 +181,10 @@
   <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
   <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
   <schema:givenName xml:lang="ja">芙蓉</schema:givenName>
-  <schema:givenName xml:lang="en">Fuyou</schema:givenName>
+  <schema:givenName xml:lang="en">Fuyo</schema:givenName>
   <lily:givenNameKana xml:lang="ja">ふよう</lily:givenNameKana>
   <schema:name xml:lang="ja">勝谷芙蓉</schema:name>
-  <schema:name xml:lang="en">Katsuya Fuyou</schema:name>
+  <schema:name xml:lang="en">Katsuya Fuyo</schema:name>
   <lily:nameKana xml:lang="ja">かつやふよう</lily:nameKana>
   <lily:anotherName xml:lang="ja">白焰遣い</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
@@ -306,7 +306,7 @@
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
   <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Katsuya_Fuyou"/>
+    <lily:resource rdf:resource="Katsuya_Fuyo"/>
     <lily:additionalInformation xml:lang="ja">ライバル</lily:additionalInformation>
     <lily:additionalInformation xml:lang="ja">一緒にレギオンを作る同志となる</lily:additionalInformation>
   </lily:relationship>
