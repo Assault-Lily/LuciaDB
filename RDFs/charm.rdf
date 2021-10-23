@@ -1217,4 +1217,18 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Zeroshiki_Kogataki">
+  <!-- <schema:productID rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></schema:productID> -->
+  <lily:seriesName xml:lang="ja">零式甲型器</lily:seriesName>
+  <lily:seriesName xml:lang="en">Zeroshiki Kogataki</lily:seriesName>
+  <schema:name xml:lang="ja">零式甲型器</schema:name>
+  <schema:name xml:lang="en">Zeroshiki Kogataki</schema:name>
+  <!-- <lily:generation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></lily:generation> -->
+  <!-- <lily:requiredSkillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:requiredSkillerVal> -->
+  <schema:manufacturer rdf:resource="Amatsu_Heavy_Industry"/>
+  <lily:user rdf:resource="Amatsu_Marei"/>
+  <lily:additionalInformation xml:lang="ja">先進技術実証機</lily:additionalInformation>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
+</rdf:Description>
+
 </rdf:RDF>
