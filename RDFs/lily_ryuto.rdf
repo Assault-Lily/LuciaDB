@@ -67,7 +67,8 @@
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <lily:legion rdf:resource="Himinglaeva"/>
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
-  <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
+  <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
+  <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
