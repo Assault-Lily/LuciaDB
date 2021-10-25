@@ -6399,7 +6399,7 @@
     <lily:additionalInformation xml:lang="ja">好意を寄せる</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Katayama_Shuka"/>
+    <lily:resource rdf:resource="Katayama_Tamaka"/>
     <lily:additionalInformation xml:lang="ja">シルト候補</lily:additionalInformation>
   </lily:relationship>
   <lily:cast rdf:parseType="Resource">
@@ -6483,20 +6483,20 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="Katayama_Shuka">
+<rdf:Description rdf:about="Katayama_Tamaka">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">片山珠花</rdfs:label>
   <schema:familyName xml:lang="ja">片山</schema:familyName>
-  <!-- <schema:familyName xml:lang="en"></schema:familyName> -->
-  <!-- <lily:familyNameKana xml:lang="ja"></lily:familyNameKana> -->
+  <schema:familyName xml:lang="en">Katayama</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">かたやま</lily:familyNameKana>
   <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
   <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
   <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
   <schema:givenName xml:lang="ja">珠花</schema:givenName>
-  <!-- <schema:givenName xml:lang="en"></schema:givenName> -->
-  <!-- <lily:givenNameKana xml:lang="ja"></lily:givenNameKana> -->
+  <schema:givenName xml:lang="en">Tamaka</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">たまか</lily:givenNameKana>
   <schema:name xml:lang="ja">片山珠花</schema:name>
-  <!-- <schema:name xml:lang="en"></schema:name> -->
-  <!-- <lily:nameKana xml:lang="ja"></lily:nameKana> -->
+  <schema:name xml:lang="en">Katayama Tamaka</schema:name>
+  <lily:nameKana xml:lang="ja">かたやまたまか</lily:nameKana>
   <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
