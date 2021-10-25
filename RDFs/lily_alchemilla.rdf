@@ -300,7 +300,7 @@
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">小津一二三</rdfs:label>
   <schema:familyName xml:lang="ja">小津</schema:familyName>
   <schema:familyName xml:lang="en">Ozu</schema:familyName>
-  <lily:familyNameKana xml:lang="ja">おず</lily:familyNameKana>
+  <lily:familyNameKana xml:lang="ja">おづ</lily:familyNameKana>
   <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
   <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
   <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
@@ -309,7 +309,7 @@
   <lily:givenNameKana xml:lang="ja">ひふみ</lily:givenNameKana>
   <schema:name xml:lang="ja">小津一二三</schema:name>
   <schema:name xml:lang="en">Ozu Hifumi</schema:name>
-  <lily:nameKana xml:lang="ja">おずひふみ</lily:nameKana>
+  <lily:nameKana xml:lang="ja">おづひふみ</lily:nameKana>
   <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
