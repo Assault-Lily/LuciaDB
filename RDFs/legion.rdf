@@ -216,7 +216,7 @@
   <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
   <schema:member rdf:resource="Izue_Shinobu"/>
   <schema:member rdf:resource="Soyogi_Ataru"/>
-  <schema:member rdf:resource="Katayama_Shuka"/>
+  <schema:member rdf:resource="Katayama_Tamaka"/>
   <schema:member rdf:resource="Nakamura_Tsubame"/>
   <schema:member rdf:resource="Alicja_Libeskind"/>
   <schema:member rdf:resource="Mitsui_Ko"/>
