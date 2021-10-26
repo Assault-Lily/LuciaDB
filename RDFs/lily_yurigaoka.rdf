@@ -280,7 +280,7 @@
   </lily:charm>
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Trigrav"/>
-    <!-- <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:usedIn> -->
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ドール Ver.2.0</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立百合ヶ丘女学院</lily:garden>
@@ -1483,6 +1483,8 @@
   <lily:notGood xml:lang="ja">コミュニケーション</lily:notGood>
   <lily:notGood xml:lang="ja">大きな音</lily:notGood>
   <lily:notGood xml:lang="ja">怪談</lily:notGood>
+  <lily:notGood xml:lang="ja">暑さ</lily:notGood>
+  <lily:notGood xml:lang="ja">寒さ</lily:notGood>
   <lily:hobby_talent xml:lang="ja">料理</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">掃除</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">温泉巡り</lily:hobby_talent>
@@ -1827,9 +1829,9 @@
   <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
   <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
-  <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
-  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
-  <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
+  <lily:favorite xml:lang="ja">ヨーグルト</lily:favorite>
+  <lily:notGood xml:lang="ja">怪談奇談</lily:notGood>
+  <lily:hobby_talent xml:lang="ja">楽器演奏（フルート）</lily:hobby_talent>
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">テスタメント</lily:rareSkill>
   <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">軍神の加護</lily:subSkill>
@@ -2090,7 +2092,7 @@
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
-  <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
+  <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--01-02</schema:birthDate>
   <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
   <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
   <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
@@ -2098,9 +2100,11 @@
   <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
   <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
-  <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
-  <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
-  <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
+  <lily:favorite xml:lang="ja">和菓子全般</lily:favorite>
+  <lily:notGood xml:lang="ja">散らかった部屋</lily:notGood>
+  <lily:notGood xml:lang="ja">不潔な物</lily:notGood>
+  <lily:hobby_talent xml:lang="ja">書道</lily:hobby_talent>
+  <lily:hobby_talent xml:lang="ja">漢文や古文の学習</lily:hobby_talent>
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">レジスタ</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
@@ -2115,7 +2119,7 @@
   <lily:gardenDepartment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">普通科</lily:gardenDepartment>
   <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</lily:grade>
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
-  <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
+  <lily:gardenJobTitle xml:lang="ja">規律審院特別顧問</lily:gardenJobTitle>
   <lily:legion rdf:resource="Alfheim"/>
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
@@ -2330,6 +2334,7 @@
   <lily:favorite xml:lang="ja">餃子</lily:favorite>
   <lily:notGood xml:lang="ja">雷</lily:notGood>
   <lily:notGood xml:lang="ja">歯医者</lily:notGood>
+  <lily:notGood xml:lang="ja">暑さ</lily:notGood>
   <lily:hobby_talent xml:lang="ja">陶芸</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">茶道</lily:hobby_talent>
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
@@ -3847,7 +3852,7 @@
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
-  <!-- <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay"></schema:birthDate> -->
+  <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--10-28</schema:birthDate>
   <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
   <!-- <lily:killedIn xml:lang="ja"></lily:killedIn> -->
   <!-- <lily:bloodType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:bloodType> -->
@@ -4087,7 +4092,7 @@
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">フェイズトランセンデンス</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
-  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
+  <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Gram"/>
@@ -4612,7 +4617,7 @@
   <!-- <lily:color rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary"></lily:color> -->
   <!-- <schema:birthPlace xml:lang="ja"></schema:birthPlace> -->
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
-  <!-- <lily:favorite xml:lang="ja"></lily:favorite> -->
+  <lily:favorite xml:lang="ja">小雨</lily:favorite>
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <lily:hobby_talent xml:lang="ja">将棋</lily:hobby_talent>
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
@@ -4677,6 +4682,10 @@
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Hata_Matsuri"/>
     <lily:additionalInformation xml:lang="ja">絶縁した元友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Banshoya_Ena"/>
+    <lily:additionalInformation xml:lang="ja">永遠のライバル</lily:additionalInformation>
   </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
@@ -5690,6 +5699,7 @@
   <lily:favorite xml:lang="ja">なめろう</lily:favorite>
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <lily:hobby_talent xml:lang="ja">詩作</lily:hobby_talent>
+  <lily:hobby_talent xml:lang="ja">将棋</lily:hobby_talent>
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ゼノンパラドキサ</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
@@ -5736,6 +5746,10 @@
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Kimura_Kazuki"/>
     <lily:additionalInformation xml:lang="ja">命を救った</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Takeda_Mimi"/>
+    <lily:additionalInformation xml:lang="ja">中等部生徒会で非難されていたのを庇った</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Monica_Rossi"/>
@@ -5816,6 +5830,11 @@
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Hata_Matsuri"/>
     <lily:additionalInformation xml:lang="ja">命を救われた</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Takeda_Mimi"/>
+    <lily:additionalInformation xml:lang="ja">いつも喧嘩</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">戦闘では誰よりも息が合う</lily:additionalInformation>
   </lily:relationship>
   <!-- <lily:castName xml:lang="ja"></lily:castName> -->
   <!-- <lily:castResource rdf:resource=""/> -->
@@ -6305,10 +6324,15 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </schema:sibling> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Hata_Matsuri"/>
+    <lily:additionalInformation xml:lang="ja">栄達させるためにすべてをかける</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Kimura_Kazuki"/>
+    <lily:additionalInformation xml:lang="ja">いつも喧嘩</lily:additionalInformation>
+    <lily:additionalInformation xml:lang="ja">戦闘では誰よりも息が合う</lily:additionalInformation>
+  </lily:relationship>
   <!-- <lily:cast rdf:parseType="Resource"> -->
     <!-- <schema:name xml:lang="ja"></schema:name> -->
     <!-- <lily:resource rdf:resource=""/> -->
