@@ -178,7 +178,7 @@
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
-    <lily:resource rdf:resource="Katsuya_Fuyou"/>
+    <lily:resource rdf:resource="Katsuya_Fuyo"/>
     <lily:additionalInformation xml:lang="ja">犬猿の仲</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">

@@ -33,8 +33,8 @@
   <schema:character rdf:resource="Ito_Shizu"/>
   <schema:character rdf:resource="Taniguchi_Hijiri"/>
   <schema:character rdf:resource="Kawazoe_Misuzu"/>
-  <!-- <schema:character rdf:resource="Yoshizaka_Nagisa"/> -->
-  <!-- <schema:character rdf:resource="Izue_Shinobu"/> -->
+  <schema:character rdf:resource="Yoshizaka_Nagisa"/>
+  <schema:character rdf:resource="Izue_Shinobu"/>
   <schema:abstract xml:lang="ja">世界はヒュージと呼ばれる謎の巨大生物に侵略されつつあった。
 近代兵器をものともしない、恐るべきこの怪物に対抗できるのは、ＣＨＡＲＭと呼ばれる魔法の決戦兵器。
 ＣＨＡＲＭは１０代の女性と高くシンクロするため、世界の運命は乙女たち「リリィ」に委ねられた。
@@ -88,9 +88,9 @@
   <schema:character rdf:resource="Matsunaga_Yui"/>
   <schema:character rdf:resource="Katakura_Shion"/>
   <schema:character rdf:resource="Kitano_Futae"/>
-  <!-- <schema:character rdf:resource="Izue_Shinobu"/> -->
-  <!-- <schema:character rdf:resource="Shelice_Jacobsen"/> -->
-  <!-- <schema:character rdf:resource="Yoshizaka_Nagisa"/> -->
+  <schema:character rdf:resource="Izue_Shinobu"/>
+  <schema:character rdf:resource="Chelice_Jacobsen"/>
+  <schema:character rdf:resource="Yoshizaka_Nagisa"/>
   <!-- <schema:character rdf:resource="Ishikawa_Seiei"/> -->
   <schema:abstract xml:lang="ja">近未来、人類は突如現れた謎の巨大生命体ヒュージとの戦闘に明け暮れていた。
 通常兵器では倒しきれないこの強敵を前に、人類は決戦兵器「CHARM」を開発する。

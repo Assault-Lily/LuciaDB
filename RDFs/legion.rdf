@@ -559,7 +559,7 @@
 
 <rdf:Description rdf:about="Ramiel">
   <schema:name xml:lang="ja">第7飛空艇団レミエル</schema:name>
-  <schema:name xml:lang="en">5th Gunship Brigade Ramiel</schema:name>
+  <schema:name xml:lang="en">7th Gunship Brigade Ramiel</schema:name>
   <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
   <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
   <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
