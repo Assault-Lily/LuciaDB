@@ -1151,7 +1151,7 @@
   <schema:name xml:lang="ja">一之宮・ミカエラ・日葵</schema:name>
   <schema:name xml:lang="en">Ichinomiya Michaela Himari</schema:name>
   <lily:nameKana xml:lang="ja">いちのみや・みかえら・ひまり</lily:nameKana>
-  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
+  <lily:anotherName xml:lang="ja">元「イルマ四天王」</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">158.0</schema:height>
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">秘密</schema:weight> -->
