@@ -359,6 +359,54 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="Olentzaro">
+  <schema:name xml:lang="ja">オレンツァロ</schema:name>
+  <schema:name xml:lang="en">Olentzaro</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Shibata_Rindo"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Galtzakgorri">
+  <schema:name xml:lang="ja">ガルチャゴリ</schema:name>
+  <schema:name xml:lang="en">Galtzakgorri</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Tazawa_Tsubaki"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Tartaro">
+  <schema:name xml:lang="ja">タルタロ</schema:name>
+  <schema:name xml:lang="en">Tartaro</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Oba_Izumi"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="Xarrantxa">
+  <schema:name xml:lang="ja">シャランチャ</schema:name>
+  <schema:name xml:lang="en">Xarrantxa</schema:name>
+  <!-- <schema:alternateName xml:lang="ja"></schema:alternateName> -->
+  <!-- <schema:alternateName xml:lang="en"></schema:alternateName> -->
+  <lily:disbanded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:disbanded>
+  <!-- <lily:legionGrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionGrade> -->
+  <!-- <lily:numberOfMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:numberOfMembers> -->
+  <schema:member rdf:resource="Moriyama_Hirari"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
+</rdf:Description>
+
 <!-- 神庭女子藝術高校 -->
 
 <rdf:Description rdf:about="Gran_Eple">
