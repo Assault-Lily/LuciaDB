@@ -653,6 +653,7 @@
   <schema:member rdf:resource="Kamigoori_Marimo"/>
   <schema:member rdf:resource="Ueda_Imari"/>
   <schema:member rdf:resource="Tokyu_Setoko"/> <!-- 東久世徳子 -->
+  <schema:member rdf:resource="Hirose_Yuzutsu"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Legion"/>
 </rdf:Description>
 
