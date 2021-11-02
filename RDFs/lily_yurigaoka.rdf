@@ -2815,20 +2815,20 @@
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="Kumagaya_Nayuru">
+<rdf:Description rdf:about="Kumagai_Nayuru">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">熊谷那由流</rdfs:label>
   <schema:familyName xml:lang="ja">熊谷</schema:familyName>
-  <!-- <schema:familyName xml:lang="en"></schema:familyName> -->
-  <!-- <lily:familyNameKana xml:lang="ja"></lily:familyNameKana> -->
+  <schema:familyName xml:lang="en">Kumagai</schema:familyName>
+  <lily:familyNameKana xml:lang="ja">くまがい</lily:familyNameKana>
   <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
   <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
   <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
   <schema:givenName xml:lang="ja">那由流</schema:givenName>
-  <!-- <schema:givenName xml:lang="en"></schema:givenName> -->
-  <!-- <lily:givenNameKana xml:lang="ja"></lily:givenNameKana> -->
+  <schema:givenName xml:lang="en">Nayuru</schema:givenName>
+  <lily:givenNameKana xml:lang="ja">なゆる</lily:givenNameKana>
   <schema:name xml:lang="ja">熊谷那由流</schema:name>
-  <!-- <schema:name xml:lang="en"></schema:name> -->
-  <!-- <lily:nameKana xml:lang="ja"></lily:nameKana> -->
+  <schema:name xml:lang="en">Kumagai Nayuru</schema:name>
+  <lily:nameKana xml:lang="ja">くまがいなゆる</lily:nameKana>
   <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
   <!-- <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></foaf:age> -->
   <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
