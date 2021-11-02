@@ -1420,6 +1420,10 @@
     <lily:resource rdf:resource="Wang_Yujia"/>
     <lily:additionalInformation xml:lang="ja">顔見知り</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Raquel_Spreckelsen"/>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+  </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">白河優菜</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q11579954"/>
