@@ -522,6 +522,7 @@
   <lily:user rdf:resource="Tamba_Akari"/>
   <lily:user rdf:resource="Murakami_Tokiwa"/>
   <lily:user rdf:resource="Yokoyama_Azusa"/>
+  <lily:user rdf:resource="Kanabako_Misora"/>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Charm"/>
 </rdf:Description>
 
