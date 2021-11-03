@@ -4632,7 +4632,7 @@
   <lily:anotherName xml:lang="ja">軍神</lily:anotherName>
   <lily:anotherName xml:lang="ja">神の如き者</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</foaf:age>
-  <!-- <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:height> -->
+  <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">153.0</schema:height>
   <!-- <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></schema:weight> -->
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonthDay">--11-25</schema:birthDate>
   <lily:lifeStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alive</lily:lifeStatus>
