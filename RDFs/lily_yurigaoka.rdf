@@ -1917,7 +1917,7 @@
   <schema:name xml:lang="ja">金箱弥宙</schema:name>
   <schema:name xml:lang="en">Kanabako Misora</schema:name>
   <lily:nameKana xml:lang="ja">かなばこみそら</lily:nameKana>
-  <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
+  <lily:anotherName xml:lang="ja">リトル・アークメイジ</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">153.0</schema:height>
   <schema:weight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</schema:weight>
@@ -1941,6 +1941,11 @@
   <lily:charm rdf:parseType="Resource">
     <lily:resource rdf:resource="Asterion"/>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">アニメ</lily:usedIn>
+    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
+  </lily:charm>
+  <lily:charm rdf:parseType="Resource">
+    <lily:resource rdf:resource="Maltet"/>
+    <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">アサルトリリィ Last Bullet</lily:usedIn>
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   </lily:charm>
   <lily:garden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">私立百合ヶ丘女学院</lily:garden>
