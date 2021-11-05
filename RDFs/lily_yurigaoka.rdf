@@ -3363,6 +3363,8 @@
   <lily:notGood xml:lang="ja">熱いもの</lily:notGood>
   <lily:hobby_talent xml:lang="ja">戦譜分析</lily:hobby_talent>
   <lily:hobby_talent xml:lang="ja">戦術理解</lily:hobby_talent>
+  <lily:hobby_talent xml:lang="ja">ビーズ細工</lily:hobby_talent>
+  <lily:hobby_talent xml:lang="ja">アクセサリー作り</lily:hobby_talent>
   <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</lily:skillerVal>
   <lily:rareSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string">レジスタ</lily:rareSkill>
   <!-- <lily:subSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:subSkill> -->
