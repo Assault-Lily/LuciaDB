@@ -39,7 +39,6 @@
   <!-- <schema:birthPlace xml:lang="en"></schema:birthPlace> -->
   <lily:favorite xml:lang="ja">カレー</lily:favorite>
   <lily:favorite xml:lang="ja">辛いもの</lily:favorite>
-  <lily:favorite xml:lang="ja">和菓子</lily:favorite>
   <lily:favorite xml:lang="ja">フェネック</lily:favorite>
   <lily:notGood xml:lang="ja">海 (泳げない)</lily:notGood>
   <lily:hobby_talent xml:lang="ja">万華鏡づくり</lily:hobby_talent>
