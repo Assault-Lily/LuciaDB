@@ -93,6 +93,10 @@
     <lily:resource rdf:resource="Uchida_Mayuri"/>
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Hayami_Katsura"/>
+    <lily:additionalInformation xml:lang="ja">ユニークCHARMを開発</lily:additionalInformation>
+  </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">武藤志織</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q17217245"/>
