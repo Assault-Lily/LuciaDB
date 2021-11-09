@@ -1063,6 +1063,7 @@
   <schema:name xml:lang="ja">竹久央</schema:name>
   <schema:name xml:lang="en">Takehisa Nakaba</schema:name>
   <lily:nameKana xml:lang="ja">たけひさなかば</lily:nameKana>
+  <lily:anotherName xml:lang="ja">屠竜戦姫</lily:anotherName>
   <lily:anotherName xml:lang="ja">ロイヤルエレガンス</lily:anotherName>
   <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</foaf:age>
   <schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#float">162.0</schema:height>
