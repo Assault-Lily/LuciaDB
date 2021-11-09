@@ -2397,14 +2397,14 @@
   <!-- <lily:pastSchild rdf:resource=""/> -->
   <lily:roomMate rdf:resource="Ushida_Watsuki"/>
   <!-- <schema:parent rdf:resource=""/> -->
-  <!-- <schema:sibling rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
-  <!-- </schema:sibling> -->
-  <!-- <lily:relationship rdf:parseType="Resource"> -->
-    <!-- <lily:resource rdf:resource="Yumeno_Kanon"/> -->
-    <!-- <lily:additionalInformation xml:lang="ja">山梨時代の親友</lily:additionalInformation> -->
-  <!-- </lily:relationship> -->
+  <schema:sibling rdf:parseType="Resource">
+    <lily:resource rdf:resource="Rokkaku_Sena"/>
+    <lily:additionalInformation xml:lang="ja">妹</lily:additionalInformation>
+  </schema:sibling>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Yumeno_Kanon"/>
+    <lily:additionalInformation xml:lang="ja">山梨時代の親友</lily:additionalInformation>
+  </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Rosalinde_Friedegunde_von_Otto"/>
     <lily:additionalInformation xml:lang="ja">そうさく倶楽部</lily:additionalInformation>
