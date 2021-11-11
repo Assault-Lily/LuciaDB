@@ -224,7 +224,7 @@
   <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
   <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
   <schema:givenName xml:lang="ja">深顯</schema:givenName>
-  <schema:givenName xml:lang="en">Miaki	</schema:givenName>
+  <schema:givenName xml:lang="en">Miaki</schema:givenName>
   <lily:givenNameKana xml:lang="ja">みあき</lily:givenNameKana>
   <schema:name xml:lang="ja">道川深顯</schema:name>
   <schema:name xml:lang="en">Michikawa Miaki</schema:name>
