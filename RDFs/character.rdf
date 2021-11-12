@@ -250,7 +250,7 @@
   <lily:isBoosted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lily:isBoosted>
   <!-- <lily:boostedSkill rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:boostedSkill> -->
   <lily:charm rdf:parseType="Resource">
-    <lily:resource rdf:resource="Unknown_Named_Charm"/>
+    <lily:resource rdf:resource="Unknown_Named_Charm_2"/>
     <lily:usedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ラスバレ</lily:usedIn>
     <lily:additionalInformation xml:lang="ja">試作機</lily:additionalInformation>
   </lily:charm>
@@ -259,11 +259,11 @@
   <!-- <lily:grade rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:grade> -->
   <!-- <lily:class rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:class> -->
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
-  <lily:legion rdf:resource="Schwarzes_Kreuz_Medic"/>
-  <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
+  <!-- <lily:legion rdf:resource=""/> -->
+  <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:taskforce rdf:resource="Schwarzes_Kreuz_Madec"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -279,7 +279,7 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:performIn rdf:resource=""/> -->
   <!-- </lily:cast> -->
-  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Character"/>
+  <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Madec"/>
 </rdf:Description>
 
 </rdf:RDF>
