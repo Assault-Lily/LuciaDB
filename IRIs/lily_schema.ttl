@@ -25,6 +25,11 @@ lily:Lily                       a   rdfs:Class ;
     rdfs:label                      "リリィ"@ja ;
     rdfs:subClassOf                 lily:Character .
 
+lily:Madec                      a   rdfs:Class ;
+    rdfs:comment                    "マディックを表すクラス" ;
+    rdfs:label                      "マディック"@ja ;
+    rdfs:subClassOf                 lily:Character .
+
 lily:Teacher                    a   rdfs:Class ;
     rdfs:comment                    "教導官を表すクラス" ;
     rdfs:label                      "教導官"@ja ;
