@@ -59,6 +59,7 @@
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -126,6 +127,7 @@
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -193,6 +195,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -261,7 +264,8 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_3"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_3"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -344,7 +348,8 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ディフェンシブAZ</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -426,7 +431,8 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -522,6 +528,7 @@
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -588,6 +595,7 @@
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -659,6 +667,7 @@
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -726,6 +735,7 @@
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -792,7 +802,8 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
-  <lily:taskforce rdf:resource="Odaiba_Interception_Taskforce_5"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
+  <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_5"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -860,6 +871,7 @@
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <!-- <schema:sibling rdf:parseType="Resource"> -->
@@ -927,6 +939,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <schema:sibling rdf:parseType="Resource">
@@ -994,6 +1007,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
   <!-- <lily:taskforce rdf:resource=""/> -->
+  <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
   <schema:sibling rdf:parseType="Resource">

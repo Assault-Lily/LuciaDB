@@ -219,8 +219,12 @@ lily:pastLegion         a   rdf:Property ;
     rdfs:label              "過去の所属レギオン"@ja .
 
 lily:taskforce          a   rdf:Property ;
-    rdfs:comment            "レギオン以外で参加した戦闘部隊を表すプロパティ" ;
+    rdfs:comment            "レギオン以外で参加している戦闘部隊を表すプロパティ" ;
     rdfs:label              "参加部隊"@ja .
+
+lily:pastTaskforce          a   rdf:Property ;
+    rdfs:comment            "レギオン以外で過去参加した戦闘部隊を表すプロパティ" ;
+    rdfs:label              "過去の参加部隊"@ja .
 
 lily:schutzengel        a   rdf:Property ;
     rdfs:comment            "シュッツエンゲルを表すプロパティ" ;
