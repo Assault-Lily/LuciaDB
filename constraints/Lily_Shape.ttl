@@ -361,7 +361,13 @@ lily-shape:lilyShape a sh:NodeShape;
     sh:property [
         rdfs:label "参加部隊の制約";
         rdfs:comment "目的語はlily:Taskforce";
-        sh:path lily:taskforces;
+        sh:path lily:taskforce;
+        sh:class lily:Taskforce;
+    ];
+    sh:property [
+        rdfs:label "過去の参加部隊の制約";
+        rdfs:comment "目的語はlily:Taskforce";
+        sh:path lily:pastTaskforce;
         sh:class lily:Taskforce;
     ];
     sh:property [
