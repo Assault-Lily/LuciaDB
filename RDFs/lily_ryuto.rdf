@@ -70,6 +70,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
@@ -158,6 +159,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
@@ -236,6 +238,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
@@ -312,6 +315,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <lily:pastLegion rdf:resource="Dufa"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
@@ -384,6 +388,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
@@ -463,6 +468,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">司令塔</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
@@ -544,6 +550,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
@@ -617,6 +624,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->
@@ -686,6 +694,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:roomMate rdf:resource=""/> -->
   <!-- <schema:parent rdf:resource=""/> -->

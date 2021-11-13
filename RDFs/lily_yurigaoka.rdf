@@ -70,6 +70,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Shirai_Yuyu"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -169,6 +170,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">副隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <lily:pastSchutzengel rdf:resource="Kawazoe_Misuzu"/>
@@ -294,6 +296,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -403,6 +406,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -513,6 +517,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -604,6 +609,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_5"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -722,6 +728,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -812,6 +819,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -920,6 +928,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Mashima_Moyu"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -995,6 +1004,7 @@
   <!-- <lily:gardenJobTitle xml:lang="ja"></lily:gardenJobTitle> -->
   <!-- <lily:legion rdf:resource=""/> -->
   <lily:pastLegion rdf:resource="Radgrid"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
@@ -1077,6 +1087,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <lily:pastLegion rdf:resource="Alfheim_First"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -1149,6 +1160,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_3"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -1238,6 +1250,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -1335,6 +1348,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Watanabe_Akane"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -1433,6 +1447,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -1531,6 +1546,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Amano_Soraha"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -1642,6 +1658,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
   <lily:schutzengel rdf:resource="Maki_Wakana"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -1762,6 +1779,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_3"/>
   <lily:schutzengel rdf:resource="Okada_Kisara"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -1864,6 +1882,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">副隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_3"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -1957,6 +1976,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -2052,6 +2072,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -2139,6 +2160,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -2212,6 +2234,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -2283,6 +2306,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -2390,6 +2414,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">副隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Taniguchi_Hijiri"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -2493,6 +2518,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -2585,6 +2611,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -2657,6 +2684,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:pastLegion rdf:resource="Svanhvit"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <lily:schutzengel rdf:resource="Tamura_Nagi"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -2734,6 +2762,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">司令塔</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Izumi_Botan"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -2805,6 +2834,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -2876,6 +2906,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -2947,6 +2978,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -3021,6 +3053,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">副司令塔</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -3092,6 +3125,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:pastLegion rdf:resource="Svanhvit"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -3163,6 +3197,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -3235,6 +3270,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -3306,6 +3342,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -3389,6 +3426,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:pastLegion rdf:resource="Svanhvit"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_4"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -3472,6 +3510,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
   <lily:schutzengel rdf:resource="Murakami_Tokiwa"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -3543,6 +3582,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">副隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -3615,6 +3655,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_4"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -3686,6 +3727,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Imagawa_Homare"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -3762,6 +3804,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Kondo_Misaka"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -3834,6 +3877,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Hasebe_Touka"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -3915,6 +3959,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_2"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -3990,6 +4035,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -4062,6 +4108,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -4135,6 +4182,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_3"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -4206,6 +4254,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Aoki_Kaho"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -4281,6 +4330,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -4363,6 +4413,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">司令塔</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Takegoshi_Chihana"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -4451,6 +4502,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -4523,6 +4575,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -4594,6 +4647,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -4671,6 +4725,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <lily:pastLegion rdf:resource="Alfheim_First"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <lily:schutzengel rdf:resource="Hayashi_Kaoru"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -4770,6 +4825,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Yoshida_Ageha"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -4845,6 +4901,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -4916,6 +4973,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <lily:pastLegion rdf:resource="Alfheim_First"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -4987,6 +5045,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -5060,6 +5119,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -5131,6 +5191,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -5206,6 +5267,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -5278,6 +5340,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Kemmochi_Noriko"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -5370,6 +5433,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -5445,6 +5509,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -5522,6 +5587,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -5601,6 +5667,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -5672,6 +5739,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -5747,6 +5815,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -5843,6 +5912,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">参謀</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -5916,6 +5986,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -5987,6 +6058,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -6054,6 +6126,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -6125,6 +6198,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">司令塔</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -6196,6 +6270,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -6267,6 +6342,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -6340,6 +6416,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -6418,6 +6495,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <lily:pastSchutzengel rdf:resource="Yamazaki_Meika"/>
@@ -6511,6 +6589,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <lily:pastLegion rdf:resource="Svanhvit"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -6582,6 +6661,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -6653,6 +6733,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">副隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -6724,6 +6805,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -6795,6 +6877,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <lily:pastLegion rdf:resource="Svanhvit"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -6866,6 +6949,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <lily:pastLegion rdf:resource="Svanhvit"/>
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -6939,6 +7023,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <lily:pastLegion rdf:resource="Brynhildr_Line"/><!-- 元ブリュンヒルデ -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -7014,6 +7099,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">副隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:pastLegion rdf:resource="Svanhvit"/><!-- 司令塔を担当した -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -7085,6 +7171,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">司令塔</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <lily:pastLegion rdf:resource="Svanhvit"/><!-- 司令塔を担当した -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -7159,6 +7246,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_5"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -7230,6 +7318,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">副隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_5"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -7304,6 +7393,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Ishigami_Mio"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -7384,6 +7474,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">副隊長</lily:legionJobTitle>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position><!-- 初期ポジション表からの推定 -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <lily:schutzengel rdf:resource="Rosalinde_Friedegunde_von_Otto"/>
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -7456,6 +7547,7 @@
   <!-- lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position><!-- 初期ポジション表からの推定 -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -7539,6 +7631,7 @@
   <!-- lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position><!-- 初期ポジション表からの推定 -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -7610,6 +7703,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position><!-- 初期ポジション表からの推定 -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -7681,6 +7775,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -7752,6 +7847,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position><!-- 初期ポジション表からの推定 -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -7824,6 +7920,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position><!-- 初期ポジション表からの推定 -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -7901,6 +7998,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -7972,6 +8070,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -8043,6 +8142,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -8116,6 +8216,7 @@
   <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隊長</lily:legionJobTitle>
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -8188,6 +8289,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_3"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -8270,6 +8372,7 @@
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TZ</lily:position>
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -8341,6 +8444,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -8413,6 +8517,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -8505,6 +8610,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -8598,6 +8704,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <lily:pastTaskforce rdf:resource="Odaiba_Interception_Taskforce_1"/>
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -8669,6 +8776,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <!-- <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:position> -->
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
@@ -8740,6 +8848,7 @@
   <!-- <lily:legionJobTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></lily:legionJobTitle> -->
   <lily:position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</lily:position>
   <!-- <lily:pastLegion rdf:resource=""/> -->
+  <!-- <lily:taskforce rdf:resource=""/> -->
   <!-- <lily:pastTaskforce rdf:resource=""/> -->
   <!-- <lily:schutzengel rdf:resource=""/> -->
   <!-- <lily:pastSchutzengel rdf:resource=""/> -->
