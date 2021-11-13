@@ -1736,17 +1736,17 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="Otake_Sunao">
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">尾竹簾</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">尾竹廉</rdfs:label>
   <schema:familyName xml:lang="ja">尾竹</schema:familyName>
   <schema:familyName xml:lang="en">Otake</schema:familyName>
   <lily:familyNameKana xml:lang="ja">おたけ</lily:familyNameKana>
   <!-- <schema:additionalName xml:lang="ja"></schema:additionalName> -->
   <!-- <schema:additionalName xml:lang="en"></schema:additionalName> -->
   <!-- <lily:additionalNameKana xml:lang="ja"></lily:additionalNameKana> -->
-  <schema:givenName xml:lang="ja">簾</schema:givenName>
+  <schema:givenName xml:lang="ja">廉</schema:givenName>
   <schema:givenName xml:lang="en">Sunao</schema:givenName>
   <lily:givenNameKana xml:lang="ja">すなお</lily:givenNameKana>
-  <schema:name xml:lang="ja">尾竹簾</schema:name>
+  <schema:name xml:lang="ja">尾竹廉</schema:name>
   <schema:name xml:lang="en">Otake Sunao</schema:name>
   <lily:nameKana xml:lang="ja">おたけすなお</lily:nameKana>
   <!-- <lily:anotherName xml:lang="ja"></lily:anotherName> -->
