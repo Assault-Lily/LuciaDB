@@ -220,11 +220,12 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:cast rdf:parseType="Resource"> -->
-    <!-- <schema:name xml:lang="ja"></schema:name> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:performIn rdf:resource=""/> -->
-  <!-- </lily:cast> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">石原美沙紀</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q30926411"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/石原美沙紀"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
 
