@@ -1578,7 +1578,7 @@
   <schema:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ザ・ポケット</schema:location>
   <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-15</schema:startDate>
   <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-24</schema:endDate>
-  <!-- <schema:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration"></schema:duration> -->
+  <schema:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT2H</schema:duration>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-15T19:00:00+09:00</lily:showTime>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-16T13:00:00+09:00</lily:showTime>
   <lily:showTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-16T18:00:00+09:00</lily:showTime>
