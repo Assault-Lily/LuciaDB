@@ -106,6 +106,7 @@
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
     <lily:performIn rdf:resource="Assault_Lily_Odaiba_The_Singular_Ability"/>
     <lily:performIn rdf:resource="Lost_Memories"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -201,6 +202,7 @@
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
     <lily:performIn rdf:resource="Assault_Lily_Odaiba_The_Singular_Ability"/>
     <lily:performIn rdf:resource="Lost_Memories"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -296,6 +298,7 @@
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q18999130"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/野元空"/>
     <lily:performIn rdf:resource="Assault_Lily_Odaiba_The_Singular_Ability"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -374,6 +377,7 @@
     <schema:name xml:lang="ja">広沢麻衣</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q34856960"/>
     <lily:performIn rdf:resource="Assault_Lily_Odaiba_The_Singular_Ability"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -480,6 +484,7 @@
     <schema:name xml:lang="ja">有沢澪風</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q30933448"/>
     <lily:performIn rdf:resource="Assault_Lily_Odaiba_The_Singular_Ability"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -657,6 +662,7 @@
     <schema:name xml:lang="ja">春咲暖</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q35172355"/>
     <lily:performIn rdf:resource="Assault_Lily_Odaiba_The_Singular_Ability"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -753,6 +759,11 @@
     <schema:name xml:lang="ja">高辻麗</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q56556215"/>
     <lily:performIn rdf:resource="Assault_Lily_Odaiba_The_Singular_Ability"/>
+  </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">柴田茉莉</schema:name>
+    <!-- <lily:resource rdf:resource=""/> -->
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -854,6 +865,7 @@
     <schema:name xml:lang="ja">長谷川里桃</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q38279051"/>
     <lily:performIn rdf:resource="Assault_Lily_Odaiba_The_Singular_Ability"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -955,11 +967,12 @@
     <lily:resource rdf:resource="Amatsu_Marei"/>
     <lily:additionalInformation xml:lang="ja">桂のユニークCHARMを開発</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:cast rdf:parseType="Resource"> -->
-    <!-- <schema:name xml:lang="ja"></schema:name> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:performIn rdf:resource=""/> -->
-  <!-- </lily:cast> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">栞菜</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q1193372"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/栞菜"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1135,11 +1148,11 @@
     <lily:resource rdf:resource="Hayami_Katsura"/>
     <lily:additionalInformation xml:lang="ja">ライバル視</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:cast rdf:parseType="Resource"> -->
-    <!-- <schema:name xml:lang="ja"></schema:name> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">山本栞</schema:name>
     <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:performIn rdf:resource=""/> -->
-  <!-- </lily:cast> -->
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1209,11 +1222,12 @@
     <lily:resource rdf:resource="Soga_Suzuna"/>
     <lily:additionalInformation xml:lang="ja">親友</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:cast rdf:parseType="Resource"> -->
-    <!-- <schema:name xml:lang="ja"></schema:name> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:performIn rdf:resource=""/> -->
-  <!-- </lily:cast> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">星希成奏</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q35172322"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/星希成奏"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1338,6 +1352,7 @@
     <lily:performIn rdf:resource="League_of_Gardens"/>
     <lily:performIn rdf:resource="The_Fateful_Gift"/>
     <lily:performIn rdf:resource="Assault_Lily_Odaiba_The_Singular_Ability"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -1421,6 +1436,7 @@
     <schema:name xml:lang="ja">白石まゆみ</schema:name>
     <!-- <lily:resource rdf:resource=""/> -->
     <lily:performIn rdf:resource="Assault_Lily_Odaiba_The_Singular_Ability"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -1623,6 +1639,7 @@
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q19162226"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/林田真尋"/>
     <lily:performIn rdf:resource="Assault_Lily_Odaiba_The_Singular_Ability"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
@@ -1732,6 +1749,12 @@
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q47582342"/>
     <lily:performIn rdf:resource="League_of_Gardens"/>
   </lily:cast>
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">矢野妃菜喜</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q56253675"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/矢野妃菜喜"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1809,11 +1832,12 @@
     <lily:resource rdf:resource="Hayami_Katsura"/>
     <lily:additionalInformation xml:lang="ja">ライバル視している</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:cast rdf:parseType="Resource"> -->
-    <!-- <schema:name xml:lang="ja"></schema:name> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:performIn rdf:resource=""/> -->
-  <!-- </lily:cast> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">北澤早紀</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q28418874"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/北澤早紀"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1894,11 +1918,12 @@
     <lily:resource rdf:resource="Hishida_Haru"/>
     <lily:additionalInformation xml:lang="ja">気にかけている後輩</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:cast rdf:parseType="Resource"> -->
-    <!-- <schema:name xml:lang="ja"></schema:name> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:performIn rdf:resource=""/> -->
-  <!-- </lily:cast> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">今村美歩</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q30936947"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/今村美歩"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -1965,11 +1990,12 @@
     <lily:resource rdf:resource="Soga_Suzuna"/>
     <lily:additionalInformation xml:lang="ja">盟友</lily:additionalInformation>
   </lily:relationship>
-  <!-- <lily:cast rdf:parseType="Resource"> -->
-    <!-- <schema:name xml:lang="ja"></schema:name> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:performIn rdf:resource=""/> -->
-  <!-- </lily:cast> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">田上真里奈</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q17161003"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/田上真里奈"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
@@ -2107,11 +2133,12 @@
     <!-- <lily:resource rdf:resource=""/> -->
     <!-- <lily:additionalInformation xml:lang="ja"></lily:additionalInformation> -->
   <!-- </lily:relationship> -->
-  <!-- <lily:cast rdf:parseType="Resource"> -->
-    <!-- <schema:name xml:lang="ja"></schema:name> -->
-    <!-- <lily:resource rdf:resource=""/> -->
-    <!-- <lily:performIn rdf:resource=""/> -->
-  <!-- </lily:cast> -->
+  <lily:cast rdf:parseType="Resource">
+    <schema:name xml:lang="ja">白河みずな</schema:name>
+    <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q98398947"/>
+    <lily:resource rdf:resource="http://ja.dbpedia.org/resource/白河みずな"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
+  </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Lily"/>
 </rdf:Description>
 
