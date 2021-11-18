@@ -19,137 +19,137 @@ RDFs/lily_heimskringla.rdf:
     message: 'Data LanguageType not matched: lang is en, but Konoka Östberg (line:
         173, col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Konoka_Oestberg
         - http://schema.org/name - "Konoka Östberg"@en)'
-RDFs/legion.rdf:
+RDFs/legion.ttl:
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
-    line: '127'
-    column: '1'
+    line: '119'
+    column: '33'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Svanhvit
     predicate: http://schema.org/name
     object: '"Svanhvít"@en'
-    message: 'Data LanguageType not matched: lang is en, but Svanhvít (line: 127,
-        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Svanhvit - http://schema.org/name
+    message: 'Data LanguageType not matched: lang is en, but Svanhvít (line: 119,
+        col: 33, triple: https://lily.fvhp.net/rdf/RDFs/detail/Svanhvit - http://schema.org/name
         - "Svanhvít"@en)'
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
-    line: '147'
-    column: '1'
+    line: '138'
+    column: '31'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Sanngridr
     predicate: http://schema.org/name
     object: '"Sanngrídr"@en'
-    message: 'Data LanguageType not matched: lang is en, but Sanngrídr (line: 147,
-        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Sanngridr - http://schema.org/name
+    message: 'Data LanguageType not matched: lang is en, but Sanngrídr (line: 138,
+        col: 31, triple: https://lily.fvhp.net/rdf/RDFs/detail/Sanngridr - http://schema.org/name
         - "Sanngrídr"@en)'
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
-    line: '230'
-    column: '1'
+    line: '220'
+    column: '32'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Vingolf
     predicate: http://schema.org/name
     object: '"Vingólf"@en'
-    message: 'Data LanguageType not matched: lang is en, but Vingólf (line: 230, col:
-        1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Vingolf - http://schema.org/name
+    message: 'Data LanguageType not matched: lang is en, but Vingólf (line: 220, col:
+        32, triple: https://lily.fvhp.net/rdf/RDFs/detail/Vingolf - http://schema.org/name
         - "Vingólf"@en)'
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
-    line: '245'
-    column: '1'
+    line: '233'
+    column: '32'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Sigrdrifa
     predicate: http://schema.org/name
     object: '"Sigrdrífa"@en'
-    message: 'Data LanguageType not matched: lang is en, but Sigrdrífa (line: 245,
-        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Sigrdrifa - http://schema.org/name
+    message: 'Data LanguageType not matched: lang is en, but Sigrdrífa (line: 233,
+        col: 32, triple: https://lily.fvhp.net/rdf/RDFs/detail/Sigrdrifa - http://schema.org/name
         - "Sigrdrífa"@en)'
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
-    line: '279'
-    column: '1'
+    line: '263'
+    column: '32'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Herfjotur
     predicate: http://schema.org/name
     object: '"Herfjötur"@en'
-    message: 'Data LanguageType not matched: lang is en, but Herfjötur (line: 279,
-        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Herfjotur - http://schema.org/name
+    message: 'Data LanguageType not matched: lang is en, but Herfjötur (line: 263,
+        col: 32, triple: https://lily.fvhp.net/rdf/RDFs/detail/Herfjotur - http://schema.org/name
         - "Herfjötur"@en)'
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
-    line: '306'
-    column: '1'
+    line: '288'
+    column: '30'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Geiravor
     predicate: http://schema.org/name
     object: '"Geiravör"@en'
-    message: 'Data LanguageType not matched: lang is en, but Geiravör (line: 306,
-        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Geiravor - http://schema.org/name
+    message: 'Data LanguageType not matched: lang is en, but Geiravör (line: 288,
+        col: 30, triple: https://lily.fvhp.net/rdf/RDFs/detail/Geiravor - http://schema.org/name
         - "Geiravör"@en)'
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
-    line: '589'
-    column: '1'
+    line: '642'
+    column: '32'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Himinglaeva
     predicate: http://schema.org/name
     object: '"Himinglæva"@en'
-    message: 'Data LanguageType not matched: lang is en, but Himinglæva (line: 589,
-        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Himinglaeva - http://schema.org/name
+    message: 'Data LanguageType not matched: lang is en, but Himinglæva (line: 642,
+        col: 32, triple: https://lily.fvhp.net/rdf/RDFs/detail/Himinglaeva - http://schema.org/name
         - "Himinglæva"@en)'
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
-    line: '602'
-    column: '1'
+    line: '654'
+    column: '29'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Dufa
     predicate: http://schema.org/name
     object: '"Dúfa"@en'
-    message: 'Data LanguageType not matched: lang is en, but Dúfa (line: 602, col:
-        1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Dufa - http://schema.org/name
+    message: 'Data LanguageType not matched: lang is en, but Dúfa (line: 654, col:
+        29, triple: https://lily.fvhp.net/rdf/RDFs/detail/Dufa - http://schema.org/name
         - "Dúfa"@en)'
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
-    line: '614'
-    column: '1'
+    line: '667'
+    column: '27'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Hronn
     predicate: http://schema.org/name
     object: '"Hrönn"@en'
-    message: 'Data LanguageType not matched: lang is en, but Hrönn (line: 614, col:
-        1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Hronn - http://schema.org/name
+    message: 'Data LanguageType not matched: lang is en, but Hrönn (line: 667, col:
+        27, triple: https://lily.fvhp.net/rdf/RDFs/detail/Hronn - http://schema.org/name
         - "Hrönn"@en)'
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
-    line: '638'
-    column: '1'
+    line: '689'
+    column: '32'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Blodughadda
     predicate: http://schema.org/name
     object: '"Blóðughadda"@en'
-    message: 'Data LanguageType not matched: lang is en, but Blóðughadda (line: 638,
-        col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Blodughadda - http://schema.org/name
+    message: 'Data LanguageType not matched: lang is en, but Blóðughadda (line: 689,
+        col: 32, triple: https://lily.fvhp.net/rdf/RDFs/detail/Blodughadda - http://schema.org/name
         - "Blóðughadda"@en)'
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
-    line: '651'
-    column: '1'
+    line: '700'
+    column: '28'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Kolga
     predicate: http://schema.org/name
     object: '"Kólga"@en'
-    message: 'Data LanguageType not matched: lang is en, but Kólga (line: 651, col:
-        1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Kolga - http://schema.org/name
+    message: 'Data LanguageType not matched: lang is en, but Kólga (line: 700, col:
+        28, triple: https://lily.fvhp.net/rdf/RDFs/detail/Kolga - http://schema.org/name
         - "Kólga"@en)'
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
-    line: '665'
-    column: '1'
+    line: '711'
+    column: '26'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Udr
     predicate: http://schema.org/name
     object: '"Uðr"@en'
-    message: 'Data LanguageType not matched: lang is en, but Uðr (line: 665, col:
-        1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Udr - http://schema.org/name
+    message: 'Data LanguageType not matched: lang is en, but Uðr (line: 711, col:
+        26, triple: https://lily.fvhp.net/rdf/RDFs/detail/Udr - http://schema.org/name
         - "Uðr"@en)'
-RDFs/corporation.rdf:
+RDFs/corporation.ttl:
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
-    line: '57'
-    column: '1'
+    line: '44'
+    column: '38'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Auniamendi_Systemas
     predicate: http://schema.org/name
     object: '"Auñamendi Systemas"@en'
     message: 'Data LanguageType not matched: lang is en, but Auñamendi Systemas (line:
-        57, col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Auniamendi_Systemas
+        44, col: 38, triple: https://lily.fvhp.net/rdf/RDFs/detail/Auniamendi_Systemas
         - http://schema.org/name - "Auñamendi Systemas"@en)'
 RDFs/charm.ttl:
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType

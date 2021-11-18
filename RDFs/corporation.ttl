@@ -1,0 +1,71 @@
+@base <https://lily.fvhp.net/rdf/RDFs/detail/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
+
+<Yggdrasill>
+    schema:name "ユグドラシル社"@ja, "Yggdrasill"@en ;
+    a lily:Corporation ;
+.
+
+<Celticdale>
+    schema:name "ケルティックデール社"@ja, "Celticdale"@en ;
+    a lily:Corporation ;
+.
+
+<Grand_Guignol>
+    schema:name "グランギニョル社"@ja, "Grand Guignol"@en ;
+    a lily:Corporation ;
+.
+
+<Tsukuyomi_Giken>
+    schema:name "月詠技研"@ja, "Tsukuyomi Giken"@en ;
+    schema:subOrganization <Tsukuyomi_Giken_Vietnam> ;
+    a lily:Corporation ;
+.
+
+<Tsukuyomi_Giken_Vietnam>
+    schema:name "月詠技研ベトナム支社"@ja, "Tsukuyomi Giken Vietnam"@en ;
+    schema:parentOrganization <Tsukuyomi_Giken> ;
+    a lily:Corporation ;
+.
+
+<Taipei_Fengshen_Company>
+    schema:name "台北封神公司"@ja, "Taipei Fengshen Company"@en, "台北封神公司"@zh ;
+    a lily:Corporation ;
+.
+
+<Hihiirokane_International>
+    schema:name "ヒヒイロカネインターナショナル"@ja, "Hihiirokane International"@en ;
+    a lily:Corporation ;
+.
+
+<Auniamendi_Systemas>
+    schema:name "アウニャメンディシステマス社"@ja, "Auñamendi Systemas"@en ;
+    a lily:Corporation ;
+.
+
+<Camelot_Castle>
+    schema:name "キャメロットキャッスル社"@ja, "Camelot Castle"@en ;
+    a lily:Corporation ;
+.
+
+<Amatsu_Heavy_Industry>
+    schema:name "天津重工"@ja, "Amatsu Heavy Industry"@en ;
+    a lily:Corporation ;
+.
+
+<Vulcanus_Industry>
+    schema:name "ウルカヌス・インダストリー社"@ja, "Vulcanus Industry"@en ;
+    a lily:Corporation ;
+.
+
+<Linnunrata_Electronics>
+    schema:name "リンヌンラタエレクトロニクス社"@ja, "Linnunrata Electronics"@en ;
+    a lily:Corporation ;
+.
+
+<GEHENA>
+    schema:name "ゲヘナ"@ja, "GEHENA"@en ;
+    a lily:Corporation ;
+.
