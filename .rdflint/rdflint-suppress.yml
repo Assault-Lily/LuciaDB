@@ -140,16 +140,16 @@ RDFs/legion.rdf:
     message: 'Data LanguageType not matched: lang is en, but Uðr (line: 665, col:
         1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Udr - http://schema.org/name
         - "Uðr"@en)'
-RDFs/corporation.rdf:
+RDFs/corporation.ttl:
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
-    line: '57'
-    column: '1'
+    line: '44'
+    column: '38'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Auniamendi_Systemas
     predicate: http://schema.org/name
     object: '"Auñamendi Systemas"@en'
     message: 'Data LanguageType not matched: lang is en, but Auñamendi Systemas (line:
-        57, col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Auniamendi_Systemas
+        44, col: 38, triple: https://lily.fvhp.net/rdf/RDFs/detail/Auniamendi_Systemas
         - http://schema.org/name - "Auñamendi Systemas"@en)'
 RDFs/charm.ttl:
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
