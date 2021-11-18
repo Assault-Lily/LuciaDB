@@ -1,0 +1,750 @@
+@base <https://lily.fvhp.net/rdf/RDFs/detail/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
+
+### 百合ヶ丘女学院
+
+<Radgrid>
+    schema:name "ラーズグリーズ"@ja, "Radgrid"@en ;
+    schema:alternateName "一柳隊"@ja, "Hitotsuyanagi-Tai";
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    lily:numberOfMembers "9"^^xsd:integer ;
+    schema:member
+        <Hitotsuyanagi_Riri>,
+        <Shirai_Yuyu>,
+        <Kaede_Johan_Nouvel>,
+        <Futagawa_Fumi>,
+        <Ando_Tazusa>,
+        <Yoshimura_Thi_Mai>,
+        <Kuo_Shenlin>,
+        <Wang_Yujia>,
+        <Miliam_Hildegard_von_Guropius> ;
+    schema:alumni
+        <Hitotsuyanagi_Yuri> ;
+    a lily:Legion ;
+.
+
+<Alfheim>
+    schema:name "アールヴヘイム"@ja, "Alfheim"@en ;
+    schema:alternateName "壱盤隊"@ja, "Ichiban-Tai"@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SSS"^^xsd:string ;
+    lily:numberOfMembers "12"^^xsd:integer ;
+    schema:member
+        <Tanaka_Ichi>,
+        <Takasuga_Tsukushi>,
+        <Endo_Araya>,
+        <Egawa_Kusumi>,
+        <Amano_Soraha>,
+        <Banshoya_Ena>,
+        <Watanabe_Akane>,
+        <Kanabako_Misora>,
+        <Mori_Tatsuki> ;
+    lily:submember
+        <Maki_Wakana>,
+        <Okada_Kisara>,
+        <Mozuna_Noa> ;
+    a lily:Legion ;
+.
+
+<Alfheim_First>
+    schema:name "アールヴヘイム（初代）"@ja, "Alfheim (1st)"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded true ;
+    # lily:legionGrade ""^^xsd:string ;
+    lily:numberOfMembers "13"^^xsd:integer ;
+    schema:member
+        <Shirai_Yuyu>,
+        <Amano_Soraha>,
+        <Yoshimura_Thi_Mai>,
+        <Banshoya_Ena>,
+        <Watanabe_Akane>,
+        <Kawazoe_Misuzu>,
+        <Taniguchi_Hijiri>,
+        <Hasebe_Touka>,
+        <Aoki_Kaho>,
+        <Takegoshi_Chihana>,
+        <Hayashi_Kaoru>,
+        <Niinomi_Nodoka>,
+        <Akashi_Aika> ;
+    a lily:Legion ;
+.
+
+<Eir>
+    schema:name "エイル"@ja, "Eir"@en ;
+    schema:alternateName "秦祀隊"@ja, "Shinshi-Tai"@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SS"^^xsd:string ;
+    lily:numberOfMembers "9"^^xsd:integer ;
+    schema:member
+        <Hata_Matsuri>,
+        <Kimura_Kazuki>,
+        <Takasaki_Sumire>,
+        <Naito_Hanano>,
+        <Fujimura_Ryuka>,
+        <Monica_Rossi>,
+        <Sakurai_Hazuki>,
+        <Rachelle_de_Moureaux>,
+        <Takeda_Mimi> ;
+    a lily:Legion ;
+.
+
+<Reginleif>
+    schema:name "レギンレイヴ"@ja, "Reginleif"@en ;
+    schema:alternateName "水夕会"@ja, "Suiyu-Kai"@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SSS"^^xsd:string ;
+    lily:numberOfMembers "18"^^xsd:integer ;
+    schema:member
+        <Rokkaku_Shiori>,
+        <Taniguchi_Hijiri>,
+        <Niinomi_Nodoka>,
+        <Izumi_Botan>,
+        <Kudo_Sakua>,
+        <Hara_Midori>,
+        <Kumagai_Nayuru>,
+        <Isozaki_Mika>,
+        <Ushida_Watsuki>,
+        <Diana_Koolhaas>,
+        <Arima_Mitsune>,
+        <Ashihara_Konomi> ;
+    lily:submember
+        <Tamura_Nagi> ;
+    a lily:Legion ;
+.
+
+<Svanhvit>
+    schema:name "スヴァンフヴィート"@ja, "Svanhvít"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded true ;
+    lily:legionGrade "SSS"^^xsd:string ;
+    lily:numberOfMembers "9"^^xsd:integer ;
+    schema:member
+        <Tamura_Nagi>,
+        <Mitsui_Ko>,
+        <Izumi_Botan>,
+        <Soyogi_Ataru>,
+        <Tanijiri_Shizuku>,
+        <Yamanashi_Hibari>,
+        <Yanagisawa_Ayako>,
+        <Arakawa_Hitomi>,
+        <Mozuna_Noa> ;
+    a lily:Legion ;
+.
+
+<Sanngridr>
+    schema:name "サングリーズル"@ja, "Sanngrídr"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SSS"^^xsd:string ;
+    lily:numberOfMembers "13"^^xsd:integer ;
+    schema:member
+        <Kondo_Misaka>,
+        <Kiko_Totori>,
+        <Imagawa_Homare>,
+        <Seike_Tomoyo>,
+        <Yamanashi_Hibari>,
+        <Kurokawa_Nady_Hanna>,
+        <Luise_Ingels>,
+        <Hasebe_Touka>,
+        <Murakami_Tokiwa> ;
+    lily:submember
+        <Tetsukawa_Toa> ;
+    a lily:Legion ;
+.
+
+<Lohengrin>
+    schema:name "ローエングリン"@ja, "Lohengrin"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SSS"^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Aoki_Kaho>,
+        <Sejima_Hiromu>,
+        <Kuramata_Yukiyo>,
+        <Tachihara_Sayu>,
+        <Tatsuno_Himiko>,
+        <Ban_Kaya>,
+        <Nishizawa_Mako>,
+        <Takegoshi_Chihana>,
+        <Sakaizawa_Naru> ;
+    lily:submember
+        <Sugiura_Hozumi>,
+        <Hayashi_Kaoru>,
+        <Fukuya_Maasa> ;
+    a lily:Legion ;
+.
+
+<Schwartz_Grail>
+    schema:name "シュバルツグレイル"@ja, "Schwartz Grail"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SS"^^xsd:string ;
+    lily:numberOfMembers "9"^^xsd:integer ;
+    schema:member
+        <Hosuda_Kotoko>,
+        <Maekawa_Kina>,
+        <Takahashi_Yayori>,
+        <Ito_Shizu>,
+        <Sara_Stackenschneider>,
+        <Yamamoto_Mirei>,
+        <Uchida_Mayuri>,
+        <Kemmochi_Noriko>,
+        <Murano_Kokoro> ;
+    a lily:Legion ;
+.
+
+<Brynhildr_Line>
+    schema:name "ブリュンヒルデライン"@ja, "Brynhildr Line"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SS"^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Izue_Shinobu>,
+        <Soyogi_Ataru>,
+        <Katayama_Tamaka>,
+        <Nakamura_Tsubame>,
+        <Alicja_Libeskind>,
+        <Mitsui_Ko>,
+        <Tanijiri_Shizuku> ;
+    schema:alumni
+        <Yamazaki_Meika> ;
+    a lily:Legion ;
+.
+
+<Vingolf>
+    schema:name "ヴィーンゴールヴ"@ja, "Vingólf"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SS"^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Yamazaki_Meika>,
+        <Yanagisawa_Ayako>,
+        <Arakawa_Hitomi> ;
+    a lily:Legion ;
+.
+
+<Sigrdrifa>
+    schema:name "シグルドリーヴァ"@ja, "Sigrdrífa"@en ;
+    schema:alternateName "レギオンリーコン"@ja, "Legion Recon"@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SS"^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Tono_Natsuki>,
+        <Osumi_Azuki> ;
+    a lily:Legion ;
+.
+
+<Rossweisse>
+    schema:name "ロスヴァイセ"@ja, "Rossweisse"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SS"^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Kitagawara_Inori>,
+        <Ishigami_Mio>,
+        <Rosalinde_Friedegunde_von_Otto>,
+        <Oshima_Suiren>,
+        <Goto_Sakura>,
+        <Yamada_Samidori>,
+        <Onogi_Sato>,
+        <Yasui_Ryo> ;
+    a lily:Legion ;
+.
+
+<Herfjotur>
+    schema:name "ヘルフィヨトゥル"@ja, "Herfjötur"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SS"^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Yoshida_Ageha>,
+        <Ikeda_Sunao>,
+        <Hidari_Teruka> ;
+    a lily:Legion ;
+.
+
+<Schwertleite>
+    schema:name "シュヴェルトライテ"@ja, "Schwertleite"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "S"^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Kuma_Ayane>,
+        <Tada_Shiera> ;
+    a lily:Legion ;
+.
+
+<Geiravor>
+    schema:name "ゲイラヴォル"@ja, "Geiravör"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "S"^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Kurumatani_Keine>,
+        <Kikutake_Rinka>,
+        <Tange_Honori> ;
+    a lily:Legion ;
+.
+
+### エレンスゲ女学園
+
+<Hervarar>
+    schema:name "ヘルヴォル"@ja, "Hervarar"@en ;
+    schema:alternateName "楯の乙女"@ja, "Shield Maiden"@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    lily:numberOfMembers "5"^^xsd:integer ;
+    schema:member
+        <Aizawa_Kazuha>,
+        <Sasaki_Ran>,
+        <Iijima_Renka>,
+        <Hatsukano_Yo>,
+        <Serizawa_Chikaru> ;
+    a lily:Legion ;
+.
+
+<Cuelebre>
+    schema:name "クエレブレ"@ja, "Cuelebre"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Matsumura_Fuka> ;
+    a lily:Legion ;
+.
+
+<Basa_Andre>
+    schema:name "バシャンドレ"@ja, "Basa-Andre"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Tsuboi_Nanaho> ;
+    a lily:Legion ;
+.
+
+<Olentzaro>
+    schema:name "オレンツァロ"@ja, "Olentzaro"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Shibata_Rindo> ;
+    a lily:Legion ;
+.
+
+<Galtzakgorri>
+    schema:name "ガルチャゴリ"@ja, "Galtzakgorri"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Tazawa_Tsubaki> ;
+    a lily:Legion ;
+.
+
+<Tartaro>
+    schema:name "タルタロ"@ja, "Tartaro"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Oba_Izumi> ;
+    a lily:Legion ;
+.
+
+<Xarrantxa>
+    schema:name "シャランチャ"@ja, "Xarrantxa"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Moriyama_Hirari> ;
+    a lily:Legion ;
+.
+
+### 神庭女子藝術高校
+
+<Gran_Eple>
+    schema:name "グラン・エプレ"@ja, "Gran Eple"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    lily:numberOfMembers "5"^^xsd:integer ;
+    schema:member
+        <Kon_Kanaho>,
+        <Miyagawa_Takane>,
+        <Toki_Kureha>,
+        <Tamba_Akari>,
+        <Sadamori_Himeka> ;
+    a lily:Legion ;
+.
+
+### 御台場女学校
+
+<Hronesness>
+    schema:name "ロネスネス"@ja, "Hrones Ness"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "S"^^xsd:string ;
+    lily:numberOfMembers "9"^^xsd:integer ;
+    schema:member
+        <Funada_Kiito>,
+        <Funada_Ui>,
+        <Shiba_Tomoshibi>,
+        <Kawabata_Hotaru>,
+        <Kozue_West>,
+        <Igusa_Subaru>,
+        <Fujita_Asagao>,
+        <Imamura_Yukari>,
+        <Nagasawa_Yuki> ;
+    a lily:Legion ;
+.
+
+<Heorot_Saints>
+    schema:name "ヘオロットセインツ"@ja, "Heorot Saints"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SS"^^xsd:string ;
+    lily:numberOfMembers "13"^^xsd:integer ;
+    schema:member
+        <Hayami_Katsura>,
+        <Kawanabe_Nazuna>,
+        <Takehisa_Nakaba>,
+        <Saigo_Kurena>,
+        <Kawamura_Yuzuriha>,
+        <Suzuki_Chinami>,
+        <Yokoyama_Azusa>,
+        <Hishida_Haru>,
+        <Tsukioka_Momiji> ;
+    lily:submember
+        <Otake_Sunao>,
+        <Maruyama_Amane> ;
+    a lily:Legion ;
+.
+
+<Coast_Guard>
+    schema:name "コーストガード"@ja, "Coast Guard"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Hirose_Minato>,
+        <Soga_Suzuna>,
+        <Kishida_Hanabusa> ;
+    lily:submember
+        <Munakata_Ushio> ;
+    a lily:Legion ;
+.
+
+### 私立ルドビコ女学院
+
+<Ironside>
+    schema:name "アイアンサイド"@ja, "Ironside"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    lily:numberOfMembers "10"^^xsd:integer ;
+    schema:member
+        <Fukuyama_Jeanne_Sachie>,
+        <Kishimoto_Lucia_Raimu>,
+        <Amamiya_Sofia_Seren>,
+        <Kuroki_Francisca_Yuria>,
+        <Li_Clystina_Sisi>,
+        <Saeki_Julia_Karen>,
+        <Seto_Veronica_Ichika>,
+        <Takatori_Natalie_Towa>,
+        <Matsunaga_Brigitta_Kayo>,
+        <Hasegawa_Gabriela_Tsugumi> ;
+    a lily:Legion ;
+.
+
+<Temple_Legion>
+    schema:name "テンプルレギオン"@ja, "Temple Legion"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded true ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Ichinomiya_Michaela_Himari>,
+        <Tachibana_Theresia_Nagisa>,
+        <Sano_Matilda_Kokoro>,
+        <Matsunaga_Brigitta_Kayo>,
+        <Narumi_Clara_Yuko>,
+        <Hojo_Monica_Asahi>,
+        <Hanaoka_Angela_Moe>,
+        <Hasegawa_Gabriela_Tsugumi>,
+        <Haneda_Catalina_Mei> ;
+    schema:alumni
+        <Kishimoto_Maria_Mirai>,
+        <Nosaka_Jacqueline_Kazane>,
+        <Takatori_Natalie_Towa>,
+        <Fukuyama_Jeanne_Sachie>,
+        <Kuroki_Francisca_Yuria>,
+        <Seto_Veronica_Ichika>,
+        <Amamiya_Sofia_Seren>,
+        <Kishimoto_Lucia_Raimu> ;
+    # <Izumi_Rosa_Rina>, 先生の扱いは別途検討
+    # <Makabe_Melania_Sayoko>,
+    # <Toride_Suzanne_Reika> ;
+    a lily:Legion ;
+.
+
+### 相模女子高等学館
+
+<Sagajo_Tokusentai>
+    schema:name "生徒会特選隊"@ja ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SS"^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Ishikawa_Aoi>,
+        <Matsunaga_Yui>,
+        <Katakura_Shion>,
+        <Date_Furiru>,
+        <Yuki_Suzuma>,
+        <Kobayakawa_Jun>,
+        <Kuki_Hatsume>,
+        <Takigawa_Mira> ;
+    a lily:Legion ;
+.
+
+<Sagajo_Yugekitai>
+    schema:name "特命遊撃隊"@ja ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Ito_Naehi> ;
+    a lily:Legion ;
+.
+
+### 聖メルクリウスインターナショナルスクール
+
+<Michael>
+    schema:name "第1飛空艇団ミカエル"@ja, "1st Gunship Brigade Michael"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SSS"^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Louloudis_Bromstedt>,
+        <Chemir_Friedheim>,
+        <Lemie_Alessandrini>,
+        <Altea_Alessandrini>,
+        <Stella_Elle_Sasson> ;
+    ### LGヘオロットセインツと同盟を結んでいる
+    a lily:Legion ;
+.
+
+<Raguel>
+    schema:name "第5飛空艇団ラグエル"@ja, "5th Gunship Brigade Raguel"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SSS"^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Tiuccia_Paumgartner>,
+        <Catalina_Asensio>,
+        <Natasha_Metter> ;
+    a lily:Legion ;
+.
+
+<Ramiel>
+    schema:name "第7飛空艇団レミエル"@ja, "7th Gunship Brigade Ramiel"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Pulmu_Sibelius> ;
+    a lily:Legion ;
+.
+
+### イルマ女子美術高校
+
+<Illumine_Shines>
+    schema:name "イルミンシャイネス"@ja, "Illumine Shines"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Nishikawa_Miharu>,
+        <Tejima_Komachi>,
+        <Hibino_Waku>,
+        <Ueda_Imari>,
+        <Miyamoto_Komuku>,
+        <Kusakabe_Rengetsu>,
+        <Kusakabe_Murasame>,
+        <Yoshii_Kako>,
+        <Hidai_Miyazu>,
+        <Iwaya_Kokori>,
+        <Nakabayashi_Mina> ;
+    schema:alumni
+        <Ichinomiya_Michaela_Himari> ;
+    a lily:Legion ;
+.
+
+<Hacolberand>
+    schema:name "ハコルベランド"@ja, "Hacolberand"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "AAA"^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Kamigoori_Marimo>,
+        <Ueda_Imari>,
+        <Tokyu_Setoko>,
+        <Hirose_Yuzutsu> ;
+    a lily:Legion ;
+.
+
+### 那賀大串女学園
+
+<Thrymheim>
+    schema:name "スリュムヘイム"@ja, "Thrymheim"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Noguchi_Shinano>,
+        <Sasaki_Yasuna>,
+        <Senda_Koume>,
+        <Danzuka_Erisa> ;
+    a lily:Legion ;
+.
+
+### 柳都女学館
+
+<Himinglaeva>
+    schema:name "ヒミングレーヴァ"@ja, "Himinglæva"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "S"^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Sengo_Yuna>,
+        <Amatsu_Marei> ;
+    a lily:Legion ;
+.
+
+<Dufa>
+    schema:name "ドゥーヴァ"@ja, "Dúfa"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Sumitani_Miki> ;
+    schema:alumni
+        <Enomoto_Yaya> ;
+    a lily:Legion ;
+.
+
+<Hronn>
+    schema:name "フレン"@ja, "Hrönn"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Enomoto_Komomo> ;
+    a lily:Legion ;
+.
+
+<Hefring>
+    schema:name "ヘヴリング"@ja, "Hefring"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Yoshihara_Nanoha> ;
+    a lily:Legion ;
+.
+
+<Blodughadda>
+    schema:name "ブローズグハッダ"@ja, "Blóðughadda"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SS"^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Miyairi_Fubuki> ;
+    a lily:Legion ;
+.
+
+<Kolga>
+    schema:name "コールガ"@ja, "Kólga"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Amata_Hanako> ;
+    a lily:Legion ;
+.
+
+<Udr>
+    schema:name "ウズ"@ja, "Uðr"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Imaizumi_Rion> ;
+    a lily:Legion ;
+.
+
+### 鹿野苑高等女学園
+
+<Enrantai>
+    schema:name "焔蘭隊"@ja, "Enrantai"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    lily:numberOfMembers "8"^^xsd:integer ;
+    schema:member
+        <Yosano_Honoho>,
+        <Chino_Shirabe>,
+        <Saionji_Kaoru>,
+        <Kino_Amami>,
+        <Aliunia_Lesko_Oki>,
+        <Harumichi_Mako>,
+        <Asukai_Tsubasa>,
+        <Ichijo_Mizumi> ;
+    a lily:Legion ;
+.
+
+<Kirintai>
+    schema:name "輝凛隊"@ja, "Kirintai"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    lily:numberOfMembers "8"^^xsd:integer ;
+    schema:member
+        <Mibu_Kirari> ;
+    a lily:Legion ;
+.
