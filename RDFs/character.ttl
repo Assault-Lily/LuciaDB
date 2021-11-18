@@ -1,0 +1,256 @@
+@base <https://lily.fvhp.net/rdf/RDFs/detail/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
+
+<Gozen>
+    rdfs:label "御前"^^xsd:string ;
+    # schema:familyName ""@ja, ""@en ;
+    # lily:familyNameKana ""@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    # schema:givenName ""@ja, ""@en ;
+    # lily:givenNameKana ""@ja ;
+    schema:name "御前"@ja, "Gozen"@en ;
+    lily:nameKana "ごぜん"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""@ja ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted true ;
+    lily:boostedSkill "リジェネレーター"^^xsd:string ;
+    lily:charm [
+        lily:resource <Dainsleif> ;
+        lily:usedIn "舞台TFG"^^xsd:string ;
+        lily:additionalInformation "川添美鈴の遺品"@ja
+    ] ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #     lily:resource <> ;
+    #     lily:additionalInformation ""@ja
+    # ] ;
+    lily:relationship [
+        lily:resource <Toda_Eulalia_Kotohi> ;
+        lily:additionalInformation "手下"@ja
+    ], [
+        lily:resource <Shiba_Tomoshibi> ;
+        lily:additionalInformation "「こちら側」と呼ぶ"@ja
+    ], [
+        lily:resource <Shirai_Yuyu> ;
+        lily:additionalInformation "手に入れたい"@ja
+    ] ;
+    lily:cast [
+        schema:name "佃井皆美"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q11381598>, <http://ja.dbpedia.org/resource/佃井皆美> ;
+        lily:performIn <The_Fateful_Gift>, <Lost_Memories>
+    ] ;
+    a lily:Lily ;
+.
+
+<Imamura_Sakumi>
+    rdfs:label "今村咲魅"^^xsd:string ;
+    schema:familyName "今村"@ja, "Imamura"@en ;
+    lily:familyNameKana "いまむら"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "咲魅"@ja, "Sakumi"@en ;
+    lily:givenNameKana "さくみ"@ja ;
+    schema:name "今村咲魅"@ja, "Imamura Sakumi"@en ;
+    lily:nameKana "いまむらさくみ"@ja ;
+    lily:anotherName "夭折の天才リリィ"@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    schema:birthDate "--04-23"^^xsd:gMonthDay ;
+    lily:lifeStatus "dead"^^xsd:string ;
+    lily:killedIn "中等科1年の時に病死"@ja ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #     lily:resource <> ;
+    #     lily:usedIn ""^^xsd:string ;
+    #     lily:additionalInformation ""@ja
+    # ] ;
+    lily:garden "御台場女学校中等科"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade "0"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    schema:sibling [
+        lily:resource <Imamura_Yukari> ;
+        lily:additionalInformation "妹"@ja
+    ] ;
+    lily:relationship [
+        lily:resource <Hishida_Haru> ;
+        lily:additionalInformation "「御台場を守る一番のリリィとなる」という夢を託す"@ja , "幼馴染"@ja
+    ] ;
+    lily:relationship [
+        lily:resource <Yokoyama_Azusa> ;
+        lily:additionalInformation "幼馴染"@ja
+    ] ;
+    lily:cast [
+        schema:name "柴田茉莉"@ja ;
+        # lily:resource <> ;
+        lily:performIn <Assault_Lily_Odaiba_The_Singular_Ability>
+    ] ;
+    a lily:Character ;
+.
+
+<Rokkaku_Sena>
+    rdfs:label "六角瀬名"^^xsd:string ;
+    schema:familyName "六角"@ja, "Rokkaku"@en ;
+    lily:familyNameKana "ろっかく"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "瀬名"@ja, "Sena"@en ;
+    lily:givenNameKana "せな"@ja ;
+    schema:name "六角瀬名"@ja, "Rokkaku Sena"@en ;
+    lily:nameKana "ろっかくせな"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "dead"^^xsd:string ;
+    # lily:killedIn "ヒュージによる襲撃"@ja ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "未覚醒"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #     lily:resource <> ;
+    #     lily:usedIn ""^^xsd:string ;
+    #     lily:additionalInformation ""@ja
+    # ] ;
+    lily:garden "甲斐聖山女子高等学校"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade "0"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    schema:sibling [
+        lily:resource <Rokkaku_Shiori> ;
+        lily:additionalInformation "姉"@ja
+    ] ;
+    # lily:relationship [
+    #     lily:resource <> ;
+    #     lily:additionalInformation ""@ja
+    # ] ;
+    lily:cast [
+        schema:name "柴田茉莉"@ja ;
+        # lily:resource <> ;
+        lily:performIn <Assault_Lily_Odaiba_The_Singular_Ability>
+    ] ;
+    a lily:Character ;
+.
+
+<Michikawa_Miaki>
+    rdfs:label "道川深顯"^^xsd:string ;
+    schema:familyName "道川"@ja, "Michikawa"@en ;
+    lily:familyNameKana "みちかわ"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "深顯"@ja, "Miaki"@en ;
+    lily:givenNameKana "みあき"@ja ;
+    schema:name "道川深顯"@ja, "Michikawa Miaki"@en ;
+    lily:nameKana "みちかわみあき"@ja ;
+    lily:anotherName "夜釣りの魔術師"@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn "ヒュージによる襲撃"@ja ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "未覚醒"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Unknown_Named_Charm_2> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        lily:additionalInformation "試作機"@ja
+    ] ;
+    lily:garden "シエルリント女学薗"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade "0"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    lily:taskforce <Schwarzes_Kreuz_Madec> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #     lily:resource <> ;
+    #     lily:additionalInformation ""@ja
+    # ] ;
+    # lily:relationship [
+    #     lily:resource <> ;
+    #     lily:additionalInformation ""@ja
+    # ] ;
+    # lily:cast [
+    #     schema:name ""@ja ;
+    #     lily:resource <> ;
+    #     lily:performIn <>
+    # ] ;
+    a lily:Madec ;
+.

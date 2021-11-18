@@ -1,0 +1,1111 @@
+@base <https://lily.fvhp.net/rdf/RDFs/detail/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
+
+<Unknown_Named_Charm>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "CHARM名称不明"@ja, "Unknown Named CHARM"@en ;
+    schema:name "CHARM名称不明"@ja, "Unknown Named CHARM"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Tachibana_Theresia_Nagisa> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Unknown_Named_Charm_2>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "CHARM名称不明"@ja, "Unknown Named CHARM"@en ;
+    schema:name "CHARM名称不明"@ja, "Unknown Named CHARM"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Michikawa_Miaki> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<First_Generation_Charm>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "第1世代CHARM"@ja, "First Generation CHARM"@en ;
+    schema:name "第1世代CHARM"@ja, "First Generation CHARM"@en ;
+    lily:generation "1"^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user
+        <Miliam_Hildegard_von_Guropius>,
+        <Mashima_Moyu> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Zeroshiki_Mikasa>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "零式御蓋"@ja, "Zeroshiki Mikasa"@en ;
+    schema:name "零式御蓋"@ja, "Zeroshiki Mikasa"@en ;
+    lily:generation "1"^^xsd:integer ;
+    schema:manufacturer <Amatsu_Heavy_Industry> ;
+    lily:user
+        <Mashima_Moyu>,
+        <Yoshizaka_Nagisa> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Svizrir>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "スヴィズリル"@ja, "Svizrir"@en ;
+    schema:name "スヴィズリル"@ja, "Svizrir"@en ;
+    lily:generation "1"^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Yoshizaka_Nagisa> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Yotunschwert>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ヨートゥンシュベルト"@ja, "Yotunschwert"@en ;
+    schema:name "ヨートゥンシュベルト"@ja, "Yotunschwert"@en ;
+    lily:generation "1"^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user
+        <Funada_Kiito>,
+        <Funada_Ui>,
+        <Shiba_Tomoshibi>,
+        <Kawabata_Hotaru>,
+        <Kozue_West>,
+        <Igusa_Subaru>,
+        <Fujita_Asagao>,
+        <Imamura_Yukari>,
+        <Nagasawa_Yuki>,
+        <Hayami_Katsura>,
+        <Kawanabe_Nazuna>,
+        <Takehisa_Nakaba>,
+        <Saigo_Kurena>,
+        <Kawamura_Yuzuriha>,
+        <Suzuki_Chinami>,
+        <Yokoyama_Azusa>,
+        <Hishida_Haru>,
+        <Tsukioka_Momiji> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Gungnir>
+    schema:productID "AC-13"^^xsd:string ;
+    lily:seriesName "グングニル"@ja, "Gungnir"@en ;
+    schema:name "グングニル"@ja, "Gungnir"@en ;
+    lily:generation "2"^^xsd:integer ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user
+        <Hitotsuyanagi_Riri>,
+        <Futagawa_Fumi>,
+        <Kaede_Johan_Nouvel>,
+        <Hitotsuyanagi_Yuri>,
+        <Ito_Shizu>,
+        <Egawa_Kusumi>,
+        <Takasuga_Tsukushi>,
+        <Taniguchi_Hijiri>,
+        <Tamura_Nagi>,
+        <Hata_Matsuri>,
+        <Kawamura_Yuzuriha>,
+        <Miliam_Hildegard_von_Guropius>,
+        <Wang_Yujia>,
+        <Kosaka_Anastasiya_Ryoko>,
+        <Yoshizaka_Nagisa> ;
+    lily::hasVariant <Gungnir_Carbin> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Gungnir_Carbin>
+    schema:productID "AC-13SS"^^xsd:string ;
+    lily:seriesName "グングニル"@ja, "Gungnir"@en ;
+    schema:name "グングニル・カービン"@ja, "Gungnir Carbin"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user
+        <Aizawa_Kazuha>,
+        <Tsukioka_Momiji>,
+        <Kishimoto_Lucia_Raimu>,
+        <Toda_Eulalia_Kotohi>,
+        <Narumi_Clara_Yuko>,
+        <Hasegawa_Gabriela_Tsugumi>,
+        <Seto_Veronica_Ichika>,
+        <Takatori_Natalie_Towa>,
+        <Tachibana_Theresia_Nagisa>,
+        <Sano_Matilda_Kokoro>,
+        <Hanaoka_Angela_Moe>,
+        <Nishina_Elizabeth_Otoha>,
+        <Yagami_Catalina_Mahiro>,
+        <Igarashi_Bernadetta_Sumire>,
+        <Horie_Agata_Yukino>,
+        <Yamabuki_Elizabeth_Keito>,
+        <Kosaka_Anastasiya_Ryoko>,
+        <Funada_Ui> ;
+    lily:isVariantOf <Gungnir> ;
+    a lily:Charm ;
+.
+
+<Dainsleif>
+    schema:productID "AC-18"^^xsd:string ;
+    lily:seriesName "ダインスレイフ"@ja, "Dainsleif"@en ;
+    schema:name "ダインスレイフ"@ja, "Dainsleif"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user
+        <Ando_Tazusa>,
+        <Kawazoe_Misuzu>,
+        <Kuo_Shenlin>,
+        <Gozen>,
+        <Shirai_Yuyu>,
+        <Funada_Kiito>,
+        <Rokkaku_Shiori>,
+        <Izumi_Rosa_Rina> ;
+    lily:hasVariant <Dainsleif_Carbin> ;
+    lily:hasVariant <Dainsleif_Marksman> ;
+    a lily:Charm ;
+.
+
+<Dainsleif_Carbin>
+    schema:productID "AC-18SS"^^xsd:string ;
+    lily:seriesName "ダインスレイフ"@ja, "Dainsleif"@en ;
+    schema:name "ダインスレイフ・カービン"@ja, "Dainsleif Carbin"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user
+        <Ichinomiya_Michaela_Himari>,
+        <Kawamura_Yuzuriha>,
+        <Kon_Kanaho>,
+        <Amamiya_Sofia_Seren>,
+        <Fukuyama_Jeanne_Sachie>,
+        <Kuroki_Francisca_Yuria>,
+        <Li_Clystina_Sisi>,
+        <Saeki_Julia_Karen>,
+        <Matsunaga_Brigitta_Kayo>,
+        <Ichinomiya_Michaela_Himari>,
+        <Hojo_Monica_Asahi>,
+        <Haneda_Catalina_Mei>,
+        <Nagase_Marta_Nonoka>,
+        <Suzushiro_Catarina_Miyabi>,
+        <Natsume_Elizabeth_Ema>,
+        <Asahina_Agnes_Fuuka>,
+        <Kagami_Agnes_Mio>,
+        <Izumi_Rosa_Rina>,
+        <Rokkaku_Shiori>,
+        <Amatsu_Marei> ;
+    lily:isVariantOf <Dainsleif> ;
+    a lily:Charm ;
+.
+
+<Dainsleif_Marksman>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ダインスレイフ"@ja, "Dainsleif"@en ;
+    schema:name "ダインスレイフ・マークスマン"@ja, "Dainsleif Marksman"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Funada_Kiito> ;
+    lily:isVariantOf <Dainsleif> ;
+    a lily:Charm ;
+.
+
+<Brionac>
+    schema:productID "AC-21"^^xsd:string ;
+    lily:seriesName "ブリューナク"@ja, "Brionac"@en ;
+    schema:name "ブリューナク"@ja, "Brionac"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Celticdale> ;
+    lily:user
+        <Shirai_Yuyu>,
+        <Hitotsuyanagi_Riri>,
+        <Yoshimura_Thi_Mai>,
+        <Kawazoe_Misuzu>,
+        <Tanaka_Ichi>,
+        <Egawa_Kusumi>,
+        <Ando_Tazusa>,
+        <Kawanabe_Nazuna> ;
+    a lily:Charm ;
+.
+
+<Joyeuse>
+    schema:productID "AC-19"^^xsd:string ;
+    lily:seriesName "ジョワユーズ"@ja, "Joyeuse"@en ;
+    schema:name "ジョワユーズ"@ja, "Joyeuse"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Grand_Guignol> ;
+    lily:user <Kaede_Johan_Nouvel> ;
+    a lily:Charm ;
+.
+
+<Tyrfing_Prototype>
+    schema:productID "AC-17"^^xsd:string ;
+    lily:seriesName "ティルフィング"@ja, "Tyrfing"@en ;
+    schema:name "ティルフィング プロトタイプ"@ja, "Tyrfing Prototype"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Rokkaku_Shiori> ;
+    lily:hasVariant <Tyrfing_type_T> ;
+    lily:hasVariant <Tyrfing_type_R> ;
+    a lily:Charm ;
+.
+
+<Tyrfing_type_T>
+    schema:productID "AC-17"^^xsd:string ;
+    lily:seriesName "ティルフィング"@ja, "Tyrfing"@en ;
+    schema:name "ティルフィング T型"@ja, "Tyrfing type T"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user
+        <Ando_Tazusa>,
+        <Mori_Tatsuki>,
+        <Yamanashi_Hibari>,
+        <Takegoshi_Chihana>,
+        <Uchida_Mayuri>,
+        <Louloudis_Bromstedt>,
+        <Asanaga_Ichigo> ;
+    lily:isVariantOf <Tyrfing_Prototype> ;
+    schema:isSimilarTo <Tyrfing_type_R> ;
+    a lily:Charm ;
+.
+
+<Tyrfing_type_R>
+    schema:productID "AC-17"^^xsd:string ;
+    lily:seriesName "ティルフィング"@ja, "Tyrfing"@en ;
+    schema:name "ティルフィング R型"@ja, "Tyrfing type R"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user
+        <Chemir_Friedheim>,
+        <Yokoyama_Azusa>,
+        <Masukawa_Uta> ;
+    lily:isVariantOf <Tyrfing_Prototype> ;
+    schema:isSimilarTo <Tyrfing_type_T> ;
+    a lily:Charm ;
+.
+
+<ThanKiem>
+    schema:productID "DC-23"^^xsd:string ;
+    lily:seriesName "タンキエム"@ja, "Than Kiem"@en ;
+    schema:name "タンキエム"@ja, "Than Kiem"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Tsukuyomi_Giken> ;
+    lily:user <Yoshimura_Thi_Mai> ;
+    a lily:Charm ;
+.
+
+<Ma_Zu_Relic>
+    schema:productID "AC-16"^^xsd:string ;
+    lily:seriesName "マソレリック"@ja, "Ma-Zu Relic"@en, "媽祖聖札"@zh ;
+    schema:name "マソレリック"@ja, "Ma-Zu Relic"@en, "媽祖聖札"@zh ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Taipei_Fengshen_Company> ;
+    lily:user <Kuo_Shenlin> ;
+    a lily:Charm ;
+.
+
+<Asterion>
+    schema:productID "GC-15"^^xsd:string ;
+    lily:seriesName "アステリオン"@ja, "Asterion"@en ;
+    schema:name "アステリオン"@ja, "Asterion"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Hihiirokane_International> ;
+    lily:user
+        <Wang_Yujia>,
+        <Kuo_Shenlin>,
+        <Ishigami_Mio>,
+        <Ishikawa_Aoi>,
+        <Izue_Shinobu>,
+        <Imagawa_Homare>,
+        <Endo_Araya>,
+        <Katakura_Shion>,
+        <Kanabako_Misora>,
+        <Kishimoto_Maria_Mirai>,
+        <Kishimoto_Lucia_Raimu>,
+        <Date_Furiru>,
+        <Taneda_Seina>,
+        <Banshoya_Ena>,
+        <Mashima_Moyu>,
+        <Yumeno_Kanon>,
+        <Rosalinde_Friedegunde_von_Otto>,
+        <Watanabe_Akane>,
+        <Asanaga_Ichigo> ;
+    a lily:Charm ;
+.
+
+<Njolnir>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ニョルニール"@ja, "Njolnir"@en ;
+    schema:name "ニョルニール"@ja, "Njolnir"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Miliam_Hildegard_von_Guropius> ;
+    lily:additionalInformation "ユグドラシル社「ミョルニール公開コンペ」出品機体"@ja ;
+    a lily:Charm ;
+.
+
+<Gram>
+    schema:productID "AC-28"^^xsd:string ;
+    lily:seriesName "グラム"@ja, "Gram"@en ;
+    schema:name "グラム"@ja, "Gram"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    lily:requiredSkillerVal "85"^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user
+        <Shirai_Yuyu>,
+        <Amano_Soraha>,
+        <Banshoya_Ena>,
+        <Yoshimura_Thi_Mai>,
+        <Akashi_Aika>,
+        <Aoki_Kaho> ;
+    a lily:Charm ;
+.
+
+<Blutgang>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ブルトガング"@ja, "Blutgang"@en ;
+    schema:name "ブルトガング"@ja, "Blutgang"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user
+        <Aizawa_Kazuha>,
+        <Rokkaku_Shiori> ;
+    a lily:Charm ;
+.
+
+<Mondragon>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "モンドラゴン"@ja, "Mondragon"@en ;
+    schema:name "モンドラゴン"@ja, "Mondragon"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Auniamendi_Systemas> ;
+    lily:user <Sasaki_Ran> ;
+    a lily:Charm ;
+.
+
+<Bruncvik>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ブルンツヴィーク"@ja, "Bruncvík"@en ;
+    schema:name "ブルンツヴィーク"@ja, "Bruncvík"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Hihiirokane_International> ;
+    lily:user
+        <Watanabe_Akane>,
+        <Iijima_Renka> ;
+    a lily:Charm ;
+.
+
+<Chrysaor>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "クリューサーオール"@ja, "Chrȳsāōr"@en ;
+    schema:name "クリューサーオール"@ja, "Chrȳsāōr"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Hihiirokane_International> ;
+    lily:user
+        <Hatsukano_Yo>,
+        <Ito_Naehi>,
+        <Tiuccia_Paumgartner> ;
+    a lily:Charm ;
+.
+
+<Gae_Bolg>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ゲイボルグ"@ja, "Gáe Bolg"@en ;
+    schema:name "ゲイボルグ"@ja, "Gáe Bolg"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    lily:requiredSkillerVal "70"^^xsd:integer ;
+    schema:manufacturer <Celticdale> ;
+    lily:user
+        <Kemmochi_Noriko>,
+        <Serizawa_Chikaru> ;
+    a lily:Charm ;
+.
+
+<Claiomh_Solais>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "クラウ・ソラス"@ja, "Claíomh Solais"@en ;
+    schema:name "クラウ・ソラス"@ja, "Claíomh Solais"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Celticdale> ;
+    lily:user
+        <Kon_Kanaho>,
+        <Hayami_Katsura> ;
+    a lily:Charm ;
+.
+
+<Risanautr>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "リサナウト"@ja, "Risanautr"@en ;
+    schema:name "リサナウト"@ja, "Risanautr"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user
+        <Miyagawa_Takane>,
+        <Noguchi_Shinano> ;
+    a lily:Charm ;
+.
+
+<Sugaar>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "シュガール"@ja, "Sugaar"@en ;
+    schema:name "シュガール"@ja, "Sugaar"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Auniamendi_Systemas> ;
+    lily:user
+        <Toki_Kureha>,
+        <Yukawa_Mizuki> ;
+    a lily:Charm ;
+.
+
+<Maltet>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "マルテ"@ja, "Maltet"@en ;
+    schema:name "マルテ"@ja, "Maltet"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Grand_Guignol> ;
+    lily:user
+        <Tamba_Akari>,
+        <Murakami_Tokiwa>,
+        <Yokoyama_Azusa>,
+        <Kanabako_Misora> ;
+    a lily:Charm ;
+.
+
+<Durandal>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "デュランダル"@ja, "Durandal"@en ;
+    schema:name "デュランダル"@ja, "Durandal"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Grand_Guignol> ;
+    lily:user
+        <Sadamori_Himeka>,
+        <Uchida_Mayuri> ;
+    a lily:Charm ;
+.
+
+<Balmung>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "バルムンク"@ja, "Balmung"@en ;
+    schema:name "バルムンク"@ja, "Balmung"@en ;
+    lily:generation "2.5"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Taniguchi_Hijiri> ;
+    a lily:Charm ;
+.
+
+<Nothung>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ノートゥング"@ja, "Nothung"@en ;
+    schema:name "ノートゥング"@ja, "Nothung"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Hara_Midori> ;
+    a lily:Charm ;
+.
+
+<Thor_Hammer>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "トールハンマー"@ja, "Thor's Hammer"@en ;
+    schema:name "トールハンマー"@ja, "Thor's Hammer"@en ;
+    lily:generation "3.5"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Ushida_Watsuki> ;
+    lily:additionalInformation "ユグドラシル社「ミョルニール公開コンペ」出品機体"@ja ;
+    a lily:Charm ;
+.
+
+<Trigrav>
+    schema:productID "GC-09"^^xsd:string ;
+    lily:seriesName "トリグラフ"@ja, "Trigrav"@en ;
+    schema:name "トリグラフ"@ja, "Trigrav"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    lily:requiredSkillerVal "55"^^xsd:integer ;
+    schema:manufacturer <Hihiirokane_International> ;
+    lily:user
+        <Ishikawa_Aoi>,
+        <Matsunaga_Yui>,
+        <Kaede_Johan_Nouvel>,
+        <Nosaka_Jacqueline_Kazane>,
+        <Akutsu_Lucifer_Maaya>,
+        <Koshiba_Eishin> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Durindarte>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ドゥリンダルテ"@ja, "Durindarte"@en ;
+    schema:name "ドゥリンダルテ"@ja, "Durindarte"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # schema:manufacturer <> ;
+    lily:user <Kaede_Johan_Nouvel> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Naglering>
+    schema:productID "AC-22"^^xsd:string ;
+    lily:seriesName "ナーゲルリング"@ja, "Naglering"@en ;
+    schema:name "ナーゲルリング"@ja, "Naglering"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # schema:manufacturer <> ;
+    lily:user <Ando_Tazusa> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Aroundight>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "アロンダイト"@ja, "Aroundight"@en ;
+    schema:name "アロンダイト"@ja, "Aroundight"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    schema:manufacturer <Camelot_Castle> ;
+    lily:user <Tanaka_Ichi> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Ipetam>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "イペタム"@ja, "Ipetam"@en ;
+    schema:name "イペタム"@ja, "Ipetam"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    schema:manufacturer <Amatsu_Heavy_Industry> ;
+    lily:user <Egawa_Kusumi> ;
+    lily:additionalInformation "開発終了"@ja ;
+    a lily:Charm ;
+.
+
+<Laevateinn>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "レーヴァティン"@ja, "Laevateinn"@en ;
+    schema:name "レーヴァティン"@ja, "Laevateinn"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    lily:requiredSkillerVal "85"^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Egawa_Kusumi> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Fragarach>
+    schema:productID "AC-20"^^xsd:string ;
+    lily:seriesName "フラガラッハ"@ja, "Fragarach"@en ;
+    schema:name "フラガラッハ"@ja, "Fragarach"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Celticdale> ;
+    lily:user <Amano_Soraha> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Miming>
+    schema:productID "AC-14"^^xsd:string ;
+    lily:seriesName "ミミング"@ja, "Miming"@en ;
+    schema:name "ミミング"@ja, "Miming"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Banshoya_Ena> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Gunnfjodur>
+    schema:productID "AC-09"^^xsd:string ;
+    lily:seriesName "グンフィエズル"@ja, "Gunnfjödur"@en ;
+    schema:name "グンフィエズル"@ja, "Gunnfjödur"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Banshoya_Ena> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Einherjar>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "エインヘリャル"@ja, "Einherjar"@en ;
+    schema:name "エインヘリャル"@ja, "Einherjar"@en ;
+    lily:generation "4"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Mashima_Moyu> ;
+    lily:user
+        <Hasebe_Touka>,
+        <Banshoya_Ena> ;
+    lily:additionalInformation "実験機"@ja ;
+    a lily:Charm ;
+.
+
+<Vinst_Lilie>
+    schema:productID "GC-17"^^xsd:string ;
+    lily:seriesName "ヴィンセツ・リーリエ"@ja, "Vinst Lilie"@en ;
+    schema:name "ヴィンセツ・リーリエ"@ja, "Vinst Lilie"@en ;
+    lily:generation "4"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Shiba_Tomoshibi> ;
+    lily:additionalInformation "開発試験機"@ja ;
+    lily:additionalInformation "精神直結型CHARM"@ja ;
+    a lily:Charm ;
+.
+
+<Vampire>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ヴィンセツ・リーリエ"@ja, "Vinst Lilie"@en ;
+    schema:name "ヴァンピール"@ja, "Vampire"@en ;
+    lily:generation "4"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Hasebe_Touka> ;
+    lily:additionalInformation "起動実証機"@ja ;
+    lily:additionalInformation "精神直結型CHARM"@ja ;
+    a lily:Charm ;
+.
+
+<Charlemagne>
+    schema:productID "DC-22"^^xsd:string ;
+    lily:seriesName "シャルルマーニュ"@ja, "Charlemagne"@en ;
+    schema:name "シャルルマーニュ"@ja, "Charlemagne"@en ;
+    lily:generation "1"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Grand_Guignol> ;
+    lily:user
+        <Rokkaku_Shiori>,
+        <Fukuyama_Jeanne_Sachie> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Jarngreipr>
+    schema:productID "AC-25"^^xsd:string ;
+    lily:seriesName "ヤールングレイプル"@ja, "Jarngreipr"@en ;
+    schema:name "ヤールングレイプル"@ja, "Jarngreipr"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user
+        <Nagasawa_Yuki>,
+        <Luise_Ingels> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Hrunting>
+    schema:productID "GC-16"^^xsd:string ;
+    lily:seriesName "フルンティング"@ja, "Hrunting"@en ;
+    schema:name "フルンティング"@ja, "Hrunting"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Funada_Kiito> ;
+    a lily:Charm ;
+.
+
+<Naegling>
+    schema:productID "AC-15"^^xsd:string ;
+    lily:seriesName "ネイリング"@ja, "Nægling"@en ;
+    schema:name "ネイリング"@ja, "Nægling"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Funada_Ui> ;
+    lily:additionalInformation "B型兵装"@ja ;
+    a lily:Charm ;
+.
+
+<Beagnoth_Seax>
+    schema:productID "GC-19"^^xsd:string ;
+    lily:seriesName "ベアグノズサクス"@ja, "Beagnoth Seax"@en ;
+    schema:name "ベアグノズサクス"@ja, "Beagnoth Seax"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Kawabata_Hotaru> ;
+    lily:additionalInformation "円環の御手保持者向けCHARM"@ja ;
+    a lily:Charm ;
+.
+
+<Failnaught>
+    schema:productID "SC-11"^^xsd:string ;
+    lily:seriesName "フェイルノート"@ja, "Failnaught"@en ;
+    schema:name "フェイルノート"@ja, "Failnaught"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Camelot_Castle> ;
+    lily:user <Kozue_West> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Hildr>
+    schema:productID "DC-07"^^xsd:string ;
+    lily:seriesName "ヒルドル"@ja, "Hildr"@en ;
+    schema:name "ヒルドル"@ja, "Hildr"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Igusa_Subaru> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Gray_Side>
+    schema:productID "GC-10"^^xsd:string ;
+    lily:seriesName "グラーシーザ"@ja, "Grásiða"@en ;
+    schema:name "グラーシーザ"@ja, "Grásiða"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Fujita_Asagao> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Keraunos>
+    schema:productID "SC-14"^^xsd:string ;
+    lily:seriesName "ケラウノス"@ja, "Keraunos"@en ;
+    schema:name "ケラウノス"@ja, "Keraunos"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Vulcanus_Industry> ;
+    lily:user <Imamura_Yukari> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Futsu_No_Mitama>
+    schema:productID "AC-26"^^xsd:string ;
+    lily:seriesName "布都御魂"@ja, "Futsu No Mitama"@en ;
+    schema:name "布都御魂"@ja, "Futsu No Mitama"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Amatsu_Heavy_Industry> ;
+    lily:user
+        <Takehisa_Nakaba>,
+        <Tsukioka_Momiji>,
+        <Katsuya_Fuyo>,
+        <Miyazaki_Hikaru> ;
+    lily:hasVariant <Ame_No_Habakiri> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Ame_No_Habakiri>
+    schema:productID "AC-26"^^xsd:string ;
+    lily:seriesName "布都御魂"@ja, "Futsu No Mitama"@en ;
+    schema:name "天羽々斬"@ja, "Ame No Habakiri"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Amatsu_Heavy_Industry> ;
+    lily:user <Tsukioka_Momiji> ;
+    lily:isVariantOf <Futsu_No_Mitama> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Hrotti>
+    schema:productID "AC-29"^^xsd:string ;
+    lily:seriesName "フロッティ"@ja, "Hrotti"@en ;
+    schema:name "フロッティ"@ja, "Hrotti"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Kawamura_Yuzuriha> ;
+    lily:additionalInformation "開発中"@ja ;
+    a lily:Charm ;
+.
+
+<Kuruzzi>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "クルッジ"@ja, "Kuruzzi"@en ;
+    schema:name "クルッジ"@ja, "Kuruzzi"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Hihiirokane_International> ;
+    lily:user
+        <Suzuki_Chinami>,
+        <Masukawa_Uta> ;
+    lily:additionalInformation "テスト運用中"@ja ;
+    a lily:Charm ;
+.
+
+<Caladbolg>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "カラドボルグ"@ja, "Caladbolg"@en ;
+    schema:name "カラドボルグ"@ja, "Caladbolg"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Celticdale> ;
+    lily:user <Hishida_Haru> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Marmyadose>
+    schema:productID "AC-30"^^xsd:string ;
+    lily:seriesName "マルミアドワーズ"@ja, "Marmyadose"@en ;
+    schema:name "マルミアドワーズ"@ja, "Marmyadose"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Vulcanus_Industry> ;
+    lily:user <Endo_Araya> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Fierbois>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "フィエルボワ"@ja, "Fierbois"@en ;
+    schema:name "フィエルボワ"@ja, "Fierbois"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Fukuyama_Jeanne_Sachie> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Adelring>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "エゼルリング"@ja, "Adelring"@en ;
+    schema:name "エゼルリング"@ja, "Adelring"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <GEHENA> ;
+    lily:user <Kuroki_Francisca_Yuria> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Macabuin>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "マカブイン"@ja, "Macabuin"@en ;
+    schema:name "マカブイン"@ja, "Macabuin"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Celticdale> ;
+    lily:user <Ichinomiya_Michaela_Himari> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Precieuse>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "プレシューズ"@ja, "Précieuse"@en ;
+    schema:name "プレシューズ"@ja, "Précieuse"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Grand_Guignol> ;
+    lily:user <Takasuga_Tsukushi> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Ridill>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "リジル"@ja, "Ridill"@en ;
+    schema:name "リジル"@ja, "Ridill"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Takahata_Masaki> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Mistilteinn>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ミストルティン"@ja, "Mistilteinn"@en ;
+    schema:name "ミストルティン"@ja, "Mistilteinn"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Kudo_Sakua> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Dragvandil>
+    schema:productID "AC-12"^^xsd:string ;
+    lily:seriesName "ドラグヴァンディル"@ja, "Drag van dill"@en ;
+    schema:name "ドラグヴァンディル"@ja, "Drag van dill"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Sengo_Yuna> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Eckesachs>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "エッケザックス"@ja, "Eckesachs"@en ;
+    schema:name "エッケザックス"@ja, "Eckesachs"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Senda_Koume> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Ukonvasara>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ウコンバサラ"@ja, "Ukonvasara"@en ;
+    schema:name "ウコンバサラ"@ja, "Ukonvasara"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Linnunrata_Electronics> ;
+    lily:user <Senda_Koume> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Hofud>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ホウズ"@ja, "Hofuð"@en ;
+    schema:name "ホウズ"@ja, "Hofuð"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Okada_Kisara> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Megingjord>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "メギンギョルズ"@ja, "Megingjörð"@en ;
+    schema:name "メギンギョルズ"@ja, "Megingjörð"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Maki_Wakana> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Gambanteinn>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ガンバンテイン"@ja, "Gambanteinn"@en ;
+    schema:name "ガンバンテイン"@ja, "Gambanteinn"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Mozuna_Noa> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Rhongomyniad>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ロンゴミニアド"@ja, "Rhongomyniad"@en ;
+    schema:name "ロンゴミニアド"@ja, "Rhongomyniad"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Takegoshi_Chihana> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Galateia>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ガラテイア"@ja, "Galateia"@en ;
+    schema:name "ガラテイア"@ja, "Galateia"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Vulcanus_Industry> ;
+    lily:user <Hishida_Haru> ;
+    lily:additionalInformation "ダミークリスタルコア搭載"@ja ;
+    lily:additionalInformation "「契約代行システム」実験機"@ja ;
+    a lily:Charm ;
+.
+
+<Ascalon>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "アスカロン"@ja, "Ascalon"@en ;
+    schema:name "アスカロン"@ja, "Ascalon"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Yamanashi_Hibari> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Shura_Vhara>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "シューラ・ヴァラ"@ja, "Shura Vhara"@en ;
+    schema:name "シューラ・ヴァラ"@ja, "Shura Vhara"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Asukai_Tsubasa> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Aparajita>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "アパラージタ"@ja, "Aparajita"@en ;
+    schema:name "アパラージタ"@ja, "Aparajita"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Ichijo_Mizumi> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Ulfberht>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ウルフバート"@ja, "Ulfberht"@en ;
+    schema:name "ウルフバート"@ja, "Ulfberht"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Saigo_Kurena> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Zeroshiki_Kogataki>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "零式甲型器"@ja, "Zeroshiki Kogataki"@en ;
+    schema:name "零式甲型器"@ja, "Zeroshiki Kogataki"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Amatsu_Heavy_Industry> ;
+    lily:user <Amatsu_Marei> ;
+    lily:additionalInformation "先進技術実証機"@ja ;
+    a lily:Charm ;
+.
