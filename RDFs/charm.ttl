@@ -594,7 +594,7 @@
     # schema:productID ""^^xsd:string ;
     lily:seriesName "イペタム"@ja, "Ipetam"@en ;
     schema:name "イペタム"@ja, "Ipetam"@en ;
-    # lily:generation ""^^xsd:decimal ;
+    lily:generation "2"^^xsd:decimal ;
     schema:manufacturer <Amatsu_Heavy_Industry> ;
     lily:user <Egawa_Kusumi> ;
     lily:additionalInformation "開発終了"@ja ;
