@@ -956,6 +956,10 @@
     <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
   </lily:relationship>
   <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Assanaga_Ichigo"/>
+    <lily:additionalInformation xml:lang="ja">友人</lily:additionalInformation>
+  </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
     <lily:resource rdf:resource="Otake_Sunao"/>
     <lily:additionalInformation xml:lang="ja">ライバル視されている</lily:additionalInformation>
   </lily:relationship>

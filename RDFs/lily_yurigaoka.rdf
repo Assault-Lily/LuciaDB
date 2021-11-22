@@ -2012,6 +2012,10 @@
     <lily:resource rdf:resource="Egawa_Kusumi"/>
     <lily:additionalInformation xml:lang="ja">伍人組</lily:additionalInformation>
   </lily:relationship>
+  <lily:relationship rdf:parseType="Resource">
+    <lily:resource rdf:resource="Asanaga_Ichigo"/>
+    <lily:additionalInformation xml:lang="ja">伍人組</lily:additionalInformation>
+  </lily:relationship>
   <lily:cast rdf:parseType="Resource">
     <schema:name xml:lang="ja">広瀬ゆうき</schema:name>
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q20042582"/>
