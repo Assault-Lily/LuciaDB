@@ -1,0 +1,113 @@
+@base <https://lily.fvhp.net/rdf/RDFs/detail/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
+
+<Odaiba_Interception_Taskforce_1>
+    schema:name "御台場迎撃戦第1部隊"@ja, "Odaiba Interception Battle the 1st Task Force"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded true ;
+    # lily:numberOfMembers ""^xsd:integer ;
+    schema:member
+        <Hibino_Waku>,
+        <Sono_Mao>,
+        <Shirai_Yuyu>,
+        <Izumi_Botan>,
+        <Taniguchi_Hijiri>,
+        <Fukuyama_Jeanne_Sachie>,
+        <Kawamura_Yuzuriha>,
+        <Ichinomiya_Michaela_Himari>,
+        <Takegoshi_Chihana> ;
+    lily:submember
+        <Mozuna_Noa> ;
+    a lily:Taskforce ;
+.
+
+<Odaiba_Interception_Taskforce_2>
+    schema:name "御台場迎撃戦第2部隊"@ja, "Odaiba Interception Battle the 2nd Task Force"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded true ;
+    # lily:numberOfMembers ""^xsd:integer ;
+    schema:member
+        <Tejima_Komachi>,
+        <Amano_Soraha>,
+        <Tsukioka_Momiji>,
+        <Hasebe_Touka>,
+        <Amatsu_Marei>,
+        <Sengo_Yuna>,
+        <Altea_Alessandrini>,
+        <Kondo_Misaka>,
+        <Kiko_Totori> ;
+    lily:submember
+        <Seto_Veronica_Ichika> ;
+    a lily:Taskforce ;
+.
+
+<Odaiba_Interception_Taskforce_3>
+    schema:name "御台場迎撃戦第3部隊"@ja, "Odaiba Interception Battle the 3rd Task Force"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded true ;
+    # lily:numberOfMembers ""^xsd:integer ;
+    schema:member
+        <Aoki_Kaho>,
+        <Yokoyama_Azusa>,
+        <Banshoya_Ena>,
+        <Akashi_Aika>,
+        <Watanabe_Akane>,
+        <Nishikawa_Miharu>,
+        <Fujita_Asagao>,
+        <Hishida_Haru>,
+        <Serizawa_Chikaru>,
+        <Tada_Shiera> ;
+    a lily:Taskforce ;
+.
+
+<Odaiba_Interception_Taskforce_4>
+    schema:name "御台場迎撃戦第4部隊"@ja, "Odaiba Interception Battle the 4th Task Force"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded true ;
+    # lily:numberOfMembers ""^xsd:integer ;
+    schema:member
+        <Shinkai_Chikage>,
+        <Saigo_Kurena>,
+        <Imagawa_Homare>,
+        <Kuroki_Francisca_Yuria>,
+        <Yamanashi_Hibari>,
+        <Takehisa_Nakaba>,
+        <Kawanabe_Nazuna>,
+        <Tiuccia_Paumgartner>,
+        <Hirose_Minato>,
+        <Soga_Suzuna> ;
+    # schema:member <Liearidel_Eschenbach> ;
+    a lily:Taskforce ;
+.
+
+<Odaiba_Interception_Taskforce_5>
+    schema:name "御台場迎撃戦第5部隊"@ja, "Odaiba Interception Battle the 5th Task Force"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded true ;
+    # lily:numberOfMembers ""^xsd:integer ;
+    schema:member
+        <Senda_Koume>,
+        <Yoshimura_Thi_Mai>,
+        <Kawabata_Hotaru>,
+        <Tono_Natsuki>,
+        <Sasaki_Yasuna>,
+        <Osumi_Azuki>,
+        <Noguchi_Shinano>,
+        <Miyamoto_Komuku>,
+        <Danzuka_Erisa> ;
+    a lily:Taskforce ;
+.
+
+### シエルリント女学薗
+
+<Schwarzes_Kreuz_Madec>
+    schema:name "黒十字マディック隊"@ja, "Schwarzes Kreuz Madec Corps"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:numberOfMembers ""^xsd:integer ;
+    schema:member
+        <Michikawa_Miaki> ;
+    a lily:Taskforce
+.
