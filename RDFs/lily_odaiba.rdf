@@ -1567,6 +1567,7 @@
   <schema:birthPlace xml:lang="ja">東京都</schema:birthPlace>
   <schema:birthPlace xml:lang="en">Tokyo</schema:birthPlace>
   <lily:favorite xml:lang="ja">フクロウ</lily:favorite>
+  <lily:favorite xml:lang="ja">あんこう鍋</lily:favorite>
   <!-- <lily:notGood xml:lang="ja"></lily:notGood> -->
   <!-- <lily:hobby_talent xml:lang="ja"></lily:hobby_talent> -->
   <!-- <lily:skillerVal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></lily:skillerVal> -->
