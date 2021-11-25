@@ -7,7 +7,7 @@
     schema:name "御台場迎撃戦第1部隊"@ja, "Odaiba Interception Battle the 1st Task Force"@en ;
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded true ;
-    # lily:numberOfMembers ""^xsd:integer ;
+    # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Hibino_Waku>,
         <Sono_Mao>,
@@ -27,7 +27,7 @@
     schema:name "御台場迎撃戦第2部隊"@ja, "Odaiba Interception Battle the 2nd Task Force"@en ;
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded true ;
-    # lily:numberOfMembers ""^xsd:integer ;
+    # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Tejima_Komachi>,
         <Amano_Soraha>,
@@ -47,7 +47,7 @@
     schema:name "御台場迎撃戦第3部隊"@ja, "Odaiba Interception Battle the 3rd Task Force"@en ;
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded true ;
-    # lily:numberOfMembers ""^xsd:integer ;
+    # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Aoki_Kaho>,
         <Yokoyama_Azusa>,
@@ -66,7 +66,7 @@
     schema:name "御台場迎撃戦第4部隊"@ja, "Odaiba Interception Battle the 4th Task Force"@en ;
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded true ;
-    # lily:numberOfMembers ""^xsd:integer ;
+    # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Shinkai_Chikage>,
         <Saigo_Kurena>,
@@ -86,7 +86,7 @@
     schema:name "御台場迎撃戦第5部隊"@ja, "Odaiba Interception Battle the 5th Task Force"@en ;
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded true ;
-    # lily:numberOfMembers ""^xsd:integer ;
+    # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Senda_Koume>,
         <Yoshimura_Thi_Mai>,
@@ -106,7 +106,7 @@
     schema:name "黒十字マディック隊"@ja, "Schwarzes Kreuz Madec Corps"@en ;
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded false ;
-    # lily:numberOfMembers ""^xsd:integer ;
+    # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Michikawa_Miaki> ;
     a lily:Taskforce
