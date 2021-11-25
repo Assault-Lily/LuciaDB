@@ -1,0 +1,433 @@
+@base <https://lily.fvhp.net/rdf/RDFs/detail/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
+
+<Kon_Kanaho>
+    rdfs:label "今叶星"^^xsd:string ;
+    schema:familyName "今"@ja, "Kon"@en ;
+    lily:familyNameKana "こん"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "叶星"@ja, "Kanaho"@en ;
+    lily:givenNameKana "かなほ"@ja ;
+    schema:name "今叶星"@ja, "Kon Kanaho"@en ;
+    lily:anotherName "グラン・エプレの双璧"@ja ;
+    foaf:age "16"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    schema:birthDate "--10-31"^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    lily:bloodType "A"^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    lily:color "F6E067"^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    lily:favorite
+        "果物"@ja,
+        "紅茶"@ja ;
+    lily:notGood
+        "辛いもの"@ja,
+        "カエル"@ja,
+        "ナマコ"@ja ;
+    lily:hobby_talent
+        "焼き菓子作り"@ja,
+        "ガーデニング"@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "レジスタ"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Dainsleif_Carbin> ;
+        lily:usedIn "舞台LoG"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Claiomh_Solais> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        lily:additionalInformation "量産先行機"@ja ;
+    ] ;
+    lily:garden "神庭女子藝術高校"^^xsd:string ;
+    lily:gardenDepartment "造園科"^^xsd:string ;
+    lily:grade "11"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Gran_Eple> ;
+    lily:legionJobTitle "隊長"@ja ;
+    lily:position
+        "TZ"^^xsd:string,
+        "BZ"^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Miyagawa_Takane> ;
+        lily:additionalInformation "幼馴染"@ja ;
+    ] ;
+    lily:cast [
+        schema:name "前田佳織里"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+        lily:performIn
+            <League_of_Gardens>,
+            <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Lily ;
+.
+
+<Miyagawa_Takane>
+    rdfs:label "宮川高嶺"^^xsd:string ;
+    schema:familyName "宮川"@ja, "Miyagawa"@en ;
+    lily:familyNameKana "みやがわ"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "高嶺"@ja, "Takane"@en ;
+    lily:givenNameKana "たかね"@ja ;
+    schema:name "宮川高嶺"@ja, "Miyagawa Takane"@en ;
+    lily:anotherName "グラン・エプレの双璧"@ja ;
+    foaf:age "16"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    schema:birthDate "--05-21"^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    lily:bloodType "O"^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    lily:color "D193EB"^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    lily:favorite
+        "叶星の焼いたタルト"@ja,
+        "焼き菓子"@ja ;
+    lily:notGood
+        "ニンジン"@ja,
+        "朝起きること"@ja ;
+    lily:hobby_talent
+        "フィルムカメラ"@ja,
+        "紅茶を淹れること"@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Risanautr> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        lily:additionalInformation "試作機"@ja ;
+    ] ;
+    lily:garden "神庭女子藝術高校"^^xsd:string ;
+    lily:gardenDepartment "造園科"^^xsd:string ;
+    lily:grade "11"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Gran_Eple> ;
+    # lily:legionJobTitle ""@ja ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Kon_Kanaho> ;
+        lily:additionalInformation "幼馴染"@ja ;
+    ] ;
+    lily:cast [
+        schema:name "礒部花凜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q18990383>,
+            <http://ja.dbpedia.org/resource/礒部花凜> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Lily ;
+.
+
+<Toki_Kureha>
+    rdfs:label "土岐紅巴"^^xsd:string ;
+    schema:familyName "土岐"@ja, "Toki"@en ;
+    lily:familyNameKana "とき"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "紅巴"@ja, "Kureha"@en ;
+    lily:givenNameKana "くれは"@ja ;
+    schema:name "土岐紅巴"@ja, "Toki Kureha"@en ;
+    # lily:anotherName ""@ja ;
+    foaf:age "15"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    schema:birthDate "--06-08"^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    lily:bloodType "A"^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    lily:color "81E6CB"^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    lily:favorite
+        "麻婆豆腐"@ja,
+        "辛いもの"@ja ;
+    lily:notGood "かき氷"@ja ;
+    lily:hobby_talent
+        "ひとりカラオケ"@ja,
+        "リリィ関連の情報誌を読むこと"@ja,
+        "擬似姉妹契約者の絡みを見ること"@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "テスタメント"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Sugaar> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    lily:garden "神庭女子藝術高校"^^xsd:string ;
+    lily:gardenDepartment "音楽科（声楽）"^^xsd:string ;
+    lily:grade "10"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Gran_Eple> ;
+    # lily:legionJobTitle ""@ja ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Abiko_Hiromi> ;
+        lily:additionalInformation "音楽科（声楽）の先輩"@ja ;
+    ] ;
+    lily:cast [
+        schema:name "東城咲耶子"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q20041619>,
+            <http://ja.dbpedia.org/resource/東城咲耶子> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Lily ;
+.
+
+<Tamba_Akari>
+    rdfs:label "丹羽灯莉"^^xsd:string ;
+    schema:familyName "丹羽"@ja, "Tamba"@en ;
+    lily:familyNameKana "たんば"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "灯莉"@ja, "Akari"@en ;
+    lily:givenNameKana "あかり"@ja ;
+    schema:name "丹羽灯莉"@ja, "Tamba Akari"@en ;
+    # lily:anotherName ""@ja ;
+    foaf:age "15"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    schema:birthDate "--09-24"^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    lily:bloodType "AB"^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    lily:color "86E6F2"^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    lily:favorite
+        "マカロン"@ja,
+        "ユニコーン"@ja ;
+    lily:notGood "梅干し"@ja ;
+    lily:hobby_talent
+        "お絵かき"@ja,
+        "ものづくり全般"@ja,
+        "ユニコーン探し"@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "天の秤目"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Maltet> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    lily:garden "神庭女子藝術高校"^^xsd:string ;
+    lily:gardenDepartment "美術科（絵画）"^^xsd:string ;
+    lily:grade "10"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Gran_Eple> ;
+    # lily:legionJobTitle ""@ja ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    lily:roomMate <Sadamori_Himeka> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Kozue_West> ;
+        lily:additionalInformation "友人"@ja ;
+    ] ;
+    lily:cast [
+        schema:name "進藤あまね"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Lily ;
+.
+
+<Sadamori_Himeka>
+    rdfs:label "定盛姫歌"^^xsd:string ;
+    schema:familyName "定盛"@ja, "Sadamori"@en ;
+    lily:familyNameKana "さだもり"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "姫歌"@ja, "Himeka"@en ;
+    lily:givenNameKana "ひめか"@ja ;
+    schema:name "定盛姫歌"@ja, "Sadamori Himeka"@en ;
+    # lily:anotherName ""@ja ;
+    foaf:age "15"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    schema:birthDate "--03-03"^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    lily:bloodType "B"^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    lily:color "F87F9F"^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    lily:favorite
+        "イチゴのショートケーキ"@ja,
+        "おにぎり"@ja ;
+    lily:notGood
+        "ピータン"@ja,
+        "雨"@ja ;
+    lily:hobby_talent
+        "アイドルリリィ活動"@ja,
+        "SNS更新"@ja,
+        "歌うこと"@ja,
+        "装飾"@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "この世の理"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Durandal> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    lily:garden "神庭女子藝術高校"^^xsd:string ;
+    lily:gardenDepartment "音楽科（声楽）"^^xsd:string ;
+    lily:grade "10"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Gran_Eple> ;
+    lily:legionJobTitle "副隊長"@ja ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    lily:roomMate <Tamba_Akari> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Kuo_Shenlin> ;
+        lily:additionalInformation "ライバル視"@ja ;
+    ], [
+        lily:resource <Abiko_Hiromi> ;
+        lily:additionalInformation "音楽科（声楽）の先輩"@ja ;
+    ] ;
+    lily:cast [
+        schema:name "富田美憂"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q22131362>,
+            <http://ja.dbpedia.org/resource/富田美憂> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Lily ;
+.
+
+<Abiko_Hiromi>
+    rdfs:label "安孫子比呂美"^^xsd:string ;
+    schema:familyName "安孫子"@ja, "Abiko"@en ;
+    lily:familyNameKana "あびこ"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "比呂美"@ja, "Hiromi"@en ;
+    lily:givenNameKana "ひろみ"@ja ;
+    schema:name "安孫子比呂美"@ja, "Abiko Hiromi"@en ;
+    # lily:anotherName ""@ja ;
+    foaf:age "17"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "神庭女子藝術高校"^^xsd:string ;
+    lily:gardenDepartment "音楽科（声楽）"^^xsd:string ;
+    lily:grade "12"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""@ja ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Toki_Kureha> ;
+        lily:additionalInformation "音楽科（声楽）の後輩"@ja ;
+    ], [
+        lily:resource <Sadamori_Himeka> ;
+        lily:additionalInformation "音楽科（声楽）の後輩"@ja ;
+    ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
