@@ -14,6 +14,7 @@
     schema:givenName "火刈"@ja, "Hikaru"@en ;
     lily:givenNameKana "ひかる"@ja ;
     schema:name "宮崎火刈"@ja, "Miyazaki Hikaru"@en ;
+    lily:nameKana "みやざきひかる"@ja ;
     lily:anotherName "剣聖将軍"@ja ;
     foaf:age "17"^^xsd:integer ;
     schema:height "164.0"^^xsd:float ;
@@ -97,6 +98,7 @@
     schema:givenName "詩穂"@ja, "Shiho"@en ;
     lily:givenNameKana "しほ"@ja ;
     schema:name "岡田詩穂"@ja, "Okada Shiho"@en ;
+    lily:nameKana "おかだしほ"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -158,6 +160,7 @@
     schema:givenName "芙蓉"@ja, "Fuyo"@en ;
     lily:givenNameKana "ふよう"@ja ;
     schema:name "勝谷芙蓉"@ja, "Katsuya Fuyo"@en ;
+    lily:nameKana "かつやふよう"@ja ;
     lily:anotherName "白焰遣い"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "150.0"^^xsd:float ;
@@ -230,6 +233,7 @@
     schema:givenName "夕奏"@ja, "Yukana"@en ;
     lily:givenNameKana "ゆかな"@ja ;
     schema:name "町山夕奏"@ja, "Machiyama Yukana"@en ;
+    lily:nameKana "まちやまゆかな"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;

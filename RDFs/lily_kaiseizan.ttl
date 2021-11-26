@@ -14,6 +14,7 @@
     schema:givenName "正奈"@ja, "Seina"@en ;
     lily:givenNameKana "せいな"@ja ;
     schema:name "種田正奈"@ja, "Taneda Seina"@en ;
+    lily:nameKana "たねだせいな"@ja ;
     lily:anotherName "赤き牝鹿"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "161.0"^^xsd:float ;
@@ -81,6 +82,7 @@
     schema:givenName "花音"@ja, "Kanon"@en ;
     lily:givenNameKana "かのん"@ja ;
     schema:name "夢野花音"@ja, "Yumeno Kanon"@en ;
+    lily:nameKana "ゆめのかのん"@ja ;
     lily:anotherName "碧き聖柱"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "163.0"^^xsd:float ;

@@ -16,6 +16,7 @@
     schema:givenName "麻嶺"@ja, "Marei"@en ;
     lily:givenNameKana "まれい"@ja ;
     schema:name "天津麻嶺"@ja, "Amatsu Marei"@en ;
+    lily:nameKana "あまつまれい"@ja ;
     lily:anotherName "CHARMマイスター"@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -111,6 +112,7 @@
     schema:givenName "夕七"@ja, "Yuna"@en ;
     lily:givenNameKana "ゆうな"@ja ;
     schema:name "千子夕七"@ja, "Sengo Yuna"@en ;
+    lily:nameKana "せんごゆうな"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -184,6 +186,7 @@
     schema:givenName "水晶"@ja, "Miki"@en ;
     lily:givenNameKana "みき"@ja ;
     schema:name "隅谷水晶"@ja, "Sumitani Miki"@en ;
+    lily:nameKana "すみたにみき"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -253,6 +256,7 @@
     schema:givenName "椰々"@ja, "Yaya"@en ;
     lily:givenNameKana "やや"@ja ;
     schema:name "榎本椰々"@ja, "Enomoto Yaya"@en ;
+    lily:nameKana "えのもとやや"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -316,6 +320,7 @@
     schema:givenName "瑚桃"@ja, "Komomo"@en ;
     lily:givenNameKana "こもも"@ja ;
     schema:name "榎本瑚桃"@ja, "Enomoto Komomo"@en ;
+    lily:nameKana "えのもとこもも"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -389,6 +394,7 @@
     schema:givenName "菜乃葉"@ja, "Nanoha"@en ;
     lily:givenNameKana "なのは"@ja ;
     schema:name "吉原菜乃葉"@ja, "Yoshihara Nanoha"@en ;
+    lily:nameKana "よしはらなのは"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -468,6 +474,7 @@
     schema:givenName "風舞姫"@ja, "Fubuki"@en ;
     lily:givenNameKana "ふぶき"@ja ;
     schema:name "宮入風舞姫"@ja, "Miyairi Fubuki"@en ;
+    lily:nameKana "みやいりふぶき"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "17"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -534,6 +541,7 @@
     schema:givenName "花心"@ja, "Hanako"@en ;
     lily:givenNameKana "はなこ"@ja ;
     schema:name "天田花心"@ja, "Amata Hanako"@en ;
+    lily:nameKana "あまたはなこ"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -597,6 +605,7 @@
     schema:givenName "吏園"@ja, "Rion"@en ;
     lily:givenNameKana "りおん"@ja ;
     schema:name "今泉吏園"@ja, "Imaizumi Rion"@en ;
+    lily:nameKana "いまいずみりおん"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;

@@ -14,6 +14,7 @@
     schema:givenName "苺"@ja, "Ichigo"@en ;
     lily:givenNameKana "いちご"@ja ;
     schema:name "朝永苺"@ja, "Asanaga Ichigo"@en ;
+    lily:nameKana "あさながいちご"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -88,6 +89,7 @@
     schema:givenName "瑛深"@ja, "Eishin"@en ;
     lily:givenNameKana "えいしん"@ja ;
     schema:name "小柴瑛深"@ja, "Koshiba Eishin"@en ;
+    lily:nameKana "こしばえいしん"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -152,6 +154,7 @@
     schema:givenName "雅樂"@ja, "Uta"@en ;
     lily:givenNameKana "うた"@ja ;
     schema:name "益川雅樂"@ja, "Masukawa Uta"@en ;
+    lily:nameKana "ますかわうた"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -220,6 +223,7 @@
     schema:givenName "満月"@ja ; #, ""@en ;
     # lily:givenNameKana ""@ja ;
     schema:name "湯川満月"@ja ; #, ""@en ;
+    # lily:nameKana ""@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;

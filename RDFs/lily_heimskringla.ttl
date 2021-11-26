@@ -14,6 +14,7 @@
     schema:givenName "瑞希"@ja, "Ruixi"@en ;
     lily:givenNameKana "るーしー"@ja ;
     schema:name "王瑞希"@ja, "Wang Ruixi"@en ;
+    lily:nameKana "わんるーしー"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -86,6 +87,7 @@
     schema:givenName "莉芬"@ja, "Lifen"@en ;
     lily:givenNameKana "りーふぇん"@ja ;
     schema:name "王莉芬"@ja, "Wang Lifen"@en ;
+    lily:nameKana "わんりーふぇん"@ja ;
     lily:anotherName "王家最後の秘密兵器"@ja ;
     foaf:age "14"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -150,6 +152,7 @@
     schema:givenName "此花"@ja, "Konoka"@en ;
     lily:givenNameKana "このか"@ja ;
     schema:name "此花・エストベリ"@ja, "Konoka Östberg"@en ;
+    lily:nameKana "このか・えすとべり"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -213,6 +216,7 @@
     schema:givenName "愛永"@ja, "Nana"@en ;
     lily:givenNameKana "なな"@ja ;
     schema:name "愛永・ウツソン"@ja, "Nana Utzon"@en ;
+    lily:nameKana "なな・うつそん"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -277,6 +281,7 @@
     schema:givenName "オイフェミア"@ja, "Euphemia"@en ;
     lily:givenNameKana "おいふぇみあ"@ja ;
     schema:name "オイフェミア・フェーン"@ja, "Euphemia Fehn"@en ;
+    lily:nameKana "おいふぇみあ・ふぇーん"@ja ;
     lily:anotherName "アイスドール"@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -338,6 +343,7 @@
     schema:givenName "ターニャ"@ja, "Tanja"@en ;
     lily:givenNameKana "たーにゃ"@ja ;
     schema:name "ターニャ・ラーセン"@ja, "Tanja Larsen"@en ;
+    lily:nameKana "たーにゃ・らーせん"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -399,6 +405,7 @@
     schema:givenName "ラケル"@ja, "Raquel"@en ;
     lily:givenNameKana "らける"@ja ;
     schema:name "ラケル・スプレッケルセン"@ja, "Raquel Spreckelsen"@en ;
+    lily:nameKana "らける・すぷれっけるせん"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;

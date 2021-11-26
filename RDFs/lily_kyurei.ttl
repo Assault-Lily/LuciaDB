@@ -14,6 +14,7 @@
     schema:givenName "檜"@ja, "Hinoki"@en ;
     lily:givenNameKana "ひのき"@ja ;
     schema:name "海田檜"@ja, "Kaita Hinoki"@en ;
+    lily:nameKana "かいたひのき"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;

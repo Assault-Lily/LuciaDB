@@ -14,6 +14,7 @@
     schema:givenName "叶星"@ja, "Kanaho"@en ;
     lily:givenNameKana "かなほ"@ja ;
     schema:name "今叶星"@ja, "Kon Kanaho"@en ;
+    lily:nameKana "こんかなほ"@ja ;
     lily:anotherName "グラン・エプレの双璧"@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -92,6 +93,7 @@
     schema:givenName "高嶺"@ja, "Takane"@en ;
     lily:givenNameKana "たかね"@ja ;
     schema:name "宮川高嶺"@ja, "Miyagawa Takane"@en ;
+    lily:nameKana "みやがわたかね"@ja ;
     lily:anotherName "グラン・エプレの双璧"@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -163,6 +165,7 @@
     schema:givenName "紅巴"@ja, "Kureha"@en ;
     lily:givenNameKana "くれは"@ja ;
     schema:name "土岐紅巴"@ja, "Toki Kureha"@en ;
+    lily:nameKana "ときくれは"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -233,6 +236,7 @@
     schema:givenName "灯莉"@ja, "Akari"@en ;
     lily:givenNameKana "あかり"@ja ;
     schema:name "丹羽灯莉"@ja, "Tamba Akari"@en ;
+    lily:nameKana "たんばあかり"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -301,6 +305,7 @@
     schema:givenName "姫歌"@ja, "Himeka"@en ;
     lily:givenNameKana "ひめか"@ja ;
     schema:name "定盛姫歌"@ja, "Sadamori Himeka"@en ;
+    lily:nameKana "さだもりひめか"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -377,6 +382,7 @@
     schema:givenName "比呂美"@ja, "Hiromi"@en ;
     lily:givenNameKana "ひろみ"@ja ;
     schema:name "安孫子比呂美"@ja, "Abiko Hiromi"@en ;
+    lily:nameKana "あびこひろみ"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "17"^^xsd:integer ;
     # schema:height ""^^xsd:float ;

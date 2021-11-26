@@ -16,6 +16,7 @@
     schema:givenName "遊糸"@ja, "Yui"@en ;
     lily:givenNameKana "ゆい"@ja ;
     schema:name "松永遊糸"@ja, "Matsunaga Yui"@en ;
+    lily:nameKana "まつながゆい"@ja ;
     lily:anotherName "妖艶なる水の女神 (自称)"@ja, "策謀と奸計に優れた傾国の悪女 (自称)"@ja ;
     foaf:age "17"^^xsd:integer ;
     schema:height "162.0"^^xsd:float ;
@@ -95,6 +96,7 @@
     schema:givenName "葵"@ja, "Aoi"@en ;
     lily:givenNameKana "あおい"@ja ;
     schema:name "石川葵"@ja, "Ishikawa Aoi"@en ;
+    lily:nameKana "いしかわあおい"@ja ;
     lily:anotherName "蒼き皇女"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "152.0"^^xsd:float ;
@@ -204,6 +206,7 @@
     schema:givenName "紫苑"@ja, "Shion"@en ;
     lily:givenNameKana "しおん"@ja ;
     schema:name "片倉紫苑"@ja, "Katakura Shion"@en ;
+    lily:nameKana "かたくらしおん"@ja ;
     lily:anotherName "紫焔の雷帝"@ja ;
     foaf:age "16"^^xsd:integer ;
     schema:height "168.0"^^xsd:float ;
@@ -265,6 +268,7 @@
     schema:givenName "降瑠"@ja, "Furiru"@en ;
     lily:givenNameKana "ふりる"@ja ;
     schema:name "伊達降瑠"@ja, "Date Furiru"@en ;
+    lily:nameKana "だてふりる"@ja ;
     lily:anotherName "金獅子"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "154.0"^^xsd:float ;
@@ -326,6 +330,7 @@
     schema:givenName "鈴瑪"@ja ; #, ""@en ;
     # lily:givenNameKana ""@ja ;
     schema:name "結城鈴瑪"@ja ; #, ""@en ;
+    # lily:nameKana ""@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -387,6 +392,7 @@
     schema:givenName "潤"@ja ; #, ""@en ;
     # lily:givenNameKana ""@ja ;
     schema:name "小早川潤"@ja ; #, ""@en ;
+    # lily:nameKana ""@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -448,6 +454,7 @@
     schema:givenName "初芽"@ja ; #, ""@en ;
     # lily:givenNameKana ""@ja ;
     schema:name "九鬼初芽"@ja ; #, ""@en ;
+    # lily:nameKana ""@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -509,6 +516,7 @@
     schema:givenName "美羅"@ja ; #, ""@en ;
     # lily:givenNameKana ""@ja ;
     schema:name "滝川美羅"@ja ; #, ""@en ;
+    # lily:nameKana ""@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -572,6 +580,7 @@
     schema:givenName "苗陽"@ja, "Naehi"@en ;
     lily:givenNameKana "なえひ"@ja ;
     schema:name "伊東苗陽"@ja, "Ito Naehi"@en ;
+    lily:nameKana "いとうなえひ"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -637,6 +646,7 @@
     schema:givenName "梨絵乃"@ja, "Rieno"@en ;
     lily:givenNameKana "りえの"@ja ;
     schema:name "立花梨絵乃"@ja, "Tachibana Rieno"@en ;
+    lily:nameKana "たちばなりえの"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;

@@ -14,6 +14,7 @@
     schema:givenName "ほのほ"@ja, "Honoho"@en ;
     lily:givenNameKana "ほのほ"@ja ;
     schema:name "与謝野ほのほ"@ja, "Yosano Honoho"@en ;
+    lily:nameKana "よさのほのほ"@ja ;
     # lily:anotherName ""@ja ;
     lily:dharmaName "焔蘭"@ja ;
     lily:dharmaNameKana "えんらん"@ja ;
@@ -77,6 +78,7 @@
     schema:givenName "調"@ja, "Shirabe"@en ;
     lily:givenNameKana "しらべ"@ja ;
     schema:name "茅野調"@ja, "Chino Shirabe"@en ;
+    lily:nameKana "ちのしらべ"@ja ;
     # lily:anotherName ""@ja ;
     lily:dharmaName "澄調"@ja ;
     lily:dharmaNameKana "ちょうちょう"@ja ;
@@ -140,6 +142,7 @@
     schema:givenName "香流"@ja, "Kaoru"@en ;
     lily:givenNameKana "かおる"@ja ;
     schema:name "西園寺香流"@ja, "Saionji Kaoru"@en ;
+    lily:nameKana "さいおんじかおる"@ja ;
     # lily:anotherName ""@ja ;
     lily:dharmaName "香流"@ja ;
     lily:dharmaNameKana "こうりゅう"@ja ;
@@ -203,6 +206,7 @@
     schema:givenName "甘魅"@ja, "Amami"@en ;
     lily:givenNameKana "あまみ"@ja ;
     schema:name "紀甘魅"@ja, "Kino Amami"@en ;
+    lily:nameKana "きのあまみ"@ja ;
     # lily:anotherName ""@ja ;
     lily:dharmaName "甘露"@ja ;
     lily:dharmaNameKana "かんろ"@ja ;
@@ -266,6 +270,7 @@
     schema:givenName "アリューニャ"@ja, "Aliunia"@en ;
     lily:givenNameKana "ありゅーにゃ"@ja ;
     schema:name "アリューニャ・レスコー・沖"@ja, "Aliunia Lesko Oki"@en ;
+    lily:nameKana "ありゅーにゃ・れすこー・おき"@ja ;
     # lily:anotherName ""@ja ;
     lily:dharmaName "愛龍"@ja ;
     lily:dharmaNameKana "あいりゅう"@ja ;
@@ -329,6 +334,7 @@
     schema:givenName "麻子"@ja, "Mako"@en ;
     lily:givenNameKana "まこ"@ja ;
     schema:name "春道麻子"@ja, "Harumichi Mako"@en ;
+    lily:nameKana "はるみちまこ"@ja ;
     # lily:anotherName ""@ja ;
     lily:dharmaName "麻真"@ja ;
     lily:dharmaNameKana "ましん"@ja ;
@@ -392,6 +398,7 @@
     schema:givenName "翼彩"@ja, "Tsubasa"@en ;
     lily:givenNameKana "つばさ"@ja ;
     schema:name "飛鳥井翼彩"@ja, "Asukai Tsubasa"@en ;
+    lily:nameKana "あすかいつばさ"@ja ;
     # lily:anotherName ""@ja ;
     lily:dharmaName "翼彩"@ja ;
     lily:dharmaNameKana "よくさい"@ja ;
@@ -455,6 +462,7 @@
     schema:givenName "蒼泉"@ja, "Mizumi"@en ;
     lily:givenNameKana "みずみ"@ja ;
     schema:name "一条蒼泉"@ja, "Ichijo Mizumi"@en ;
+    lily:nameKana "いちじょうみずみ"@ja ;
     # lily:anotherName ""@ja ;
     lily:dharmaName "蒼泉"@ja ;
     lily:dharmaNameKana "そうせん"@ja ;
@@ -518,6 +526,7 @@
     schema:givenName "輝凛"@ja, "Kirari"@en ;
     lily:givenNameKana "きらり"@ja ;
     schema:name "壬生輝凛"@ja, "Mibu Kirari"@en ;
+    lily:nameKana "みぶきらり"@ja ;
     # lily:anotherName ""@ja ;
     lily:dharmaName "輝凛"@ja ;
     lily:dharmaNameKana "きりん"@ja ;

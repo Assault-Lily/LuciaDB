@@ -14,6 +14,7 @@
     schema:givenName "文妙"@ja, "Futae"@en ;
     lily:givenNameKana "ふたえ"@ja ;
     schema:name "北野文妙"@ja, "Kitano Futae"@en ;
+    lily:nameKana "きたのふたえ"@ja ;
     lily:anotherName "小さな女王"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "148.0"^^xsd:float ;
@@ -78,6 +79,7 @@
     schema:givenName "玲奈"@ja, "Reina"@en ;
     lily:givenNameKana "れいな"@ja ;
     schema:name "久富木玲奈"@ja, "Kubuki Reina"@en ;
+    lily:nameKana "くぶきれいな"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -139,6 +141,7 @@
     schema:givenName "聖咲"@ja, "Masaki"@en ;
     lily:givenNameKana "まさき"@ja ;
     schema:name "高畑聖咲"@ja, "Takahata Masaki"@en ;
+    lily:nameKana "たかはたまさき"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -209,6 +212,7 @@
     schema:givenName "千景"@ja, "Chikage"@en ;
     lily:givenNameKana "ちかげ"@ja ;
     schema:name "新海千景"@ja, "Shinkai Chikage"@en ;
+    lily:nameKana "しんかいちかげ"@ja ;
     lily:anotherName "アルケミラ最後の希望"@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -273,6 +277,7 @@
     schema:givenName "一二三"@ja, "Hifumi"@en ;
     lily:givenNameKana "ひふみ"@ja ;
     schema:name "小津一二三"@ja, "Ozu Hifumi"@en ;
+    lily:nameKana "おづひふみ"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -334,6 +339,7 @@
     schema:givenName "桜織"@ja, "Saori"@en ;
     lily:givenNameKana "さおり"@ja ;
     schema:name "伊丹桜織"@ja, "Itami Saori"@en ;
+    lily:nameKana "いたみさおり"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;

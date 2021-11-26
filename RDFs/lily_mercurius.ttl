@@ -14,6 +14,7 @@
     schema:givenName "ティシア"@ja, "Tiuccia"@en ;
     lily:givenNameKana "てぃしあ"@ja ;
     schema:name "ティシア・パウムガルトナー"@ja, "Tiuccia Paumgartner"@en ;
+    lily:nameKana "てぃしあ・ぱうむがるとなー"@ja ;
     lily:anotherName "メルクリウスの聖帝（自称）"@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -81,6 +82,7 @@
     schema:givenName "カタリナ"@ja, "Catalina"@en ;
     lily:givenNameKana "かたりな"@ja ;
     schema:name "カタリナ・アセンシオ"@ja, "Catalina Asensio"@en ;
+    lily:nameKana "かたりな・あせんしお"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -142,6 +144,7 @@
     schema:givenName "ナターシャ"@ja, "Natasha"@en ;
     lily:givenNameKana "なたーしゃ"@ja ;
     schema:name "ナターシャ・メッテル"@ja, "Natasha Metter"@en ;
+    lily:nameKana "なたーしゃ・めってる"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -203,6 +206,7 @@
     schema:givenName "ルルディス"@ja, "Louloudis"@en ;
     lily:givenNameKana "るるでぃす"@ja ;
     schema:name "ルルディス・ブロムシュテット"@ja, "Louloudis Bromstedt"@en ;
+    lily:nameKana "るるでぃす・ぶろむしゅてっと"@ja ;
     lily:anotherName "鬼軍曹"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "165.0"^^xsd:float ;
@@ -287,6 +291,7 @@
     schema:givenName "チェミル"@ja, "Chemir"@en ;
     lily:givenNameKana "ちぇみる"@ja ;
     schema:name "チェミル・フリードハイム"@ja, "Chemir Friedheim"@en ;
+    lily:nameKana "ちぇみる・ふりーどはいむ"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "155.0"^^xsd:float ;
@@ -363,6 +368,7 @@
     schema:givenName "レミエ"@ja, "Lemie"@en ;
     lily:givenNameKana "れみえ"@ja ;
     schema:name "レミエ・アレッサンドリーニ"@ja, "Lemie Alessandrini"@en ;
+    lily:nameKana "れみえ・あれっさんどりーに"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -424,6 +430,7 @@
     schema:givenName "アルテア"@ja, "Altea"@en ;
     lily:givenNameKana "あるてあ"@ja ;
     schema:name "アルテア・アレッサンドリーニ"@ja, "Altea Alessandrini"@en ;
+    lily:nameKana "あるてあ・あれっさんどりーに"@ja ;
     lily:anotherName "メルクリウスの暴君"@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -491,6 +498,7 @@
     schema:givenName "ステラ"@ja ; #, ""@en ;
     lily:givenNameKana "すてら"@ja ;
     schema:name "ステラ・エル・サッソン"@ja ; #, ""@en ;
+    lily:nameKana "すてら・える・さっそん"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -552,6 +560,7 @@
     schema:givenName "プルム"@ja, "Pulmu"@en ;
     lily:givenNameKana "ぷるむ"@ja ;
     schema:name "プルム・シベリウス"@ja, "Pulmu Sibelius"@en ;
+    lily:nameKana "ぷるむ・しべりうす"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
