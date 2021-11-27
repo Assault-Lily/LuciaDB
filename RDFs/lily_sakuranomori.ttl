@@ -1,0 +1,289 @@
+@base <https://lily.fvhp.net/rdf/RDFs/detail/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
+
+<Miyazaki_Hikaru>
+    rdfs:label "宮崎火刈"^^xsd:string ;
+    schema:familyName "宮崎"@ja, "Miyazaki"@en ;
+    lily:familyNameKana "みやざき"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "火刈"@ja, "Hikaru"@en ;
+    lily:givenNameKana "ひかる"@ja ;
+    schema:name "宮崎火刈"@ja, "Miyazaki Hikaru"@en ;
+    lily:nameKana "みやざきひかる"@ja ;
+    lily:anotherName "剣聖将軍"@ja ;
+    foaf:age "17"^^xsd:integer ;
+    schema:height "164.0"^^xsd:float ;
+    schema:weight "54.0"^^xsd:float ;
+    schema:birthDate "--06-09"^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    lily:bloodType "A"^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    lily:favorite
+        "刺し身料理"@ja,
+        "和菓子"@ja ;
+    lily:notGood "虫（一番嫌いなのはハンミョウ）"@ja ;
+    lily:hobby_talent "風景画（和絵具）"@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "この世の理"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Futsu_No_Mitama> ;
+        lily:usedIn "ドール"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    lily:garden "鎌倉府立桜ノ杜女子高等学校"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    lily:grade "12"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    lily:gardenJobTitle "桜ノ杜大番役"@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Okada_Shiho> ;
+        lily:additionalInformation "幼馴染"@ja ;
+    ], [
+        lily:resource <Matsunaga_Yui> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Izue_Shinobu> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Tachibana_Rieno> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Katsuya_Fuyo> ;
+        lily:additionalInformation "目をかけている後輩"@ja ;
+    ], [
+        lily:resource <Ishikawa_Aoi> ;
+        lily:additionalInformation
+            "幼馴染"@ja,
+            "桜華義塾女子幼稚舎時代の弟子"@ja ;
+    ], [
+        lily:resource <Kozue_West> ;
+        lily:additionalInformation "水墨画仲間"@ja ;
+    ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
+
+<Okada_Shiho>
+    rdfs:label "岡田詩穂"^^xsd:string ;
+    schema:familyName "岡田"@ja, "Okada"@en ;
+    lily:familyNameKana "おかだ"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "詩穂"@ja, "Shiho"@en ;
+    lily:givenNameKana "しほ"@ja ;
+    schema:name "岡田詩穂"@ja, "Okada Shiho"@en ;
+    lily:nameKana "おかだしほ"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "鎌倉府立桜ノ杜女子高等学校"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    lily:gardenJobTitle "桜ノ杜神社神司"@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Miyazaki_Hikaru> ;
+        lily:additionalInformation "幼馴染"@ja ;
+    ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
+
+<Katsuya_Fuyo>
+    rdfs:label "勝谷芙蓉"^^xsd:string ;
+    schema:familyName "勝谷"@ja, "Katsuya"@en ;
+    lily:familyNameKana "かつや"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "芙蓉"@ja, "Fuyo"@en ;
+    lily:givenNameKana "ふよう"@ja ;
+    schema:name "勝谷芙蓉"@ja, "Katsuya Fuyo"@en ;
+    lily:nameKana "かつやふよう"@ja ;
+    lily:anotherName "白焰遣い"@ja ;
+    foaf:age "15"^^xsd:integer ;
+    schema:height "150.0"^^xsd:float ;
+    schema:weight "43.0"^^xsd:float ;
+    schema:birthDate "--09-21"^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    lily:bloodType "O"^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    schema:birthPlace "静岡県"@ja, "Shizuoka"@en ;
+    lily:favorite "ナポリタン"@ja ;
+    lily:notGood
+        "しいたけ"@ja,
+        "ピーマン"@ja,
+        "牛乳"@ja ;
+    lily:hobby_talent "音楽鑑賞"@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Futsu_No_Mitama> ;
+        lily:usedIn "ドール"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    lily:garden "鎌倉府立桜ノ杜女子高等学校"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    lily:grade "10"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Miyazaki_Hikaru> ;
+        lily:additionalInformation "仲の良い先輩"@ja ;
+    ], [
+        lily:resource <Machiyama_Yukana> ;
+        lily:additionalInformation
+            "ライバル"@ja,
+            "一緒にレギオンを作る同志となる"@ja ;
+    ], [
+        lily:resource <Ishikawa_Aoi> ;
+        lily:additionalInformation "犬猿の仲"@ja ;
+    ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
+
+<Machiyama_Yukana>
+    rdfs:label "町山夕奏"^^xsd:string ;
+    schema:familyName "町山"@ja, "Machiyama"@en ;
+    lily:familyNameKana "まちやま"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "夕奏"@ja, "Yukana"@en ;
+    lily:givenNameKana "ゆかな"@ja ;
+    schema:name "町山夕奏"@ja, "Machiyama Yukana"@en ;
+    lily:nameKana "まちやまゆかな"@ja ;
+    # lily:anotherName ""@ja ;
+    foaf:age "15"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "ルナティックトランサー"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "鎌倉府立桜ノ杜女子高等学校"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    lily:grade "10"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Katsuya_Fuyo> ;
+        lily:additionalInformation
+            "ライバル"@ja,
+            "一緒にレギオンを作る同志となる"@ja ;
+    ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
