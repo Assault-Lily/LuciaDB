@@ -58,6 +58,7 @@
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
+    lily:rank "1"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
@@ -134,6 +135,7 @@
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
+    lily:rank "47"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
@@ -210,6 +212,7 @@
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
+    lily:rank "13"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
@@ -283,6 +286,7 @@
         lily:additionalInformation "量産先行機"@ja ;
     ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
+    lily:rank "14"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
@@ -359,6 +363,7 @@
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
+    lily:rank "84"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
@@ -428,6 +433,7 @@
     #    lily:additionalInformation ""@ja ;
     # ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
+    lily:rank "2"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
@@ -498,6 +504,7 @@
     #    lily:additionalInformation ""@ja ;
     # ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
+    lily:rank "3"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
@@ -562,6 +569,7 @@
     #    lily:additionalInformation ""@ja ;
     # ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
+    lily:rank "4"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
@@ -629,6 +637,7 @@
     #    lily:additionalInformation ""@ja ;
     # ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
+    lily:rank "5"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
@@ -696,6 +705,7 @@
     #    lily:additionalInformation ""@ja ;
     # ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
+    lily:rank "6"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
@@ -760,6 +770,7 @@
     #    lily:additionalInformation ""@ja ;
     # ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
+    lily:rank "7"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
