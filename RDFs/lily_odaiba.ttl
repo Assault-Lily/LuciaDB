@@ -1228,7 +1228,7 @@
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "生徒会副会長"@ja ;
     lily:legion <Heorot_Saints> ;
-    lily:legionJobTitle "副隊長"^^xsd:string ;
+    lily:legionJobTitle "副隊長"^^xsd:string, "司令塔"^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -1615,7 +1615,7 @@
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "生徒会長"@ja ;
     lily:legion <Heorot_Saints> ;
-    lily:legionJobTitle "隊長"^^xsd:string ;
+    lily:legionJobTitle "隊長"^^xsd:string, "司令塔"^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;

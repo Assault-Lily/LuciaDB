@@ -2611,7 +2611,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Reginleif> ;
-    lily:legionJobTitle "隊長"^^xsd:string ;
+    lily:legionJobTitle "隊長"^^xsd:string, "司令塔"^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -4135,7 +4135,7 @@
     lily:class "櫻組"^^xsd:string ;
     lily:gardenJobTitle "学級委員長"@ja ;
     lily:legion <Lohengrin> ;
-    lily:legionJobTitle "隊長"^^xsd:string ;
+    lily:legionJobTitle "隊長"^^xsd:string, "司令塔"^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -5412,7 +5412,7 @@
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
     lily:class "櫻組"^^xsd:string ;
-    lily:gardenJobTitle "オルトリンデ代行"@ja ;
+    lily:gardenJobTitle "オルトリンデ代行"@ja, "級長連絡会議議長"@ja ;
     lily:legion <Eir> ;
     lily:legionJobTitle "隊長"^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
