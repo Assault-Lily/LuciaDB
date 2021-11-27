@@ -1,23 +1,23 @@
-RDFs/lily_heimskringla.rdf:
+RDFs/lily_heimskringla.ttl:
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
-    line: '164'
-    column: '1'
+    line: '146'
+    column: '35'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Konoka_Oestberg
     predicate: http://schema.org/familyName
     object: '"Östberg"@en'
-    message: 'Data LanguageType not matched: lang is en, but Östberg (line: 164, col:
-        1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Konoka_Oestberg - http://schema.org/familyName
+    message: 'Data LanguageType not matched: lang is en, but Östberg (line: 146, col:
+        35, triple: https://lily.fvhp.net/rdf/RDFs/detail/Konoka_Oestberg - http://schema.org/familyName
         - "Östberg"@en)'
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
-    line: '173'
-    column: '1'
+    line: '152'
+    column: '32'
     subject: https://lily.fvhp.net/rdf/RDFs/detail/Konoka_Oestberg
     predicate: http://schema.org/name
     object: '"Konoka Östberg"@en'
     message: 'Data LanguageType not matched: lang is en, but Konoka Östberg (line:
-        173, col: 1, triple: https://lily.fvhp.net/rdf/RDFs/detail/Konoka_Oestberg
+        152, col: 32, triple: https://lily.fvhp.net/rdf/RDFs/detail/Konoka_Oestberg
         - http://schema.org/name - "Konoka Östberg"@en)'
 RDFs/legion.ttl:
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
