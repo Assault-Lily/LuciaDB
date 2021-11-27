@@ -7,7 +7,7 @@
 
 <Radgrid>
     schema:name "ラーズグリーズ"@ja, "Radgrid"@en ;
-    schema:alternateName "一柳隊"@ja, "Hitotsuyanagi-Tai";
+    schema:alternateName "一柳隊"@ja, "Hitotsuyanagi-Tai"@en;
     lily:disbanded false ;
     # lily:legionGrade ""^^xsd:string ;
     lily:numberOfMembers "9"^^xsd:integer ;
