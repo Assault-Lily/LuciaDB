@@ -49,7 +49,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "TZ"^^xsd:string,
         "BZ"^^xsd:string ;
@@ -118,7 +118,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -183,7 +183,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -247,7 +247,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -312,7 +312,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -374,7 +374,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -436,7 +436,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;

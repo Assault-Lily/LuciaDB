@@ -60,7 +60,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Himinglaeva> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "TZ"^^xsd:string,
         "BZ"^^xsd:string ;
@@ -145,7 +145,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Himinglaeva> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -217,7 +217,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Dufa> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -287,7 +287,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     lily:pastLegion <Dufa> ;
     # lily:taskforce <> ;
@@ -356,7 +356,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Hronn> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -432,7 +432,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Hefring> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -505,7 +505,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Blodughadda> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -572,7 +572,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Kolga> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -636,7 +636,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Udr> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;

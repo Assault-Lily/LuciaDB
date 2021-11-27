@@ -47,7 +47,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Hacolberand> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -109,7 +109,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Hacolberand> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -171,7 +171,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Hacolberand> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -235,7 +235,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Illumine_Shines> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -313,7 +313,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Illumine_Shines> ;
-    lily:legionJobTitle "ディフェンシブAZ"@ja ;
+    lily:legionJobTitle "ディフェンシブAZ"^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -390,7 +390,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Illumine_Shines> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -477,7 +477,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Illumine_Shines> ;
-    lily:legionJobTitle "リザーブ"@ja ;
+    lily:legionJobTitle "リザーブ"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -539,7 +539,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Illumine_Shines> ;
-    lily:legionJobTitle "リザーブ"@ja ;
+    lily:legionJobTitle "リザーブ"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -604,7 +604,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Illumine_Shines> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -666,7 +666,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Illumine_Shines> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -728,7 +728,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Illumine_Shines> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -790,7 +790,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Illumine_Shines> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -852,7 +852,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Illumine_Shines> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -914,7 +914,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Illumine_Shines> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;

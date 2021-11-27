@@ -61,7 +61,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Radgrid> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -160,7 +160,7 @@
     lily:class "櫻組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Radgrid> ;
-    lily:legionJobTitle "副隊長"@ja ;
+    lily:legionJobTitle "副隊長"^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     lily:pastLegion <Alfheim_First> ;
     # lily:taskforce <> ;
@@ -275,7 +275,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Radgrid> ;
-    lily:legionJobTitle "司令塔"@ja ;
+    lily:legionJobTitle "司令塔"^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
         "TZ"^^xsd:string,
@@ -386,7 +386,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Radgrid> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -494,7 +494,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Radgrid> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
         "TZ"^^xsd:string ;
@@ -584,7 +584,7 @@
     lily:class "櫻組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Radgrid> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
         "TZ"^^xsd:string ;
@@ -698,7 +698,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Radgrid> ;
-    lily:legionJobTitle "司令塔"@ja ;
+    lily:legionJobTitle "司令塔"^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
         "TZ"^^xsd:string ;
@@ -789,7 +789,7 @@
     lily:class "李組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Radgrid> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -893,7 +893,7 @@
     lily:class "檜組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Radgrid> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "TZ"^^xsd:string,
         "BZ"^^xsd:string ;
@@ -970,7 +970,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     lily:pastLegion <Radgrid> ;
     # lily:taskforce <> ;
@@ -1046,7 +1046,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     lily:pastLegion <Alfheim_First> ;
     # lily:taskforce <> ;
@@ -1116,7 +1116,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
         "TZ"^^xsd:string ;
@@ -1202,7 +1202,7 @@
     lily:class "椿組"^^xsd:string ;
     lily:gardenJobTitle "学級委員長"@ja ;
     lily:legion <Alfheim> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -1294,7 +1294,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Alfheim> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -1387,7 +1387,7 @@
     lily:class "李組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Alfheim> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -1483,7 +1483,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Alfheim> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -1585,7 +1585,7 @@
     lily:class "藤組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Alfheim> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     lily:pastLegion <Alfheim_First> ;
     # lily:taskforce <> ;
@@ -1697,7 +1697,7 @@
     lily:class "藤組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Alfheim> ;
-    lily:legionJobTitle "司令塔"@ja ;
+    lily:legionJobTitle "司令塔"^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
         "TZ"^^xsd:string,
@@ -1794,7 +1794,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Alfheim> ;
-    lily:legionJobTitle "副隊長"@ja ;
+    lily:legionJobTitle "副隊長"^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     lily:pastLegion <Alfheim_First> ;
     # lily:taskforce <> ;
@@ -1878,7 +1878,7 @@
     lily:class "杉組"^^xsd:string ;
     lily:gardenJobTitle "学級委員長"@ja ;
     lily:legion <Alfheim> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -1971,7 +1971,7 @@
     lily:class "檜組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Alfheim> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -2052,7 +2052,7 @@
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "規律審院特別顧問"@ja ;
     lily:legion <Alfheim> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
         "TZ"^^xsd:string,
@@ -2121,7 +2121,7 @@
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "風紀委員長"@ja ;
     lily:legion <Alfheim> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
         "TZ"^^xsd:string,
@@ -2190,7 +2190,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Alfheim> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -2291,7 +2291,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Reginleif> ;
-    lily:legionJobTitle "副隊長"@ja ;
+    lily:legionJobTitle "副隊長"^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -2387,7 +2387,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Reginleif> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     lily:pastLegion <Alfheim_First> ;
     # lily:taskforce <> ;
@@ -2470,7 +2470,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Reginleif> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     lily:pastLegion <Alfheim_First> ;
     # lily:taskforce <> ;
@@ -2536,7 +2536,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Reginleif> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
         "TZ"^^xsd:string ;
@@ -2611,7 +2611,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Reginleif> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -2677,7 +2677,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Reginleif> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -2743,7 +2743,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Reginleif> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -2809,7 +2809,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Reginleif> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -2879,7 +2879,7 @@
     lily:class "李組"^^xsd:string ;
     lily:gardenJobTitle "図書委員"@ja ;
     lily:legion <Reginleif> ;
-    lily:legionJobTitle "副司令塔"@ja ;
+    lily:legionJobTitle "副司令塔"^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -2945,7 +2945,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Reginleif> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     lily:pastLegion <Svanhvit> ;
     # lily:taskforce <> ;
@@ -3013,7 +3013,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Reginleif> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -3081,7 +3081,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Reginleif> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -3147,7 +3147,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Reginleif> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -3226,7 +3226,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Sanngridr> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     lily:pastLegion <Svanhvit> ;
     # lily:taskforce <> ;
@@ -3301,7 +3301,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Sanngridr> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -3367,7 +3367,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Sanngridr> ;
-    lily:legionJobTitle "副隊長"@ja ;
+    lily:legionJobTitle "副隊長"^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -3433,7 +3433,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Sanngridr> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
         "TZ"^^xsd:string ;
@@ -3501,7 +3501,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Sanngridr> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -3570,7 +3570,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Sanngridr> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
         "TZ"^^xsd:string ;
@@ -3640,7 +3640,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Sanngridr> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -3715,7 +3715,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Sanngridr> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     lily:pastLegion <Alfheim_First> ;
     # lily:taskforce <> ;
@@ -3784,7 +3784,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Sanngridr> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -3850,7 +3850,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Sanngridr> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
         "TZ"^^xsd:string ;
@@ -3920,7 +3920,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Lohengrin> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     lily:pastLegion <Alfheim_First> ;
     # lily:taskforce <> ;
@@ -3986,7 +3986,7 @@
     lily:class "櫻組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Lohengrin> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -4057,7 +4057,7 @@
     lily:class "櫻組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Lohengrin> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -4135,7 +4135,7 @@
     lily:class "櫻組"^^xsd:string ;
     lily:gardenJobTitle "学級委員長"@ja ;
     lily:legion <Lohengrin> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -4217,7 +4217,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Lohengrin> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -4283,7 +4283,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Lohengrin> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
         "TZ"^^xsd:string ;
@@ -4351,7 +4351,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Lohengrin> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -4421,7 +4421,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Lohengrin> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     lily:pastLegion <Alfheim_First> ;
     # lily:taskforce <> ;
@@ -4508,7 +4508,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Lohengrin> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -4577,7 +4577,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Lohengrin> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -4643,7 +4643,7 @@
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "新館寮長"@ja ;
     lily:legion <Lohengrin> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     lily:pastLegion <Alfheim_First> ;
     # lily:taskforce <> ;
@@ -4709,7 +4709,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Lohengrin> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -4777,7 +4777,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Schwartz_Grail> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -4843,7 +4843,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Schwartz_Grail> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -4912,7 +4912,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Schwartz_Grail> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -4978,7 +4978,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Schwartz_Grail> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -5063,7 +5063,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Schwartz_Grail> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -5132,7 +5132,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Schwartz_Grail> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -5204,7 +5204,7 @@
     lily:class "藤組"^^xsd:string ;
     lily:gardenJobTitle "ジーグルーネ"@ja ;
     lily:legion <Schwartz_Grail> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -5278,7 +5278,7 @@
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "旧館寮長"@ja ;
     lily:legion <Schwartz_Grail> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -5344,7 +5344,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Schwartz_Grail> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -5414,7 +5414,7 @@
     lily:class "櫻組"^^xsd:string ;
     lily:gardenJobTitle "オルトリンデ代行"@ja ;
     lily:legion <Eir> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -5502,7 +5502,7 @@
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "生徒会執行委員"@ja ;
     lily:legion <Eir> ;
-    lily:legionJobTitle "参謀"@ja ;
+    lily:legionJobTitle "参謀"^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -5573,7 +5573,7 @@
     lily:class "李組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Eir> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -5639,7 +5639,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Eir> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -5705,7 +5705,7 @@
     lily:class "李組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Eir> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -5771,7 +5771,7 @@
     lily:class "李組"^^xsd:string ;
     lily:gardenJobTitle "生徒会執行委員"@ja ;
     lily:legion <Eir> ;
-    lily:legionJobTitle "司令塔"@ja ;
+    lily:legionJobTitle "司令塔"^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -5837,7 +5837,7 @@
     lily:class "李組"^^xsd:string ;
     lily:gardenJobTitle "生徒会執行委員"@ja ;
     lily:legion <Eir> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -5903,7 +5903,7 @@
     lily:class "李組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Eir> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -5971,7 +5971,7 @@
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "生徒会執行委員"@ja ;
     lily:legion <Eir> ;
-    lily:legionJobTitle "副隊長"@ja ;
+    lily:legionJobTitle "副隊長"^^xsd:string ;
     lily:position
         "TZ"^^xsd:string,
         "BZ"^^xsd:string ;
@@ -6046,7 +6046,7 @@
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "ブリュンヒルデ"@ja ;
     lily:legion <Brynhildr_Line> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -6133,7 +6133,7 @@
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "生徒会役員"@ja ;
     lily:legion <Brynhildr_Line> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     lily:pastLegion <Svanhvit> ;
     # lily:taskforce <> ;
@@ -6199,7 +6199,7 @@
     lily:class "李組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Brynhildr_Line> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -6265,7 +6265,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Brynhildr_Line> ;
-    lily:legionJobTitle "副隊長"@ja ;
+    lily:legionJobTitle "副隊長"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -6331,7 +6331,7 @@
     lily:class "李組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Brynhildr_Line> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -6397,7 +6397,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Brynhildr_Line> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     lily:pastLegion <Svanhvit> ;
     # lily:taskforce <> ;
@@ -6463,7 +6463,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Brynhildr_Line> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     lily:pastLegion <Svanhvit> ;
     # lily:taskforce <> ;
@@ -6531,7 +6531,7 @@
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "オルトリンデ"@ja ;
     lily:legion <Vingolf> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     lily:pastLegion <Brynhildr_Line> ;
     # lily:taskforce <> ;
@@ -6600,7 +6600,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Vingolf> ;
-    lily:legionJobTitle "副隊長"@ja ;
+    lily:legionJobTitle "副隊長"^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     lily:pastLegion <Svanhvit> ;
     # lily:taskforce <> ;
@@ -6666,7 +6666,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Vingolf> ;
-    lily:legionJobTitle "司令塔"@ja ;
+    lily:legionJobTitle "司令塔"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     lily:pastLegion <Svanhvit> ;
     # lily:taskforce <> ;
@@ -6734,7 +6734,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Sigrdrifa> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
         "TZ"^^xsd:string ;
@@ -6802,7 +6802,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Sigrdrifa> ;
-    lily:legionJobTitle "副隊長"@ja ;
+    lily:legionJobTitle "副隊長"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -6872,7 +6872,7 @@
     lily:class "李組"^^xsd:string ;
     lily:gardenJobTitle "学級委員長"@ja ;
     lily:legion <Rossweisse> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -6946,7 +6946,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Rossweisse> ;
-    lily:legionJobTitle "副隊長"@ja ;
+    lily:legionJobTitle "副隊長"^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -7014,7 +7014,7 @@
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "規律審院特別顧問"@ja ;
     lily:legion <Rossweisse> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -7091,7 +7091,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Rossweisse> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -7157,7 +7157,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Rossweisse> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -7223,7 +7223,7 @@
     lily:class "李組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Rossweisse> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -7289,7 +7289,7 @@
     lily:class "椿組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Rossweisse> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -7355,7 +7355,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Rossweisse> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -7426,7 +7426,7 @@
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "倫理道徳勉強会主宰(ヴァール)"@ja ;
     lily:legion <Herfjotur> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -7492,7 +7492,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Herfjotur> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -7558,7 +7558,7 @@
     lily:class "李組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Herfjotur> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -7626,7 +7626,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Schwertleite> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -7692,7 +7692,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Schwertleite> ;
-    lily:legionJobTitle "副隊長"@ja ;
+    lily:legionJobTitle "副隊長"^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
         "TZ"^^xsd:string ;
@@ -7768,7 +7768,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Geiravor> ;
-    lily:legionJobTitle "隊長"@ja ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     lily:position
         "TZ"^^xsd:string,
         "BZ"^^xsd:string ;
@@ -7836,7 +7836,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Geiravor> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -7904,7 +7904,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Geiravor> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -7986,7 +7986,7 @@
     lily:class "檜組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -8073,7 +8073,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -8139,7 +8139,7 @@
     lily:class "杉組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -8205,7 +8205,7 @@
     lily:class "櫻組"^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
-    # lily:legionJobTitle ""@ja ;
+    # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
