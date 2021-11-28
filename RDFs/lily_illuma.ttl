@@ -690,15 +690,15 @@
 
 <Miyamoto_Komuku>
     rdfs:label "宮本煌椋"^^xsd:string ;
-    schema:familyName "宮本"@ja ; #, ""@en ;
-    # lily:familyNameKana ""@ja ;
+    schema:familyName "宮本"@ja, "Miyamoto"@en ;
+    lily:familyNameKana "みやもと"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "煌椋"@ja ; #, ""@en ;
-    # lily:givenNameKana ""@ja ;
-    schema:name "宮本煌椋"@ja ; #, ""@en ;
-    # lily:nameKana ""@ja ;
-    # lily:anotherName ""@ja ;
+    schema:givenName "煌椋"@ja, "Komuku"@en ;
+    lily:givenNameKana "こむく"@ja ;
+    schema:name "宮本煌椋"@ja, "Miyamoto Komuku"@en ;
+    lily:nameKana "みやもとこむく"@ja ;
+    lily:anotherName "七つの肺を持つリリィ"@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -711,7 +711,7 @@
     # schema:birthPlace ""@ja, ""@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent "戦術研究"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     # lily:rareSkill ""^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
