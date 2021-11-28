@@ -2253,7 +2253,8 @@
     lily:notGood
         "雷"@ja,
         "歯医者"@ja,
-        "暑さ"@ja ;
+        "暑さ"@ja,
+        "パクチー"@ja ;
     lily:hobby_talent
         "陶芸"@ja,
         "茶道"@ja ;
