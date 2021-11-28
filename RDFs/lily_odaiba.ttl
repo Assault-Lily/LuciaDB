@@ -1480,7 +1480,7 @@
     lily:favorite
         "フクロウ"@ja,
         "あんこう鍋"@ja ;
-    # lily:notGood ""@ja ;
+    lily:notGood "寒さ"@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
