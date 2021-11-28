@@ -339,7 +339,9 @@
         "怪談"@ja,
         "野菜"@ja,
         "裁縫"@ja ;
-    lily:hobby_talent "楽器演奏(ギター)"@ja ;
+    lily:hobby_talent
+        "楽器演奏(ギター)"@ja,
+        "スノースポーツ"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "レジスタ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
