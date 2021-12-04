@@ -1914,6 +1914,9 @@
     ], [
         lily:resource <Asanaga_Ichigo> ;
         lily:additionalInformation "伍人組"@ja ;
+    ], [
+        lily:resource <Fukuya_Maasa> ;
+        lily:additionalInformation "ライバル"@ja ;
     ] ;
     lily:cast [
         schema:name "広瀬ゆうき"@ja ;
@@ -4672,16 +4675,16 @@
 
 <Fukuya_Maasa>
     rdfs:label "福屋真亜沙"^^xsd:string ;
-    schema:familyName "福屋"@ja ; #, ""@en ;
-    # lily:familyNameKana ""@ja ;
+    schema:familyName "福屋"@ja , "Fukuya"@en ;
+    lily:familyNameKana "ふくや"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "真亜沙"@ja ; #, ""@en ;
-    # lily:givenNameKana ""@ja ;
-    schema:name "福屋真亜沙"@ja ; #, ""@en ;
-    # lily:nameKana ""@ja ;
+    schema:givenName "真亜沙"@ja , "Maasa"@en ;
+    lily:givenNameKana "まあさ"@ja ;
+    schema:name "福屋真亜沙"@ja , "Fukuya Maasa"@en ;
+    lily:nameKana "ふくやまあさ"@ja ;
     # lily:anotherName ""@ja ;
-    # foaf:age ""^^xsd:integer ;
+    foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
@@ -4691,7 +4694,7 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite "冗談"@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
@@ -4711,7 +4714,7 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Lohengrin> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
@@ -4725,10 +4728,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Kanabako_Misora> ;
+        lily:additionalInformation "ライバル"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
