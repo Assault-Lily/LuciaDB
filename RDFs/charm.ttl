@@ -114,7 +114,7 @@
         <Wang_Yujia>,
         <Kosaka_Anastasiya_Ryoko>,
         <Yoshizaka_Nagisa> ;
-    lily::hasVariant <Gungnir_Carbin> ;
+    lily:hasVariant <Gungnir_Carbin> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
