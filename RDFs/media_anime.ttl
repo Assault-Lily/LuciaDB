@@ -1,0 +1,99 @@
+@base <https://lily.fvhp.net/rdf/RDFs/detail/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
+
+<Assault_Lily_Bouquet>
+    lily:genre "アニメ"@ja ;
+    rdfs:label "アニメ「アサルトリリィ BOUQUET」"^^xsd:string ;
+    schema:name "アサルトリリィ BOUQUET"@ja , "Assault Lily BOUQUET"@en ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:startDate "2020-10-02"^^xsd:date ;
+    schema:endDate "2020-12-25"^^xsd:date ;
+    schema:numberOfEpisodes "12"^^xsd:integer ;
+    lily:originalAuthor "尾花沢軒栄"@ja ;
+    lily:director "佐伯昭志"@ja ;
+    lily:scenarioWriter "佐伯昭志"@ja ;
+    lily:characterDesign "細居美恵子"@ja ;
+    lily:subCharacterDesign "潮月一也"@ja ;
+    lily:chiefAnimationSupervisor "潮月一也"@ja, "崎本さゆり"@ja, "常盤健太郎"@ja ;
+    lily:assistantDirector "長原圭太"@ja ;
+    lily:chiefEpisodeDirection "大谷肇"@ja ;
+    lily:propDesign "渋谷勤"@ja ;
+    lily:actionDirector "鈴木勘太"@ja ;
+    lily:charmDesign "秋篠Denforword日和"@ja ;
+    lily:hugeDesign "石田弘道"@ja ;
+    lily:backgroundArtDirector "丸山康司"@ja, "北井真理江"@ja ;
+    lily:colorDesign "日比野仁"@ja ;
+    lily:CGDirector "及川恭平"@ja, "島久登"@ja ;
+    lily:compositingDirector "会津孝幸"@ja ;
+    lily:editor "松原理恵"@ja ;
+    lily:soundDirector "亀山俊樹"@ja ;
+    lily:music "松田彬人"@ja ;
+    lily:musicProducer "斎藤滋"@ja ;
+    lily:musicProduction "ブシロードミュージック"@ja ;
+    lily:producer "岡田太郎"@ja, "小林正英"@ja, "大嶋実句"@ja, "中川秀平"@ja ;
+    lily:animationProducer "安田孝一"@ja ;
+    lily:animationProduction "シャフト"@ja ;
+    lily:production "アサルトリリィプロジェクト (ブシロード, TBSテレビ, ポケラボ, シャフト, アゾンインターナショナル, 丸井グループ, ブシロードクリエイティブ, ブシロードミュージック)"@ja ;
+    schema:episode <Assault_Lily_Bouquet_1> ;
+    #    <Assault_Lily_Bouquet_2> ;
+    #    <Assault_Lily_Bouquet_3> ;
+    #    <Assault_Lily_Bouquet_4> ;
+    #    <Assault_Lily_Bouquet_5> ;
+    #    <Assault_Lily_Bouquet_6> ;
+    #    <Assault_Lily_Bouquet_7> ;
+    #    <Assault_Lily_Bouquet_8> ;
+    #    <Assault_Lily_Bouquet_9> ;
+    #    <Assault_Lily_Bouquet_10> ;
+    #    <Assault_Lily_Bouquet_11> ;
+    #    <Assault_Lily_Bouquet_12> ;
+    schema:abstract "近未来の地球――人類は「ヒュージ」と呼ばれる謎の生命体の出現で破滅の危機に瀕していた。\n全世界が対ヒュージという一事に団結し、科学と魔法の力&lt;マギ&gt;を結集した決戦兵器「CHARM（チャーム）」の開発に成功、その使用者となる少女たち「リリィ」を養成する機関「ガーデン」を各地に設立した。\nガーデンの中でも名門と名高い百合ヶ丘女学院に補欠ながらも合格を果たした一柳梨璃は、人類存続のために戦うリリィとしての一歩を踏み出す。\nかつて、自身の窮地を救ってくれた白井夢結を追ってこの学園を受験した梨璃は登校初日に邂逅を果たすも、以前の夢結とはどこか違っていて……"@ja ;
+    a lily:AnimeSeries ;
+.
+
+<Assault_Lily_Bouquet_1>
+    lily:genre "アニメ"@ja ;
+    rdfs:label "アニメ「アサルトリリィ BOUQUET」第1話"^^xsd:string ;
+    schema:partOfSeries <Assault_Lily_Bouquet> ;
+    schema:name "アサルトリリィ BOUQUET 第1話"@ja , "Assault Lily BOUQUET Episode 1"@en ;
+    schema:episodeNumber "1"^^xsd:integer ;
+    lily:subtitle "スイレン"@ja , "WATER LILY"@en ;
+    lily:parentheses "まだ何者でもないわたし"@ja , "Purely of heart"@en ;
+    lily:subtitleColor "FFB1BF"^^xsd:hexBinary ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:datePublished "2020-10-02"^^xsd:date ;
+    schema:duration "PT24M"^^xsd:duration ;
+    lily:storyboard "佐伯昭志"@ja, "長原圭太"@ja ;
+    lily:episodeDirection "長原圭太"@ja ;
+    lily:chiefAnimationSupervisor "潮月一也"@ja ;
+    lily:animationSupervisor "潮月一也"@ja, "崎本さゆり"@j, "浅井昭人"@ja ;
+    schema:character
+        <Hitotsuyanagi_Riri>,
+        <Shirai_Yuyu>,
+        <Kaede_Johan_Nouvel>,
+        <Futagawa_Fumi>,
+        <Ando_Tazusa>,
+        <Yoshimura_Thi_Mai>,
+        <Kuo_Shenlin>,
+        <Wang_Yujia>,
+        <Miliam_Hildegard_von_Guropius>,
+        <Kawazoe_Misuzu>,
+        <Mashima_Moyu>,
+        <Tanaka_Ichi>,
+        <Endo_Araya>,
+        <Amano_Soraha>,
+        <Egawa_Kusumi>,
+        <Taniguchi_Hijiri>,
+        <Rokkaku_Shiori>,
+        <Izue_Shinobu>,
+        <Ito_Shizu>,
+        <Sejima_Hiromu>,
+        <Kuramata_Yukiyo>,
+        <Tachihara_Sayu> ;
+    schema:abstract "中学生の一柳梨璃は、世界を脅かす謎の生命体「ヒュージ」に襲われているところを百合ヶ丘女学院の「リリィ」に助けられる。\nこののリリィに憧れた梨璃は、補欠ながらも百合ヶ丘女学院に入学し、人類存続のために戦うリリィとしての一歩を踏み出す。\n「わたし、リリィになるんです！」"@ja ;
+    a lily:AnimeEpisode ;
+.
+
+
