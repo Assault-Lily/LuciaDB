@@ -1,0 +1,500 @@
+@base <https://lily.fvhp.net/rdf/RDFs/detail/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
+
+<Izumi_Rosa_Rina>
+    rdfs:label "泉・ローザ・莉奈"^^xsd:string ;
+    schema:familyName "泉"@ja, "Izumi"@en ;
+    lily:familyNameKana "いずみ"@ja ;
+    schema:additionalName "ローザ"@ja, "Rosa"@en ;
+    lily:additionalNameKana "ろーざ"@ja ;
+    schema:givenName "莉奈"@ja, "Rina"@en ;
+    lily:givenNameKana "りな"@ja ;
+    schema:name "泉・ローザ・莉奈"@ja, "Izumi Rosa Rina"@en ;
+    lily:nameKana "いずみ・ろーざ・りな"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    schema:birthDate "--04-15"^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    lily:bloodType "A"^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    lily:favorite
+        "モンブラン"@ja,
+        "蕎麦"@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    lily:skillerVal "87"^^xsd:integer ;
+    lily:rareSkill "鷹の目"^^xsd:string ;
+    lily:subSkill
+        "魔眼"^^xsd:string,
+        "Whole order"^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Dainsleif_Carbin> ;
+        lily:usedIn
+            "舞台 シュベスターの祈り"^^xsd:string,
+            "舞台 シュベスターの秘密"^^xsd:string,
+            "舞台 シュベスターの誓い"^^xsd:string,
+            "舞台 真実の刃"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Dainsleif> ;
+        lily:usedIn "舞台 シュベスターの祈り 2021"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    lily:garden "私立ルドビコ女学院"^^xsd:string ;
+    # lily:rank ""^^xsd:integer ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    lily:pastLegion <Temple_Legion> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:olderSchwester <> ;
+    # lily:pastOlderSchwester <> ;
+    # lily:youngerSchwester <> ;
+    # lily:pastYoungerSchwester <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "今吉めぐみ"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q3304445> ;
+        lily:performIn
+            <Schwester_No_Inori>,
+            <Schwester_No_Himitsu>,
+            <Schwester_No_Chikai>,
+            <Yakusoku_No_Yukue>,
+            <Shinjitsu_No_Yaiba> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "楠世蓮"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11541155>,
+            <http://ja.dbpedia.org/resource/楠世蓮> ;
+        lily:performIn
+            <Schwester_No_Inori_2021>,
+            <Schwester_No_Himitsu_2021> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Teacher ;
+.
+
+<Kosaka_Anastasiya_Ryoko>
+    rdfs:label "小阪・アナスタシア・涼子"^^xsd:string ;
+    schema:familyName "小阪"@ja, "Kosaka"@en ;
+    lily:familyNameKana "こさか"@ja ;
+    schema:additionalName "アナスタシア"@ja, "Anastasiya"@en ;
+    lily:additionalNameKana "あなすたしあ"@ja ;
+    schema:givenName "涼子"@ja, "Ryoko"@en ;
+    lily:givenNameKana "りょうこ"@ja ;
+    schema:name "小阪・アナスタシア・涼子"@ja, "Kosaka Anastasiya Ryoko"@en ;
+    lily:nameKana "こさか・あなすたしあ・りょうこ"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    schema:birthDate "--12-25"^^xsd:gMonthDay ;
+    lily:lifeStatus "dead"^^xsd:string ;
+    lily:killedIn "マギの暴走"^^xsd:string ;
+    lily:bloodType "AB"^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    lily:favorite
+        "フライドチキン"@ja,
+        "唐揚げ"@ja,
+        "焼鳥"@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    lily:skillerVal "81"^^xsd:integer ;
+    lily:rareSkill "Z"^^xsd:string ;
+    lily:subSkill
+        "聖域転換"^^xsd:string,
+        "千里眼"^^xsd:string ;
+    lily:isBoosted true ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Gungnir_Carbin> ;
+        lily:usedIn
+            "舞台 シュベスターの祈り"^^xsd:string,
+            "舞台 シュベスターの秘密"^^xsd:string,
+            "舞台 シュベスターの誓い"^^xsd:string,
+            "舞台 約束の行方"^^xsd:string,
+            "舞台 真実の刃"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Gungnir> ;
+        lily:usedIn "舞台 シュベスターの祈り 2021"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    lily:garden "私立ルドビコ女学院"^^xsd:string ;
+    # lily:rank ""^^xsd:integer ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    lily:gardenJobTitle "応援団"@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:olderSchwester <> ;
+    # lily:pastOlderSchwester <> ;
+    # lily:youngerSchwester <> ;
+    # lily:pastYoungerSchwester <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Nagase_Marta_Nonoka> ;
+        lily:additionalInformation "応援団を託す"@ja ;
+    ] ;
+    lily:cast [
+        schema:name "木村若菜"@ja ;
+        # lily:resource <> ;
+        lily:performIn
+            <Schwester_No_Inori>,
+            <Schwester_No_Himitsu>,
+            <Schwester_No_Chikai>,
+            <Yakusoku_No_Yukue>,
+            <Shinjitsu_No_Yaiba> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "遠藤三貴"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q55177725>,
+            <http://ja.dbpedia.org/resource/遠藤三貴> ;
+        lily:performIn
+            <Schwester_No_Inori_2021>,
+            <Schwester_No_Himitsu_2021> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Teacher ;
+.
+
+<Kaido_Beatrice_Chiharu>
+    rdfs:label "海堂・ベアトリス・千春"^^xsd:string ;
+    schema:familyName "海堂"@ja, "Kaido"@en ;
+    lily:familyNameKana "かいどう"@ja ;
+    schema:additionalName "ベアトリス"@ja, "Beatrice"@en ;
+    lily:additionalNameKana "べあとりす"@ja ;
+    schema:givenName "千春"@ja, "Chiharu"@en ;
+    lily:givenNameKana "ちはる"@ja ;
+    schema:name "海堂・ベアトリス・千春"@ja, "Kaido Beatrice Chiharu"@en ;
+    lily:nameKana "かいどう・べあとりす・ちはる"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "dead"^^xsd:string ;
+    lily:killedIn "何者かにより殺害"^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "天の秤目"^^xsd:string ;
+    lily:subSkill
+        "聖域転換"^^xsd:string,
+        "軍神の加護"^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "私立ルドビコ女学院"^^xsd:string ;
+    # lily:rank ""^^xsd:integer ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:olderSchwester <> ;
+    # lily:pastOlderSchwester <> ;
+    # lily:youngerSchwester <> ;
+    # lily:pastYoungerSchwester <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "内多優"@ja ;
+        # lily:resource <> ;
+        lily:performIn <Yakusoku_No_Yukue> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Teacher ;
+.
+
+<Makabe_Melania_Sayoko>
+    rdfs:label "真壁・メラニア・小夜子"^^xsd:string ;
+    schema:familyName "真壁"@ja, "Makabe"@en ;
+    lily:familyNameKana "まかべ"@ja ;
+    schema:additionalName "メラニア"@ja, "Melania"@en ;
+    lily:additionalNameKana "めらにあ"@ja ;
+    schema:givenName "小夜子"@ja, "Sayoko"@en ;
+    lily:givenNameKana "さよこ"@ja ;
+    schema:name "真壁・メラニア・小夜子"@ja, "Makabe Melania Sayoko"@en ;
+    lily:nameKana "まかべ・めらにあ・さよこ"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    # lily:lifeStatus ""^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "レジスタ"^^xsd:string ;
+    lily:subSkill
+        "ステルス"^^xsd:string,
+        "虹の軌跡"^^xsd:string ;
+    lily:isBoosted true ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Gungnir_Carbin> ;
+        lily:usedIn "舞台 約束の行方"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Dainsleif_Carbin> ;
+        lily:usedIn "舞台 真実の刃"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    lily:garden "私立ルドビコ女学院"^^xsd:string ;
+    # lily:rank ""^^xsd:integer ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    lily:pastLegion <Temple_Legion> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:olderSchwester <> ;
+    # lily:pastOlderSchwester <> ;
+    # lily:youngerSchwester <> ;
+    # lily:pastYoungerSchwester <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Kosaka_Anastasiya_Ryoko> ;
+        lily:additionalInformation "苦手"@ja ;
+    ] ;
+    lily:cast [
+        schema:name "酒井栞"@ja ;
+        # lily:resource <> ;
+        lily:performIn
+            <Yakusoku_No_Yukue>,
+            <Shinjitsu_No_Yaiba> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Teacher ;
+.
+
+<Toride_Suzanne_Reika>
+    rdfs:label "取手・スザンヌ・麗香"^^xsd:string ;
+    schema:familyName "取手"@ja, "Toride"@en ;
+    lily:familyNameKana "とりで"@ja ;
+    schema:additionalName "スザンヌ"@ja, "Suzanne"@en ;
+    lily:additionalNameKana "すざんぬ"@ja ;
+    schema:givenName "麗香"@ja, "Reika"@en ;
+    lily:givenNameKana "れいか"@ja ;
+    schema:name "取手・スザンヌ・麗香"@ja, "Toride Suzanne Reika"@en ;
+    lily:nameKana "とりで・すざんぬ・れいか"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    # lily:lifeStatus ""^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "ヘリオスフィア"^^xsd:string ;
+    lily:subSkill
+        "Whole order"^^xsd:string,
+        "インビジブルワン"^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Dainsleif_Carbin> ;
+        lily:usedIn "舞台 真実の刃"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    lily:garden "私立ルドビコ女学院"^^xsd:string ;
+    # lily:rank ""^^xsd:integer ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    lily:pastLegion <Temple_Legion> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:olderSchwester <> ;
+    # lily:pastOlderSchwester <> ;
+    # lily:youngerSchwester <> ;
+    # lily:pastYoungerSchwester <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "嘉陽愛子"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q2602933>,
+            <http://ja.dbpedia.org/resource/嘉陽愛子> ;
+        lily:performIn
+            <Yakusoku_No_Yukue>,
+            <Shinjitsu_No_Yaiba> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Teacher ;
+.
+
+<Akutsu_Lucifer_Maaya>
+    rdfs:label "あくつ・ルシファ・魔妖"^^xsd:string ;
+    schema:familyName "あくつ"@ja, "Akutsu"@en ;
+    lily:familyNameKana "あくつ"@ja ;
+    schema:additionalName "ルシファ"@ja, "Lucifer"@en ;
+    lily:additionalNameKana "るしふぁ"@ja ;
+    schema:givenName "魔妖"@ja, "Maaya"@en ;
+    lily:givenNameKana "まあや"@ja ;
+    schema:name "あくつ・ルシファ・魔妖"@ja, "Akutsu Lucifer Maaya"@en ;
+    lily:nameKana "あくつ・るしふぁ・まあや"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "天の秤目"^^xsd:string ;
+    lily:subSkill
+        "インビジブルワン"^^xsd:string,
+        "Whole order"^^xsd:string,
+        "狂乱の閾"^^xsd:string,
+        "聖域転換"^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Trigrav> ;
+        lily:usedIn
+            "舞台 シュベスターの祈り"^^xsd:string,
+            "舞台 シュベスターの秘密"^^xsd:string,
+            "舞台 シュベスターの誓い"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    lily:garden "私立ルドビコ女学院"^^xsd:string ;
+    # lily:rank ""^^xsd:integer ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    lily:gardenJobTitle "特別教導官"@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:olderSchwester <> ;
+    # lily:pastOlderSchwester <> ;
+    # lily:youngerSchwester <> ;
+    # lily:pastYoungerSchwester <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "桜木さやか"@ja ;
+        # lily:resource <> ;
+        lily:performIn
+            <Schwester_No_Inori>,
+            <Schwester_No_Himitsu>,
+            <Schwester_No_Chikai> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Teacher ;
+.
