@@ -161,6 +161,7 @@
     <lily:resource rdf:resource="https://www.wikidata.org/wiki/Q16769880"/>
     <lily:resource rdf:resource="http://ja.dbpedia.org/resource/小野瀬みらい"/>
     <lily:performIn rdf:resource="Assault_Lily_Odaiba_The_Singular_Ability"/>
+    <lily:performIn rdf:resource="Assault_Lily_Odaiba_Part2"/>
   </lily:cast>
   <rdf:type rdf:resource="https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#Teacher"/>
 </rdf:Description>
