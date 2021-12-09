@@ -1,0 +1,11 @@
+@base <https://lily.fvhp.net/rdf/RDFs/detail/> .
+@prefix schema: <http://schema.org/> .
+@prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
+
+<Assault_Lily_Last_Bullet>
+    lily:genre "アプリゲーム"@ja ;
+    schema:name "アサルトリリィ Last Bullet"@ja ;
+    schema:alternateName "ラスバレ"@ja ;
+    schema:provider "ポケラボ"@ja ;
+    a lily:Game ;
+.
