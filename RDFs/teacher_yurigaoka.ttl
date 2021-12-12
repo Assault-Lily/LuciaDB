@@ -1,0 +1,303 @@
+@base <https://lily.fvhp.net/rdf/RDFs/detail/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
+
+<Yoshizaka_Nagisa>
+    rdfs:label "吉阪凪沙"^^xsd:string ;
+    schema:familyName "吉阪"@ja, "Yoshizaka"@en ;
+    lily:familyNameKana "よしざか"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "凪沙"@ja, "Nagisa"@en ;
+    lily:givenNameKana "なぎさ"@ja ;
+    schema:name "吉阪凪沙"@ja, "Yoshizaka Nagisa"@en ;
+    lily:nameKana "よしざかなぎさ"@ja ;
+    lily:anotherName "狂乱の小公女"@ja, "狂犬"@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    lily:favorite "お酒"@ja ;
+    # lily:notGood ""@ja ;
+    lily:hobby_talent "ジャズピアノ"@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "この世の理"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Svizrir> ;
+        lily:usedIn "小説 アサルトリリィアームズ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Zeroshiki_Mikasa> ;
+        lily:usedIn "小説 アサルトリリィアームズ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Gungnir> ;
+        lily:usedIn "小説 アサルトリリィアームズ"^^xsd:string ;
+        lily:additionalInformation "プロトタイプ"@ja ;
+    ] ;
+    lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
+    # lily:rank ""^^xsd:integer ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    lily:gardenJobTitle "学年主任"@ja, "1年椿組担任"@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    lily:position "AZ"^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:schutzengel <> ;
+    # lily:pastSchutzengel <> ;
+    # lily:schild <> ;
+    # lily:pastSchild <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Rokkaku_Shiori> ;
+        lily:additionalInformation "養女"@ja ;
+    ], [
+        lily:resource <Chelice_Jacobsen> ;
+        lily:additionalInformation
+            "同じ部隊で戦った"@ja,
+            "元相棒"@ja ;
+    ], [
+        lily:resource <Takamatsu_Shiera> ;
+        lily:additionalInformation "同じ部隊で戦った"@ja ;
+    ], [
+        lily:resource <Akira_Blanton> ;
+        lily:additionalInformation "友人"@ja ;
+    ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Teacher ;
+.
+
+<Chelice_Jacobsen>
+    rdfs:label "シェリス・ヤコブセン"^^xsd:string ;
+    schema:familyName "ヤコブセン"@ja, "Jacobsen"@en ;
+    lily:familyNameKana "やこぶせん"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "シェリス"@ja, "Chelice"@en ;
+    lily:givenNameKana "しぇりす"@ja ;
+    schema:name "シェリス・ヤコブセン"@ja, "Chelice Jacobsen"@en ;
+    lily:nameKana "しぇりす・やこぶせん"@ja ;
+    lily:anotherName "シスターゼロ"@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "ルナティックトランサー"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
+    # lily:rank ""^^xsd:integer ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    lily:gardenJobTitle "神殿長"@ja, "特別寮の支配人"@ja, "保険医"@ja, "LGロスヴァイセの管理人"@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:schutzengel <> ;
+    # lily:pastSchutzengel <> ;
+    # lily:schild <> ;
+    # lily:pastSchild <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Yoshizaka_Nagisa> ;
+        lily:additionalInformation
+            "同じ部隊で戦った"@ja,
+            "元相棒"@ja ;
+    ], [
+        lily:resource <Takamatsu_Shiera> ;
+        lily:additionalInformation "同じ部隊で戦った"@ja ;
+    ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Teacher ;
+.
+
+<Takamatsu_Shiera>
+    rdfs:label "高松祇恵良"^^xsd:string ;
+    schema:familyName "高松"@ja, "Takamatsu"@en ;
+    lily:familyNameKana "たかまつ"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "祇恵良"@ja, "Shiera"@en ;
+    lily:givenNameKana "しえら"@ja ;
+    schema:name "高松祇恵良"@ja, "Takamatsu Shiera"@en ;
+    lily:nameKana "たかまつしえら"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted true ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
+    # lily:rank ""^^xsd:integer ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    lily:gardenJobTitle "理事長"@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:schutzengel <> ;
+    # lily:pastSchutzengel <> ;
+    # lily:schild <> ;
+    # lily:pastSchild <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    schema:sibling [
+        lily:resource <Takamatsu_Kogetsu> ;
+        lily:additionalInformation "弟"@ja ;
+    ] ;
+    lily:relationship [
+        lily:resource <Yoshizaka_Nagisa> ;
+        lily:additionalInformation "同じ部隊で戦った"@ja ;
+    ], [
+        lily:resource <Chelice_Jacobsen> ;
+        lily:additionalInformation "同じ部隊で戦った"@ja ;
+    ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Teacher ;
+.
+
+<Takamatsu_Kogetsu>
+    rdfs:label "高松咬月"^^xsd:string ;
+    schema:familyName "高松"@ja, "Takamatsu"@en ;
+    lily:familyNameKana "たかまつ"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "咬月"@ja, "Kogetsu"@en ;
+    lily:givenNameKana "こうげつ"@ja ;
+    schema:name "高松咬月"@ja, "Takamatsu Kogetsu"@en ;
+    lily:nameKana "たかまつこうげつ"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "male"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
+    # lily:rank ""^^xsd:integer ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    lily:gardenJobTitle "理事長代行"@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:schutzengel <> ;
+    # lily:pastSchutzengel <> ;
+    # lily:schild <> ;
+    # lily:pastSchild <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    schema:sibling [
+        lily:resource <Takamatsu_Shiera> ;
+        lily:additionalInformation "姉"@ja ;
+    ] ;
+    # lily:relationship [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "中田譲治"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q1372791> ;
+        lily:performIn <Assault_Lily_Bouquet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Teacher ;
+.
