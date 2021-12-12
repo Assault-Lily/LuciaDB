@@ -140,6 +140,16 @@ RDFs/legion.ttl:
     message: 'Data LanguageType not matched: lang is en, but Uðr (line: 711, col:
         26, triple: https://lily.fvhp.net/rdf/RDFs/detail/Udr - http://schema.org/name
         - "Uðr"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '724'
+    column: '27'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Bara
+    predicate: http://schema.org/name
+    object: '"Bára"@en'
+    message: 'Data LanguageType not matched: lang is en, but Bára (line: 724, col:
+        27, triple: https://lily.fvhp.net/rdf/RDFs/detail/Bara - http://schema.org/name
+        - "Bára"@en)'
 RDFs/corporation.ttl:
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO

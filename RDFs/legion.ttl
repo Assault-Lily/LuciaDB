@@ -682,6 +682,7 @@
     # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Yoshihara_Nanoha> ;
+        # <Aoe_Tamao> ; ### 「ヘヴリングの予備隊の隊長」と記載があるも詳細は不明 https://hobby.dengeki.com/news/1367619/
     a lily:Legion ;
 .
 
@@ -703,7 +704,8 @@
     # lily:legionGrade ""^^xsd:string ;
     # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
-        <Amata_Hanako> ;
+        <Amata_Hanako>,
+        <Iwasaki_Anna> ;
     a lily:Legion ;
 .
 
@@ -715,6 +717,28 @@
     # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Imaizumi_Rion> ;
+    a lily:Legion ;
+.
+
+<Bara>
+    schema:name "バーラ"@ja, "Bára"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Takami_Asuka> ;
+    a lily:Legion ;
+.
+
+<Byrgja>
+    schema:name "ビュルギャ"@ja, "Byrgja"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Yakuwa_Byakuren> ;
     a lily:Legion ;
 .
 
