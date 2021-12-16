@@ -3322,7 +3322,14 @@
     # ] ;
     lily:relationship [
         lily:resource <Kiko_Totori> ;
-        lily:additionalInformation "友人"@ja ;
+        lily:additionalInformation
+            "友人"@ja,
+            "幼稚舎の頃から共に戦うと誓った仲"@ja ;
+    ], [
+        lily:resource <Imagawa_Homare> ;
+        lily:additionalInformation
+            "友人"@ja,
+            "幼稚舎の頃から共に戦うと誓った仲"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -3388,7 +3395,12 @@
     # ] ;
     lily:relationship [
         lily:resource <Kondo_Misaka> ;
-        lily:additionalInformation "友人"@ja ;
+        lily:additionalInformation
+            "友人"@ja,
+            "幼稚舎の頃から共に戦うと誓った仲"@ja ;
+    ], [
+        lily:resource <Imagawa_Homare> ;
+        lily:additionalInformation "幼稚舎の頃から共に戦うと誓った仲"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -3454,10 +3466,15 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Kiko_Totori> ;
+        lily:additionalInformation "幼稚舎の頃から共に戦うと誓った仲"@ja ;
+    ], [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation
+            "友人"@ja,
+            "幼稚舎の頃から共に戦うと誓った仲"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
