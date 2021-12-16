@@ -1,4 +1,5 @@
 @base <https://lily.fvhp.net/rdf/RDFs/detail/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema: <http://schema.org/> .
 @prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
 
