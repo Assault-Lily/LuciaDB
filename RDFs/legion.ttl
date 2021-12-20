@@ -557,6 +557,17 @@
     a lily:Legion ;
 .
 
+<Uriel>
+    schema:name "第4飛空艇団ウリエル"@ja, "4th Gunship Brigade Uriel"@en ;
+    schema:alternateName "狂信者の集団"@ja ; # ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Sharlotta_Svetlanov> ;
+    a lily:Legion ;
+.
+
 <Raguel>
     schema:name "第5飛空艇団ラグエル"@ja, "5th Gunship Brigade Raguel"@en ;
     # schema:alternateName ""@ja, ""@en ;
@@ -567,6 +578,17 @@
         <Tiuccia_Paumgartner>,
         <Catalina_Asensio>,
         <Natasha_Metter> ;
+    a lily:Legion ;
+.
+
+<Zerachiel>
+    schema:name "第6飛空艇団ゼラキエル"@ja, "6th Gunship Brigade Zerachiel"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Nagano_Shizuki> ;
     a lily:Legion ;
 .
 
