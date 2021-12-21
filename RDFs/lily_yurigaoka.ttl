@@ -5688,14 +5688,14 @@
 
 <Fujimura_Ryuka>
     rdfs:label "藤村龍佳"^^xsd:string ;
-    schema:familyName "藤村"@ja ; #, ""@en ;
-    # lily:familyNameKana ""@ja ;
+    schema:familyName "藤村"@ja, "Fujimura"@en ;
+    lily:familyNameKana "ふじむら"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "龍佳"@ja ; #, ""@en ;
-    # lily:givenNameKana ""@ja ;
-    schema:name "藤村龍佳"@ja ; #, ""@en ;
-    # lily:nameKana ""@ja ;
+    schema:givenName "龍佳"@ja, "Ryuka"@en ;
+    lily:givenNameKana "りゅうか"@ja ;
+    schema:name "藤村龍佳"@ja, "Fujimura Ryuka"@en ;
+    lily:nameKana "ふじむらりゅうか"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
