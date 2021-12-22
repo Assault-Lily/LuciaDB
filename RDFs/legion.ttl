@@ -255,7 +255,8 @@
         <Goto_Sakura>,
         <Yamada_Samidori>,
         <Onogi_Sato>,
-        <Yasui_Ryo> ;
+        <Yasui_Ryo>,
+        <Kaneda_Akiho> ;
     a lily:Legion ;
 .
 
