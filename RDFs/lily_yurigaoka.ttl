@@ -7408,6 +7408,75 @@
     a lily:Lily ;
 .
 
+<Kaneda_Akiho>
+    rdfs:label "金田陽穂"^^xsd:string ;
+    schema:familyName "金田"@ja, "Kaneda"@en ;
+    lily:familyNameKana "かねだ"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "陽穂"@ja, "Akiho"@en ;
+    lily:givenNameKana "あきほ"@ja ;
+    schema:name "金田陽穂"@ja, "Kaneda Akiho"@en ;
+    lily:nameKana "かねだあきほ"@ja ;
+    # lily:anotherName ""@ja ;
+    foaf:age "15"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    lily:favorite "女の子"@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted true ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
+    lily:gardenDepartment "普通科"^^xsd:string ;
+    lily:grade "10"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Rossweisse> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    lily:position
+        "BZ"^^xsd:string,
+        "AZ"^^xsd:string,
+        "TZ"^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:schutzengel <> ;
+    # lily:pastSchutzengel <> ;
+    # lily:schild <> ;
+    # lily:pastSchild <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
+
 ### LGヘルフィヨトゥル
 
 <Yoshida_Ageha>
