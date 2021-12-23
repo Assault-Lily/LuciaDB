@@ -1800,10 +1800,12 @@
         lily:performAs <Toda_Eulalia_Kotohi> ;
         lily:additionalInformation "「戸田琴陽」役"@ja ;
     ], [
-        schema:name "？？？"@ja ;
-        # lily:resource <> ;
+        schema:name "なつぽい"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11522592>,
+            <http://ja.dbpedia.org/resource/万喜なつみ> ;
         # lily:performAs <> ;
-        lily:additionalInformation "「？？？」役"@ja ;
+        lily:additionalInformation "「L」役"@ja ;
     ] ;
     a lily:Play ;
 .
