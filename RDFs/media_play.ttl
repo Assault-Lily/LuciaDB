@@ -1880,6 +1880,11 @@
         lily:performAs <Nagasawa_Yuki> ;
         # lily:additionalInformation ""@ja ;
     ], [
+        schema:name "吉宮瑠織"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Igusa_Subaru> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
         schema:name "春咲暖"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q35172355> ;
         lily:performAs <Fujita_Asagao> ;

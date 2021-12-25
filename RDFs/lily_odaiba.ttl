@@ -549,6 +549,11 @@
         lily:resource <https://www.wikidata.org/wiki/Q54292702> ;
         lily:performIn <Assault_Lily_Odaiba_The_Singular_Ability> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "吉宮瑠織"@ja ;
+        # lily:resource <> ;
+        lily:performIn <Assault_Lily_Odaiba_Part2> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
 .
