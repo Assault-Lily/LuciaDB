@@ -396,7 +396,7 @@
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    # schema:birthPlace ""@ja, ""@en ;
+    schema:birthPlace "イギリス・リヴァプール"@ja, "Liverpool, UK"@en ;
     lily:favorite
         "駄菓子"@ja,
         "炭酸飲料"@ja,
