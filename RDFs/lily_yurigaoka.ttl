@@ -6053,7 +6053,9 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "野球"@ja ;
     # lily:notGood ""@ja ;
-    lily:hobby_talent "語学（ラテン語など）"@ja ;
+    lily:hobby_talent
+        "語学（ラテン語など）"@ja,
+        "カリグラフィー"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "この世の理"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
