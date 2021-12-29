@@ -3639,7 +3639,7 @@
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    schema:birthPlace "デンマーク"@ja, "Denmark"@en ;
+    schema:birthPlace "デンマーク・コペンハーゲン"@ja, "Copenhagen, Denmark"@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
@@ -3988,7 +3988,7 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite "お好み焼き"@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
