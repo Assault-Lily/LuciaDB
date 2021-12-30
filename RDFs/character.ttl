@@ -184,11 +184,11 @@
     #     lily:resource <> ;
     #     lily:additionalInformation ""@ja
     # ] ;
-    lily:cast [
-        schema:name "柴田茉莉"@ja ;
+    # lily:cast [
+        # schema:name ""@ja ;
         # lily:resource <> ;
-        lily:performIn <Assault_Lily_Odaiba_The_Singular_Ability>
-    ] ;
+        # lily:performIn <>
+    # ] ;
     a lily:Character ;
 .
 
