@@ -2111,7 +2111,7 @@
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted false ;
+    lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Hofud> ;
@@ -5431,7 +5431,11 @@
         lily:resource <Gungnir> ;
         lily:usedIn "アニメ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
-    ] ;
+    ], [
+        lily:resource <Durandal> ;
+        lily:usedIn "舞台LM"^^xsd:string ;
+        lily:additionalInformation "量産先行型"@ja ;
+    ];
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
@@ -7768,7 +7772,7 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite "カルピス"@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
