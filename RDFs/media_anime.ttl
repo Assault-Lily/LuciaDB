@@ -45,11 +45,11 @@
         <Assault_Lily_Bouquet_5>,
         <Assault_Lily_Bouquet_6>,
         <Assault_Lily_Bouquet_7>,
-        <Assault_Lily_Bouquet_8> ;
-    #    <Assault_Lily_Bouquet_9> ;
-    #    <Assault_Lily_Bouquet_10> ;
-    #    <Assault_Lily_Bouquet_11> ;
-    #    <Assault_Lily_Bouquet_12> ;
+        <Assault_Lily_Bouquet_8>,
+        <Assault_Lily_Bouquet_9>,
+        <Assault_Lily_Bouquet_10>,
+        <Assault_Lily_Bouquet_11>,
+        <Assault_Lily_Bouquet_12> ;
     schema:abstract "近未来の地球――人類は「ヒュージ」と呼ばれる謎の生命体の出現で破滅の危機に瀕していた。\n全世界が対ヒュージという一事に団結し、科学と魔法の力&lt;マギ&gt;を結集した決戦兵器「CHARM（チャーム）」の開発に成功、その使用者となる少女たち「リリィ」を養成する機関「ガーデン」を各地に設立した。\nガーデンの中でも名門と名高い百合ヶ丘女学院に補欠ながらも合格を果たした一柳梨璃は、人類存続のために戦うリリィとしての一歩を踏み出す。\nかつて、自身の窮地を救ってくれた白井夢結を追ってこの学園を受験した梨璃は登校初日に邂逅を果たすも、以前の夢結とはどこか違っていて……"@ja ;
     a lily:AnimeSeries ;
 .
@@ -374,5 +374,173 @@
         <Sejima_Hiromu>,
         <Takamatsu_Kogetsu> ;
     schema:abstract "年に一度の戦技競技会に向け盛り上がる百合ヶ丘女学院。\n最優秀リリィを目指し各々が作戦を立てる中、結梨は百合ヶ丘女学院の一員として生活を始めた。\n初心者リリィである結梨を危険な目に合わせないように守る梨璃。\nしかし、結梨はそれが不満なようで…\n「わたしもリリィになりたいの」"@ja ;
+    a lily:AnimeEpisode ;
+.
+
+<Assault_Lily_Bouquet_9>
+    lily:genre "アニメ"@ja ;
+    rdfs:label "アニメ「アサルトリリィ BOUQUET」第9話"^^xsd:string ;
+    schema:partOfSeries <Assault_Lily_Bouquet> ;
+    schema:name "アサルトリリィ BOUQUET 第9話"@ja , "Assault Lily BOUQUET Episode 9"@en ;
+    schema:episodeNumber "9"^^xsd:integer ;
+    lily:subtitle "コスモス"@ja , "COSMOS"@en ;
+    lily:parentheses "愛しき日々"@ja , "The joys that love life can bring"@en ;
+    lily:subtitleColor "EFB7FF"^^xsd:hexBinary ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:datePublished "2020-12-04"^^xsd:date ;
+    schema:duration "PT24M"^^xsd:duration ;
+    lily:storyboard "宮崎修治"@ja, "岡田堅二朗"@ja ;
+    lily:episodeDirection "岡田堅二朗"@ja ;
+    lily:chiefAnimationSupervisor "潮月一也"@ja, "崎本さゆり"@ja ;
+    lily:CASAssistance "高野晃久"@ja ;
+    lily:animationSupervisor "浅井昭人"@ja, "清水勝祐"@ja, "鮫島寿志"@ja ;
+    lily:ASAssistance "細田沙織"@ja ;
+    schema:character
+        <Hitotsuyanagi_Riri>,
+        <Shirai_Yuyu>,
+        <Kaede_Johan_Nouvel>,
+        <Futagawa_Fumi>,
+        <Ando_Tazusa>,
+        <Yoshimura_Thi_Mai>,
+        <Kuo_Shenlin>,
+        <Wang_Yujia>,
+        <Miliam_Hildegard_von_Guropius>,
+        <Hitotsuyanagi_Yuri>,
+        <Mashima_Moyu>,
+        <Izue_Shinobu>,
+        <Hata_Matsuri>,
+        <Uchida_Mayuri>,
+        <Rokkaku_Shiori>,
+        <Tachihara_Sayu>,
+        <Kuramata_Yukiyo>,
+        <Sejima_Hiromu>,
+        <Takamatsu_Kogetsu> ;
+    schema:abstract "疑いがかけられた結梨に、政府から捕獲命令が下された。\nその事実を受け入れることが出来ない梨璃は、結梨と共に学院から逃亡。\n一柳隊は他の追手よりも先に二人を探し出そうと動き出すが...\nその頃百由は、政府の説得に動き出し――。\n「逃げなさい梨璃。私が必ず迎えに行くから」"@ja ;
+    a lily:AnimeEpisode ;
+.
+
+<Assault_Lily_Bouquet_10>
+    lily:genre "アニメ"@ja ;
+    rdfs:label "アニメ「アサルトリリィ BOUQUET」第10話"^^xsd:string ;
+    schema:partOfSeries <Assault_Lily_Bouquet> ;
+    schema:name "アサルトリリィ BOUQUET 第10話"@ja , "Assault Lily BOUQUET Episode 10"@en ;
+    schema:episodeNumber "10"^^xsd:integer ;
+    lily:subtitle "アネモネ"@ja , "ANEMONE"@en ;
+    lily:parentheses "一日千秋"@ja , "Believe in you and wait"@en ;
+    lily:subtitleColor "9AA6E4"^^xsd:hexBinary ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:datePublished "2020-12-11"^^xsd:date ;
+    schema:duration "PT24M"^^xsd:duration ;
+    lily:storyboard "徳野雄士"@ja ;
+    lily:episodeDirection "徳野雄士"@ja ;
+    lily:chiefAnimationSupervisor "潮月一也"@ja, "崎本さゆり"@ja ;
+    lily:CASAssistance "高野晃久"@ja ;
+    lily:animationSupervisor "細田沙織"@ja, "河島久美子"@ja, "宮﨑修治"@ja, "松崎嘉克"@ja, "大橋勇吾"@ja ;
+    schema:character
+        <Hitotsuyanagi_Riri>,
+        <Shirai_Yuyu>,
+        <Kaede_Johan_Nouvel>,
+        <Futagawa_Fumi>,
+        <Ando_Tazusa>,
+        <Yoshimura_Thi_Mai>,
+        <Kuo_Shenlin>,
+        <Wang_Yujia>,
+        <Miliam_Hildegard_von_Guropius>,
+        <Hitotsuyanagi_Yuri>,
+        <Mashima_Moyu>,
+        <Tanaka_Ichi>,
+        <Amano_Soraha>,
+        <Egawa_Kusumi>,
+        <Endo_Araya>,
+        <Banshoya_Ena>,
+        <Izue_Shinobu>,
+        <Hata_Matsuri>,
+        <Uchida_Mayuri>,
+        <Rokkaku_Shiori>,
+        <Kawazoe_Misuzu>,
+        <Takamatsu_Kogetsu> ;
+    schema:abstract "急襲したヒュージとの壮絶な戦いの翌日。\n夢結は、学院の地下に隔離された梨璃に会いに行く。\n梨璃を励まそうとする夢結は、梨璃の髪飾りがなくなっていることに気づき…。\n海岸でなくした梨璃の髪飾りを探すため、一柳隊が動き出す――！\n「あれ？…そういえば楓さんは？」"@ja ;
+    a lily:AnimeEpisode ;
+.
+
+<Assault_Lily_Bouquet_11>
+    lily:genre "アニメ"@ja ;
+    rdfs:label "アニメ「アサルトリリィ BOUQUET」第11話"^^xsd:string ;
+    schema:partOfSeries <Assault_Lily_Bouquet> ;
+    schema:name "アサルトリリィ BOUQUET 第11話"@ja , "Assault Lily BOUQUET Episode 11"@en ;
+    schema:episodeNumber "11"^^xsd:integer ;
+    lily:subtitle "ユリ"@ja , "Lily"@en ;
+    lily:parentheses "一途"@ja , "Purity"@en ;
+    lily:subtitleColor "000000"^^xsd:hexBinary ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:datePublished "2020-12-18"^^xsd:date ;
+    schema:duration "PT24M"^^xsd:duration ;
+    lily:storyboard "大谷肇"@ja ;
+    lily:episodeDirection "大谷肇"@ja ;
+    lily:chiefAnimationSupervisor "潮月一也"@ja, "崎本さゆり"@ja ;
+    lily:CASAssistance "高野晃久"@ja ;
+    lily:animationSupervisor "清水勝祐"@ja, "大橋勇吾"@ja, "伊藤良明"@ja, "綾部美穂"@ja, "和田賢人"@ja ;
+    schema:character
+        <Hitotsuyanagi_Riri>,
+        <Shirai_Yuyu>,
+        <Kaede_Johan_Nouvel>,
+        <Futagawa_Fumi>,
+        <Ando_Tazusa>,
+        <Yoshimura_Thi_Mai>,
+        <Kuo_Shenlin>,
+        <Wang_Yujia>,
+        <Miliam_Hildegard_von_Guropius>,
+        <Mashima_Moyu>,
+        <Izue_Shinobu>,
+        <Hata_Matsuri>,
+        <Uchida_Mayuri>,
+        <Ito_Shizu>,
+        <Kawazoe_Misuzu>,
+        <Takamatsu_Kogetsu> ;
+    schema:abstract "夢結は再び美鈴の幻覚に悩まされていた。\nそんな中、百合ヶ丘女学院をヒュージが襲う。\n学院のリリィは戦闘態勢に入るも、なぜかチャームが動かない！？\n全リリィに退避命令が出されたが、夢結の姿は見当たらなくて――。\n「……行ってきます。お姉さま……」"@ja ;
+    a lily:AnimeEpisode ;
+.
+
+<Assault_Lily_Bouquet_12>
+    lily:genre "アニメ"@ja ;
+    rdfs:label "アニメ「アサルトリリィ BOUQUET」第12話"^^xsd:string ;
+    schema:partOfSeries <Assault_Lily_Bouquet> ;
+    schema:name "アサルトリリィ BOUQUET 第12話"@ja , "Assault Lily BOUQUET Episode 12"@en ;
+    schema:episodeNumber "12"^^xsd:integer ;
+    lily:subtitle "ブーケ"@ja , "BOUQUET"@en ;
+    lily:parentheses "花詩"@ja , "Flower language"@en ;
+    lily:subtitleColor "FFFFFF"^^xsd:hexBinary ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:datePublished "2020-12-25"^^xsd:date ;
+    schema:duration "PT24M"^^xsd:duration ;
+    lily:storyboard "佐伯昭志"@ja ;
+    lily:episodeDirection "大谷肇"@ja ;
+    lily:chiefAnimationSupervisor "潮月一也"@ja, "崎本さゆり"@ja ;
+    lily:CASAssistance "高野晃久"@ja ;
+    lily:animationSupervisor "浅井昭人"@ja, "細田沙織"@ja, "梅下麻奈未"@ja, "村山公輔"@ja ;
+    schema:character
+        <Hitotsuyanagi_Riri>,
+        <Shirai_Yuyu>,
+        <Kaede_Johan_Nouvel>,
+        <Futagawa_Fumi>,
+        <Ando_Tazusa>,
+        <Yoshimura_Thi_Mai>,
+        <Kuo_Shenlin>,
+        <Wang_Yujia>,
+        <Miliam_Hildegard_von_Guropius>,
+        <Hitotsuyanagi_Yuri>,
+        <Mashima_Moyu>,
+        <Tanaka_Ichi>,
+        <Amano_Soraha>,
+        <Egawa_Kusumi>,
+        <Endo_Araya>,
+        <Banshoya_Ena>,
+        <Izue_Shinobu>,
+        <Hata_Matsuri>,
+        <Uchida_Mayuri>,
+        <Rokkaku_Shiori>,
+        <Ito_Shizu>,
+        <Takamatsu_Kogetsu> ;
+    schema:abstract "百合ヶ丘女学院を急襲したヒュージに、梨璃はひとり対峙していた。\nヒュージが生み出した結界の影響により、梨璃が持つグングニル以外のチャームはいまだ起動しないまま…\n必死にヒュージに立ち向かう梨璃のもとに、ルナティックトランサーを発動した夢結が現れる。\n「梨璃、まだ戦える？」\n「はい、お姉さま...」\nついに最終決戦・・・！\n儚くも美しく戦う少女たちの物語の結末は・・・！？"@ja ;
     a lily:AnimeEpisode ;
 .
