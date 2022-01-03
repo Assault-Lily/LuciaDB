@@ -544,3 +544,40 @@
     schema:abstract "百合ヶ丘女学院を急襲したヒュージに、梨璃はひとり対峙していた。\nヒュージが生み出した結界の影響により、梨璃が持つグングニル以外のチャームはいまだ起動しないまま…\n必死にヒュージに立ち向かう梨璃のもとに、ルナティックトランサーを発動した夢結が現れる。\n「梨璃、まだ戦える？」\n「はい、お姉さま...」\nついに最終決戦・・・！\n儚くも美しく戦う少女たちの物語の結末は・・・！？"@ja ;
     a lily:AnimeEpisode ;
 .
+
+<Assault_Lily_Fruits>
+    lily:genre "アニメ"@ja ;
+    rdfs:label "アニメ「アサルトリリィ ふるーつ」"^^xsd:string ;
+    schema:name "アサルトリリィ ふるーつ"@ja , "Assault Lily Fruits"@en ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:startDate "2021-07-20"^^xsd:date ;
+    schema:endDate "2022-01-04"^^xsd:date ;
+    schema:numberOfEpisodes "13"^^xsd:integer ;
+    lily:originalAuthor "尾花沢軒栄"@ja ;
+    lily:director "佐伯昭志"@ja ;
+    lily:scenarioWriter "あぼしまこ"@ja ;
+    lily:characterDesign "清水祐実"@ja ;
+    lily:colorDesign "日比野仁"@ja ;
+    lily:CGDirector "島久登"@ja ;
+    lily:compositingDirector "会津孝幸"@ja ;
+    lily:editor "白石あかね"@ja ;
+    lily:soundDirector "亀山俊樹"@ja ;
+    lily:music "松田彬人"@ja ;
+    lily:animationProduction "シャフト"@ja ;
+    # schema:episode
+    #     <Assault_Lily_Fruits_1>,
+    #     <Assault_Lily_Fruits_2>,
+    #     <Assault_Lily_Fruits_3>,
+    #     <Assault_Lily_Fruits_4>,
+    #     <Assault_Lily_Fruits_5>,
+    #     <Assault_Lily_Fruits_6>,
+    #     <Assault_Lily_Fruits_7>,
+    #     <Assault_Lily_Fruits_8>,
+    #     <Assault_Lily_Fruits_9>,
+    #     <Assault_Lily_Fruits_10>,
+    #     <Assault_Lily_Fruits_11>,
+    #     <Assault_Lily_Fruits_12>,
+    #     <Assault_Lily_Fruits_13> ;
+    # schema:abstract ""@ja ;
+    a lily:AnimeSeries ;
+.
