@@ -85,6 +85,16 @@ lily:AnimeEpisode               a   rdfs:Class ;
     rdfs:label                      "アニメ各話"@ja ;
     rdfs:subClassOf                 schema:Episode .
 
+lily:Concert                    a   rdfs:Class ;
+    rdfs:comment                    "ライブイベントの概要を表すクラス" ;
+    rdfs:label                      "ライブイベント概要"@ja ;
+    rdfs:subClassOf                 schema:MusicEvent .
+
+lily:ConcertDetail              a   rdfs:Class ;
+    rdfs:comment                    "ライブ各公演の詳細を表すクラス" ;
+    rdfs:label                      "ライブ公演詳細"@ja ;
+    rdfs:subClassOf                 schema:MusicEvent .
+
 # ここからはプロパティ
 lily:familyNameKana     a   rdf:Property ;
     rdfs:comment            "姓のよみがなを表すプロパティ" ;
@@ -473,3 +483,7 @@ lily:subtitle           a   rdf:Property ;
 lily:parentheses        a   rdf:Property ;
     rdfs:comment            "サブタイトル下部の括弧書きを表すプロパティ" ;
     rdfs:label              "括弧書き"@ja .
+
+lily:setList            a   rdf:Property ;
+    rdfs:comment            "コンサートのセットリストを表すプロパティ" ;
+    rdfs:label              "セットリスト"@ja .
