@@ -1061,6 +1061,10 @@
         # lily:usedIn ""^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
+        lily:resource <Skofnung> ;
+        lily:usedIn "舞台御台場第二弾公演 (仮称)"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
         lily:resource <Yotunschwert> ;
         # lily:usedIn ""^^xsd:string ;
         # lily:additionalInformation ""@ja ;

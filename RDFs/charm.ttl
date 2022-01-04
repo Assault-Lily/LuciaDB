@@ -1108,3 +1108,15 @@
     lily:additionalInformation "先進技術実証機"@ja ;
     a lily:Charm ;
 .
+
+<Skofnung>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "スコフニュング"@ja, "Skofnung"@en ;
+    schema:name "スコフニュング"@ja, "Skofnung"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Takehisa_Nakaba> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
