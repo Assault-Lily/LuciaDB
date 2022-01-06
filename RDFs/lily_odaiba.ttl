@@ -875,7 +875,7 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Claiomh_Solais> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "舞台御台場第二弾公演 (仮称)"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
