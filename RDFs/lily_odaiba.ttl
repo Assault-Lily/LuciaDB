@@ -1136,7 +1136,7 @@
     lily:boostedSkill "リジェネレーター"^^xsd:string ;
     lily:charm [
         lily:resource <Ulfberht> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "舞台御台場第二弾公演 (仮称)"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1705,11 +1705,11 @@
         "Whole order"^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+       lily:resource <Trigrav> ;
+       lily:usedIn "舞台御台場第二弾公演 (仮称)"^^xsd:string ;
+       # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "御台場女学校"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "10"^^xsd:integer ;

@@ -552,7 +552,8 @@
         <Kaede_Johan_Nouvel>,
         <Nosaka_Jacqueline_Kazane>,
         <Akutsu_Lucifer_Maaya>,
-        <Koshiba_Eishin> ;
+        <Koshiba_Eishin>,
+        <Otake_Sunao> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
