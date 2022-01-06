@@ -6,8 +6,13 @@
 
 <Concert_Edel_Lilie>
     lily:genre "ライブ"@ja ;
+    rdfs:label "アサルトリリィ BOUQUET スペシャルライブイベント「Edel Lilie」"^^xsd:string ;
     schema:name "アサルトリリィ BOUQUET スペシャルライブイベント「Edel Lilie」"@ja ;
-    schema:alternateName "ライブイベント「Edel Lilie」"@ja ;
+    schema:alternateName "Edel Lilie"@ja ;
+    schema:subEvent
+        <Concert_Edel_Lilie_Matinee>,
+        <Concert_Edel_Lilie_Soiree> ;
+    # schema:abstract ""@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:location "中野サンプラザホール"^^xsd:string ;
     schema:startDate "2021-03-21"^^xsd:date ;
@@ -75,18 +80,15 @@
         lily:performAs <Miliam_Hildegard_von_Guropius> ;
         # lily:additionalInformation ""@ja ;
     ] ;
-    schema:subEvent
-        <Edel_Lilie_Matinee>,
-        <Edel_Lilie_Soiree> ;
-    # schema:abstract ""@ja ;
     a lily:Concert ;
 .
 
-<Edel_Lilie_Matinee>
+<Concert_Edel_Lilie_Matinee>
     lily:genre "ライブ"@ja ;
     rdfs:label "ライブイベント「Edel Lilie」昼公演"^^xsd:string ;
-    schema:superEvent <Concert_Edel_Lilie> ;
     schema:name "ライブイベント「Edel Lilie」昼公演"@ja ;
+    schema:alternateName "Edel Lilie 昼公演"@ja ;
+    schema:superEvent <Concert_Edel_Lilie> ;
     schema:doorTime
         "2021-03-21T12:30:00+09:00"^^xsd:dateTime ;
     lily:showTime
@@ -568,11 +570,12 @@
     a lily:ConcertDetail ;
 .
 
-<Edel_Lilie_Soiree>
+<Concert_Edel_Lilie_Soiree>
     lily:genre "ライブ"@ja ;
     rdfs:label "ライブイベント「Edel Lilie」夜公演"^^xsd:string ;
-    schema:superEvent <Concert_Edel_Lilie> ;
     schema:name "ライブイベント「Edel Lilie」夜公演"@ja ;
+    schema:alternateName "Edel Lilie 夜公演"@ja ;
+    schema:superEvent <Concert_Edel_Lilie> ;
     schema:doorTime
         "2021-03-21T17:00:00+09:00"^^xsd:dateTime ;
     lily:showTime
