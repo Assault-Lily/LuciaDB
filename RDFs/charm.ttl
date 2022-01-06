@@ -460,7 +460,8 @@
     schema:manufacturer <Yggdrasill> ;
     lily:user
         <Miyagawa_Takane>,
-        <Noguchi_Shinano> ;
+        <Noguchi_Shinano>,
+        <Kishida_Hanabusa> ;
     a lily:Charm ;
 .
 
