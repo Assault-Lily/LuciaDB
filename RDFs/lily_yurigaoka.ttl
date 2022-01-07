@@ -8136,14 +8136,14 @@
 
 <Sono_Mao>
     rdfs:label "曽野真央"^^xsd:string ;
-    schema:familyName "曽野"@ja ; #, ""@en ;
-    # lily:familyNameKana ""@ja ;
+    schema:familyName "曽野"@ja, "Sono"@en ;
+    lily:familyNameKana "その"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "真央"@ja ; #, ""@en ;
-    # lily:givenNameKana ""@ja ;
-    schema:name "曽野真央"@ja ; #, ""@en ;
-    # lily:nameKana ""@ja ;
+    schema:givenName "真央"@ja, "Mao"@en ;
+    lily:givenNameKana "まお"@ja ;
+    schema:name "曽野真央"@ja, "Sono Mao"@en ;
+    lily:nameKana "そのまお"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -8173,7 +8173,7 @@
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    # lily:legion <> ;
+    lily:legion <Ginnungagap> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;

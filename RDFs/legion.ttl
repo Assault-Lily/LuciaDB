@@ -298,6 +298,17 @@
     a lily:Legion ;
 .
 
+<Ginnungagap>
+    schema:name "ギンヌンガガプ"@ja, "Ginnungagap"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Sono_Mao> ;
+    a lily:Legion ;
+.
+
 ### エレンスゲ女学園
 
 <Hervarar>
