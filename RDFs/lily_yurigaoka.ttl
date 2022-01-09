@@ -4188,6 +4188,12 @@
     ], [
         lily:resource <Miyamoto_Komuku> ;
         lily:additionalInformation "主催する戦術サロンに参加"@ja ;
+    ], [
+        lily:resource <Funada_Kiito> ;
+        lily:additionalInformation "主催する戦術サロンに参加"@ja ;
+    ], [
+        lily:resource <Kawamura_Yuzuriha> ;
+        lily:additionalInformation "主催する戦術サロンに参加"@ja ;
     ] ;
     lily:cast [
         schema:name "根本京里"@ja ;
