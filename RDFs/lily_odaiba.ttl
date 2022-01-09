@@ -1861,11 +1861,15 @@
     lily:subSkill "軍神の加護"^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Gungnir_Carbin> ;
+        lily:usedIn "舞台御台場第二弾公演 (仮称)"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Tyrfing_type_R> ;
+        lily:usedIn "舞台御台場第二弾公演 (仮称)"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "御台場女学校"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
