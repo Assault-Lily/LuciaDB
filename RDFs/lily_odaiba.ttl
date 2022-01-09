@@ -89,6 +89,9 @@
     ], [
         lily:resource <Kawabata_Hotaru> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Tachihara_Sayu> ;
+        lily:additionalInformation "紗癒が主催する戦術サロンに参加"@ja ;
     ] ;
     lily:cast [
         schema:name "石井陽菜"@ja ;
@@ -1279,6 +1282,9 @@
         lily:additionalInformation
             "友人"@ja,
             "憧れられている"@ja ;
+    ], [
+        lily:resource <Tachihara_Sayu> ;
+        lily:additionalInformation "紗癒が主催する戦術サロンに参加"@ja ;
     ] ;
     lily:cast [
         schema:name "あわつまい"@ja ;
