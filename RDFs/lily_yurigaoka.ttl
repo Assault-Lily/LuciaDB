@@ -2368,7 +2368,8 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "麺類"@ja,
-        "棒付き飴"@ja ;
+        "棒付き飴"@ja,
+        "グミ"@ja ;
     lily:notGood "歯医者"@ja ;
     lily:hobby_talent "裁縫"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
