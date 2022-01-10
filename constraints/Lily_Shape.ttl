@@ -16,6 +16,9 @@
     ], [
         sh:prefix "rdfs" ;
         sh:namespace "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
+    ], [
+        sh:prefix "schema" ;
+        sh:namespace "http://schema.org/"^^xsd:anyURI ;
     ]
 .
 
@@ -23,6 +26,7 @@
     a sh:NodeShape ;
     sh:sparql [
         a sh:SPARQLConstraint ;
+        sh:message "リリィの使用CHARMに記述されているCHARMのユーザ一覧にはそのリリィが記述されていなければならない。" ;
         sh:prefixes <prefixes> ;
         sh:select """SELECT $this ?charm ?value
             WHERE {
@@ -40,14 +44,35 @@
     ]
 .
 
+<lily-castShape>
+    a sh:NodeShape ;
+    sh:property [
+        sh:path lily:performIn ;
+        sh:or (
+            [
+                sh:class lily:Game ;
+            ]
+            [
+                sh:class lily:Play ;
+            ]
+            [
+                sh:class lily:AnimeSeries ;
+            ]
+            [
+                sh:class lily:Concert ;
+            ]
+        ) ;
+        sh:minCount 1 ;
+    ]
+.
+
 <lily-relationshipShape>
     a sh:NodeShape;
     sh:property [
         sh:path lily:resource ;
         sh:class lily:Character ;
         sh:minCount 1 ;
-    ] ;
-    sh:property [
+    ], [
         sh:path lily:additionalInformation ;
         sh:minCount 1 ;
     ]
@@ -339,6 +364,19 @@
         rdfs:comment "目的語はlily:Legion、最大一つ";
         sh:path lily:legion;
         sh:class lily:Legion;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:message "リリィの所属レギオンに記述されているレギオンのメンバー一覧にはそのリリィが記述されていなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?legion
+                WHERE {
+                    $this lily:legion ?legion .
+                    FILTER NOT EXISTS {
+                        ?legion ?p $this .
+                        FILTER(?p = schema:member || ?p = lily:submember)
+                    }
+                }""" ;
+        ] ;
         sh:maxCount 1;
     ], [
         rdfs:label "ポジションの制約";
@@ -355,70 +393,222 @@
         rdfs:comment "目的語はlily:Legion";
         sh:path lily:pastLegion;
         sh:class lily:Legion;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:message "リリィの過去の所属レギオンに記述されているレギオンのメンバー一覧にはそのリリィが記述されていなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?legion
+                WHERE {
+                    $this lily:pastLegion ?legion .
+                    FILTER NOT EXISTS {
+                        ?legion ?p $this .
+                        FILTER(?p = schema:member || ?p = lily:submember || ?p = schema:alumni)
+                    }
+                }""" ;
+        ] ;
     ], [
         rdfs:label "参加部隊の制約";
         rdfs:comment "目的語はlily:Taskforce";
         sh:path lily:taskforce;
         sh:class lily:Taskforce;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:message "リリィの参加部隊に記述されている部隊のメンバー一覧にはそのリリィが記述されていなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?tf
+                WHERE {
+                    $this lily:taskforce ?tf .
+                    FILTER NOT EXISTS {
+                        ?tf ?p $this .
+                        FILTER(?p = schema:member || ?p = lily:submember)
+                    }
+                }""" ;
+        ] ;
     ], [
         rdfs:label "過去の参加部隊の制約";
         rdfs:comment "目的語はlily:Taskforce";
         sh:path lily:pastTaskforce;
         sh:class lily:Taskforce;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:message "リリィの過去の参加部隊に記述されている部隊のメンバー一覧にはそのリリィが記述されていなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?tf
+                WHERE {
+                    $this lily:pastTaskforce ?tf .
+                    FILTER NOT EXISTS {
+                        ?tf ?p $this .
+                        FILTER(?p = schema:member || ?p = lily:submember || ?p = schema:alumni)
+                    }
+                }""" ;
+        ] ;
     ], [
         rdfs:label "シュッツエンゲルの制約";
         rdfs:comment "シュッツエンゲルは最大一人";
         sh:path lily:schutzengel;
         sh:class lily:Lily;
         sh:maxCount 1;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:message "シュッツエンゲルのシルトは自分でなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?schutzengel
+                WHERE {
+                    $this lily:schutzengel ?schutzengel .
+                    FILTER NOT EXISTS {
+                        ?schutzengel lily:schild $this .
+                    }
+                }""" ;
+        ] ;
     ], [
         rdfs:label "過去のシュッツエンゲルの制約";
         rdfs:comment "過去のシュッツエンゲルは複数いる可能性が否定できない";
         sh:path lily:pastSchutzengel;
         sh:class lily:Lily;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:message "過去のシュッツエンゲルの過去のシルトには自分がいなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?pastSchutzengel
+                WHERE {
+                    $this lily:pastSchutzengel ?pastSchutzengel .
+                    FILTER NOT EXISTS {
+                        ?pastSchutzengel lily:pastSchild $this .
+                    }
+                }""" ;
+        ] ;
     ], [
         rdfs:label "シルトの制約";
         rdfs:comment "シルトは最大一人";
         sh:path lily:schild;
         sh:class lily:Lily;
         sh:maxCount 1;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:message "シルトのシュッツエンゲルは自分でなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?schild
+                WHERE {
+                    $this lily:schild ?schild .
+                    FILTER NOT EXISTS {
+                        ?schild lily:schutzengel $this .
+                    }
+                }""" ;
+        ] ;
     ], [
         rdfs:label "過去のシルトの制約";
         rdfs:comment "過去のシルトは複数いる可能性が否定できない";
         sh:path lily:pastSchild;
         sh:class lily:Lily;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:message "過去のシルトの過去のシュッツエンゲルには自分がいなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?pastSchild
+                WHERE {
+                    $this lily:schild ?schild .
+                    FILTER NOT EXISTS {
+                        ?schild lily:schutzengel $this .
+                    }
+                }""" ;
+        ] ;
     ], [
         rdfs:label "シュベスター(姉)の制約";
         rdfs:comment "シュベスター(姉)は最大一人";
         sh:path lily:olderSchwester;
         sh:class lily:Lily;
         sh:maxCount 1;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:message "シュベスター(姉)のシュベスター(妹)は自分でなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?olderSchwester
+                WHERE {
+                    $this lily:olderSchwester ?olderSchwester .
+                    FILTER NOT EXISTS {
+                        ?olderSchwester lily:youngerSchwester $this .
+                    }
+                }""" ;
+        ] ;
     ], [
         rdfs:label "過去のシュベスター(姉)の制約";
         rdfs:comment "過去のシュベスター(姉)は複数いる可能性が否定できない";
         sh:path lily:pastOlderSchwester;
         sh:class lily:Lily;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:message "過去のシュベスター(姉)の過去のシュベスター(妹)には自分がいなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?pastOlderSchwester
+                WHERE {
+                    $this lily:pastOlderSchwester ?pastOlderSchwester .
+                    FILTER NOT EXISTS {
+                        ?pastOlderSchwester lily:pastYoungerSchwester $this .
+                    }
+                }""" ;
+        ] ;
     ], [
         rdfs:label "シュベスター(妹)の制約";
         rdfs:comment "シュベスター(妹)は最大一人";
         sh:path lily:youngerSchwester;
         sh:class lily:Lily;
         sh:maxCount 1;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:message "シュベスター(妹)のシュベスター(姉)は自分でなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?youngerSchwester
+                WHERE {
+                    $this lily:youngerSchwester ?youngerSchwester .
+                    FILTER NOT EXISTS {
+                        ?youngerSchwester lily:olderSchwester $this .
+                    }
+                }""" ;
+        ] ;
     ], [
         rdfs:label "過去のシュベスター(妹)の制約";
         rdfs:comment "過去のシュベスター(妹)は複数いる可能性が否定できない";
         sh:path lily:pastYoungerSchwester;
         sh:class lily:Lily;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:message "過去のシュベスター(妹)の過去のシュベスター(姉)には自分がいなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?pastYoungerSchwester
+                WHERE {
+                    $this lily:pastYoungerSchwester ?pastYoungerSchwester .
+                    FILTER NOT EXISTS {
+                        ?pastYoungerSchwester lily:pastOlderSchwester $this .
+                    }
+                }""" ;
+        ] ;
     ], [
         rdfs:label "ルームメイトの制約";
         rdfs:comment "ルームメイトは最大一人";
         sh:path lily:roomMate;
         sh:class lily:Lily;
         sh:maxCount 1;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:message "ルームメイトのルームメイトは自分でなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?roomMate
+                WHERE {
+                    $this lily:roomMate ?roomMate .
+                    FILTER NOT EXISTS {
+                        ?roomMate lily:roomMate $this .
+                    }
+                }""" ;
+        ] ;
     ], [
         rdfs:label "リリィ同士の関係の制約";
         rdfs:comment "空白ノードのShapeを検証";
         sh:path lily:relationship;
         sh:node <lily-relationshipShape>;
+    ], [
+        rdfs:label "リリィのキャストデータの制約";
+        rdfs:comment "空白ノードのShapeを検証";
+        sh:path lily:cast;
+        sh:node <lily-castShape>;
     ] ;
     sh:closed false.
