@@ -449,6 +449,8 @@
     lily:submember
         <Otake_Sunao>,
         <Maruyama_Amane> ;
+    schema:alumni
+        <Nagasawa_Yuki> ;
     a lily:Legion ;
 .
 
