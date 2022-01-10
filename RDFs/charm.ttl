@@ -165,6 +165,7 @@
         <Shirai_Yuyu>,
         <Funada_Kiito>,
         <Rokkaku_Shiori>,
+        <Kaede_Johan_Nouvel>,
         <Izumi_Rosa_Rina> ;
     lily:hasVariant <Dainsleif_Carbin> ;
     lily:hasVariant <Dainsleif_Marksman> ;
@@ -504,7 +505,8 @@
     schema:manufacturer <Grand_Guignol> ;
     lily:user
         <Sadamori_Himeka>,
-        <Uchida_Mayuri> ;
+        <Uchida_Mayuri>,
+        <Hata_Matsuri> ;
     a lily:Charm ;
 .
 
