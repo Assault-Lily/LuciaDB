@@ -89,6 +89,9 @@
     ], [
         lily:resource <Kawabata_Hotaru> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Tachihara_Sayu> ;
+        lily:additionalInformation "紗癒が主催する戦術サロンに参加"@ja ;
     ] ;
     lily:cast [
         schema:name "石井陽菜"@ja ;
@@ -1279,6 +1282,9 @@
         lily:additionalInformation
             "友人"@ja,
             "憧れられている"@ja ;
+    ], [
+        lily:resource <Tachihara_Sayu> ;
+        lily:additionalInformation "紗癒が主催する戦術サロンに参加"@ja ;
     ] ;
     lily:cast [
         schema:name "あわつまい"@ja ;
@@ -1861,11 +1867,15 @@
     lily:subSkill "軍神の加護"^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Gungnir_Carbin> ;
+        lily:usedIn "舞台御台場第二弾公演 (仮称)"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Tyrfing_type_R> ;
+        lily:usedIn "舞台御台場第二弾公演 (仮称)"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "御台場女学校"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;

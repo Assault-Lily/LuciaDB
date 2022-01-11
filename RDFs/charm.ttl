@@ -144,7 +144,8 @@
         <Horie_Agata_Yukino>,
         <Yamabuki_Elizabeth_Keito>,
         <Kosaka_Anastasiya_Ryoko>,
-        <Funada_Ui> ;
+        <Funada_Ui>,
+        <Hirose_Minato> ;
     lily:isVariantOf <Gungnir> ;
     a lily:Charm ;
 .
@@ -164,6 +165,7 @@
         <Shirai_Yuyu>,
         <Funada_Kiito>,
         <Rokkaku_Shiori>,
+        <Kaede_Johan_Nouvel>,
         <Izumi_Rosa_Rina> ;
     lily:hasVariant <Dainsleif_Carbin> ;
     lily:hasVariant <Dainsleif_Marksman> ;
@@ -287,7 +289,8 @@
     lily:user
         <Chemir_Friedheim>,
         <Yokoyama_Azusa>,
-        <Masukawa_Uta> ;
+        <Masukawa_Uta>,
+        <Hirose_Minato> ;
     lily:isVariantOf <Tyrfing_Prototype> ;
     schema:isSimilarTo <Tyrfing_type_T> ;
     a lily:Charm ;
@@ -502,7 +505,8 @@
     schema:manufacturer <Grand_Guignol> ;
     lily:user
         <Sadamori_Himeka>,
-        <Uchida_Mayuri> ;
+        <Uchida_Mayuri>,
+        <Hata_Matsuri> ;
     a lily:Charm ;
 .
 

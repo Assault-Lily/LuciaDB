@@ -2368,7 +2368,8 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "麺類"@ja,
-        "棒付き飴"@ja ;
+        "棒付き飴"@ja,
+        "グミ"@ja ;
     lily:notGood "歯医者"@ja ;
     lily:hobby_talent "裁縫"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
@@ -4187,6 +4188,12 @@
         lily:additionalInformation "ライバル"@ja ;
     ], [
         lily:resource <Miyamoto_Komuku> ;
+        lily:additionalInformation "主催する戦術サロンに参加"@ja ;
+    ], [
+        lily:resource <Funada_Kiito> ;
+        lily:additionalInformation "主催する戦術サロンに参加"@ja ;
+    ], [
+        lily:resource <Kawamura_Yuzuriha> ;
         lily:additionalInformation "主催する戦術サロンに参加"@ja ;
     ] ;
     lily:cast [
@@ -7767,7 +7774,7 @@
     foaf:age "16"^^xsd:integer ;
     schema:height "154.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--03-24"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
