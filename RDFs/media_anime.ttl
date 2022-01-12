@@ -254,7 +254,7 @@
     schema:name "アサルトリリィ BOUQUET 第6話"@ja , "Assault Lily BOUQUET Episode 6"@en ;
     schema:episodeNumber "6"^^xsd:integer ;
     lily:subtitle "スミレ"@ja , "VIOLET"@en ;
-    lily:parentheses "忘れ得ね人"@ja , "Daydreaming, You occupy my thoughts"@en ;
+    lily:parentheses "忘れ得ぬ人"@ja , "Daydreaming, You occupy my thoughts"@en ;
     lily:subtitleColor "BEB1E1"^^xsd:hexBinary ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:datePublished "2020-11-06"^^xsd:date ;
