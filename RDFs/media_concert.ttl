@@ -4034,3 +4034,633 @@
     ] ;
     a lily:ConcertDetail ;
 .
+
+<Concert_Idol_Lily_Stage>
+    lily:genre "ライブ"@ja ;
+    rdfs:label "アサルトリリィ Last Bullet Presents Idol Lily Stage"^^xsd:string ;
+    schema:name "アサルトリリィ Last Bullet Presents Idol Lily Stage"@ja ;
+    schema:alternateName "Idol Lily Stage"@ja ;
+    schema:subEvent
+        <Concert_Idol_Lily_Stage_Matinee>,
+        <Concert_Idol_Lily_Stage_Soiree> ;
+    # schema:abstract ""@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:location "TACHIKAWA STAGE GARDEN"^^xsd:string ;
+    schema:startDate "2021-12-25"^^xsd:date ;
+    schema:endDate "2021-12-25"^^xsd:date ;
+    schema:duration "PT1H50M"^^xsd:duration ;
+    schema:doorTime
+        "2021-12-25T13:30:00+09:00"^^xsd:dateTime,
+        "2021-12-25T18:00:00+09:00"^^xsd:dateTime ;
+    lily:showTime
+        "2021-12-25T14:30:00+09:00"^^xsd:dateTime,
+        "2021-12-25T19:00:00+09:00"^^xsd:dateTime ;
+    lily:organizer "ブシロードミュージック"@ja ;
+    lily:production "セブンセンシズ"@ja ;
+    lily:contributor "ディスクガレージ"@ja ;
+    lily:cast [
+        schema:name "前田佳織里"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+        lily:performAs <Kon_Kanaho> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "礒部花凜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q18990383>,
+            <http://ja.dbpedia.org/resource/礒部花凜> ;
+        lily:performAs <Miyagawa_Takane> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "東城咲耶子"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q20041619>,
+            <http://ja.dbpedia.org/resource/東城咲耶子> ;
+        lily:performAs <Toki_Kureha> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "進藤あまね"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+        lily:performAs <Tamba_Akari> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "富田美憂"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q22131362>,
+            <http://ja.dbpedia.org/resource/富田美憂> ;
+        lily:performAs <Sadamori_Himeka> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Concert ;
+.
+
+<Concert_Idol_Lily_Stage_Matinee>
+    lily:genre "ライブ"@ja ;
+    rdfs:label "ライブイベント「Idol Lily Stage」昼公演"^^xsd:string ;
+    schema:name "ライブイベント「Idol Lily Stage」昼公演"@ja ;
+    schema:alternateName "Idol Lily Stage 昼公演"@ja ;
+    schema:superEvent <Concert_Idol_Lily_Stage> ;
+    schema:doorTime
+        "2021-12-25T13:30:00+09:00"^^xsd:dateTime ;
+    lily:showTime
+        "2021-12-25T14:30:00+09:00"^^xsd:dateTime ;
+    lily:setList [
+        schema:name "Treasure Every Day!"@ja ;
+        lily:listOrder "1"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "～シーン①～"@ja ;
+        lily:listOrder "2"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "摩訶不思議をダイスキダ"@ja ;
+        lily:listOrder "3"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "プリザーブド☆アイドル"@ja ;
+        lily:listOrder "4"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Oh precious!"@ja ;
+        lily:listOrder "5"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Dearest Dream"@ja ;
+        lily:listOrder "6"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "～シーン②～"@ja ;
+        lily:listOrder "7"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Dears&Tears"@ja ;
+        lily:listOrder "8"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Multicolored Flowers"@ja ;
+        lily:listOrder "9"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Edel Lilie (Last Bullet MIX)"@ja ;
+        lily:listOrder "10"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Treasure Every Day!"@ja ;
+        lily:listOrder "11"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:ConcertDetail ;
+.
+
+<Concert_Idol_Lily_Stage_Soiree>
+    lily:genre "ライブ"@ja ;
+    rdfs:label "ライブイベント「Idol Lily Stage」夜公演"^^xsd:string ;
+    schema:name "ライブイベント「Idol Lily Stage」夜公演"@ja ;
+    schema:alternateName "Idol Lily Stage 夜公演"@ja ;
+    schema:superEvent <Concert_Idol_Lily_Stage> ;
+    schema:doorTime
+        "2021-12-25T18:00:00+09:00"^^xsd:dateTime ;
+    lily:showTime
+        "2021-12-25T19:00:00+09:00"^^xsd:dateTime ;
+    lily:setList [
+        schema:name "Treasure Every Day!"@ja ;
+        lily:listOrder "1"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "～シーン①～"@ja ;
+        lily:listOrder "2"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "摩訶不思議をダイスキダ"@ja ;
+        lily:listOrder "3"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "プリザーブド☆アイドル"@ja ;
+        lily:listOrder "4"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Oh precious!"@ja ;
+        lily:listOrder "5"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Dearest Dream"@ja ;
+        lily:listOrder "6"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "～シーン②～"@ja ;
+        lily:listOrder "7"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Dears&Tears"@ja ;
+        lily:listOrder "8"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Multicolored Flowers"@ja ;
+        lily:listOrder "9"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Edel Lilie (Last Bullet MIX)"@ja ;
+        lily:listOrder "10"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ], [
+        schema:name "Treasure Every Day!"@ja ;
+        lily:listOrder "11"^^xsd:integer ;
+        # lily:resource ;
+        lily:cast [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "礒部花凜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18990383>,
+                <http://ja.dbpedia.org/resource/礒部花凜> ;
+            lily:performAs <Miyagawa_Takane> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "東城咲耶子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041619>,
+                <http://ja.dbpedia.org/resource/東城咲耶子> ;
+            lily:performAs <Toki_Kureha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "進藤あまね"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989810> ;
+            lily:performAs <Tamba_Akari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "富田美憂"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22131362>,
+                <http://ja.dbpedia.org/resource/富田美憂> ;
+            lily:performAs <Sadamori_Himeka> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:ConcertDetail ;
+.
