@@ -24,7 +24,7 @@
     schema:birthDate "--12-25"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
@@ -59,7 +59,8 @@
         lily:resource <Hrunting> ;
         lily:usedIn
             "ドール"^^xsd:string,
-            "舞台御台場TSA"^^xsd:string ;
+            "舞台御台場TSA"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -103,7 +104,8 @@
             <The_Fateful_Gift>,
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Lost_Memories>,
-            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -126,7 +128,7 @@
     schema:birthDate "--12-25"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
@@ -138,6 +140,7 @@
     lily:hobby_talent
         "そろばん"@ja,
         "飴細工"@ja,
+        "ガラス細工"@ja,
         "将棋"@ja,
         "兵法書の読書"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
@@ -157,7 +160,8 @@
         lily:resource <Naegling> ;
         lily:usedIn
             "ドール"^^xsd:string,
-            "舞台御台場TSA"^^xsd:string ;
+            "舞台御台場TSA"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -198,7 +202,8 @@
             <The_Fateful_Gift>,
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Lost_Memories>,
-            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -647,7 +652,8 @@
         lily:resource <https://www.wikidata.org/wiki/Q35172355> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1293,7 +1299,8 @@
             <League_of_Gardens>,
             <The_Fateful_Gift>,
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1670,7 +1677,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q56253675>,
             <http://ja.dbpedia.org/resource/矢野妃菜喜> ;
-        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
