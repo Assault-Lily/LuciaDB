@@ -26,7 +26,10 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "クレープ"@ja ;
+    lily:favorite
+        "クレープ"@ja,
+        "ミュージカル"@ja,
+        "カラオケ"@ja ;
     lily:notGood "細かいこと"@ja ;
     lily:hobby_talent "音楽鑑賞"@ja ;
     lily:skillerVal "88"^^xsd:integer ;
@@ -41,7 +44,8 @@
         lily:usedIn
             "舞台LoG"^^xsd:string,
             "舞台TFG"^^xsd:string,
-            "舞台 シュベスターの祈り 2021"^^xsd:string ;
+            "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Charlemagne> ;
@@ -52,7 +56,8 @@
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
             "舞台TFG"^^xsd:string,
-            "舞台 シュベスターの祈り 2021"^^xsd:string ;
+            "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         lily:additionalInformation "SP"@ja ;
     ], [
         lily:resource <Dainsleif_Carbin> ;
@@ -120,7 +125,8 @@
             <The_Fateful_Gift>,
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
-            <Lost_Memories> ;
+            <Lost_Memories>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "石井陽菜"@ja ;
@@ -254,9 +260,12 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "ソフトクリーム"@ja,
-        "フルーツパフェ"@ja ;
+        "フルーツパフェ"@ja,
+        "遊園地"@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "ヘアアレンジ"@ja,
+        "おしゃべり"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "カリスマ"^^xsd:string ;
     lily:subSkill "インビジブルワン"^^xsd:string ;
@@ -271,7 +280,8 @@
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
             "舞台TFG"^^xsd:string,
-            "舞台 シュベスターの祈り 2021"^^xsd:string ;
+            "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         lily:additionalInformation
             "SP"@ja,
             "姉の形見"@ja ;
@@ -327,7 +337,8 @@
             <The_Fateful_Gift>,
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
-            <Lost_Memories> ;
+            <Lost_Memories>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -418,7 +429,8 @@
             <Yakusoku_No_Yukue>,
             <Shinjitsu_No_Yaiba>,
             <Schwester_No_Inori_2021>,
-            <Schwester_No_Himitsu_2021> ;
+            <Schwester_No_Himitsu_2021>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -516,7 +528,8 @@
             <Shinjitsu_No_Yaiba>,
             <The_Fateful_Gift>,
             <Schwester_No_Inori_2021>,
-            <Schwester_No_Himitsu_2021> ;
+            <Schwester_No_Himitsu_2021>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -937,7 +950,8 @@
         # lily:resource <> ;
         lily:performIn
             <Schwester_No_Inori_2021>,
-            <Schwester_No_Himitsu_2021> ;
+            <Schwester_No_Himitsu_2021>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
