@@ -103,7 +103,7 @@
             <The_Fateful_Gift>,
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Lost_Memories>,
-            <Assault_Lily_Odaiba_Part2> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -198,7 +198,7 @@
             <The_Fateful_Gift>,
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Lost_Memories>,
-            <Assault_Lily_Odaiba_Part2> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -295,7 +295,7 @@
             <http://ja.dbpedia.org/resource/野元空> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Assault_Lily_Odaiba_Part2> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -373,7 +373,7 @@
         lily:resource <https://www.wikidata.org/wiki/Q34856960> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Assault_Lily_Odaiba_Part2> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -471,7 +471,7 @@
         lily:resource <https://www.wikidata.org/wiki/Q30933448> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Assault_Lily_Odaiba_Part2> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -555,7 +555,7 @@
     ], [
         schema:name "吉宮瑠織"@ja ;
         # lily:resource <> ;
-        lily:performIn <Assault_Lily_Odaiba_Part2> ;
+        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -647,7 +647,7 @@
         lily:resource <https://www.wikidata.org/wiki/Q35172355> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Assault_Lily_Odaiba_Part2> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -742,7 +742,7 @@
     ], [
         schema:name "柴田茉莉"@ja ;
         # lily:resource <> ;
-        lily:performIn <Assault_Lily_Odaiba_Part2> ;
+        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -837,7 +837,7 @@
         lily:resource <https://www.wikidata.org/wiki/Q38279051> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Assault_Lily_Odaiba_Part2> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -878,7 +878,7 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Claiomh_Solais> ;
-        lily:usedIn "舞台御台場第二弾公演 (仮称)"^^xsd:string ;
+        lily:usedIn "舞台御台場TEP"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -934,7 +934,7 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q1193372>,
             <http://ja.dbpedia.org/resource/栞菜> ;
-        lily:performIn <Assault_Lily_Odaiba_Part2> ;
+        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1065,7 +1065,7 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Skofnung> ;
-        lily:usedIn "舞台御台場第二弾公演 (仮称)"^^xsd:string ;
+        lily:usedIn "舞台御台場TEP"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1102,7 +1102,7 @@
     lily:cast [
         schema:name "山本栞"@ja ;
         # lily:resource <> ;
-        lily:performIn <Assault_Lily_Odaiba_Part2> ;
+        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1139,7 +1139,7 @@
     lily:boostedSkill "リジェネレーター"^^xsd:string ;
     lily:charm [
         lily:resource <Ulfberht> ;
-        lily:usedIn "舞台御台場第二弾公演 (仮称)"^^xsd:string ;
+        lily:usedIn "舞台御台場TEP"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1174,7 +1174,7 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q35172322>,
             <http://ja.dbpedia.org/resource/星希成奏> ;
-        lily:performIn <Assault_Lily_Odaiba_Part2> ;
+        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1293,7 +1293,7 @@
             <League_of_Gardens>,
             <The_Fateful_Gift>,
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Assault_Lily_Odaiba_Part2> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1377,7 +1377,7 @@
         # lily:resource <> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Assault_Lily_Odaiba_Part2> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1566,7 +1566,7 @@
             <http://ja.dbpedia.org/resource/林田真尋> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Assault_Lily_Odaiba_Part2> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1670,7 +1670,7 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q56253675>,
             <http://ja.dbpedia.org/resource/矢野妃菜喜> ;
-        lily:performIn <Assault_Lily_Odaiba_Part2> ;
+        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1713,7 +1713,7 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Trigrav> ;
-        lily:usedIn "舞台御台場第二弾公演 (仮称)"^^xsd:string ;
+        lily:usedIn "舞台御台場TEP"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -1750,7 +1750,7 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q28418874>,
             <http://ja.dbpedia.org/resource/北澤早紀> ;
-        lily:performIn <Assault_Lily_Odaiba_Part2> ;
+        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1830,7 +1830,7 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q30936947>,
             <http://ja.dbpedia.org/resource/今村美歩> ;
-        lily:performIn <Assault_Lily_Odaiba_Part2> ;
+        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1869,11 +1869,11 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Gungnir_Carbin> ;
-        lily:usedIn "舞台御台場第二弾公演 (仮称)"^^xsd:string ;
+        lily:usedIn "舞台御台場TEP"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Tyrfing_type_R> ;
-        lily:usedIn "舞台御台場第二弾公演 (仮称)"^^xsd:string ;
+        lily:usedIn "舞台御台場TEP"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -1904,7 +1904,7 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q17161003>,
             <http://ja.dbpedia.org/resource/田上真里奈> ;
-        lily:performIn <Assault_Lily_Odaiba_Part2> ;
+        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -2008,7 +2008,7 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Risanautr> ;
-        lily:usedIn "舞台御台場第二弾公演 (仮称)"^^xsd:string ;
+        lily:usedIn "舞台御台場TEP"^^xsd:string ;
         lily:additionalInformation "先行試作機"@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -2039,7 +2039,7 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q98398947>,
             <http://ja.dbpedia.org/resource/白河みずな> ;
-        lily:performIn <Assault_Lily_Odaiba_Part2> ;
+        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
