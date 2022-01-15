@@ -1810,10 +1810,10 @@
     a lily:Play ;
 .
 
-<Assault_Lily_Odaiba_Part2>
+<Assault_Lily_Odaiba_The_Empathy_Phenomenon>
     lily:genre "舞台"@ja ;
-    schema:name "舞台アサルトリリィ―御台場女学校編― 第二弾公演（仮称）"@ja ;
-    schema:alternateName "御台場第二弾（仮称）"@ja ;
+    schema:name "舞台アサルトリリィ―御台場女学校編― The Empathy Phenomenon"@ja ;
+    schema:alternateName "御台場TEP"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:location "紀伊國屋サザンシアター"^^xsd:string ;
     schema:startDate "2022-02-17"^^xsd:date ;
