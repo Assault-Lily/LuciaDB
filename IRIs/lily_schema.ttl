@@ -95,6 +95,26 @@ lily:ConcertDetail              a   rdfs:Class ;
     rdfs:label                      "ライブ公演詳細"@ja ;
     rdfs:subClassOf                 schema:MusicEvent .
 
+lily:Music                      a   rdfs:Class ;
+    rdfs:comment                    "音楽作品を表すクラス" ;
+    rdfs:label                      "音楽作品"@ja ;
+    rdfs:subClassOf                 schema:MusicRecording .
+
+lily:MusicSingle                a   rdfs:Class ;
+    rdfs:comment                    "シングルを表すクラス" ;
+    rdfs:label                      "シングル"@ja ;
+    rdfs:subClassOf                 schema:MusicAlbum .
+
+lily:MusicAlbum                 a   rdfs:Class ;
+    rdfs:comment                    "アルバムを表すクラス" ;
+    rdfs:label                      "アルバム"@ja ;
+    rdfs:subClassOf                 schema:MusicAlbum .
+
+lily:MusicStreaming             a   rdfs:Class ;
+    rdfs:comment                    "ストリーミングを表すクラス" ;
+    rdfs:label                      "ストリーミング"@ja ;
+    rdfs:subClassOf                 schema:MusicAlbum .
+
 # ここからはプロパティ
 lily:familyNameKana     a   rdf:Property ;
     rdfs:comment            "姓のよみがなを表すプロパティ" ;
@@ -359,6 +379,34 @@ lily:director           a   rdf:Property ;
 lily:composer           a   rdf:Property ;
     rdfs:comment            "作曲者を表すプロパティ" ;
     rdfs:label              "作曲"@ja .
+
+lily:arranger           a   rdf:Property ;
+    rdfs:comment            "編曲者を表すプロパティ" ;
+    rdfs:label              "編曲"@ja .
+
+lily:lyricist           a   rdf:Property ;
+    rdfs:comment            "作詞者を表すプロパティ" ;
+    rdfs:label              "作詞"@ja .
+
+lily:singer             a   rdf:Property ;
+    rdfs:comment            "歌を表すプロパティ" ;
+    rdfs:label              "歌"@ja .
+
+lily:artist             a   rdf:Property ;
+    rdfs:comment            "アーティストを表すプロパティ" ;
+    rdfs:label              "アーティスト"@ja .
+
+lily:recordLabel        a   rdf:Property ;
+    rdfs:comment            "レーベルを表すプロパティ" ;
+    rdfs:label              "レーベル"@ja .
+
+lily:format             a   rdf:Property ;
+    rdfs:comment            "CD・Blu-ray・デジタルシングルなどを表すプロパティ" ;
+    rdfs:label              "形式"@ja .
+
+lily:edition            a   rdf:Property ;
+    rdfs:comment            "通常盤や初回限定盤などの仕様を表すプロパティ" ;
+    rdfs:label              "仕様"@ja .
 
 lily:originalAuthor     a   rdf:Property ;
     rdfs:comment            "原作者を表すプロパティ" ;
