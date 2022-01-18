@@ -1655,7 +1655,7 @@
         "2022-01-29T17:30:00+09:00"^^xsd:dateTime,
         "2022-01-30T12:30:00+09:00"^^xsd:dateTime,
         "2022-01-30T17:30:00+09:00"^^xsd:dateTime ;
-    # lily:additionalInformation ""@ja ;
+    lily:additionalInformation "芹沢千香瑠役の野中深愛さんが新型コロナウイルスのPCR検査陽性、および飯島恋花役の石飛恵里花に発熱の症状があるため、出演を取りやめアンダーキャストで公演を実施。(1月18日発表)"@ja ;
     # schema:abstract ""@ja ;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
@@ -1762,7 +1762,7 @@
         schema:name "石飛恵里花"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
         lily:performAs <Iijima_Renka> ;
-        # lily:additionalInformation ""@ja ;
+        lily:additionalInformation "稽古期間中に体調不良となり発熱がおさまらないため、アンダーキャストの久留島璃生さんが代役として出演"@ja ;
     ], [
         schema:name "三村遥佳"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
@@ -1772,7 +1772,7 @@
         schema:name "野中深愛"@ja ;
         # lily:resource <> ;
         lily:performAs <Serizawa_Chikaru> ;
-        # lily:additionalInformation ""@ja ;
+        lily:additionalInformation "稽古期間中に体調不良となり新型コロナウイルスのPCR検査の結果陽性となったため、アンダーキャストの小菅怜衣さんが代役として出演"@ja ;
     ], [
         schema:name "田中那実"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q65962751> ;
