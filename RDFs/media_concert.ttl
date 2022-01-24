@@ -19,6 +19,7 @@
     lily:showTime
         "2021-03-21T13:30:00+09:00"^^xsd:dateTime,
         "2021-03-21T18:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
     lily:organizer "株式会社ブシロード"@ja ;
     lily:production "セブンセンシズ"@ja ;
     lily:contributor "ディスクガレージ"@ja ;
@@ -1074,6 +1075,7 @@
     lily:showTime
         "2021-07-03T13:30:00+09:00"^^xsd:dateTime,
         "2021-07-03T18:30:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
     lily:organizer "ブシロードミュージック"@ja ;
     lily:production "セブンセンシズ"@ja ;
     lily:contributor "ディスクガレージ"@ja ;
@@ -2495,6 +2497,7 @@
     lily:showTime
         "2021-03-21T14:30:00+09:00"^^xsd:dateTime,
         "2021-03-21T19:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
     lily:organizer "ブシロードミュージック"@ja ;
     lily:production "セブンセンシズ"@ja ;
     lily:contributor "ディスクガレージ"@ja ;
@@ -4052,6 +4055,7 @@
     lily:showTime
         "2021-12-25T14:30:00+09:00"^^xsd:dateTime,
         "2021-12-25T19:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
     lily:organizer "ブシロードミュージック"@ja ;
     lily:production "セブンセンシズ"@ja ;
     lily:contributor "ディスクガレージ"@ja ;

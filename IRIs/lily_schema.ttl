@@ -336,6 +336,10 @@ lily:showTime           a   rdf:Property ;
     rdfs:comment            "公演日時を表すプロパティ" ;
     rdfs:label              "公演日時"@ja .
 
+lily:cancelledShowTime  a   rdf:Property ;
+    rdfs:comment            "中止された公演日時を表すプロパティ" ;
+    rdfs:label              "中止された公演日時"@ja .
+
 lily:producer           a   rdf:Property ;
     rdfs:comment            "プロデューサーを表すプロパティ" ;
     rdfs:label              "プロデューサー"@ja .
