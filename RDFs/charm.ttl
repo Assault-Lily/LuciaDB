@@ -130,7 +130,7 @@
         <Aizawa_Kazuha>,
         <Tsukioka_Momiji>,
         <Kishimoto_Lucia_Raimu>,
-        <Toda_Eulalia_Kotohi>,
+        <Toda_Kotohi>,
         <Narumi_Clara_Yuko>,
         <Hasegawa_Gabriela_Tsugumi>,
         <Seto_Veronica_Ichika>,
@@ -166,7 +166,8 @@
         <Funada_Kiito>,
         <Rokkaku_Shiori>,
         <Kaede_Johan_Nouvel>,
-        <Izumi_Rosa_Rina> ;
+        <Izumi_Rosa_Rina>,
+        <L> ;
     lily:hasVariant <Dainsleif_Carbin> ;
     lily:hasVariant <Dainsleif_Marksman> ;
     a lily:Charm ;
@@ -290,7 +291,8 @@
         <Chemir_Friedheim>,
         <Yokoyama_Azusa>,
         <Masukawa_Uta>,
-        <Hirose_Minato> ;
+        <Hirose_Minato>,
+        <Gozen> ;
     lily:isVariantOf <Tyrfing_Prototype> ;
     schema:isSimilarTo <Tyrfing_type_T> ;
     a lily:Charm ;
@@ -558,7 +560,8 @@
         <Nosaka_Jacqueline_Kazane>,
         <Akutsu_Lucifer_Maaya>,
         <Koshiba_Eishin>,
-        <Otake_Sunao> ;
+        <Otake_Sunao>,
+        <Toda_Kotohi> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .

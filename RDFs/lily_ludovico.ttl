@@ -45,7 +45,8 @@
             "舞台LoG"^^xsd:string,
             "舞台TFG"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
-            "ラスバレ"^^xsd:string ;
+            "ラスバレ"^^xsd:string,
+            "舞台LM"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Charlemagne> ;
@@ -57,7 +58,9 @@
             "舞台 真実の刃"^^xsd:string,
             "舞台TFG"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
-            "ラスバレ"^^xsd:string ;
+            "舞台 シュベスターの秘密 2021"^^xsd:string,
+            "ラスバレ"^^xsd:string,
+            "舞台LM"^^xsd:string ;
         lily:additionalInformation "SP"@ja ;
     ], [
         lily:resource <Dainsleif_Carbin> ;
@@ -68,6 +71,7 @@
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "舞台 シュベスターの秘密 2021"^^xsd:string,
             "ドール"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
@@ -176,7 +180,8 @@
             "舞台 シュベスターの祈り"^^xsd:string,
             "舞台 シュベスターの秘密"^^xsd:string,
             "舞台 シュベスターの誓い"^^xsd:string,
-            "舞台 シュベスターの祈り 2021"^^xsd:string ;
+            "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "舞台 シュベスターの秘密 2021"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -281,7 +286,9 @@
             "舞台 真実の刃"^^xsd:string,
             "舞台TFG"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
-            "ラスバレ"^^xsd:string ;
+            "舞台 シュベスターの秘密 2021"^^xsd:string,
+            "ラスバレ"^^xsd:string,
+            "舞台LM"^^xsd:string ;
         lily:additionalInformation
             "SP"@ja,
             "姉の形見"@ja ;
@@ -384,6 +391,7 @@
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "舞台 シュベスターの秘密 2021"^^xsd:string,
             "ドール"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
@@ -474,11 +482,14 @@
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "舞台 シュベスターの秘密 2021"^^xsd:string,
             "ドール"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Adelring> ;
-        lily:usedIn "舞台TFG"^^xsd:string ;
+        lily:usedIn
+            "舞台 シュベスターの秘密 2021"^^xsd:string,
+            "舞台TFG"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -647,7 +658,8 @@
             "舞台 シュベスターの誓い"^^xsd:string,
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
-            "舞台 シュベスターの祈り 2021"^^xsd:string ;
+            "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "舞台 シュベスターの秘密 2021"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -729,7 +741,8 @@
             "舞台 シュベスターの誓い"^^xsd:string,
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
-            "舞台 シュベスターの祈り 2021"^^xsd:string ;
+            "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "舞台 シュベスターの秘密 2021"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -901,7 +914,8 @@
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
             "舞台LoG"^^xsd:string,
-            "舞台 シュベスターの祈り 2021"^^xsd:string ;
+            "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "舞台 シュベスターの秘密 2021"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -995,7 +1009,8 @@
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
             "舞台TFG"^^xsd:string,
-            "舞台 シュベスターの祈り 2021"^^xsd:string ;
+            "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "舞台 シュベスターの秘密 2021"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1086,7 +1101,8 @@
             "舞台 シュベスターの誓い"^^xsd:string,
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
-            "舞台 シュベスターの祈り 2021"^^xsd:string ;
+            "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "舞台 シュベスターの秘密 2021"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1193,7 +1209,8 @@
             "舞台 シュベスターの誓い"^^xsd:string,
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
-            "舞台 シュベスターの祈り 2021"^^xsd:string ;
+            "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "舞台 シュベスターの秘密 2021"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1305,7 +1322,8 @@
             "舞台 シュベスターの誓い"^^xsd:string,
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
-            "舞台 シュベスターの祈り 2021"^^xsd:string ;
+            "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "舞台 シュベスターの秘密 2021"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1399,7 +1417,8 @@
         lily:usedIn
             "舞台 シュベスターの秘密"^^xsd:string,
             "舞台 シュベスターの誓い"^^xsd:string,
-            "舞台 約束の行方"^^xsd:string ;
+            "舞台 約束の行方"^^xsd:string,
+            "舞台 シュベスターの秘密 2021"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Unknown_Named_Charm> ;
@@ -1506,7 +1525,8 @@
             "舞台 シュベスターの誓い"^^xsd:string,
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
-            "舞台 シュベスターの祈り 2021"^^xsd:string ;
+            "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "舞台 シュベスターの秘密 2021"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1592,7 +1612,8 @@
             "舞台 シュベスターの誓い"^^xsd:string,
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
-            "舞台 シュベスターの祈り 2021"^^xsd:string ;
+            "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "舞台 シュベスターの秘密 2021"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -2503,84 +2524,6 @@
         schema:name "荒井杏子"@ja ;
         # lily:resource <> ;
         lily:performIn <Schwester_No_Chikai> ;
-        # lily:additionalInformation ""@ja ;
-    ] ;
-    a lily:Lily ;
-.
-
-<Toda_Eulalia_Kotohi>
-    rdfs:label "戸田・エウラリア・琴陽"^^xsd:string ;
-    schema:familyName "戸田"@ja, "Toda"@en ;
-    lily:familyNameKana "とだ"@ja ;
-    schema:additionalName "エウラリア"@ja, "Eulalia"@en ;
-    lily:additionalNameKana "えうらりあ"@ja ;
-    schema:givenName "琴陽"@ja, "Kotohi"@en ;
-    lily:givenNameKana "ことひ"@ja ;
-    schema:name "戸田・エウラリア・琴陽"@ja, "Toda Eulalia Kotohi"@en ;
-    lily:nameKana "とだ・えうらりあ・ことひ"@ja ;
-    # lily:anotherName ""@ja ;
-    foaf:age "15"^^xsd:integer ;
-    schema:height "156.0"^^xsd:float ;
-    # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
-    lily:lifeStatus "alive"^^xsd:string ;
-    # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
-    schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
-    schema:birthPlace "山梨県"@ja, "Yamanashi"@en ;
-    # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
-    lily:hobby_talent "お手合わせ"@ja ;
-    # lily:skillerVal ""^^xsd:integer ;
-    lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
-    # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted true ;
-    lily:boostedSkill "マギリフレクター"^^xsd:string ;
-    lily:charm [
-        lily:resource <Gungnir_Carbin> ;
-        lily:usedIn
-            "舞台LoG"^^xsd:string,
-            "舞台TFG"^^xsd:string ;
-        # lily:additionalInformation ""@ja ;
-    ] ;
-    lily:garden "私立ルドビコ女学院"^^xsd:string ;
-    # lily:gardenDepartment ""^^xsd:string ;
-    lily:grade "10"^^xsd:integer ;
-    # lily:class ""^^xsd:string ;
-    lily:gardenJobTitle "風紀委員"@ja ;
-    # lily:legion <> ;
-    # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
-    # lily:pastLegion <> ;
-    # lily:taskforce <> ;
-    # lily:pastTaskforce <> ;
-    # lily:olderSchwester <> ;
-    # lily:pastOlderSchwester <> ;
-    # lily:youngerSchwester <> ;
-    # lily:pastYoungerSchwester <> ;
-    # lily:roomMate <> ;
-    # schema:parent <> ;
-    # schema:sibling [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
-    lily:relationship [
-        lily:resource <Gozen> ;
-        lily:additionalInformation "恩人"@ja ;
-    ], [
-        lily:resource <Shirai_Yuyu> ;
-        lily:additionalInformation "私怨"@ja ;
-    ] ;
-    lily:cast [
-        schema:name "田上真里奈"@ja ;
-        lily:resource
-            <https://www.wikidata.org/wiki/Q17161003>,
-            <http://ja.dbpedia.org/resource/田上真里奈> ;
-        lily:performIn
-            <League_of_Gardens>,
-            <The_Fateful_Gift>,
-            <Lost_Memories> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

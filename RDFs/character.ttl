@@ -6,7 +6,7 @@
 @prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
 
 <Gozen>
-    rdfs:label "御前"^^xsd:string ;
+    rdfs:label "御前 (白井咲朱)"^^xsd:string ;
     # schema:familyName ""@ja, ""@en ;
     # lily:familyNameKana ""@ja ;
     # schema:additionalName ""@ja, ""@en ;
@@ -38,6 +38,10 @@
         lily:resource <Dainsleif> ;
         lily:usedIn "舞台TFG"^^xsd:string ;
         lily:additionalInformation "川添美鈴の遺品"@ja
+    ], [
+        lily:resource <Tyrfing_type_R> ;
+        lily:usedIn "舞台LM"^^xsd:string ;
+        # lily:additionalInformation ""@ja
     ] ;
     # schema:parent <> ;
     # schema:sibling [
@@ -45,19 +49,161 @@
     #     lily:additionalInformation ""@ja
     # ] ;
     lily:relationship [
-        lily:resource <Toda_Eulalia_Kotohi> ;
-        lily:additionalInformation "手下"@ja
+        lily:resource <Toda_Kotohi> ;
+        lily:additionalInformation "慕われている"@ja
     ], [
         lily:resource <Shiba_Tomoshibi> ;
         lily:additionalInformation "「こちら側」と呼ぶ"@ja
     ], [
         lily:resource <Shirai_Yuyu> ;
         lily:additionalInformation "手に入れたい"@ja
+    ], [
+        lily:resource <Shirai_Saaya> ;
+        lily:additionalInformation "正体"@ja
     ] ;
     lily:cast [
         schema:name "佃井皆美"@ja ;
-        lily:resource <https://www.wikidata.org/wiki/Q11381598>, <http://ja.dbpedia.org/resource/佃井皆美> ;
-        lily:performIn <The_Fateful_Gift>, <Lost_Memories>
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11381598>,
+            <http://ja.dbpedia.org/resource/佃井皆美> ;
+        lily:performIn
+            <The_Fateful_Gift>,
+            <Lost_Memories> ;
+    ] ;
+    a lily:Lily ;
+.
+
+<Toda_Kotohi>
+    rdfs:label "戸田琴陽 (戸田・エウラリア・琴陽)"^^xsd:string ;
+    schema:familyName "戸田"@ja, "Toda"@en ;
+    lily:familyNameKana "とだ"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "琴陽"@ja, "Kotohi"@en ;
+    lily:givenNameKana "ことひ"@ja ;
+    schema:name "戸田琴陽"@ja, "Toda Kotohi"@en ;
+    lily:nameKana "とだことひ"@ja ;
+    lily:anotherName "戸田・エウラリア・琴陽"@ja ;
+    foaf:age "15"^^xsd:integer ;
+    schema:height "156.0"^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    schema:birthPlace "山梨県"@ja, "Yamanashi"@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    lily:hobby_talent "お手合わせ"@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted true ;
+    lily:boostedSkill "マギリフレクター"^^xsd:string ;
+    lily:charm [
+        lily:resource <Gungnir_Carbin> ;
+        lily:usedIn
+            "舞台LoG"^^xsd:string,
+            "舞台TFG"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Trigrav> ;
+        lily:usedIn "舞台LM"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    # lily:garden "私立ルドビコ女学院"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade "10"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle "風紀委員"@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:olderSchwester <> ;
+    # lily:pastOlderSchwester <> ;
+    # lily:youngerSchwester <> ;
+    # lily:pastYoungerSchwester <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Gozen> ;
+        lily:additionalInformation "恩人"@ja ;
+    ], [
+        lily:resource <Shirai_Yuyu> ;
+        lily:additionalInformation "怨んでいた"@ja ;
+    ] ;
+    lily:cast [
+        schema:name "田上真里奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q17161003>,
+            <http://ja.dbpedia.org/resource/田上真里奈> ;
+        lily:performIn
+            <League_of_Gardens>,
+            <The_Fateful_Gift>,
+            <Lost_Memories> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Lily ;
+.
+
+<L>
+    rdfs:label "「L」"^^xsd:string ;
+    # schema:familyName ""@ja, ""@en ;
+    # lily:familyNameKana ""@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    # schema:givenName ""@ja, ""@en ;
+    # lily:givenNameKana ""@ja ;
+    schema:name "「L」"@ja, "\"L\""@en ;
+    lily:nameKana "える"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "dead"^^xsd:string ;
+    lily:killedIn "御前により殺害"@ja ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted true ;
+    lily:boostedSkill "リジェネレーター"^^xsd:string ;
+    lily:charm [
+        lily:resource <Dainsleif> ;
+        lily:usedIn "舞台LM"^^xsd:string ;
+        lily:additionalInformation "川添美鈴の遺品"@ja
+    ] ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #     lily:resource <> ;
+    #     lily:additionalInformation ""@ja
+    # ] ;
+    # lily:relationship [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja
+    # ] ;
+    lily:cast [
+        schema:name "なつぽい"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11522592>,
+            <http://ja.dbpedia.org/resource/万喜なつみ> ;
+        lily:performIn <Lost_Memories> ;
     ] ;
     a lily:Lily ;
 .
