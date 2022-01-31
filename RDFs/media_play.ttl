@@ -28,6 +28,7 @@
         "2016-04-23T18:00:00+09:00"^^xsd:dateTime,
         "2016-04-24T12:00:00+09:00"^^xsd:dateTime,
         "2016-04-24T17:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -176,6 +177,7 @@
         "2016-09-24T18:00:00+09:00"^^xsd:dateTime,
         "2016-09-25T12:00:00+09:00"^^xsd:dateTime,
         "2016-09-25T17:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -320,6 +322,7 @@
         "2017-03-04T18:00:00+09:00"^^xsd:dateTime,
         "2017-03-05T12:00:00+09:00"^^xsd:dateTime,
         "2017-03-05T16:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -490,6 +493,7 @@
         "2018-09-26T19:00:00+09:00"^^xsd:dateTime,
         "2018-09-27T12:00:00+09:00"^^xsd:dateTime,
         "2018-09-27T16:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     schema:abstract "シュベスターシリーズが完結し、新章が開幕！\n\n岸本・ルチア・来夢の持つ秘密とは…\n泉教導官は何故ガーデンを去ったのか…\n暴かれていく私立ルドビコ女学院のもつ謎と闇…\n次々と降りかかる新たな試練にリリィたちがどう立ち向かうのか！！？\nそしてそれぞれの約束の行方は…！！？\n\n新キャストも増え、新たに動き出す物語。\nご期待ください！！"@ja ;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -655,6 +659,7 @@
         "2019-12-02T19:00:00+09:00"^^xsd:dateTime,
         "2019-12-03T12:00:00+09:00"^^xsd:dateTime,
         "2019-12-03T16:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     schema:abstract "教導官海堂・ベアトリス・千春が学内で殺害された。\n学園は海堂シスターを殺害した犯人は彼女が見つけた手紙の主であり行方不明の教導官泉・ローザ・莉奈だという。学園への更なる不信感を募らせるLGアイアンサイドの幸恵たち。\n一方、聖恋は自分の母親を死に追いやったのは幼馴染の来夢の父である岸本教授だと聞かされ、信じるものを見失う。\n果たして、来夢の敵は岸本教授なのか、泉教導官なのか、それとも……。"@ja ;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -821,6 +826,7 @@
         "2020-01-13T18:00:00+09:00"^^xsd:dateTime,
         "2020-01-14T19:30:00+09:00"^^xsd:dateTime,
         "2020-01-15T15:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     schema:abstract "近未来の地球――人類は「ヒュージ」と呼ばれる謎の生命体の出現で破滅の危機に瀕していた。\n全世界が対ヒュージのために団結して作り上げた決戦兵器「CHARM」を用いて、「リリィ」と呼ばれる少女たちは世界の為に戦い続けている。\n世界各地にはリリィ養成機関である「ガーデン」が設立され、ヒュージに抗い、人々を守る拠点となっていた。\nそして、数あるガーデンの中でも、名門と謳われる百合ヶ丘女学院に入学した一柳梨璃は、出会った仲間たちと一柳隊を結成、任務の為に東京へと赴く。\nこれを機に、ルドビコ女学院、エレンスゲ女学園、神庭女子藝術高校、御台場女学校、相模女子高等学館、そして百合ヶ丘女学院の運命が交錯し始める……"@ja ;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -983,6 +989,7 @@
         "2020-09-12T13:00:00+09:00"^^xsd:dateTime,
         "2020-09-12T18:30:00+09:00"^^xsd:dateTime,
         "2020-09-13T15:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
     lily:additionalInformation "新型コロナウイルス感染拡大防止の観点から、会場を「かめありリリオホール」から変更。会場変更に伴い、公演数を当初予定の10公演から15公演に追加。"@ja ;
     # schema:abstract ""@ja ;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -1166,6 +1173,7 @@
     schema:endDate "2021-06-06"^^xsd:date ;
     schema:duration "PT1H50M"^^xsd:duration ;
     lily:showTime
+        "2021-05-27T19:00:00+09:00"^^xsd:dateTime,
         "2021-05-28T19:00:00+09:00"^^xsd:dateTime,
         "2021-05-29T13:00:00+09:00"^^xsd:dateTime,
         "2021-05-29T18:00:00+09:00"^^xsd:dateTime,
@@ -1183,6 +1191,7 @@
         "2021-06-05T18:00:00+09:00"^^xsd:dateTime,
         "2021-06-06T12:00:00+09:00"^^xsd:dateTime,
         "2021-06-06T17:00:00+09:00"^^xsd:dateTime ;
+    lily:cancelledShowTime "2021-05-27T19:00:00+09:00"^^xsd:dateTime ;
     lily:additionalInformation "出演者が新型コロナウイルス感染者の濃厚接触者に該当したため、5月27日(木)19時公演を中止、28日(金)から30日(日)の計5公演で該当出演者に代役を立てて上演し、6月2日(水)13時公演を追加。"@ja ;
     # schema:abstract ""@ja ;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -1340,7 +1349,7 @@
 
 <Assault_Lily_Odaiba_The_Singular_Ability>
     lily:genre "舞台"@ja ;
-    schema:name "舞台アサルトリリィ―御台場女学校編― The Singular Ability"@ja ;
+    schema:name "アサルトリリィ・御台場女学校編 ―The Singular Ability―"@ja ;
     schema:alternateName "御台場TSA"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:location "紀伊國屋ホール"^^xsd:string ;
@@ -1363,6 +1372,7 @@
         "2021-08-28T19:00:00+09:00"^^xsd:dateTime,
         "2021-08-29T12:00:00+09:00"^^xsd:dateTime,
         "2021-08-29T16:30:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -1502,6 +1512,7 @@
         "2021-10-23T18:00:00+09:00"^^xsd:dateTime,
         "2021-10-24T11:30:00+09:00"^^xsd:dateTime,
         "2021-10-24T15:30:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -1650,12 +1661,20 @@
         "2022-01-22T17:30:00+09:00"^^xsd:dateTime,
         "2022-01-23T12:30:00+09:00"^^xsd:dateTime,
         "2022-01-23T17:30:00+09:00"^^xsd:dateTime,
+        "2022-01-27T13:30:00+09:00"^^xsd:dateTime,
+        "2022-01-27T18:30:00+09:00"^^xsd:dateTime,
+        "2022-01-28T13:30:00+09:00"^^xsd:dateTime,
         "2022-01-28T18:30:00+09:00"^^xsd:dateTime,
         "2022-01-29T12:30:00+09:00"^^xsd:dateTime,
         "2022-01-29T17:30:00+09:00"^^xsd:dateTime,
         "2022-01-30T12:30:00+09:00"^^xsd:dateTime,
         "2022-01-30T17:30:00+09:00"^^xsd:dateTime ;
-    # lily:additionalInformation ""@ja ;
+    lily:cancelledShowTime
+        "2022-01-21T18:30:00+09:00"^^xsd:dateTime,
+        "2022-01-22T12:30:00+09:00"^^xsd:dateTime,
+        "2022-01-22T17:30:00+09:00"^^xsd:dateTime ;
+    lily:additionalInformation "芹沢千香瑠役の野中深愛さんが新型コロナウイルスのPCR検査陽性、および飯島恋花役の石飛恵里花に発熱の症状があるため、出演を取りやめアンダーキャストで公演を実施。(1月18日発表)"@ja ;
+    lily:additionalInformation "安藤鶴紗役の紡木吏佐さんが1/21(金)13:30公演中に負傷したため、1/21(金)18:30公演と1/22(土)12:30/17:30公演を中止、以降紡木さんの出演を取りやめアンダーキャストで公演を実施。(1月21日発表)"@ja ;
     # schema:abstract ""@ja ;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
@@ -1699,7 +1718,7 @@
         schema:name "紡木吏佐"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
         lily:performAs <Ando_Tazusa> ;
-        # lily:additionalInformation ""@ja ;
+        lily:additionalInformation "1/23(日)からアンダーキャストの矢新愛梨さんが代役として出演"@ja ;
     ], [
         schema:name "岩田陽葵"@ja ;
         lily:resource
@@ -1762,7 +1781,7 @@
         schema:name "石飛恵里花"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q51166206> ;
         lily:performAs <Iijima_Renka> ;
-        # lily:additionalInformation ""@ja ;
+        lily:additionalInformation "アンダーキャストの久留島璃生さんが代役として出演"@ja ;
     ], [
         schema:name "三村遥佳"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
@@ -1772,7 +1791,7 @@
         schema:name "野中深愛"@ja ;
         # lily:resource <> ;
         lily:performAs <Serizawa_Chikaru> ;
-        # lily:additionalInformation ""@ja ;
+        lily:additionalInformation "アンダーキャストの小菅怜衣さんが代役として出演"@ja ;
     ], [
         schema:name "田中那実"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q65962751> ;
@@ -1812,10 +1831,10 @@
 
 <Assault_Lily_Odaiba_The_Empathy_Phenomenon>
     lily:genre "舞台"@ja ;
-    schema:name "舞台アサルトリリィ―御台場女学校編― The Empathy Phenomenon"@ja ;
+    schema:name "アサルトリリィ・御台場女学校編 ―The Empathy Phenomenon―"@ja ;
     schema:alternateName "御台場TEP"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
-    schema:location "紀伊國屋サザンシアター"^^xsd:string ;
+    schema:location "紀伊國屋サザンシアター TAKASHIMAYA"^^xsd:string ;
     schema:startDate "2022-02-17"^^xsd:date ;
     schema:endDate "2022-02-28"^^xsd:date ;
     # schema:duration ""^^xsd:duration ;
@@ -1837,6 +1856,7 @@
         "2022-02-27T14:00:00+09:00"^^xsd:dateTime,
         "2022-02-27T19:00:00+09:00"^^xsd:dateTime,
         "2022-02-28T15:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
     lily:originalAuthor "尾花沢軒栄"@ja ;
