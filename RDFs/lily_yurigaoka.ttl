@@ -1027,10 +1027,10 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     lily:skillerVal "73"^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
-    # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted false ;
-    # lily:boostedSkill ""^^xsd:string ;
+    lily:rareSkill "ユーバーザイン"^^xsd:string ;
+    lily:subSkill "カリスマ"^^xsd:string ;
+    lily:isBoosted true ;
+    lily:boostedSkill "エンハンスメント"^^xsd:string ;
     lily:charm [
         lily:resource <Dainsleif> ;
         lily:usedIn "小説"^^xsd:string ;

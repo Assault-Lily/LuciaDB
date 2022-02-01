@@ -277,6 +277,7 @@
             "ステルス"
             "Whole order"
             "Awakening"
+            "カリスマ"
         );
     ], [
         rdfs:label "強化リリィかどうかの制約";
