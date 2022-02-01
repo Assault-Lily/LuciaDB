@@ -448,7 +448,8 @@
         <Tsukioka_Momiji> ;
     lily:submember
         <Otake_Sunao>,
-        <Maruyama_Amane> ;
+        <Maruyama_Amane>,
+        <Uemura_Warabi> ;
     schema:alumni
         <Nagasawa_Yuki> ;
     a lily:Legion ;
