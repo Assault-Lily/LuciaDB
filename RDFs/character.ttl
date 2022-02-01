@@ -172,7 +172,9 @@
     lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted true ;
-    lily:boostedSkill "マギリフレクター"^^xsd:string ;
+    lily:boostedSkill
+        "マギリフレクター"^^xsd:string,
+        "リジェネレーター"^^xsd:string ;
     lily:charm [
         lily:resource <Gungnir_Carbin> ;
         lily:usedIn
