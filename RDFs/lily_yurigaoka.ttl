@@ -171,10 +171,10 @@
     # lily:pastSchild <> ;
     lily:roomMate <Hata_Matsuri> ;
     # schema:parent <> ;
-    # schema:sibling [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    schema:sibling [
+        lily:resource <Shirai_Saaya> ;
+        lily:additionalInformation "姉"@ja ;
+    ] ;
     lily:relationship [
         lily:resource <Taniguchi_Hijiri> ;
         lily:additionalInformation "1年生時代のルームメイト"@ja ;
