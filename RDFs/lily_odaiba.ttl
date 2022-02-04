@@ -1932,9 +1932,9 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite "紅茶"@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent "乗馬"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "円環の御手"^^xsd:string ;
     lily:subSkill "軍神の加護"^^xsd:string ;
