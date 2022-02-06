@@ -814,14 +814,14 @@
 
 <Kusakabe_Rengetsu>
     rdfs:label "日下部蓮月"^^xsd:string ;
-    schema:familyName "日下部"@ja ; #, ""@en ;
-    # lily:familyNameKana ""@ja ;
+    schema:familyName "日下部"@ja, "Kusakabe"@en ;
+    lily:familyNameKana "くさかべ"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "蓮月"@ja ; #, ""@en ;
-    # lily:givenNameKana ""@ja ;
-    schema:name "日下部蓮月"@ja ; #, ""@en ;
-    # lily:nameKana ""@ja ;
+    schema:givenName "蓮月"@ja, "Rengetsu"@en ;
+    lily:givenNameKana "れんげつ"@ja ;
+    schema:name "日下部蓮月"@ja, "Kusakabe Rengetsu"@en ;
+    lily:nameKana "くさかべれんげつ"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -876,14 +876,14 @@
 
 <Kusakabe_Murasame>
     rdfs:label "日下部叢雨"^^xsd:string ;
-    schema:familyName "日下部"@ja ; #, ""@en ;
-    # lily:familyNameKana ""@ja ;
+    schema:familyName "日下部"@ja, "Kusakabe"@en ;
+    lily:familyNameKana "くさかべ"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "叢雨"@ja ; #, ""@en ;
-    # lily:givenNameKana ""@ja ;
-    schema:name "日下部叢雨"@ja ; #, ""@en ;
-    # lily:nameKana ""@ja ;
+    schema:givenName "叢雨"@ja, "Murasame"@en ;
+    lily:givenNameKana "むらさめ"@ja ;
+    schema:name "日下部叢雨"@ja, "Kusakabe Murasame"@en ;
+    lily:nameKana "くさかべむらさめ"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
