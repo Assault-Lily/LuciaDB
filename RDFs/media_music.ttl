@@ -4,8 +4,7 @@
 @prefix schema: <http://schema.org/> .
 @prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
 
-<Streaming_Edel_Lilie>
-    lily:genre "音楽"@ja ;
+<Edel_Lilie>
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "Edel Lilie"@ja ;
     # lily:additionalInformation ""@ja ;
@@ -17,15 +16,21 @@
     schema:datePublished "2020-09-03"^^xsd:date ;
     schema:numTracks "3"^^xsd:integer ;
     schema:timeRequired "PT14M"^^xsd:duration ;
-    schema:track
-        <Edel_Lilie> ;
-        # <Tsunagari> ;
-        # <Taisetsu_Wo_Oshieyou> ;
-    a lily:MusicStreaming ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Edel_Lilie> ;
+    # ], [
+    #     lily:listOrder "2"^^xsd:integer ;
+    #     lily:song <Song_Tsunagari> ;
+    # ], [
+    #     lily:listOrder "3"^^xsd:integer ;
+    #     lily:song <Song_Taisetsu_Wo_Oshieyou> ;
+    ] ;
+    a lily:MusicAlbum ;
 .
 
-<Edel_Lilie>
-    lily:genre "音楽"@ja ;
+<Song_Edel_Lilie>
+    lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "Edel Lilie"@ja ;
     lily:lyricist "安藤紗々"@ja ;
@@ -33,7 +38,7 @@
     lily:arranger "秋月須清"@ja ;
     lily:additionalInformation "TVアニメ「アサルトリリィ BOUQUET」エンディングテーマ"@ja ;
     schema:duration "PT4M37S"^^xsd:duration ;
-    schema:inAlbum <Streaming_Edel_Lilie> ;
+    schema:inAlbum <Edel_Lilie> ;
     lily:singer [
         schema:name "一柳隊"@ja ;
         lily:cast [
@@ -92,8 +97,7 @@
     a lily:Music ;
 .
 
-<Single_Edel_Lilie_Last_Bullet_MIX_Normal_A>
-    lily:genre "音楽"@ja ;
+<Edel_Lilie_Last_Bullet_MIX_Normal_A>
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "Edel Lilie(Last Bullet MIX)"@ja ;
     # lily:additionalInformation ""@ja ;
@@ -105,18 +109,29 @@
     schema:datePublished "2021-09-08"^^xsd:date ;
     schema:numTracks "6"^^xsd:integer ;
     # schema:timeRequired "PT00M"^^xsd:duration ;
-    schema:track
-        <Edel_Lilie_Last_Bullet_MIX> ;
-        # <Cannot_Stop_Fruity> ;
-        # <OVERFLOW> ;
-        # <Edel_Lilie_Last_Bullet_MIX_Instrumental> ;
-        # <Cannot_Stop_Fruity_Instrumental> ;
-        # <OVERFLOW_Instrumental> ;
-    a lily:MusicSingle ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Edel_Lilie_Last_Bullet_MIX> ;
+    # ], [
+    #     lily:listOrder "2"^^xsd:integer ;
+    #     lily:song <Song_Cannot_Stop_Fruity> ;
+    # ], [
+    #     lily:listOrder "3"^^xsd:integer ;
+    #     lily:song <Song_OVERFLOW> ;
+    # ], [
+    #     lily:listOrder "4"^^xsd:integer ;
+    #     lily:song <Song_Edel_Lilie_Last_Bullet_MIX_Instrumental> ;
+    # ], [
+    #     lily:listOrder "5"^^xsd:integer ;
+    #     lily:song <Song_Cannot_Stop_Fruity_Instrumental> ;
+    # ], [
+    #     lily:listOrder "6"^^xsd:integer ;
+    #     lily:song <Song_OVERFLOW_Instrumental> ;
+    ] ;
+    a lily:MusicAlbum ;
 .
 
-<Single_Edel_Lilie_Last_Bullet_MIX_Normal_B>
-    lily:genre "音楽"@ja ;
+<Edel_Lilie_Last_Bullet_MIX_Normal_B>
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "Edel Lilie(Last Bullet MIX)"@ja ;
     # lily:additionalInformation ""@ja ;
@@ -128,18 +143,29 @@
     schema:datePublished "2021-09-08"^^xsd:date ;
     schema:numTracks "6"^^xsd:integer ;
     # schema:timeRequired "PT00M"^^xsd:duration ;
-    schema:track
-        <Edel_Lilie_Last_Bullet_MIX> ;
-        # <Cannot_Stop_Fruity> ;
-        # <Fringed_Iris> ;
-        # <Edel_Lilie_Last_Bullet_MIX_Instrumental> ;
-        # <Cannot_Stop_Fruity_Instrumental> ;
-        # <Fringed_Iris_Instrumental> ;
-    a lily:MusicSingle ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Edel_Lilie_Last_Bullet_MIX> ;
+    # ], [
+    #     lily:listOrder "2"^^xsd:integer ;
+    #     lily:song <Song_Cannot_Stop_Fruity> ;
+    # ], [
+    #     lily:listOrder "3"^^xsd:integer ;
+    #     lily:song <Song_Fringed_Iris> ;
+    # ], [
+    #     lily:listOrder "4"^^xsd:integer ;
+    #     lily:song <Song_Edel_Lilie_Last_Bullet_MIX_Instrumental> ;
+    # ], [
+    #     lily:listOrder "5"^^xsd:integer ;
+    #     lily:song <Song_Cannot_Stop_Fruity_Instrumental> ;
+    # ], [
+    #     lily:listOrder "6"^^xsd:integer ;
+    #     lily:song <Song_Fringed_Iris_Instrumental> ;
+    ] ;
+    a lily:MusicAlbum ;
 .
 
-<Single_Edel_Lilie_Last_Bullet_MIX_Normal_C>
-    lily:genre "音楽"@ja ;
+<Edel_Lilie_Last_Bullet_MIX_Normal_C>
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "Edel Lilie(Last Bullet MIX)"@ja ;
     # lily:additionalInformation ""@ja ;
@@ -151,18 +177,29 @@
     schema:datePublished "2021-09-08"^^xsd:date ;
     schema:numTracks "6"^^xsd:integer ;
     # schema:timeRequired "PT00M"^^xsd:duration ;
-    schema:track
-        <Edel_Lilie_Last_Bullet_MIX> ;
-        # <Cannot_Stop_Fruity> ;
-        # <Multicolored_Flowers> ;
-        # <Edel_Lilie_Last_Bullet_MIX_Instrumental> ;
-        # <Cannot_Stop_Fruity_Instrumental> ;
-        # <Multicolored_Flowers_Instrumental> ;
-    a lily:MusicSingle ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Edel_Lilie_Last_Bullet_MIX> ;
+    # ], [
+    #     lily:listOrder "2"^^xsd:integer ;
+    #     lily:song <Song_Cannot_Stop_Fruity> ;
+    # ], [
+    #     lily:listOrder "3"^^xsd:integer ;
+    #     lily:song <Song_Multicolored_Flowers> ;
+    # ], [
+    #     lily:listOrder "4"^^xsd:integer ;
+    #     lily:song <Song_Edel_Lilie_Last_Bullet_MIX_Instrumental> ;
+    # ], [
+    #     lily:listOrder "5"^^xsd:integer ;
+    #     lily:song <Song_Cannot_Stop_Fruity_Instrumental> ;
+    # ], [
+    #     lily:listOrder "6"^^xsd:integer ;
+    #     lily:song <Song_Multicolored_Flowers_Instrumental> ;
+    ] ;
+    a lily:MusicAlbum ;
 .
 
-<Single_Edel_Lilie_Last_Bullet_MIX_Blu_Ray_Limited>
-    lily:genre "音楽"@ja ;
+<Edel_Lilie_Last_Bullet_MIX_Blu_Ray_Limited_Addition>
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "Edel Lilie(Last Bullet MIX)"@ja ;
     # lily:additionalInformation ""@ja ;
@@ -174,16 +211,24 @@
     schema:datePublished "2021-09-08"^^xsd:date ;
     schema:numTracks "4"^^xsd:integer ;
     # schema:timeRequired "PT00M"^^xsd:duration ;
-    schema:track
-        <Edel_Lilie_Last_Bullet_MIX> ;
-        # <Cannot_Stop_Fruity> ;
-        # <Edel_Lilie_Last_Bullet_MIX_Instrumental> ;
-        # <Cannot_Stop_Fruity_Instrumental> ;
-    a lily:MusicSingle ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Edel_Lilie_Last_Bullet_MIX> ;
+    # ], [
+    #     lily:listOrder "2"^^xsd:integer ;
+    #     lily:song <Song_Cannot_Stop_Fruity> ;
+    # ], [
+    #     lily:listOrder "3"^^xsd:integer ;
+    #     lily:song <Song_Edel_Lilie_Last_Bullet_MIX_Instrumental> ;
+    # ], [
+    #     lily:listOrder "4"^^xsd:integer ;
+    #     lily:song <Song_Cannot_Stop_Fruity_Instrumental> ;
+    ] ;
+    a lily:MusicAlbum ;
 .
 
-<Edel_Lilie_Last_Bullet_MIX>
-    lily:genre "音楽"@ja ;
+<Song_Edel_Lilie_Last_Bullet_MIX>
+    lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "Edel Lilie"@ja ;
     lily:lyricist "安藤紗々"@ja ;
@@ -192,10 +237,10 @@
     # lily:additionalInformation ""@ja ;
     # schema:duration "PT00M00S"^^xsd:duration ;
     schema:inAlbum
-        <Single_Edel_Lilie_Last_Bullet_MIX_Normal_A>,
-        <Single_Edel_Lilie_Last_Bullet_MIX_Normal_B>,
-        <Single_Edel_Lilie_Last_Bullet_MIX_Normal_C>,
-        <Single_Edel_Lilie_Last_Bullet_MIX_Blu_Ray_Limited> ;
+        <Edel_Lilie_Last_Bullet_MIX_Normal_A>,
+        <Edel_Lilie_Last_Bullet_MIX_Normal_B>,
+        <Edel_Lilie_Last_Bullet_MIX_Normal_C>,
+        <Edel_Lilie_Last_Bullet_MIX_Blu_Ray_Limited_Addition> ;
     lily:singer [
         schema:name "一柳隊"@ja ;
         lily:cast [
@@ -223,58 +268,113 @@
     a lily:Music ;
 .
 
-<Album_Schwester_No_Inori_Original_Sound_Track>
-    lily:genre "音楽"@ja ;
+<Schwester_No_Inori_Original_Sound_Track>
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "シュベスターの祈り Original Sound Track"@ja ;
     lily:additionalInformation "舞台アサルトリリィｘルドビコ女学院『シュベスターの祈り』のオリジナルサウンドトラック"@ja ;
     lily:musicProducer "谷ナオキ"@ja ;
     lily:artist "アサルトリリィ×ルドビコ女学院"@ja ;
     lily:recordLabel "アゾンインターナショナル"@ja ;
-    lily:format "CD"@ja ;
+    lily:format "アルバム"@ja ;
     schema:datePublished "2021-12-01"^^xsd:date ;
     schema:numTracks "28"^^xsd:integer ;
     # schema:timeRequired "PT14M"^^xsd:duration ;
-    schema:track
-        # <Schwester_No_Inori> ;
-        # <Anata_Wa_Riri_Ni_Muite_Nai> ;
-        # <Mirai_To_No_Omoide_V1> ;
-        # <Mirai_To_No_Omoide_V2> ;
-        # <Illuma_Joshi_Kara_No_Tenkousei> ;
-        # <Himari_No_Jitsuryoku> ;
-        # <BGM_Kuroki_Francisca_Yuria> ;
-        # <Yuria_Bikou_Kyouka_Riri> ;
-        # <Clara_To_Kumama> ;
-        # <Monica> ;
-        # <Kono_Hito_Wa_Sentouji_Ni_Hito_Ga_Kawaru_Mitai> ;
-        # <Nijyuujinkaku_To_Lunatic_Trancer> ;
-        # <BGM_Amatsu_Marei> ;
-        # <I_See_From_Nagisa> ;
-        # <Fantastic_From_Nagisa> ;
-        # <Sou_Kantan_Niwa_Muri_Yone> ;
-        # <Ou_En_Dan> ;
-        # <Schwester_Seido> ;
-        # <Sachie_No_Kakugo> ;
-        # <Watashi_No_Legion_Damono> ;
-        # <Kyouka_Riri_No_Kanashimi> ;
-        # <Mamoru_Watashi_Ga_Mamorimasu> ;
-        <Lavender_Iro_No_Asterion> ;
-        # <Riri_Days> ;
-        # <Schwester_No_Inori_Side_B> ;
-        # <Riri_Days_Side_B> ;
-        # <Schwester_No_Inori_Instrumental> ;
-        # <Riri_Days_Instrumental> ;
+    lily:track [
+    #     lily:listOrder "1"^^xsd:integer ;
+    #     lily:song <SoundTrack_SoundTrack_Schwester_No_Inori> ;
+    # ], [
+    #     lily:listOrder "2"^^xsd:integer ;
+    #     lily:song <SoundTrack_SoundTrack_Anata_Wa_Lily_Ni_Muite_Nai> ;
+    # ], [
+    #     lily:listOrder "3"^^xsd:integer ;
+    #     lily:song <SoundTrack_Mirai_To_No_Omoide_1> ;
+    # ], [
+    #     lily:listOrder "4"^^xsd:integer ;
+    #     lily:song <SoundTrack_Mirai_To_No_Omoide_2> ;
+    # ], [
+    #     lily:listOrder "5"^^xsd:integer ;
+    #     lily:song <SoundTrack_Illuma_Joshi_Kara_No_Tenkousei> ;
+    # ], [
+    #     lily:listOrder "6"^^xsd:integer ;
+    #     lily:song <SoundTrack_Himari_No_Jitsuryoku> ;
+    # ], [
+    #     lily:listOrder "7"^^xsd:integer ;
+    #     lily:song <SoundTrack_Kuroki_Francisca_Yuria> ;
+    # ], [
+    #     lily:listOrder "8"^^xsd:integer ;
+    #     lily:song <SoundTrack_Yuria_Bikou_Kyouka_Lily> ;
+    # ], [
+    #     lily:listOrder "9"^^xsd:integer ;
+    #     lily:song <SoundTrack_Clara_To_Kumama> ;
+    # ], [
+    #     lily:listOrder "10"^^xsd:integer ;
+    #     lily:song <SoundTrack_Monica> ;
+    # ], [
+    #     lily:listOrder "11"^^xsd:integer ;
+    #     lily:song <SoundTrack_Kono_Hito_Wa_Sentouji_Ni_Hito_Ga_Kawaru_Mitai> ;
+    # ], [
+    #     lily:listOrder "12"^^xsd:integer ;
+    #     lily:song <SoundTrack_Nijyuujinkaku_To_Lunatic_Trancer> ;
+    # ], [
+    #     lily:listOrder "13"^^xsd:integer ;
+    #     lily:song <SoundTrack_Amatsu_Marei> ;
+    # ], [
+    #     lily:listOrder "14"^^xsd:integer ;
+    #     lily:song <SoundTrack_I_See_From_Nagisa> ;
+    # ], [
+    #     lily:listOrder "15"^^xsd:integer ;
+    #     lily:song <SoundTrack_Fantastic_From_Nagisa> ;
+    # ], [
+    #     lily:listOrder "16"^^xsd:integer ;
+    #     lily:song <SoundTrack_Sou_Kantan_Niwa_Muri_Yone> ;
+    # ], [
+    #     lily:listOrder "17"^^xsd:integer ;
+    #     lily:song <SoundTrack_Ou_En_Dan> ;
+    # ], [
+    #     lily:listOrder "18"^^xsd:integer ;
+    #     lily:song <SoundTrack_Schwester_Seido> ;
+    # ], [
+    #     lily:listOrder "19"^^xsd:integer ;
+    #     lily:song <SoundTrack_Sachie_No_Kakugo> ;
+    # ], [
+    #     lily:listOrder "20"^^xsd:integer ;
+    #     lily:song <SoundTrack_Watashi_No_Legion_Damono> ;
+    # ], [
+    #     lily:listOrder "21"^^xsd:integer ;
+    #     lily:song <SoundTrack_Kyouka_Lily_No_Kanashimi> ;
+    # ], [
+    #     lily:listOrder "22"^^xsd:integer ;
+    #     lily:song <SoundTrack_Mamoru_Watashi_Ga_Mamorimasu> ;
+    # ], [
+        lily:listOrder "23"^^xsd:integer ;
+        lily:song <SoundTrack_Lavender_Iro_No_Asterion> ;
+    # ], [
+    #     lily:listOrder "24"^^xsd:integer ;
+    #     lily:song <SoundTrack_Lily_Days> ;
+    # ], [
+    #     lily:listOrder "25"^^xsd:integer ;
+    #     lily:song <SoundTrack_Schwester_No_Inori_Side_B> ;
+    # ], [
+    #     lily:listOrder "26"^^xsd:integer ;
+    #     lily:song <SoundTrack_Lily_Days_Side_B> ;
+    # ], [
+    #     lily:listOrder "27"^^xsd:integer ;
+    #     lily:song <SoundTrack_Schwester_No_Inori_Instrumental> ;
+    # ], [
+    #     lily:listOrder "28"^^xsd:integer ;
+    #     lily:song <SoundTrack_Lily_Days_Instrumental> ;
+    ] ;
     a lily:MusicAlbum ;
 .
 
-<Lavender_Iro_No_Asterion>
-    lily:genre "音楽"@ja ;
+<SoundTrack_Lavender_Iro_No_Asterion>
+    lily:genre "サウンドトラック"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "ラベンダー色のアステリオン"@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:arranger "谷ナオキ"@ja ;
     # lily:additionalInformation ""@ja ;
     schema:duration "PT4M39S"^^xsd:duration ;
-    schema:inAlbum <Album_Schwester_No_Inori_Original_Sound_Track> ;
+    schema:inAlbum <Schwester_No_Inori_Original_Sound_Track> ;
     a lily:Music ;
 .

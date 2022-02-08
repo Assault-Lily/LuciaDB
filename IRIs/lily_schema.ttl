@@ -96,23 +96,13 @@ lily:ConcertDetail              a   rdfs:Class ;
     rdfs:subClassOf                 schema:MusicEvent .
 
 lily:Music                      a   rdfs:Class ;
-    rdfs:comment                    "音楽作品を表すクラス" ;
-    rdfs:label                      "音楽作品"@ja ;
+    rdfs:comment                    "楽曲を表すクラス" ;
+    rdfs:label                      "楽曲"@ja ;
     rdfs:subClassOf                 schema:MusicRecording .
 
-lily:MusicSingle                a   rdfs:Class ;
-    rdfs:comment                    "シングルを表すクラス" ;
-    rdfs:label                      "シングル"@ja ;
-    rdfs:subClassOf                 schema:MusicAlbum .
-
 lily:MusicAlbum                 a   rdfs:Class ;
-    rdfs:comment                    "アルバムを表すクラス" ;
-    rdfs:label                      "アルバム"@ja ;
-    rdfs:subClassOf                 schema:MusicAlbum .
-
-lily:MusicStreaming             a   rdfs:Class ;
-    rdfs:comment                    "ストリーミングを表すクラス" ;
-    rdfs:label                      "ストリーミング"@ja ;
+    rdfs:comment                    "音楽出版物を表すクラス" ;
+    rdfs:label                      "音楽出版物"@ja ;
     rdfs:subClassOf                 schema:MusicAlbum .
 
 # ここからはプロパティ
@@ -392,9 +382,13 @@ lily:lyricist           a   rdf:Property ;
     rdfs:comment            "作詞者を表すプロパティ" ;
     rdfs:label              "作詞"@ja .
 
+lily:song               a   rdf:Property ;
+    rdfs:comment            "楽曲情報を表すプロパティ" ;
+    rdfs:label              "楽曲情報"@ja .
+
 lily:singer             a   rdf:Property ;
-    rdfs:comment            "歌を表すプロパティ" ;
-    rdfs:label              "歌"@ja .
+    rdfs:comment            "歌唱者または歌唱ユニットを表すプロパティ" ;
+    rdfs:label              "歌唱"@ja .
 
 lily:artist             a   rdf:Property ;
     rdfs:comment            "アーティストを表すプロパティ" ;
@@ -403,6 +397,10 @@ lily:artist             a   rdf:Property ;
 lily:recordLabel        a   rdf:Property ;
     rdfs:comment            "レーベルを表すプロパティ" ;
     rdfs:label              "レーベル"@ja .
+
+lily:track              a   rdf:Property ;
+    rdfs:comment            "トラックを表すプロパティ" ;
+    rdfs:label              "トラック"@ja .
 
 lily:format             a   rdf:Property ;
     rdfs:comment            "CD・Blu-ray・デジタルシングルなどを表すプロパティ" ;
@@ -539,3 +537,7 @@ lily:parentheses        a   rdf:Property ;
 lily:setList            a   rdf:Property ;
     rdfs:comment            "コンサートのセットリストを表すプロパティ" ;
     rdfs:label              "セットリスト"@ja .
+
+lily:listOrder          a   rdf:Property ;
+    rdfs:comment            "リストの順番を表すプロパティ" ;
+    rdfs:label              "順番"@ja .
