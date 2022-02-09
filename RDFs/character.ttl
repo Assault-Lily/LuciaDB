@@ -91,7 +91,7 @@
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--03-12"^^xsd:gMonthDay ;
     lily:lifeStatus "dead"^^xsd:string ;
     lily:killedIn "卒業後教導官として着任直前に戦死"^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
