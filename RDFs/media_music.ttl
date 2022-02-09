@@ -1,0 +1,380 @@
+@base <https://lily.fvhp.net/rdf/RDFs/detail/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
+
+<Edel_Lilie>
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Edel Lilie"@ja ;
+    # lily:additionalInformation ""@ja ;
+    # lily:musicProducer ""@ja ;
+    lily:artist "一柳隊"@ja ;
+    # lily:edition ""@ja ;
+    lily:recordLabel "ブシロードミュージック"@ja ;
+    lily:format "デジタルシングル"@ja ;
+    schema:datePublished "2020-09-03"^^xsd:date ;
+    schema:numTracks "3"^^xsd:integer ;
+    schema:timeRequired "PT14M"^^xsd:duration ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Edel_Lilie> ;
+    # ], [
+    #     lily:listOrder "2"^^xsd:integer ;
+    #     lily:song <Song_Tsunagari> ;
+    # ], [
+    #     lily:listOrder "3"^^xsd:integer ;
+    #     lily:song <Song_Taisetsu_Wo_Oshieyou> ;
+    ] ;
+    a lily:MusicAlbum ;
+.
+
+<Song_Edel_Lilie>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Edel Lilie"@ja ;
+    lily:lyricist "安藤紗々"@ja ;
+    lily:composer "俊龍"@ja ;
+    lily:arranger "秋月須清"@ja ;
+    lily:additionalInformation "TVアニメ「アサルトリリィ BOUQUET」エンディングテーマ"@ja ;
+    schema:duration "PT4M37S"^^xsd:duration ;
+    schema:inAlbum <Edel_Lilie> ;
+    lily:singer [
+        schema:name "一柳隊"@ja ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "井澤美香子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20038660>,
+                <http://ja.dbpedia.org/resource/井澤美香子> ;
+            lily:performAs <Kaede_Johan_Nouvel> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Futagawa_Fumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "紡木吏佐"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
+            lily:performAs <Ando_Tazusa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩田陽葵"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q16264369>,
+                <http://ja.dbpedia.org/resource/岩田陽葵> ;
+            lily:performAs <Yoshimura_Thi_Mai> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Kuo_Shenlin> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠野ひかる"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q48762060> ;
+            lily:performAs <Wang_Yujia> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "高橋花林"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041113>,
+                <http://ja.dbpedia.org/resource/高橋花林> ;
+            lily:performAs <Miliam_Hildegard_von_Guropius> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<Edel_Lilie_Last_Bullet_MIX_Normal_A>
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Edel Lilie(Last Bullet MIX)"@ja ;
+    # lily:additionalInformation ""@ja ;
+    # lily:musicProducer ""@ja ;
+    lily:artist "アサルトリリィ Last Bullet"@ja ;
+    lily:recordLabel "ブシロードミュージック"@ja ;
+    lily:format "シングル"@ja ;
+    lily:edition "通常盤A"@ja ;
+    schema:datePublished "2021-09-08"^^xsd:date ;
+    schema:numTracks "6"^^xsd:integer ;
+    # schema:timeRequired "PT00M"^^xsd:duration ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Edel_Lilie_Last_Bullet_MIX> ;
+    # ], [
+    #     lily:listOrder "2"^^xsd:integer ;
+    #     lily:song <Song_Cannot_Stop_Fruity> ;
+    # ], [
+    #     lily:listOrder "3"^^xsd:integer ;
+    #     lily:song <Song_OVERFLOW> ;
+    # ], [
+    #     lily:listOrder "4"^^xsd:integer ;
+    #     lily:song <Song_Edel_Lilie_Last_Bullet_MIX_Instrumental> ;
+    # ], [
+    #     lily:listOrder "5"^^xsd:integer ;
+    #     lily:song <Song_Cannot_Stop_Fruity_Instrumental> ;
+    # ], [
+    #     lily:listOrder "6"^^xsd:integer ;
+    #     lily:song <Song_OVERFLOW_Instrumental> ;
+    ] ;
+    a lily:MusicAlbum ;
+.
+
+<Edel_Lilie_Last_Bullet_MIX_Normal_B>
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Edel Lilie(Last Bullet MIX)"@ja ;
+    # lily:additionalInformation ""@ja ;
+    # lily:musicProducer ""@ja ;
+    lily:artist "アサルトリリィ Last Bullet"@ja ;
+    lily:recordLabel "ブシロードミュージック"@ja ;
+    lily:format "シングル"@ja ;
+    lily:edition "通常盤B"@ja ;
+    schema:datePublished "2021-09-08"^^xsd:date ;
+    schema:numTracks "6"^^xsd:integer ;
+    # schema:timeRequired "PT00M"^^xsd:duration ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Edel_Lilie_Last_Bullet_MIX> ;
+    # ], [
+    #     lily:listOrder "2"^^xsd:integer ;
+    #     lily:song <Song_Cannot_Stop_Fruity> ;
+    # ], [
+    #     lily:listOrder "3"^^xsd:integer ;
+    #     lily:song <Song_Fringed_Iris> ;
+    # ], [
+    #     lily:listOrder "4"^^xsd:integer ;
+    #     lily:song <Song_Edel_Lilie_Last_Bullet_MIX_Instrumental> ;
+    # ], [
+    #     lily:listOrder "5"^^xsd:integer ;
+    #     lily:song <Song_Cannot_Stop_Fruity_Instrumental> ;
+    # ], [
+    #     lily:listOrder "6"^^xsd:integer ;
+    #     lily:song <Song_Fringed_Iris_Instrumental> ;
+    ] ;
+    a lily:MusicAlbum ;
+.
+
+<Edel_Lilie_Last_Bullet_MIX_Normal_C>
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Edel Lilie(Last Bullet MIX)"@ja ;
+    # lily:additionalInformation ""@ja ;
+    # lily:musicProducer ""@ja ;
+    lily:artist "アサルトリリィ Last Bullet"@ja ;
+    lily:recordLabel "ブシロードミュージック"@ja ;
+    lily:format "シングル"@ja ;
+    lily:edition "通常盤C"@ja ;
+    schema:datePublished "2021-09-08"^^xsd:date ;
+    schema:numTracks "6"^^xsd:integer ;
+    # schema:timeRequired "PT00M"^^xsd:duration ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Edel_Lilie_Last_Bullet_MIX> ;
+    # ], [
+    #     lily:listOrder "2"^^xsd:integer ;
+    #     lily:song <Song_Cannot_Stop_Fruity> ;
+    # ], [
+    #     lily:listOrder "3"^^xsd:integer ;
+    #     lily:song <Song_Multicolored_Flowers> ;
+    # ], [
+    #     lily:listOrder "4"^^xsd:integer ;
+    #     lily:song <Song_Edel_Lilie_Last_Bullet_MIX_Instrumental> ;
+    # ], [
+    #     lily:listOrder "5"^^xsd:integer ;
+    #     lily:song <Song_Cannot_Stop_Fruity_Instrumental> ;
+    # ], [
+    #     lily:listOrder "6"^^xsd:integer ;
+    #     lily:song <Song_Multicolored_Flowers_Instrumental> ;
+    ] ;
+    a lily:MusicAlbum ;
+.
+
+<Edel_Lilie_Last_Bullet_MIX_Blu_Ray_Limited_Addition>
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Edel Lilie(Last Bullet MIX)"@ja ;
+    # lily:additionalInformation ""@ja ;
+    # lily:musicProducer ""@ja ;
+    lily:artist "アサルトリリィ Last Bullet"@ja ;
+    lily:recordLabel "ブシロードミュージック"@ja ;
+    lily:format "シングル"@ja ;
+    lily:edition "Blu-ray付生産限定盤"@ja ;
+    schema:datePublished "2021-09-08"^^xsd:date ;
+    schema:numTracks "4"^^xsd:integer ;
+    # schema:timeRequired "PT00M"^^xsd:duration ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Edel_Lilie_Last_Bullet_MIX> ;
+    # ], [
+    #     lily:listOrder "2"^^xsd:integer ;
+    #     lily:song <Song_Cannot_Stop_Fruity> ;
+    # ], [
+    #     lily:listOrder "3"^^xsd:integer ;
+    #     lily:song <Song_Edel_Lilie_Last_Bullet_MIX_Instrumental> ;
+    # ], [
+    #     lily:listOrder "4"^^xsd:integer ;
+    #     lily:song <Song_Cannot_Stop_Fruity_Instrumental> ;
+    ] ;
+    a lily:MusicAlbum ;
+.
+
+<Song_Edel_Lilie_Last_Bullet_MIX>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Edel Lilie"@ja ;
+    lily:lyricist "安藤紗々"@ja ;
+    lily:composer "俊龍"@ja ;
+    lily:arranger "神田ジョン"@ja ;
+    # lily:additionalInformation ""@ja ;
+    # schema:duration "PT00M00S"^^xsd:duration ;
+    schema:inAlbum
+        <Edel_Lilie_Last_Bullet_MIX_Normal_A>,
+        <Edel_Lilie_Last_Bullet_MIX_Normal_B>,
+        <Edel_Lilie_Last_Bullet_MIX_Normal_C>,
+        <Edel_Lilie_Last_Bullet_MIX_Blu_Ray_Limited_Addition> ;
+    lily:singer [
+        schema:name "一柳隊"@ja ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "藤井彩加"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "前田佳織里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q41693141> ;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<Schwester_No_Inori_Original_Sound_Track>
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "シュベスターの祈り Original Sound Track"@ja ;
+    lily:additionalInformation "舞台アサルトリリィｘルドビコ女学院『シュベスターの祈り』のオリジナルサウンドトラック"@ja ;
+    lily:musicProducer "谷ナオキ"@ja ;
+    lily:artist "アサルトリリィ×ルドビコ女学院"@ja ;
+    lily:recordLabel "アゾンインターナショナル"@ja ;
+    lily:format "アルバム"@ja ;
+    schema:datePublished "2021-12-01"^^xsd:date ;
+    schema:numTracks "28"^^xsd:integer ;
+    # schema:timeRequired "PT14M"^^xsd:duration ;
+    lily:track [
+    #     lily:listOrder "1"^^xsd:integer ;
+    #     lily:song <SoundTrack_SoundTrack_Schwester_No_Inori> ;
+    # ], [
+    #     lily:listOrder "2"^^xsd:integer ;
+    #     lily:song <SoundTrack_SoundTrack_Anata_Wa_Lily_Ni_Muite_Nai> ;
+    # ], [
+    #     lily:listOrder "3"^^xsd:integer ;
+    #     lily:song <SoundTrack_Mirai_To_No_Omoide_1> ;
+    # ], [
+    #     lily:listOrder "4"^^xsd:integer ;
+    #     lily:song <SoundTrack_Mirai_To_No_Omoide_2> ;
+    # ], [
+    #     lily:listOrder "5"^^xsd:integer ;
+    #     lily:song <SoundTrack_Illuma_Joshi_Kara_No_Tenkousei> ;
+    # ], [
+    #     lily:listOrder "6"^^xsd:integer ;
+    #     lily:song <SoundTrack_Himari_No_Jitsuryoku> ;
+    # ], [
+    #     lily:listOrder "7"^^xsd:integer ;
+    #     lily:song <SoundTrack_Kuroki_Francisca_Yuria> ;
+    # ], [
+    #     lily:listOrder "8"^^xsd:integer ;
+    #     lily:song <SoundTrack_Yuria_Bikou_Kyouka_Lily> ;
+    # ], [
+    #     lily:listOrder "9"^^xsd:integer ;
+    #     lily:song <SoundTrack_Clara_To_Kumama> ;
+    # ], [
+    #     lily:listOrder "10"^^xsd:integer ;
+    #     lily:song <SoundTrack_Monica> ;
+    # ], [
+    #     lily:listOrder "11"^^xsd:integer ;
+    #     lily:song <SoundTrack_Kono_Hito_Wa_Sentouji_Ni_Hito_Ga_Kawaru_Mitai> ;
+    # ], [
+    #     lily:listOrder "12"^^xsd:integer ;
+    #     lily:song <SoundTrack_Nijyuujinkaku_To_Lunatic_Trancer> ;
+    # ], [
+    #     lily:listOrder "13"^^xsd:integer ;
+    #     lily:song <SoundTrack_Amatsu_Marei> ;
+    # ], [
+    #     lily:listOrder "14"^^xsd:integer ;
+    #     lily:song <SoundTrack_I_See_From_Nagisa> ;
+    # ], [
+    #     lily:listOrder "15"^^xsd:integer ;
+    #     lily:song <SoundTrack_Fantastic_From_Nagisa> ;
+    # ], [
+    #     lily:listOrder "16"^^xsd:integer ;
+    #     lily:song <SoundTrack_Sou_Kantan_Niwa_Muri_Yone> ;
+    # ], [
+    #     lily:listOrder "17"^^xsd:integer ;
+    #     lily:song <SoundTrack_Ou_En_Dan> ;
+    # ], [
+    #     lily:listOrder "18"^^xsd:integer ;
+    #     lily:song <SoundTrack_Schwester_Seido> ;
+    # ], [
+    #     lily:listOrder "19"^^xsd:integer ;
+    #     lily:song <SoundTrack_Sachie_No_Kakugo> ;
+    # ], [
+    #     lily:listOrder "20"^^xsd:integer ;
+    #     lily:song <SoundTrack_Watashi_No_Legion_Damono> ;
+    # ], [
+    #     lily:listOrder "21"^^xsd:integer ;
+    #     lily:song <SoundTrack_Kyouka_Lily_No_Kanashimi> ;
+    # ], [
+    #     lily:listOrder "22"^^xsd:integer ;
+    #     lily:song <SoundTrack_Mamoru_Watashi_Ga_Mamorimasu> ;
+    # ], [
+        lily:listOrder "23"^^xsd:integer ;
+        lily:song <SoundTrack_Lavender_Iro_No_Asterion> ;
+    # ], [
+    #     lily:listOrder "24"^^xsd:integer ;
+    #     lily:song <SoundTrack_Lily_Days> ;
+    # ], [
+    #     lily:listOrder "25"^^xsd:integer ;
+    #     lily:song <SoundTrack_Schwester_No_Inori_Side_B> ;
+    # ], [
+    #     lily:listOrder "26"^^xsd:integer ;
+    #     lily:song <SoundTrack_Lily_Days_Side_B> ;
+    # ], [
+    #     lily:listOrder "27"^^xsd:integer ;
+    #     lily:song <SoundTrack_Schwester_No_Inori_Instrumental> ;
+    # ], [
+    #     lily:listOrder "28"^^xsd:integer ;
+    #     lily:song <SoundTrack_Lily_Days_Instrumental> ;
+    ] ;
+    a lily:MusicAlbum ;
+.
+
+<SoundTrack_Lavender_Iro_No_Asterion>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "ラベンダー色のアステリオン"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT4M39S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Inori_Original_Sound_Track> ;
+    a lily:Music ;
+.
