@@ -1695,7 +1695,7 @@
     lily:givenNameKana "すなお"@ja ;
     schema:name "尾竹廉"@ja, "Otake Sunao"@en ;
     lily:nameKana "おたけすなお"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "コンツェルトマイステリン"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "151.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
