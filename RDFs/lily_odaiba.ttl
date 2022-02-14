@@ -1124,7 +1124,7 @@
     lily:givenNameKana "くれな"@ja ;
     schema:name "西郷紅"@ja, "Saigo Kurena"@en ;
     lily:nameKana "さいごうくれな"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "台場の劔鬼"@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
