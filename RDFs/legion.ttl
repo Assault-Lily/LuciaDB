@@ -592,7 +592,8 @@
     schema:member
         <Tiuccia_Paumgartner>,
         <Catalina_Asensio>,
-        <Natasha_Metter> ;
+        <Natasha_Metter>,
+        <Krista_Frykberg> ;
     a lily:Legion ;
 .
 

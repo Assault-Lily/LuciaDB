@@ -197,6 +197,68 @@
     a lily:Lily ;
 .
 
+<Krista_Frykberg>
+    rdfs:label "クリスタ・フリュクベリ"^^xsd:string ;
+    schema:familyName "フリュクベリ"@ja, "Frykberg"@en ;
+    lily:familyNameKana "ふりゅくべり"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "クリスタ"@ja, "Krista"@en ;
+    lily:givenNameKana "くりすた"@ja ;
+    schema:name "クリスタ・フリュクベリ"@ja, "Krista Frykberg"@en ;
+    lily:nameKana "くりすた・ふりゅくべり"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted true ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "聖メルクリウスインターナショナルスクール"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    lily:gardenJobTitle "風紀委員長"@ja ;
+    lily:legion <Raguel> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
+
 <Louloudis_Bromstedt>
     rdfs:label "ルルディス・ブロムシュテット"^^xsd:string ;
     schema:familyName "ブロムシュテット"@ja, "Bromstedt"@en ;
