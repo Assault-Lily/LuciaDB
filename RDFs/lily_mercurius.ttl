@@ -367,7 +367,8 @@
     schema:birthPlace "ロシア"@ja, "Russia"@en ;
     lily:favorite
         "鍋料理"@ja,
-        "チョコレート"@ja ;
+        "チョコレート"@ja,
+        "フクロモモンガ"@ja ;
     lily:notGood "苦いもの（ゴーヤなど）"@ja ;
     lily:hobby_talent "ゲーム"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
