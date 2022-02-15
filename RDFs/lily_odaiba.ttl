@@ -861,7 +861,7 @@
     lily:givenNameKana "かつら"@ja ;
     schema:name "速水桂"@ja, "Hayami Katsura"@en ;
     lily:nameKana "はやみかつら"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "古武士（ふるつわもの）"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "161.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
