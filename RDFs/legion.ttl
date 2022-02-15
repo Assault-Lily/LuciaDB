@@ -459,7 +459,7 @@
     schema:name "コーストガード"@ja, "Coast Guard"@en ;
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded false ;
-    # lily:legionGrade ""^^xsd:string ;
+    lily:legionGrade "SS"^^xsd:string ;
     # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Hirose_Minato>,
@@ -592,7 +592,8 @@
     schema:member
         <Tiuccia_Paumgartner>,
         <Catalina_Asensio>,
-        <Natasha_Metter> ;
+        <Natasha_Metter>,
+        <Krista_Frykberg> ;
     a lily:Legion ;
 .
 
