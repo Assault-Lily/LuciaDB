@@ -1706,7 +1706,7 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite "蕎麦"@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
