@@ -1955,7 +1955,9 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Coast_Guard> ;
-    lily:legionJobTitle "隊長"^^xsd:string ;
+    lily:legionJobTitle
+        "隊長"^^xsd:string,
+        "司令塔"^^xsd:string ;
     lily:position
         "TZ"^^xsd:string,
         "BZ"^^xsd:string ;
