@@ -99,7 +99,7 @@
     lily:givenNameKana "ともよ"@ja ;
     schema:name "中原・メアリィ・倫夜"@ja, "Nakahara Mary Tomoyo"@en ;
     lily:nameKana "なかはら・めありぃ・ともよ"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "プロフェッサー"@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
