@@ -2062,7 +2062,7 @@
     lily:givenNameKana "はなぶさ"@ja ;
     schema:name "岸田英"@ja, "Kishida Hanabusa"@en ;
     lily:nameKana "きしだはなぶさ"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "煌壁の狂剣"@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
