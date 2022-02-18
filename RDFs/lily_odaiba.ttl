@@ -1975,6 +1975,9 @@
     lily:relationship [
         lily:resource <Soga_Suzuna> ;
         lily:additionalInformation "盟友"@ja ;
+    ], [
+        lily:resource <Yamanashi_Hibari> ;
+        lily:additionalInformation "親友"@ja ;
     ] ;
     lily:cast [
         schema:name "田上真里奈"@ja ;

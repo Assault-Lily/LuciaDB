@@ -3256,6 +3256,9 @@
         lily:resource <Uchida_Mayuri> ;
         lily:additionalInformation "親友"@ja ;
     ], [
+        lily:resource <Hirose_Minato> ;
+        lily:additionalInformation "親友"@ja ;
+    ], [
         lily:resource <Yanagisawa_Ayako> ;
         lily:additionalInformation "推しリリィ"@ja ;
     ] ;
