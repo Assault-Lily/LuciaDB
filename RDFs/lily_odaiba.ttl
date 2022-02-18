@@ -1333,7 +1333,9 @@
         "猫"@ja,
         "オポッサム"@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "キャンプ"@ja,
+        "運動全般"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ラプラス"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
