@@ -875,8 +875,10 @@
     lily:favorite
         "犬"@ja,
         "酒盗"@ja ;
-    # lily:notGood ""@ja ;
-    lily:hobby_talent "料理"@ja ;
+    lily:notGood "過美な物や行い"@ja ;
+    lily:hobby_talent
+        "料理"@ja,
+        "CHARMの手入れ"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "この世の理"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
