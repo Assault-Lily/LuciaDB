@@ -1133,7 +1133,7 @@
 <Carnwenhan>
     # schema:productID ""^^xsd:string ;
     lily:seriesName "カルンウェナン"@ja, "Carnwenhan"@en ;
-    schema:name "カルンウェナン"@ja, "SkofCarnwenhannung"@en ;
+    schema:name "カルンウェナン"@ja, "Carnwenhan"@en ;
     # lily:generation ""^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
     # schema:manufacturer <> ;
