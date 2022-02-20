@@ -1129,3 +1129,15 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Carnwenhan>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "カルンウェナン"@ja, "Carnwenhan"@en ;
+    schema:name "カルンウェナン"@ja, "SkofCarnwenhannung"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Takehisa_Nakaba> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.

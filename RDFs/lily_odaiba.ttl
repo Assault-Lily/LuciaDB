@@ -1078,6 +1078,10 @@
         lily:usedIn "舞台御台場TEP"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
+        lily:resource <Carnwenhan> ;
+        lily:usedIn "舞台御台場TEP"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
         lily:resource <Yotunschwert> ;
         # lily:usedIn ""^^xsd:string ;
         # lily:additionalInformation ""@ja ;
