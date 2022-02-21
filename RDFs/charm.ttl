@@ -201,7 +201,8 @@
         <Kagami_Agnes_Mio>,
         <Izumi_Rosa_Rina>,
         <Rokkaku_Shiori>,
-        <Amatsu_Marei> ;
+        <Amatsu_Marei>,
+        <Miyairi_Fubuki> ;
     lily:isVariantOf <Dainsleif> ;
     a lily:Charm ;
 .

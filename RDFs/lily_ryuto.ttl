@@ -450,7 +450,7 @@
         lily:additionalInformation "ライバル"@ja ;
     ], [
         lily:resource <Miyairi_Fubuki> ;
-        lily:additionalInformation "姉貴分"@ja ;
+        lily:additionalInformation "グリンカムビの誓いを交わしたお姉様"@ja ;
     ], [
         lily:resource <Banshoya_Ena> ;
         lily:additionalInformation "ライバル視"@ja ;
@@ -543,26 +543,29 @@
     foaf:age "17"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--05-17"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite
+        "生魚"@ja,
+        "貝類"@ja,
+        "米"@ja ;
+    lily:notGood "辛いもの"@ja ;
+    lily:hobby_talent "水泳"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "天の秤目"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Dainsleif_Carbin> ;
+        # lily:usedIn ""^^xsd:string ;
+        lily:additionalInformation "寒冷地仕様"@ja ;
+    ] ;
     lily:garden "柳都女学館"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "12"^^xsd:integer ;
@@ -582,10 +585,10 @@
     # ] ;
     lily:relationship [
         lily:resource <Maki_Wakana> ;
-        lily:additionalInformation "友人"@ja ;
+        lily:additionalInformation "親友"@ja ;
     ], [
         lily:resource <Yoshihara_Nanoha> ;
-        lily:additionalInformation "妹分"@ja ;
+        lily:additionalInformation "グリンカムビの誓いを交わした妹"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
