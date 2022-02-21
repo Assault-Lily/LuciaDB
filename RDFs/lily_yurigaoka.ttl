@@ -5479,6 +5479,9 @@
         lily:resource <Hitotsuyanagi_Riri> ;
         lily:additionalInformation "弟子"@ja ;
     ], [
+        lily:resource <Omodaka_Tae> ;
+        lily:additionalInformation "親しい間柄"@ja ;
+    ], [
         lily:resource <Kimura_Kazuki> ;
         lily:additionalInformation "命を救った"@ja ;
     ], [
@@ -5892,10 +5895,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Omodaka_Tae> ;
+        lily:additionalInformation "一緒に百合ヶ丘女学院に進学する約束をしていた"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
