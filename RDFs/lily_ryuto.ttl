@@ -191,26 +191,30 @@
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--02-22"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "ミーアキャット"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite
+        "ミーアキャット"@ja,
+        "みかん"@ja ;
+    lily:notGood "辛い食べ物"@ja ;
+    lily:hobby_talent
+        "乗馬"@ja,
+        "鉱石集め"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "レジスタ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Tyrfing_type_R> ;
+        # lily:usedIn ""^^xsd:string ;
+        lily:additionalInformation "量産先行機"@ja ;
+    ] ;
     lily:garden "柳都女学館"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
@@ -230,12 +234,10 @@
     # ] ;
     lily:relationship [
         lily:resource <Enomoto_Yaya> ;
-        lily:additionalInformation "姉妹契約制度における姉"@ja ;
+        lily:additionalInformation "グリンカムビの誓いを交わしたお姉様"@ja ;
     ], [
         lily:resource <Enomoto_Komomo> ;
-        lily:additionalInformation
-            "姉妹契約制度における姉の実の妹"@ja,
-            "仲が悪い"@ja ;
+        lily:additionalInformation "仲が悪い"@ja ;
     ], [
         lily:resource <Imaizumi_Rion> ;
         lily:additionalInformation "親友"@ja ;
@@ -300,7 +302,7 @@
     ] ;
     lily:relationship [
         lily:resource <Sumitani_Miki> ;
-        lily:additionalInformation "姉妹契約制度における妹"@ja ;
+        lily:additionalInformation "グリンカムビの誓いを交わした妹"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -371,9 +373,7 @@
     ] ;
     lily:relationship [
         lily:resource <Sumitani_Miki> ;
-        lily:additionalInformation
-            "実の姉の姉妹契約制度における妹"@ja,
-            "仲が悪い"@ja ;
+        lily:additionalInformation "仲が悪い"@ja ;
     ], [
         lily:resource <Yoshihara_Nanoha> ;
         lily:additionalInformation "友人"@ja ;
@@ -607,32 +607,36 @@
     schema:name "天田花心"@ja, "Amata Hanako"@en ;
     lily:nameKana "あまたはなこ"@ja ;
     # lily:anotherName ""@ja ;
-    # foaf:age ""^^xsd:integer ;
+    foaf:age "16"^^xsd:integer ;
     schema:height "163.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--07-15"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
-    lily:notGood "歌うこと"@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite
+        "チョコレート"@ja,
+        "肉類全般"@ja ;
+    lily:notGood
+        "絵を描くこと"@ja,
+        "歌うこと"@ja ;
+    lily:hobby_talent "インテリア・家具"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ルナティックトランサー"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Dainsleif> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "柳都女学館"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
-    # lily:grade ""^^xsd:integer ;
+    lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Kolga> ;
@@ -647,10 +651,16 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Miyairi_Fubuki> ;
+        lily:additionalInformation "風舞姫の後継者と呼ばれる"@ja ;
+    ], [
+        lily:resource <Funada_Kiito> ;
+        lily:additionalInformation "中禅寺湖ネストとの戦いで意気投合"@ja ;
+    ], [
+        lily:resource <Funada_Ui> ;
+        lily:additionalInformation "中禅寺湖ネストとの戦いで意気投合"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
