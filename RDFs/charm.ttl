@@ -167,6 +167,7 @@
         <Rokkaku_Shiori>,
         <Kaede_Johan_Nouvel>,
         <Izumi_Rosa_Rina>,
+        <Amata_Hanako>,
         <L> ;
     lily:hasVariant <Dainsleif_Carbin> ;
     lily:hasVariant <Dainsleif_Marksman> ;
@@ -292,6 +293,7 @@
         <Yokoyama_Azusa>,
         <Masukawa_Uta>,
         <Hirose_Minato>,
+        <Sumitani_Miki>,
         <Gozen> ;
     lily:isVariantOf <Tyrfing_Prototype> ;
     schema:isSimilarTo <Tyrfing_type_T> ;
