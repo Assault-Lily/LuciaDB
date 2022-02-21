@@ -2075,7 +2075,7 @@
     # ] ;
     lily:relationship [
         lily:resource <Miyairi_Fubuki> ;
-        lily:additionalInformation "友人"@ja ;
+        lily:additionalInformation "親友"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
