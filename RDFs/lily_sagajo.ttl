@@ -185,6 +185,9 @@
         lily:additionalInformation
             "幼馴染"@ja,
             "桜華義塾女子幼稚舎時代の師"@ja ;
+    ], [
+        lily:resource <Kuki_Nuyuna> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "広沢麻衣"@ja ;
