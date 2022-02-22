@@ -835,6 +835,9 @@
         lily:resource <Maruyama_Amane> ;
         lily:additionalInformation "盟友"@ja ;
     ], [
+        lily:resource <Munakata_Ushio> ;
+        lily:additionalInformation "盟友"@ja ;
+    ], [
         lily:resource <Mashima_Moyu> ;
         lily:additionalInformation "アーセナルとしてロネスネスに紹介"@ja ;
     ] ;
@@ -1832,6 +1835,9 @@
         lily:resource <Nagasawa_Yuki> ;
         lily:additionalInformation "盟友"@ja ;
     ], [
+        lily:resource <Munakata_Ushio> ;
+        lily:additionalInformation "盟友"@ja ;
+    ], [
         lily:resource <Kishimoto_Maria_Mirai> ;
         lily:additionalInformation "友人"@ja ;
     ], [
@@ -2184,10 +2190,13 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Nagasawa_Yuki> ;
+        lily:additionalInformation "盟友"@ja ;
+    ], [
+        lily:resource <Maruyama_Amane> ;
+        lily:additionalInformation "盟友"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
