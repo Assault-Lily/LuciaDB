@@ -2850,7 +2850,7 @@
     lily:givenNameKana "わつき"@ja ;
     schema:name "牛田琶月"@ja, "Ushida Watsuki"@en ;
     lily:nameKana "うしだわつき"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "雷神"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "161.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
