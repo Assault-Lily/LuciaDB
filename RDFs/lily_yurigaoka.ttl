@@ -6059,7 +6059,7 @@
     lily:givenNameKana "しのぶ"@ja ;
     schema:name "出江史房"@ja, "Izue Shinobu"@en ;
     lily:nameKana "いずえしのぶ"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "白い悪魔"@ja ;
     foaf:age "17"^^xsd:integer ;
     schema:height "164.0"^^xsd:float ;
     schema:weight "54.0"^^xsd:float ;
