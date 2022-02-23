@@ -1252,6 +1252,11 @@
         lily:additionalInformation
             "元「イルマ四天王」"@ja,
             "親友"@ja ;
+    ], [
+        lily:resource <Kamigoori_Marimo> ;
+        lily:additionalInformation
+            "同志"@ja,
+            "理想のリリィ"@ja ;
     ] ;
     lily:cast [
         schema:name "栞菜"@ja ;
