@@ -414,6 +414,9 @@
         lily:additionalInformation
             "遊び相手"@ja,
             "憧れの人"@ja ;
+    ], [
+        lily:resource <Kawanabe_Nazuna> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;

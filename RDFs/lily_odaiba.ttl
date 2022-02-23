@@ -1029,6 +1029,9 @@
     ], [
         lily:resource <Hishida_Haru> ;
         lily:additionalInformation "かわいがってくれる先輩"@ja ;
+    ], [
+        lily:resource <Chemir_Friedheim> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "河内美里"@ja ;
