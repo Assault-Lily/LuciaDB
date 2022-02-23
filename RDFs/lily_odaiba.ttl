@@ -1150,7 +1150,9 @@
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "辛いもの"@ja ;
-    lily:notGood "料理"@ja ;
+    lily:notGood
+        "料理"@ja,
+        "針"@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ルナティックトランサー"^^xsd:string ;
