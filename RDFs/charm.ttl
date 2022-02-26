@@ -167,6 +167,7 @@
         <Rokkaku_Shiori>,
         <Kaede_Johan_Nouvel>,
         <Izumi_Rosa_Rina>,
+        <Amata_Hanako>,
         <L> ;
     lily:hasVariant <Dainsleif_Carbin> ;
     lily:hasVariant <Dainsleif_Marksman> ;
@@ -200,7 +201,8 @@
         <Kagami_Agnes_Mio>,
         <Izumi_Rosa_Rina>,
         <Rokkaku_Shiori>,
-        <Amatsu_Marei> ;
+        <Amatsu_Marei>,
+        <Miyairi_Fubuki> ;
     lily:isVariantOf <Dainsleif> ;
     a lily:Charm ;
 .
@@ -292,6 +294,7 @@
         <Yokoyama_Azusa>,
         <Masukawa_Uta>,
         <Hirose_Minato>,
+        <Sumitani_Miki>,
         <Gozen> ;
     lily:isVariantOf <Tyrfing_Prototype> ;
     schema:isSimilarTo <Tyrfing_type_T> ;
@@ -1122,6 +1125,18 @@
     # schema:productID ""^^xsd:string ;
     lily:seriesName "スコフニュング"@ja, "Skofnung"@en ;
     schema:name "スコフニュング"@ja, "Skofnung"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Takehisa_Nakaba> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Carnwenhan>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "カルンウェナン"@ja, "Carnwenhan"@en ;
+    schema:name "カルンウェナン"@ja, "Carnwenhan"@en ;
     # lily:generation ""^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
     # schema:manufacturer <> ;

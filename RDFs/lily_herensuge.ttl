@@ -78,6 +78,9 @@
     lily:relationship [
         lily:resource <Matsumura_Fuka> ;
         lily:additionalInformation "仲が悪い"@ja ;
+    ], [
+        lily:resource <Omodaka_Tae> ;
+        lily:additionalInformation "闘星塾時代の同期"@ja ;
     ] ;
     lily:cast [
         schema:name "藤井彩加"@ja ;

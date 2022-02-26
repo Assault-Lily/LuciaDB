@@ -810,3 +810,18 @@
         <Mibu_Kirari> ;
     a lily:Legion ;
 .
+
+### 聖橋大学附属女子高等学校
+
+<Sekkadan>
+    schema:name "雪花団"@ja, "Sekkadan"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "A"^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Iwashita_Kiriko>,
+        <Kuki_Nuyuna>,
+        <Omodaka_Tae> ;
+    a lily:Legion ;
+.

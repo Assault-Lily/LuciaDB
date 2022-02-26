@@ -835,6 +835,9 @@
         lily:resource <Maruyama_Amane> ;
         lily:additionalInformation "盟友"@ja ;
     ], [
+        lily:resource <Munakata_Ushio> ;
+        lily:additionalInformation "盟友"@ja ;
+    ], [
         lily:resource <Mashima_Moyu> ;
         lily:additionalInformation "アーセナルとしてロネスネスに紹介"@ja ;
     ] ;
@@ -875,8 +878,10 @@
     lily:favorite
         "犬"@ja,
         "酒盗"@ja ;
-    # lily:notGood ""@ja ;
-    lily:hobby_talent "料理"@ja ;
+    lily:notGood "過美な物や行い"@ja ;
+    lily:hobby_talent
+        "料理"@ja,
+        "CHARMの手入れ"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "この世の理"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -1024,6 +1029,9 @@
     ], [
         lily:resource <Hishida_Haru> ;
         lily:additionalInformation "かわいがってくれる先輩"@ja ;
+    ], [
+        lily:resource <Chemir_Friedheim> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "河内美里"@ja ;
@@ -1055,7 +1063,9 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite
+        "肉料理"@ja,
+        "チョコレート"@ja ;
     lily:notGood
         "生のトマト"@ja,
         "ハト"@ja ;
@@ -1073,6 +1083,10 @@
         lily:resource <Skofnung> ;
         lily:usedIn "舞台御台場TEP"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
+    ], [
+        lily:resource <Carnwenhan> ;
+        lily:usedIn "舞台御台場TEP"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
         # lily:usedIn ""^^xsd:string ;
@@ -1136,7 +1150,9 @@
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "辛いもの"@ja ;
-    lily:notGood "料理"@ja ;
+    lily:notGood
+        "料理"@ja,
+        "針"@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ルナティックトランサー"^^xsd:string ;
@@ -1333,7 +1349,9 @@
         "猫"@ja,
         "オポッサム"@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "キャンプ"@ja,
+        "運動全般"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ラプラス"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -1706,7 +1724,7 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite "蕎麦"@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
@@ -1820,6 +1838,9 @@
     # ] ;
     lily:relationship [
         lily:resource <Nagasawa_Yuki> ;
+        lily:additionalInformation "盟友"@ja ;
+    ], [
+        lily:resource <Munakata_Ushio> ;
         lily:additionalInformation "盟友"@ja ;
     ], [
         lily:resource <Kishimoto_Maria_Mirai> ;
@@ -1955,7 +1976,9 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Coast_Guard> ;
-    lily:legionJobTitle "隊長"^^xsd:string ;
+    lily:legionJobTitle
+        "隊長"^^xsd:string,
+        "司令塔"^^xsd:string ;
     lily:position
         "TZ"^^xsd:string,
         "BZ"^^xsd:string ;
@@ -1971,6 +1994,9 @@
     lily:relationship [
         lily:resource <Soga_Suzuna> ;
         lily:additionalInformation "盟友"@ja ;
+    ], [
+        lily:resource <Yamanashi_Hibari> ;
+        lily:additionalInformation "親友"@ja ;
     ] ;
     lily:cast [
         schema:name "田上真里奈"@ja ;
@@ -2060,11 +2086,11 @@
     lily:givenNameKana "はなぶさ"@ja ;
     schema:name "岸田英"@ja, "Kishida Hanabusa"@en ;
     lily:nameKana "きしだはなぶさ"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "煌壁の狂剣"@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--02-15"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
@@ -2128,7 +2154,7 @@
     lily:givenNameKana "うしお"@ja ;
     schema:name "棟方潮"@ja, "Munakata Ushio"@en ;
     lily:nameKana "むなかたうしお"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "魔砲使い"@ja ;
     foaf:age "17"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -2169,10 +2195,13 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Nagasawa_Yuki> ;
+        lily:additionalInformation "盟友"@ja ;
+    ], [
+        lily:resource <Maruyama_Amane> ;
+        lily:additionalInformation "盟友"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
