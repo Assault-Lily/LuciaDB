@@ -276,7 +276,8 @@
         <Takegoshi_Chihana>,
         <Uchida_Mayuri>,
         <Louloudis_Bromstedt>,
-        <Asanaga_Ichigo> ;
+        <Asanaga_Ichigo>,
+        <Ushida_Watsuki> ;
     lily:isVariantOf <Tyrfing_Prototype> ;
     schema:isSimilarTo <Tyrfing_type_R> ;
     a lily:Charm ;
@@ -863,7 +864,8 @@
     schema:manufacturer <Hihiirokane_International> ;
     lily:user
         <Suzuki_Chinami>,
-        <Masukawa_Uta> ;
+        <Masukawa_Uta>,
+        <Ushida_Watsuki> ;
     lily:additionalInformation "テスト運用中"@ja ;
     a lily:Charm ;
 .

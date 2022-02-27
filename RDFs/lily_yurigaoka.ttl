@@ -2877,6 +2877,14 @@
         lily:resource <Thor_Hammer> ;
         # lily:usedIn ""^^xsd:string ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Tyrfing_type_T> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Kuruzzi> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
