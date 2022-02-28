@@ -536,7 +536,7 @@
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Fujita_Asagao> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -626,7 +626,7 @@
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     lily:pastTaskforce <Odaiba_Interception_Taskforce_3> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Igusa_Subaru> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
