@@ -1129,7 +1129,7 @@
     schema:name "スコフニュング"@ja, "Skofnung"@en ;
     # lily:generation ""^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Yggdrasill> ;
     lily:user <Takehisa_Nakaba> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
@@ -1141,7 +1141,7 @@
     schema:name "カルンウェナン"@ja, "Carnwenhan"@en ;
     # lily:generation ""^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Camelot_Castle> ;
     lily:user <Takehisa_Nakaba> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
