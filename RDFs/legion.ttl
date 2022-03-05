@@ -109,7 +109,8 @@
         <Ushida_Watsuki>,
         <Diana_Koolhaas>,
         <Arima_Mitsune>,
-        <Ashihara_Konomi> ;
+        <Ashihara_Konomi>,
+        <Kikuchi_Sayuri> ;
     lily:submember
         <Tamura_Nagi> ;
     a lily:Legion ;
