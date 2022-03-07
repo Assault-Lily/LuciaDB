@@ -110,9 +110,11 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite
+        "リンゴ"@ja,
+        "ワイン"@ja ;
+    lily:notGood "揚げ物"@ja ;
+    lily:hobby_talent "読書 (哲学・医学)"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "鷹の目"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -175,16 +177,20 @@
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--03-12"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     schema:birthPlace "奈良県"@ja, "Nara"@en ;
-    # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite
+        "日本酒"@ja,
+        "寿司"@ja ;
+    lily:notGood "ジャンクフード"@ja ;
+    lily:hobby_talent
+        "音楽鑑賞 (クラシック)"@ja,
+        "ファッション"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ヘリオスフィア"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -200,7 +206,7 @@
     # lily:gardenDepartment ""^^xsd:string ;
     # lily:grade ""^^xsd:integer ;
     # lily:class ""^^xsd:string ;
-    lily:gardenJobTitle "スクールカウンセラー(精神科医)"@ja ;
+    lily:gardenJobTitle "スクールカウンセラー"@ja ;
     # lily:legion <> ;
     # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
