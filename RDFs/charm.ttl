@@ -1106,7 +1106,7 @@
     schema:name "ウルフバート"@ja, "Ulfberht"@en ;
     # lily:generation ""^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Yggdrasill> ;
     lily:user <Saigo_Kurena> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
