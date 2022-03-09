@@ -881,6 +881,7 @@
     lily:notGood "過美な物や行い"@ja ;
     lily:hobby_talent
         "料理"@ja,
+        "釣り"@ja,
         "CHARMの手入れ"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "この世の理"^^xsd:string ;
