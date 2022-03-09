@@ -568,14 +568,14 @@
 
 <Hidai_Miyazu>
     rdfs:label "比田井美夜受"^^xsd:string ;
-    schema:familyName "比田井"@ja ; #, ""@en ;
-    # lily:familyNameKana ""@ja ;
+    schema:familyName "比田井"@ja, "Hidai"@en ;
+    lily:familyNameKana "ひだい"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "美夜受"@ja ; #, ""@en ;
-    # lily:givenNameKana ""@ja ;
-    schema:name "比田井美夜受"@ja ; #, ""@en ;
-    # lily:nameKana ""@ja ;
+    schema:givenName "美夜受"@ja, "Miyazu"@en ;
+    lily:givenNameKana "みやず"@ja ;
+    schema:name "比田井美夜受"@ja, "Hidai Miyazu"@en ;
+    lily:nameKana "ひだいみやず"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -607,7 +607,7 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Illumine_Shines> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
