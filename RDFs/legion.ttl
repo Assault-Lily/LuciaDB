@@ -573,6 +573,17 @@
     a lily:Legion ;
 .
 
+<Raphael>
+    schema:name "第3飛空艇団ラファエル"@ja, "4th Gunship Brigade Uriel"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Beatrice_Berlioz> ;
+    a lily:Legion ;
+.
+
 <Uriel>
     schema:name "第4飛空艇団ウリエル"@ja, "4th Gunship Brigade Uriel"@en ;
     schema:alternateName "狂信者の集団"@ja ; # ""@en ;
