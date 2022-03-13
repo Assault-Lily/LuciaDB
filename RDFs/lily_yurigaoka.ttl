@@ -7785,7 +7785,7 @@
     schema:name "隈綾音"@ja, "Kuma Ayane"@en ;
     lily:nameKana "くまあやね"@ja ;
     # lily:anotherName ""@ja ;
-    # foaf:age ""^^xsd:integer ;
+    foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
@@ -7810,7 +7810,7 @@
     # ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
-    # lily:grade ""^^xsd:integer ;
+    lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Schwertleite> ;
