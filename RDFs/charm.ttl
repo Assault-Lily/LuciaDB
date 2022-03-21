@@ -712,7 +712,8 @@
     schema:manufacturer <Grand_Guignol> ;
     lily:user
         <Rokkaku_Shiori>,
-        <Fukuyama_Jeanne_Sachie> ;
+        <Fukuyama_Jeanne_Sachie>,
+        <Takasuga_Tsukushi> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
