@@ -109,7 +109,8 @@
         <Ushida_Watsuki>,
         <Diana_Koolhaas>,
         <Arima_Mitsune>,
-        <Ashihara_Konomi> ;
+        <Ashihara_Konomi>,
+        <Kikuchi_Sayuri> ;
     lily:submember
         <Tamura_Nagi> ;
     a lily:Legion ;
@@ -569,6 +570,17 @@
         <Altea_Alessandrini>,
         <Stella_Elle_Sasson> ;
     ### LGヘオロットセインツと同盟を結んでいる
+    a lily:Legion ;
+.
+
+<Raphael>
+    schema:name "第3飛空艇団ラファエル"@ja, "4th Gunship Brigade Uriel"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Beatrice_Berlioz> ;
     a lily:Legion ;
 .
 

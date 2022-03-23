@@ -536,7 +536,7 @@
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Fujita_Asagao> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -626,7 +626,7 @@
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     lily:pastTaskforce <Odaiba_Interception_Taskforce_3> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Igusa_Subaru> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -881,6 +881,7 @@
     lily:notGood "過美な物や行い"@ja ;
     lily:hobby_talent
         "料理"@ja,
+        "釣り"@ja,
         "CHARMの手入れ"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "この世の理"^^xsd:string ;
@@ -1153,7 +1154,7 @@
     lily:notGood
         "料理"@ja,
         "針"@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent "ピアノ"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ルナティックトランサー"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -1521,7 +1522,9 @@
         "フクロウ"@ja,
         "あんこう鍋"@ja ;
     lily:notGood "寒さ"@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "鉱石集め"@ja,
+        "スチームパンク"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -1724,9 +1727,11 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "蕎麦"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite "麺類 (特に蕎麦)"@ja ;
+    lily:notGood "納豆"@ja ;
+    lily:hobby_talent
+        "ファッション"@ja,
+        "戦術論・ガーデン制服の研究"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ブレイブ"^^xsd:string ;
     lily:subSkill
@@ -1797,31 +1802,33 @@
     foaf:age "17"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--06-01"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite "味噌汁"@ja ;
+    lily:notGood "洋食"@ja ;
+    lily:hobby_talent
+        "読書 (時代物)"@ja,
+        "武道の鍛錬"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "縮地"^^xsd:string ;
     lily:subSkill "ステルス"^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Dainsleif> ;
+        lily:usedIn "舞台御台場TEP"^^xsd:string ;
+        lily:additionalInformation "高機動型"@ja ;
+    ] ;
     lily:garden "御台場女学校"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "12"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
-    # lily:gardenJobTitle ""@ja ;
+    lily:gardenJobTitle "元生徒会長"@ja ;
     lily:legion <Heorot_Saints> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position
@@ -1946,16 +1953,20 @@
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--08-19"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "紅茶"@ja ;
-    # lily:notGood ""@ja ;
-    lily:hobby_talent "乗馬"@ja ;
+    lily:favorite
+        "紅茶"@ja,
+        "洋菓子"@ja ;
+    lily:notGood "きのこ"@ja ;
+    lily:hobby_talent
+        "乗馬"@ja,
+        "アーチェリー"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "円環の御手"^^xsd:string ;
     lily:subSkill "軍神の加護"^^xsd:string ;
@@ -2097,9 +2108,13 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "貝類"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite
+        "貝類"@ja,
+        "野菜"@ja ;
+    lily:notGood "肉料理"@ja ;
+    lily:hobby_talent
+        "ゲーム"@ja,
+        "家庭菜園"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ファンタズム"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;

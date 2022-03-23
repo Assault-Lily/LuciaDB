@@ -164,6 +164,7 @@
         <Gozen>,
         <Shirai_Yuyu>,
         <Funada_Kiito>,
+        <Maruyama_Amane>,
         <Rokkaku_Shiori>,
         <Kaede_Johan_Nouvel>,
         <Izumi_Rosa_Rina>,
@@ -276,7 +277,8 @@
         <Takegoshi_Chihana>,
         <Uchida_Mayuri>,
         <Louloudis_Bromstedt>,
-        <Asanaga_Ichigo> ;
+        <Asanaga_Ichigo>,
+        <Ushida_Watsuki> ;
     lily:isVariantOf <Tyrfing_Prototype> ;
     schema:isSimilarTo <Tyrfing_type_R> ;
     a lily:Charm ;
@@ -710,7 +712,8 @@
     schema:manufacturer <Grand_Guignol> ;
     lily:user
         <Rokkaku_Shiori>,
-        <Fukuyama_Jeanne_Sachie> ;
+        <Fukuyama_Jeanne_Sachie>,
+        <Takasuga_Tsukushi> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
@@ -863,7 +866,8 @@
     schema:manufacturer <Hihiirokane_International> ;
     lily:user
         <Suzuki_Chinami>,
-        <Masukawa_Uta> ;
+        <Masukawa_Uta>,
+        <Ushida_Watsuki> ;
     lily:additionalInformation "テスト運用中"@ja ;
     a lily:Charm ;
 .
@@ -1103,7 +1107,7 @@
     schema:name "ウルフバート"@ja, "Ulfberht"@en ;
     # lily:generation ""^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Yggdrasill> ;
     lily:user <Saigo_Kurena> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
@@ -1127,7 +1131,7 @@
     schema:name "スコフニュング"@ja, "Skofnung"@en ;
     # lily:generation ""^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Yggdrasill> ;
     lily:user <Takehisa_Nakaba> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
@@ -1139,7 +1143,7 @@
     schema:name "カルンウェナン"@ja, "Carnwenhan"@en ;
     # lily:generation ""^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Camelot_Castle> ;
     lily:user <Takehisa_Nakaba> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
