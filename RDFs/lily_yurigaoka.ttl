@@ -1256,7 +1256,7 @@
     lily:givenNameKana "つくし"@ja ;
     schema:name "高須賀月詩"@ja, "Takasuga Tsukushi"@en ;
     lily:nameKana "たかすがつくし"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "ヴィルトシュバイン"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "157.0"^^xsd:float ;
     schema:weight "43.0"^^xsd:float ;
