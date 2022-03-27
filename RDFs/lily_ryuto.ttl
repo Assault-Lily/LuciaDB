@@ -211,7 +211,7 @@
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
-        lily:resource <Tyrfing_type_R> ;
+        lily:resource <Tyrfing_Custom> ;
         # lily:usedIn ""^^xsd:string ;
         lily:additionalInformation "量産先行機"@ja ;
     ] ;
