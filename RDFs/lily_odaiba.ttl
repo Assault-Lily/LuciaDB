@@ -1624,7 +1624,8 @@
     lily:favorite "果物"@ja ;
     lily:notGood
         "納豆"@ja,
-        "タコ"@ja ;
+        "タコ"@ja,
+        "イカ"@ja ;
     lily:hobby_talent
         "茶道"@ja,
         "和歌"@ja,
