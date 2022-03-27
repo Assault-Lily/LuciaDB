@@ -1170,6 +1170,30 @@
     a lily:Charm ;
 .
 
+<Collbrande>
+    schema:productID "GC-20"^^xsd:string ;
+    lily:seriesName "コルブランド"@ja, "Collbrande"@en ;
+    schema:name "コルブランド"@ja, "Collbrande"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Camelot_Castle> ;
+    # lily:user <> ;
+    lily:additionalInformation "「CHARMエクスカリバー兵装群」プロジェクトによる開発"@ja ;
+    a lily:Charm ;
+.
+
+<Caliburn>
+    schema:productID "GC-21"^^xsd:string ;
+    lily:seriesName "キャリバーン"@ja, "Caliburn"@en ;
+    schema:name "キャリバーン"@ja, "Caliburn"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Camelot_Castle> ;
+    # lily:user <> ;
+    lily:additionalInformation "「CHARMエクスカリバー兵装群」プロジェクトによる開発"@ja ;
+    a lily:Charm ;
+.
+
 <Gjallarhorn>
     # schema:productID ""^^xsd:string ;
     lily:seriesName "ギャラルホルン"@ja, "Gjallarhorn"@en ;
