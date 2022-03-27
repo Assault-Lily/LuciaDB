@@ -306,6 +306,9 @@
         lily:resource <Louloudis_Bromstedt> ;
         lily:additionalInformation "聖メルクリウス中等部時代の友人"@ja ;
     ], [
+        lily:resource <Lemie_Alessandrini> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
         lily:resource <Tachihara_Sayu> ;
         lily:additionalInformation "ライバル"@ja ;
     ], [

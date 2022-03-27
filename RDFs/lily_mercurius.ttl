@@ -479,6 +479,9 @@
     lily:relationship [
         lily:resource <Louloudis_Bromstedt> ;
         lily:additionalInformation "依存対象"@ja ;
+    ], [
+        lily:resource <Kaede_Johan_Nouvel> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
