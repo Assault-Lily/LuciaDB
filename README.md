@@ -1,10 +1,10 @@
-# assaultlily-rdf
+# LuciaDB: Lily's unified correlation information as DataBase
 ![stat](https://img.shields.io/badge/dynamic/json?label=%E3%83%87%E3%83%BC%E3%82%BF%E6%95%B0&query=%24.results.bindings%5B%3A1%5D.stat.value&url=https%3A%2F%2Flily.fvhp.net%2Fsparql%2Fquery%3Fformat%3Djson%26query%3DPREFIX%2520lily%253A%2520%253Chttps%253A%252F%252Flily.fvhp.net%252Frdf%252FIRIs%252Flily_schema.ttl%2523%253E%250D%250APREFIX%2520rdf%253A%2520%253Chttp%253A%252F%252Fwww.w3.org%252F1999%252F02%252F22-rdf-syntax-ns%2523%253E%250D%250ASELECT%2520%2528group_concat%2528concat%2528%2527%2520%2527%252C%2520str%2528%253Fcnt%2529%252C%2520%2527%2520%2527%252C%2520if%2528contains%2528str%2528%253Fo%2529%252C%2520%2522Lily%2522%2529%252C%2520%2522Lilie%2522%252C%2520if%2528contains%2528str%2528%253Fo%2529%252C%2520%2522Play%2522%2529%252C%2520%2522Stage%2522%252C%2520strafter%2528str%2528%253Fo%2529%252C%2520str%2528lily%253A%2529%2529%2529%2529%252C%2520%2527s%2527%2529%253B%2520separator%253D%2527%252C%2527%2529%2520as%2520%253Fstat%2529%250D%250AWHERE%2520%257B%250D%250A%2520%2520SELECT%2520%253Fo%2520%2528COUNT%2528%253Fs%2529%2520AS%2520%253Fcnt%2529%250D%250A%2520%2520WHERE%2520%257B%250D%250A%2520%2520%2520%2520%253Fs%2520rdf%253Atype%2520%253Fo.%250D%250A%2520%2520%2520%2520FILTER%2528%253Fo%2520IN%2520%2528lily%253ALily%252C%2520lily%253ACharm%252C%2520lily%253ALegion%252C%2520lily%253APlay%252C%2520lily%253AMusic%2529%2529%250D%250A%2520%2520%257D%2520GROUP%2520BY%2520%253Fo%250D%250A%257D)
 ![triples](https://img.shields.io/badge/dynamic/json?color=blue&label=%E7%B7%8F%E9%A0%85%E7%9B%AE%E6%95%B0&query=%24.results.bindings%5B%3A1%5D.c.value&url=https%3A%2F%2Flily.fvhp.net%2Fsparql%2Fquery%3Fformat%3Djson%26query%3DSELECT%28COUNT%28%253Fo%29as%253Fc%29WHERE%257B%255B%255D%2520%253Fp%2520%253Fo.%257D)
 
 ![GitHub last commit (branch)](https://img.shields.io/badge/dynamic/json?color=orange&label=最終更新%20%28SPARQL%29&query=%24.last_update&url=https%3A%2F%2Flily.fvhp.net%2Fsparql%2Flast-update)
 
-An unofficial RDF of Assault Lily
+An unofficial RDF database of Assault Lily
 
 アサルトリリィ非公式データベース
 
