@@ -4510,7 +4510,9 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "小雨"@ja ;
+    lily:favorite
+        "小雨"@ja,
+        "蟹"@ja ;
     # lily:notGood ""@ja ;
     lily:hobby_talent "将棋"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
