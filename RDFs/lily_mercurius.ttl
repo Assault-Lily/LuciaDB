@@ -446,7 +446,7 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     schema:birthPlace "イタリア"@ja, "Italy"@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite "お菓子 (特にかりんとう)"@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
