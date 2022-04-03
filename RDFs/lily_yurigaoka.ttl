@@ -7377,14 +7377,14 @@
 
 <Yasui_Ryo>
     rdfs:label "安井諒"^^xsd:string ;
-    schema:familyName "安井"@ja ; #, ""@en ;
-    # lily:familyNameKana ""@ja ;
+    schema:familyName "安井"@ja, "Yasui"@en ;
+    lily:familyNameKana "やすい"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "諒"@ja ; #, ""@en ;
-    # lily:givenNameKana ""@ja ;
-    schema:name "安井諒"@ja ; #, ""@en ;
-    # lily:nameKana ""@ja ;
+    schema:givenName "諒"@ja, "Ryo"@en ;
+    lily:givenNameKana "りょう"@ja ;
+    schema:name "安井諒"@ja, "Yasui Ryo"@en ;
+    lily:nameKana "やすいりょう"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
