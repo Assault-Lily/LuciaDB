@@ -2868,7 +2868,9 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "小豆の甘納豆"@ja ;
+    lily:favorite
+        "小豆の甘納豆"@ja,
+        "たこ焼き"@ja ;
     lily:notGood "ホラー"@ja ;
     lily:hobby_talent "書道"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
