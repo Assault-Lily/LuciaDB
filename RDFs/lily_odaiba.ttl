@@ -2278,10 +2278,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #     lily:resource <> ;
-    #     lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Fukushima_Ritsu> ;
+        lily:additionalInformation "一緒にレギオン結成を目指している"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
@@ -2340,10 +2340,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #     lily:resource <> ;
-    #     lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Kifuji_Suzu> ;
+        lily:additionalInformation "一緒にレギオン結成を目指している"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
