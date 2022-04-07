@@ -19,7 +19,7 @@
     foaf:age "15"^^xsd:integer ;
     schema:height "165.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--12-05"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
@@ -59,7 +59,7 @@
     lily:relationship [
         lily:resource <Kuki_Nuyuna> ;
         lily:additionalInformation
-            "友人"@ja,
+            "幼馴染"@ja,
             "溺愛している"@ja ;
     ] ;
     # lily:cast [
@@ -123,7 +123,7 @@
     lily:relationship [
         lily:resource <Iwashita_Kiriko> ;
         lily:additionalInformation
-            "友人"@ja,
+            "幼馴染"@ja,
             "溺愛されている"@ja ;
     ], [
         lily:resource <Ishikawa_Aoi> ;

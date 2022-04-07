@@ -110,7 +110,8 @@
         <Diana_Koolhaas>,
         <Arima_Mitsune>,
         <Ashihara_Konomi>,
-        <Kikuchi_Sayuri> ;
+        <Kikuchi_Sayuri>,
+        <Hirabayashi_Natose> ;
     lily:submember
         <Tamura_Nagi> ;
     a lily:Legion ;
@@ -152,7 +153,8 @@
         <Hasebe_Touka>,
         <Murakami_Tokiwa> ;
     lily:submember
-        <Tetsukawa_Toa> ;
+        <Tetsukawa_Toa>,
+        <Imai_Seira> ;
     a lily:Legion ;
 .
 

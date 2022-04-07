@@ -258,8 +258,10 @@
     # lily:requiredSkillerVal ""^^xsd:integer ;
     schema:manufacturer <Yggdrasill> ;
     lily:user <Rokkaku_Shiori> ;
-    lily:hasVariant <Tyrfing_type_T> ;
-    lily:hasVariant <Tyrfing_type_R> ;
+    lily:hasVariant
+        <Tyrfing_type_T>,
+        <Tyrfing_type_R>,
+        <Tyrfing_Custom> ;
     a lily:Charm ;
 .
 
@@ -280,7 +282,9 @@
         <Asanaga_Ichigo>,
         <Ushida_Watsuki> ;
     lily:isVariantOf <Tyrfing_Prototype> ;
-    schema:isSimilarTo <Tyrfing_type_R> ;
+    schema:isSimilarTo
+        <Tyrfing_type_R>,
+        <Tyrfing_Custom> ;
     a lily:Charm ;
 .
 
@@ -296,10 +300,27 @@
         <Yokoyama_Azusa>,
         <Masukawa_Uta>,
         <Hirose_Minato>,
-        <Sumitani_Miki>,
         <Gozen> ;
     lily:isVariantOf <Tyrfing_Prototype> ;
-    schema:isSimilarTo <Tyrfing_type_T> ;
+    schema:isSimilarTo
+        <Tyrfing_type_T>,
+        <Tyrfing_Custom> ;
+    a lily:Charm ;
+.
+
+<Tyrfing_Custom>
+    schema:productID "AC-17"^^xsd:string ;
+    lily:seriesName "ティルフィング"@ja, "Tyrfing"@en ;
+    schema:name "ティルフィング改"@ja, "Tyrfing Custom"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Sumitani_Miki> ;
+    lily:isVariantOf <Tyrfing_Prototype> ;
+    schema:isSimilarTo
+        <Tyrfing_type_T>,
+        <Tyrfing_type_R> ;
+    lily:additionalInformation "寒冷地仕様"@ja ;
     a lily:Charm ;
 .
 
@@ -1146,5 +1167,41 @@
     schema:manufacturer <Camelot_Castle> ;
     lily:user <Takehisa_Nakaba> ;
     # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Collbrande>
+    schema:productID "GC-20"^^xsd:string ;
+    lily:seriesName "コルブランド"@ja, "Collbrande"@en ;
+    schema:name "コルブランド"@ja, "Collbrande"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Camelot_Castle> ;
+    # lily:user <> ;
+    lily:additionalInformation "「CHARMエクスカリバー兵装群」プロジェクトによる開発"@ja ;
+    a lily:Charm ;
+.
+
+<Caliburn>
+    schema:productID "GC-21"^^xsd:string ;
+    lily:seriesName "キャリバーン"@ja, "Caliburn"@en ;
+    schema:name "キャリバーン"@ja, "Caliburn"@en ;
+    lily:generation "3"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Camelot_Castle> ;
+    # lily:user <> ;
+    lily:additionalInformation "「CHARMエクスカリバー兵装群」プロジェクトによる開発"@ja ;
+    a lily:Charm ;
+.
+
+<Gjallarhorn>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ギャラルホルン"@ja, "Gjallarhorn"@en ;
+    schema:name "ギャラルホルン"@ja, "Gjallarhorn"@en ;
+    lily:generation "4"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    # lily:user <> ;
+    lily:additionalInformation "テスト機"@ja ;
     a lily:Charm ;
 .
