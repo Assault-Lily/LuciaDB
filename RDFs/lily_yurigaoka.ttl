@@ -2346,7 +2346,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q17160610>,
             <http://ja.dbpedia.org/resource/高橋李依> ;
-        lily:performIn <Assault_Lily_Bouquet> ;
+        lily:performIn
+            <Assault_Lily_Bouquet>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
