@@ -130,7 +130,8 @@
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
             <Lost_Memories>,
-            <Assault_Lily_Last_Bullet> ;
+            <Assault_Lily_Last_Bullet>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "石井陽菜"@ja ;
@@ -540,7 +541,8 @@
             <The_Fateful_Gift>,
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
-            <Assault_Lily_Last_Bullet> ;
+            <Assault_Lily_Last_Bullet>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -697,7 +699,8 @@
             <Yakusoku_No_Yukue>,
             <Shinjitsu_No_Yaiba>,
             <Schwester_No_Inori_2021>,
-            <Schwester_No_Himitsu_2021> ;
+            <Schwester_No_Himitsu_2021>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -794,7 +797,8 @@
             <Yakusoku_No_Yukue>,
             <Shinjitsu_No_Yaiba>,
             <Schwester_No_Inori_2021>,
-            <Schwester_No_Himitsu_2021> ;
+            <Schwester_No_Himitsu_2021>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -965,7 +969,8 @@
         lily:performIn
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
-            <Assault_Lily_Last_Bullet> ;
+            <Assault_Lily_Last_Bullet>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1161,7 +1166,8 @@
         lily:resource <https://www.wikidata.org/wiki/Q98757922> ;
         lily:performIn
             <Schwester_No_Inori_2021>,
-            <Schwester_No_Himitsu_2021> ;
+            <Schwester_No_Himitsu_2021>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1380,7 +1386,8 @@
         # lily:resource <> ;
         lily:performIn
             <Schwester_No_Inori_2021>,
-            <Schwester_No_Himitsu_2021> ;
+            <Schwester_No_Himitsu_2021>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1574,7 +1581,8 @@
         lily:resource <https://www.wikidata.org/wiki/Q105704315> ;
         lily:performIn
             <Schwester_No_Inori_2021>,
-            <Schwester_No_Himitsu_2021> ;
+            <Schwester_No_Himitsu_2021>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
