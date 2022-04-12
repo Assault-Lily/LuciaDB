@@ -1652,7 +1652,7 @@
     schema:location "サンシャイン劇場"^^xsd:string ;
     schema:startDate "2022-01-20"^^xsd:date ;
     schema:endDate "2022-01-30"^^xsd:date ;
-    # schema:duration ""^^xsd:duration ;
+    schema:duration "PT2H"^^xsd:duration ;
     lily:showTime
         "2022-01-20T18:30:00+09:00"^^xsd:dateTime,
         "2022-01-21T13:30:00+09:00"^^xsd:dateTime,
@@ -1845,7 +1845,7 @@
     schema:location "紀伊國屋サザンシアター TAKASHIMAYA"^^xsd:string ;
     schema:startDate "2022-02-17"^^xsd:date ;
     schema:endDate "2022-02-28"^^xsd:date ;
-    # schema:duration ""^^xsd:duration ;
+    schema:duration "PT2H"^^xsd:duration ;
     lily:showTime
         "2022-02-17T19:00:00+09:00"^^xsd:dateTime,
         "2022-02-18T19:00:00+09:00"^^xsd:dateTime,
