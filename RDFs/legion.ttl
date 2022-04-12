@@ -463,7 +463,7 @@
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded false ;
     lily:legionGrade "SS"^^xsd:string ;
-    # lily:numberOfMembers ""^^xsd:integer ;
+    lily:numberOfMembers "18"^^xsd:integer ;
     schema:member
         <Hirose_Minato>,
         <Soga_Suzuna>,

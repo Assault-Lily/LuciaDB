@@ -1652,7 +1652,7 @@
     schema:location "サンシャイン劇場"^^xsd:string ;
     schema:startDate "2022-01-20"^^xsd:date ;
     schema:endDate "2022-01-30"^^xsd:date ;
-    # schema:duration ""^^xsd:duration ;
+    schema:duration "PT2H"^^xsd:duration ;
     lily:showTime
         "2022-01-20T18:30:00+09:00"^^xsd:dateTime,
         "2022-01-21T13:30:00+09:00"^^xsd:dateTime,
@@ -1845,7 +1845,7 @@
     schema:location "紀伊國屋サザンシアター TAKASHIMAYA"^^xsd:string ;
     schema:startDate "2022-02-17"^^xsd:date ;
     schema:endDate "2022-02-28"^^xsd:date ;
-    # schema:duration ""^^xsd:duration ;
+    schema:duration "PT2H"^^xsd:duration ;
     lily:showTime
         "2022-02-17T19:00:00+09:00"^^xsd:dateTime,
         "2022-02-18T19:00:00+09:00"^^xsd:dateTime,
@@ -2017,6 +2017,243 @@
             <http://ja.dbpedia.org/resource/石原美沙紀> ;
         lily:performAs <Inaba_Mayumi> ;
         # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Play ;
+.
+
+<Lily_Collection_2022>
+    lily:genre "ライブショー"@ja ;
+    schema:name "アサルトリリィ「リリィコレクション2022 御台場女学校 with 私立ルドビコ女学院」"@ja ;
+    schema:alternateName "リリコレ"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:location "シアターサンモール"^^xsd:string ;
+    schema:startDate "2022-04-07"^^xsd:date ;
+    schema:endDate "2022-04-17"^^xsd:date ;
+    # schema:duration ""^^xsd:duration ;
+    lily:showTime
+        "2022-04-07T19:00:00+09:00"^^xsd:dateTime,
+        "2022-04-08T19:00:00+09:00"^^xsd:dateTime,
+        "2022-04-09T13:00:00+09:00"^^xsd:dateTime,
+        "2022-04-09T18:00:00+09:00"^^xsd:dateTime,
+        "2022-04-10T13:00:00+09:00"^^xsd:dateTime,
+        "2022-04-10T18:00:00+09:00"^^xsd:dateTime,
+        "2022-04-12T19:00:00+09:00"^^xsd:dateTime,
+        "2022-04-13T19:00:00+09:00"^^xsd:dateTime,
+        "2022-04-14T13:00:00+09:00"^^xsd:dateTime,
+        "2022-04-14T19:00:00+09:00"^^xsd:dateTime,
+        "2022-04-15T13:00:00+09:00"^^xsd:dateTime,
+        "2022-04-15T19:00:00+09:00"^^xsd:dateTime,
+        "2022-04-16T13:00:00+09:00"^^xsd:dateTime,
+        "2022-04-16T18:00:00+09:00"^^xsd:dateTime,
+        "2022-04-17T12:00:00+09:00"^^xsd:dateTime,
+        "2022-04-17T16:00:00+09:00"^^xsd:dateTime ;
+    lily:cancelledShowTime
+        "2022-04-07T19:00:00+09:00"^^xsd:dateTime,
+        "2022-04-08T19:00:00+09:00"^^xsd:dateTime,
+        "2022-04-09T13:00:00+09:00"^^xsd:dateTime,
+        "2022-04-09T18:00:00+09:00"^^xsd:dateTime,
+        "2022-04-10T13:00:00+09:00"^^xsd:dateTime,
+        "2022-04-10T18:00:00+09:00"^^xsd:dateTime,
+        "2022-04-12T19:00:00+09:00"^^xsd:dateTime,
+        "2022-04-13T19:00:00+09:00"^^xsd:dateTime,
+        "2022-04-14T13:00:00+09:00"^^xsd:dateTime,
+        "2022-04-14T19:00:00+09:00"^^xsd:dateTime,
+        "2022-04-15T13:00:00+09:00"^^xsd:dateTime,
+        "2022-04-15T19:00:00+09:00"^^xsd:dateTime,
+        "2022-04-16T13:00:00+09:00"^^xsd:dateTime,
+        "2022-04-16T18:00:00+09:00"^^xsd:dateTime,
+        "2022-04-17T12:00:00+09:00"^^xsd:dateTime,
+        "2022-04-17T16:00:00+09:00"^^xsd:dateTime ;
+    lily:additionalInformation
+        "川村楪役のあわつまいさんの新型コロナウイルス検査陽性が確認されたため、4月7日・8日公演を中止。9日以降の公演の演出を一部変更。(4月5日19時発表)"@ja,
+        "司馬燈役の野元空さん、鈴木因役の白石まゆみさん、佐伯・ジュリア・花蓮役の小菅怜衣さん、宝城・モニカ・朝妃役の山﨑悠稀さん、計4名の新型コロナウイルス検査陽性が確認されたため、全公演降板。演出変更のため13日以降の公演に沖あすかさん（永瀬・マルタ・のの花役）、藤堂光結さん（宝城・モニカ・朝妃役）が出演。(4月8日20時発表)"@ja,
+        "松永・ブリジッタ・佳世役の大滝紗緒里さん、鳴海・クララ・優子役の一本鎗希華さん、計2名の新型コロナウイルス検査陽性が確認されたため、公演準備が整わないと判断し全公演を中止。(4月10日13時発表)"@ja ;
+    # schema:abstract ""@ja ;
+    lily:originalAuthor "尾花沢軒栄"@ja ;
+    # lily:supervisor ""@ja ;
+    # lily:executiveProducer ""@ja ;
+    lily:producer
+        "早園正"@ja,
+        "林修司"@ja ;
+    lily:scenarioWriter "桜木さやか"@ja ;
+    lily:episodeDirection
+        "桜木さやか"@ja,
+        "佐野瑞樹"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:planning "ピウス"@ja ;
+    lily:production "ピウス"@ja ;
+    # lily:contributor ""@ja ;
+    # lily:cooperation ""@ja ;
+    lily:organizer
+        "ピウス"@ja,
+        "アゾンインターナショナル"@ja ;
+    lily:cast [
+        schema:name "石井陽菜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q18817351>,
+            <http://ja.dbpedia.org/resource/石井陽菜> ;
+        lily:performAs <Funada_Kiito> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "甲斐千尋"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q59134848>,
+            <http://ja.dbpedia.org/resource/甲斐千尋> ;
+        lily:performAs <Funada_Ui> ;
+        lily:additionalInformation "出演期間: 4月7日(木)～4月10日(日)"@ja ;
+    ], [
+        schema:name "西葉瑞希"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q98734254>,
+            <http://ja.dbpedia.org/resource/西葉瑞希> ;
+        lily:performAs <Funada_Ui> ;
+        lily:additionalInformation "出演期間: 4月12日(火)～4月17日(日)"@ja ;
+    ], [
+        schema:name "野元空"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q18999130>,
+            <http://ja.dbpedia.org/resource/野元空> ;
+        lily:performAs <Shiba_Tomoshibi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "長谷川里桃"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q38279051> ;
+        lily:performAs <Nagasawa_Yuki> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "吉宮瑠織"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Igusa_Subaru> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "春咲暖"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q35172355> ;
+        lily:performAs <Fujita_Asagao> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "広沢麻衣"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q34856960> ;
+        lily:performAs <Kawabata_Hotaru> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "柴田茉莉"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Imamura_Yukari> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "有沢澪風"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q30933448> ;
+        lily:performAs <Kozue_West> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "矢野妃菜喜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q56253675>,
+            <http://ja.dbpedia.org/resource/矢野妃菜喜> ;
+        lily:performAs <Tsukioka_Momiji> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "あわつまい"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q35567820> ;
+        lily:performAs <Kawamura_Yuzuriha> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "林田真尋"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q19162226>,
+            <http://ja.dbpedia.org/resource/林田真尋> ;
+        lily:performAs <Hishida_Haru> ;
+        lily:additionalInformation "出演期間: 4月7日(木), 4月14日(木)"@ja ;
+    ], [
+        schema:name "矢新愛梨"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q111113483> ;
+        lily:performAs <Hishida_Haru> ;
+        lily:additionalInformation "出演期間: 4月8日(金)～4月13日(水), 4月15日(金)～4月17日(日)"@ja ;
+    ], [
+        schema:name "北澤早紀"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q28418874>,
+            <http://ja.dbpedia.org/resource/北澤早紀> ;
+        lily:performAs <Otake_Sunao> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "星希成奏"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q35172322>,
+            <http://ja.dbpedia.org/resource/星希成奏> ;
+        lily:performAs <Saigo_Kurena> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "今村美歩"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q30936947>,
+            <http://ja.dbpedia.org/resource/今村美歩> ;
+        lily:performAs <Maruyama_Amane> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "栞菜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q1193372>,
+            <http://ja.dbpedia.org/resource/栞菜> ;
+        lily:performAs <Hayami_Katsura> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "白石まゆみ"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Suzuki_Chinami> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "山本栞"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Takehisa_Nakaba> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "中村裕香里"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q60613344> ;
+        lily:performAs <Fukuyama_Jeanne_Sachie> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "七海とろろ"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Seto_Veronica_Ichika> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "梅原サエリ"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q74146771> ;
+        lily:performAs <Kuroki_Francisca_Yuria> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "大滝紗緒里"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q60989916> ;
+        lily:performAs <Matsunaga_Brigitta_Kayo> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "小菅怜衣"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Saeki_Julia_Karen> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "一本鎗希華"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q98757922> ;
+        lily:performAs <Narumi_Clara_Yuko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "山﨑悠稀"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Hojo_Monica_Asahi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "遠藤三貴"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q55177725>,
+            <http://ja.dbpedia.org/resource/遠藤三貴> ;
+        lily:performAs <Kosaka_Anastasiya_Ryoko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "清水凜"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q105704315> ;
+        lily:performAs <Sano_Matilda_Kokoro> ;
+        lily:additionalInformation "声の出演"@ja ;
     ] ;
     a lily:Play ;
 .
