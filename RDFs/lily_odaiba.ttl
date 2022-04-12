@@ -105,7 +105,8 @@
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Lost_Memories>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Assault_Lily_Last_Bullet> ;
+            <Assault_Lily_Last_Bullet>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -203,7 +204,15 @@
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Lost_Memories>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Assault_Lily_Last_Bullet> ;
+            <Assault_Lily_Last_Bullet>,
+            <Lily_Collection_2022> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "甲斐千尋"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q59134848>,
+            <http://ja.dbpedia.org/resource/甲斐千尋> ;
+        lily:performIn <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -300,7 +309,8 @@
             <http://ja.dbpedia.org/resource/野元空> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -378,7 +388,8 @@
         lily:resource <https://www.wikidata.org/wiki/Q34856960> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -476,7 +487,8 @@
         lily:resource <https://www.wikidata.org/wiki/Q30933448> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -560,7 +572,9 @@
     ], [
         schema:name "吉宮瑠織"@ja ;
         # lily:resource <> ;
-        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -653,7 +667,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Assault_Lily_Last_Bullet> ;
+            <Assault_Lily_Last_Bullet>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -748,7 +763,9 @@
     ], [
         schema:name "柴田茉莉"@ja ;
         # lily:resource <> ;
-        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -846,7 +863,8 @@
         lily:resource <https://www.wikidata.org/wiki/Q38279051> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -946,7 +964,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q1193372>,
             <http://ja.dbpedia.org/resource/栞菜> ;
-        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1037,7 +1057,9 @@
     lily:cast [
         schema:name "河内美里"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q65272225> ;
-        lily:performIn <Assault_Lily_Odaiba_The_Singular_Ability> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Singular_Ability>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1123,7 +1145,9 @@
     lily:cast [
         schema:name "山本栞"@ja ;
         # lily:resource <> ;
-        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1197,7 +1221,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q35172322>,
             <http://ja.dbpedia.org/resource/星希成奏> ;
-        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1317,7 +1343,8 @@
             <The_Fateful_Gift>,
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Assault_Lily_Last_Bullet> ;
+            <Assault_Lily_Last_Bullet>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1403,7 +1430,8 @@
         # lily:resource <> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1594,7 +1622,13 @@
             <http://ja.dbpedia.org/resource/林田真尋> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Lily_Collection_2022> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "矢新愛梨"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q111113483> ;
+        lily:performIn <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1701,7 +1735,8 @@
             <http://ja.dbpedia.org/resource/矢野妃菜喜> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Assault_Lily_Last_Bullet> ;
+            <Assault_Lily_Last_Bullet>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1783,7 +1818,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q28418874>,
             <http://ja.dbpedia.org/resource/北澤早紀> ;
-        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1868,7 +1905,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q30936947>,
             <http://ja.dbpedia.org/resource/今村美歩> ;
-        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

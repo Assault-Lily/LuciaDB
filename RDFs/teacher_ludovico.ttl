@@ -191,7 +191,8 @@
             <http://ja.dbpedia.org/resource/遠藤三貴> ;
         lily:performIn
             <Schwester_No_Inori_2021>,
-            <Schwester_No_Himitsu_2021> ;
+            <Schwester_No_Himitsu_2021>,
+            <Lily_Collection_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Teacher ;
