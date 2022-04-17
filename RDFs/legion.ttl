@@ -337,6 +337,7 @@
     # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Matsumura_Fuka>,
+        <Makino_Mitake>,
         <Kagawa_Makina> ;
     a lily:Legion ;
 .
