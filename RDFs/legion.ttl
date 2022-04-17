@@ -336,7 +336,8 @@
     # lily:legionGrade ""^^xsd:string ;
     # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
-        <Matsumura_Fuka> ;
+        <Matsumura_Fuka>,
+        <Kagawa_Makina> ;
     a lily:Legion ;
 .
 
