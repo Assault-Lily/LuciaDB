@@ -336,6 +336,9 @@
     ], [
         lily:resource <Lemie_Alessandrini> ;
         lily:additionalInformation "甘やかして依存される"@ja ;
+    ], [
+        lily:resource <Altea_Alessandrini> ;
+        lily:additionalInformation "可愛がってくれる先輩"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -550,6 +553,9 @@
     ], [
         lily:resource <Shirai_Yuyu> ;
         lily:additionalInformation "ライバル"@ja ;
+    ], [
+        lily:resource <Louloudis_Bromstedt> ;
+        lily:additionalInformation "可愛がっている後輩"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
