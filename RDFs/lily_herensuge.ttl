@@ -473,13 +473,13 @@
 <Makino_Mitake>
     rdfs:label "牧野美岳"^^xsd:string ;
     schema:familyName "牧野"@ja, "Makino"@en ;
-    lily:familyNameKana "かがわ"@ja ;
+    lily:familyNameKana "まきの"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
     schema:givenName "美岳"@ja, "Mitake"@en ;
-    lily:givenNameKana "まきな"@ja ;
+    lily:givenNameKana "みたけ"@ja ;
     schema:name "牧野美岳"@ja, "Makino Mitake"@en ;
-    lily:nameKana "かがわまきな"@ja ;
+    lily:nameKana "まきのみたけ"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
