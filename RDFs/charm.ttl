@@ -1205,3 +1205,15 @@
     lily:additionalInformation "テスト機"@ja ;
     a lily:Charm ;
 .
+
+<Sohaya_No_Tsurugi>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ソハヤノツルギ"@ja, "Sohaya No Tsurugi"@en ;
+    schema:name "ソハヤノツルギ"@ja, "Sohaya No Tsurugi"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Amatsu_Heavy_Industry> ;
+    lily:user <Kondo_Misaka> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
