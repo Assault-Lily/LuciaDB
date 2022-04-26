@@ -228,7 +228,8 @@
     schema:member
         <Yamazaki_Meika>,
         <Yanagisawa_Ayako>,
-        <Arakawa_Hitomi> ;
+        <Arakawa_Hitomi>,
+        <Oniki_Kanatsuki> ;
     a lily:Legion ;
 .
 
