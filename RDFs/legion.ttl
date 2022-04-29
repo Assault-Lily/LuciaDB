@@ -339,7 +339,8 @@
     schema:member
         <Matsumura_Fuka>,
         <Makino_Mitake>,
-        <Kagawa_Makina> ;
+        <Kagawa_Makina>,
+        <Morimoto_Yuni> ;
     a lily:Legion ;
 .
 
