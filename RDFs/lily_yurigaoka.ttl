@@ -3403,7 +3403,7 @@
     # lily:pastSchutzengel <> ;
     lily:schild <Kurokawa_Nady_Hanna> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Hasebe_Touka> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -3834,7 +3834,7 @@
     # lily:pastSchutzengel <> ;
     lily:schild <Luise_Ingels> ;
     # lily:pastSchild <> ;
-    lily:roomMate <Takegoshi_Chihana> ;
+    lily:roomMate <Kondo_Misaka> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -4616,7 +4616,7 @@
     # lily:pastSchutzengel <> ;
     lily:schild <Tachihara_Sayu> ;
     # lily:pastSchild <> ;
-    lily:roomMate <Hasebe_Touka> ;
+    # lily:roomMate <> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
