@@ -1,3 +1,24 @@
+RDFs/lily_mercurius.ttl:
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '635'
+    column: '32'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Lelia_Inghelbrecht
+    predicate: http://schema.org/givenName
+    object: '"Lélia"@en'
+    message: 'Data LanguageType not matched: lang is en, but Lélia (line: 635, col:
+        32, triple: https://lily.fvhp.net/rdf/RDFs/detail/Lelia_Inghelbrecht - http://schema.org/givenName
+        - "Lélia"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '637'
+    column: '37'
+    subject: https://lily.fvhp.net/rdf/RDFs/detail/Lelia_Inghelbrecht
+    predicate: http://schema.org/name
+    object: '"Lélia Inghelbrecht"@en'
+    message: 'Data LanguageType not matched: lang is en, but Lélia Inghelbrecht (line:
+        637, col: 37, triple: https://lily.fvhp.net/rdf/RDFs/detail/Lelia_Inghelbrecht
+        - http://schema.org/name - "Lélia Inghelbrecht"@en)'
 RDFs/lily_heimskringla.ttl:
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO

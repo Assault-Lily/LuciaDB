@@ -626,6 +626,132 @@
     a lily:Lily ;
 .
 
+<Lelia_Inghelbrecht>
+    rdfs:label "レリア・アンゲルブレシュト"^^xsd:string ;
+    schema:familyName "アンゲルブレシュト"@ja, "Inghelbrecht"@en ;
+    lily:familyNameKana "あんげるぶれしゅと"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "レリア"@ja, "Lélia"@en ;
+    lily:givenNameKana "れりあ"@ja ;
+    schema:name "レリア・アンゲルブレシュト"@ja, "Lélia Inghelbrecht"@en ;
+    lily:nameKana "れりあ・あんげるぶれしゅと"@ja ;
+    # lily:anotherName ""@ja ;
+    foaf:age "15"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "聖メルクリウスインターナショナルスクール"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    lily:grade "10"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Gabriel> ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
+    lily:position "AZ"^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    schema:sibling [
+        lily:resource <Mirabelle_Inghelbrecht> ;
+        lily:additionalInformation "実姉"@ja ;
+    ] ;
+    # lily:relationship [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
+
+<Mirabelle_Inghelbrecht>
+    rdfs:label "ミラベル・アンゲルブレシュト"^^xsd:string ;
+    schema:familyName "アンゲルブレシュト"@ja, "Inghelbrecht"@en ;
+    lily:familyNameKana "あんげるぶれしゅと"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "ミラベル"@ja, "Mirabelle"@en ;
+    lily:givenNameKana "みらべる"@ja ;
+    schema:name "ミラベル・アンゲルブレシュト"@ja, "Mirabelle Inghelbrecht"@en ;
+    lily:nameKana "みらべる・あんげるぶれしゅと"@ja ;
+    # lily:anotherName ""@ja ;
+    foaf:age "16"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "聖メルクリウスインターナショナルスクール"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    lily:grade "11"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Gabriel> ;
+    lily:legionJobTitle
+        "副隊長"^^xsd:string,
+        "司令塔"^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    schema:sibling [
+        lily:resource <Lelia_Inghelbrecht> ;
+        lily:additionalInformation "実妹"@ja ;
+    ] ;
+    # lily:relationship [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
+
 <Beatrice_Berlioz>
     rdfs:label "ベアトリス・ベルリオーズ"^^xsd:string ;
     schema:familyName "ベルリオーズ"@ja, "Berlioz"@en ;
