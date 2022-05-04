@@ -4107,7 +4107,7 @@
     # lily:pastSchutzengel <> ;
     lily:schild <Sejima_Hiromu> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Takegoshi_Chihana> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -4616,7 +4616,7 @@
     # lily:pastSchutzengel <> ;
     lily:schild <Tachihara_Sayu> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Aoki_Kaho> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
