@@ -1003,7 +1003,7 @@
         "走ること"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ファンタズム"^^xsd:string ;
-    # lily:subSkill ""^^xsd:string ;
+    lily:subSkill "インビジブルワン"^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
