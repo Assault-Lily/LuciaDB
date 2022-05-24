@@ -607,7 +607,7 @@
     schema:name "森本結爾"@ja, "Morimoto Yuni"@en ;
     lily:nameKana "もりもとゆに"@ja ;
     lily:anotherName "七頭龍幻想の担い手"@ja ;
-    # foaf:age ""^^xsd:integer ;
+    foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
@@ -633,7 +633,7 @@
     lily:garden "エレンスゲ女学園"^^xsd:string ;
     # lily:rank ""^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
-    # lily:grade ""^^xsd:integer ;
+    lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Cuelebre> ;
