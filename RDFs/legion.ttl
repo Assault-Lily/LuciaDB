@@ -661,7 +661,6 @@
         <Nishikawa_Miharu>,
         <Tejima_Komachi>,
         <Hibino_Waku>,
-        <Ueda_Imari>,
         <Miyamoto_Komuku>,
         <Kusakabe_Rengetsu>,
         <Kusakabe_Murasame>,
@@ -669,6 +668,8 @@
         <Hidai_Miyazu>,
         <Iwaya_Kokori>,
         <Nakabayashi_Mina> ;
+    lily:submember
+        <Ueda_Imari> ;
     schema:alumni
         <Ichinomiya_Michaela_Himari> ;
     a lily:Legion ;
