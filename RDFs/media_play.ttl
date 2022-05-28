@@ -2262,7 +2262,7 @@
 <Yakusoku_No_Yukue_2022>
     lily:genre "舞台"@ja ;
     schema:name "アサルトリリィ×私立ルドビコ女学院vol.8 『白きレジスタンス〜約束の行方〜 2022』"@ja ;
-    schema:alternateName "約束の行方 2022"@ja ;
+    schema:alternateName "白きレジスタンス〜約束の行方〜 2022"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:location "こくみん共済 coop ホール／スペース・ゼロ"^^xsd:string ;
     schema:startDate "2022-06-30"^^xsd:date ;
