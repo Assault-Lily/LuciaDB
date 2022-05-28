@@ -346,7 +346,8 @@
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
             <Lost_Memories>,
-            <Assault_Lily_Last_Bullet> ;
+            <Assault_Lily_Last_Bullet>,
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -439,7 +440,8 @@
             <Shinjitsu_No_Yaiba>,
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
-            <Assault_Lily_Last_Bullet> ;
+            <Assault_Lily_Last_Bullet>,
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -542,7 +544,8 @@
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
             <Assault_Lily_Last_Bullet>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -618,6 +621,11 @@
         schema:name "はぎのりな"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q30927435> ;
         lily:performIn <Shinjitsu_No_Yaiba> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "白城もえの"@ja ;
+        # lily:resource <>;
+        lily:performIn <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -700,7 +708,8 @@
             <Shinjitsu_No_Yaiba>,
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -798,7 +807,8 @@
             <Shinjitsu_No_Yaiba>,
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -871,6 +881,14 @@
         lily:performIn
             <Yakusoku_No_Yukue>,
             <Shinjitsu_No_Yaiba> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "甲斐千尋"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q59134848>,
+            <http://ja.dbpedia.org/resource/甲斐千尋> ;
+        lily:performIn
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -970,7 +988,8 @@
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
             <Assault_Lily_Last_Bullet>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1059,7 +1078,8 @@
         # lily:resource <> ;
         lily:performIn
             <Schwester_No_Inori_2021>,
-            <Schwester_No_Himitsu_2021> ;
+            <Schwester_No_Himitsu_2021>,
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1167,7 +1187,8 @@
         lily:performIn
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1281,7 +1302,8 @@
             <Yakusoku_No_Yukue>,
             <Shinjitsu_No_Yaiba>,
             <Schwester_No_Inori_2021>,
-            <Schwester_No_Himitsu_2021> ;
+            <Schwester_No_Himitsu_2021>,
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "花奈澪"@ja ;
@@ -1387,7 +1409,8 @@
         lily:performIn
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1490,7 +1513,8 @@
             <http://ja.dbpedia.org/resource/石井陽菜> ;
         lily:performIn
             <Schwester_No_Inori_2021>,
-            <Schwester_No_Himitsu_2021> ;
+            <Schwester_No_Himitsu_2021>,
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1582,7 +1606,8 @@
         lily:performIn
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1674,7 +1699,8 @@
         # lily:resource <> ;
         lily:performIn
             <Schwester_No_Inori_2021>,
-            <Schwester_No_Himitsu_2021> ;
+            <Schwester_No_Himitsu_2021>,
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1765,7 +1791,8 @@
         lily:resource <https://www.wikidata.org/wiki/Q96715454> ;
         lily:performIn
             <Schwester_No_Inori_2021>,
-            <Schwester_No_Himitsu_2021> ;
+            <Schwester_No_Himitsu_2021>,
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1854,7 +1881,8 @@
             <Yakusoku_No_Yukue>,
             <Shinjitsu_No_Yaiba>,
             <Schwester_No_Inori_2021>,
-            <Schwester_No_Himitsu_2021> ;
+            <Schwester_No_Himitsu_2021>,
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

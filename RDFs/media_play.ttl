@@ -2258,3 +2258,173 @@
     ] ;
     a lily:Play ;
 .
+
+<Yakusoku_No_Yukue_2022>
+    lily:genre "舞台"@ja ;
+    schema:name "アサルトリリィ×私立ルドビコ女学院vol.8 『白きレジスタンス〜約束の行方〜 2022』"@ja ;
+    schema:alternateName "約束の行方 2022"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:location "こくみん共済 coop ホール／スペース・ゼロ"^^xsd:string ;
+    schema:startDate "2022-06-30"^^xsd:date ;
+    schema:endDate "2022-07-06"^^xsd:date ;
+    schema:duration "PT2H30M"^^xsd:duration ;
+    lily:showTime
+        "2022-06-30T18:30:00+09:00"^^xsd:dateTime,
+        "2022-07-01T18:30:00+09:00"^^xsd:dateTime,
+        "2022-07-02T13:00:00+09:00"^^xsd:dateTime,
+        "2022-07-02T18:30:00+09:00"^^xsd:dateTime,
+        "2022-07-03T13:00:00+09:00"^^xsd:dateTime,
+        "2022-07-03T18:30:00+09:00"^^xsd:dateTime,
+        "2022-07-04T18:30:00+09:00"^^xsd:dateTime,
+        "2022-07-04T18:30:00+09:00"^^xsd:dateTime,
+        "2022-07-05T15:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
+    lily:additionalInformation "全公演で本編終了後に約30分のSHOWを開催"@ja ;
+    # schema:abstract ""@ja ;
+    lily:originalAuthor "尾花沢軒栄"@ja ;
+    # lily:supervisor ""@ja ;
+    # lily:executiveProducer ""@ja ;
+    lily:producer "林修司"@ja ;
+    lily:scenarioWriter "桜木さやか"@ja ;
+    lily:episodeDirection
+        "林修司"@ja,
+        "桜木さやか"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:planning "ピウス"@ja ;
+    lily:production "ピウス"@ja ;
+    # lily:contributor ""@ja ;
+    # lily:cooperation ""@ja ;
+    lily:organizer
+        "ピウス"@ja,
+        "acus"@ja,
+        "アゾンインターナショナル"@ja ;
+    lily:cast [
+        schema:name "宮瀬玲奈"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q56556209> ;
+        lily:performAs <Kishimoto_Lucia_Raimu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "星守紗凪"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+        lily:performAs <Amamiya_Sofia_Seren> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "中村裕香里"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q60613344> ;
+        lily:performAs <Fukuyama_Jeanne_Sachie> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "西本りみ"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+        lily:performAs <Ichinomiya_Michaela_Himari> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "大滝紗緒里"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q60989916> ;
+        lily:performAs <Matsunaga_Brigitta_Kayo> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "七海とろろ"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Seto_Veronica_Ichika> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "石井陽菜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q18817351>,
+            <http://ja.dbpedia.org/resource/石井陽菜> ;
+        lily:performAs <Tachibana_Theresia_Nagisa> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "梅原サエリ"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q74146771> ;
+        lily:performAs <Kuroki_Francisca_Yuria> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "清水凜"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q105704315> ;
+        lily:performAs <Sano_Matilda_Kokoro> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "一本鎗希華"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q98757922> ;
+        lily:performAs <Narumi_Clara_Yuko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "岩倉あずさ"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q96715454> ;
+        lily:performAs <Hanaoka_Angela_Moe> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "小菅怜衣"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Saeki_Julia_Karen> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "西田有愛"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Hasegawa_Gabriela_Tsugumi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "沖あすか"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Nagase_Marta_Nonoka> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "山﨑悠稀"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Hojo_Monica_Asahi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "湯田陽花"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Haneda_Catalina_Mei> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "甲斐千尋"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q59134848>,
+            <http://ja.dbpedia.org/resource/甲斐千尋> ;
+        lily:performAs <Takatori_Natalie_Towa> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "白城もえの"@ja ;
+        # lily:resource <>;
+        lily:performAs <Li_Clystina_Sisi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "遠藤三貴"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q55177725>,
+            <http://ja.dbpedia.org/resource/遠藤三貴> ;
+        lily:performAs <Kosaka_Anastasiya_Ryoko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "軽辺るか"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q20039536>,
+            <http://ja.dbpedia.org/resource/軽辺るか> ;
+        lily:performAs <Kaido_Beatrice_Chiharu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "林千浪"@ja ;
+        # lily:resource <>;
+        lily:performAs <Makabe_Melania_Sayoko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "三枝奈都紀"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q22127857>,
+            <http://ja.dbpedia.org/resource/三枝奈都紀> ;
+        lily:performAs <Toride_Suzanne_Reika> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "楠世蓮"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11541155>,
+            <http://ja.dbpedia.org/resource/楠世蓮> ;
+        lily:performAs <Izumi_Rosa_Rina> ;
+        lily:additionalInformation "声の出演"@ja ;
+    ] ;
+    a lily:Play ;
+.
