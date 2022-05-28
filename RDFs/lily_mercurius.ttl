@@ -948,8 +948,8 @@
     lily:givenNameKana "しづき"@ja ;
     schema:name "永野紫月"@ja, "Nagano Shizuki"@en ;
     lily:nameKana "ながのしづき"@ja ;
-    # lily:anotherName ""@ja ;
-    # foaf:age ""^^xsd:integer ;
+    lily:anotherName "メルクリウスの鬼神"@ja ;
+    foaf:age "17"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
@@ -974,7 +974,7 @@
     # ] ;
     lily:garden "聖メルクリウスインターナショナルスクール"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
-    # lily:grade ""^^xsd:integer ;
+    lily:grade "12"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Zerachiel> ;
