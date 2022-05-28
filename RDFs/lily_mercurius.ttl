@@ -63,6 +63,9 @@
         lily:resource <Shinkai_Chikage> ;
         lily:additionalInformation "御台場迎撃戦で才能を引き出す"@ja ;
     ], [
+        lily:resource <Altea_Alessandrini> ;
+        lily:additionalInformation "盟友"@ja ;
+    ], [
         lily:resource <Izue_Shinobu> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
@@ -547,6 +550,9 @@
     lily:relationship [
         lily:resource <Tsukioka_Momiji> ;
         lily:additionalInformation "最高のパートナー"@ja ;
+    ], [
+        lily:resource <Tiuccia_Paumgartner> ;
+        lily:additionalInformation "盟友"@ja ;
     ], [
         lily:resource <Amano_Soraha> ;
         lily:additionalInformation "実力を認め合う仲"@ja ;
