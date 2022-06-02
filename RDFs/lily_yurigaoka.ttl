@@ -6035,7 +6035,7 @@
     lily:class "李組"^^xsd:string ;
     lily:gardenJobTitle "生徒会執行委員"@ja ;
     lily:legion <Eir> ;
-    # lily:legionJobTitle ""^^xsd:string ;
+    lily:legionJobTitle "副司令塔"^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
