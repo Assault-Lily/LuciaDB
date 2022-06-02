@@ -680,7 +680,7 @@
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded false ;
     lily:legionGrade "AAA"^^xsd:string ;
-    # lily:numberOfMembers ""^^xsd:integer ;
+    lily:numberOfMembers "10"^^xsd:integer ;
     schema:member
         <Kamigoori_Marimo>,
         <Ueda_Imari>,
