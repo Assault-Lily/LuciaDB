@@ -8007,7 +8007,7 @@
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    # schema:birthPlace ""@ja, ""@en ;
+    schema:birthPlace "鎌倉府（神奈川県）横浜市青葉区美しが丘"@ja, "Utsukushigaoka, Aoba-ku, Yokohama City, Kamakura (Kanagawa)"@en ;
     lily:favorite "カルピス"@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
