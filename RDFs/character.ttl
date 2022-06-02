@@ -165,9 +165,13 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     schema:birthPlace "山梨県"@ja, "Yamanashi"@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite
+        "ぶどう"@ja,
+        "炭酸飲料"@ja ;
     # lily:notGood ""@ja ;
-    lily:hobby_talent "お手合わせ"@ja ;
+    lily:hobby_talent
+        "お手合わせ"@ja,
+        "動物園に行くこと"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
