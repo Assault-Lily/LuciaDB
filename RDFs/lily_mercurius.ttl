@@ -525,11 +525,11 @@
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
+    lily:charm [
+        lily:resource <Murgleys> ;
     #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+        lily:additionalInformation "ユニーク機体"@ja ;
+    ] ;
     lily:garden "聖メルクリウスインターナショナルスクール"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
