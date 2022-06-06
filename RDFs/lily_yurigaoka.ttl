@@ -5370,6 +5370,7 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "本"@ja,
+        "雨"@ja,
         "ラタトゥイユ"@ja ;
     # lily:notGood ""@ja ;
     lily:hobby_talent "屋根裏暮らし"@ja ;
