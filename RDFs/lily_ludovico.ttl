@@ -1487,6 +1487,7 @@
     # lily:legion <> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position
+        "BZ"^^xsd:string,
         "AZ"^^xsd:string,
         "TZ"^^xsd:string ;
     lily:pastLegion <Temple_Legion> ;
