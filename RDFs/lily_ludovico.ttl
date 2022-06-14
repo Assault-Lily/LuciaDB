@@ -934,10 +934,14 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "わたあめ"@ja,
-        "マジカルリリィ"@ja ;
-    # lily:notGood ""@ja ;
+        "マジカルリリィ(アニメ)"@ja,
+        "漫画"@ja ;
+    lily:notGood
+        "潜入"@ja,
+        "決断"@ja,
+        "大きい音"@ja ;
     lily:hobby_talent
-        "リリィ関連の情報収集"@ja,
+        "リリィ情報収集"@ja,
         "漫画を読むこと"@ja ;
     lily:skillerVal "85"^^xsd:integer ;
     lily:rareSkill "ルナティックトランサー"^^xsd:string ;
