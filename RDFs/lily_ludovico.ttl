@@ -268,7 +268,9 @@
         "ソフトクリーム"@ja,
         "フルーツパフェ"@ja,
         "遊園地"@ja ;
-    # lily:notGood ""@ja ;
+    lily:notGood
+        "ホラー映画"@ja,
+        "お化け屋敷"@ja ;
     lily:hobby_talent
         "ヘアアレンジ"@ja,
         "おしゃべり"@ja ;
