@@ -30,7 +30,9 @@
         "クレープ"@ja,
         "ミュージカル"@ja,
         "カラオケ"@ja ;
-    lily:notGood "細かいこと"@ja ;
+    lily:notGood
+        "裁縫"@ja,
+        "細かい作業"@ja ;
     lily:hobby_talent "音楽鑑賞"@ja ;
     lily:skillerVal "88"^^xsd:integer ;
     lily:rareSkill "円環の御手"^^xsd:string ;
