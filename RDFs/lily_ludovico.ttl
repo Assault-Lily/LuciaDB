@@ -379,10 +379,15 @@
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
+        "お祭り"@ja,
+        "花火"@ja,
+        "プール"@ja,
         "トウモロコシ"@ja,
         "酸っぱいグミ"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:notGood "絵を描くこと"@ja ;
+    lily:hobby_talent
+        "トレーニング"@ja,
+        "陸上競技"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "この世の理"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
