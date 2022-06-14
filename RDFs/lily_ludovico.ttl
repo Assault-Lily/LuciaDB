@@ -361,11 +361,11 @@
     rdfs:label "天宮・ソフィア・聖恋"^^xsd:string ;
     schema:familyName "天宮"@ja, "Amamiya"@en ;
     lily:familyNameKana "あまみや"@ja ;
-    schema:additionalName "ソフィア"@ja, "Sofia"@en ;
+    schema:additionalName "ソフィア"@ja, "Sophia"@en ;
     lily:additionalNameKana "そふぃあ"@ja ;
     schema:givenName "聖恋"@ja, "Seren"@en ;
     lily:givenNameKana "せれん"@ja ;
-    schema:name "天宮・ソフィア・聖恋"@ja, "Amamiya Sofia Seren"@en ;
+    schema:name "天宮・ソフィア・聖恋"@ja, "Amamiya Sophia Seren"@en ;
     lily:nameKana "あまみや・そふぃあ・せれん"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
