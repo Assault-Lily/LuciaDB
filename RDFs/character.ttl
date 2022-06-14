@@ -170,6 +170,7 @@
         "炭酸飲料"@ja ;
     # lily:notGood ""@ja ;
     lily:hobby_talent
+        "卓球"@ja,
         "お手合わせ"@ja,
         "動物園に行くこと"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
