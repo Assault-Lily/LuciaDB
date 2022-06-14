@@ -1020,11 +1020,11 @@
     rdfs:label "長谷川・ガブリエラ・つぐみ"^^xsd:string ;
     schema:familyName "長谷川"@ja, "Hasegawa"@en ;
     lily:familyNameKana "はせがわ"@ja ;
-    schema:additionalName "ガブリエラ"@ja, "Gabriela"@en ;
+    schema:additionalName "ガブリエラ"@ja, "Gabriella"@en ;
     lily:additionalNameKana "がぶりえら"@ja ;
     schema:givenName "つぐみ"@ja, "Tsugumi"@en ;
     lily:givenNameKana "つぐみ"@ja ;
-    schema:name "長谷川・ガブリエラ・つぐみ"@ja, "Hasegawa Gabriela Tsugumi"@en ;
+    schema:name "長谷川・ガブリエラ・つぐみ"@ja, "Hasegawa Gabriella Tsugumi"@en ;
     lily:nameKana "はせがわ・がぶりえら・つぐみ"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
