@@ -473,7 +473,7 @@
     #    lily:additionalInformation ""@ja ;
     # ] ;
     lily:garden "神庭女子藝術高校"^^xsd:string ;
-    # lily:gardenDepartment ""^^xsd:string ;
+    lily:gardenDepartment "建築科"^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "生徒会長"@ja ;
