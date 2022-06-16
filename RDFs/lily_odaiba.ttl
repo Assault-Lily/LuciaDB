@@ -1251,7 +1251,7 @@
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "ハンバーガー"@ja ;
-    lily:notGood "魚"@ja ;
+    lily:notGood "焼き魚"@ja ;
     lily:hobby_talent
         "音楽鑑賞"@ja,
         "ヘッドホン集め"@ja ;
