@@ -8011,7 +8011,7 @@
     schema:birthPlace "鎌倉府（神奈川県）横浜市青葉区美しが丘"@ja, "Utsukushigaoka, Aoba-ku, Yokohama City, Kamakura (Kanagawa)"@en ;
     lily:favorite "カルピス"@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent "書道"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "円環の御手"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
