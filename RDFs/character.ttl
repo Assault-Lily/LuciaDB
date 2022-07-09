@@ -167,6 +167,7 @@
     schema:birthPlace "山梨県"@ja, "Yamanashi"@en ;
     lily:favorite
         "ぶどう"@ja,
+        "うなぎ"@ja,
         "炭酸飲料"@ja ;
     # lily:notGood ""@ja ;
     lily:hobby_talent
