@@ -32,7 +32,8 @@
         "カラオケ"@ja ;
     lily:notGood
         "裁縫"@ja,
-        "細かい作業"@ja ;
+        "細かい作業"@ja,
+        "イカスミパスタ"@ja ;
     lily:hobby_talent "音楽鑑賞"@ja ;
     lily:skillerVal "88"^^xsd:integer ;
     lily:rareSkill "円環の御手"^^xsd:string ;
@@ -48,7 +49,8 @@
             "舞台TFG"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "ラスバレ"^^xsd:string,
-            "舞台LM"^^xsd:string ;
+            "舞台LM"^^xsd:string,
+            "舞台 約束の行方 2022"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Charlemagne> ;
@@ -62,7 +64,8 @@
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
             "ラスバレ"^^xsd:string,
-            "舞台LM"^^xsd:string ;
+            "舞台LM"^^xsd:string,
+            "舞台 約束の行方 2022"^^xsd:string ;
         lily:additionalInformation "SP"@ja ;
     ], [
         lily:resource <Dainsleif_Carbin> ;
@@ -133,7 +136,8 @@
             <Schwester_No_Himitsu_2021>,
             <Lost_Memories>,
             <Assault_Lily_Last_Bullet>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Yakusoku_No_Yukue_2022> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "石井陽菜"@ja ;
@@ -272,7 +276,8 @@
         "遊園地"@ja ;
     lily:notGood
         "ホラー映画"@ja,
-        "お化け屋敷"@ja ;
+        "お化け屋敷"@ja,
+        "パクチー"@ja ;
     lily:hobby_talent
         "ヘアアレンジ"@ja,
         "おしゃべり"@ja ;
@@ -293,7 +298,8 @@
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
             "ラスバレ"^^xsd:string,
-            "舞台LM"^^xsd:string ;
+            "舞台LM"^^xsd:string,
+            "舞台 約束の行方 2022"^^xsd:string ;
         lily:additionalInformation
             "SP"@ja,
             "姉の形見"@ja ;
@@ -361,11 +367,11 @@
     rdfs:label "天宮・ソフィア・聖恋"^^xsd:string ;
     schema:familyName "天宮"@ja, "Amamiya"@en ;
     lily:familyNameKana "あまみや"@ja ;
-    schema:additionalName "ソフィア"@ja, "Sophia"@en ;
+    schema:additionalName "ソフィア"@ja, "Sofia"@en ;
     lily:additionalNameKana "そふぃあ"@ja ;
     schema:givenName "聖恋"@ja, "Seren"@en ;
     lily:givenNameKana "せれん"@ja ;
-    schema:name "天宮・ソフィア・聖恋"@ja, "Amamiya Sophia Seren"@en ;
+    schema:name "天宮・ソフィア・聖恋"@ja, "Amamiya Sofia Seren"@en ;
     lily:nameKana "あまみや・そふぃあ・せれん"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
@@ -384,7 +390,9 @@
         "プール"@ja,
         "トウモロコシ"@ja,
         "酸っぱいグミ"@ja ;
-    lily:notGood "絵を描くこと"@ja ;
+    lily:notGood
+        "絵を描くこと"@ja,
+        "高野豆腐"@ja ;
     lily:hobby_talent
         "トレーニング"@ja,
         "陸上競技"@ja ;
@@ -403,6 +411,7 @@
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
+            "舞台 約束の行方 2022"^^xsd:string,
             "ドール"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
@@ -484,9 +493,11 @@
     lily:notGood
         "嫉妬"@ja,
         "冗談"@ja,
-        "野蛮なもの"@ja ;
+        "野蛮なもの"@ja,
+        "豚足"@ja ;
     lily:hobby_talent
         "ピアノ"@ja,
+        "バレエ"@ja,
         "お菓子作り"@ja ;
     lily:skillerVal "90"^^xsd:integer ;
     lily:rareSkill "テスタメント"^^xsd:string ;
@@ -508,8 +519,9 @@
     ], [
         lily:resource <Adelring> ;
         lily:usedIn
+            "舞台TFG"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
-            "舞台TFG"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -568,7 +580,7 @@
     a lily:Lily ;
 .
 
-<Li_Clystina_Sisi>
+<Lee_Christina_Susu>
     rdfs:label "李・クリスティーナ・思思"^^xsd:string ;
     schema:familyName "李"@ja, "Li"@en ;
     lily:familyNameKana "りー"@ja ;
@@ -582,16 +594,18 @@
     foaf:age "17"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--07-19"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "B"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite "上海蟹"@ja ;
+    lily:notGood
+        "刺身"@ja,
+        "こんにゃく"@ja ;
+    lily:hobby_talent "中国拳法"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ユーバーザイン"^^xsd:string ;
     lily:subSkill "Whole order"^^xsd:string ;
@@ -602,6 +616,11 @@
         lily:usedIn
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Dainsleif> ;
+        lily:usedIn
+            "舞台 約束の行方 2022"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -670,8 +689,10 @@
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "どら焼き"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:notGood "らっきょう"@ja ;
+    lily:hobby_talent
+        "カメラ"@ja,
+        "即寝"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "レジスタ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -686,7 +707,8 @@
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
-            "舞台 シュベスターの秘密 2021"^^xsd:string ;
+            "舞台 シュベスターの秘密 2021"^^xsd:string,
+            "舞台 約束の行方 2022"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -756,8 +778,10 @@
     lily:favorite
         "チョコレート"@ja,
         "コーヒー"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:notGood "ブロッコリー"@ja ;
+    lily:hobby_talent
+        "ダーツ"@ja,
+        "ビリヤード"@ja ;
     lily:skillerVal "85"^^xsd:integer ;
     lily:rareSkill "ヘリオスフィア"^^xsd:string ;
     lily:subSkill "軍神の加護"^^xsd:string ;
@@ -772,6 +796,11 @@
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Unknown_Named_Charm_3> ;
+        lily:usedIn
+            "舞台 約束の行方 2022"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -845,16 +874,16 @@
     foaf:age "17"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--06-19"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite "ピザ"@ja ;
+    lily:notGood "ナス"@ja ;
+    lily:hobby_talent "読書"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ヘリオスフィア"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -865,6 +894,11 @@
         lily:usedIn
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Dainsleif> ;
+        lily:usedIn
+            "舞台 約束の行方 2022"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -939,7 +973,8 @@
     lily:notGood
         "潜入"@ja,
         "決断"@ja,
-        "大きい音"@ja ;
+        "大きい音"@ja,
+        "ブルーチーズ"@ja ;
     lily:hobby_talent
         "リリィ情報収集"@ja,
         "漫画を読むこと"@ja ;
@@ -958,7 +993,8 @@
             "舞台 真実の刃"^^xsd:string,
             "舞台LoG"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
-            "舞台 シュベスターの秘密 2021"^^xsd:string ;
+            "舞台 シュベスターの秘密 2021"^^xsd:string,
+            "舞台 約束の行方 2022"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1038,8 +1074,10 @@
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "スイートポテト"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:notGood "レバー"@ja ;
+    lily:hobby_talent
+        "料理"@ja,
+        "散歩"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ブレイブ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -1055,7 +1093,8 @@
             "舞台 真実の刃"^^xsd:string,
             "舞台TFG"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
-            "舞台 シュベスターの秘密 2021"^^xsd:string ;
+            "舞台 シュベスターの秘密 2021"^^xsd:string,
+            "舞台 約束の行方 2022"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1129,11 +1168,12 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "かわいいもの"@ja,
-        "ロリータファッション"@ja,
         "ショートケーキ"@ja,
         "紅茶"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:notGood "魚"@ja ;
+    lily:hobby_talent
+        "ロリータファッションをすること"@ja,
+        "ぬいぐるみ収集"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -1148,7 +1188,8 @@
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
-            "舞台 シュベスターの秘密 2021"^^xsd:string ;
+            "舞台 シュベスターの秘密 2021"^^xsd:string,
+            "舞台 約束の行方 2022"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1239,8 +1280,8 @@
     lily:favorite
         "和食"@ja,
         "いちご"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:notGood "辛いもの"@ja ;
+    lily:hobby_talent "絵画"@ja ;
     lily:skillerVal "90"^^xsd:integer ;
     lily:rareSkill "レジスタ"^^xsd:string ;
     lily:subSkill "虹の軌跡"^^xsd:string ;
@@ -1258,7 +1299,8 @@
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
-            "舞台 シュベスターの秘密 2021"^^xsd:string ;
+            "舞台 シュベスターの秘密 2021"^^xsd:string,
+            "舞台 約束の行方 2022"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1361,8 +1403,10 @@
     lily:favorite
         "ラザニア"@ja,
         "メロン"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:notGood "グリーンピース"@ja ;
+    lily:hobby_talent
+        "裁縫"@ja,
+        "フェンシング"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "この世の理"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -1377,7 +1421,8 @@
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
-            "舞台 シュベスターの秘密 2021"^^xsd:string ;
+            "舞台 シュベスターの秘密 2021"^^xsd:string,
+            "舞台 約束の行方 2022"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1459,8 +1504,10 @@
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "フラペチーノ"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:notGood "納豆"@ja ;
+    lily:hobby_talent
+        "英語"@ja,
+        "バトントワリング"@ja ;
     lily:skillerVal "88"^^xsd:integer ;
     lily:rareSkill "天の秤目"^^xsd:string ;
     lily:subSkill
@@ -1474,14 +1521,16 @@
             "舞台 シュベスターの秘密"^^xsd:string,
             "舞台 シュベスターの誓い"^^xsd:string,
             "舞台 約束の行方"^^xsd:string,
-            "舞台 シュベスターの秘密 2021"^^xsd:string ;
+            "舞台 シュベスターの秘密 2021"^^xsd:string,
+            "舞台 約束の行方 2022"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
-        lily:resource <Unknown_Named_Charm> ;
+        lily:resource <Dragoon_Edge> ;
         lily:usedIn
             "舞台 約束の行方"^^xsd:string,
-            "舞台 真実の刃"^^xsd:string ;
-        lily:additionalInformation "名称不明"@ja ;
+            "舞台 真実の刃"^^xsd:string,
+            "舞台 約束の行方 2022"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
@@ -1568,8 +1617,11 @@
         "アイドルリリィ"@ja,
         "駄菓子"@ja,
         "カルピス"@ja ;
-    # lily:notGood ""@ja ;
-    lily:hobby_talent "情報収集"@ja ;
+    lily:notGood "なし"@ja ;
+    lily:hobby_talent
+        "情報収集"@ja,
+        "潜入"@ja,
+        "アイドルダンス"@ja ;
     lily:skillerVal "82"^^xsd:integer ;
     lily:rareSkill "縮地"^^xsd:string ;
     lily:subSkill "ステルス"^^xsd:string ;
@@ -1584,7 +1636,8 @@
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
-            "舞台 シュベスターの秘密 2021"^^xsd:string ;
+            "舞台 シュベスターの秘密 2021"^^xsd:string,
+            "舞台 約束の行方 2022"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1656,11 +1709,9 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite
-        "忍者"@ja,
-        "おにぎり"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite "おにぎり"@ja ;
+    lily:notGood "なし"@ja ;
+    lily:hobby_talent "忍者修行"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -1673,7 +1724,8 @@
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
-            "舞台 シュベスターの秘密 2021"^^xsd:string ;
+            "舞台 シュベスターの秘密 2021"^^xsd:string,
+            "舞台 約束の行方 2022"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1750,8 +1802,12 @@
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "クッキー"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:notGood
+        "きのこ"@ja,
+        "ピーマン"@ja,
+        "セロリ"@ja,
+        "ほうれん草"@ja ;
+    lily:hobby_talent "うさぎのマスコット収集"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ファンタズム"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -1763,7 +1819,8 @@
             "舞台 シュベスターの祈り"^^xsd:string,
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
-            "舞台 シュベスターの祈り 2021"^^xsd:string ;
+            "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "舞台 約束の行方 2022"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1842,8 +1899,11 @@
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "ミルクレープ"@ja ;
-    # lily:notGood ""@ja ;
-    lily:hobby_talent "大声"@ja ;
+    lily:notGood "トマト"@ja ;
+    lily:hobby_talent
+        "大声"@ja,
+        "コスメ収集"@ja,
+        "ネイル"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "未覚醒"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -1856,7 +1916,8 @@
             "舞台 シュベスターの誓い"^^xsd:string,
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
-            "舞台 シュベスターの祈り 2021"^^xsd:string ;
+            "舞台 シュベスターの祈り 2021"^^xsd:string,
+            "舞台 約束の行方 2022"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;

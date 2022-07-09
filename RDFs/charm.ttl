@@ -3,17 +3,6 @@
 @prefix schema: <http://schema.org/> .
 @prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
 
-<Unknown_Named_Charm>
-    # schema:productID ""^^xsd:string ;
-    lily:seriesName "CHARM名称不明"@ja, "Unknown Named CHARM"@en ;
-    schema:name "CHARM名称不明"@ja, "Unknown Named CHARM"@en ;
-    # lily:generation ""^^xsd:integer ;
-    # schema:manufacturer <> ;
-    lily:user <Tachibana_Theresia_Nagisa> ;
-    # lily:additionalInformation ""@ja ;
-    a lily:Charm ;
-.
-
 <Unknown_Named_Charm_2>
     # schema:productID ""^^xsd:string ;
     lily:seriesName "CHARM名称不明"@ja, "Unknown Named CHARM"@en ;
@@ -21,6 +10,17 @@
     # lily:generation ""^^xsd:integer ;
     # schema:manufacturer <> ;
     lily:user <Michikawa_Miaki> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Unknown_Named_Charm_3>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "CHARM名称不明"@ja, "Unknown Named CHARM"@en ;
+    schema:name "CHARM名称不明"@ja, "Unknown Named CHARM"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Seto_Veronica_Ichika> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
@@ -169,7 +169,9 @@
         <Kaede_Johan_Nouvel>,
         <Izumi_Rosa_Rina>,
         <Amata_Hanako>,
-        <L> ;
+        <L>,
+        <Lee_Christina_Susu>,
+        <Takatori_Natalie_Towa> ;
     lily:hasVariant <Dainsleif_Carbin> ;
     lily:hasVariant <Dainsleif_Marksman> ;
     a lily:Charm ;
@@ -189,7 +191,7 @@
         <Amamiya_Sofia_Seren>,
         <Fukuyama_Jeanne_Sachie>,
         <Kuroki_Francisca_Yuria>,
-        <Li_Clystina_Sisi>,
+        <Lee_Christina_Susu>,
         <Saeki_Julia_Karen>,
         <Matsunaga_Brigitta_Kayo>,
         <Ichinomiya_Michaela_Himari>,
@@ -1228,5 +1230,16 @@
     schema:manufacturer <Grand_Guignol> ;
     lily:user <Altea_Alessandrini> ;
     # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Dragoon_Edge>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ドラグーンエッジ"@ja, "Dragoon Edge"@en ;
+    schema:name "ドラグーンエッジ"@ja, "Dragoon Edge"@en ;
+    # lily:generation ""^^xsd:integer ;
+    schema:manufacturer <Hihiirokane_International> ;
+    lily:user <Tachibana_Theresia_Nagisa> ;
+    lily:additionalInformation "ルドビコ女学院工廠科および瀬戸・ベロニカ・いちかにより開発"@ja ;
     a lily:Charm ;
 .

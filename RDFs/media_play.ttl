@@ -607,7 +607,7 @@
     ], [
         schema:name "河合柚花"@ja ;
         # lily:resource <> ;
-        lily:performAs <Li_Clystina_Sisi> ;
+        lily:performAs <Lee_Christina_Susu> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "木村若菜"@ja ;
@@ -771,7 +771,7 @@
     ], [
         schema:name "はぎのりな"@ja ;
         # lily:resource <> ;
-        lily:performAs <Li_Clystina_Sisi> ;
+        lily:performAs <Lee_Christina_Susu> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "小野瀬みらい"@ja ;
@@ -2390,7 +2390,7 @@
     ], [
         schema:name "白城もえの"@ja ;
         # lily:resource <>;
-        lily:performAs <Li_Clystina_Sisi> ;
+        lily:performAs <Lee_Christina_Susu> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "遠藤三貴"@ja ;
