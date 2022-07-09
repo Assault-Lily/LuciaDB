@@ -372,7 +372,8 @@
         <Yumeno_Kanon>,
         <Rosalinde_Friedegunde_von_Otto>,
         <Watanabe_Akane>,
-        <Asanaga_Ichigo> ;
+        <Asanaga_Ichigo>,
+        <Matsumura_Fuka> ;
     a lily:Charm ;
 .
 
