@@ -247,7 +247,7 @@
     lily:bloodType "AB"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     lily:color "86E6F2"^^xsd:hexBinary ;
-    # schema:birthPlace ""@ja, ""@en ;
+    schema:birthPlace "鎌倉府（神奈川県）"@ja, "Kamakura (Kanagawa)"@en ;
     lily:favorite
         "マカロン"@ja,
         "ユニコーン"@ja ;
