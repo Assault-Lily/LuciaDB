@@ -1,7 +1,7 @@
-@base <https://lily.fvhp.net/rdf/RDFs/detail/> .
+@base <https://luciadb.assaultlily.com/rdf/RDFs/detail/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema: <http://schema.org/> .
-@prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
+@prefix lily: <https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#> .
 
 <Unknown_Named_Charm_2>
     # schema:productID ""^^xsd:string ;

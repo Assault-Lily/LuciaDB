@@ -1,11 +1,11 @@
 
-baseUri: https://lily.fvhp.net/rdf/RDFs/detail/
+baseUri: https://luciadb.assaultlily.com/rdf/RDFs/detail/
 rules:
   - name: 姓名整合(日本語・ミドルネームがない人)
     target: "RDFs/.*"
     query: |
       PREFIX schema: <http://schema.org/>
-      PREFIX lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#>
+      PREFIX lily: <https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#>
       SELECT ?s ?fn ?gn ?nm ?fnk ?gnk ?nmk
       WHERE {
         ?s schema:familyName ?fn; schema:givenName ?gn; schema:name ?nm;
@@ -60,7 +60,7 @@ rules:
     target: "RDFs/.*"
     query: |
       PREFIX schema: <http://schema.org/>
-      PREFIX lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#>
+      PREFIX lily: <https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#>
       SELECT ?s ?fn ?an ?gn ?nm ?fnk ?ank ?gnk ?nmk
       WHERE {
         ?s schema:familyName ?fn; schema:additionalName ?an; schema:givenName ?gn; schema:name ?nm;

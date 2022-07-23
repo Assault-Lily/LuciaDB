@@ -1,8 +1,8 @@
-@base <https://lily.fvhp.net/rdf/RDFs/detail/> .
+@base <https://luciadb.assaultlily.com/rdf/RDFs/detail/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema: <http://schema.org/> .
-@prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
+@prefix lily: <https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#> .
 
 <Assault_Lily_Hitotsuyanagi_Tai_Shutsugeki_Shimasu>
     lily:genre "小説"@ja ;

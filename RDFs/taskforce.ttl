@@ -1,7 +1,7 @@
-@base <https://lily.fvhp.net/rdf/RDFs/detail/> .
+@base <https://luciadb.assaultlily.com/rdf/RDFs/detail/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema: <http://schema.org/> .
-@prefix lily: <https://lily.fvhp.net/rdf/IRIs/lily_schema.ttl#> .
+@prefix lily: <https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#> .
 
 <Odaiba_Interception_Taskforce_1>
     schema:name "御台場迎撃戦第1部隊"@ja, "Odaiba Interception Battle the 1st Task Force"@en ;
