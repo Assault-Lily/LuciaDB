@@ -416,6 +416,21 @@
     a lily:Legion ;
 .
 
+<Kamba_Seitokai_Boueitai>
+    schema:name "生徒会防衛隊"@ja, "Seitokai Boueitai"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    lily:numberOfMembers "5"^^xsd:integer ;
+    schema:member
+        <Homma_Akehi>,
+        <Yokota_Haruna>,
+        <Shiozaki_Suzume>,
+        <Ishizuka_Fujino> ;
+    # lily:submember <> ;
+    a lily:Legion ;
+.
+
 ### 御台場女学校
 
 <Hronesness>
