@@ -30,22 +30,25 @@ LuciaDBは「[クリエイティブ・コモンズ 表示 - 非営利 - 継承 4
 
 ### ライセンス表記の例
 
-|||
+|言語 (Language)|ライセンス表記の例 (An example of license display)|
 |--|--|
 |日本語|<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本サイトが利用するアサルトリリィ関連データは、[LuciaDB](https://github.com/Assault-Lily/LuciaDB)によって[クリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際 ライセンス](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)のもとに提供されています。|
 |English|<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />The data of AssaultLily used in this site is provided by [LuciaDB](https://github.com/Assault-Lily/LuciaDB) under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja).|
 
 ## SPARQL API について
 
-このリポジトリの管理人である[ふぁぼ原](https://twitter.com/fvhP_)が、このリポジトリのデータを SPARQL (スパークル) API として提供しています。
+LuciaDB では、このリポジトリのデータを取得できる Web API を提供しています。
 
-SPARQL という問い合わせ言語を使って、ここで公開されているデータを Web 経由で検索することができます。
+SPARQL (スパークル) という問い合わせ言語を使って、ここで公開されているデータを Web 経由で検索することができます。
 
 注意: データは現在構築中で、頻繁に更新されると思われます。データの構造ごと変化する場合もありますのでご了承ください。
 
 ## SPARQL API の使い方
+
 https://luciadb.assaultlily.com/sparql/query?format=json&query=
-のあとに SPARQL のクエリをつなげてアクセスするとクエリの実行結果が得られます。
+のあとに SPARQL のクエリをつなげてアクセス (GETリクエスト) するとクエリの実行結果が得られます。クエリ中の特殊文字のエスケープには十分注意してください。 `format=` パラメータで欲しいレスポンスデータの形式を指定することができます。 `json`, `xml`, `csv` などが指定できます。
+
+リクエストボディにクエリを持たせて https://luciadb.assaultlily.com/sparql/query に対して POST リクエストを送信する方法でも使用できます。この場合、リクエストの `Content-Type` ヘッダの値は `application/sparql-query` とし、`Accept` ヘッダの値に欲しいレスポンスデータの形式を入れてください。 `application/json`, `application/xml`, `text/csv` などが指定できます。
 
 ### 例
 
@@ -100,3 +103,6 @@ https://luciadb.assaultlily.com/sparql/query?format=json&query=
 
 SPARQL のクエリの書き方について Web で検索すると色々情報はありますが、それでも結構難しいかもしれません。
 「こんな検索したいけどクエリが書けない！」という方は [こちら](https://github.com/fvh-P/assaultlily-rdf/issues/4) に質問を投稿してください。
+
+## 謝辞
+LuciaDB のデータは [Contributor の皆様](https://github.com/Assault-Lily/LuciaDB/graphs/contributors)のご協力により作成されています。この場を借りてお礼申し上げます。
