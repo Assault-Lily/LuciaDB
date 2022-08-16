@@ -24,7 +24,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "A"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "797979"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "モンブラン"@ja,
@@ -120,7 +120,7 @@
     lily:killedIn "マギの暴走"^^xsd:string ;
     lily:bloodType "AB"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "C1AB96"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "フライドチキン"@ja,
@@ -303,7 +303,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "A"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "83274E"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "ステーキ"@ja ;
     lily:notGood "バナナ"@ja ;
@@ -388,7 +388,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "AB"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "734E31"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "トリュフ"@ja,

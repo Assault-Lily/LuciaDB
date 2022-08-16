@@ -24,7 +24,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "A260BF"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "クレープ"@ja,
@@ -268,7 +268,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "F1F1F1"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "ソフトクリーム"@ja,
@@ -382,7 +382,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "B"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "FFCC00"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "お祭り"@ja,
@@ -484,7 +484,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "B"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "333C5E"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "パール小物"@ja,
@@ -599,7 +599,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "B"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "E8C800"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "上海蟹"@ja ;
     lily:notGood
@@ -686,7 +686,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "2A9B50"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "どら焼き"@ja ;
     lily:notGood "らっきょう"@ja ;
@@ -773,7 +773,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "32CD32"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "チョコレート"@ja,
@@ -879,7 +879,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "8A9A5B"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "ピザ"@ja ;
     lily:notGood "ナス"@ja ;
@@ -964,7 +964,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "AB"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "4169E1"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "わたあめ"@ja,
@@ -1071,7 +1071,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "DDA273"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "スイートポテト"@ja ;
     lily:notGood "レバー"@ja ;
@@ -1164,7 +1164,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "A"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "FFD1DC"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "かわいいもの"@ja,
@@ -1275,7 +1275,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "A"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "FD7E00"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "和食"@ja,
@@ -1398,7 +1398,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "B"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "ADD8E6"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "ラザニア"@ja,
@@ -1501,7 +1501,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "B"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "BE1E3E"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "フラペチーノ"@ja ;
     lily:notGood "納豆"@ja ;
@@ -1610,7 +1610,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "A"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "007F91"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "お金"@ja,
@@ -1707,7 +1707,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "DD4157"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "おにぎり"@ja ;
     lily:notGood "なし"@ja ;
@@ -1799,7 +1799,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "A"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "FFC9D2"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "クッキー"@ja ;
     lily:notGood
@@ -1896,7 +1896,7 @@
     # lily:killedIn ""^^xsd:string ;
     lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "CF61A5"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "ミルクレープ"@ja ;
     lily:notGood "トマト"@ja ;
@@ -1990,7 +1990,7 @@
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
+    lily:color "DE4335"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
