@@ -697,10 +697,15 @@
     lily:legionGrade "AAA"^^xsd:string ;
     lily:numberOfMembers "10"^^xsd:integer ;
     schema:member
-        <Kamigoori_Marimo>,
+        <Kamigori_Marimo>,
         <Ueda_Imari>,
-        <Tokyu_Setoko>,
-        <Hirose_Yuzutsu> ;
+        <Higashikuze_Tokuko>,
+        <Hirose_Yuzutsu>,
+        <Tsuzuki_Hisui>,
+        <Moroi_Saho>,
+        <Miwada_Rito>,
+        <Tsujimoto_Yunagi>,
+        <Tashiro_Ayumu> ;
     a lily:Legion ;
 .
 
