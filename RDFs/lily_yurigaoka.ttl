@@ -4341,6 +4341,9 @@
         lily:additionalInformation "友人"@ja ;
     ], [
         lily:resource <Ito_Shizu> ;
+        lily:additionalInformation "考えの違いを巡りたびたび言い争いになる"@ja ;
+    ], [
+        lily:resource <Kaede_Johan_Nouvel> ;
         lily:additionalInformation "ライバル"@ja ;
     ], [
         lily:resource <Miyamoto_Komuku> ;
@@ -4355,7 +4358,9 @@
     lily:cast [
         schema:name "根本京里"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q81968067> ;
-        lily:performIn <Assault_Lily_Bouquet> ;
+        lily:performIn
+            <Assault_Lily_Bouquet>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -5187,7 +5192,7 @@
         lily:additionalInformation "一時期シュッツエンゲル候補だった"@ja ;
     ], [
         lily:resource <Tachihara_Sayu> ;
-        lily:additionalInformation "ライバル"@ja ;
+        lily:additionalInformation "考えの違いを巡りたびたび言い争いになる"@ja ;
     ], [
         lily:resource <Maekawa_Kina> ;
         lily:additionalInformation "幼馴染"@ja ;
@@ -5206,7 +5211,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q22126767>,
             <http://ja.dbpedia.org/resource/七瀬彩夏> ;
-        lily:performIn <Assault_Lily_Bouquet> ;
+        lily:performIn
+            <Assault_Lily_Bouquet>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
