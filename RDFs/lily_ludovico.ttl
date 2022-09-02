@@ -1347,6 +1347,9 @@
         lily:additionalInformation
             "同志"@ja,
             "理想のリリィ"@ja ;
+    ], [
+        lily:resource <Kamigori_Marimo> ;
+        lily:additionalInformation "同志"@ja ;
     ] ;
     lily:cast [
         schema:name "栞菜"@ja ;
