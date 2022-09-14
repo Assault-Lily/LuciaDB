@@ -495,9 +495,11 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite "キャンディ"@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "イラスト"@ja,
+        "読書"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     # lily:rareSkill ""^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -526,14 +528,18 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
+    lily:relationship [
+        lily:resource <Toda_Kotohi> ;
+        lily:additionalInformation "ルド女時代に仲が良かった"@ja ;
+    ] ;
+    lily:cast [
+        schema:name "河瀬茉希"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24867153>,
+            <http://ja.dbpedia.org/resource/河瀬茉希> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
-    # ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    ] ;
     a lily:Lily ;
 .
 

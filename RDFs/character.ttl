@@ -219,6 +219,9 @@
     ], [
         lily:resource <Shirai_Yuyu> ;
         lily:additionalInformation "怨んでいた"@ja ;
+    ], [
+        lily:resource <Makino_Mitake> ;
+        lily:additionalInformation "美岳のルド女時代に仲が良かった"@ja ;
     ] ;
     lily:cast [
         schema:name "田上真里奈"@ja ;
