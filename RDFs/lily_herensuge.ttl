@@ -463,10 +463,14 @@
         lily:resource <Shibata_Rindo> ;
         lily:additionalInformation "入魂の間柄"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "集貝はな"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q74548472>,
+            <http://ja.dbpedia.org/resource/集貝はな> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
