@@ -340,7 +340,8 @@
         <Matsumura_Fuka>,
         <Makino_Mitake>,
         <Kagawa_Makina>,
-        <Morimoto_Yuni> ;
+        <Morimoto_Yuni>,
+        <Kariya_Higure> ;
     a lily:Legion ;
 .
 
