@@ -222,7 +222,7 @@
         lily:resource <Izue_Shinobu> ;
         lily:additionalInformation "友人"@ja ;
     ], [
-        lily:resource <Yoshii_Kako> ;
+        lily:resource <Yoshii_Kasumiko> ;
         lily:additionalInformation "友人"@ja ;
     ], [
         lily:resource <Maruyama_Amane> ;

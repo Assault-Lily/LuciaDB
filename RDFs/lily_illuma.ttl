@@ -251,18 +251,18 @@
     a lily:Lily ;
 .
 
-<Yoshii_Kako>
+<Yoshii_Kasumiko>
     rdfs:label "吉井霞子"^^xsd:string ;
-    schema:familyName "吉井"@ja ; #, ""@en ;
-    # lily:familyNameKana ""@ja ;
+    schema:familyName "吉井"@ja , "Yoshii"@en ;
+    lily:familyNameKana "よしい"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "霞子"@ja ; #, ""@en ;
-    # lily:givenNameKana ""@ja ;
-    schema:name "吉井霞子"@ja ; #, ""@en ;
-    # lily:nameKana ""@ja ;
+    schema:givenName "霞子"@ja, "Kasumiko"@en ;
+    lily:givenNameKana "かすみこ"@ja ;
+    schema:name "吉井霞子"@ja, "Yoshii Kasumiko"@en ;
+    lily:nameKana "よしいかすみこ"@ja ;
     lily:anotherName "幕張奪還戦の英雄"@ja ;
-    # foaf:age ""^^xsd:integer ;
+    foaf:age "17"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
@@ -276,7 +276,7 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "ヘリオスフィア"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
@@ -292,7 +292,9 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Illumine_Shines> ;
     lily:legionJobTitle "リザーブ"^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position
+        "TZ"^^xsd:string,
+        "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
