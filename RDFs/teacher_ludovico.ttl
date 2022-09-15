@@ -454,21 +454,24 @@
     a lily:Teacher ;
 .
 
-<Akutsu_Lucifer_Maaya>
-    rdfs:label "あくつ・ルシファ・魔妖"^^xsd:string ;
+<Akutsu_Magdalena_Maaya>
+    rdfs:label "あくつ・マグダレーナ・魔妖"^^xsd:string ;
     schema:familyName "あくつ"@ja, "Akutsu"@en ;
     lily:familyNameKana "あくつ"@ja ;
-    schema:additionalName "ルシファ"@ja, "Lucifer"@en ;
-    lily:additionalNameKana "るしふぁ"@ja ;
+    schema:additionalName "マグダレーナ"@ja, "Magdalena"@en ;
+    lily:additionalNameKana "まぐだれーな"@ja ;
     schema:givenName "魔妖"@ja, "Maaya"@en ;
     lily:givenNameKana "まあや"@ja ;
-    schema:name "あくつ・ルシファ・魔妖"@ja, "Akutsu Lucifer Maaya"@en ;
-    lily:nameKana "あくつ・るしふぁ・まあや"@ja ;
-    # lily:anotherName ""@ja ;
+    schema:name "あくつ・マグダレーナ・魔妖"@ja, "Akutsu Magdalena Maaya"@en ;
+    lily:nameKana "あくつ・まぐだれーな・まあや"@ja ;
+    lily:anotherName
+        "戦場の悪魔"@ja,
+        "堕天使ルシファ"@ja,
+        "あくつ “ルシファ” 魔妖"@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--06-06"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;

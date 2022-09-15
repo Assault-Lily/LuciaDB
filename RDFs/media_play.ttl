@@ -145,8 +145,8 @@
     ], [
         schema:name "桜木さやか"@ja ;
         # lily:resource <> ;
-        lily:performAs <Akutsu_Lucifer_Maaya> ;
-        # lily:additionalInformation ""@ja ;
+        lily:performAs <Akutsu_Magdalena_Maaya> ;
+        lily:additionalInformation "「あくつ “ルシファ” 魔妖」として幕間の特別訓練に登場"@ja ;
     ] ;
     a lily:Play ;
 .
@@ -297,8 +297,8 @@
     ], [
         schema:name "桜木さやか"@ja ;
         # lily:resource <> ;
-        lily:performAs <Akutsu_Lucifer_Maaya> ;
-        # lily:additionalInformation ""@ja ;
+        lily:performAs <Akutsu_Magdalena_Maaya> ;
+        lily:additionalInformation "「あくつ “ルシファ” 魔妖」として幕間の特別訓練に登場"@ja ;
     ] ;
     a lily:Play ;
 .
@@ -466,8 +466,8 @@
     ], [
         schema:name "桜木さやか"@ja ;
         # lily:resource <> ;
-        lily:performAs <Akutsu_Lucifer_Maaya> ;
-        # lily:additionalInformation ""@ja ;
+        lily:performAs <Akutsu_Magdalena_Maaya> ;
+        lily:additionalInformation "「あくつ “ルシファ” 魔妖」として幕間の特別訓練に登場"@ja ;
     ] ;
     a lily:Play ;
 .
