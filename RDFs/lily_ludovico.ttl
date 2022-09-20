@@ -605,10 +605,14 @@
     schema:gender "female"^^xsd:string ;
     lily:color "E8C800"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "上海蟹"@ja ;
+    lily:favorite
+        "上海蟹"@ja,
+        "龍"@ja,
+        "演技のいいもの"@ja ;
     lily:notGood
         "刺身"@ja,
-        "こんにゃく"@ja ;
+        "こんにゃく"@ja,
+        "弱いリリィ"@ja ;
     lily:hobby_talent "中国拳法"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ユーバーザイン"^^xsd:string ;
@@ -694,8 +698,13 @@
     schema:gender "female"^^xsd:string ;
     lily:color "2A9B50"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "どら焼き"@ja ;
-    lily:notGood "らっきょう"@ja ;
+    lily:favorite
+        "どら焼き"@ja,
+        "強いリリィ"@ja ;
+    lily:notGood
+        "らっきょう"@ja,
+        "数学"@ja,
+        "早起き"@ja ;
     lily:hobby_talent
         "カメラ"@ja,
         "即寝"@ja ;
@@ -784,8 +793,11 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "チョコレート"@ja,
-        "コーヒー"@ja ;
-    lily:notGood "ブロッコリー"@ja ;
+        "コーヒー"@ja,
+        "歴史"@ja ;
+    lily:notGood
+        "ブロッコリー"@ja,
+        "ネズミ"@ja ;
     lily:hobby_talent
         "ダーツ"@ja,
         "ビリヤード"@ja ;
@@ -889,8 +901,12 @@
     schema:gender "female"^^xsd:string ;
     lily:color "8A9A5B"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "ピザ"@ja ;
-    lily:notGood "ナス"@ja ;
+    lily:favorite
+        "ピザ"@ja,
+        "戦略を練ること"@ja ;
+    lily:notGood
+        "ナス"@ja,
+        "女子会"@ja ;
     lily:hobby_talent "読書"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ヘリオスフィア"^^xsd:string ;
@@ -982,7 +998,7 @@
     lily:notGood
         "潜入"@ja,
         "決断"@ja,
-        "大きい音"@ja,
+        "大きな音"@ja,
         "ブルーチーズ"@ja ;
     lily:hobby_talent
         "リリィ情報収集"@ja,
@@ -1083,8 +1099,12 @@
     schema:gender "female"^^xsd:string ;
     lily:color "DDA273"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "スイートポテト"@ja ;
-    lily:notGood "レバー"@ja ;
+    lily:favorite
+        "スイートポテト"@ja,
+        "ホームパーティ"@ja ;
+    lily:notGood
+        "レバー"@ja,
+        "陰口"@ja ;
     lily:hobby_talent
         "料理"@ja,
         "散歩"@ja ;
@@ -1181,7 +1201,9 @@
         "かわいいもの"@ja,
         "ショートケーキ"@ja,
         "紅茶"@ja ;
-    lily:notGood "魚"@ja ;
+    lily:notGood
+        "魚"@ja,
+        "かわいくないもの"@ja ;
     lily:hobby_talent
         "ロリータファッションをすること"@ja,
         "ぬいぐるみ収集"@ja ;
@@ -1291,8 +1313,12 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "和食"@ja,
-        "いちご"@ja ;
-    lily:notGood "辛いもの"@ja ;
+        "いちご"@ja,
+        "博物館"@ja,
+        "美術館"@ja ;
+    lily:notGood
+        "辛いもの"@ja,
+        "妥協"@ja ;
     lily:hobby_talent "絵画"@ja ;
     lily:skillerVal "90"^^xsd:integer ;
     lily:rareSkill "レジスタ"^^xsd:string ;
@@ -1425,8 +1451,12 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "ラザニア"@ja,
-        "メロン"@ja ;
-    lily:notGood "グリーンピース"@ja ;
+        "メロン"@ja,
+        "勝負"@ja,
+        "訓練"@ja ;
+    lily:notGood
+        "グリーンピース"@ja,
+        "お世辞"@ja ;
     lily:hobby_talent
         "裁縫"@ja,
         "フェンシング"@ja ;
@@ -1527,8 +1557,13 @@
     schema:gender "female"^^xsd:string ;
     lily:color "BE1E3E"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "フラペチーノ"@ja ;
-    lily:notGood "納豆"@ja ;
+    lily:favorite
+        "フラペチーノ"@ja,
+        "旅行"@ja,
+        "カフェ巡り"@ja ;
+    lily:notGood
+        "納豆"@ja,
+        "言い訳"@ja ;
     lily:hobby_talent
         "英語"@ja,
         "バトントワリング"@ja ;
@@ -1638,11 +1673,12 @@
     lily:color "007F91"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
-        "お金"@ja,
-        "アイドルリリィ"@ja,
+        "貯金"@ja,
+        "アイドル"@ja,
+        "時代劇"@ja,
         "駄菓子"@ja,
-        "カルピス"@ja ;
-    lily:notGood "なし"@ja ;
+        "甘い乳酸菌飲料"@ja ;
+    lily:notGood "空腹"@ja ;
     lily:hobby_talent
         "情報収集"@ja,
         "潜入"@ja,
@@ -1735,8 +1771,11 @@
     schema:gender "female"^^xsd:string ;
     lily:color "DD4157"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "おにぎり"@ja ;
-    lily:notGood "なし"@ja ;
+    lily:favorite
+        "おにぎり"@ja,
+        "自然"@ja ;
+    lily:notGood
+        "地下鉄(迷子になるから)"@ja ;
     lily:hobby_talent "忍者修行"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
@@ -1833,7 +1872,8 @@
         "きのこ"@ja,
         "ピーマン"@ja,
         "セロリ"@ja,
-        "ほうれん草"@ja ;
+        "ほうれん草"@ja,
+        "絶叫系の乗り物"@ja ;
     lily:hobby_talent "うさぎのマスコット収集"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ファンタズム"^^xsd:string ;
@@ -1926,10 +1966,14 @@
     schema:gender "female"^^xsd:string ;
     lily:color "CF61A5"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "ミルクレープ"@ja ;
-    lily:notGood "トマト"@ja ;
+    lily:favorite
+        "ミルクレープ"@ja,
+        "美しいリリィ"@ja ;
+    lily:notGood
+        "トマト"@ja,
+        "地味なもの"@ja ;
     lily:hobby_talent
-        "大声"@ja,
+        "割と大きな声が出る"@ja,
         "コスメ収集"@ja,
         "ネイル"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
@@ -2021,9 +2065,16 @@
     schema:gender "female"^^xsd:string ;
     lily:color "DE4335"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite
+        "コーヒー"@ja,
+        "チェス"@ja,
+        "ダーツ"@ja ;
+    lily:notGood
+        "生クリーム"@ja,
+        "注射"@ja ;
+    lily:hobby_talent
+        "弓道"@ja,
+        "釣り"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "この世の理"^^xsd:string ;
     lily:subSkill "軍神の加護"^^xsd:string ;

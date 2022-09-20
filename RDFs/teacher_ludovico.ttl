@@ -28,9 +28,13 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "モンブラン"@ja,
-        "蕎麦"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+        "蕎麦"@ja,
+        "星空"@ja,
+        "十字架の小物"@ja ;
+    lily:notGood
+        "貝類"@ja,
+        "お酒"@ja ;
+    lily:hobby_talent "華道"@ja ;
     lily:skillerVal "87"^^xsd:integer ;
     lily:rareSkill "鷹の目"^^xsd:string ;
     lily:subSkill
@@ -126,8 +130,14 @@
     lily:favorite
         "フライドチキン"@ja,
         "唐揚げ"@ja,
-        "焼鳥"@ja ;
-    lily:notGood "甘いもの"@ja ;
+        "焼鳥"@ja,
+        "美容"@ja,
+        "応援"@ja,
+        "少女漫画"@ja ;
+    lily:notGood
+        "甘いもの"@ja,
+        "階段(克服済み)"@ja,
+        "マッチョ"@ja ;
     lily:hobby_talent
         "エアロビクス"@ja,
         "縄跳び"@ja ;
@@ -307,8 +317,13 @@
     schema:gender "female"^^xsd:string ;
     lily:color "83274E"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "ステーキ"@ja ;
-    lily:notGood "バナナ"@ja ;
+    lily:favorite
+        "ステーキ"@ja,
+        "スキー"@ja,
+        "スケート"@ja ;
+    lily:notGood
+        "バナナ"@ja,
+        "お友達作り"@ja ;
     lily:hobby_talent
         "カードゲーム"@ja,
         "水泳"@ja ;
@@ -395,8 +410,12 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "トリュフ"@ja,
-        "ワイン"@ja ;
-    lily:notGood "牛乳"@ja ;
+        "ワイン"@ja,
+        "小動物"@ja ;
+    lily:notGood
+        "牛乳"@ja,
+        "高い所"@ja,
+        "狭い所"@ja ;
     lily:hobby_talent "占い"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ヘリオスフィア"^^xsd:string ;
