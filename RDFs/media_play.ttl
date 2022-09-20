@@ -2491,7 +2491,7 @@
         schema:name "西本りみ"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
         lily:performAs <Ichinomiya_Michaela_Himari> ;
-        lily:additionalInformation "出演日: 8日、11日、15日、16日、17日"@ja ;
+        lily:additionalInformation "出演日: 8日、11日、14日、16日、17日"@ja ;
     ], [
         schema:name "朝倉ふゆな"@ja ;
         lily:resource
