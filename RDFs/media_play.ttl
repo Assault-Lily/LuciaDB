@@ -2449,7 +2449,7 @@
         "2022-09-16T19:00:00+09:00"^^xsd:dateTime,
         "2022-09-17T13:00:00+09:00"^^xsd:dateTime,
         "2022-09-17T18:00:00+09:00"^^xsd:dateTime,
-        "2022-04-18T15:00:00+09:00"^^xsd:dateTime ;
+        "2022-09-18T15:00:00+09:00"^^xsd:dateTime ;
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     lily:additionalInformation
         "本来同日程では「白きレジスタンス〜真実の刃〜」が上演される予定だったが、新型コロナウイルスの感染状況を鑑みて演目を変更。(7月30日13時発表)"@ja,
