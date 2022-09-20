@@ -2321,10 +2321,14 @@
         lily:resource <Fukushima_Ritsu> ;
         lily:additionalInformation "一緒にレギオン結成を目指している"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "遠藤三貴"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q55177725>,
+            <http://ja.dbpedia.org/resource/遠藤三貴> ;
+        lily:performIn <Ludovico_Liveshow_2022>
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -2383,9 +2387,11 @@
         lily:resource <Kifuji_Suzu> ;
         lily:additionalInformation "一緒にレギオン結成を目指している"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "小菅怜衣"@ja ;
+        # lily:resource <> ;
+        lily:performIn <Ludovico_Liveshow_2022> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .

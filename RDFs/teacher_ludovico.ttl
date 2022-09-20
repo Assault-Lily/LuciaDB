@@ -95,7 +95,8 @@
         lily:performIn
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
-            <Yakusoku_No_Yukue_2022> ;
+            <Yakusoku_No_Yukue_2022>,
+            <Ludovico_Liveshow_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Teacher ;
@@ -198,7 +199,8 @@
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
             <Lily_Collection_2022>,
-            <Yakusoku_No_Yukue_2022> ;
+            <Yakusoku_No_Yukue_2022>,
+            <Ludovico_Liveshow_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Teacher ;
@@ -363,7 +365,8 @@
         schema:name "林千浪"@ja ;
         # lily:resource <>;
         lily:performIn
-            <Yakusoku_No_Yukue_2022> ;
+            <Yakusoku_No_Yukue_2022>,
+            <Ludovico_Liveshow_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Teacher ;
@@ -448,7 +451,8 @@
             <https://www.wikidata.org/wiki/Q22127857>,
             <http://ja.dbpedia.org/resource/三枝奈都紀> ;
         lily:performIn
-            <Yakusoku_No_Yukue_2022> ;
+            <Yakusoku_No_Yukue_2022>,
+            <Ludovico_Liveshow_2022> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Teacher ;
