@@ -577,7 +577,7 @@
     schema:name "日下部蓮月"@ja, "Kusakabe Rengetsu"@en ;
     lily:nameKana "くさかべれんげつ"@ja ;
     # lily:anotherName ""@ja ;
-    # foaf:age ""^^xsd:integer ;
+    foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
@@ -639,7 +639,7 @@
     schema:name "日下部叢雨"@ja, "Kusakabe Murasame"@en ;
     lily:nameKana "くさかべむらさめ"@ja ;
     # lily:anotherName ""@ja ;
-    # foaf:age ""^^xsd:integer ;
+    foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
@@ -653,7 +653,7 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "カリスマ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
@@ -679,10 +679,10 @@
         lily:resource <Kusakabe_Rengetsu> ;
         lily:additionalInformation "双子の姉"@ja ;
     ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Ueda_Imari> ;
+        lily:additionalInformation "仲が良い"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
@@ -937,6 +937,9 @@
     lily:relationship [
         lily:resource <Kamigori_Marimo> ;
         lily:additionalInformation "清澄白河イルマ本校防衛戦を共に戦い抜いた"@ja ;
+    ], [
+        lily:resource <Kusakabe_Murasame> ;
+        lily:additionalInformation "仲が良い"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
