@@ -243,6 +243,9 @@
     ], [
         lily:resource <Kawamura_Yuzuriha> ;
         lily:additionalInformation "御台場迎撃戦で抜群の連携を誇った「カルテット」"@ja ;
+    ], [
+        lily:resource <Kusakabe_Rengetsu> ;
+        lily:additionalInformation "仲が良い"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -617,10 +620,10 @@
         lily:resource <Kusakabe_Murasame> ;
         lily:additionalInformation "双子の妹"@ja ;
     ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Hibino_Waku> ;
+        lily:additionalInformation "仲が良い"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
