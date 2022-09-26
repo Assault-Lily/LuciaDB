@@ -623,6 +623,10 @@
         lily:usedIn "舞台御台場TSA"^^xsd:string ;
         lily:additionalInformation "先行試作機"@ja ;
     ], [
+        lily:resource <Chrysaor> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        lily:additionalInformation "SP"@ja ;
+    ], [
         lily:resource <Yotunschwert> ;
         # lily:usedIn ""^^xsd:string ;
         # lily:additionalInformation ""@ja ;

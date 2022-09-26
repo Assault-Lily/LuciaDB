@@ -455,7 +455,8 @@
     lily:user
         <Hatsukano_Yo>,
         <Ito_Naehi>,
-        <Tiuccia_Paumgartner> ;
+        <Tiuccia_Paumgartner>,
+        <Fujita_Asagao> ;
     a lily:Charm ;
 .
 
