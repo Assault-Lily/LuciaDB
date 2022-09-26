@@ -137,10 +137,10 @@
     # lily:pastTaskforce <> ;
     # lily:roomMate <> ;
     # schema:parent <> ;
-    # schema:sibling [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    schema:sibling [
+        lily:resource <Yokota_Haruna> ;
+        lily:additionalInformation "従姉妹"@ja ;
+    ] ;
     lily:relationship [
         lily:resource <Kon_Kanaho> ;
         lily:additionalInformation "幼馴染"@ja ;
@@ -547,18 +547,22 @@
     # lily:pastTaskforce <> ;
     # lily:roomMate <> ;
     # schema:parent <> ;
-    # schema:sibling [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    schema:sibling [
+        lily:resource <Miyagawa_Takane> ;
+        lily:additionalInformation "従姉妹"@ja ;
+    ] ;
     # lily:relationship [
         # lily:resource <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "船戸ゆり絵"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q97347588>,
+            <http://ja.dbpedia.org/resource/船戸ゆり絵> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
