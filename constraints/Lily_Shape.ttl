@@ -373,8 +373,7 @@
                 WHERE {
                     $this lily:legion ?legion .
                     FILTER NOT EXISTS {
-                        ?legion ?p $this .
-                        FILTER(?p = schema:member || ?p = lily:submember)
+                        ?legion schema:member|lily:submember $this .
                     }
                 }""" ;
         ] ;
@@ -402,8 +401,7 @@
                 WHERE {
                     $this lily:pastLegion ?legion .
                     FILTER NOT EXISTS {
-                        ?legion ?p $this .
-                        FILTER(?p = schema:member || ?p = lily:submember || ?p = schema:alumni)
+                        ?legion schema:member|lily:submember|schema:alumni $this .
                     }
                 }""" ;
         ] ;
@@ -420,8 +418,7 @@
                 WHERE {
                     $this lily:taskforce ?tf .
                     FILTER NOT EXISTS {
-                        ?tf ?p $this .
-                        FILTER(?p = schema:member || ?p = lily:submember)
+                        ?tf schema:member|lily:submember $this .
                     }
                 }""" ;
         ] ;
@@ -438,8 +435,7 @@
                 WHERE {
                     $this lily:pastTaskforce ?tf .
                     FILTER NOT EXISTS {
-                        ?tf ?p $this .
-                        FILTER(?p = schema:member || ?p = lily:submember || ?p = schema:alumni)
+                        ?tf schema:member|lily:submember|schema:alumni $this .
                     }
                 }""" ;
         ] ;
