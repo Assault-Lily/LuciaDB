@@ -1243,3 +1243,14 @@
     lily:additionalInformation "ルドビコ女学院工廠科および瀬戸・ベロニカ・いちかにより開発"@ja ;
     a lily:Charm ;
 .
+
+<Externsteine>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "エクステルシュタイネ"@ja, "Externsteine"@en ;
+    schema:name "エクステルシュタイネ"@ja, "Externsteine"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Hibino_Waku> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
