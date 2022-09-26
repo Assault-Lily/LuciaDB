@@ -625,7 +625,7 @@
     ], [
         lily:resource <Chrysaor> ;
         lily:usedIn "ラスバレ"^^xsd:string ;
-        lily:additionalInformation "SP"@ja ;
+        # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
         # lily:usedIn ""^^xsd:string ;
@@ -1276,7 +1276,8 @@
         lily:resource <Gungnir> ;
         lily:usedIn
             "ドール"^^xsd:string,
-            "舞台TFG"^^xsd:string ;
+            "舞台TFG"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Hrotti> ;
@@ -1686,6 +1687,10 @@
         lily:resource <Ame_No_Habakiri> ;
         # lily:usedIn ""^^xsd:string ;
         lily:additionalInformation "特別開発ユニーク機体"@ja ;
+    ], [
+        lily:resource <Durandal> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
         # lily:usedIn ""^^xsd:string ;

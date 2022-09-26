@@ -145,7 +145,9 @@
         <Yamabuki_Elizabeth_Keito>,
         <Kosaka_Anastasiya_Ryoko>,
         <Funada_Ui>,
-        <Hirose_Minato> ;
+        <Hirose_Minato>,
+        <Takasuga_Tsukushi>,
+        <Banshoya_Ena> ;
     lily:isVariantOf <Gungnir> ;
     a lily:Charm ;
 .
@@ -417,7 +419,8 @@
     schema:manufacturer <Yggdrasill> ;
     lily:user
         <Aizawa_Kazuha>,
-        <Rokkaku_Shiori> ;
+        <Rokkaku_Shiori>,
+        <Matsunaga_Brigitta_Kayo> ;
     a lily:Charm ;
 .
 
@@ -441,7 +444,8 @@
     schema:manufacturer <Hihiirokane_International> ;
     lily:user
         <Watanabe_Akane>,
-        <Iijima_Renka> ;
+        <Iijima_Renka>,
+        <Ito_Shizu> ;
     a lily:Charm ;
 .
 
@@ -456,7 +460,9 @@
         <Hatsukano_Yo>,
         <Ito_Naehi>,
         <Tiuccia_Paumgartner>,
-        <Fujita_Asagao> ;
+        <Fujita_Asagao>,
+        <Tachihara_Sayu>,
+        <Takasuga_Tsukushi> ;
     a lily:Charm ;
 .
 
@@ -509,7 +515,8 @@
     schema:manufacturer <Auniamendi_Systemas> ;
     lily:user
         <Toki_Kureha>,
-        <Yukawa_Mizuki> ;
+        <Yukawa_Mizuki>,
+        <Amamiya_Sofia_Seren> ;
     a lily:Charm ;
 .
 
@@ -538,7 +545,8 @@
     lily:user
         <Sadamori_Himeka>,
         <Uchida_Mayuri>,
-        <Hata_Matsuri> ;
+        <Hata_Matsuri>,
+        <Tsukioka_Momiji> ;
     a lily:Charm ;
 .
 
@@ -1181,7 +1189,7 @@
     lily:generation "3"^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
     schema:manufacturer <Camelot_Castle> ;
-    # lily:user <> ;
+    lily:user <Kanabako_Misora> ;
     lily:additionalInformation "「CHARMエクスカリバー兵装群」プロジェクトによる開発"@ja ;
     a lily:Charm ;
 .

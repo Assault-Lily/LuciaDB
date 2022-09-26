@@ -66,7 +66,7 @@
             "ラスバレ"^^xsd:string,
             "舞台LM"^^xsd:string,
             "舞台 約束の行方 2022"^^xsd:string ;
-        lily:additionalInformation "SP"@ja ;
+        # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Dainsleif_Carbin> ;
         lily:usedIn
@@ -301,9 +301,7 @@
             "ラスバレ"^^xsd:string,
             "舞台LM"^^xsd:string,
             "舞台 約束の行方 2022"^^xsd:string ;
-        lily:additionalInformation
-            "SP"@ja,
-            "姉の形見"@ja ;
+        lily:additionalInformation "姉の形見"@ja ;
     ], [
         lily:resource <Gungnir_Carbin> ;
         lily:usedIn "ドール"^^xsd:string ;
@@ -416,6 +414,10 @@
             "舞台 約束の行方 2022"^^xsd:string,
             "ドール"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Sugaar> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
@@ -524,6 +526,7 @@
         lily:usedIn
             "舞台TFG"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
+            "ラスバレ"^^xsd:string,
             "舞台 約束の行方 2022"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
@@ -1020,6 +1023,10 @@
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
             "舞台 約束の行方 2022"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Blutgang> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;

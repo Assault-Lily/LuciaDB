@@ -381,7 +381,7 @@
             "舞台TFG"^^xsd:string,
             "ラスバレ"^^xsd:string,
             "アニメ"^^xsd:string ;
-        lily:additionalInformation "SP.fumi"@ja ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
@@ -1192,7 +1192,9 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Brionac> ;
-        lily:usedIn "アニメ"^^xsd:string ;
+        lily:usedIn
+            "アニメ"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Aroundight> ;
@@ -1291,6 +1293,14 @@
         # lily:usedIn ""^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
+        lily:resource <Chrysaor> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Gungnir_Carbin> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
         lily:resource <Charlemagne> ;
         # lily:usedIn ""^^xsd:string ;
         # lily:additionalInformation ""@ja ;
@@ -1381,11 +1391,13 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Asterion> ;
-        lily:usedIn "アニメ"^^xsd:string ;
+        lily:usedIn
+            "アニメ"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Marmyadose> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -1469,12 +1481,14 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Gungnir> ;
-        lily:usedIn "アニメ"^^xsd:string ;
+        lily:usedIn
+            "アニメ"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Brionac> ;
         lily:usedIn "ドール"^^xsd:string ;
-        lily:additionalInformation "SP.kusumi"@ja ;
+        # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Ipetam> ;
         # lily:usedIn ""^^xsd:string ;
@@ -1577,13 +1591,16 @@
         lily:resource <Gram> ;
         lily:usedIn
             "ドール"^^xsd:string,
-            "アニメ"^^xsd:string ;
+            "アニメ"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         lily:additionalInformation
             "軽量モデル"@ja,
             "高スペックバスターキャノン搭載"@ja ;
     ], [
         lily:resource <Fragarach> ;
-        lily:usedIn "小説"^^xsd:string ;
+        lily:usedIn
+            "小説"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -1679,7 +1696,13 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Asterion> ;
-        lily:usedIn "アニメ"^^xsd:string ;
+        lily:usedIn
+            "アニメ"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Gungnir_Carbin> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Miming> ;
@@ -1792,7 +1815,7 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Bruncvik> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -1876,7 +1899,11 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Maltet> ;
-        lily:usedIn "アサルトリリィ Last Bullet"^^xsd:string ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Collbrande> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -1972,7 +1999,9 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Tyrfing_type_T> ;
-        lily:usedIn "アニメ"^^xsd:string ;
+        lily:usedIn
+            "アニメ"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -2275,13 +2304,17 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Tyrfing_Prototype> ;
-        lily:usedIn "アニメ"^^xsd:string ;
+        lily:usedIn
+            "アニメ"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         lily:additionalInformation
             "専用機"@ja,
             "ユニーク機体"@ja ;
     ], [
         lily:resource <Charlemagne> ;
-        lily:usedIn "アニメ"^^xsd:string ;
+        lily:usedIn
+            "アニメ"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         lily:additionalInformation "専用機"@ja ;
     ], [
         lily:resource <Blutgang> ;
@@ -4302,11 +4335,11 @@
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Chrysaor> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
     lily:grade "10"^^xsd:integer ;
@@ -5165,6 +5198,10 @@
         lily:resource <Gungnir> ;
         lily:usedIn "アニメ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Bruncvik> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
@@ -5604,7 +5641,9 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Gungnir> ;
-        lily:usedIn "アニメ"^^xsd:string ;
+        lily:usedIn
+            "アニメ"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Durandal> ;
@@ -8308,7 +8347,8 @@
         lily:resource <Asterion> ;
         lily:usedIn
             "アニメ"^^xsd:string,
-            "ドール Ver.1.5"^^xsd:string ;
+            "ドール Ver.1.5"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <First_Generation_Charm> ;
