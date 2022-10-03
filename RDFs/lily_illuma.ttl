@@ -383,16 +383,16 @@
     a lily:Lily ;
 .
 
-<Nakabayashi_Mina>
+<Nakabayashi_Kaina>
     rdfs:label "中林海七"^^xsd:string ;
-    schema:familyName "中林"@ja ; #, ""@en ;
-    # lily:familyNameKana ""@ja ;
+    schema:familyName "中林"@ja, "Nakabayashi"@en ;
+    lily:familyNameKana "なかばやし"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "海七"@ja ; #, ""@en ;
-    # lily:givenNameKana ""@ja ;
-    schema:name "中林海七"@ja ; #, ""@en ;
-    # lily:nameKana ""@ja ;
+    schema:givenName "海七"@ja, "Kaina"@en ;
+    lily:givenNameKana "かいな"@ja ;
+    schema:name "中林海七"@ja, "Nakabayashi Kaina"@en ;
+    lily:nameKana "なかばやしかいな"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -408,7 +408,7 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "円環の御手"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
@@ -434,10 +434,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Miyamoto_Komuku> ;
+        lily:additionalInformation "パートナー"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
@@ -499,6 +499,9 @@
     lily:relationship [
         lily:resource <Tachihara_Sayu> ;
         lily:additionalInformation "紗癒が主催する戦術サロンに参加"@ja ;
+    ], [
+        lily:resource <Nakabayashi_Kaina> ;
+        lily:additionalInformation "パートナー"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
