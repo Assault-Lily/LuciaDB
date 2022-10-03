@@ -896,7 +896,7 @@
     lily:nameKana "うえだいまり"@ja ;
     lily:anotherName "イルミンスールの巫女"@ja ;
     foaf:age "15"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "153.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
