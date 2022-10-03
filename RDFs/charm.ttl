@@ -284,7 +284,8 @@
         <Uchida_Mayuri>,
         <Louloudis_Bromstedt>,
         <Asanaga_Ichigo>,
-        <Ushida_Watsuki> ;
+        <Ushida_Watsuki>,
+        <Yokota_Haruna> ;
     lily:isVariantOf <Tyrfing_Prototype> ;
     schema:isSimilarTo
         <Tyrfing_type_R>,
