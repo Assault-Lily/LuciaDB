@@ -273,7 +273,8 @@
     schema:member
         <Yoshida_Ageha>,
         <Ikeda_Sunao>,
-        <Hidari_Teruka> ;
+        <Hidari_Teruka>,
+        <Ikegami_Oka> ;
     a lily:Legion ;
 .
 
