@@ -331,8 +331,8 @@
     lily:givenNameKana "みやず"@ja ;
     schema:name "比田井美夜受"@ja, "Hidai Miyazu"@en ;
     lily:nameKana "ひだいみやず"@ja ;
-    # lily:anotherName ""@ja ;
-    # foaf:age ""^^xsd:integer ;
+    lily:anotherName "黒い妖精"@ja ;
+    foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
@@ -341,15 +341,15 @@
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    # schema:birthPlace ""@ja, ""@en ;
+    schema:birthPlace "清澄白河"@ja, "Kiyosumi-shirakawa"@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "テスタメント"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted false ;
-    # lily:boostedSkill ""^^xsd:string ;
+    lily:isBoosted true ;
+    lily:boostedSkill "リジェネレーター"^^xsd:string ;
     # lily:charm [
     #    lily:resource <> ;
     #    lily:usedIn ""^^xsd:string ;
@@ -357,7 +357,7 @@
     # ] ;
     lily:garden "イルマ女子美術高校"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
-    # lily:grade ""^^xsd:integer ;
+    lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Illumine_Shines> ;
