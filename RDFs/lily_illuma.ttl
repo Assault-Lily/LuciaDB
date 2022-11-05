@@ -266,7 +266,7 @@
     lily:nameKana "よしいかすみこ"@ja ;
     lily:anotherName "幕張奪還戦の英雄"@ja ;
     foaf:age "17"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "158.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
