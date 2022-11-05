@@ -3156,6 +3156,9 @@
     lily:relationship [
         lily:resource <Niinomi_Nodoka> ;
         lily:additionalInformation "シュッツエンゲル候補"@ja ;
+    ], [
+        lily:resource <Hirabayashi_Natose> ;
+        lily:additionalInformation "仲が良い"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -8936,10 +8939,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Arima_Mitsune> ;
+        lily:additionalInformation "仲が良い"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
