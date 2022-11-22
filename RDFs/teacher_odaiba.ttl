@@ -228,7 +228,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q30926411>,
             <http://ja.dbpedia.org/resource/石原美沙紀> ;
-        lily:performIn <Assault_Lily_Odaiba_The_Empathy_Phenomenon> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Teacher ;

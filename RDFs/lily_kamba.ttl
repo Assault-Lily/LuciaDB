@@ -80,6 +80,14 @@
             <League_of_Gardens>,
             <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "梅原サエリ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q74146771>,
+            <http://ja.dbpedia.org/resource/梅原サエリ> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
 .
@@ -151,6 +159,14 @@
             <https://www.wikidata.org/wiki/Q18990383>,
             <http://ja.dbpedia.org/resource/礒部花凜> ;
         lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "中村裕香里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q60613344>,
+            <http://ja.dbpedia.org/resource/中村裕香里> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

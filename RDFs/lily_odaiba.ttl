@@ -106,7 +106,8 @@
             <Lost_Memories>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Assault_Lily_Last_Bullet>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -205,7 +206,8 @@
             <Lost_Memories>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Assault_Lily_Last_Bullet>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "甲斐千尋"@ja ;
@@ -310,7 +312,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -390,6 +393,14 @@
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "田崎礼奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27918099>,
+            <http://ja.dbpedia.org/resource/田崎礼奈> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -488,7 +499,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -574,7 +586,8 @@
         # lily:resource <> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -672,7 +685,8 @@
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Assault_Lily_Last_Bullet>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -769,7 +783,8 @@
         # lily:resource <> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -868,7 +883,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -970,7 +986,8 @@
             <http://ja.dbpedia.org/resource/栞菜> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1063,7 +1080,8 @@
         lily:resource <https://www.wikidata.org/wiki/Q65272225> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1151,7 +1169,8 @@
         # lily:resource <> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1228,6 +1247,12 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "安藤千伽奈"@ja ;
+        lily:resource <http://ja.dbpedia.org/resource/安藤千伽奈> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1349,7 +1374,8 @@
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Assault_Lily_Last_Bullet>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1436,7 +1462,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1525,6 +1552,13 @@
             <https://www.wikidata.org/wiki/Q11645500>,
             <http://ja.dbpedia.org/resource/野本ほたる> ;
         lily:performIn <Assault_Lily_Odaiba_The_Singular_Ability> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "花奈澪"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q17210554>,
+            <http://ja.dbpedia.org/resource/花奈澪> ;
+        lily:performIn <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1628,7 +1662,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "矢新愛梨"@ja ;
@@ -1745,7 +1780,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Assault_Lily_Last_Bullet>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
