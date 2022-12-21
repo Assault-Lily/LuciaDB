@@ -708,7 +708,7 @@
     lily:givenNameKana "まりも"@ja ;
     schema:name "神郡鞠萠"@ja, "Kamigoori Marimo"@en ;
     lily:nameKana "かみごおりまりも"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "ハコルベランドの女帝"@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -723,8 +723,8 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
-    # lily:subSkill ""^^xsd:string ;
+    lily:rareSkill "レジスタ"^^xsd:string ;
+    lily:subSkill "狂乱の閾"^^xsd:string ;
     lily:isBoosted true ;
     lily:boostedSkill "リジェネレーター"^^xsd:string ;
     # lily:charm [
@@ -739,7 +739,9 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Hacolberand> ;
     lily:legionJobTitle "隊長"^^xsd:string ;
-    lily:position "TZ"^^xsd:string ;
+    lily:position
+        "TZ"^^xsd:string,
+        "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
