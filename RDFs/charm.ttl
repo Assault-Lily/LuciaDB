@@ -1264,3 +1264,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Kamudo_no_Tsurugi>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "カムドノツルギ"@ja, "Kamudo no Tsurugi"@en ;
+    schema:name "カムドノツルギ"@ja, "Kamudo no Tsurugi"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Moroi_Saho> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
