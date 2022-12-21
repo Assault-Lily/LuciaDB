@@ -827,17 +827,17 @@
     a lily:Lily ;
 .
 
-<Hirose_Yuzutsu>
+<Hirotsu_Yuzutsu>
     rdfs:label "廣津夕星"^^xsd:string ;
-    schema:familyName "廣津"@ja, "Hirose"@en ;
-    lily:familyNameKana "ひろせ"@ja ;
+    schema:familyName "廣津"@ja, "Hirotsu"@en ;
+    lily:familyNameKana "ひろつ"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
     schema:givenName "夕星"@ja, "Yuzutsu"@en ;
     lily:givenNameKana "ゆうづつ"@ja ;
-    schema:name "廣津夕星"@ja, "Hirose Yuzutsu"@en ;
-    lily:nameKana "ひろせゆうづつ"@ja ;
-    # lily:anotherName ""@ja ;
+    schema:name "廣津夕星"@ja, "Hirotsu Yuzutsu"@en ;
+    lily:nameKana "ひろつゆうづつ"@ja ;
+    lily:anotherName "THE TOWER"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "176.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -852,7 +852,7 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "カリスマ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
