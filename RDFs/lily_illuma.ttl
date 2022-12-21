@@ -1235,7 +1235,7 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "この世の理"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
@@ -1251,7 +1251,7 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Hacolberand> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    lily:position "AZ"^^xsd:string ;
+    lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
