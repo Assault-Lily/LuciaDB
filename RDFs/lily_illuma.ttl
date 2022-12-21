@@ -878,10 +878,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Ueda_Imari> ;
+        lily:additionalInformation "幼馴染"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
@@ -945,6 +945,9 @@
     lily:relationship [
         lily:resource <Kamigori_Marimo> ;
         lily:additionalInformation "清澄白河イルマ本校防衛戦を共に戦い抜いた"@ja ;
+    ], [
+        lily:resource <Hirotsu_Yuzutsu> ;
+        lily:additionalInformation "幼馴染"@ja ;
     ], [
         lily:resource <Kusakabe_Murasame> ;
         lily:additionalInformation "仲が良い"@ja ;
