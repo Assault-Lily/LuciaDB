@@ -1031,7 +1031,7 @@
     lily:givenNameKana "さほ"@ja ;
     schema:name "諸井佐保"@ja, "Moroi Saho"@en ;
     lily:nameKana "もろいさほ"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "イルマの太陽"@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -1046,7 +1046,7 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "レジスタ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
@@ -1062,7 +1062,10 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Hacolberand> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    lily:position "BZ"^^xsd:string ;
+    lily:position
+        "AZ"^^xsd:string,
+        "TZ"^^xsd:string,
+        "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
