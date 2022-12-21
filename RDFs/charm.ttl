@@ -1275,3 +1275,14 @@
     lily:additionalInformation "天津麻嶺のフラガラッハのデータを援用して開発"@ja ;
     a lily:Charm ;
 .
+
+<Triaina>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "トリアイナ"@ja, "Triaina"@en ;
+    schema:name "トリアイナ"@ja, "Triaina"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Kamigori_Marimo> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
