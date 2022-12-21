@@ -1695,7 +1695,9 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     schema:birthPlace "兵庫県"@ja, "Hyogo"@en ;
-    lily:favorite "果物"@ja ;
+    lily:favorite
+        "果物"@ja,
+        "お笑い"@ja ;
     lily:notGood
         "納豆"@ja,
         "タコ"@ja,
