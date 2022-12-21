@@ -1270,8 +1270,8 @@
     lily:seriesName "カムドノツルギ"@ja, "Kamudo no Tsurugi"@en ;
     schema:name "カムドノツルギ"@ja, "Kamudo no Tsurugi"@en ;
     # lily:generation ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Amatsu_Heavy_Industry> ;
     lily:user <Moroi_Saho> ;
-    # lily:additionalInformation ""@ja ;
+    lily:additionalInformation "天津麻嶺のフラガラッハのデータを援用して開発"@ja ;
     a lily:Charm ;
 .
