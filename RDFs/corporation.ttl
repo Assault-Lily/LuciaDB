@@ -65,6 +65,11 @@
     a lily:Corporation ;
 .
 
+<Larentia_Industry>
+    schema:name "ラレンティアインダストリー社"@ja, "Larentia Industry"@en ;
+    a lily:Corporation ;
+.
+
 <GEHENA>
     schema:name "ゲヘナ"@ja, "GEHENA"@en ;
     a lily:Corporation ;

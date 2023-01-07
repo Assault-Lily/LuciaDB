@@ -1318,3 +1318,14 @@
     lily:additionalInformation "杖型ユニーク機で強化リリィ専用の調整がされている"@ja ;
     a lily:Charm ;
 .
+
+<Kerukeion>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ケーリュケイオン"@ja, "Kerukeion"@en ;
+    schema:name "ケーリュケイオン"@ja, "Kerukeion"@en ;
+    # lily:generation ""^^xsd:integer ;
+    schema:manufacturer <Larentia_Industry> ;
+    lily:user <Tsuzuki_Hisui> ;
+    lily:additionalInformation "杖型ユニーク機"@ja ;
+    a lily:Charm ;
+.
