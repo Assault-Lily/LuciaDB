@@ -1286,3 +1286,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Uppsala>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ウプサラ"@ja, "Uppsala"@en ;
+    schema:name "ウプサラ"@ja, "Uppsala"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Hidai_Miyazu> ;
+    lily:additionalInformation "杖型ユニーク機で強化リリィ専用の調整がされている"@ja ;
+    a lily:Charm ;
+.
