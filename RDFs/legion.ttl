@@ -423,7 +423,7 @@
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded false ;
     # lily:legionGrade ""^^xsd:string ;
-    lily:numberOfMembers "5"^^xsd:integer ;
+    lily:numberOfMembers "4"^^xsd:integer ;
     schema:member
         <Homma_Akehi>,
         <Yokota_Haruna>,
