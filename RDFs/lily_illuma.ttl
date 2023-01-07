@@ -468,7 +468,9 @@
     # schema:birthPlace ""@ja, ""@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
-    lily:hobby_talent "戦術研究"@ja ;
+    lily:hobby_talent
+        "戦術研究"@ja,
+        "料理"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "レジスタ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
