@@ -57,10 +57,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ];
+    lily:relationship [
+        lily:resource <Takamatsu_Shiera> ;
+        lily:additionalInformation "知人"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;

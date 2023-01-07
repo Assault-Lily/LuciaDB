@@ -225,6 +225,9 @@
     ], [
         lily:resource <Chelice_Jacobsen> ;
         lily:additionalInformation "同じ部隊で戦った"@ja ;
+    ], [
+        lily:resource <Shinoda_Mioko> ;
+        lily:additionalInformation "知人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
