@@ -821,10 +821,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Miwada_Rito> ;
+        lily:additionalInformation "親友"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
@@ -956,6 +956,9 @@
     ], [
         lily:resource <Kusakabe_Murasame> ;
         lily:additionalInformation "仲が良い"@ja ;
+    ], [
+        lily:resource <Miwada_Rito> ;
+        lily:additionalInformation "ライバル"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -1101,7 +1104,7 @@
     lily:givenNameKana "りと"@ja ;
     schema:name "三輪田俐翔"@ja, "Miwada Rito"@en ;
     lily:nameKana "みわだりと"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "イルマの矢"@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -1116,8 +1119,10 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
-    # lily:subSkill ""^^xsd:string ;
+    lily:rareSkill "縮地"^^xsd:string ;
+    lily:subSkill
+        "軍神の加護"^^xsd:string,
+        "Whole order"^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
     # lily:charm [
@@ -1142,10 +1147,13 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Ueda_Imari> ;
+        lily:additionalInformation "ライバル"@ja ;
+    ], [
+        lily:resource <Higashikuze_Tokuko> ;
+        lily:additionalInformation "親友"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
