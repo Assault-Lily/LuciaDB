@@ -28,7 +28,7 @@
     # schema:birthPlace ""@ja, ""@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent "ピアノ"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "縮地"^^xsd:string ;
     # lily:subSkill ""^^xsd:string;
