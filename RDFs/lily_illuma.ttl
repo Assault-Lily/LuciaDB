@@ -313,6 +313,9 @@
     ], [
         lily:resource <Maruyama_Amane> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Ishizuka_Fujino> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;

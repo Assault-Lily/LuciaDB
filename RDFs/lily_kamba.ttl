@@ -703,10 +703,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Yoshii_Kasumiko> ;
+        lily:additionalInformation "友人"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
