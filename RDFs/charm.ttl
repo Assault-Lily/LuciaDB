@@ -265,7 +265,8 @@
     lily:hasVariant
         <Tyrfing_type_T>,
         <Tyrfing_type_R>,
-        <Tyrfing_Custom> ;
+        <Tyrfing_Custom>,
+        <Lichtbringer> ;
     a lily:Charm ;
 .
 
@@ -289,7 +290,8 @@
     lily:isVariantOf <Tyrfing_Prototype> ;
     schema:isSimilarTo
         <Tyrfing_type_R>,
-        <Tyrfing_Custom> ;
+        <Tyrfing_Custom>,
+        <Lichtbringer> ;
     a lily:Charm ;
 .
 
@@ -309,7 +311,8 @@
     lily:isVariantOf <Tyrfing_Prototype> ;
     schema:isSimilarTo
         <Tyrfing_type_T>,
-        <Tyrfing_Custom> ;
+        <Tyrfing_Custom>,
+        <Lichtbringer> ;
     a lily:Charm ;
 .
 
@@ -324,8 +327,26 @@
     lily:isVariantOf <Tyrfing_Prototype> ;
     schema:isSimilarTo
         <Tyrfing_type_T>,
-        <Tyrfing_type_R> ;
+        <Tyrfing_type_R>,
+        <Lichtbringer> ;
     lily:additionalInformation "寒冷地仕様"@ja ;
+    a lily:Charm ;
+.
+
+<Lichtbringer>
+    schema:productID "AC-17"^^xsd:string ;
+    lily:seriesName "ティルフィング"@ja, "Tyrfing"@en ;
+    schema:name "リヒトブリンガー"@ja, "Lichtbringer"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Tejima_Komachi> ;
+    lily:isVariantOf <Tyrfing_Prototype> ;
+    schema:isSimilarTo
+        <Tyrfing_type_T>,
+        <Tyrfing_type_R>,
+        <Tyrfing_Custom> ;
+    lily:additionalInformation "ティルフィングベースの完全換装機"@ja ;
     a lily:Charm ;
 .
 
