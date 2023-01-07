@@ -15,9 +15,9 @@
     lily:givenNameKana "みおこ"@ja ;
     schema:name "篠田澪瑚"@ja, "Shinoda Mioko"@en ;
     lily:nameKana "しのだみおこ"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "レイヴン"@ja ;
     # foaf:age ""^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "160.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
@@ -30,7 +30,7 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "縮地"^^xsd:string ;
     # lily:subSkill ""^^xsd:string;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
