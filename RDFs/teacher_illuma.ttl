@@ -61,9 +61,13 @@
         lily:resource <Takamatsu_Shiera> ;
         lily:additionalInformation "知人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "MoeMi"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11465532>,
+            <http://ja.dbpedia.org/resource/MoeMi> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Teacher ;
 .

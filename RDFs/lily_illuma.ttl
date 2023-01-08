@@ -80,10 +80,14 @@
             "元「イルマ四天王」"@ja,
             "友人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "佐藤遥"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27918100>,
+            <http://ja.dbpedia.org/resource/佐藤遥> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -157,10 +161,14 @@
             "元「イルマ四天王」"@ja,
             "幼馴染"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "熊沢世莉奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q60806778>,
+            <http://ja.dbpedia.org/resource/熊沢世莉奈> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -247,10 +255,14 @@
         lily:resource <Kusakabe_Rengetsu> ;
         lily:additionalInformation "仲が良い"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "髙橋彩音"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q60796806>,
+            <http://ja.dbpedia.org/resource/髙橋彩音> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -317,10 +329,14 @@
         lily:resource <Ishizuka_Fujino> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "遥りさ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q95162327>,
+            <http://ja.dbpedia.org/resource/遥りさ> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -379,10 +395,12 @@
         lily:resource <Tsuzuki_Hisui> ;
         lily:additionalInformation "仲が悪い"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "西田奈未"@ja ;
+        # lily:resource <> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -441,10 +459,14 @@
         lily:resource <Miyamoto_Komuku> ;
         lily:additionalInformation "パートナー"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "鵜川もえか"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q104538909>,
+            <http://ja.dbpedia.org/resource/鵜川もえか> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -508,10 +530,14 @@
         lily:resource <Nakabayashi_Kaina> ;
         lily:additionalInformation "パートナー"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "松田彩希"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24865341>,
+            <http://ja.dbpedia.org/resource/松田彩希> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -632,10 +658,14 @@
         lily:resource <Hibino_Waku> ;
         lily:additionalInformation "仲が良い"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "坂口渚沙"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q30945761>,
+            <http://ja.dbpedia.org/resource/坂口渚沙> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -694,10 +724,12 @@
         lily:resource <Ueda_Imari> ;
         lily:additionalInformation "仲が良い"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "結木ことは"@ja ;
+        # lily:resource <> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -763,10 +795,14 @@
         lily:resource <Ueda_Imari> ;
         lily:additionalInformation "清澄白河イルマ本校防衛戦を共に戦い抜いた"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "佐々木優佳里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q16097304>,
+            <http://ja.dbpedia.org/resource/佐々木優佳里> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -825,10 +861,14 @@
         lily:resource <Miwada_Rito> ;
         lily:additionalInformation "親友"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "集貝はな"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q74548472>,
+            <http://ja.dbpedia.org/resource/集貝はな> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -887,10 +927,12 @@
         lily:resource <Ueda_Imari> ;
         lily:additionalInformation "幼馴染"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "陽高真白"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q115529746> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -960,10 +1002,14 @@
         lily:resource <Miwada_Rito> ;
         lily:additionalInformation "ライバル"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "北澤早紀"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q28418874>,
+            <http://ja.dbpedia.org/resource/北澤早紀> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -1022,10 +1068,14 @@
         lily:resource <Hidai_Miyazu> ;
         lily:additionalInformation "仲が悪い"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "矢新愛梨"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q111113483>,
+            <http://ja.dbpedia.org/resource/矢新愛梨> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -1087,10 +1137,14 @@
         lily:resource <Ichinomiya_Michaela_Himari> ;
         lily:additionalInformation "同志"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "朝倉ふゆな"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11517262>,
+            <http://ja.dbpedia.org/resource/朝倉ふゆな> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -1154,10 +1208,14 @@
         lily:resource <Higashikuze_Tokuko> ;
         lily:additionalInformation "親友"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "小松穂葉"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24867742>,
+            <http://ja.dbpedia.org/resource/小松穂葉> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -1216,10 +1274,12 @@
         lily:resource <Tashiro_Ayumu> ;
         lily:additionalInformation "仲が良い"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "斎藤愛莉"@ja ;
+        # lily:resource <> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -1280,9 +1340,13 @@
         lily:resource <Tsujimoto_Yunagi> ;
         lily:additionalInformation "仲が良い"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "熊田茜音"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q59072330>,
+            <http://ja.dbpedia.org/resource/熊田茜音> ;
+        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .

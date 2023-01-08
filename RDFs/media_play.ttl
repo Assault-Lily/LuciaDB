@@ -2795,3 +2795,175 @@
     ] ;
     a lily:Play ;
 .
+
+<Assault_Lily_Illuma_Girls_High_School_Of_Arts>
+    lily:genre "舞台"@ja ;
+    schema:name "アサルトリリィ・イルマ女子美術高校"@ja ;
+    schema:alternateName "イルマ舞台"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:location "かめありリリオホール"^^xsd:string ;
+    schema:startDate "2023-04-13"^^xsd:date ;
+    schema:endDate "2023-04-19"^^xsd:date ;
+    # schema:duration ""^^xsd:duration ;
+    lily:showTime
+        "2023-04-13T19:00:00+09:00"^^xsd:dateTime,
+        "2023-04-14T19:00:00+09:00"^^xsd:dateTime,
+        "2023-04-15T13:00:00+09:00"^^xsd:dateTime,
+        "2023-04-15T18:00:00+09:00"^^xsd:dateTime,
+        "2023-04-16T13:00:00+09:00"^^xsd:dateTime,
+        "2023-04-16T18:00:00+09:00"^^xsd:dateTime,
+        "2023-04-18T19:00:00+09:00"^^xsd:dateTime,
+        "2023-04-19T15:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
+    # lily:additionalInformation ""@ja ;
+    # schema:abstract ""@ja ;
+    lily:originalAuthor "尾花沢軒栄"@ja ;
+    # lily:supervisor ""@ja ;
+    # lily:executiveProducer ""@ja ;
+    lily:producer "林修司"@ja ;
+    lily:scenarioWriter "桜木さやか"@ja ;
+    lily:episodeDirection "田邊俊喜"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:planning "ピウス"@ja ;
+    lily:production "ピウス"@ja ;
+    # lily:contributor ""@ja ;
+    # lily:cooperation ""@ja ;
+    lily:organizer
+        "ピウス"@ja,
+        "アゾンインターナショナル"@ja,
+        "acus"@ja ;
+    lily:cast [
+        schema:name "北澤早紀"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q28418874>,
+            <http://ja.dbpedia.org/resource/北澤早紀> ;
+        lily:performAs <Ueda_Imari> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "佐々木優佳里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q16097304>,
+            <http://ja.dbpedia.org/resource/佐々木優佳里> ;
+        lily:performAs <Kamigori_Marimo> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "朝倉ふゆな"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11517262>,
+            <http://ja.dbpedia.org/resource/朝倉ふゆな> ;
+        lily:performAs <Moroi_Saho> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "集貝はな"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q74548472>,
+            <http://ja.dbpedia.org/resource/集貝はな> ;
+        lily:performAs <Higashikuze_Tokuko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "矢新愛梨"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q111113483>,
+            <http://ja.dbpedia.org/resource/矢新愛梨> ;
+        lily:performAs <Tsuzuki_Hisui> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "陽高真白"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q115529746> ;
+        lily:performAs <Hirotsu_Yuzutsu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "小松穂葉"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24867742>,
+            <http://ja.dbpedia.org/resource/小松穂葉> ;
+        lily:performAs <Miwada_Rito> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "斎藤愛莉"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Tsujimoto_Yunagi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "熊田茜音"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q59072330>,
+            <http://ja.dbpedia.org/resource/熊田茜音> ;
+        lily:performAs <Tashiro_Ayumu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "佐藤遥"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27918100>,
+            <http://ja.dbpedia.org/resource/佐藤遥> ;
+        lily:performAs <Nishikawa_Miharu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "熊沢世莉奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q60806778>,
+            <http://ja.dbpedia.org/resource/熊沢世莉奈> ;
+        lily:performAs <Tejima_Komachi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "髙橋彩音"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q60796806>,
+            <http://ja.dbpedia.org/resource/髙橋彩音> ;
+        lily:performAs <Hibino_Waku> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "坂口渚沙"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q30945761>,
+            <http://ja.dbpedia.org/resource/坂口渚沙> ;
+        lily:performAs <Kusakabe_Rengetsu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "結木ことは"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Kusakabe_Murasame> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "松田彩希"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24865341>,
+            <http://ja.dbpedia.org/resource/松田彩希> ;
+        lily:performAs <Miyamoto_Komuku> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "西田奈未"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Hidai_Miyazu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "鵜川もえか"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q104538909>,
+            <http://ja.dbpedia.org/resource/鵜川もえか> ;
+        lily:performAs <Nakabayashi_Kaina> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "遥りさ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q95162327>,
+            <http://ja.dbpedia.org/resource/遥りさ> ;
+        lily:performAs <Yoshii_Kasumiko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "MoeMi"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11465532>,
+            <http://ja.dbpedia.org/resource/MoeMi> ;
+        lily:performAs <Shinoda_Mioko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "西本りみ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24902567>,
+            <http://ja.dbpedia.org/resource/西本りみ> ;
+        lily:performAs <Ichinomiya_Michaela_Himari> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Play ;
+.
