@@ -403,6 +403,22 @@
     a lily:Charm ;
 .
 
+<Minotauromaquia>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "アステリオン"@ja, "Asterion"@en ;
+    schema:name "ミノタウロマキア"@ja, "Minotauromaquia"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user
+        <Kusakabe_Murasame>,
+        <Kusakabe_Rengetsu> ;
+    lily:isVariantOf <Asterion> ;
+    # schema:isSimilarTo <> ;
+    lily:additionalInformation "アステリオンの再設計機"@ja ;
+    a lily:Charm ;
+.
+
 <Njolnir>
     # schema:productID ""^^xsd:string ;
     lily:seriesName "ニョルニール"@ja, "Njolnir"@en ;
