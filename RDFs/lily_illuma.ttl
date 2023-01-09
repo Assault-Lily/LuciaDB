@@ -114,7 +114,9 @@
     # schema:birthPlace ""@ja, ""@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
-    lily:hobby_talent "服飾"@ja ;
+    lily:hobby_talent
+        "服飾"@ja,
+        "ギター"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
