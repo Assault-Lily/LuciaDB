@@ -194,7 +194,7 @@
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
+    lily:notGood "片付け"@ja ;
     lily:hobby_talent "絵画"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ファンタズム"^^xsd:string ;
