@@ -224,6 +224,18 @@
     a lily:Charm ;
 .
 
+<Hjadningavig>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ダインスレイフ"@ja, "Dainsleif"@en ;
+    schema:name "ヒャズニンガヴィーグ"@ja, "Hjaðningavíg"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Nakabayashi_Kaina> ;
+    lily:isVariantOf <Dainsleif> ;
+    a lily:Charm ;
+.
+
 <Brionac>
     schema:productID "AC-21"^^xsd:string ;
     lily:seriesName "ブリューナク"@ja, "Brionac"@en ;
@@ -798,7 +810,8 @@
     lily:user
         <Rokkaku_Shiori>,
         <Fukuyama_Jeanne_Sachie>,
-        <Takasuga_Tsukushi> ;
+        <Takasuga_Tsukushi>,
+        <Nakabayashi_Kaina> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
