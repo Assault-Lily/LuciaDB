@@ -419,6 +419,20 @@
     a lily:Charm ;
 .
 
+<Canes_Venatici>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "アステリオン"@ja, "Asterion"@en ;
+    schema:name "カネスベナチシ"@ja, "Canes Venatici"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Miyamoto_Komuku> ;
+    lily:isVariantOf <Asterion> ;
+    # schema:isSimilarTo <> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
 <Njolnir>
     # schema:productID ""^^xsd:string ;
     lily:seriesName "ニョルニール"@ja, "Njolnir"@en ;
