@@ -1768,6 +1768,9 @@
     ], [
         lily:resource <Otake_Sunao> ;
         lily:additionalInformation "慕われている"@ja ;
+    ], [
+        lily:resource <Furuta_Yae> ;
+        lily:additionalInformation "旧知の友人"@ja ;
     ] ;
     lily:cast [
         schema:name "夏目愛海"@ja ;
