@@ -116,7 +116,8 @@
     # lily:notGood ""@ja ;
     lily:hobby_talent
         "服飾"@ja,
-        "ギター"@ja ;
+        "ギター"@ja,
+        "掃除"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
