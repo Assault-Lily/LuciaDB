@@ -541,7 +541,7 @@
     lily:nameKana "みやいりふぶき"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "17"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "164.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     schema:birthDate "--05-17"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
