@@ -3382,6 +3382,9 @@
     ], [
         lily:resource <Yanagisawa_Ayako> ;
         lily:additionalInformation "推しリリィ"@ja ;
+    ], [
+        lily:resource <Takeda_Mimi> ;
+        lily:additionalInformation "仲が悪い"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -6244,6 +6247,9 @@
         lily:additionalInformation
             "いつも喧嘩"@ja,
             "戦闘では誰よりも息が合う"@ja ;
+    ], [
+        lily:resource <Yamanashi_Hibari> ;
+        lily:additionalInformation "仲が悪い"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
