@@ -1545,3 +1545,701 @@
     schema:inAlbum <Schwester_No_Inori_Original_Sound_Track> ;
     a lily:Music ;
 .
+
+<Schwester_No_Himitsu_Original_Sound_Track>
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "アサルトリリィ×私立ルドビコ女学院 シュベスターの秘密 Original Sound Track"@ja ;
+    lily:additionalInformation "舞台アサルトリリィ×私立ルドビコ女学院『シュベスターの秘密』のオリジナルサウンドトラック"@ja ;
+    lily:musicProducer "谷ナオキ"@ja ;
+    lily:artist "アサルトリリィ×私立ルドビコ女学院"@ja ;
+    lily:recordLabel "アゾンインターナショナル"@ja ;
+    lily:format "アルバム"@ja ;
+    schema:datePublished "2022-09-08"^^xsd:date ;
+    schema:numTracks "21"^^xsd:integer ;
+    schema:timeRequired "PT72M52S"^^xsd:duration ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Schwester_No_Himitsu> ;
+    ], [
+        lily:listOrder "2"^^xsd:integer ;
+        lily:song <SoundTrack_Raimu_Wa_Donna_Lily_Ni_Naritai> ;
+    ], [
+        lily:listOrder "3"^^xsd:integer ;
+        lily:song <SoundTrack_Tachibana_Theresia_Nagisa> ;
+    ], [
+        lily:listOrder "4"^^xsd:integer ;
+        lily:song <SoundTrack_Fuon_Na_Tatakai> ;
+    ], [
+        lily:listOrder "5"^^xsd:integer ;
+        lily:song <SoundTrack_Matteite_Kure_Karen> ;
+    ], [
+        lily:listOrder "6"^^xsd:integer ;
+        lily:song <SoundTrack_Tachi_Fusagaru_Mirai> ;
+    ], [
+        lily:listOrder "7"^^xsd:integer ;
+        lily:song <SoundTrack_Watashi_Wa_Mou> ;
+    ], [
+        lily:listOrder "8"^^xsd:integer ;
+        lily:song <SoundTrack_Kayo_To_Kokoro> ;
+    ], [
+        lily:listOrder "9"^^xsd:integer ;
+        lily:song <SoundTrack_Ninja_De_Gozaru> ;
+    ], [
+        lily:listOrder "10"^^xsd:integer ;
+        lily:song <SoundTrack_Brave_To_Lunatic_Trancer> ;
+    ], [
+        lily:listOrder "11"^^xsd:integer ;
+        lily:song <SoundTrack_Kyoujin> ;
+    ], [
+        lily:listOrder "12"^^xsd:integer ;
+        lily:song <SoundTrack_Kakugo> ;
+    ], [
+        lily:listOrder "13"^^xsd:integer ;
+        lily:song <SoundTrack_Sayonara_Oneechan> ;
+    ], [
+        lily:listOrder "14"^^xsd:integer ;
+        lily:song <SoundTrack_Tsugi_Wa_Mae_Wo_Muite> ;
+    ], [
+        lily:listOrder "15"^^xsd:integer ;
+        lily:song <Song_Schwester_No_Chikai> ;
+    ], [
+        lily:listOrder "16"^^xsd:integer ;
+        lily:song <Song_Shinnai> ;
+    ], [
+        lily:listOrder "17"^^xsd:integer ;
+        lily:song <Song_Wagamama_Ludojo_Ver> ;
+    ], [
+        lily:listOrder "18"^^xsd:integer ;
+        lily:song <SoundTrack_Schwester_No_Himitsu_Instrumental> ;
+    ], [
+        lily:listOrder "19"^^xsd:integer ;
+        lily:song <SoundTrack_Schwester_No_Chikai_Instrumental> ;
+    ], [
+        lily:listOrder "20"^^xsd:integer ;
+        lily:song <SoundTrack_Shinnai_Instrumental> ;
+    ], [
+        lily:listOrder "21"^^xsd:integer ;
+        lily:song <SoundTrack_Wagamama_Ludojo_Ver_Instrumental> ;
+    ] ;
+    a lily:MusicAlbum ;
+.
+
+<Song_Schwester_No_Himitsu>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "シュベスターの秘密"@ja ;
+    lily:lyricist "谷ナオキ"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    lily:additionalInformation "舞台アサルトリリィ×私立ルドビコ女学院『シュベスターの秘密 2021』の主題歌"@ja ;
+    schema:duration "PT4M6S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    lily:singer [
+        lily:cast [
+            schema:name "宮瀬玲奈"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q56556209> ;
+            lily:performAs <Kishimoto_Lucia_Raimu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Amamiya_Sofia_Seren> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "中村裕香里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60613344> ;
+            lily:performAs <Fukuyama_Jeanne_Sachie> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "あわつまい"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q56253675> ;
+            lily:performAs <Kishimoto_Lucia_Raimu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Ichinomiya_Michaela_Himari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "大滝紗緒里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989916> ;
+            lily:performAs <Matsunaga_Brigitta_Kayo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "七海とろろ"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Seto_Veronica_Ichika> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石井陽菜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18817351>,
+                <http://ja.dbpedia.org/resource/石井陽菜> ;
+            lily:performAs <Tachibana_Theresia_Nagisa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "梅原サエリ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q74146771> ;
+            lily:performAs <Kuroki_Francisca_Yuria> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "清水凜"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q105704315> ;
+            lily:performAs <Sano_Matilda_Kokoro> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "一本鎗希華"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q98757922> ;
+            lily:performAs <Narumi_Clara_Yuko> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩倉あずさ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q96715454> ;
+            lily:performAs <Hanaoka_Angela_Moe> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "小菅怜衣"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Saeki_Julia_Karen> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西田有愛"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Hasegawa_Gabriela_Tsugumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "沖あすか"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Nagase_Marta_Nonoka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "山﨑悠稀"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Hojo_Monica_Asahi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "湯田陽花"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Haneda_Catalina_Mei> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "武藤志織"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q17217245>,
+                <http://ja.dbpedia.org/resource/武藤志織> ;
+            lily:performAs <Amatsu_Marei> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "楠世蓮"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q11541155>,
+                <http://ja.dbpedia.org/resource/楠世蓮> ;
+            lily:performAs <Izumi_Rosa_Rina> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠藤三貴"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q55177725>,
+                <http://ja.dbpedia.org/resource/遠藤三貴> ;
+            lily:performAs <Kosaka_Anastasiya_Ryoko> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<SoundTrack_Raimu_Wa_Donna_Lily_Ni_Naritai>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "来夢はどんなリリィになりたい？"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT4M5S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Tachibana_Theresia_Nagisa>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "立花・テレジア・渚"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT1M44S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Fuon_Na_Tatakai>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "不穏な戦い"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT5M13S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Matteite_Kure_Karen>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "待っていてくれ、花蓮"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT2M13S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Tachi_Fusagaru_Mirai>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "立ち塞がる未来"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT1M32S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Watashi_Wa_Mou>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "私はもう..."@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT3M9S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Kayo_To_Kokoro>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "佳世とこころ"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT2M13S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Ninja_De_Gozaru>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "忍者でござる！"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT1M35S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Brave_To_Lunatic_Trancer>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "ブレイブとルナティックトランサー"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT2M48S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Kyoujin>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "狂刃"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT2M43S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Kakugo>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "覚悟"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT3M39S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Sayonara_Oneechan>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "さよなら、お姉ちゃん"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT4M17S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Tsugi_Wa_Mae_Wo_Muite>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "次は前を向いて"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT2M37S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<Song_Schwester_No_Chikai>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "シュベスターの誓い"@ja ;
+    lily:lyricist "谷ナオキ"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT3M48S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    lily:singer [
+        lily:cast [
+            schema:name "宮瀬玲奈"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q56556209> ;
+            lily:performAs <Kishimoto_Lucia_Raimu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Amamiya_Sofia_Seren> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "中村裕香里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60613344> ;
+            lily:performAs <Fukuyama_Jeanne_Sachie> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Ichinomiya_Michaela_Himari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "大滝紗緒里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989916> ;
+            lily:performAs <Matsunaga_Brigitta_Kayo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "七海とろろ"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Seto_Veronica_Ichika> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石井陽菜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18817351>,
+                <http://ja.dbpedia.org/resource/石井陽菜> ;
+            lily:performAs <Tachibana_Theresia_Nagisa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "梅原サエリ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q74146771> ;
+            lily:performAs <Kuroki_Francisca_Yuria> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "清水凜"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q105704315> ;
+            lily:performAs <Sano_Matilda_Kokoro> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "一本鎗希華"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q98757922> ;
+            lily:performAs <Narumi_Clara_Yuko> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩倉あずさ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q96715454> ;
+            lily:performAs <Hanaoka_Angela_Moe> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "小菅怜衣"@ja ;
+            # lily:resource <> ;
+            lily:performAs
+                <Saeki_Julia_Karen>,
+                <Fukushima_Ritsu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西田有愛"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Hasegawa_Gabriela_Tsugumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "沖あすか"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Nagase_Marta_Nonoka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "山﨑悠稀"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Hojo_Monica_Asahi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "湯田陽花"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Haneda_Catalina_Mei> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "甲斐千尋"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q59134848>,
+                <http://ja.dbpedia.org/resource/甲斐千尋> ;
+            lily:performAs <Takatori_Natalie_Towa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "白城もえの"@ja ;
+            # lily:resource <>;
+            lily:performAs <Lee_Christina_Susu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠藤三貴"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q55177725>,
+                <http://ja.dbpedia.org/resource/遠藤三貴> ;
+            lily:performAs
+                <Kosaka_Anastasiya_Ryoko>,
+                <Kifuji_Suzu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "林千浪"@ja ;
+            # lily:resource <>;
+            lily:performAs <Makabe_Melania_Sayoko> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "楠世蓮"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q11541155>,
+                <http://ja.dbpedia.org/resource/楠世蓮> ;
+            lily:performAs <Izumi_Rosa_Rina> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<Song_Shinnai>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "親哀"@ja ;
+    lily:lyricist "谷ナオキ"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT5M"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    lily:singer [
+        lily:cast [
+            schema:name "中村裕香里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60613344> ;
+            lily:performAs <Fukuyama_Jeanne_Sachie> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "七海とろろ"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Seto_Veronica_Ichika> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<Song_Wagamama_Ludojo_Ver>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "わがまま〜ルド女ver.～"@ja ;
+    lily:lyricist "谷ナオキ"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT4M39S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    lily:singer [
+        lily:cast [
+            schema:name "宮瀬玲奈"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q56556209> ;
+            lily:performAs <Kishimoto_Lucia_Raimu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Amamiya_Sofia_Seren> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "中村裕香里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60613344> ;
+            lily:performAs <Fukuyama_Jeanne_Sachie> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Ichinomiya_Michaela_Himari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "大滝紗緒里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989916> ;
+            lily:performAs <Matsunaga_Brigitta_Kayo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "七海とろろ"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Seto_Veronica_Ichika> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石井陽菜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18817351>,
+                <http://ja.dbpedia.org/resource/石井陽菜> ;
+            lily:performAs <Tachibana_Theresia_Nagisa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "梅原サエリ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q74146771> ;
+            lily:performAs <Kuroki_Francisca_Yuria> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "清水凜"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q105704315> ;
+            lily:performAs <Sano_Matilda_Kokoro> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "一本鎗希華"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q98757922> ;
+            lily:performAs <Narumi_Clara_Yuko> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩倉あずさ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q96715454> ;
+            lily:performAs <Hanaoka_Angela_Moe> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "小菅怜衣"@ja ;
+            # lily:resource <> ;
+            lily:performAs
+                <Saeki_Julia_Karen>,
+                <Fukushima_Ritsu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西田有愛"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Hasegawa_Gabriela_Tsugumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "沖あすか"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Nagase_Marta_Nonoka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "山﨑悠稀"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Hojo_Monica_Asahi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "湯田陽花"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Haneda_Catalina_Mei> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "甲斐千尋"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q59134848>,
+                <http://ja.dbpedia.org/resource/甲斐千尋> ;
+            lily:performAs <Takatori_Natalie_Towa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "白城もえの"@ja ;
+            # lily:resource <>;
+            lily:performAs <Lee_Christina_Susu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠藤三貴"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q55177725>,
+                <http://ja.dbpedia.org/resource/遠藤三貴> ;
+            lily:performAs
+                <Kosaka_Anastasiya_Ryoko>,
+                <Kifuji_Suzu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "林千浪"@ja ;
+            # lily:resource <>;
+            lily:performAs <Makabe_Melania_Sayoko> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "楠世蓮"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q11541155>,
+                <http://ja.dbpedia.org/resource/楠世蓮> ;
+            lily:performAs <Izumi_Rosa_Rina> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<SoundTrack_Schwester_No_Himitsu_Instrumental>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "シュベスターの秘密-instrumental-"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT4M6S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Schwester_No_Chikai_Instrumental>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "シュベスターの誓い-instrumental-"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT3M48S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Shinnai_Instrumental>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "親哀-instrumental-"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT5M"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Wagamama_Ludojo_Ver_Instrumental>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "わがまま〜ルド女ver.〜-instrumental-"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT4M37S"^^xsd:duration ;
+    schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
+    a lily:Music ;
+.
