@@ -645,10 +645,14 @@
         # lily:resource <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "石見舞菜香"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q29479266>,
+            <http://ja.dbpedia.org/resource/石見舞菜香> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -707,9 +711,13 @@
         lily:resource <Yoshii_Kasumiko> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "伊達さゆり"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q104181268>,
+            <http://ja.dbpedia.org/resource/伊達さゆり> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
