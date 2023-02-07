@@ -473,7 +473,8 @@
     lily:submember
         <Otake_Sunao>,
         <Maruyama_Amane>,
-        <Uemura_Warabi> ;
+        <Uemura_Warabi>,
+        <Ito_Urara> ;
     schema:alumni
         <Nagasawa_Yuki> ;
     a lily:Legion ;
