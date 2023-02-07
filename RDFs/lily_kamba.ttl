@@ -480,7 +480,7 @@
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ヘリオスフィア"^^xsd:string ;
-    # lily:subSkill ""^^xsd:string ;
+    lily:subSkill "軍神の加護"^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
     # lily:charm [
