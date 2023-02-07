@@ -1546,6 +1546,573 @@
     a lily:Music ;
 .
 
+<Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track>
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "舞台アサルトリリィ 御台場女学校編 The Singlular Ability -Original Sound Track-"@ja ;
+    lily:additionalInformation "舞台アサルトリリィ・御台場女学校編 『The Singular Ability』のオリジナルサウンドトラック"@ja ;
+    lily:musicProducer "谷ナオキ"@ja ;
+    lily:artist "御台場女学校"@ja ;
+    lily:recordLabel "アゾンインターナショナル"@ja ;
+    lily:format "アルバム"@ja ;
+    schema:datePublished "2022-02-17"^^xsd:date ;
+    schema:numTracks "24"^^xsd:integer ;
+    schema:timeRequired "PT61M29S"^^xsd:duration ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Senaka_Wo_Awasete> ;
+    ], [
+        lily:listOrder "2"^^xsd:integer ;
+        lily:song <SoundTrack_Bu_No_Garden> ;
+    ], [
+        lily:listOrder "3"^^xsd:integer ;
+        lily:song <SoundTrack_Tomoyo_Sensei> ;
+    ], [
+        lily:listOrder "4"^^xsd:integer ;
+        lily:song <SoundTrack_Heorot_Saints_No_Menmen> ;
+    ], [
+        lily:listOrder "5"^^xsd:integer ;
+        lily:song <SoundTrack_Huge_Sen_Nearly_Equal_Game> ;
+    ], [
+        lily:listOrder "6"^^xsd:integer ;
+        lily:song <SoundTrack_Fuon_Na_Kuuki> ;
+    ], [
+        lily:listOrder "7"^^xsd:integer ;
+        lily:song <SoundTrack_Anata_Wa_Anata_Yo> ;
+    ], [
+        lily:listOrder "8"^^xsd:integer ;
+        lily:song <SoundTrack_Ronesunesunesu> ;
+    ], [
+        lily:listOrder "9"^^xsd:integer ;
+        lily:song <SoundTrack_Game_Nearly_Equal_Huge_Sen> ;
+    ], [
+        lily:listOrder "10"^^xsd:integer ;
+        lily:song <SoundTrack_Sakumi> ;
+    ], [
+        lily:listOrder "11"^^xsd:integer ;
+        lily:song <SoundTrack_Fujimibashi_No_Kioku> ;
+    ], [
+        lily:listOrder "12"^^xsd:integer ;
+        lily:song <SoundTrack_Saints_Wa_Sagarinasai> ;
+    ], [
+        lily:listOrder "13"^^xsd:integer ;
+        lily:song <SoundTrack_Kamiyadori> ;
+    ], [
+        lily:listOrder "14"^^xsd:integer ;
+        lily:song <SoundTrack_Haru_To_Fujimibashi> ;
+    ], [
+        lily:listOrder "15"^^xsd:integer ;
+        lily:song <SoundTrack_Hitori_No_Gisei_Mo_Dashite_Wa_Ikemasen_Wa> ;
+    ], [
+        lily:listOrder "16"^^xsd:integer ;
+        lily:song <SoundTrack_Goudou_Neun_Welt_Senjutsu> ;
+    ], [
+        lily:listOrder "17"^^xsd:integer ;
+        lily:song <SoundTrack_Funada_Yobitai> ;
+    ], [
+        lily:listOrder "18"^^xsd:integer ;
+        lily:song <SoundTrack_Haru_To_Sakumi> ;
+    ], [
+        lily:listOrder "19"^^xsd:integer ;
+        lily:song <SoundTrack_Funada_Shimai_Vs_Kamiyadori_Haru> ;
+    ], [
+        lily:listOrder "20"^^xsd:integer ;
+        lily:song <SoundTrack_Nani_Ga_Okotte_Iruno> ;
+    ], [
+        lily:listOrder "21"^^xsd:integer ;
+        lily:song <SoundTrack_Neun_Welt_Senjutsu_Kaishi> ;
+    ], [
+        lily:listOrder "22"^^xsd:integer ;
+        lily:song <Song_Chou_Yo_Hana_Yo_Ja_Irarenai> ;
+    ], [
+        lily:listOrder "23"^^xsd:integer ;
+        lily:song <SoundTrack_Senaka_Wo_Awasete_Instrumental> ;
+    ], [
+        lily:listOrder "24"^^xsd:integer ;
+        lily:song <SoundTrack_Chou_Yo_Hana_Yo_Ja_Irarenai_Instrumental> ;
+    ] ;
+    a lily:MusicAlbum ;
+.
+
+<Song_Senaka_Wo_Awasete>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "背中を合わせて"@ja ;
+    lily:lyricist "谷ナオキ"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    lily:additionalInformation "舞台アサルトリリィ・御台場女学校編 『The Singular Ability』のオープニング主題歌"@ja ;
+    schema:duration "PT5M14S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    lily:singer [
+        lily:cast [
+            schema:name "石井陽菜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18817351>,
+                <http://ja.dbpedia.org/resource/石井陽菜> ;
+            lily:performAs <Funada_Kiito> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西葉瑞希"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q98734254>,
+                <http://ja.dbpedia.org/resource/西葉瑞希> ;
+            lily:performAs <Funada_Ui> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野元空"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18999130>,
+                <http://ja.dbpedia.org/resource/野元空> ;
+            lily:performAs <Shiba_Tomoshibi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "長谷川里桃"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q38279051> ;
+            lily:performAs <Nagasawa_Yuki> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "海乃るり"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q54292702> ;
+            lily:performAs <Igusa_Subaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "高辻麗"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q56556215> ;
+            lily:performAs <Imamura_Yukari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "春咲暖"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q35172355> ;
+            lily:performAs <Fujita_Asagao> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "広沢麻衣"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q34856960> ;
+            lily:performAs <Kawabata_Hotaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "有沢澪風"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q30933448> ;
+            lily:performAs <Kozue_West> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "あわつまい"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q56253675> ;
+            lily:performAs <Kawamura_Yuzuriha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "林田真尋"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q19162226>,
+                <http://ja.dbpedia.org/resource/林田真尋> ;
+            lily:performAs <Hishida_Haru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野本ほたる"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q11645500>,
+                <http://ja.dbpedia.org/resource/野本ほたる> ;
+            lily:performAs <Yokoyama_Azusa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "河内美里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q65272225> ;
+            lily:performAs <Kawanabe_Nazuna> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "白石まゆみ"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Suzuki_Chinami> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "柴田茉莉"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Imamura_Sakumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "小野瀬みらい"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q16769880>,
+                <http://ja.dbpedia.org/resource/小野瀬みらい> ;
+            lily:performAs <Nakahara_Mary_Tomoyo> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<SoundTrack_Bu_No_Garden>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "武のガーデン"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT3M59S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Tomoyo_Sensei>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "倫夜先生"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT1M21S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Heorot_Saints_No_Menmen>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "ヘオロットセインツの面々"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT3M05S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Huge_Sen_Nearly_Equal_Game>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "ヒュージ戦≒ゲーム"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT1M44S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Fuon_Na_Kuuki>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "不穏な空気"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT1M13S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Anata_Wa_Anata_Yo>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "あなたはあなたよ。"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT1M17S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Ronesunesunesu>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "ろねすねすねす"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT1M49S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Game_Nearly_Equal_Huge_Sen>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "ゲーム≒ヒュージ戦！？"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT1M40S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Sakumi>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "咲魅"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT1M50S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Fujimibashi_No_Kioku>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "富士見橋の記憶"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT1M36S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Saints_Wa_Sagarinasai>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "セインツは下がりなさい！"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT1M03S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Kamiyadori>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "神宿り"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT1M57S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Haru_To_Fujimibashi>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "治と富士見橋"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT0M58S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Hitori_No_Gisei_Mo_Dashite_Wa_Ikemasen_Wa>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "一人の犠牲も出してはいけませんわ。"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT1M57S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Goudou_Neun_Welt_Senjutsu>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "合同ノインヴェルト戦術"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT2M35S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Funada_Yobitai>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "船田予備隊"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT2M59S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Haru_To_Sakumi>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "治と咲魅"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT0M36S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Funada_Shimai_Vs_Kamiyadori_Haru>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "船田姉妹vs神宿り治"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT3M15S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Nani_Ga_Okotte_Iruno>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "何が起こっているの...？"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT3M47S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Neun_Welt_Senjutsu_Kaishi>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "ノインヴェルト戦術、再開ッ！！"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT2M44S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<Song_Chou_Yo_Hana_Yo_Ja_Irarenai>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "蝶よ花よじゃいられない"@ja ;
+    lily:lyricist "谷ナオキ"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    lily:additionalInformation "舞台アサルトリリィ・御台場女学校編 『The Singular Ability』のエンディング主題歌"@ja ;
+    schema:duration "PT4M48S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    lily:singer [
+        lily:cast [
+            schema:name "石井陽菜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18817351>,
+                <http://ja.dbpedia.org/resource/石井陽菜> ;
+            lily:performAs <Funada_Kiito> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西葉瑞希"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q98734254>,
+                <http://ja.dbpedia.org/resource/西葉瑞希> ;
+            lily:performAs <Funada_Ui> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野元空"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18999130>,
+                <http://ja.dbpedia.org/resource/野元空> ;
+            lily:performAs <Shiba_Tomoshibi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "長谷川里桃"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q38279051> ;
+            lily:performAs <Nagasawa_Yuki> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "海乃るり"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q54292702> ;
+            lily:performAs <Igusa_Subaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "高辻麗"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q56556215> ;
+            lily:performAs <Imamura_Yukari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "春咲暖"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q35172355> ;
+            lily:performAs <Fujita_Asagao> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "広沢麻衣"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q34856960> ;
+            lily:performAs <Kawabata_Hotaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "有沢澪風"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q30933448> ;
+            lily:performAs <Kozue_West> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "あわつまい"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q56253675> ;
+            lily:performAs <Kawamura_Yuzuriha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "林田真尋"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q19162226>,
+                <http://ja.dbpedia.org/resource/林田真尋> ;
+            lily:performAs <Hishida_Haru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野本ほたる"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q11645500>,
+                <http://ja.dbpedia.org/resource/野本ほたる> ;
+            lily:performAs <Yokoyama_Azusa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "河内美里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q65272225> ;
+            lily:performAs <Kawanabe_Nazuna> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "白石まゆみ"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Suzuki_Chinami> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "柴田茉莉"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Imamura_Sakumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "小野瀬みらい"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q16769880>,
+                <http://ja.dbpedia.org/resource/小野瀬みらい> ;
+            lily:performAs <Nakahara_Mary_Tomoyo> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<SoundTrack_Senaka_Wo_Awasete_Instrumental>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "背中を合わせて-instrumental-"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT5M14S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Chou_Yo_Hana_Yo_Ja_Irarenai_Instrumental>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "蝶よ花よじゃいられない-instrumental-"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT4M48S"^^xsd:duration ;
+    schema:inAlbum <Odaiba_Jogakkou_The_Singlular_Ability_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
 <Schwester_No_Himitsu_Original_Sound_Track>
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "アサルトリリィ×私立ルドビコ女学院 シュベスターの秘密 Original Sound Track"@ja ;
