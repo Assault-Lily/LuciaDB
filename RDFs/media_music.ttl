@@ -2243,3 +2243,465 @@
     schema:inAlbum <Schwester_No_Himitsu_Original_Sound_Track> ;
     a lily:Music ;
 .
+
+<Shiroki_Resistance_Yakusoku_No_Yukue_Original_Sound_Track>
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "アサルトリリィ×私立ルドビコ女学院 白きレジスタンス〜約束の行方〜"@ja ;
+    lily:additionalInformation "舞台アサルトリリィ×私立ルドビコ女学院『白きレジスタンス〜約束の行方〜』のオリジナルサウンドトラック"@ja ;
+    lily:musicProducer "谷ナオキ"@ja ;
+    lily:artist "アサルトリリィ×私立ルドビコ女学院"@ja ;
+    lily:recordLabel "アゾンインターナショナル"@ja ;
+    lily:format "アルバム"@ja ;
+    schema:datePublished "2022-12-13"^^xsd:date ;
+    schema:numTracks "12"^^xsd:integer ;
+    schema:timeRequired "PT46M2S"^^xsd:duration ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Yakusoku_No_Yukue> ;
+    ], [
+        lily:listOrder "2"^^xsd:integer ;
+        lily:song <Song_Find> ;
+    ], [
+        lily:listOrder "3"^^xsd:integer ;
+        lily:song <Song_Gimme_Love_Ludojo_Ver> ;
+    ], [
+        lily:listOrder "4"^^xsd:integer ;
+        lily:song <Song_Koi_No_Neun_Welt> ;
+    ], [
+        lily:listOrder "5"^^xsd:integer ;
+        lily:song <Song_Big_Star> ;
+    ], [
+        lily:listOrder "6"^^xsd:integer ;
+        lily:song <Song_Mimamoru_Kotoshika> ;
+    ], [
+        lily:listOrder "7"^^xsd:integer ;
+        lily:song <SoundTrack_Yakusoku_No_Yukue_Instrumental> ;
+    ], [
+        lily:listOrder "8"^^xsd:integer ;
+        lily:song <SoundTrack_Find_Instrumental> ;
+    ], [
+        lily:listOrder "9"^^xsd:integer ;
+        lily:song <SoundTrack_Gimme_Love_Ludojo_Ver_Instrumental> ;
+    ], [
+        lily:listOrder "10"^^xsd:integer ;
+        lily:song <SoundTrack_Koi_No_Neun_Welt_Instrumental> ;
+    ], [
+        lily:listOrder "11"^^xsd:integer ;
+        lily:song <SoundTrack_Big_Star_Instrumental> ;
+    ], [
+        lily:listOrder "12"^^xsd:integer ;
+        lily:song <SoundTrack_Mimamoru_Kotoshika_Instrumental> ;
+    ] ;
+    a lily:MusicAlbum ;
+.
+
+<Song_Yakusoku_No_Yukue>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "約束の行方"@ja ;
+    lily:lyricist "谷ナオキ"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    lily:additionalInformation "舞台アサルトリリィ×私立ルドビコ女学院『白きレジスタンス〜約束の行方〜 2022』の主題歌"@ja ;
+    schema:duration "PT3M31S"^^xsd:duration ;
+    schema:inAlbum <Shiroki_Resistance_Yakusoku_No_Yukue_Original_Sound_Track> ;
+    lily:singer [
+        lily:cast [
+            schema:name "宮瀬玲奈"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q56556209> ;
+            lily:performAs <Kishimoto_Lucia_Raimu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Amamiya_Sofia_Seren> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "中村裕香里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60613344> ;
+            lily:performAs <Fukuyama_Jeanne_Sachie> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Ichinomiya_Michaela_Himari> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "大滝紗緒里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989916> ;
+            lily:performAs <Matsunaga_Brigitta_Kayo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "七海とろろ"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Seto_Veronica_Ichika> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石井陽菜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18817351>,
+                <http://ja.dbpedia.org/resource/石井陽菜> ;
+            lily:performAs <Tachibana_Theresia_Nagisa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "梅原サエリ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q74146771> ;
+            lily:performAs <Kuroki_Francisca_Yuria> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "清水凜"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q105704315> ;
+            lily:performAs <Sano_Matilda_Kokoro> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "一本鎗希華"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q98757922> ;
+            lily:performAs <Narumi_Clara_Yuko> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩倉あずさ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q96715454> ;
+            lily:performAs <Hanaoka_Angela_Moe> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "小菅怜衣"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Saeki_Julia_Karen> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西田有愛"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Hasegawa_Gabriela_Tsugumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "沖あすか"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Nagase_Marta_Nonoka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "山﨑悠稀"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Hojo_Monica_Asahi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "湯田陽花"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Haneda_Catalina_Mei> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "甲斐千尋"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q59134848>,
+                <http://ja.dbpedia.org/resource/甲斐千尋> ;
+            lily:performAs <Takatori_Natalie_Towa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "白城もえの"@ja ;
+            # lily:resource <>;
+            lily:performAs <Lee_Christina_Susu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠藤三貴"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q55177725>,
+                <http://ja.dbpedia.org/resource/遠藤三貴> ;
+            lily:performAs <Kosaka_Anastasiya_Ryoko> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "軽辺るか"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20039536>,
+                <http://ja.dbpedia.org/resource/軽辺るか> ;
+            lily:performAs <Kaido_Beatrice_Chiharu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "林千浪"@ja ;
+            # lily:resource <>;
+            lily:performAs <Makabe_Melania_Sayoko> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三枝奈都紀"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22127857>,
+                <http://ja.dbpedia.org/resource/三枝奈都紀> ;
+            lily:performAs <Toride_Suzanne_Reika> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<Song_Find>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Find"@ja ;
+    lily:lyricist "谷ナオキ"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT3M54S"^^xsd:duration ;
+    schema:inAlbum <Shiroki_Resistance_Yakusoku_No_Yukue_Original_Sound_Track> ;
+    lily:singer [
+        lily:cast [
+            schema:name "宮瀬玲奈"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q56556209> ;
+            lily:performAs <Kishimoto_Lucia_Raimu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩倉あずさ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q96715454> ;
+            lily:performAs <Hanaoka_Angela_Moe> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西田有愛"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Hasegawa_Gabriela_Tsugumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "沖あすか"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Nagase_Marta_Nonoka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "湯田陽花"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Haneda_Catalina_Mei> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<Song_Gimme_Love_Ludojo_Ver>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Gimme Love 〜ルド女 ver.〜"@ja ;
+    lily:lyricist "谷ナオキ"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT4M14S"^^xsd:duration ;
+    schema:inAlbum <Shiroki_Resistance_Yakusoku_No_Yukue_Original_Sound_Track> ;
+    lily:singer [
+        lily:cast [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Amamiya_Sofia_Seren> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "中村裕香里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60613344> ;
+            lily:performAs <Fukuyama_Jeanne_Sachie> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "七海とろろ"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Seto_Veronica_Ichika> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石井陽菜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q18817351>,
+                <http://ja.dbpedia.org/resource/石井陽菜> ;
+            lily:performAs <Tachibana_Theresia_Nagisa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "梅原サエリ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q74146771> ;
+            lily:performAs <Kuroki_Francisca_Yuria> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "小菅怜衣"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Saeki_Julia_Karen> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<Song_Koi_No_Neun_Welt>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "恋のノインヴェルト"@ja ;
+    lily:lyricist "谷ナオキ"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT3M17S"^^xsd:duration ;
+    schema:inAlbum <Shiroki_Resistance_Yakusoku_No_Yukue_Original_Sound_Track> ;
+    lily:singer [
+        lily:cast [
+            schema:name "大滝紗緒里"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q60989916> ;
+            lily:performAs <Matsunaga_Brigitta_Kayo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "清水凜"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q105704315> ;
+            lily:performAs <Sano_Matilda_Kokoro> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "一本鎗希華"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q98757922> ;
+            lily:performAs <Narumi_Clara_Yuko> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "山﨑悠稀"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Hojo_Monica_Asahi> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<Song_Big_Star>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "ビッグスター"@ja ;
+    lily:lyricist "谷ナオキ"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT4M18S"^^xsd:duration ;
+    schema:inAlbum <Shiroki_Resistance_Yakusoku_No_Yukue_Original_Sound_Track> ;
+    lily:singer [
+        lily:cast [
+            schema:name "宮瀬玲奈"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q56556209> ;
+            lily:performAs <Kishimoto_Lucia_Raimu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Amamiya_Sofia_Seren> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "一本鎗希華"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q98757922> ;
+            lily:performAs <Narumi_Clara_Yuko> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "山﨑悠稀"@ja ;
+            # lily:resource <> ;
+            lily:performAs <Hojo_Monica_Asahi> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<Song_Mimamoru_Kotoshika>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "見守ることしか"@ja ;
+    lily:lyricist "谷ナオキ"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT3M46S"^^xsd:duration ;
+    schema:inAlbum <Shiroki_Resistance_Yakusoku_No_Yukue_Original_Sound_Track> ;
+    lily:singer [
+        lily:cast [
+            schema:name "遠藤三貴"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q55177725>,
+                <http://ja.dbpedia.org/resource/遠藤三貴> ;
+            lily:performAs <Kosaka_Anastasiya_Ryoko> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "軽辺るか"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20039536>,
+                <http://ja.dbpedia.org/resource/軽辺るか> ;
+            lily:performAs <Kaido_Beatrice_Chiharu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "林千浪"@ja ;
+            # lily:resource <>;
+            lily:performAs <Makabe_Melania_Sayoko> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三枝奈都紀"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q22127857>,
+                <http://ja.dbpedia.org/resource/三枝奈都紀> ;
+            lily:performAs <Toride_Suzanne_Reika> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<SoundTrack_Yakusoku_No_Yukue_Instrumental>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "約束の行方 -instrumental-"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT3M31S"^^xsd:duration ;
+    schema:inAlbum <Shiroki_Resistance_Yakusoku_No_Yukue_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Find_Instrumental>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Find -instrumental-"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT3M53S"^^xsd:duration ;
+    schema:inAlbum <Shiroki_Resistance_Yakusoku_No_Yukue_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Gimme_Love_Ludojo_Ver_Instrumental>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Gimme Love 〜ルド女 ver.〜 -instrumental-"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT4M15S"^^xsd:duration ;
+    schema:inAlbum <Shiroki_Resistance_Yakusoku_No_Yukue_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Koi_No_Neun_Welt_Instrumental>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "恋のノインヴェルト -instrumental-"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT3M20S"^^xsd:duration ;
+    schema:inAlbum <Shiroki_Resistance_Yakusoku_No_Yukue_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Big_Star_Instrumental>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "ビッグスター -instrumental-"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT4M15S"^^xsd:duration ;
+    schema:inAlbum <Shiroki_Resistance_Yakusoku_No_Yukue_Original_Sound_Track> ;
+    a lily:Music ;
+.
+
+<SoundTrack_Mimamoru_Kotoshika_Instrumental>
+    lily:genre "サウンドトラック"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "見守ることしか -instrumental-"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:arranger "谷ナオキ"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT3M48S"^^xsd:duration ;
+    schema:inAlbum <Shiroki_Resistance_Yakusoku_No_Yukue_Original_Sound_Track> ;
+    a lily:Music ;
+.
