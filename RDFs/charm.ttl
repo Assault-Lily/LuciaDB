@@ -1374,3 +1374,14 @@
     lily:additionalInformation "杖型ユニーク機"@ja ;
     a lily:Charm ;
 .
+
+<Adamas>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "アダマス"@ja, "Adámas"@en ;
+    schema:name "アダマス"@ja, "Adámas"@en ;
+    # lily:generation ""^^xsd:integer ;
+    schema:manufacturer <Larentia_Industry> ;
+    lily:user <Higashikuze_Tokuko> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.

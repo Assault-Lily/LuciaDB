@@ -842,11 +842,11 @@
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Adamas> ;
+        # lily:usedIn ""^^xsd:string ;
+        lily:additionalInformation "量産先行機"@ja ;
+    ] ;
     lily:garden "イルマ女子美術高校"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "10"^^xsd:integer ;

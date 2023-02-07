@@ -413,3 +413,23 @@ RDFs/charm.ttl:
     message: 'Data LanguageType not matched: lang is en, but Hjaðningavíg (line: 230,
         col: 34, triple: https://luciadb.assaultlily.com/rdf/RDFs/detail/Hjadningavig
         - http://schema.org/name - "Hjaðningavíg"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '1380'
+    column: '32'
+    subject: https://luciadb.assaultlily.com/rdf/RDFs/detail/Adamas
+    predicate: https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#seriesName
+    object: '"Adámas"@en'
+    message: 'Data LanguageType not matched: lang is en, but Adámas (line: 1380, col:
+        32, triple: https://luciadb.assaultlily.com/rdf/RDFs/detail/Adamas - https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#seriesName
+        - "Adámas"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '1381'
+    column: '28'
+    subject: https://luciadb.assaultlily.com/rdf/RDFs/detail/Adamas
+    predicate: http://schema.org/name
+    object: '"Adámas"@en'
+    message: 'Data LanguageType not matched: lang is en, but Adámas (line: 1381, col:
+        28, triple: https://luciadb.assaultlily.com/rdf/RDFs/detail/Adamas - http://schema.org/name
+        - "Adámas"@en)'
