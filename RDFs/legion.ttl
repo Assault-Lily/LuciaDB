@@ -591,7 +591,8 @@
         <Chemir_Friedheim>,
         <Lemie_Alessandrini>,
         <Altea_Alessandrini>,
-        <Stella_Elle_Sasson> ;
+        <Stella_Elle_Sasson>,
+        <Nuxe_Currentzis> ;
     ### LGヘオロットセインツと同盟を結んでいる
     a lily:Legion ;
 .
