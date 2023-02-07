@@ -298,7 +298,8 @@
         <Louloudis_Bromstedt>,
         <Asanaga_Ichigo>,
         <Ushida_Watsuki>,
-        <Yokota_Haruna> ;
+        <Yokota_Haruna>,
+        <Kawabata_Hotaru> ;
     lily:isVariantOf <Tyrfing_Prototype> ;
     schema:isSimilarTo
         <Tyrfing_type_R>,
@@ -811,7 +812,8 @@
         <Rokkaku_Shiori>,
         <Fukuyama_Jeanne_Sachie>,
         <Takasuga_Tsukushi>,
-        <Nakabayashi_Kaina> ;
+        <Nakabayashi_Kaina>,
+        <Kawabata_Hotaru> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .

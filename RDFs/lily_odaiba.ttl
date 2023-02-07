@@ -362,6 +362,14 @@
         lily:resource <Yotunschwert> ;
         # lily:usedIn ""^^xsd:string ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Charlemagne> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Tyrfing_type_T> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
