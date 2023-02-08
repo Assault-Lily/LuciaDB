@@ -661,10 +661,10 @@
 
 <Schwester_No_Inori_Original_Sound_Track>
     schema:inLanguage "ja-JP"^^xsd:language ;
-    schema:name "シュベスターの祈り Original Sound Track"@ja ;
-    lily:additionalInformation "舞台アサルトリリィｘルドビコ女学院『シュベスターの祈り』のオリジナルサウンドトラック"@ja ;
+    schema:name "アサルトリリィ×私立ルドビコ女学院 シュベスターの祈り Original Sound Track"@ja ;
+    lily:additionalInformation "舞台アサルトリリィ×私立ルドビコ女学院『シュベスターの祈り』のオリジナルサウンドトラック"@ja ;
     lily:musicProducer "谷ナオキ"@ja ;
-    lily:artist "アサルトリリィ×ルドビコ女学院"@ja ;
+    lily:artist "アサルトリリィ×私立ルドビコ女学院"@ja ;
     lily:recordLabel "アゾンインターナショナル"@ja ;
     lily:format "アルバム"@ja ;
     schema:datePublished "2021-12-01"^^xsd:date ;
@@ -672,7 +672,7 @@
     schema:timeRequired "PT63M22S"^^xsd:duration ;
     lily:track [
         lily:listOrder "1"^^xsd:integer ;
-        lily:song <SoundTrack_Schwester_No_Inori> ;
+        lily:song <Song_Schwester_No_Inori> ;
     ], [
         lily:listOrder "2"^^xsd:integer ;
         lily:song <SoundTrack_Anata_Wa_Lily_Ni_Muite_Nai> ;
@@ -741,13 +741,13 @@
         lily:song <SoundTrack_Lavender_Iro_No_Asterion> ;
     ], [
         lily:listOrder "24"^^xsd:integer ;
-        lily:song <SoundTrack_Lily_Days> ;
+        lily:song <Song_Lily_Days> ;
     ], [
         lily:listOrder "25"^^xsd:integer ;
-        lily:song <SoundTrack_Schwester_No_Inori_Side_B> ;
+        lily:song <Song_Schwester_No_Inori_Side_B> ;
     ], [
         lily:listOrder "26"^^xsd:integer ;
-        lily:song <SoundTrack_Lily_Days_Side_B> ;
+        lily:song <Song_Lily_Days_Side_B> ;
     ], [
         lily:listOrder "27"^^xsd:integer ;
         lily:song <SoundTrack_Schwester_No_Inori_Instrumental> ;
@@ -758,8 +758,8 @@
     a lily:MusicAlbum ;
 .
 
-<SoundTrack_Schwester_No_Inori>
-    lily:genre "サウンドトラック"@ja ;
+<Song_Schwester_No_Inori>
+    lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "シュベスターの祈り"@ja ;
     lily:lyricist "谷ナオキ"@ja ;
@@ -1146,10 +1146,10 @@
     a lily:Music ;
 .
 
-<SoundTrack_Lily_Days>
-    lily:genre "サウンドトラック"@ja ;
+<Song_Lily_Days>
+    lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
-    schema:name "Lily Days"@ja ;
+    schema:name "リリィデイズ"@ja ;
     lily:lyricist "谷ナオキ"@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:arranger "谷ナオキ"@ja ;
@@ -1270,8 +1270,8 @@
     a lily:Music ;
 .
 
-<SoundTrack_Schwester_No_Inori_Side_B>
-    lily:genre "サウンドトラック"@ja ;
+<Song_Schwester_No_Inori_Side_B>
+    lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "シュベスターの祈り -SideB-"@ja ;
     lily:lyricist "谷ナオキ"@ja ;
@@ -1396,8 +1396,8 @@
     a lily:Music ;
 .
 
-<SoundTrack_Lily_Days_Side_B>
-    lily:genre "サウンドトラック"@ja ;
+<Song_Lily_Days_Side_B>
+    lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "リリィデイズ -SideB-"@ja ;
     lily:lyricist "谷ナオキ"@ja ;
