@@ -60,7 +60,9 @@
         lily:usedIn
             "ドール"^^xsd:string,
             "舞台御台場TSA"^^xsd:string,
-            "ラスバレ"^^xsd:string ;
+            "舞台御台場TEP"^^xsd:string,
+            "ラスバレ"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -163,7 +165,9 @@
         lily:usedIn
             "ドール"^^xsd:string,
             "舞台御台場TSA"^^xsd:string,
-            "ラスバレ"^^xsd:string ;
+            "舞台御台場TEP"^^xsd:string,
+            "ラスバレ"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -261,7 +265,9 @@
         lily:resource <Vinst_Lilie> ;
         lily:usedIn
             "舞台TFG"^^xsd:string,
-            "舞台御台場TSA"^^xsd:string ;
+            "舞台御台場TSA"^^xsd:string,
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         lily:additionalInformation "実験機"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -356,7 +362,10 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Beagnoth_Seax> ;
-        lily:usedIn "舞台御台場TSA"^^xsd:string ;
+        lily:usedIn
+            "舞台御台場TSA"^^xsd:string,
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         lily:additionalInformation "試作機"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -450,7 +459,10 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Failnaught> ;
-        lily:usedIn "舞台御台場TSA"^^xsd:string ;
+        lily:usedIn
+            "舞台御台場TSA"^^xsd:string,
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -548,7 +560,10 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Hildr> ;
-        lily:usedIn "舞台御台場TSA"^^xsd:string ;
+        lily:usedIn
+            "舞台御台場TSA"^^xsd:string,
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -641,7 +656,10 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Gray_Side> ;
-        lily:usedIn "舞台御台場TSA"^^xsd:string ;
+        lily:usedIn
+            "舞台御台場TSA"^^xsd:string,
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         lily:additionalInformation "先行試作機"@ja ;
     ], [
         lily:resource <Chrysaor> ;
@@ -739,7 +757,10 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Keraunos> ;
-        lily:usedIn "舞台御台場TSA"^^xsd:string ;
+        lily:usedIn
+            "舞台御台場TSA"^^xsd:string,
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -834,7 +855,10 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Jarngreipr> ;
-        lily:usedIn "舞台御台場TSA"^^xsd:string ;
+        lily:usedIn
+            "舞台御台場TSA"^^xsd:string,
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -936,7 +960,9 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Claiomh_Solais> ;
-        lily:usedIn "舞台御台場TEP"^^xsd:string ;
+        lily:usedIn
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1037,7 +1063,10 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Brionac> ;
-        lily:usedIn "舞台御台場TSA"^^xsd:string ;
+        lily:usedIn
+            "舞台御台場TSA"^^xsd:string,
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1134,11 +1163,15 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Skofnung> ;
-        lily:usedIn "舞台御台場TEP"^^xsd:string ;
+        lily:usedIn
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Carnwenhan> ;
-        lily:usedIn "舞台御台場TEP"^^xsd:string ;
+        lily:usedIn
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1217,7 +1250,9 @@
     lily:boostedSkill "リジェネレーター"^^xsd:string ;
     lily:charm [
         lily:resource <Ulfberht> ;
-        lily:usedIn "舞台御台場TEP"^^xsd:string ;
+        lily:usedIn
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1288,7 +1323,7 @@
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "ハンバーガー"@ja ;
-    lily:notGood "焼き魚"@ja ;
+    lily:notGood "魚"@ja ;
     lily:hobby_talent
         "音楽鑑賞"@ja,
         "ヘッドホン集め"@ja ;
@@ -1314,7 +1349,10 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Hrotti> ;
-        lily:usedIn "舞台御台場TSA"^^xsd:string ;
+        lily:usedIn
+            "舞台御台場TSA"^^xsd:string,
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1415,7 +1453,7 @@
         "犬"@ja,
         "猫"@ja,
         "オポッサム"@ja ;
-    # lily:notGood ""@ja ;
+    lily:notGood "高い所"@ja ;
     lily:hobby_talent
         "キャンプ"@ja,
         "運動全般"@ja ;
@@ -1426,7 +1464,10 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Kuruzzi> ;
-        lily:usedIn "舞台御台場TSA"^^xsd:string ;
+        lily:usedIn
+            "舞台御台場TSA"^^xsd:string,
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         lily:additionalInformation "試験機"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1500,7 +1541,10 @@
     schema:birthPlace "東京都"@ja, "Tokyo"@en ;
     lily:favorite "犬"@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "石鹸づくり"@ja,
+        "ダンス"@ja,
+        "水泳"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ヘリオスフィア"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -1508,11 +1552,14 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Maltet> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "舞台御台場TBO"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Tyrfing_type_R> ;
-        lily:usedIn "舞台御台場TSA"^^xsd:string ;
+        lily:usedIn
+            "舞台御台場TSA"^^xsd:string,
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         lily:additionalInformation "試験機"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1607,7 +1654,10 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Caladbolg> ;
-        lily:usedIn "舞台御台場TSA"^^xsd:string ;
+        lily:usedIn
+            "舞台御台場TSA"^^xsd:string,
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Galateia> ;
@@ -1726,7 +1776,10 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Futsu_No_Mitama> ;
-        lily:usedIn "ドール"^^xsd:string ;
+        lily:usedIn
+            "ドール"^^xsd:string,
+            "舞台御台場TEP"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Ame_No_Habakiri> ;
@@ -1747,7 +1800,9 @@
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "生徒会長"@ja ;
     lily:legion <Heorot_Saints> ;
-    lily:legionJobTitle "隊長"^^xsd:string, "司令塔"^^xsd:string ;
+    lily:legionJobTitle
+        "隊長"^^xsd:string,
+        "司令塔"^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;

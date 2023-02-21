@@ -47,7 +47,9 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Claiomh_Solais> ;
-        lily:usedIn "ラスバレ"^^xsd:string ;
+        lily:usedIn
+            "ラスバレ"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         lily:additionalInformation "量産先行機"@ja ;
     ] ;
     lily:garden "神庭女子藝術高校"^^xsd:string ;
@@ -129,7 +131,9 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Risanautr> ;
-        lily:usedIn "ラスバレ"^^xsd:string ;
+        lily:usedIn
+            "ラスバレ"^^xsd:string,
+            "舞台御台場TBO"^^xsd:string ;
         lily:additionalInformation "試作機"@ja ;
     ] ;
     lily:garden "神庭女子藝術高校"^^xsd:string ;
