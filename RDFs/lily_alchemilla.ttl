@@ -312,7 +312,7 @@
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
-    # lily:pastTaskforce <> ;
+    lily:pastTaskforce <Odaiba_Interception_Taskforce_4> ;
     # lily:roomMate <> ;
     # schema:parent <> ;
     # schema:sibling [
@@ -374,7 +374,7 @@
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
-    # lily:pastTaskforce <> ;
+    lily:pastTaskforce <Odaiba_Interception_Taskforce_4> ;
     # lily:roomMate <> ;
     # schema:parent <> ;
     # schema:sibling [
