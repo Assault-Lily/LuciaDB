@@ -951,7 +951,7 @@
     schema:name "フロッティ"@ja, "Hrotti"@en ;
     # lily:generation ""^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Yggdrasill> ;
     lily:user <Kawamura_Yuzuriha> ;
     lily:additionalInformation "開発中"@ja ;
     a lily:Charm ;
