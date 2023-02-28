@@ -17,7 +17,7 @@
     lily:nameKana "てぃしあ・ぱうむがるとなー"@ja ;
     lily:anotherName "メルクリウスの聖帝（自称）"@ja ;
     foaf:age "16"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "159.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
