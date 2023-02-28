@@ -310,7 +310,8 @@
     # lily:legionGrade ""^^xsd:string ;
     # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
-        <Sono_Mao> ;
+        <Sono_Mao>,
+        <Inui_Shuko> ;
     a lily:Legion ;
 .
 
