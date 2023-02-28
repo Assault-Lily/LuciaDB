@@ -3321,7 +3321,7 @@
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    schema:birthPlace "鎌倉府（神奈川県）"@ja, "Kamakura (Kanagawa)"@en ;
+    schema:birthPlace "鎌倉府（神奈川県） 青葉台"@ja, "Aobadai, Kamakura (Kanagawa)"@en ;
     lily:favorite
         "チンチラ"@ja,
         "冷やし中華"@ja,
