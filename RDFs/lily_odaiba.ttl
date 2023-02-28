@@ -1012,6 +1012,9 @@
     ], [
         lily:resource <Amatsu_Marei> ;
         lily:additionalInformation "桂のユニークCHARMを開発"@ja ;
+    ], [
+        lily:resource <Altea_Alessandrini> ;
+        lily:additionalInformation "高く評価されている"@ja ;
     ] ;
     lily:cast [
         schema:name "栞菜"@ja ;

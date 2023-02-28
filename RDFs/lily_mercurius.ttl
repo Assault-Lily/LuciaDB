@@ -568,6 +568,9 @@
     ], [
         lily:resource <Nuxe_Currentzis> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Hayami_Katsura> ;
+        lily:additionalInformation "高く評価している"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
