@@ -1055,7 +1055,9 @@
         "ハーブティー"@ja,
         "ウサギ (特にロップイヤー)"@ja,
         "カエル"@ja ;
-    lily:notGood "心霊ものなど怖い話"@ja ;
+    lily:notGood
+        "心霊ものなど怖い話"@ja,
+        "コーヒー"@ja ;
     lily:hobby_talent
         "茶器収集"@ja,
         "走ること"@ja ;
