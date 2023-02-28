@@ -1714,6 +1714,9 @@
     ], [
         lily:resource <Suzuki_Chinami> ;
         lily:additionalInformation "憧れられている後輩"@ja ;
+    ], [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "林田真尋"@ja ;

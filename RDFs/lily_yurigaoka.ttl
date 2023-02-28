@@ -1644,6 +1644,9 @@
     ], [
         lily:resource <Altea_Alessandrini> ;
         lily:additionalInformation "実力を認め合う仲"@ja ;
+    ], [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "津田美波"@ja ;
@@ -3410,16 +3413,24 @@
     schema:birthDate "--06-22"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "ステーキ"@ja ;
     lily:notGood "勉強"@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "運動全般"@ja,
+        "格闘技"@ja,
+        "キャンプ"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     # lily:rareSkill ""^^xsd:string ;
-    # lily:subSkill ""^^xsd:string ;
+    lily:subSkill
+        "Awakening"^^xsd:string,
+        "Whole order"^^xsd:string,
+        "聖域転換"^^xsd:string,
+        "狂乱の閾"^^xsd:string,
+        "インビジブルワン"^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
@@ -3458,6 +3469,21 @@
         lily:additionalInformation
             "友人"@ja,
             "幼稚舎の頃から共に戦うと誓った仲"@ja ;
+    ], [
+        lily:resource <Murakami_Tokiwa> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Kurokawa_Nady_Hanna> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Hasebe_Touka> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Amano_Soraha> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Hishida_Haru> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -3739,6 +3765,9 @@
     lily:relationship [
         lily:resource <Egawa_Kusumi> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -3885,6 +3914,9 @@
     ], [
         lily:resource <Goto_Sakura> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -3948,10 +3980,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation "友人"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
