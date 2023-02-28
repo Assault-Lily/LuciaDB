@@ -1806,7 +1806,9 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "ヨーグルト"@ja ;
     lily:notGood "怪談奇談"@ja ;
-    lily:hobby_talent "楽器演奏（フルート）"@ja ;
+    lily:hobby_talent
+        "楽器演奏（フルート）"@ja,
+        "料理"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "テスタメント"^^xsd:string ;
     lily:subSkill "軍神の加護"^^xsd:string ;
