@@ -1298,10 +1298,10 @@
 .
 
 <Murgleys>
-    # schema:productID ""^^xsd:string ;
+    schema:productID "GC-13"^^xsd:string ;
     lily:seriesName "ミュルグレス"@ja, "Murgleys"@en ;
     schema:name "ミュルグレス"@ja, "Murgleys"@en ;
-    # lily:generation ""^^xsd:decimal ;
+    lily:generation "2"^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
     schema:manufacturer <Grand_Guignol> ;
     lily:user <Altea_Alessandrini> ;
