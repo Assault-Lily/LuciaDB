@@ -2113,7 +2113,7 @@
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    # schema:birthPlace ""@ja, ""@en ;
+    schema:birthPlace "熊本県"@ja, "Kumamoto"@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
