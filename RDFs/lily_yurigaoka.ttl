@@ -1644,6 +1644,9 @@
     ], [
         lily:resource <Altea_Alessandrini> ;
         lily:additionalInformation "実力を認め合う仲"@ja ;
+    ], [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "津田美波"@ja ;
@@ -1803,7 +1806,9 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "ヨーグルト"@ja ;
     lily:notGood "怪談奇談"@ja ;
-    lily:hobby_talent "楽器演奏（フルート）"@ja ;
+    lily:hobby_talent
+        "楽器演奏（フルート）"@ja,
+        "料理"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "テスタメント"^^xsd:string ;
     lily:subSkill "軍神の加護"^^xsd:string ;
@@ -3321,7 +3326,7 @@
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    schema:birthPlace "鎌倉府（神奈川県）"@ja, "Kamakura (Kanagawa)"@en ;
+    schema:birthPlace "鎌倉府（神奈川県） 青葉台"@ja, "Aobadai, Kamakura (Kanagawa)"@en ;
     lily:favorite
         "チンチラ"@ja,
         "冷やし中華"@ja,
@@ -3407,19 +3412,27 @@
     foaf:age "16"^^xsd:integer ;
     schema:height "164.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--06-22"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "ステーキ"@ja ;
     lily:notGood "勉強"@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "運動全般"@ja,
+        "格闘技"@ja,
+        "キャンプ"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     # lily:rareSkill ""^^xsd:string ;
-    # lily:subSkill ""^^xsd:string ;
+    lily:subSkill
+        "Awakening"^^xsd:string,
+        "Whole order"^^xsd:string,
+        "聖域転換"^^xsd:string,
+        "狂乱の閾"^^xsd:string,
+        "インビジブルワン"^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
@@ -3458,6 +3471,21 @@
         lily:additionalInformation
             "友人"@ja,
             "幼稚舎の頃から共に戦うと誓った仲"@ja ;
+    ], [
+        lily:resource <Murakami_Tokiwa> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Kurokawa_Nady_Hanna> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Hasebe_Touka> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Amano_Soraha> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Hishida_Haru> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -3739,6 +3767,9 @@
     lily:relationship [
         lily:resource <Egawa_Kusumi> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -3885,6 +3916,9 @@
     ], [
         lily:resource <Goto_Sakura> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -3948,10 +3982,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation "友人"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
@@ -8537,6 +8571,72 @@
     # lily:taskforce <> ;
     lily:pastTaskforce <Odaiba_Interception_Taskforce_1> ;
     # lily:schutzengel <> ;
+    # lily:pastSchutzengel <> ;
+    lily:schild <Inui_Shuko> ;
+    # lily:pastSchild <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
+
+<Inui_Shuko>
+    rdfs:label "乾柊子"^^xsd:string ;
+    schema:familyName "乾"@ja, "Inui"@en ;
+    lily:familyNameKana "いぬい"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "柊子"@ja, "Shuko"@en ;
+    lily:givenNameKana "しゅうこ"@ja ;
+    schema:name "乾柊子"@ja, "Inui Shuko"@en ;
+    lily:nameKana "いぬいしゅうこ"@ja ;
+    # lily:anotherName ""@ja ;
+    foaf:age "15"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
+    lily:gardenDepartment "普通科"^^xsd:string ;
+    lily:grade "10"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Ginnungagap> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    lily:schutzengel <Sono_Mao> ;
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;

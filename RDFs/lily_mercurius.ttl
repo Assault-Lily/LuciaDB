@@ -17,7 +17,7 @@
     lily:nameKana "てぃしあ・ぱうむがるとなー"@ja ;
     lily:anotherName "メルクリウスの聖帝（自称）"@ja ;
     foaf:age "16"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "159.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
@@ -455,7 +455,9 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     schema:birthPlace "イタリア"@ja, "Italy"@en ;
-    lily:favorite "お菓子 (特にかりんとう)"@ja ;
+    lily:favorite
+        "パスタ (特にアラビアータ)"@ja,
+        "お菓子 (特にかりんとう)"@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
@@ -511,18 +513,23 @@
     lily:nameKana "あるてあ・あれっさんどりーに"@ja ;
     lily:anotherName "メルクリウスの暴君"@ja ;
     foaf:age "16"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "165.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--08-31"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "A"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     schema:birthPlace "イタリア"@ja, "Italy"@en ;
-    # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite
+        "パスタ (特にアラビアータ)"@ja,
+        "コーヒー"@ja ;
+    lily:notGood "甘すぎるお菓子"@ja ;
+    lily:hobby_talent
+        "サッカー"@ja,
+        "チェス"@ja,
+        "音楽鑑賞 (クラシック)"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ファンタズム"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -568,6 +575,12 @@
     ], [
         lily:resource <Nuxe_Currentzis> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Hayami_Katsura> ;
+        lily:additionalInformation "高く評価している"@ja ;
+    ], [
+        lily:resource <Ishikawa_Aoi> ;
+        lily:additionalInformation "葵のメルクリウス中等部時代に世話を焼いていた"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;

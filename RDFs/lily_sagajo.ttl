@@ -172,6 +172,9 @@
         lily:resource <Louloudis_Bromstedt> ;
         lily:additionalInformation "聖メルクリウス中等部時代の友人"@ja ;
     ], [
+        lily:resource <Altea_Alessandrini> ;
+        lily:additionalInformation "聖メルクリウス中等部時代に世話を焼かれた"@ja ;
+    ], [
         lily:resource <Hiraga_Toko> ;
         lily:additionalInformation "聖メルクリウス中等部時代のライバル"@ja ;
     ], [

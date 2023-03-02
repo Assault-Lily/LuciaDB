@@ -1012,6 +1012,9 @@
     ], [
         lily:resource <Amatsu_Marei> ;
         lily:additionalInformation "桂のユニークCHARMを開発"@ja ;
+    ], [
+        lily:resource <Altea_Alessandrini> ;
+        lily:additionalInformation "高く評価されている"@ja ;
     ] ;
     lily:cast [
         schema:name "栞菜"@ja ;
@@ -1052,7 +1055,9 @@
         "ハーブティー"@ja,
         "ウサギ (特にロップイヤー)"@ja,
         "カエル"@ja ;
-    lily:notGood "心霊ものなど怖い話"@ja ;
+    lily:notGood
+        "心霊ものなど怖い話"@ja,
+        "コーヒー"@ja ;
     lily:hobby_talent
         "茶器収集"@ja,
         "走ること"@ja ;
@@ -1711,6 +1716,9 @@
     ], [
         lily:resource <Suzuki_Chinami> ;
         lily:additionalInformation "憧れられている後輩"@ja ;
+    ], [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "林田真尋"@ja ;
@@ -2110,7 +2118,7 @@
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    # schema:birthPlace ""@ja, ""@en ;
+    schema:birthPlace "熊本県"@ja, "Kumamoto"@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;

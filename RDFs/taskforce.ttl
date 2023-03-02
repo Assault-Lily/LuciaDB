@@ -77,7 +77,9 @@
         <Kawanabe_Nazuna>,
         <Tiuccia_Paumgartner>,
         <Hirose_Minato>,
-        <Soga_Suzuna> ;
+        <Soga_Suzuna>,
+        <Ozu_Hifumi>,
+        <Itami_Saori> ;
     # schema:member <Liearidel_Eschenbach> ;
     a lily:Taskforce ;
 .
