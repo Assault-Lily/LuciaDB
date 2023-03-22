@@ -1325,10 +1325,10 @@
 
 <Externsteine>
     # schema:productID ""^^xsd:string ;
-    lily:seriesName "エクステルシュタイネ"@ja, "Externsteine"@en ;
-    schema:name "エクステルシュタイネ"@ja, "Externsteine"@en ;
-    # lily:generation ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    lily:seriesName "エクステルンシュタイネ"@ja, "Externsteine"@en ;
+    schema:name "エクステルンシュタイネ"@ja, "Externsteine"@en ;
+    lily:generation "3"^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
     lily:user <Hibino_Waku> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
