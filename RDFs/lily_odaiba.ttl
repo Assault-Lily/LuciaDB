@@ -492,6 +492,9 @@
         lily:resource <Fujita_Asagao> ;
         lily:additionalInformation "憧れの先輩"@ja ;
     ], [
+        lily:resource <Ito_Urara> ;
+        lily:additionalInformation "親しい先輩"@ja ;
+    ], [
         lily:resource <Shiba_Tomoshibi> ;
         lily:additionalInformation "友人"@ja ;
     ], [
@@ -2149,10 +2152,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Kozue_West> ;
+        lily:additionalInformation "親しい後輩"@ja ;
+    ] ;
     # lily:cast [
         # schema:name ""@ja ;
         # lily:resource <> ;
