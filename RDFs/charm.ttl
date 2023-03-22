@@ -1445,3 +1445,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Misericorde>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ミセリコルデ"@ja, "Misericorde"@en ;
+    schema:name "ミセリコルデ"@ja, "Misericorde"@en ;
+    # lily:generation ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Nishikawa_Miharu> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
