@@ -1351,7 +1351,9 @@
     schema:name "トリアイナ"@ja, "Triaina"@en ;
     # lily:generation ""^^xsd:integer ;
     schema:manufacturer <Vulcanus_Industry> ;
-    lily:user <Kamigori_Marimo> ;
+    lily:user
+        <Morishita_Miyabi>,
+        <Kamigori_Marimo> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
