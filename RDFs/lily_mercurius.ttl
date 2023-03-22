@@ -454,7 +454,7 @@
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    schema:birthPlace "イタリア"@ja, "Italy"@en ;
+    schema:birthPlace "イタリア・ミラノ"@ja, "Milan, Italy"@en ;
     lily:favorite
         "パスタ (特にアラビアータ)"@ja,
         "お菓子 (特にかりんとう)"@ja ;
@@ -521,7 +521,7 @@
     lily:bloodType "A"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    schema:birthPlace "イタリア"@ja, "Italy"@en ;
+    schema:birthPlace "イタリア・ミラノ"@ja, "Milan, Italy"@en ;
     lily:favorite
         "パスタ (特にアラビアータ)"@ja,
         "コーヒー"@ja ;
