@@ -136,10 +136,10 @@
         lily:resource <Wang_Yujia> ;
         lily:additionalInformation "姉"@ja ;
     ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Konoka_Oestberg> ;
+        lily:additionalInformation "仲が良い"@ja ;
+    ] ;
     lily:cast [
         schema:name "篠原侑"@ja ;
         lily:resource
@@ -207,6 +207,9 @@
         lily:additionalInformation
             "慕っている"@ja,
             "「姉」候補"@ja ;
+    ], [
+        lily:resource <Wang_Lifen> ;
+        lily:additionalInformation "仲が良い"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
