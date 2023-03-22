@@ -433,9 +433,13 @@
     lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
-        lily:resource <Asterion> ;
+        lily:resource <Maltet> ;
         # lily:usedIn ""^^xsd:string ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Fondril> ;
+        # lily:usedIn ""^^xsd:string ;
+        lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
     lily:rank "2"^^xsd:integer ;

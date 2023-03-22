@@ -411,8 +411,7 @@
         <Yumeno_Kanon>,
         <Rosalinde_Friedegunde_von_Otto>,
         <Watanabe_Akane>,
-        <Asanaga_Ichigo>,
-        <Matsumura_Fuka> ;
+        <Asanaga_Ichigo> ;
     a lily:Charm ;
 .
 
@@ -596,7 +595,8 @@
         <Tamba_Akari>,
         <Murakami_Tokiwa>,
         <Yokoyama_Azusa>,
-        <Kanabako_Misora> ;
+        <Kanabako_Misora>,
+        <Matsumura_Fuka> ;
     a lily:Charm ;
 .
 
@@ -1431,6 +1431,17 @@
     # lily:generation ""^^xsd:integer ;
     schema:manufacturer <Hihiirokane_International> ;
     lily:user <Tsujimoto_Yunagi> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Fondril>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "フォンドリル"@ja, "Fondril"@en ;
+    schema:name "フォンドリル"@ja, "Fondril"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Matsumura_Fuka> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
