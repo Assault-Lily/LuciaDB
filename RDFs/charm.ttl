@@ -813,7 +813,8 @@
         <Fukuyama_Jeanne_Sachie>,
         <Takasuga_Tsukushi>,
         <Nakabayashi_Kaina>,
-        <Kawabata_Hotaru> ;
+        <Kawabata_Hotaru>,
+        <Ueda_Imari> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
@@ -1393,6 +1394,17 @@
     # lily:generation ""^^xsd:integer ;
     schema:manufacturer <Hihiirokane_International> ;
     lily:user <Miwada_Rito> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Kutune_Shirka>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "クトネシリカ"@ja, "Kutune Shirka"@en ;
+    schema:name "クトネシリカ"@ja, "Kutune Shirka"@en ;
+    # lily:generation ""^^xsd:integer ;
+    schema:manufacturer <Hihiirokane_International> ;
+    lily:user <Ueda_Imari> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
