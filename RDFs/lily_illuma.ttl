@@ -257,6 +257,9 @@
     ], [
         lily:resource <Kusakabe_Rengetsu> ;
         lily:additionalInformation "仲が良い"@ja ;
+    ], [
+        lily:resource <Kusakabe_Murasame> ;
+        lily:additionalInformation "仲が良い"@ja ;
     ] ;
     lily:cast [
         schema:name "髙橋彩音"@ja ;
@@ -729,6 +732,9 @@
     ] ;
     lily:relationship [
         lily:resource <Ueda_Imari> ;
+        lily:additionalInformation "仲が良い"@ja ;
+    ], [
+        lily:resource <Hibino_Waku> ;
         lily:additionalInformation "仲が良い"@ja ;
     ] ;
     lily:cast [
