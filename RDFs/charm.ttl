@@ -1363,7 +1363,7 @@
     lily:seriesName "ウプサラ"@ja, "Uppsala"@en ;
     schema:name "ウプサラ"@ja, "Uppsala"@en ;
     # lily:generation ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Yggdrasill> ;
     lily:user <Hidai_Miyazu> ;
     lily:additionalInformation "杖型ユニーク機で強化リリィ専用の調整がされている"@ja ;
     a lily:Charm ;
