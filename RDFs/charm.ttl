@@ -1385,3 +1385,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Stinger>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "スティンガー"@ja, "Stinger"@en ;
+    schema:name "スティンガー"@ja, "Stinger"@en ;
+    # lily:generation ""^^xsd:integer ;
+    schema:manufacturer <Hihiirokane_International> ;
+    lily:user <Miwada_Rito> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
