@@ -8778,7 +8778,7 @@
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Tominaga_Shin> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -8847,7 +8847,7 @@
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Hayakawa_Yahiro> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
