@@ -1423,3 +1423,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Griffin_Claw>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "グリフィンクロー"@ja, "Griffin Claw"@en ;
+    schema:name "グリフィンクロー"@ja, "Griffin Claw"@en ;
+    # lily:generation ""^^xsd:integer ;
+    schema:manufacturer <Hihiirokane_International> ;
+    lily:user <Tsujimoto_Yunagi> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
