@@ -3588,7 +3588,7 @@
     schema:birthPlace "鎌倉府（神奈川県）"@ja, "Kamakura (Kanagawa)"@en ;
     lily:favorite "鯖料理"@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent "刀剣の収集"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "円環の御手"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
