@@ -4685,7 +4685,7 @@
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Lohengrin> ;
-    # lily:legionJobTitle ""^^xsd:string ;
+    lily:legionJobTitle "司令塔"^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     lily:pastLegion <Alfheim_First> ;
     # lily:taskforce <> ;
