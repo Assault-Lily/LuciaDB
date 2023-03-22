@@ -665,7 +665,21 @@
         <Koshiba_Eishin>,
         <Otake_Sunao>,
         <Toda_Kotohi> ;
+    lily:hasVariant <Troyan> ;
     # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Troyan>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "トリグラフ"@ja, "Trigrav"@en ;
+    schema:name "トロヤン"@ja, "Troyan"@en ;
+    lily:generation "3"^^xsd:integer ;
+    schema:manufacturer <Hihiirokane_International> ;
+    lily:user <Yoshii_Kasumiko> ;
+    lily:isVariantOf <Trigrav> ;
+    # schema:isSimilarTo <> ;
+    lily:additionalInformation "トリグラフの再設計機"@ja ;
     a lily:Charm ;
 .
 
