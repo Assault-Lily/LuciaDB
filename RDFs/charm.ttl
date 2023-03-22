@@ -1350,7 +1350,7 @@
     lily:seriesName "トリアイナ"@ja, "Triaina"@en ;
     schema:name "トリアイナ"@ja, "Triaina"@en ;
     # lily:generation ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Vulcanus_Industry> ;
     lily:user <Kamigori_Marimo> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
