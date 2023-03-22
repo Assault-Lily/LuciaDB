@@ -1412,3 +1412,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Tizona>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ティソーナ"@ja, "Tizona"@en ;
+    schema:name "ティソーナ"@ja, "Tizona"@en ;
+    # lily:generation ""^^xsd:integer ;
+    schema:manufacturer <Hihiirokane_International> ;
+    lily:user <Tashiro_Ayumu> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
