@@ -1100,7 +1100,9 @@
     # lily:generation ""^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
     schema:manufacturer <Linnunrata_Electronics> ;
-    lily:user <Senda_Koume> ;
+    lily:user
+        <Senda_Koume>,
+        <Hirotsu_Yuzutsu> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
