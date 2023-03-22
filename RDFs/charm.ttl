@@ -438,7 +438,7 @@
     schema:name "カネスベナチシ"@ja, "Canes Venatici"@en ;
     lily:generation "2"^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Hihiirokane_International> ;
     lily:user <Miyamoto_Komuku> ;
     lily:isVariantOf <Asterion> ;
     # schema:isSimilarTo <> ;
