@@ -3914,6 +3914,9 @@
         lily:resource <Mashima_Moyu> ;
         lily:additionalInformation "親友"@ja ;
     ], [
+        lily:resource <Takegoshi_Chihana> ;
+        lily:additionalInformation "以前のルームメイト"@ja ;
+    ], [
         lily:resource <Goto_Sakura> ;
         lily:additionalInformation "友人"@ja ;
     ], [
@@ -4703,6 +4706,9 @@
     lily:relationship [
         lily:resource <Ito_Shizu> ;
         lily:additionalInformation "一時期シルト候補だった"@ja ;
+    ], [
+        lily:resource <Hasebe_Touka> ;
+        lily:additionalInformation "以前のルームメイト"@ja ;
     ], [
         lily:resource <Sakaizawa_Naru> ;
         lily:additionalInformation "盟友"@ja ;
