@@ -442,7 +442,7 @@
     lily:charm [
         lily:resource <Charlemagne> ;
         # lily:usedIn ""^^xsd:string ;
-        # lily:additionalInformation ""@ja ;
+        lily:additionalInformation "SP機体"@ja ;
     ], [
         lily:resource <Hjadningavig> ;
         # lily:usedIn ""^^xsd:string ;
