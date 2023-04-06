@@ -251,7 +251,8 @@
         <Tanaka_Ichi>,
         <Egawa_Kusumi>,
         <Ando_Tazusa>,
-        <Kawanabe_Nazuna> ;
+        <Kawanabe_Nazuna>,
+        <Shiozaki_Suzume> ;
     a lily:Charm ;
 .
 
@@ -526,7 +527,8 @@
         <Tiuccia_Paumgartner>,
         <Fujita_Asagao>,
         <Tachihara_Sayu>,
-        <Takasuga_Tsukushi> ;
+        <Takasuga_Tsukushi>,
+        <Ishizuka_Fujino> ;
     a lily:Charm ;
 .
 

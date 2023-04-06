@@ -954,9 +954,9 @@
     schema:gender "female"^^xsd:string ;
     lily:color "F0B6FF"^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite "スコーン"@ja ;
+    lily:notGood "なし"@ja ;
+    lily:hobby_talent "匂いで相手の気持ちがわかる"@ja ;
     lily:skillerVal "50"^^xsd:integer ;
     # lily:rareSkill ""^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -964,7 +964,9 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Gungnir> ;
-        lily:usedIn "アニメ"^^xsd:string ;
+        lily:usedIn
+            "アニメ"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -997,7 +999,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q16264202>,
             <http://ja.dbpedia.org/resource/伊藤美来> ;
-        lily:performIn <Assault_Lily_Bouquet> ;
+        lily:performIn
+            <Assault_Lily_Bouquet>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
