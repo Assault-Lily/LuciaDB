@@ -4551,7 +4551,7 @@
     schema:duration "PT4M52S"^^xsd:duration ;
     lily:singer [
         schema:name "白井夢結＆吉村・Thi・梅（CV：夏吉ゆうこ＆岩田陽葵）"@ja ;
-        lily:cast [ 
+        lily:cast [
             schema:name "夏吉ゆうこ"@ja ;
             lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
             lily:performAs <Shirai_Yuyu> ;
@@ -5658,7 +5658,7 @@
     schema:inAlbum <Cherish> ;
     lily:singer [
         schema:name "一柳梨璃（CV：赤尾ひかる）"@ja ;
-        lily:cast 
+        lily:cast
             [
             schema:name "赤尾ひかる"@ja ;
             lily:resource <http://www.wikidata.org/entity/Q28685785> ;
