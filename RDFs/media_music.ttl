@@ -24,7 +24,7 @@
         lily:song <Song_Tsunagari> ;
     ], [
         lily:listOrder "3"^^xsd:integer ;
-        lily:song <Song_Taisetsu_Wo_Oshieyou> ;
+        lily:song <Song_Taisetsu_Wo_Kazoeyou> ;
     ] ;
     a lily:MusicAlbum ;
 .
@@ -167,7 +167,7 @@
     a lily:Music ;
 .
 
-<Song_Taisetsu_Wo_Oshieyou>
+<Song_Taisetsu_Wo_Kazoeyou>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "大切を数えよう"@ja ;
