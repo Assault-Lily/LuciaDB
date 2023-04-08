@@ -511,10 +511,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Shiozaki_Suzume> ;
+        lily:additionalInformation "神庭に通うことを勧める"@ja ;
+    ] ;
     lily:cast [
         schema:name "山根綺"@ja ;
         lily:resource
@@ -652,10 +652,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Homma_Akehi> ;
+        lily:additionalInformation "神庭へ通うことを勧められる"@ja ;
+    ] ;
     lily:cast [
         schema:name "石見舞菜香"@ja ;
         lily:resource
