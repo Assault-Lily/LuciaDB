@@ -5538,7 +5538,7 @@
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "マッシブ！"@ja ;
-    lily:lyricist " 安藤紗々"@ja ;
+    lily:lyricist "安藤紗々"@ja ;
     lily:composer "神田ジョン"@ja ;
     lily:arranger "神田ジョン"@ja ;
     # lily:additionalInformation ""@ja ;
