@@ -586,7 +586,7 @@
             # lily:additionalInformation ""@ja ;
         ], [
             schema:name "野中深愛"@ja ;
-            # lily:resource  ;
+            lily:resource <https://ja.dbpedia.org/page/野中深愛> ;
             lily:performAs <Serizawa_Chikaru> ;
             # lily:additionalInformation ""@ja ;
         ] ;
@@ -5014,7 +5014,7 @@
             # lily:additionalInformation ""@ja ;
         ], [
             schema:name "野中深愛"@ja ;
-            # lily:resource  ;
+            lily:resource <https://ja.dbpedia.org/page/野中深愛> ;
             lily:performAs <Serizawa_Chikaru> ;
             # lily:additionalInformation ""@ja ;
         ], [
@@ -5155,7 +5155,7 @@
             # lily:additionalInformation ""@ja ;
         ], [
             schema:name "野中深愛"@ja ;
-            # lily:resource  ;
+            lily:resource <https://ja.dbpedia.org/page/野中深愛> ;
             lily:performAs <Serizawa_Chikaru> ;
             # lily:additionalInformation ""@ja ;
         ] ;
@@ -5338,7 +5338,7 @@
             # lily:additionalInformation ""@ja ;
         ], [
             schema:name "野中深愛"@ja ;
-            # lily:resource  ;
+            lily:resource <https://ja.dbpedia.org/page/野中深愛> ;
             lily:performAs <Serizawa_Chikaru> ;
             # lily:additionalInformation ""@ja ;
         ] ;
@@ -5817,7 +5817,7 @@
         schema:name "芹沢千香瑠（CV：野中深愛）"@ja ;
         lily:cast [
             schema:name "野中深愛"@ja ;
-            # lily:resource  ;
+            lily:resource <https://ja.dbpedia.org/page/野中深愛> ;
             lily:performAs <Serizawa_Chikaru> ;
             # lily:additionalInformation ""@ja ;
         ] ;
