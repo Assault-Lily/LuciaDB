@@ -5941,6 +5941,73 @@
     a lily:Music ;
 .
 
+<Song_Toumei_Diary>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "トウメイダイアリー"@ja ;
+    lily:lyricist "安藤紗々"@ja ;
+    lily:composer "神田ジョン"@ja ;
+    lily:arranger "神田ジョン"@ja ;
+    lily:additionalInformation "アサルトリリィ Last Bullet 2周年テーマ楽曲"@ja ;
+    schema:duration "PT3M40S"^^xsd:duration ;
+    lily:singer [
+        schema:name "一柳隊"@ja ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "井澤美香子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20038660>,
+                <http://ja.dbpedia.org/resource/井澤美香子> ;
+            lily:performAs <Kaede_Johan_Nouvel> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Futagawa_Fumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "紡木吏佐"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
+            lily:performAs <Ando_Tazusa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩田陽葵"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q16264369>,
+                <http://ja.dbpedia.org/resource/岩田陽葵> ;
+            lily:performAs <Yoshimura_Thi_Mai> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Kuo_Shenlin> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠野ひかる"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q48762060> ;
+            lily:performAs <Wang_Yujia> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "高橋花林"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041113>,
+                <http://ja.dbpedia.org/resource/高橋花林> ;
+            lily:performAs <Miliam_Hildegard_von_Guropius> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
 <Song_Overcast_Sky>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
@@ -5950,7 +6017,6 @@
     lily:arranger "Islet"@ja ;
     lily:additionalInformation "アサルトリリィ Last Bullet メインストーリー 新章グラン・エプレ編のテーマソング"@ja ;
     schema:duration "PT3M42S"^^xsd:duration ;
-    # schema:inAlbum <> ;
     lily:singer [
         schema:name "新生グラン・エプレ"@ja ;
         lily:cast [
