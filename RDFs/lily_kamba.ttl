@@ -336,7 +336,7 @@
     lily:bloodType "B"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     lily:color "F87F9F"^^xsd:hexBinary ;
-    # schema:birthPlace ""@ja, ""@en ;
+    schema:birthPlace "新潟県"@ja, "Niigata"@en ;
     lily:favorite
         "イチゴのショートケーキ"@ja,
         "おにぎり"@ja ;
