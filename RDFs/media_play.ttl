@@ -2798,8 +2798,8 @@
 
 <Assault_Lily_Illuma_Girls_High_School_Of_Arts>
     lily:genre "舞台"@ja ;
-    schema:name "アサルトリリィ・イルマ女子美術高校"@ja ;
-    schema:alternateName "イルマ舞台"@ja ;
+    schema:name "アサルトリリィ・イルマ女子美術高校編 The Gleam of Dawn"@ja ;
+    schema:alternateName "イルマTGD"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:location "かめありリリオホール"^^xsd:string ;
     schema:startDate "2023-04-13"^^xsd:date ;
