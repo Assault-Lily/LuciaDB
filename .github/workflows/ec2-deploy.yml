@@ -6,21 +6,27 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
-      - name: AWS SSM Send-Command
-        uses: peterkimzz/aws-ssm-send-command@master
-        id: ssm
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        id: aws
         with:
           aws-region: ${{ secrets.AWS_REGION }}
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          instance-ids: ${{ secrets.INSTANCE_ID }}
 
-          working-directory: /home/assaultlily/fuseki
-          command: sudo ./deploy.sh
+      - name: Execute SSM Run Command
+        id: ssm
+        run: |
+          export RESPONSE=$(aws ssm send-command --document-name "AWS-RunShellScript" --document-version "1" --targets '[{"Key":"InstanceIds","Values":["${{ secrets.INSTANCE_ID }}"]}]' --parameters '{"workingDirectory":["/home/assaultlily/fuseki"],"executionTimeout":["3600"],"commands":["sudo ./deploy.sh"]}' --timeout-seconds 600 --max-concurrency "50" --max-errors "0")
+          export COMMAND_ID=$(echo $RESPONSE | jq .Command.CommandId)
+          echo "command-id=${COMMAND_ID}" >> $GITHUB_OUTPUT
 
-      # Catch SSM outputs
-      - name: Get the outputs
-        run: echo "The Command id is ${{ steps.ssm.outputs.command-id }}"
+      - name: Check Run Command Result
+        run: |
+          bash -x .github/scripts/check_command_result.sh ${{ steps.ssm.outputs.command-id }} ${{ secrets.INSTANCE_ID }}
