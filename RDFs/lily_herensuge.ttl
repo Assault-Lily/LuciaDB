@@ -389,7 +389,7 @@
     ] ;
     lily:cast [
         schema:name "野中深愛"@ja ;
-        lily:resource <https://ja.dbpedia.org/page/野中深愛> ;
+        lily:resource <https://ja.dbpedia.org/resource/野中深愛> ;
         lily:performIn
             <The_Fateful_Gift>,
             <Assault_Lily_Last_Bullet>,
