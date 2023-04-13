@@ -2796,7 +2796,7 @@
     a lily:Play ;
 .
 
-<Assault_Lily_Illuma_Girls_High_School_Of_Arts>
+<Assault_Lily_Illuma_The_Gleam_of_Dawn>
     lily:genre "舞台"@ja ;
     schema:name "アサルトリリィ・イルマ女子美術高校編 The Gleam of Dawn"@ja ;
     schema:alternateName "イルマTGD"@ja ;

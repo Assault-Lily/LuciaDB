@@ -1416,7 +1416,7 @@
             <Schwester_No_Himitsu_2021>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+            <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "花奈澪"@ja ;
