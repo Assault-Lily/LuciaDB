@@ -66,7 +66,7 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q11465532>,
             <http://ja.dbpedia.org/resource/MoeMi> ;
-        lily:performIn <Assault_Lily_Illuma_Girls_High_School_Of_Arts> ;
+        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Teacher ;
