@@ -18,7 +18,7 @@ RDFデータは可能な限りアサルトリリィ公式の情報源をもと�
 
 情報の誤りにお気づきの場合はお手数ですが ↑ の [Issues](https://github.com/fvh-P/assaultlily-rdf/issues) > [New Issue](https://github.com/fvh-P/assaultlily-rdf/issues/new) からご一報ください。また、情報の追加などのご要望があれば同じく Issue へお願いします。
 
-## ライセンスについて
+## ライセンスについて (License)
 
 LuciaDBは「[クリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際 ライセンス](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)」のもとで開発・提供されており、LuciaDBが公開するRDFファイル群またはAPIエンドポイントが提供する情報を複製、頒布、展示、実演する場合、以下の条件をお守りいただく必要があります。
 
@@ -28,7 +28,15 @@ LuciaDBは「[クリエイティブ・コモンズ 表示 - 非営利 - 継承 4
 
 (これはあくまでライセンスの解説であり、ライセンス本文ではありません。ライセンスの全文は[こちら](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ja)をご覧ください。）
 
-### ライセンス表記の例
+LuciaDB is provided under ["Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International" license](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en). When you reproduce, distribute, display, or perform any of the RDF files published by LuciaDB or information provided by the API endpoints, you must comply with the following conditions
+
+- Indicate the license. (When you created a derivative work using this DB, please indicate that as well.)
+- Non-commercial use only. (Except in cases where you have been permitted individually from the copyright holder.)
+- The same license as this DB must be applied to derivative works that use this DB.
+
+(This is just an explanation of the license, not the full text of the license. The full text of the license can be found [here](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).)
+
+### ライセンス表記の例 (An example of license display)
 
 |言語 (Language)|ライセンス表記の例 (An example of license display)|
 |--|--|
