@@ -620,7 +620,9 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "鉱物収集"@ja ;
+    lily:favorite
+        "鉱物収集"@ja,
+        "エビフライ"@ja ;
     lily:notGood "注射"@ja ;
     lily:hobby_talent
         "絵を描くこと"@ja,
