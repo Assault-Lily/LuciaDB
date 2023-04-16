@@ -541,7 +541,8 @@
     schema:manufacturer <Celticdale> ;
     lily:user
         <Kemmochi_Noriko>,
-        <Serizawa_Chikaru> ;
+        <Serizawa_Chikaru>,
+        <Homma_Akehi> ;
     a lily:Charm ;
 .
 
