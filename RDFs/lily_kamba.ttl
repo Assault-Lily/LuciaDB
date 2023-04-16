@@ -646,7 +646,7 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Gran_Eple> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position "TZ"^^xsd:string ;
     lily:pastLegion <Kamba_Seitokai_Boueitai> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
@@ -714,7 +714,7 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Gran_Eple> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position "AZ"^^xsd:string ;
     lily:pastLegion <Kamba_Seitokai_Boueitai> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
