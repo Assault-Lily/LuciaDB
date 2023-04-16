@@ -409,20 +409,24 @@
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded false ;
     # lily:legionGrade ""^^xsd:string ;
-    lily:numberOfMembers "5"^^xsd:integer ;
+    lily:numberOfMembers "9"^^xsd:integer ;
     schema:member
         <Kon_Kanaho>,
         <Miyagawa_Takane>,
         <Toki_Kureha>,
         <Tamba_Akari>,
-        <Sadamori_Himeka> ;
+        <Sadamori_Himeka>,
+        <Homma_Akehi>,
+        <Yokota_Haruna>,
+        <Shiozaki_Suzume>,
+        <Ishizuka_Fujino> ;
     a lily:Legion ;
 .
 
 <Kamba_Seitokai_Boueitai>
     schema:name "生徒会防衛隊"@ja, "Seitokai Boueitai"@en ;
     # schema:alternateName ""@ja, ""@en ;
-    lily:disbanded false ;
+    lily:disbanded true ;
     # lily:legionGrade ""^^xsd:string ;
     lily:numberOfMembers "4"^^xsd:integer ;
     schema:member
