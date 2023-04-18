@@ -494,7 +494,7 @@
     lily:charm [
         lily:resource <Gae_Bolg> ;
         lily:usedIn "ラスバレ"^^xsd:string ;
-        lily:additionalInformation ""@ja ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "神庭女子藝術高校"^^xsd:string ;
     lily:gardenDepartment "建築科"^^xsd:string ;
