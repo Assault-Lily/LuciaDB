@@ -605,10 +605,14 @@
         # lily:resource <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "木野日菜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q23948726>,
+            <https://ja.dbpedia.org/resource/木野日菜> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
