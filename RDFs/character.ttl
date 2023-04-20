@@ -168,7 +168,8 @@
     lily:favorite
         "ぶどう"@ja,
         "うなぎ"@ja,
-        "炭酸飲料"@ja ;
+        "炭酸飲料"@ja,
+        "レッサーパンダ"@ja ;
     # lily:notGood ""@ja ;
     lily:hobby_talent
         "卓球"@ja,
