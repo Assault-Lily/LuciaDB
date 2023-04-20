@@ -564,16 +564,16 @@
     a lily:Lily ;
 .
 
-<Iwaya_Kokori>
+<Iwaya_Kukuri>
     rdfs:label "巌谷紅々李"^^xsd:string ;
     schema:familyName "巌谷"@ja ; #, ""@en ;
-    # lily:familyNameKana ""@ja ;
+    lily:familyNameKana "いわや"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
     schema:givenName "紅々李"@ja ; #, ""@en ;
-    # lily:givenNameKana ""@ja ;
+    lily:givenNameKana "くくり"@ja ;
     schema:name "巌谷紅々李"@ja ; #, ""@en ;
-    # lily:nameKana ""@ja ;
+    lily:nameKana "いわやくくり"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
