@@ -1688,7 +1688,8 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "マンゴー"@ja,
-        "熱帯魚"@ja ;
+        "熱帯魚"@ja,
+        "時計"@ja ;
     lily:notGood
         "不潔なもの"@ja,
         "犬"@ja ;
