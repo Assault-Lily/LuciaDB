@@ -299,7 +299,8 @@
     schema:member
         <Kurumatani_Keine>,
         <Kikutake_Rinka>,
-        <Tange_Honori> ;
+        <Tange_Honori>,
+        <Asada_Kohaku> ;
     a lily:Legion ;
 .
 
