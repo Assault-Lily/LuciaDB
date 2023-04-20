@@ -98,6 +98,9 @@
     ], [
         lily:resource <Tachihara_Sayu> ;
         lily:additionalInformation "紗癒が主催する戦術サロンに参加"@ja ;
+    ], [
+        lily:resource <Miyamoto_Komuku> ;
+        lily:additionalInformation "紗癒が主催する戦術サロンで議論を交わす仲"@ja ;
     ] ;
     lily:cast [
         schema:name "石井陽菜"@ja ;

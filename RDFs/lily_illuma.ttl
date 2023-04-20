@@ -550,6 +550,9 @@
         lily:resource <Tachihara_Sayu> ;
         lily:additionalInformation "紗癒が主催する戦術サロンに参加"@ja ;
     ], [
+        lily:resource <Funada_Kiito> ;
+        lily:additionalInformation "紗癒が主催する戦術サロンで議論を交わす仲"@ja ;
+    ], [
         lily:resource <Nakabayashi_Kaina> ;
         lily:additionalInformation "パートナー"@ja ;
     ] ;
