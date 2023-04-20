@@ -2241,7 +2241,7 @@
     lily:legion <Alfheim> ;
     # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
-    # lily:pastLegion <> ;
+    lily:pastLegion <Svanhvit> ;
     # lily:taskforce <> ;
     lily:pastTaskforce <Odaiba_Interception_Taskforce_1> ;
     # lily:schutzengel <> ;
@@ -2259,6 +2259,9 @@
         lily:additionalInformation "友人"@ja ;
     ], [
         lily:resource <Watanabe_Akane> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Yamanashi_Hibari> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
@@ -3389,6 +3392,9 @@
     ], [
         lily:resource <Hirose_Minato> ;
         lily:additionalInformation "親友"@ja ;
+    ], [
+        lily:resource <Mozuna_Noa> ;
+        lily:additionalInformation "友人"@ja ;
     ], [
         lily:resource <Yanagisawa_Ayako> ;
         lily:additionalInformation "推しリリィ"@ja ;
