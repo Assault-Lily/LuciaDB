@@ -288,7 +288,7 @@
     # lily:schild <> ;
     # lily:pastSchild <> ;
     # lily:roomMate <> ;
-    # schema:parent <> ;
+    schema:parent <Tomomi_Nouvel> ;
     # schema:sibling [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
