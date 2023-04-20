@@ -366,9 +366,9 @@
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
     schema:givenName "美夜受"@ja, "Miyazu"@en ;
-    lily:givenNameKana "みやず"@ja ;
+    lily:givenNameKana "みやづ"@ja ;
     schema:name "比田井美夜受"@ja, "Hidai Miyazu"@en ;
-    lily:nameKana "ひだいみやず"@ja ;
+    lily:nameKana "ひだいみやづ"@ja ;
     lily:anotherName "黒い妖精"@ja ;
     foaf:age "16"^^xsd:integer ;
     schema:height "155.0"^^xsd:float ;
