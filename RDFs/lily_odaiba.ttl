@@ -93,6 +93,9 @@
         lily:resource <Kawabata_Hotaru> ;
         lily:additionalInformation "友人"@ja ;
     ], [
+        lily:resource <Ito_Urara> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
         lily:resource <Tachihara_Sayu> ;
         lily:additionalInformation "紗癒が主催する戦術サロンに参加"@ja ;
     ] ;
@@ -1722,6 +1725,9 @@
     ], [
         lily:resource <Kondo_Misaka> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Ito_Urara> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "林田真尋"@ja ;
@@ -2142,7 +2148,10 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Heorot_Saints> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position
+        "AZ"^^xsd:string,
+        "TZ"^^xsd:string,
+        "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
@@ -2155,6 +2164,12 @@
     lily:relationship [
         lily:resource <Kozue_West> ;
         lily:additionalInformation "親しい後輩"@ja ;
+    ], [
+        lily:resource <Funada_Kiito> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Hishida_Haru> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
         # schema:name ""@ja ;
