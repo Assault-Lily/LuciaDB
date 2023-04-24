@@ -672,10 +672,14 @@
         # lily:resource <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "指出毬亜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q28689219>,
+            <https://ja.dbpedia.org/resource/指出毬亜> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
