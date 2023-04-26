@@ -511,11 +511,11 @@
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Tyrfing_type_T> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
     # lily:rank ""^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
@@ -576,13 +576,13 @@
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "円環の御手"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted false ;
+    lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Asterion> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
     # lily:rank ""^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
@@ -595,7 +595,7 @@
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Morimoto_Yuni> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -605,10 +605,14 @@
         # lily:resource <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "木野日菜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q23948726>,
+            <https://ja.dbpedia.org/resource/木野日菜> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -658,7 +662,7 @@
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Kagawa_Makina> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -668,10 +672,14 @@
         # lily:resource <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "指出毬亜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q28689219>,
+            <https://ja.dbpedia.org/resource/指出毬亜> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
