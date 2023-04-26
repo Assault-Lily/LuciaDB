@@ -2998,7 +2998,7 @@
         "2023-05-18T19:00:00+09:00"^^xsd:dateTime,
         "2023-05-19T19:00:00+09:00"^^xsd:dateTime,
         "2023-05-20T13:00:00+09:00"^^xsd:dateTime,
-        "2023-05-22T18:00:00+09:00"^^xsd:dateTime,
+        "2023-05-20T18:00:00+09:00"^^xsd:dateTime,
         "2023-05-21T12:00:00+09:00"^^xsd:dateTime,
         "2023-05-21T17:00:00+09:00"^^xsd:dateTime ;
     # lily:cancelledShowTime ""^^xsd:dateTime ;
