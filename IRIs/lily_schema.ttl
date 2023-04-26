@@ -366,6 +366,10 @@ lily:episodeDirection   a   rdf:Property ;
     rdfs:comment            "演出を表すプロパティ" ;
     rdfs:label              "演出"@ja .
 
+lily:assistantEpisodeDirector a   rdf:Property ;
+    rdfs:comment            "演出補佐を表すプロパティ" ;
+    rdfs:label              "演出補佐"@ja .
+
 lily:director           a   rdf:Property ;
     rdfs:comment            "監督を表すプロパティ" ;
     rdfs:label              "監督"@ja .

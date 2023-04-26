@@ -39,6 +39,7 @@
         "早園正"@ja ;
     lily:scenarioWriter "桜木さやか"@ja ;
     lily:episodeDirection "桜木さやか"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning "ルドビコ★"@ja ;
     lily:production "ルドビコ★"@ja ;
@@ -188,6 +189,7 @@
         "早園正"@ja ;
     lily:scenarioWriter "桜木さやか"@ja ;
     lily:episodeDirection "桜木さやか"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning "ピウス"@ja ;
     lily:production "ピウス"@ja ;
@@ -333,6 +335,7 @@
         "早園正"@ja ;
     lily:scenarioWriter "桜木さやか"@ja ;
     lily:episodeDirection "桜木さやか"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning "私立ルドビコ女学院"@ja ;
     lily:production "私立ルドビコ女学院"@ja ;
@@ -504,6 +507,7 @@
         "早園正"@ja ;
     lily:scenarioWriter "桜木さやか"@ja ;
     lily:episodeDirection "桜木さやか"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning
         "ピウス"@ja,
@@ -670,6 +674,7 @@
         "早園正"@ja ;
     lily:scenarioWriter "桜木さやか"@ja ;
     lily:episodeDirection "桜木さやか"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning
         "ピウス"@ja,
@@ -844,6 +849,7 @@
         "小林正英"@ja ;
     lily:scenarioWriter "桜木さやか"@ja ;
     lily:episodeDirection "林修司"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning
         "ブシロード"@ja,
@@ -1000,6 +1006,7 @@
     lily:producer "岡田太郎"@ja ;
     lily:scenarioWriter "桜木さやか"@ja ;
     lily:episodeDirection "松崎史也"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning "ブシロード"@ja ;
     lily:production "ピウス"@ja ;
@@ -1204,6 +1211,7 @@
     lily:episodeDirection
         "林修司"@ja,
         "桜木さやか"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning "ピウス"@ja ;
     lily:production "ピウス"@ja ;
@@ -1383,6 +1391,7 @@
         "早園正"@ja ;
     lily:scenarioWriter "桜木さやか"@ja ;
     lily:episodeDirection "佐野瑞樹"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning "ピウス"@ja ;
     lily:production "ピウス"@ja ;
@@ -1523,6 +1532,7 @@
     lily:episodeDirection
         "林修司"@ja,
         "桜木さやか"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning "ピウス"@ja ;
     lily:production "ピウス"@ja ;
@@ -1682,6 +1692,7 @@
     lily:producer "池田祥馬"@ja ;
     lily:scenarioWriter "桜木さやか"@ja ;
     lily:episodeDirection "佐野瑞樹"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning "ブシロードミュージック"@ja ;
     lily:production "ピウス"@ja ;
@@ -1873,6 +1884,7 @@
     lily:producer "林修司"@ja ;
     lily:scenarioWriter "桜木さやか"@ja ;
     lily:episodeDirection "佐野瑞樹"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning "ピウス"@ja ;
     lily:production "ピウス"@ja ;
@@ -2080,6 +2092,7 @@
     lily:episodeDirection
         "桜木さやか"@ja,
         "佐野瑞樹"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning "ピウス"@ja ;
     lily:production "ピウス"@ja ;
@@ -2289,6 +2302,7 @@
     lily:episodeDirection
         "林修司"@ja,
         "桜木さやか"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning "ピウス"@ja ;
     lily:production "ピウス"@ja ;
@@ -2463,6 +2477,7 @@
     lily:episodeDirection
         "桜木さやか"@ja,
         "林修司"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning "ピウス"@ja ;
     lily:production "ピウス"@ja ;
@@ -2640,6 +2655,7 @@
     lily:producer "林修司"@ja ;
     lily:scenarioWriter "桜木さやか"@ja ;
     lily:episodeDirection "佐野瑞樹"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning "ピウス"@ja ;
     lily:production "ピウス"@ja ;
@@ -2823,6 +2839,7 @@
     lily:producer "林修司"@ja ;
     lily:scenarioWriter "桜木さやか"@ja ;
     lily:episodeDirection "田邊俊喜"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:planning "ピウス"@ja ;
     lily:production "ピウス"@ja ;
@@ -2963,6 +2980,164 @@
             <https://www.wikidata.org/wiki/Q24902567>,
             <http://ja.dbpedia.org/resource/西本りみ> ;
         lily:performAs <Ichinomiya_Michaela_Himari> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Play ;
+.
+
+<Lily_Project_Vol_1_Schwester_No_Inori>
+    lily:genre "舞台"@ja ;
+    schema:name "Lily Project 第1弾公演 アサルトリリィ×私立ルドビコ女学院 「シュベスターの祈り」"@ja ;
+    schema:alternateName "リリプロ シュベスターの祈り"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:location "シアターサンモール"^^xsd:string ;
+    schema:startDate "2023-05-18"^^xsd:date ;
+    schema:endDate "2023-05-21"^^xsd:date ;
+    # schema:duration ""^^xsd:duration ;
+    lily:showTime
+        "2023-05-18T19:00:00+09:00"^^xsd:dateTime,
+        "2023-05-19T19:00:00+09:00"^^xsd:dateTime,
+        "2023-05-20T13:00:00+09:00"^^xsd:dateTime,
+        "2023-05-22T18:00:00+09:00"^^xsd:dateTime,
+        "2023-05-21T12:00:00+09:00"^^xsd:dateTime,
+        "2023-05-21T17:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
+    # lily:additionalInformation ""@ja ;
+    # schema:abstract ""@ja ;
+    lily:originalAuthor "尾花沢軒栄"@ja ;
+    # lily:supervisor ""@ja ;
+    # lily:executiveProducer ""@ja ;
+    # lily:producer ""@ja ;
+    lily:scenarioWriter "桜木さやか"@ja ;
+    lily:episodeDirection
+        "林修司"@ja,
+        "桜木さやか"@ja ;
+    lily:assistantEpisodeDirector "上谷佳澄"@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:planning "ピウス"@ja ;
+    lily:production "ピウス"@ja ;
+    # lily:contributor ""@ja ;
+    # lily:cooperation ""@ja ;
+    lily:organizer
+        "ピウス"@ja,
+        "acus"@ja,
+        "アゾンインターナショナル"@ja ;
+    lily:cast [
+        schema:name "中川梨花"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q56253556>,
+            <http://ja.dbpedia.org/resource/中川梨花> ;
+        lily:performAs <Kishimoto_Lucia_Raimu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "飯島未賀"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q115782369> ;
+        lily:performAs <Fukuyama_Jeanne_Sachie> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "鵜川もえか"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q104538909>,
+            <http://ja.dbpedia.org/resource/鵜川もえか> ;
+        lily:performAs <Amamiya_Sofia_Seren> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "橘里依"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q109318876>,
+            <http://ja.dbpedia.org/resource/橘里依> ;
+        lily:performAs <Ichinomiya_Michaela_Himari> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "末永みゆ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11519760>,
+            <http://ja.dbpedia.org/resource/末永みゆ> ;
+        lily:performAs <Kuroki_Francisca_Yuria> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "小松穂葉"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24867742>,
+            <http://ja.dbpedia.org/resource/小松穂葉> ;
+        lily:performAs <Seto_Veronica_Ichika> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "星乃まりな"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q108531445> ;
+        lily:performAs <Sano_Matilda_Kokoro> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "遥りさ"@ja ;
+        lily:resource <http://ja.dbpedia.org/resource/遥りさ> ;
+        lily:performAs <Matsunaga_Brigitta_Kayo> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "渡邉結衣"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Narumi_Clara_Yuko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "斎藤愛莉"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q116936083> ;
+        lily:performAs <Hojo_Monica_Asahi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "齋藤茉日"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q17211954>,
+            <http://ja.dbpedia.org/resource/齋藤茉日> ;
+        lily:performAs <Hasegawa_Gabriela_Tsugumi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "槙原唯"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Hanaoka_Angela_Moe> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "早川あひる"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Saeki_Julia_Karen> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "宇田川ももか"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Haneda_Catalina_Mei> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "薄倉里奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q106480268>,
+            <http://ja.dbpedia.org/resource/薄倉里奈> ;
+        lily:performAs <Nagase_Marta_Nonoka> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "舞川みやこ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q106960679>,
+            <http://ja.dbpedia.org/resource/蒼木るい> ;
+        lily:performAs <Izumi_Rosa_Rina> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "鈴木亜里紗"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q74145496>,
+            <http://ja.dbpedia.org/resource/鈴木亜里紗> ;
+        lily:performAs <Kosaka_Anastasiya_Ryoko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "中野あいみ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q20041846>,
+            <http://ja.dbpedia.org/resource/中野あいみ> ;
+        lily:performAs <Kishimoto_Maria_Mirai> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "蒼木るい"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q17217245>,
+            <http://ja.dbpedia.org/resource/武藤志織> ;
+        lily:performAs <Amatsu_Marei> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Play ;

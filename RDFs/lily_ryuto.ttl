@@ -99,6 +99,13 @@
             <Schwester_No_Himitsu_2021>,
             <Lost_Memories> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "蒼木るい"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q17217245>,
+            <http://ja.dbpedia.org/resource/武藤志織> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
 .

@@ -147,6 +147,11 @@
             <http://ja.dbpedia.org/resource/石井陽菜> ;
         lily:performIn <Schwester_No_Chikai> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "飯島未賀"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q115782369> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
 .
@@ -245,6 +250,13 @@
         lily:performIn
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "中野あいみ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q20041846>,
+            <http://ja.dbpedia.org/resource/中野あいみ> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -359,6 +371,13 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "中川梨花"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q56253556>,
+            <http://ja.dbpedia.org/resource/中川梨花> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
 .
@@ -465,6 +484,13 @@
             <Assault_Lily_Last_Bullet>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "鵜川もえか"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q104538909>,
+            <http://ja.dbpedia.org/resource/鵜川もえか> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -582,6 +608,13 @@
             <Lily_Collection_2022>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "末永みゆ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11519760>,
+            <http://ja.dbpedia.org/resource/末永みゆ> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -769,6 +802,11 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "早川あひる"@ja ;
+        # lily:resource <> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
 .
@@ -878,6 +916,13 @@
             <Lily_Collection_2022>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "小松穂葉"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24867742>,
+            <http://ja.dbpedia.org/resource/小松穂葉> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1081,6 +1126,11 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "遥りさ"@ja ;
+        lily:resource <http://ja.dbpedia.org/resource/遥りさ> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
 .
@@ -1178,6 +1228,13 @@
             <Schwester_No_Himitsu_2021>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "齋藤茉日"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q17211954>,
+            <http://ja.dbpedia.org/resource/齋藤茉日> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1292,6 +1349,11 @@
             <Lily_Collection_2022>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "渡邉結衣"@ja ;
+        # lily:resource <> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1436,6 +1498,13 @@
             <http://ja.dbpedia.org/resource/朝倉ふゆな> ;
         lily:performIn <Ludovico_Liveshow_2022> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "橘里依"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q109318876>,
+            <http://ja.dbpedia.org/resource/橘里依> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
 .
@@ -1543,6 +1612,11 @@
             <Lily_Collection_2022>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "斎藤愛莉"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q116936083> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1758,6 +1832,11 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "星乃まりな"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q108531445> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
 .
@@ -1853,6 +1932,11 @@
             <Schwester_No_Himitsu_2021>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "宇田川ももか"@ja ;
+        # lily:resource <> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1953,6 +2037,11 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "槙原唯"@ja ;
+        # lily:resource <> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
 .
@@ -2051,6 +2140,13 @@
             <Schwester_No_Himitsu_2021>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "薄倉里奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q106480268>,
+            <http://ja.dbpedia.org/resource/薄倉里奈> ;
+        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
