@@ -595,7 +595,7 @@
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Morimoto_Yuni> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -662,7 +662,7 @@
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Kagawa_Makina> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
