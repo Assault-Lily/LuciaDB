@@ -105,7 +105,7 @@
     lily:givenNameKana "らん"@ja ;
     schema:name "佐々木藍"@ja, "Sasaki Ran"@en ;
     lily:nameKana "ささきらん"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "ヒュージの姫"@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -129,7 +129,7 @@
     lily:rareSkill "ルナティックトランサー"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted true ;
-    # lily:boostedSkill ""^^xsd:string ;
+    lily:boostedSkill "アルケミートレース"^^xsd:string ;
     lily:charm [
         lily:resource <Mondragon> ;
         lily:usedIn
