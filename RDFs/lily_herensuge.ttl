@@ -424,9 +424,14 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "フェレット"@ja,
-        "カワウソ"@ja ;
+        "カワウソ"@ja,
+        "ウニ（寿司）"@ja ;
     lily:notGood "寒さ"@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "多肉植物の育成"@ja,
+        "ファッション"@ja,
+        "アンティーク雑貨の収集"@ja,
+        "歌"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ヘリオスフィア"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
