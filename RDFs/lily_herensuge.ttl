@@ -499,15 +499,15 @@
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--02-09"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "A"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "キャンディ"@ja ;
-    # lily:notGood ""@ja ;
+    lily:notGood "機械やIT機器の操作"@ja ;
     lily:hobby_talent
         "イラスト"@ja,
         "読書"@ja ;
@@ -522,7 +522,7 @@
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
-    # lily:rank ""^^xsd:integer ;
+    lily:rank "80"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
@@ -568,16 +568,16 @@
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--03-05"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "AB"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "風船ガム"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:notGood "整理整頓"@ja ;
+    lily:hobby_talent "テレビゲーム"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "円環の御手"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -589,7 +589,7 @@
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
-    # lily:rank ""^^xsd:integer ;
+    lily:rank "15"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
