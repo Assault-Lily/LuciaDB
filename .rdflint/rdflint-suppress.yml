@@ -433,3 +433,13 @@ RDFs/charm.ttl:
     message: 'Data LanguageType not matched: lang is en, but Adámas (line: 1381, col:
         28, triple: https://luciadb.assaultlily.com/rdf/RDFs/detail/Adamas - http://schema.org/name
         - "Adámas"@en)'
+RDFs/lily_herensuge.ttl:
+  - key: com.github.imas.rdflint.validator.impl.predictedOutlier
+    level: INFO
+    line: '141'
+    column: '15'
+    subject: https://luciadb.assaultlily.com/rdf/RDFs/detail/Sasaki_Ran
+    predicate: https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#rank
+    object: '"47"^^http://www.w3.org/2001/XMLSchema#integer'
+    message: 'Outlier found: 47 (line: 141, col: 15, triple: https://luciadb.assaultlily.com/rdf/RDFs/detail/Sasaki_Ran
+        - https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#rank - "47"^^http://www.w3.org/2001/XMLSchema#integer)'
