@@ -3541,11 +3541,11 @@
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Ancile> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
@@ -3553,7 +3553,9 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Sanngridr> ;
     lily:legionJobTitle "副隊長"^^xsd:string ;
-    lily:position "AZ"^^xsd:string ;
+    lily:position
+        "AZ"^^xsd:string,
+        "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     lily:pastTaskforce <Odaiba_Interception_Taskforce_2> ;
@@ -3879,12 +3881,12 @@
     lily:nameKana "はせべとうか"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "160.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     schema:birthDate "--10-28"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "A"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
@@ -3906,7 +3908,11 @@
         lily:resource <Vampire> ;
         lily:usedIn "アニメ"^^xsd:string ;
         lily:additionalInformation "起動実証機"@ja ;
-    ] ;
+    ], [
+        lily:resource <Aspid_Zmey> ;
+        # lily:usedIn ""^^xsd:string ;
+        lily:additionalInformation "テスト機"@ja ;
+    ];
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
     lily:grade "11"^^xsd:integer ;

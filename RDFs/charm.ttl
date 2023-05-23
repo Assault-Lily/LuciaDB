@@ -1487,3 +1487,27 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Ancile>
+    schema:productID "DC-06"^^xsd:string ;
+    lily:seriesName "アンキレー"@ja, "Ancile"@en ;
+    schema:name "アンキレー"@ja, "Ancile"@en ;
+    lily:generation "3"^^xsd:integer ;
+    schema:manufacturer <Larentia_Industry> ;
+    lily:user <Kiko_Totori> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Aspid_Zmey>
+    schema:productID "GC-22"^^xsd:string ;
+    lily:seriesName "アスピド・ズメイ"@ja, "Аспид-Змей"@en ;
+    schema:name "アスピド・ズメイ"@ja, "Аспид-Змей"@en ;
+    lily:generation "4"^^xsd:integer ;
+    schema:manufacturer
+        <Hihiirokane_International>,
+        <Yggdrasill> ;
+    lily:user <Hasebe_Touka> ;
+    lily:additionalInformation "第4世代精神連結機構テスト機"@ja ;
+    a lily:Charm ;
+.

@@ -433,6 +433,26 @@ RDFs/charm.ttl:
     message: 'Data LanguageType not matched: lang is en, but Adámas (line: 1381, col:
         28, triple: https://luciadb.assaultlily.com/rdf/RDFs/detail/Adamas - http://schema.org/name
         - "Adámas"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '1504'
+    column: '36'
+    subject: https://luciadb.assaultlily.com/rdf/RDFs/detail/Aspid_Zmey
+    predicate: https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#seriesName
+    object: '"Аспид-Змей"@en'
+    message: 'Data LanguageType not matched: lang is en, but Аспид-Змей (line: 1504,
+        col: 36, triple: https://luciadb.assaultlily.com/rdf/RDFs/detail/Aspid_Zmey
+        - https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#seriesName - "Аспид-Змей"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '1505'
+    column: '32'
+    subject: https://luciadb.assaultlily.com/rdf/RDFs/detail/Aspid_Zmey
+    predicate: http://schema.org/name
+    object: '"Аспид-Змей"@en'
+    message: 'Data LanguageType not matched: lang is en, but Аспид-Змей (line: 1505,
+        col: 32, triple: https://luciadb.assaultlily.com/rdf/RDFs/detail/Aspid_Zmey
+        - http://schema.org/name - "Аспид-Змей"@en)'
 RDFs/lily_herensuge.ttl:
   - key: com.github.imas.rdflint.validator.impl.predictedOutlier
     level: INFO
