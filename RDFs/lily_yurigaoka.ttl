@@ -3033,6 +3033,9 @@
     lily:relationship [
         lily:resource <Rosalinde_Friedegunde_von_Otto> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Yatsuka_Gyokuyo> ;
+        lily:additionalInformation "ライバル"@ja ;
     ] ;
     lily:cast [
         schema:name "三浦千幸"@ja ;
@@ -8160,6 +8163,72 @@
     a lily:Lily ;
 .
 
+<Yatsuka_Gyokuyo>
+    rdfs:label "八束玉葉"^^xsd:string ;
+    schema:familyName "八束"@ja, "Yatsuka"@en ;
+    lily:familyNameKana "やつか"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "玉葉"@ja, "Gyokuyo"@en ;
+    lily:givenNameKana "ぎょくよう"@ja ;
+    schema:name "八束玉葉"@ja, "Yatsuka Gyokuyo"@en ;
+    lily:nameKana "やつかぎょくよう"@ja ;
+    # lily:anotherName ""@ja ;
+    foaf:age "17"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
+    lily:gardenDepartment "普通科"^^xsd:string ;
+    lily:grade "12"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Schwertleite> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    lily:position "AZ"^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:schutzengel <> ;
+    # lily:pastSchutzengel <> ;
+    lily:schild <Tada_Shiera> ;
+    # lily:pastSchild <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Tamura_Nagi> ;
+        lily:additionalInformation "ライバル"@ja ;
+    ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
+
 <Tada_Shiera>
     rdfs:label "多田紫恵楽"^^xsd:string ;
     schema:familyName "多田"@ja, "Tada"@en ;
@@ -8207,7 +8276,7 @@
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     lily:pastTaskforce <Odaiba_Interception_Taskforce_3> ;
-    # lily:schutzengel <> ;
+    lily:schutzengel <Yatsuka_Gyokuyo> ;
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;

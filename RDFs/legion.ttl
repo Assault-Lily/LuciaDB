@@ -286,6 +286,7 @@
     # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Kuma_Ayane>,
+        <Yatsuka_Gyokuyo>,
         <Tada_Shiera> ;
     a lily:Legion ;
 .
