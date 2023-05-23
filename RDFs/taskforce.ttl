@@ -98,7 +98,8 @@
         <Osumi_Azuki>,
         <Noguchi_Shinano>,
         <Miyamoto_Komuku>,
-        <Danzuka_Erisa> ;
+        <Danzuka_Erisa>,
+        <Nakabayashi_Kaina> ;
     a lily:Taskforce ;
 .
 
