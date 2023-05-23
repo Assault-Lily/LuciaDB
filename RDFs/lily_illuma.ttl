@@ -205,7 +205,7 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite "ドーナツ"@ja ;
     lily:notGood "片付け"@ja ;
     lily:hobby_talent
         "楽しいこと"@ja,
