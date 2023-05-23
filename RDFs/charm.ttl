@@ -350,12 +350,12 @@
 .
 
 <Lichtbringer>
-    schema:productID "AC-17"^^xsd:string ;
+    schema:productID "AC-17RE"^^xsd:string ;
     lily:seriesName "ティルフィング"@ja, "Tyrfing"@en ;
     schema:name "リヒトブリンガー"@ja, "Lichtbringer"@en ;
     lily:generation "2"^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <GEHENA> ;
     lily:user <Tejima_Komachi> ;
     lily:isVariantOf <Tyrfing_Prototype> ;
     schema:isSimilarTo
@@ -415,7 +415,8 @@
         <Rosalinde_Friedegunde_von_Otto>,
         <Watanabe_Akane>,
         <Asanaga_Ichigo>,
-        <Kagawa_Makina> ;
+        <Kagawa_Makina>,
+        <Amano_Soraha> ;
     a lily:Charm ;
 .
 
@@ -475,6 +476,20 @@
         <Yoshimura_Thi_Mai>,
         <Akashi_Aika>,
         <Aoki_Kaho> ;
+    lily:hasVariant <Gram_Extra> ;
+    a lily:Charm ;
+.
+
+<Gram_Extra>
+    schema:productID "AC-28EX"^^xsd:string ;
+    lily:seriesName "グラム・エクストラ"@ja, "Gram Extra"@en ;
+    schema:name "グラム・エクストラ"@ja, "Gram Extra"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    lily:requiredSkillerVal "85"^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Amano_Soraha> ;
+    lily:isVariantOf <Gram> ;
+    # lily:isSimilarTo <>;
     a lily:Charm ;
 .
 
