@@ -680,7 +680,7 @@
     schema:name "イルミンシャイネス"@ja, "Illumine Shines"@en ;
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded false ;
-    # lily:legionGrade ""^^xsd:string ;
+    lily:legionGrade "S"^^xsd:string ;
     # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Nishikawa_Miharu>,
