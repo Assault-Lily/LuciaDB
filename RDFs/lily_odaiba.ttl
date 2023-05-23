@@ -556,7 +556,9 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     schema:birthPlace "東京都"@ja, "Tokyo"@en ;
-    lily:favorite "焼肉"@ja ;
+    lily:favorite
+        "焼肉"@ja,
+        "オコジョ"@ja ;
     # lily:notGood ""@ja ;
     lily:hobby_talent
         "トレーニング"@ja,
