@@ -734,10 +734,10 @@
 .
 
 <Laevateinn>
-    # schema:productID ""^^xsd:string ;
-    lily:seriesName "レーヴァティン"@ja, "Laevateinn"@en ;
-    schema:name "レーヴァティン"@ja, "Laevateinn"@en ;
-    # lily:generation ""^^xsd:decimal ;
+    schema:productID "GC-30"^^xsd:string ;
+    lily:seriesName "レーヴァテイン"@ja, "Laevateinn"@en ;
+    schema:name "レーヴァテイン"@ja, "Laevateinn"@en ;
+    lily:generation "3"^^xsd:decimal ;
     lily:requiredSkillerVal "85"^^xsd:integer ;
     schema:manufacturer <Yggdrasill> ;
     lily:user <Egawa_Kusumi> ;
@@ -1054,10 +1054,10 @@
 .
 
 <Precieuse>
-    # schema:productID ""^^xsd:string ;
+    schema:productID "GC-18"^^xsd:string ;
     lily:seriesName "プレシューズ"@ja, "Précieuse"@en ;
     schema:name "プレシューズ"@ja, "Précieuse"@en ;
-    # lily:generation ""^^xsd:decimal ;
+    lily:generation "3"^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
     schema:manufacturer <Grand_Guignol> ;
     lily:user <Takasuga_Tsukushi> ;
@@ -1473,6 +1473,17 @@
     # lily:generation ""^^xsd:integer ;
     schema:manufacturer <Yggdrasill> ;
     lily:user <Nishikawa_Miharu> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Tathlum>
+    schema:productID "SC-22"^^xsd:string ;
+    lily:seriesName "タスラム"@ja, "Tathlum"@en ;
+    schema:name "タスラム"@ja, "Tathlum"@en ;
+    lily:generation "3"^^xsd:integer ;
+    schema:manufacturer <Celticdale> ;
+    lily:user <Watanabe_Akane> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
