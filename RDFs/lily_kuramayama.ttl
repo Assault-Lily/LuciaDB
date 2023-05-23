@@ -59,6 +59,9 @@
     lily:relationship [
         lily:resource <Tsukioka_Momiji> ;
         lily:additionalInformation "旧知の友人"@ja ;
+    ], [
+        lily:resource <Kamigori_Marimo> ;
+        lily:additionalInformation "旧知の友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;

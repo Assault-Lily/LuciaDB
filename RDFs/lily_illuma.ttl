@@ -823,6 +823,9 @@
     ], [
         lily:resource <Ueda_Imari> ;
         lily:additionalInformation "清澄白河イルマ本校防衛戦を共に戦い抜いた"@ja ;
+    ], [
+        lily:resource <Furuta_Yae> ;
+        lily:additionalInformation "旧知の友人"@ja ;
     ] ;
     lily:cast [
         schema:name "佐々木優佳里"@ja ;
