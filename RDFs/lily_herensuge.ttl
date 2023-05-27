@@ -587,6 +587,10 @@
         lily:resource <Asterion> ;
         lily:usedIn "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Gungnir_Carbin> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
     lily:rank "15"^^xsd:integer ;
