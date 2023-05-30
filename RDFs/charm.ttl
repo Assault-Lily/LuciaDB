@@ -147,7 +147,9 @@
         <Funada_Ui>,
         <Hirose_Minato>,
         <Takasuga_Tsukushi>,
-        <Banshoya_Ena> ;
+        <Banshoya_Ena>,
+        <Ishizuka_Fujino>,
+        <Kagawa_Makina> ;
     lily:isVariantOf <Gungnir> ;
     a lily:Charm ;
 .
