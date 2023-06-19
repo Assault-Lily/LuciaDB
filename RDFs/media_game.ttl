@@ -5,7 +5,9 @@
 
 <Assault_Lily_Last_Bullet>
     lily:genre "アプリゲーム"@ja ;
-    schema:name "アサルトリリィ Last Bullet"@ja ;
+    schema:name
+        "アサルトリリィ Last Bullet"@ja,
+        "突擊莉莉 Last Bullet"@zh-TW ;
     schema:alternateName "ラスバレ"@ja ;
     schema:provider "ポケラボ"@ja ;
     schema:startDate "2021-01-20"^^xsd:date ;
