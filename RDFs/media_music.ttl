@@ -4156,7 +4156,7 @@
             lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
             lily:performAs <Shirai_Yuyu> ;
             # lily:additionalInformation ""@ja ;
-        ];
+        ] ;
     ] ;
     a lily:Music ;
 .
@@ -4286,7 +4286,7 @@
                 <http://ja.dbpedia.org/resource/伊藤美来> ;
             lily:performAs <Hitotsuyanagi_Yuri> ;
             # lily:additionalInformation ""@ja ;
-        ];
+        ] ;
     ] ;
     a lily:Music ;
 .
@@ -4466,7 +4466,7 @@
                 <http://ja.dbpedia.org/resource/佃井皆美> ;
             lily:performAs <Gozen> ;
             # lily:additionalInformation ""@ja ;
-        ];
+        ] ;
     ] ;
     a lily:Music ;
 .
@@ -4539,7 +4539,6 @@
     a lily:Music ;
 .
 
-
 <Song_Rainbow>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
@@ -4563,7 +4562,7 @@
                 <http://ja.dbpedia.org/resource/岩田陽葵> ;
             lily:performAs <Yoshimura_Thi_Mai> ;
             # lily:additionalInformation ""@ja ;
-        ];
+        ] ;
     ] ;
     a lily:Music ;
 .
@@ -4589,7 +4588,7 @@
             lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
             lily:performAs <Ando_Tazusa> ;
             # lily:additionalInformation ""@ja ;
-        ];
+        ] ;
     ] ;
     a lily:Music ;
 .
@@ -4615,7 +4614,7 @@
             lily:resource <https://www.wikidata.org/wiki/Q48762060> ;
             lily:performAs <Wang_Yujia> ;
             # lily:additionalInformation ""@ja ;
-        ];
+        ] ;
     ] ;
     a lily:Music ;
 .
@@ -4650,7 +4649,7 @@
                 <http://ja.dbpedia.org/resource/高橋花林> ;
             lily:performAs <Miliam_Hildegard_von_Guropius> ;
             # lily:additionalInformation ""@ja ;
-        ];
+        ] ;
     ] ;
     a lily:Music ;
 .
@@ -5048,7 +5047,7 @@
                 <http://ja.dbpedia.org/resource/富田美憂> ;
             lily:performAs <Sadamori_Himeka> ;
             # lily:additionalInformation ""@ja ;
-        ];
+        ] ;
     ] ;
     a lily:Music ;
 .
@@ -6082,7 +6081,7 @@
                 <http://ja.dbpedia.org/resource/伊達さゆり> ;
             lily:performAs <Ishizuka_Fujino> ;
             # lily:additionalInformation ""@ja ;
-        ];
+        ] ;
     ] ;
     a lily:Music ;
 .
