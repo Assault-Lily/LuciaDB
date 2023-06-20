@@ -514,7 +514,7 @@
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "レジスタ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted false ;
+    lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Tyrfing_type_T> ;
@@ -652,7 +652,7 @@
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ファンタズム"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted false ;
+    lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
     # lily:charm [
     #    lily:resource <> ;
