@@ -4126,7 +4126,7 @@
     lily:format "デジタルシングル"@ja ;
     schema:datePublished "2020-10-31"^^xsd:date ;
     schema:numTracks "1"^^xsd:integer ;
-    schema:timeRequired "PT4M"^^xsd:duration ;
+    schema:timeRequired "PT4M28S"^^xsd:duration ;
     lily:track [
         lily:listOrder "1"^^xsd:integer ;
         lily:song <Song_Heart_Heart> ;
