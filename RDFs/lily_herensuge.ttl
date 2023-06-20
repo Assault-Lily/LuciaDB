@@ -648,7 +648,9 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "古生物、恐竜"@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "読書"@ja,
+        "星を見ること"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ファンタズム"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
