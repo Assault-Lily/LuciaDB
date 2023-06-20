@@ -4320,7 +4320,7 @@
     lily:lyricist "谷ナオキ"@ja ;
     lily:composer "谷ナオキ"@ja ;
     lily:arranger "谷ナオキ"@ja ;
-    lily:additionalInformation "TVアニメ「アサルトリリィ BOUQUET」第12話挿入歌、舞台「アサルトリリィ The Fateful Gift」主題歌"@ja ;
+    lily:additionalInformation "舞台「アサルトリリィ The Fateful Gift」主題歌"@ja ;
     schema:duration "PT5M18S"^^xsd:duration ;
     schema:inAlbum <Kimino_Te_Wo_Hanasanai> ;
     lily:singer [
