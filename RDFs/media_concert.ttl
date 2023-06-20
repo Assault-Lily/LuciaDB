@@ -4984,7 +4984,7 @@
     ], [
         schema:name "つきあかりのコントラスト"@ja ;
         lily:listOrder "5"^^xsd:integer ;
-        lily:resource <Song_Tsukiakarino_Contrast> ;
+        lily:resource <Song_Tsukiakari_No_Contrast> ;
         lily:cast [
             schema:name "赤尾ひかる"@ja ;
             lily:resource <http://www.wikidata.org/entity/Q28685785> ;
@@ -5030,7 +5030,7 @@
     ], [
         schema:name "リリィ♡リリィ♡GOGOリリィ♡"@ja ;
         lily:listOrder "8"^^xsd:integer ;
-        lily:resource <Song_Lily_Lily_GoGo_Lily> ;
+        lily:resource <Song_Lily_Lily_Go_Go_Lily> ;
         lily:cast [
             schema:name "井澤美香子"@ja ;
             lily:resource
@@ -5180,7 +5180,7 @@
     ], [
         schema:name "君の手を離さない ～BOUQUET Ver.～"@ja ;
         lily:listOrder "12"^^xsd:integer ;
-        lily:resource <Song_Kimino_Tewo_Hanasanai_Bouquet_Ver> ;
+        lily:resource <Song_Kimino_Te_Wo_Hanasanai_Bouquet_Ver> ;
         lily:cast [
             schema:name "赤尾ひかる"@ja ;
             lily:resource <http://www.wikidata.org/entity/Q28685785> ;
@@ -5291,7 +5291,7 @@
     ], [
         schema:name "蕾の中の奇跡"@ja ;
         lily:listOrder "14"^^xsd:integer ;
-        lily:resource <Song_Tsubomino_Nakano_Kiseki_Hitotuyanagitai_Version> ;
+        lily:resource <Song_Tsubomi_No_Naka_No_Kiseki_Radgrid_Ver> ;
         lily:cast [
             schema:name "赤尾ひかる"@ja ;
             lily:resource <http://www.wikidata.org/entity/Q28685785> ;
@@ -5750,7 +5750,7 @@
     ], [
         schema:name "つきあかりのコントラスト"@ja ;
         lily:listOrder "5"^^xsd:integer ;
-        lily:resource <Song_Tsukiakarino_Contrast> ;
+        lily:resource <Song_Tsukiakari_No_Contrast> ;
         lily:cast [
             schema:name "赤尾ひかる"@ja ;
             lily:resource <http://www.wikidata.org/entity/Q28685785> ;
@@ -5796,7 +5796,7 @@
     ], [
         schema:name "リリィ♡リリィ♡GOGOリリィ♡"@ja ;
         lily:listOrder "8"^^xsd:integer ;
-        lily:resource <Song_Lily_Lily_GoGo_Lily> ;
+        lily:resource <Song_Lily_Lily_Go_Go_Lily> ;
         lily:cast [
             schema:name "井澤美香子"@ja ;
             lily:resource
@@ -6057,7 +6057,7 @@
     ], [
         schema:name "蕾の中の奇跡"@ja ;
         lily:listOrder "14"^^xsd:integer ;
-        lily:resource <Song_Tsubomino_Nakano_Kiseki_Hitotuyanagitai_Version> ;
+        lily:resource <Song_Tsubomi_No_Naka_No_Kiseki_Radgrid_Ver> ;
         lily:cast [
             schema:name "赤尾ひかる"@ja ;
             lily:resource <http://www.wikidata.org/entity/Q28685785> ;
