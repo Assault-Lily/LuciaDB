@@ -4291,7 +4291,7 @@
     a lily:Music ;
 .
 
-<Kimino_Tewo_Hanasanai>
+<Kimino_Te_Wo_Hanasanai>
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "君の手を離さない"@ja ;
     # lily:additionalInformation ""@ja ;
@@ -4305,15 +4305,15 @@
     schema:timeRequired "PT10M36S"^^xsd:duration ;
     lily:track [
         lily:listOrder "1"^^xsd:integer ;
-        lily:song <Song_Kimino_Tewo_Hanasanai> ;
+        lily:song <Song_Kimino_Te_Wo_Hanasanai> ;
     ], [
         lily:listOrder "2"^^xsd:integer ;
-        lily:song <Song_Kimino_Tewo_Hanasanai_Bouquet_Ver>
+        lily:song <Song_Kimino_Te_Wo_Hanasanai_Bouquet_Ver>
     ] ;
     a lily:MusicAlbum ;
 .
 
-<Song_Kimino_Tewo_Hanasanai>
+<Song_Kimino_Te_Wo_Hanasanai>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "君の手を離さない"@ja ;
@@ -4322,7 +4322,7 @@
     lily:arranger "谷ナオキ"@ja ;
     lily:additionalInformation "TVアニメ「アサルトリリィ BOUQUET」第12話挿入歌、舞台「アサルトリリィ The Fateful Gift」主題歌"@ja ;
     schema:duration "PT5M18S"^^xsd:duration ;
-    schema:inAlbum <Kimino_Tewo_Hanasanai> ;
+    schema:inAlbum <Kimino_Te_Wo_Hanasanai> ;
     lily:singer [
         schema:name "一柳隊＆ルド女選抜＆御台場選抜＆相模女子選抜＆ヘルヴォル＆御前"@ja ;
         lily:cast [
@@ -4471,7 +4471,7 @@
     a lily:Music ;
 .
 
-<Song_Kimino_Tewo_Hanasanai_Bouquet_Ver>
+<Song_Kimino_Te_Wo_Hanasanai_Bouquet_Ver>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "君の手を離さない ～BOUQUET Ver.～"@ja ;
@@ -4480,7 +4480,7 @@
     lily:arranger "谷ナオキ"@ja ;
     lily:additionalInformation "TVアニメ「アサルトリリィ BOUQUET」第12話挿入歌"@ja ;
     schema:duration "PT5M18S"^^xsd:duration ;
-    schema:inAlbum <Kimino_Tewo_Hanasanai> ;
+    schema:inAlbum <Kimino_Te_Wo_Hanasanai> ;
     lily:singer [
         schema:name "一柳隊"@ja ;
         lily:cast [
@@ -4568,7 +4568,7 @@
     a lily:Music ;
 .
 
-<Song_Tsukiakarino_Contrast>
+<Song_Tsukiakari_No_Contrast>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "つきあかりのコントラスト"@ja ;
@@ -4620,7 +4620,7 @@
     a lily:Music ;
 .
 
-<Song_Lily_Lily_GoGo_Lily>
+<Song_Lily_Lily_Go_Go_Lily>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "リリィ♡リリィ♡GOGOリリィ♡"@ja ;
@@ -4761,13 +4761,13 @@
         lily:song <Song_Neunt_Praeludium_Last_Bullet_Mix> ;
     ], [
         lily:listOrder "2"^^xsd:integer ;
-        lily:song <Song_Tsubomino_Nakano_Kiseki> ;
+        lily:song <Song_Tsubomi_No_Naka_No_Kiseki> ;
     ], [
         lily:listOrder "3"^^xsd:integer ;
         lily:song <Song_Neunt_Praeludium_Last_Bullet_Mix_Instrumental> ;
     ], [
         lily:listOrder "4"^^xsd:integer ;
-        lily:song <Song_Tsubomino_Nakano_Kiseki_Instrumental> ;
+        lily:song <Song_Tsubomi_No_Naka_No_Kiseki_Instrumental> ;
     ] ;
     a lily:MusicAlbum ;
 .
@@ -4789,19 +4789,19 @@
         lily:song <Song_Neunt_Praeludium_Last_Bullet_Mix> ;
     ], [
         lily:listOrder "2"^^xsd:integer ;
-        lily:song <Song_Tsubomino_Nakano_Kiseki_Hitotuyanagitai_Version> ;
+        lily:song <Song_Tsubomi_No_Naka_No_Kiseki_Radgrid_Ver> ;
     ], [
         lily:listOrder "3"^^xsd:integer ;
-        lily:song <Song_Omoidega_Afureteru> ;
+        lily:song <Song_Omoide_Ga_Afureteru> ;
     ], [
         lily:listOrder "4"^^xsd:integer ;
         lily:song <Song_Neunt_Praeludium_Last_Bullet_Mix_Instrumental> ;
     ], [
         lily:listOrder "5"^^xsd:integer ;
-        lily:song <Song_Tsubomino_Nakano_Kiseki_Instrumental> ;
+        lily:song <Song_Tsubomi_No_Naka_No_Kiseki_Instrumental> ;
     ], [
         lily:listOrder "6"^^xsd:integer ;
-        lily:song <Song_Omoidega_Afureteru_Instrumental> ;
+        lily:song <Song_Omoide_Ga_Afureteru_Instrumental> ;
     ] ;
     a lily:MusicAlbum ;
 .
@@ -4823,7 +4823,7 @@
         lily:song <Song_Neunt_Praeludium_Last_Bullet_Mix> ;
     ], [
         lily:listOrder "2"^^xsd:integer ;
-        lily:song <Song_Tsubomino_Nakano_Kiseki_Hervor_Version> ;
+        lily:song <Song_Tsubomi_No_Naka_No_Kiseki_Hervarar_Ver> ;
     ], [
         lily:listOrder "3"^^xsd:integer ;
         lily:song <Song_Resonant_Hearts> ;
@@ -4832,7 +4832,7 @@
         lily:song <Song_Neunt_Praeludium_Last_Bullet_Mix_Instrumental> ;
     ], [
         lily:listOrder "5"^^xsd:integer ;
-        lily:song <Song_Tsubomino_Nakano_Kiseki_Instrumental> ;
+        lily:song <Song_Tsubomi_No_Naka_No_Kiseki_Instrumental> ;
     ], [
         lily:listOrder "6"^^xsd:integer ;
         lily:song <Song_Resonant_Hearts_Instrumental> ;
@@ -4857,7 +4857,7 @@
         lily:song <Song_Neunt_Praeludium_Last_Bullet_Mix> ;
     ], [
         lily:listOrder "2"^^xsd:integer ;
-        lily:song <Song_Tsubomino_Nakano_Kiseki_Gran_Eple_Version> ;
+        lily:song <Song_Tsubomi_No_Naka_No_Kiseki_Gran_Eple_Ver> ;
     ], [
         lily:listOrder "3"^^xsd:integer ;
         lily:song <Song_Treasure_Every_Day> ;
@@ -4866,7 +4866,7 @@
         lily:song <Song_Neunt_Praeludium_Last_Bullet_Mix_Instrumental> ;
     ], [
         lily:listOrder "5"^^xsd:integer ;
-        lily:song <Song_Tsubomino_Nakano_Kiseki_Instrumental> ;
+        lily:song <Song_Tsubomi_No_Naka_No_Kiseki_Instrumental> ;
     ], [
         lily:listOrder "6"^^xsd:integer ;
         lily:song <Song_Treasure_Every_Day_Instrumental> ;
@@ -4929,7 +4929,7 @@
     a lily:Music ;
 .
 
-<Song_Tsubomino_Nakano_Kiseki>
+<Song_Tsubomi_No_Naka_No_Kiseki>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "蕾の中の奇跡"@ja ;
@@ -5053,7 +5053,7 @@
     a lily:Music ;
 .
 
-<Song_Tsubomino_Nakano_Kiseki_Hitotuyanagitai_Version>
+<Song_Tsubomi_No_Naka_No_Kiseki_Radgrid_Ver>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "蕾の中の奇跡"@ja ;
@@ -5121,7 +5121,7 @@
     a lily:Music ;
 .
 
-<Song_Tsubomino_Nakano_Kiseki_Hervor_Version>
+<Song_Tsubomi_No_Naka_No_Kiseki_Hervarar_Ver>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "蕾の中の奇跡"@ja ;
@@ -5163,7 +5163,7 @@
     a lily:Music ;
 .
 
-<Song_Tsubomino_Nakano_Kiseki_Gran_Eple_Version>
+<Song_Tsubomi_No_Naka_No_Kiseki_Gran_Eple_Ver>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "蕾の中の奇跡"@ja ;
@@ -5211,7 +5211,7 @@
     a lily:Music ;
 .
 
-<Song_Tsubomino_Nakano_Kiseki_Instrumental>
+<Song_Tsubomi_No_Naka_No_Kiseki_Instrumental>
     lily:genre "歌"@ja ;
     lily:inLanguage "ja-JP"^^xsd:language ;
     schema:name "蕾の中の奇跡 -instrumental-"@ja ;
@@ -5225,7 +5225,7 @@
     a lily:Music ;
 .
 
-<Song_Omoidega_Afureteru>
+<Song_Omoide_Ga_Afureteru>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "思い出が溢れてる"@ja ;
@@ -5293,7 +5293,7 @@
     a lily:Music ;
 .
 
-<Song_Omoidega_Afureteru_Instrumental>
+<Song_Omoide_Ga_Afureteru_Instrumental>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "想い出が溢れてる -instrumental-"@ja ;
@@ -5453,7 +5453,7 @@
         lily:song <Song_Everlasting> ;
     ], [
         lily:listOrder "9"^^xsd:integer ;
-        lily:song <Song_Unmeino_Filament> ;
+        lily:song <Song_Unmei_No_Filament> ;
     ], [
         lily:listOrder "10"^^xsd:integer ;
         lily:song <Song_Cherish> ;
@@ -5624,7 +5624,7 @@
     a lily:Music ;
 .
 
-<Song_Unmeino_Filament>
+<Song_Unmei_No_Filament>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "運命のFilament"@ja ;
@@ -5698,7 +5698,7 @@
         lily:song <Song_Hope> ;
     ], [
         lily:listOrder "6"^^xsd:integer ;
-        lily:song <Song_Maka_Fushigiwo_Daisukida> ;
+        lily:song <Song_Maka_Fushigi_Wo_Daisukida> ;
     ], [
         lily:listOrder "7"^^xsd:integer ;
         lily:song <Song_Preserved_Idol> ;
@@ -5825,7 +5825,7 @@
     a lily:Music ;
 .
 
-<Song_Maka_Fushigiwo_Daisukida>
+<Song_Maka_Fushigi_Wo_Daisukida>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:name "摩訶不思議をダイスキダ"@ja ;
