@@ -254,7 +254,8 @@
         <Egawa_Kusumi>,
         <Ando_Tazusa>,
         <Kawanabe_Nazuna>,
-        <Shiozaki_Suzume> ;
+        <Shiozaki_Suzume>,
+        <Morimoto_Yuni> ;
     a lily:Charm ;
 .
 
