@@ -5940,6 +5940,25 @@
     a lily:Music ;
 .
 
+<Toumei_Diary>
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "トウメイダイアリー"@ja ;
+    # lily:additionalInformation ""@ja ;
+    lily:musicProducer "タノウエマモル"@ja ;
+    lily:artist "一柳隊"@ja ;
+    # lily:edition ""@ja ;
+    lily:recordLabel "グリーエンターテインメント"@ja ;
+    lily:format "デジタルシングル"@ja ;
+    schema:datePublished "2023-06-28"^^xsd:date ;
+    schema:numTracks "1"^^xsd:integer ;
+    schema:timeRequired "PT3M43S"^^xsd:duration ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Toumei_Diary> ;
+    ] ;
+    a lily:MusicAlbum ;
+.
+
 <Song_Toumei_Diary>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
@@ -5948,7 +5967,8 @@
     lily:composer "神田ジョン"@ja ;
     lily:arranger "神田ジョン"@ja ;
     lily:additionalInformation "アサルトリリィ Last Bullet 2周年テーマ楽曲"@ja ;
-    schema:duration "PT3M40S"^^xsd:duration ;
+    schema:duration "PT3M43S"^^xsd:duration ;
+    schema:inAlbum <Toumei_Diary> ;
     lily:singer [
         schema:name "一柳隊"@ja ;
         lily:cast [
