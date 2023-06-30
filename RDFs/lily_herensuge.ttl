@@ -415,10 +415,10 @@
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--10-05"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
@@ -426,7 +426,9 @@
         "フェレット"@ja,
         "カワウソ"@ja,
         "ウニ（寿司）"@ja ;
-    lily:notGood "寒さ"@ja ;
+    lily:notGood
+        "寒さ"@ja,
+        "手書き"@ja ;
     lily:hobby_talent
         "多肉植物の育成"@ja,
         "ファッション"@ja,
@@ -639,15 +641,15 @@
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--04-05"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "古生物、恐竜"@ja ;
-    # lily:notGood ""@ja ;
+    lily:notGood "物を捨てること"@ja ;
     lily:hobby_talent
         "読書"@ja,
         "星を見ること"@ja ;
