@@ -1528,3 +1528,25 @@
     lily:additionalInformation "第4世代精神連結機構テスト機"@ja ;
     a lily:Charm ;
 .
+
+<Gerr_Na_Gcollan>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ゲル・ ナ・グコラン"@ja, "Gerr na gCollan"@en ;
+    schema:name "ゲル・ ナ・グコラン"@ja, "Gerr na gCollan"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Imagawa_Homare> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Bronllavyn>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ブロンラヴィン"@ja, "Bronllavyn"@en ;
+    schema:name "ブロンラヴィン"@ja, "Bronllavyn"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Imagawa_Homare> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.

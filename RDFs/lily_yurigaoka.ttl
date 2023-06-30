@@ -3637,6 +3637,14 @@
         lily:resource <Asterion> ;
         lily:usedIn "アニメ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Gerr_Na_Gcollan> ;
+        # lily:usedIn ""^^xsd:string ;
+        lily:additionalInformation "ユニーク機体"@ja ;
+    ], [
+        lily:resource <Bronllavyn> ;
+        # lily:usedIn ""^^xsd:string ;
+        lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
