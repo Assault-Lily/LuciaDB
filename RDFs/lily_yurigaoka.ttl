@@ -82,6 +82,11 @@
     ], [
         lily:resource <Hitotsuyanagi_Yuri> ;
         lily:additionalInformation "かけがえのない存在"@ja ;
+    ], [
+        lily:resource <Hamaguchi_Kayu> ;
+        lily:additionalInformation
+            "共に甲州から避難した"@ja,
+            "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "赤尾ひかる"@ja ;
