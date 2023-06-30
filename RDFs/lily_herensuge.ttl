@@ -44,7 +44,7 @@
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "レジスタ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted false ;
+    lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Gungnir_Carbin> ;
@@ -279,7 +279,7 @@
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ブレイブ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted false ;
+    lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Chrysaor> ;
@@ -356,7 +356,7 @@
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ヘリオスフィア"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted false ;
+    lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Gae_Bolg> ;
