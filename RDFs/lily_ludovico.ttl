@@ -139,7 +139,8 @@
             <Lily_Collection_2022>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "石井陽菜"@ja ;
@@ -615,7 +616,8 @@
             <Lily_Collection_2022>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "末永みゆ"@ja ;
@@ -810,7 +812,8 @@
             <Lily_Collection_2022>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "早川あひる"@ja ;
@@ -929,7 +932,8 @@
             <Lily_Collection_2022>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "小松穂葉"@ja ;
@@ -1027,7 +1031,8 @@
         lily:performIn
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1140,7 +1145,8 @@
             <Lily_Collection_2022>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "遥りさ"@ja ;
@@ -1366,7 +1372,8 @@
             <Lily_Collection_2022>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "渡邉結衣"@ja ;
@@ -1631,7 +1638,8 @@
             <Lily_Collection_2022>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "斎藤愛莉"@ja ;
@@ -1852,7 +1860,8 @@
             <Lily_Collection_2022>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "星乃まりな"@ja ;

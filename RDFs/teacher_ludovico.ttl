@@ -219,7 +219,8 @@
             <Lily_Collection_2022>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "鈴木亜里紗"@ja ;

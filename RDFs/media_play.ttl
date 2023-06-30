@@ -2036,7 +2036,7 @@
 <Lily_Collection_2022>
     lily:genre "ライブショー"@ja ;
     schema:name "アサルトリリィ「リリィコレクション2022 御台場女学校 with 私立ルドビコ女学院」"@ja ;
-    schema:alternateName "リリコレ"@ja ;
+    schema:alternateName "リリコレ2022"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:location "シアターサンモール"^^xsd:string ;
     schema:startDate "2022-04-07"^^xsd:date ;
@@ -3314,6 +3314,224 @@
             <http://ja.dbpedia.org/resource/三枝奈都紀> ;
         lily:performAs <Toride_Suzanne_Reika> ;
         # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Play ;
+.
+
+<Lily_Collection_2023>
+    lily:genre "ライブショー"@ja ;
+    schema:name "アサルトリリィ「リリィコレクション2023 御台場女学校 with 私立ルドビコ女学院」"@ja ;
+    schema:alternateName "リリコレ2023"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:location "大手町三井ホール"^^xsd:string ;
+    schema:startDate "2023-08-26"^^xsd:date ;
+    schema:endDate "2023-08-27"^^xsd:date ;
+    # schema:duration ""^^xsd:duration ;
+    lily:showTime
+        "2023-08-26T13:00:00+09:00"^^xsd:dateTime,
+        "2023-08-26T19:00:00+09:00"^^xsd:dateTime,
+        "2023-08-27T12:00:00+09:00"^^xsd:dateTime,
+        "2023-08-27T16:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
+    # lily:additionalInformation ""@ja ;
+    # schema:abstract ""@ja ;
+    lily:originalAuthor "尾花沢軒栄"@ja ;
+    # lily:supervisor ""@ja ;
+    # lily:executiveProducer ""@ja ;
+    lily:producer "林修司"@ja ;
+    lily:scenarioWriter "桜木さやか"@ja ;
+    lily:episodeDirection
+        "桜木さやか"@ja,
+        "佐野瑞樹"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:planning "ピウス"@ja ;
+    lily:production "ピウス"@ja ;
+    # lily:contributor ""@ja ;
+    # lily:cooperation ""@ja ;
+    lily:organizer
+        "ピウス"@ja,
+        "アゾンインターナショナル"@ja ;
+    lily:cast [
+        schema:name "石井陽菜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q18817351>,
+            <http://ja.dbpedia.org/resource/石井陽菜> ;
+        lily:performAs <Funada_Kiito> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "野元空"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q18999130>,
+            <http://ja.dbpedia.org/resource/野元空> ;
+        lily:performAs <Shiba_Tomoshibi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "長谷川里桃"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q38279051> ;
+        lily:performAs <Nagasawa_Yuki> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "吉宮瑠織"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q54292702> ;
+        lily:performAs <Igusa_Subaru> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "春咲暖"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q35172355> ;
+        lily:performAs <Fujita_Asagao> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "柴田茉莉"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Imamura_Yukari> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "田崎礼奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27918099>,
+            <http://ja.dbpedia.org/resource/田崎礼奈> ;
+        lily:performAs <Kawabata_Hotaru> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "有沢澪風"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q30933448> ;
+        lily:performAs <Kozue_West> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "矢野妃菜喜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q56253675>,
+            <http://ja.dbpedia.org/resource/矢野妃菜喜> ;
+        lily:performAs <Tsukioka_Momiji> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "あわつまい"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q35567820> ;
+        lily:performAs <Kawamura_Yuzuriha> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "林田真尋"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q19162226>,
+            <http://ja.dbpedia.org/resource/林田真尋> ;
+        lily:performAs <Hishida_Haru> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "北澤早紀"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q28418874>,
+            <http://ja.dbpedia.org/resource/北澤早紀> ;
+        lily:performAs <Otake_Sunao> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "安藤千伽奈"@ja ;
+        lily:resource <http://ja.dbpedia.org/resource/安藤千伽奈> ;
+        lily:performAs <Saigo_Kurena> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "花奈澪"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q17210554>,
+            <http://ja.dbpedia.org/resource/花奈澪> ;
+        lily:performAs <Yokoyama_Azusa> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "河内美里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q65272225>,
+            <http://ja.dbpedia.org/resource/河内美里> ;
+        lily:performAs <Kawanabe_Nazuna> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "今村美歩"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q30936947>,
+            <http://ja.dbpedia.org/resource/今村美歩> ;
+        lily:performAs <Maruyama_Amane> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "栞菜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q1193372>,
+            <http://ja.dbpedia.org/resource/栞菜> ;
+        lily:performAs <Hayami_Katsura> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "白石まゆみ"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Suzuki_Chinami> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "山本栞"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Takehisa_Nakaba> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "遠藤三貴"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q55177725>,
+            <http://ja.dbpedia.org/resource/遠藤三貴> ;
+        lily:performAs
+            <Kifuji_Suzu>,
+            <Kosaka_Anastasiya_Ryoko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "小菅怜衣"@ja ;
+        # lily:resource <> ;
+        lily:performAs
+            <Fukushima_Ritsu>,
+            <Saeki_Julia_Karen> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "中村裕香里"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q60613344> ;
+        lily:performAs <Fukuyama_Jeanne_Sachie> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "七海とろろ"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Seto_Veronica_Ichika> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "梅原サエリ"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q74146771> ;
+        lily:performAs <Kuroki_Francisca_Yuria> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "大滝紗緒里"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q60989916> ;
+        lily:performAs <Matsunaga_Brigitta_Kayo> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "清水凜"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q105704315> ;
+        lily:performAs <Sano_Matilda_Kokoro> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "一本鎗希華"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q98757922> ;
+        lily:performAs <Narumi_Clara_Yuko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "山﨑悠稀"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Hojo_Monica_Asahi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "甲斐千尋"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q59134848>,
+            <http://ja.dbpedia.org/resource/甲斐千尋> ;
+        lily:performAs <Takatori_Natalie_Towa> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "西葉瑞希"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q98734254>,
+            <http://ja.dbpedia.org/resource/西葉瑞希> ;
+        lily:performAs <Funada_Ui> ;
+        lily:additionalInformation "映像出演"@ja ;
     ] ;
     a lily:Play ;
 .

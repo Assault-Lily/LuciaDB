@@ -115,7 +115,8 @@
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Assault_Lily_Last_Bullet>,
             <Lily_Collection_2022>,
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -217,7 +218,8 @@
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Assault_Lily_Last_Bullet>,
             <Lily_Collection_2022>,
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "甲斐千尋"@ja ;
@@ -325,7 +327,8 @@
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022>,
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -423,7 +426,8 @@
             <https://www.wikidata.org/wiki/Q27918099>,
             <http://ja.dbpedia.org/resource/田崎礼奈> ;
         lily:performIn
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -529,7 +533,8 @@
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022>,
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -621,7 +626,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022>,
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -723,7 +729,8 @@
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Assault_Lily_Last_Bullet>,
             <Lily_Collection_2022>,
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -824,7 +831,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022>,
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -927,7 +935,8 @@
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022>,
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1035,7 +1044,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022>,
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1137,7 +1147,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Lily_Collection_2022>,
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1233,7 +1244,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022>,
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1317,7 +1329,8 @@
         schema:name "安藤千伽奈"@ja ;
         lily:resource <http://ja.dbpedia.org/resource/安藤千伽奈> ;
         lily:performIn
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1443,7 +1456,8 @@
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Assault_Lily_Last_Bullet>,
             <Lily_Collection_2022>,
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1534,7 +1548,8 @@
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022>,
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1635,7 +1650,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q17210554>,
             <http://ja.dbpedia.org/resource/花奈澪> ;
-        lily:performIn <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1749,7 +1766,8 @@
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022>,
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "矢新愛梨"@ja ;
@@ -1877,7 +1895,8 @@
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Assault_Lily_Last_Bullet>,
             <Lily_Collection_2022>,
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1961,7 +1980,8 @@
             <http://ja.dbpedia.org/resource/北澤早紀> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -2048,7 +2068,8 @@
             <http://ja.dbpedia.org/resource/今村美歩> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Lily_Collection_2022> ;
+            <Lily_Collection_2022>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -2540,7 +2561,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q55177725>,
             <http://ja.dbpedia.org/resource/遠藤三貴> ;
-        lily:performIn <Ludovico_Liveshow_2022>
+        lily:performIn
+            <Ludovico_Liveshow_2022>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -2604,7 +2627,9 @@
     lily:cast [
         schema:name "小菅怜衣"@ja ;
         # lily:resource <> ;
-        lily:performIn <Ludovico_Liveshow_2022> ;
+        lily:performIn
+            <Ludovico_Liveshow_2022>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
