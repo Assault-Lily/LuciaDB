@@ -2579,6 +2579,13 @@
         lily:performAs <Haneda_Catalina_Mei> ;
         # lily:additionalInformation ""@ja ;
     ], [
+        schema:name "小野瀬みらい"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q16769880>,
+            <http://ja.dbpedia.org/resource/小野瀬みらい> ;
+        lily:performAs <Nosaka_Jacqueline_Kazane> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
         schema:name "甲斐千尋"@ja ;
         lily:resource
             <https://www.wikidata.org/wiki/Q59134848>,
