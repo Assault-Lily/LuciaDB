@@ -100,7 +100,8 @@
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
             <Yakusoku_No_Yukue_2022>,
-            <Ludovico_Liveshow_2022> ;
+            <Ludovico_Liveshow_2022>,
+            <Shinjitsu_No_Yaiba_2023> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "舞川みやこ"@ja ;
@@ -217,7 +218,8 @@
             <Schwester_No_Himitsu_2021>,
             <Lily_Collection_2022>,
             <Yakusoku_No_Yukue_2022>,
-            <Ludovico_Liveshow_2022> ;
+            <Ludovico_Liveshow_2022>,
+            <Shinjitsu_No_Yaiba_2023> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "鈴木亜里紗"@ja ;
@@ -395,7 +397,8 @@
         # lily:resource <>;
         lily:performIn
             <Yakusoku_No_Yukue_2022>,
-            <Ludovico_Liveshow_2022> ;
+            <Ludovico_Liveshow_2022>,
+            <Shinjitsu_No_Yaiba_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Teacher ;
@@ -485,7 +488,8 @@
             <http://ja.dbpedia.org/resource/三枝奈都紀> ;
         lily:performIn
             <Yakusoku_No_Yukue_2022>,
-            <Ludovico_Liveshow_2022> ;
+            <Ludovico_Liveshow_2022>,
+            <Shinjitsu_No_Yaiba_2023> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Teacher ;
