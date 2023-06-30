@@ -2981,10 +2981,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Imai_Seira> ;
+        lily:additionalInformation "仲が良い"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
@@ -4145,7 +4145,9 @@
     lily:gardenDepartment "工廠科"^^xsd:string ;
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
-    lily:gardenJobTitle "生徒会指導係"@ja ;
+    lily:gardenJobTitle
+        "図書委員"@ja,
+        "生徒会指導係"@ja ;
     lily:legion <Sanngridr> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position
@@ -4164,10 +4166,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Ushida_Watsuki> ;
+        lily:additionalInformation "仲が良い"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
