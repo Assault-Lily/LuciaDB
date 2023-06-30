@@ -681,7 +681,7 @@
     lily:givenNameKana "ふじの"@ja ;
     schema:name "石塚藤乃"@ja, "Ishizuka Fujino"@en ;
     lily:nameKana "いしづかふじの"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "プルミエールエトワール"@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
