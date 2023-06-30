@@ -86,6 +86,9 @@
         lily:resource <Uchida_Mayuri> ;
         lily:additionalInformation "友人"@ja ;
     ], [
+        lily:resource <Seto_Veronica_Ichika> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
         lily:resource <Hayami_Katsura> ;
         lily:additionalInformation "ユニークCHARMを開発"@ja ;
     ] ;

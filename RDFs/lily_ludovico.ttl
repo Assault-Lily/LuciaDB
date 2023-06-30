@@ -823,7 +823,7 @@
     lily:nameKana "せと・べろにか・いちか"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "159.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     schema:birthDate "--02-04"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
@@ -890,6 +890,9 @@
     ], [
         lily:resource <Tachibana_Theresia_Nagisa> ;
         lily:additionalInformation "親友"@ja ;
+    ], [
+        lily:resource <Amatsu_Marei> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "土山茜"@ja ;
