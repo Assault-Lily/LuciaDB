@@ -3764,7 +3764,7 @@
     schema:birthPlace "アメリカ・ボストン"@ja, "Boston, USA"@en ;
     lily:favorite "ステーキ"@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent "かるた"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ファンタズム"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
