@@ -3512,6 +3512,12 @@
     ], [
         lily:resource <Hishida_Haru> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Takehisa_Nakaba> ;
+        lily:additionalInformation "尊敬されている"@ja ;
+    ], [
+        lily:resource <Kawanabe_Nazuna> ;
+        lily:additionalInformation "尊敬されている"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;

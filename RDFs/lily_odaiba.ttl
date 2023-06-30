@@ -1127,6 +1127,9 @@
     ], [
         lily:resource <Chemir_Friedheim> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation "尊敬している"@ja ;
     ] ;
     lily:cast [
         schema:name "河内美里"@ja ;
@@ -1220,6 +1223,9 @@
     ], [
         lily:resource <Hayami_Katsura> ;
         lily:additionalInformation "ライバル視"@ja ;
+    ], [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation "尊敬している"@ja ;
     ] ;
     lily:cast [
         schema:name "山本栞"@ja ;
