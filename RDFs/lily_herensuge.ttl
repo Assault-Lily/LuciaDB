@@ -584,7 +584,7 @@
     lily:rareSkill "円環の御手"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted true ;
-    # lily:boostedSkill ""^^xsd:string ;
+    lily:boostedSkill "リジェネレーター"^^xsd:string ;
     lily:charm [
         lily:resource <Asterion> ;
         lily:usedIn "ラスバレ"^^xsd:string ;
