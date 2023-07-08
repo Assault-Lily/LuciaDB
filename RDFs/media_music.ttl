@@ -6086,3 +6086,82 @@
     ] ;
     a lily:Music ;
 .
+
+<Song_REFLECTIONS>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "REFLECTIONS"@ja ;
+    lily:lyricist "吾龍"@ja ;
+    lily:composer "大和"@ja ;
+    lily:arranger "大和"@ja ;
+    lily:additionalInformation "アサルトリリィ Last Bullet 新章ヘルヴォル編のテーマソング"@ja ;
+    schema:duration "PT4M07S"^^xsd:duration ;
+    lily:singer [
+        schema:name "ヘルヴォル&クエレブレ"@ja ;
+        lily:cast [
+            schema:name "藤井彩加"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q28068428>,
+                <https://ja.dbpedia.org/resource/藤井彩加> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏目愛海"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q47582342>,
+                <https://ja.dbpedia.org/resource/夏目愛海> ;
+            lily:performAs <Sasaki_Ran> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "石飛恵里花"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q51166206>,
+                <https://ja.dbpedia.org/resource/石飛恵里花> ;
+            lily:performAs <Iijima_Renka> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "三村遙佳"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q97590111>,
+                <https://ja.dbpedia.org/resource/三村遙佳> ;
+            lily:performAs <Hatsukano_Yo> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "野中深愛"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q110403836>,
+                <https://ja.dbpedia.org/resource/野中深愛> ;
+            lily:performAs <Serizawa_Chikaru> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "集貝はな"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q74548472>,
+                <https://ja.dbpedia.org/resource/集貝はな> ;
+            lily:performAs <Matsumura_Fuka> ;
+            #lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "河瀬茉希"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q24867153>,
+                <http://ja.dbpedia.org/resource/河瀬茉希> ;
+            lily:performAs <Makino_Mitake> ;
+            #lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "木野日菜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q23948726>,
+                <https://ja.dbpedia.org/resource/木野日菜> ;
+            lily:performAs <Kagawa_Makina> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "指出毬亜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q28689219>,
+                <https://ja.dbpedia.org/resource/指出毬亜> ;
+            lily:performAs <Morimoto_Yuni> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
