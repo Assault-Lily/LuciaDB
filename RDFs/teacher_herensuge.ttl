@@ -83,8 +83,8 @@
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
-    lily:lifeStatus "alive"^^xsd:string ;
-    # lily:killedIn ""^^xsd:string ;
+    lily:lifeStatus "dead"^^xsd:string ;
+    lily:killedIn "ヘルヴォル・クエレブレとの戦いで死亡"^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
