@@ -681,10 +681,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Kagawa_Makina> ;
+        lily:additionalInformation "仲が良い"@ja ;
+    ] ;
     lily:cast [
         schema:name "指出毬亜"@ja ;
         lily:resource
