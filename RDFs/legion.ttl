@@ -339,7 +339,7 @@
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded false ;
     # lily:legionGrade ""^^xsd:string ;
-    # lily:numberOfMembers ""^^xsd:integer ;
+    lily:numberOfMembers "5"^^xsd:integer ;
     schema:member
         <Matsumura_Fuka>,
         <Makino_Mitake>,
