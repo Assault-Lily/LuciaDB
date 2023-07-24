@@ -45,7 +45,7 @@
     lily:rareSkill "レジスタ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted true ;
-    # lily:boostedSkill ""^^xsd:string ;
+    lily:boostedSkill "ブーステッドインサニティ"^^xsd:string ;
     lily:charm [
         lily:resource <Gungnir_Carbin> ;
         lily:usedIn "舞台LoG"^^xsd:string ;
