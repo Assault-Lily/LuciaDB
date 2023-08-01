@@ -670,7 +670,7 @@
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
-    # lily:rank ""^^xsd:integer ;
+    lily:rank "8"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
