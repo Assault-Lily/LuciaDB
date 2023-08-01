@@ -4144,11 +4144,11 @@
     lily:subSkill "カリスマ"^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Achalbars> ;
+        # lily:usedIn ""^^xsd:string ;
+        lily:additionalInformation "ユニーク機体"@ja ;
+    ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "工廠科"^^xsd:string ;
     lily:grade "10"^^xsd:integer ;

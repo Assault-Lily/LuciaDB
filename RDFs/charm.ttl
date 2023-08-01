@@ -1551,3 +1551,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Achalbars>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "アチャルバルス"@ja, "Achalbars"@en ;
+    schema:name "アチャルバルス"@ja, "Achalbars"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Imai_Seira> ;
+    lily:additionalInformation "今井星蘭の自作CHARM"@ja ;
+    a lily:Charm ;
+.
