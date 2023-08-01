@@ -856,3 +856,16 @@
         <Omodaka_Tae> ;
     a lily:Legion ;
 .
+
+### 幕張科学技術女子高等学校
+
+<Gladsheim>
+    schema:name "グラズヘイム"@ja, "Gladsheim"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Yoshioka_Tomoha> ;
+    a lily:Legion ;
+.

@@ -89,6 +89,9 @@
         lily:resource <Seto_Veronica_Ichika> ;
         lily:additionalInformation "友人"@ja ;
     ], [
+        lily:resource <Yoshioka_Tomoha> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
         lily:resource <Hayami_Katsura> ;
         lily:additionalInformation "ユニークCHARMを開発"@ja ;
     ] ;
