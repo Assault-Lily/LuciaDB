@@ -148,8 +148,8 @@
     lily:givenNameKana "なたーしゃ"@ja ;
     schema:name "ナターシャ・メッテル"@ja, "Natasha Metter"@en ;
     lily:nameKana "なたーしゃ・めってる"@ja ;
-    # lily:anotherName ""@ja ;
-    # foaf:age ""^^xsd:integer ;
+    lily:anotherName "白き女鹿"@ja ;
+    foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
@@ -166,7 +166,7 @@
     lily:rareSkill "ルナティックトランサー"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted true ;
-    # lily:boostedSkill ""^^xsd:string ;
+    lily:boostedSkill "リジェネレーター"^^xsd:string ;
     # lily:charm [
     #    lily:resource <> ;
     #    lily:usedIn ""^^xsd:string ;
@@ -174,12 +174,12 @@
     # ] ;
     lily:garden "聖メルクリウスインターナショナルスクール"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
-    # lily:grade ""^^xsd:integer ;
+    lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Raguel> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
