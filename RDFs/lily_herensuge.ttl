@@ -235,6 +235,9 @@
     lily:relationship [
         lily:resource <Hatsukano_Yo> ;
         lily:additionalInformation "親友"@ja ;
+    ], [
+        lily:resource <Yoshii_Kasumiko> ;
+        lily:additionalInformation "知り合い"@ja ;
     ] ;
     lily:cast [
         schema:name "石飛恵里花"@ja ;
@@ -309,6 +312,9 @@
     lily:relationship [
         lily:resource <Iijima_Renka> ;
         lily:additionalInformation "親友"@ja ;
+    ], [
+        lily:resource <Yoshii_Kasumiko> ;
+        lily:additionalInformation "知り合い"@ja ;
     ] ;
     lily:cast [
         schema:name "三村遙佳"@ja ;

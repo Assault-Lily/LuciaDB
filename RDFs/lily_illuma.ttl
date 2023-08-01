@@ -347,6 +347,12 @@
     ], [
         lily:resource <Ishizuka_Fujino> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Iijima_Renka> ;
+        lily:additionalInformation "知り合い"@ja ;
+    ], [
+        lily:resource <Hatsukano_Yo> ;
+        lily:additionalInformation "知り合い"@ja ;
     ] ;
     lily:cast [
         schema:name "遥りさ"@ja ;
