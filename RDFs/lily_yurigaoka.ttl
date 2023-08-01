@@ -7560,7 +7560,7 @@
     # lily:rareSkill ""^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted true ;
-    # lily:boostedSkill ""^^xsd:string ;
+    lily:boostedSkill "エンハンスメント"^^xsd:string ;
     # lily:charm [
     #    lily:resource <> ;
     #    lily:usedIn ""^^xsd:string ;
