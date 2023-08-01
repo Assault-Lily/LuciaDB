@@ -853,7 +853,8 @@
     schema:member
         <Iwashita_Kiriko>,
         <Kuki_Nuyuna>,
-        <Omodaka_Tae> ;
+        <Omodaka_Tae>,
+        <Karatani_Merin> ;
     a lily:Legion ;
 .
 

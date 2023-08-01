@@ -61,6 +61,9 @@
         lily:additionalInformation
             "幼馴染"@ja,
             "溺愛している"@ja ;
+    ], [
+        lily:resource <Karatani_Merin> ;
+        lily:additionalInformation "意気投合"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -200,6 +203,68 @@
     ], [
         lily:resource <Aizawa_Kazuha> ;
         lily:additionalInformation "闘星塾時代の同期"@ja ;
+    ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
+
+<Karatani_Merin>
+    rdfs:label "柄谷愛鈴"^^xsd:string ;
+    schema:familyName "柄谷"@ja, "Karatani"@en ;
+    lily:familyNameKana "からたに"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "愛鈴"@ja, "Merin"@en ;
+    lily:givenNameKana "めりん"@ja ;
+    schema:name "柄谷愛鈴"@ja, "Karatani Merin"@en ;
+    lily:nameKana "からたにめりん"@ja ;
+    # lily:anotherName ""@ja ;
+    foaf:age "15"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "聖橋大学附属女子高等学校"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    lily:grade "10"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Sekkadan> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    lily:position "AZ"^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Iwashita_Kiriko> ;
+        lily:additionalInformation "意気投合"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
