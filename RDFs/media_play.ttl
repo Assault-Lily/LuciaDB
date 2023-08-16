@@ -1175,7 +1175,7 @@
         lily:performAs <Iijima_Renka> ;
         # lily:additionalInformation ""@ja ;
     ], [
-        schema:name "三村遥佳"@ja ;
+        schema:name "三村遙佳"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
         lily:performAs <Hatsukano_Yo> ;
         # lily:additionalInformation ""@ja ;
@@ -1848,7 +1848,7 @@
         lily:performAs <Iijima_Renka> ;
         lily:additionalInformation "アンダーキャストの久留島璃生さんが代役として出演"@ja ;
     ], [
-        schema:name "三村遥佳"@ja ;
+        schema:name "三村遙佳"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q97590111> ;
         lily:performAs <Hatsukano_Yo> ;
         # lily:additionalInformation ""@ja ;
@@ -2816,13 +2816,6 @@
             <https://www.wikidata.org/wiki/Q19162226>,
             <http://ja.dbpedia.org/resource/林田真尋> ;
         lily:performAs <Hishida_Haru> ;
-        # lily:additionalInformation ""@ja ;
-    ], [
-        schema:name "北澤早紀"@ja ;
-        lily:resource
-            <https://www.wikidata.org/wiki/Q28418874>,
-            <http://ja.dbpedia.org/resource/北澤早紀> ;
-        lily:performAs <Otake_Sunao> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "安藤千伽奈"@ja ;

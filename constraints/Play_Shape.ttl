@@ -11,6 +11,9 @@
 <prefixes> a owl:Ontology;
     owl:imports sh: ;
     sh:declare [
+        sh:prefix "lilyrdf" ;
+        sh:namespace "https://luciadb.assaultlily.com/rdf/RDFs/detail/"^^xsd:anyURI ;
+    ], [
         sh:prefix "lily" ;
         sh:namespace "https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#"^^xsd:anyURI ;
     ], [
@@ -43,7 +46,14 @@
                     ?node schema:name ?castName ;
                             lily:performIn ?value .
                 }
+                FILTER NOT EXISTS {
+                    lilyrdf:Schwester_No_Inori_2021 lily:cast $this .
+                    $this schema:name "花奈澪"@ja ;
+                            lily:performAs lilyrdf:Kishimoto_Lucia_Raimu .
+                }
             }""" ;
+        ### 祈り2021 で急遽代役として来夢役を演じた花奈澪さんは公演のキャスト一覧には掲載されているものの、
+        ### 来夢のキャストとしては登録されていないため、クエリを使って除外しておく。
     ] ;
 .
 
