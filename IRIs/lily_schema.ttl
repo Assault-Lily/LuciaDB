@@ -342,6 +342,22 @@ lily:genre              a   rdf:Property ;
     rdfs:comment            "作品ジャンルを表すプロパティ" ;
     rdfs:label              "ジャンル"@ja .
 
+lily:previousWork       a   rdf:Property ;
+    rdfs:comment            "前作を表すプロパティ" ;
+    rdfs:label              "前作"@ja .
+
+lily:nextWork           a   rdf:Property ;
+    rdfs:comment            "次作を表すプロパティ" ;
+    rdfs:label              "次作"@ja .
+
+lily:originalWork       a   rdf:Property ;
+    rdfs:comment            "初演・オリジナル作を表すプロパティ" ;
+    rdfs:label              "初演"@ja .
+
+lily:remakeWork         a   rdf:Property ;
+    rdfs:comment            "再演・リメイク作を表すプロパティ" ;
+    rdfs:label              "再演"@ja .
+
 lily:showTime           a   rdf:Property ;
     rdfs:comment            "公演日時を表すプロパティ" ;
     rdfs:label              "公演日時"@ja .

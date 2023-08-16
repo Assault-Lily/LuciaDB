@@ -31,6 +31,12 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
+    # lily:previousWork <>;
+    lily:nextWork <Schwester_No_Himitsu>;
+    # lily:originalWork <>;
+    lily:remakeWork
+        <Schwester_No_Inori_2021>,
+        <Lily_Project_Vol_1_Schwester_No_Inori>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
@@ -181,6 +187,10 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
+    lily:previousWork <Schwester_No_Inori>;
+    lily:nextWork <Schwester_No_Chikai>;
+    # lily:originalWork <>;
+    lily:remakeWork <Schwester_No_Himitsu_2021>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
@@ -327,6 +337,10 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
+    lily:previousWork <Schwester_No_Himitsu>;
+    lily:nextWork <Yakusoku_No_Yukue>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
@@ -499,6 +513,10 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     schema:abstract "シュベスターシリーズが完結し、新章が開幕！\n\n岸本・ルチア・来夢の持つ秘密とは…\n泉教導官は何故ガーデンを去ったのか…\n暴かれていく私立ルドビコ女学院のもつ謎と闇…\n次々と降りかかる新たな試練にリリィたちがどう立ち向かうのか！！？\nそしてそれぞれの約束の行方は…！！？\n\n新キャストも増え、新たに動き出す物語。\nご期待ください！！"@ja ;
+    lily:previousWork <Schwester_No_Chikai>;
+    lily:nextWork <Shinjitsu_No_Yaiba>;
+    # lily:originalWork <>;
+    lily:remakeWork <Yakusoku_No_Yukue_2022>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
@@ -666,6 +684,10 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     schema:abstract "教導官海堂・ベアトリス・千春が学内で殺害された。\n学園は海堂シスターを殺害した犯人は彼女が見つけた手紙の主であり行方不明の教導官泉・ローザ・莉奈だという。学園への更なる不信感を募らせるLGアイアンサイドの幸恵たち。\n一方、聖恋は自分の母親を死に追いやったのは幼馴染の来夢の父である岸本教授だと聞かされ、信じるものを見失う。\n果たして、来夢の敵は岸本教授なのか、泉教導官なのか、それとも……。"@ja ;
+    lily:previousWork <Yakusoku_No_Yukue>;
+    # lily:nextWork <>;
+    # lily:originalWork <>;
+    lily:remakeWork <Shinjitsu_No_Yaiba_2023>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
@@ -834,6 +856,10 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     schema:abstract "近未来の地球――人類は「ヒュージ」と呼ばれる謎の生命体の出現で破滅の危機に瀕していた。\n全世界が対ヒュージのために団結して作り上げた決戦兵器「CHARM」を用いて、「リリィ」と呼ばれる少女たちは世界の為に戦い続けている。\n世界各地にはリリィ養成機関である「ガーデン」が設立され、ヒュージに抗い、人々を守る拠点となっていた。\nそして、数あるガーデンの中でも、名門と謳われる百合ヶ丘女学院に入学した一柳梨璃は、出会った仲間たちと一柳隊を結成、任務の為に東京へと赴く。\nこれを機に、ルドビコ女学院、エレンスゲ女学園、神庭女子藝術高校、御台場女学校、相模女子高等学館、そして百合ヶ丘女学院の運命が交錯し始める……"@ja ;
+    # lily:previousWork <>;
+    lily:nextWork <The_Fateful_Gift>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     lily:supervisor "木谷高明"@ja ;
     lily:executiveProducer
@@ -998,6 +1024,10 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     lily:additionalInformation "新型コロナウイルス感染拡大防止の観点から、会場を「かめありリリオホール」から変更。会場変更に伴い、公演数を当初予定の10公演から15公演に追加。"@ja ;
     # schema:abstract ""@ja ;
+    lily:previousWork <League_of_Gardens>;
+    lily:nextWork <Lost_Memories>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     lily:supervisor "木谷高明"@ja ;
     lily:executiveProducer
@@ -1201,6 +1231,10 @@
     lily:cancelledShowTime "2021-05-27T19:00:00+09:00"^^xsd:dateTime ;
     lily:additionalInformation "出演者が新型コロナウイルス感染者の濃厚接触者に該当したため、5月27日(木)19時公演を中止、28日(金)から30日(日)の計5公演で該当出演者に代役を立てて上演し、6月2日(水)13時公演を追加。"@ja ;
     # schema:abstract ""@ja ;
+    # lily:previousWork <>;
+    lily:nextWork <Schwester_No_Himitsu_2021>;
+    lily:originalWork <Schwester_No_Inori>;
+    # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
@@ -1383,6 +1417,10 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
+    # lily:previousWork <>;
+    lily:nextWork <Assault_Lily_Odaiba_The_Empathy_Phenomenon>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
@@ -1524,6 +1562,10 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
+    lily:previousWork <Schwester_No_Inori_2021>;
+    lily:nextWork <Yakusoku_No_Yukue_2022>;
+    lily:originalWork <Schwester_No_Himitsu>;
+    # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
@@ -1686,6 +1728,10 @@
     lily:additionalInformation "芹沢千香瑠役の野中深愛さんが新型コロナウイルスのPCR検査陽性、および飯島恋花役の石飛恵里花に発熱の症状があるため、出演を取りやめアンダーキャストで公演を実施。(1月18日発表)"@ja ;
     lily:additionalInformation "安藤鶴紗役の紡木吏佐さんが1/21(金)13:30公演中に負傷したため、1/21(金)18:30公演と1/22(土)12:30/17:30公演を中止、以降紡木さんの出演を取りやめアンダーキャストで公演を実施。(1月21日発表)"@ja ;
     schema:abstract "近未来の地球――人類は「ヒュージ」と呼ばれる謎の生命体の出現で破滅の危機に瀕していた。\n全世界が対ヒュージのために団結して作り上げた決戦兵器「CHARM」を用いて「リリィ」と呼ばれる少女たちは世界のために戦い続けている。\n\n百合ヶ丘女学院に入学した一柳梨璃もそのひとり。\n一柳隊というレギオンを結成し、日々ヒュージと戦っていたのだった。\nそんな梨璃の前に突如現れた仮面のリリィ「御前」。\n彼女と対峙することになった一柳隊は、力を合わせ何とか撃退するも謎は深まるばかり。\n「御前」の調査が進められるなか、梨璃は仲間とともに東京に赴く。\n東京でヒュージ討伐を遂行する白井夢結の前に現れたのは、梨璃と雰囲気の似た少女――「L」だった……。"@ja ;
+    lily:previousWork <The_Fateful_Gift>;
+    # lily:nextWork <>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     lily:supervisor "木谷高明"@ja ;
     lily:executiveProducer "中山雅弘"@ja ;
@@ -1878,6 +1924,10 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
+    lily:previousWork <Assault_Lily_Odaiba_The_Singular_Ability>;
+    lily:nextWork <Assault_Lily_Odaiba_The_Battle_To_Overcome>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
@@ -2082,6 +2132,10 @@
         "司馬燈役の野元空さん、鈴木因役の白石まゆみさん、佐伯・ジュリア・花蓮役の小菅怜衣さん、宝城・モニカ・朝妃役の山﨑悠稀さん、計4名の新型コロナウイルス検査陽性が確認されたため、全公演降板。演出変更のため13日以降の公演に沖あすかさん（永瀬・マルタ・のの花役）、藤堂光結さん（宝城・モニカ・朝妃役）が出演。(4月8日20時発表)"@ja,
         "松永・ブリジッタ・佳世役の大滝紗緒里さん、鳴海・クララ・優子役の一本鎗希華さん、計2名の新型コロナウイルス検査陽性が確認されたため、公演準備が整わないと判断し全公演を中止。(4月10日13時発表)"@ja ;
     # schema:abstract ""@ja ;
+    # lily:previousWork <>;
+    # lily:nextWork <>;
+    # lily:originalWork <>;
+    # lily:remakeWork <Lily_Collection_2023>; ### リリコレ2023の台本を見てから検討
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
@@ -2294,6 +2348,10 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     lily:additionalInformation "全公演で本編終了後に約30分のSHOWを開催"@ja ;
     # schema:abstract ""@ja ;
+    lily:previousWork <Schwester_No_Himitsu_2021>;
+    lily:nextWork <Shinjitsu_No_Yaiba_2023>;
+    lily:originalWork <Yakusoku_No_Yukue>;
+    # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
@@ -2469,6 +2527,10 @@
         "本来同日程では「白きレジスタンス〜真実の刃〜」が上演される予定だったが、新型コロナウイルスの感染状況を鑑みて演目を変更。(7月30日13時発表)"@ja,
         "永瀬・マルタ・のの花役の沖あすかさんが急性胃腸炎のため9月10日以降の公演で降板。(9月10日11時発表)"@ja ;
     # schema:abstract ""@ja ;
+    # lily:previousWork <>;
+    # lily:nextWork <>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
@@ -2656,6 +2718,10 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
+    lily:previousWork <Assault_Lily_Odaiba_The_Empathy_Phenomenon>;
+    # lily:nextWork <>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
@@ -2840,6 +2906,10 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     schema:abstract "東京御三家の一角であるガーデン、イルマ女子美術高校。\n上田伊万里はこの春、トップレギオンであるイルミンシャイネスのヘッドライナーデビューを果たした。\nしかし、イルミンシャイネスは1年前、当時レギオンの中心であったイルマ四天王の中で目指す戦闘スタイルの相違が生じて以来、勢いをなくしていた。\n自由で攻撃的な戦闘を目指す、一之宮日葵・日比野羽来派。\n規律に則った確実性のある戦いを目指す、西川御巴留・手島恋町派。\nこの対立をきっかけに日葵は私立ルドビコ女学院へ転校してしまうが、神郡鞠萠をはじめ日葵派だったリリィ達は、日葵の意志を継いだ戦闘スタイルで戦いたいと考えていた。\n伊万里は周りのために突貫する鞠萠の姿をみて憧れと尊敬の念を抱き、鞠萌を中心とした自主結成レギオンのメンバーを密かに集めていく。\nそんな中、日葵から衝撃の知らせが届き、立て続けに起こる非常事態。\nたくさんの試練を乗り越えたリリィ達が、それぞれの想いを胸に、また新たな試練に立ち向かう――\n大切なもの、守るべきもののために。"@ja ;
+    # lily:previousWork <>;
+    # lily:nextWork <>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
@@ -3011,6 +3081,10 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
+    # lily:previousWork <>;
+    # lily:nextWork <>;
+    lily:originalWork <Schwester_No_Inori>;
+    # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
@@ -3169,6 +3243,10 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
+    lily:previousWork <Yakusoku_No_Yukue_2022>;
+    # lily:nextWork <>;
+    lily:originalWork <Shinjitsu_No_Yaiba>;
+    # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
@@ -3335,6 +3413,10 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
+    # lily:previousWork <>;
+    # lily:nextWork <>;
+    # lily:originalWork <Lily_Collection_2022>; ### リリコレ2023の台本を見てから検討
+    # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
