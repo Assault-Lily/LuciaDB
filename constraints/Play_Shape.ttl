@@ -1,0 +1,213 @@
+@base <https://luciadb.assaultlily.com/rdf/constraints/>
+@prefix schema: <http://schema.org/>
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix lily: <https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#>
+@prefix foaf: <http://xmlns.com/foaf/0.1/>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+@prefix sh: <http://www.w3.org/ns/shacl#>
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+<prefixes> a owl:Ontology;
+    owl:imports sh: ;
+    sh:declare [
+        sh:prefix "lily" ;
+        sh:namespace "https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#"^^xsd:anyURI ;
+    ], [
+        sh:prefix "rdfs" ;
+        sh:namespace "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
+    ], [
+        sh:prefix "schema" ;
+        sh:namespace "http://schema.org/"^^xsd:anyURI ;
+    ]
+.
+
+<cast-lilyShape>
+    a sh:NodeShape ;
+    sh:property [
+        sh:path lily:performAs ;
+        sh:class lily:Character ;
+        sh:minCount 1 ;
+    ] ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:message "作品のキャスト一覧に記述されているリリィのキャストの出演作にはその作品が記述されていなければならない。" ;
+        sh:prefixes <prefixes> ;
+        sh:select """SELECT $this ?castName ?lily ?value
+            WHERE {
+                ?value lily:cast $this .
+                $this schema:name ?castName ;
+                        lily:performAs ?lily .
+                FILTER NOT EXISTS {
+                    ?lily lily:cast ?node .
+                    ?node schema:name ?castName ;
+                            lily:performIn ?value .
+                }
+            }""" ;
+    ] ;
+.
+
+<PlayShape>
+    a sh:NodeShape ;
+    sh:targetClass lily:Play ;
+    sh:property [
+        rdfs:label "舞台公演のジャンルの制約";
+        rdfs:comment "必ず日本語で一つだけ存在する";
+        sh:path lily:genre;
+        sh:datatype rdf:langString;
+        sh:languageIn ("ja");
+        sh:minCount 1;
+        sh:maxCount 1;
+    ], [
+        rdfs:label "舞台公演の名前の制約";
+        rdfs:comment "必ず日本語で一つだけ存在する";
+        sh:path schema:name;
+        sh:datatype rdf:langString;
+        sh:languageIn ("ja");
+        sh:minCount 1;
+        sh:maxCount 1;
+    ], [
+        rdfs:label "舞台公演の略称の制約";
+        rdfs:comment "日本語で最大一つ存在する";
+        sh:path schema:alternateName;
+        sh:datatype rdf:langString;
+        sh:languageIn ("ja");
+        sh:maxCount 1;
+    ], [
+        rdfs:label "舞台公演の言語の制約";
+        rdfs:comment "必ず一つだけ存在する";
+        sh:path schema:inLanguage;
+        sh:datatype xsd:language;
+        sh:minCount 1;
+        sh:maxCount 1;
+    ], [
+        rdfs:label "舞台公演の会場の制約";
+        rdfs:comment "必ず一つだけ存在する";
+        sh:path schema:location;
+        sh:datatype xsd:string;
+        sh:minCount 1;
+        sh:maxCount 1;
+    ], [
+        rdfs:label "舞台公演の公演開始日の制約";
+        rdfs:comment "必ず一つだけ存在する";
+        sh:path schema:startDate;
+        sh:datatype xsd:date;
+        sh:minCount 1;
+        sh:maxCount 1;
+    ], [
+        rdfs:label "舞台公演の公演終了日の制約";
+        rdfs:comment "必ず一つだけ存在する";
+        sh:path schema:endDate;
+        sh:datatype xsd:date;
+        sh:minCount 1;
+        sh:maxCount 1;
+    ], [
+        rdfs:label "舞台公演の公演時間の制約";
+        rdfs:comment "最大一つ存在する";
+        sh:path schema:duration;
+        sh:datatype xsd:duration;
+        sh:maxCount 1;
+    ], [
+        rdfs:label "舞台公演の開演時刻の制約";
+        rdfs:comment "一つ以上存在する";
+        sh:path lily:showTime;
+        sh:datatype xsd:dateTime;
+        sh:minCount 1;
+    ], [
+        rdfs:label "舞台公演の中止になった回の開演時刻の制約";
+        rdfs:comment "数の制約はない";
+        sh:path lily:cancelledShowTime;
+        sh:datatype xsd:dateTime;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:path lily:cancelledShowTime ;
+            sh:message "中止になった回の開演時刻は、その公演のいずれかの回の開演時刻と一致していなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?cancelledShowTime
+                WHERE {
+                    $this lily:cancelledShowTime ?cancelledShowTime .
+                    FILTER NOT EXISTS {
+                        $this lily:showTime $cancelledShowTime .
+                    }
+                }""" ;
+        ] ;
+    ], [
+        rdfs:label "前作の制約" ;
+        rdfs:comment "前作は複数あることを想定しておく" ;
+        sh:path lily:previousWork ;
+        sh:class lily:Play ;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:path lily:previousWork ;
+            sh:message "前作に記述されている作品の次作にはその作品が記述されていなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?previous
+                WHERE {
+                    $this lily:previousWork ?previous .
+                    FILTER NOT EXISTS {
+                        ?previous lily:nextWork $this .
+                    }
+                }""" ;
+        ] ;
+    ], [
+        rdfs:label "次作の制約" ;
+        rdfs:comment "次作は複数あることを想定しておく" ;
+        sh:path lily:nextWork ;
+        sh:class lily:Play ;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:path lily:nextWork ;
+            sh:message "次作に記述されている作品の前作にはその作品が記述されていなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?next
+                WHERE {
+                    $this lily:nextWork ?next .
+                    FILTER NOT EXISTS {
+                        ?next lily:previousWork $this .
+                    }
+                }""" ;
+        ] ;
+    ], [
+        rdfs:label "初演の制約" ;
+        rdfs:comment "初演は複数あることを想定しておく" ;
+        sh:path lily:originalWork ;
+        sh:class lily:Play ;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:path lily:originalWork ;
+            sh:message "初演に記述されている作品の再演にはその作品が記述されていなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?remake
+                WHERE {
+                    $this lily:originalWork ?remake .
+                    FILTER NOT EXISTS {
+                        ?remake lily:remakeWork $this .
+                    }
+                }""" ;
+        ] ;
+    ], [
+        rdfs:label "再演の制約" ;
+        rdfs:comment "再演は複数あることを想定しておく" ;
+        sh:path lily:remakeWork ;
+        sh:class lily:Play ;
+        sh:sparql [
+            a sh:SPARQLConstraint ;
+            sh:path lily:remakeWork ;
+            sh:message "再演に記述されている作品の初演にはその作品が記述されていなければならない。" ;
+            sh:prefixes <prefixes> ;
+            sh:select """SELECT $this ?original
+                WHERE {
+                    $this lily:remakeWork ?original .
+                    FILTER NOT EXISTS {
+                        ?original lily:originalWork $this .
+                    }
+                }""" ;
+        ] ;
+    ], [
+        rdfs:label "キャストのリリィデータの制約";
+        rdfs:comment "空白ノードのShapeを検証";
+        sh:path lily:cast;
+        sh:node <cast-lilyShape>;
+    ] ;
+    sh:closed false ;
+.
