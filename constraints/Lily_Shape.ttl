@@ -63,7 +63,24 @@
             ]
         ) ;
         sh:minCount 1 ;
-    ]
+    ] ;
+    ### この制約は、<Assault_Lily_Last_Bullet> にキャストのデータが登録されていないため設定を見送る。
+    # sh:sparql [
+    #     a sh:SPARQLConstraint ;
+    #     sh:message "リリィのキャストに記述されている作品のキャスト一覧にはそのリリィが記述されていなければならない。" ;
+    #     sh:prefixes <prefixes> ;
+    #     sh:select """SELECT $this ?castName ?work ?value
+    #         WHERE {
+    #             ?value lily:cast $this .
+    #             $this schema:name ?castName ;
+    #                     lily:performIn ?work .
+    #             FILTER NOT EXISTS {
+    #                 ?work lily:cast ?node .
+    #                 ?node schema:name ?castName ;
+    #                         lily:performAs ?value .
+    #             }
+    #         }""" ;
+    # ] ;
 .
 
 <lily-relationshipShape>
@@ -609,4 +626,5 @@
         sh:path lily:cast;
         sh:node <lily-castShape>;
     ] ;
-    sh:closed false.
+    sh:closed false ;
+.
