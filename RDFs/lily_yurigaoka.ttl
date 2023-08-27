@@ -1207,7 +1207,7 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Aroundight> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -1299,7 +1299,7 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Precieuse> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Chrysaor> ;
@@ -1504,7 +1504,7 @@
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Laevateinn> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -1727,7 +1727,9 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Miming> ;
-        lily:usedIn "小説"^^xsd:string ;
+        lily:usedIn
+            "小説"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Gunnfjodur> ;
@@ -1842,7 +1844,7 @@
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Tathlum> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -2029,6 +2031,10 @@
         lily:usedIn
             "アニメ"^^xsd:string,
             "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Caliburn> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
