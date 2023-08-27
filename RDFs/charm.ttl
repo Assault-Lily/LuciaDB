@@ -304,7 +304,8 @@
         <Ushida_Watsuki>,
         <Yokota_Haruna>,
         <Kawabata_Hotaru>,
-        <Makino_Mitake> ;
+        <Makino_Mitake>,
+        <Sejima_Hiromu> ;
     lily:isVariantOf <Tyrfing_Prototype> ;
     schema:isSimilarTo
         <Tyrfing_type_R>,
@@ -419,7 +420,8 @@
         <Watanabe_Akane>,
         <Asanaga_Ichigo>,
         <Kagawa_Makina>,
-        <Amano_Soraha> ;
+        <Amano_Soraha>,
+        <Kuramata_Yukiyo> ;
     a lily:Charm ;
 .
 
