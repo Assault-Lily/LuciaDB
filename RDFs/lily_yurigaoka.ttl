@@ -1884,10 +1884,14 @@
         lily:resource <Egawa_Kusumi> ;
         lily:additionalInformation "伍人組"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "茅野愛衣"@ja ;
+        lily:resource
+            <https://ja.dbpedia.org/resource/茅野愛衣>,
+            <https://www.wikidata.org/wiki/Q1187078> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -1986,7 +1990,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q20042582>,
             <http://ja.dbpedia.org/resource/広瀬ゆうき> ;
-        lily:performIn <Assault_Lily_Bouquet> ;
+        lily:performIn
+            <Assault_Lily_Bouquet>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -2073,8 +2079,12 @@
     ] ;
     lily:cast [
         schema:name "三川華月"@ja ;
-        # lily:resource <> ;
-        lily:performIn <Assault_Lily_Bouquet> ;
+        lily:resource
+            <https://ja.dbpedia.org/resource/三川華月>,
+            <https://www.wikidata.org/wiki/Q107587275> ;
+        lily:performIn
+            <Assault_Lily_Bouquet>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
