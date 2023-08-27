@@ -1311,7 +1311,7 @@
     lily:generation "3"^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
     schema:manufacturer <Camelot_Castle> ;
-    # lily:user <> ;
+    lily:user <Mori_Tatsuki> ;
     lily:additionalInformation "「CHARMエクスカリバー兵装群」プロジェクトによる開発"@ja ;
     a lily:Charm ;
 .
