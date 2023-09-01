@@ -66,7 +66,7 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -279,7 +279,7 @@
         lily:additionalInformation "実験機"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -378,7 +378,7 @@
         lily:additionalInformation "試作機"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Charlemagne> ;
@@ -476,7 +476,7 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -583,7 +583,7 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -684,7 +684,7 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -782,7 +782,7 @@
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -881,7 +881,7 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -986,7 +986,7 @@
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -1096,7 +1096,7 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -1205,7 +1205,7 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -1290,7 +1290,7 @@
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -1391,7 +1391,7 @@
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -1507,7 +1507,7 @@
         lily:additionalInformation "試験機"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -1600,7 +1600,7 @@
         lily:additionalInformation "試験機"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -1704,7 +1704,7 @@
         lily:additionalInformation "一時的に使用"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -1837,7 +1837,7 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
@@ -1943,6 +1943,10 @@
         lily:resource <Trigrav> ;
         lily:usedIn "舞台御台場TEP"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Yotunschwert> ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
@@ -2022,6 +2026,10 @@
         lily:resource <Dainsleif> ;
         lily:usedIn "舞台御台場TEP"^^xsd:string ;
         lily:additionalInformation "高機動型"@ja ;
+    ], [
+        lily:resource <Yotunschwert> ;
+        lily:usedIn "リリコレ 2023"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;

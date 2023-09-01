@@ -75,7 +75,9 @@
         <Suzuki_Chinami>,
         <Yokoyama_Azusa>,
         <Hishida_Haru>,
-        <Tsukioka_Momiji> ;
+        <Tsukioka_Momiji>,
+        <Otake_Sunao>,
+        <Maruyama_Amane> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .

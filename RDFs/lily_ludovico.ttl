@@ -50,7 +50,9 @@
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "ラスバレ"^^xsd:string,
             "舞台LM"^^xsd:string,
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string,
+            "リリコレ 2023"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Charlemagne> ;
@@ -65,7 +67,9 @@
             "舞台 シュベスターの秘密 2021"^^xsd:string,
             "ラスバレ"^^xsd:string,
             "舞台LM"^^xsd:string,
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string,
+            "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Dainsleif_Carbin> ;
@@ -196,7 +200,8 @@
             "舞台 シュベスターの秘密"^^xsd:string,
             "舞台 シュベスターの誓い"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
-            "舞台 シュベスターの秘密 2021"^^xsd:string ;
+            "舞台 シュベスターの秘密 2021"^^xsd:string,
+            "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -251,7 +256,8 @@
         lily:resource <https://www.wikidata.org/wiki/Q56253675> ;
         lily:performIn
             <Schwester_No_Inori_2021>,
-            <Schwester_No_Himitsu_2021> ;
+            <Schwester_No_Himitsu_2021>,
+            <Lily_Collection_2023> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "中野あいみ"@ja ;
@@ -314,7 +320,8 @@
             "舞台 シュベスターの秘密 2021"^^xsd:string,
             "ラスバレ"^^xsd:string,
             "舞台LM"^^xsd:string,
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string ;
         lily:additionalInformation "姉の形見"@ja ;
     ], [
         lily:resource <Gungnir_Carbin> ;
@@ -438,6 +445,7 @@
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
             "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string,
             "ドール"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
@@ -553,6 +561,7 @@
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
+            "リリコレ 2023"^^xsd:string,
             "ドール"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
@@ -561,7 +570,9 @@
             "舞台TFG"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
             "ラスバレ"^^xsd:string,
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string,
+            "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -674,7 +685,8 @@
     ], [
         lily:resource <Dainsleif> ;
         lily:usedIn
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -770,7 +782,9 @@
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string,
+            "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -874,7 +888,8 @@
         lily:resource <Rose_Greave> ;
         lily:usedIn
             "舞台 約束の行方 2022"^^xsd:string,
-            "舞台 真実の刃 2023"^^xsd:string ;
+            "舞台 真実の刃 2023"^^xsd:string,
+            "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -989,7 +1004,9 @@
     ], [
         lily:resource <Dainsleif> ;
         lily:usedIn
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string,
+            "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1088,7 +1105,9 @@
             "舞台LoG"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string,
+            "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Blutgang> ;
@@ -1204,7 +1223,8 @@
             "舞台TFG"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1310,7 +1330,9 @@
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string,
+            "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1433,7 +1455,8 @@
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Tyrfing_type_R> ;
@@ -1583,7 +1606,9 @@
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string,
+            "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1696,7 +1721,8 @@
             "舞台 シュベスターの誓い"^^xsd:string,
             "舞台 約束の行方"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Dragoon_Edge> ;
@@ -1814,7 +1840,9 @@
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string,
+            "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1913,7 +1941,8 @@
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
             "舞台 シュベスターの秘密 2021"^^xsd:string,
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -2016,7 +2045,8 @@
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -2124,7 +2154,8 @@
             "舞台 約束の行方"^^xsd:string,
             "舞台 真実の刃"^^xsd:string,
             "舞台 シュベスターの祈り 2021"^^xsd:string,
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -2225,7 +2256,9 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Trigrav> ;
-        lily:usedIn "舞台 真実の刃"^^xsd:string ;
+        lily:usedIn
+            "舞台 真実の刃"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;

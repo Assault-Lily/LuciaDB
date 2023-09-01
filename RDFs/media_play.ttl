@@ -3483,7 +3483,9 @@
     ], [
         schema:name "あわつまい"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q35567820> ;
-        lily:performAs <Kawamura_Yuzuriha> ;
+        lily:performAs
+            <Kawamura_Yuzuriha>,
+            <Kishimoto_Maria_Mirai> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "林田真尋"@ja ;
