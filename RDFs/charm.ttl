@@ -14,17 +14,6 @@
     a lily:Charm ;
 .
 
-<Unknown_Named_Charm_3>
-    # schema:productID ""^^xsd:string ;
-    lily:seriesName "CHARM名称不明"@ja, "Unknown Named CHARM"@en ;
-    schema:name "CHARM名称不明"@ja, "Unknown Named CHARM"@en ;
-    # lily:generation ""^^xsd:integer ;
-    # schema:manufacturer <> ;
-    lily:user <Seto_Veronica_Ichika> ;
-    # lily:additionalInformation ""@ja ;
-    a lily:Charm ;
-.
-
 <First_Generation_Charm>
     # schema:productID ""^^xsd:string ;
     lily:seriesName "第1世代CHARM"@ja, "First Generation CHARM"@en ;
@@ -1562,5 +1551,16 @@
     # schema:manufacturer <> ;
     lily:user <Imai_Seira> ;
     lily:additionalInformation "今井星蘭の自作CHARM"@ja ;
+    a lily:Charm ;
+.
+
+<Rose_Greave>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ローズグリーヴ"@ja, "Rose Greave"@en ;
+    schema:name "ローズグリーヴ"@ja, "Rose Greave"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Seto_Veronica_Ichika> ;
+    # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .

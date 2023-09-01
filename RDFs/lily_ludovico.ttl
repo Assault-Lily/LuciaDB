@@ -871,9 +871,10 @@
             "舞台 シュベスターの秘密 2021"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
-        lily:resource <Unknown_Named_Charm_3> ;
+        lily:resource <Rose_Greave> ;
         lily:usedIn
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
