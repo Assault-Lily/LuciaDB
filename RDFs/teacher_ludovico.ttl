@@ -54,6 +54,10 @@
         lily:resource <Dainsleif> ;
         lily:usedIn "舞台 シュベスターの祈り 2021"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Tyrfing_type_T> ;
+        lily:usedIn "舞台 真実の刃 2023"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
     # lily:rank ""^^xsd:integer ;
@@ -169,7 +173,8 @@
         lily:resource <Gungnir> ;
         lily:usedIn
             "舞台 シュベスターの祈り 2021"^^xsd:string,
-            "舞台 約束の行方 2022"^^xsd:string ;
+            "舞台 約束の行方 2022"^^xsd:string,
+            "舞台 真実の刃 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -359,6 +364,10 @@
         lily:resource <Dainsleif_Carbin> ;
         lily:usedIn "舞台 真実の刃"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Brionac> ;
+        lily:usedIn "舞台 真実の刃 2023"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
     # lily:rank ""^^xsd:integer ;
@@ -445,6 +454,10 @@
     lily:charm [
         lily:resource <Dainsleif_Carbin> ;
         lily:usedIn "舞台 真実の刃"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Dainsleif> ;
+        lily:usedIn "舞台 真実の刃 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;

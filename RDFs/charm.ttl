@@ -164,7 +164,8 @@
         <Amata_Hanako>,
         <L>,
         <Lee_Christina_Susu>,
-        <Takatori_Natalie_Towa> ;
+        <Takatori_Natalie_Towa>,
+        <Toride_Suzanne_Reika> ;
     lily:hasVariant <Dainsleif_Carbin> ;
     lily:hasVariant <Dainsleif_Marksman> ;
     a lily:Charm ;
@@ -244,7 +245,8 @@
         <Ando_Tazusa>,
         <Kawanabe_Nazuna>,
         <Shiozaki_Suzume>,
-        <Morimoto_Yuni> ;
+        <Morimoto_Yuni>,
+        <Makabe_Melania_Sayoko> ;
     a lily:Charm ;
 .
 
@@ -294,7 +296,8 @@
         <Yokota_Haruna>,
         <Kawabata_Hotaru>,
         <Makino_Mitake>,
-        <Sejima_Hiromu> ;
+        <Sejima_Hiromu>,
+        <Izumi_Rosa_Rina> ;
     lily:isVariantOf <Tyrfing_Prototype> ;
     schema:isSimilarTo
         <Tyrfing_type_R>,
