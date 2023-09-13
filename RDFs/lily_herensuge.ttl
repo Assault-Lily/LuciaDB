@@ -760,10 +760,14 @@
         # lily:resource <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "直田姫奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q64783118>,
+            <http://ja.dbpedia.org/resource/直田姫奈> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
