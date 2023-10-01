@@ -480,7 +480,7 @@
     lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    # schema:birthPlace ""@ja, ""@en ;
+    schema:birthPlace "京都府"@ja, "Kyoto"@en ;
     lily:favorite
         "美術館巡り"@ja,
         "フクロモモンガ"@ja ;
