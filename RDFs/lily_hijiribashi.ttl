@@ -203,6 +203,9 @@
     ], [
         lily:resource <Aizawa_Kazuha> ;
         lily:additionalInformation "闘星塾時代の同期"@ja ;
+    ], [
+        lily:resource <Takeda_Mimi> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;

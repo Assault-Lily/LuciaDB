@@ -6365,9 +6365,9 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite "魚介類"@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent "テニス"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "天の秤目"^^xsd:string ;
     lily:subSkill "軍神の加護"^^xsd:string ;
@@ -6412,6 +6412,9 @@
     ], [
         lily:resource <Yamanashi_Hibari> ;
         lily:additionalInformation "仲が悪い"@ja ;
+    ], [
+        lily:resource <Omodaka_Tae> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
