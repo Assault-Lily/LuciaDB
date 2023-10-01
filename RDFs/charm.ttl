@@ -515,7 +515,9 @@
     # lily:generation ""^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
     schema:manufacturer <Auniamendi_Systemas> ;
-    lily:user <Sasaki_Ran> ;
+    lily:user
+        <Sasaki_Ran>,
+        <Kariya_Higure> ;
     a lily:Charm ;
 .
 

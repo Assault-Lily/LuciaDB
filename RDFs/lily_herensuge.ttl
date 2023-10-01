@@ -739,11 +739,11 @@
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Mondragon> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
     lily:rank "43"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
