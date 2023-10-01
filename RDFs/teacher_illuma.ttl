@@ -60,6 +60,9 @@
     lily:relationship [
         lily:resource <Takamatsu_Shiera> ;
         lily:additionalInformation "知人"@ja ;
+    ], [
+        lily:resource <Takashima_Yakumo> ;
+        lily:additionalInformation "知人"@ja ;
     ] ;
     lily:cast [
         schema:name "MoeMi"@ja ;
