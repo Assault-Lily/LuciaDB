@@ -3558,6 +3558,9 @@
     ], [
         lily:resource <Kawanabe_Nazuna> ;
         lily:additionalInformation "尊敬されている"@ja ;
+    ], [
+        lily:resource <Luise_Ingels> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -3926,6 +3929,12 @@
     ], [
         lily:resource <Nana_Utzon> ;
         lily:additionalInformation "幼馴染"@ja ;
+    ], [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Mashima_Moyu> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -8760,6 +8769,9 @@
     ], [
         lily:resource <Takahata_Masaki> ;
         lily:additionalInformation "仲の良かった後輩"@ja ;
+    ], [
+        lily:resource <Luise_Ingels> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "水瀬いのり"@ja ;
