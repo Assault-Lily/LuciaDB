@@ -3858,6 +3858,9 @@
     ], [
         lily:resource <Kondo_Misaka> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Kitagawara_Inori> ;
+        lily:additionalInformation "特別寮時代に親しくなった友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -7376,6 +7379,9 @@
         lily:additionalInformation "特別寮時代に親しくなった友人"@ja ;
     ], [
         lily:resource <Mori_Tatsuki> ;
+        lily:additionalInformation "特別寮時代に親しくなった友人"@ja ;
+    ], [
+        lily:resource <Kurokawa_Nady_Hanna> ;
         lily:additionalInformation "特別寮時代に親しくなった友人"@ja ;
     ] ;
     # lily:cast [
