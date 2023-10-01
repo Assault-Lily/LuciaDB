@@ -1088,16 +1088,16 @@
     a lily:Lily ;
 .
 
-<Akashi_Aika>
+<Akashi_Manaka>
     rdfs:label "明石愛華"^^xsd:string ;
     schema:familyName "明石"@ja, "Akashi"@en ;
     lily:familyNameKana "あかし"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "愛華"@ja, "Aika"@en ;
-    lily:givenNameKana "あいか"@ja ;
-    schema:name "明石愛華"@ja, "Akashi Aika"@en ;
-    lily:nameKana "あかしあいか"@ja ;
+    schema:givenName "愛華"@ja, "Manaka"@en ;
+    lily:givenNameKana "まなか"@ja ;
+    schema:name "明石愛華"@ja, "Akashi Manaka"@en ;
+    lily:nameKana "あかしまなか"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -2521,7 +2521,7 @@
         lily:resource <Kawamura_Yuzuriha> ;
         lily:additionalInformation "御台場迎撃戦で抜群の連携を誇った「カルテット」"@ja ;
     ], [
-        lily:resource <Akashi_Aika> ;
+        lily:resource <Akashi_Manaka> ;
         lily:additionalInformation
             "元相棒"@ja,
             "発見救助を目指す"@ja ;
@@ -4691,7 +4691,7 @@
     #    lily:additionalInformation ""@ja ;
     # ] ;
     lily:relationship [
-        lily:resource <Akashi_Aika> ;
+        lily:resource <Akashi_Manaka> ;
         lily:additionalInformation "シュッツエンゲルの契りを結ぶ約束をしていた先輩"@ja ;
     ] ;
     # lily:cast [

@@ -473,7 +473,7 @@
         <Amano_Soraha>,
         <Banshoya_Ena>,
         <Yoshimura_Thi_Mai>,
-        <Akashi_Aika>,
+        <Akashi_Manaka>,
         <Aoki_Kaho> ;
     lily:hasVariant <Gram_Extra> ;
     a lily:Charm ;
