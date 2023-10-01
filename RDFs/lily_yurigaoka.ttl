@@ -2473,7 +2473,7 @@
         "グミ"@ja ;
     lily:notGood "歯医者"@ja ;
     lily:hobby_talent "裁縫"@ja ;
-    # lily:skillerVal ""^^xsd:integer ;
+    lily:skillerVal "97"^^xsd:integer ;
     lily:rareSkill "ファンタズム"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
