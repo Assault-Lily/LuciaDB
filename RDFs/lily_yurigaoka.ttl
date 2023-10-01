@@ -4190,7 +4190,7 @@
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "工廠科"^^xsd:string ;
     lily:grade "10"^^xsd:integer ;
-    # lily:class ""^^xsd:string ;
+    lily:class "杉組"^^xsd:string ;
     lily:gardenJobTitle
         "図書委員"@ja,
         "生徒会指導係"@ja ;
