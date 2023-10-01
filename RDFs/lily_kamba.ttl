@@ -516,6 +516,9 @@
     lily:relationship [
         lily:resource <Shiozaki_Suzume> ;
         lily:additionalInformation "神庭に通うことを勧める"@ja ;
+    ], [
+        lily:resource <Iijima_Renka> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "山根綺"@ja ;
