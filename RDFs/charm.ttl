@@ -1569,3 +1569,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Terminus_Est>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "テルミヌスエスト"@ja, "Terminus Est"@en ;
+    schema:name "テルミヌスエスト"@ja, "Terminus Est"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Mozuna_Noa> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
