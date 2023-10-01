@@ -4491,13 +4491,19 @@
     schema:birthDate "--07-30"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "AB"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "焼きそば"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite
+        "焼きそば"@ja,
+        "ヒヤシンス"@ja ;
+    lily:notGood
+        "暑さ"@ja,
+        "早起き"@ja ;
+    lily:hobby_talent
+        "星を見ること"@ja,
+        "詩集集め"@ja ;
     lily:skillerVal "98"^^xsd:integer ;
     lily:rareSkill "レジスタ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
