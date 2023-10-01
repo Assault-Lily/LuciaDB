@@ -2224,10 +2224,16 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Uchida_Mayuri> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Imagawa_Homare> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Yamanashi_Hibari> ;
+        lily:additionalInformation "友人"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
@@ -3447,6 +3453,9 @@
     ], [
         lily:resource <Takeda_Mimi> ;
         lily:additionalInformation "仲が悪い"@ja ;
+    ], [
+        lily:resource <Okada_Kisara> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -3703,6 +3712,9 @@
         lily:additionalInformation
             "友人"@ja,
             "幼稚舎の頃から共に戦うと誓った仲"@ja ;
+    ], [
+        lily:resource <Okada_Kisara> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -5601,6 +5613,9 @@
     ], [
         lily:resource <Yamanashi_Hibari> ;
         lily:additionalInformation "親友"@ja ;
+    ], [
+        lily:resource <Okada_Kisara> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "櫻川めぐ"@ja ;
