@@ -437,7 +437,8 @@
         "ウニ（寿司）"@ja ;
     lily:notGood
         "寒さ"@ja,
-        "手書き"@ja ;
+        "手書き"@ja,
+        "ゴーヤ"@ja ;
     lily:hobby_talent
         "多肉植物の育成"@ja,
         "ファッション"@ja,
