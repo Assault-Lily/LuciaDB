@@ -1580,3 +1580,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Polydeukes>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ポリュデウケス"@ja, "Polydeukes"@en ;
+    schema:name "ポリュデウケス"@ja, "Polydeukes"@en ;
+    # lily:generation ""^^xsd:integer ;
+    schema:manufacturer <Vulcanus_Industry> ;
+    lily:user <Luise_Ingels> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
