@@ -213,7 +213,9 @@
     lily:generation "2"^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
     schema:manufacturer <Yggdrasill> ;
-    lily:user <Funada_Kiito> ;
+    lily:user
+        <Funada_Kiito>,
+        <Takeda_Mimi> ;
     lily:isVariantOf <Dainsleif> ;
     a lily:Charm ;
 .
