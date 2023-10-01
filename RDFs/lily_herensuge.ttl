@@ -622,10 +622,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Kariya_Higure> ;
+        lily:additionalInformation "慕っている"@ja ;
+    ] ;
     lily:cast [
         schema:name "木野日菜"@ja ;
         lily:resource
@@ -720,18 +720,20 @@
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--05-10"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
         "バイク"@ja,
         "山登り"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:notGood "勉強"@ja ;
+    lily:hobby_talent
+        "登山"@ja,
+        "ハイキング"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "テスタメント"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -743,7 +745,7 @@
     #    lily:additionalInformation ""@ja ;
     # ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
-    # lily:rank ""^^xsd:integer ;
+    lily:rank "43"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
@@ -760,10 +762,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Kagawa_Makina> ;
+        lily:additionalInformation "慕われている"@ja ;
+    ] ;
     lily:cast [
         schema:name "直田姫奈"@ja ;
         lily:resource
