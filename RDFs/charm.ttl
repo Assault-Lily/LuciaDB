@@ -1591,3 +1591,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Dojigiri_Yasutsuna>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "童子切安綱"@ja, "Dojigiri Yasutsuna"@en ;
+    schema:name "童子切安綱"@ja, "Dojigiri Yasutsuna"@en ;
+    # lily:generation ""^^xsd:integer ;
+    schema:manufacturer <Amatsu_Heavy_Industry> ;
+    lily:user <Kojima_Nadeshiko> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.

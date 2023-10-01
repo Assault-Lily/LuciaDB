@@ -611,3 +611,66 @@
     # ] ;
     a lily:Character ;
 .
+
+<Kojima_Nadeshiko>
+    rdfs:label "小島撫子"^^xsd:string ;
+    schema:familyName "小島"@ja, "Kojima"@en ;
+    lily:familyNameKana "こじま"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "撫子"@ja, "Nadeshiko"@en ;
+    lily:givenNameKana "なでしこ"@ja ;
+    schema:name "小島撫子"@ja, "Kojima Nadeshiko"@en ;
+    lily:nameKana "こじまなでしこ"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""@ja ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Dojigiri_Yasutsuna> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja
+    ] ;
+    lily:garden "百合ヶ丘女学院"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade "0"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    lily:gardenJobTitle "元教導官"@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja
+    # ] ;
+    # lily:relationship [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:cast [
+        # schema:name ""@ja ;
+        # lily:resource <> ;
+        # lily:performIn <>
+    # ] ;
+    a lily:Character ;
+.
