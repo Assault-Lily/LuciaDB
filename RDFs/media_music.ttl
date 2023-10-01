@@ -6027,6 +6027,25 @@
     a lily:Music ;
 .
 
+<Overcast_Sky>
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Overcast Sky"@ja ;
+    # lily:additionalInformation ""@ja ;
+    # lily:musicProducer ""@ja ;
+    lily:artist "新生グラン・エプレ"@ja ;
+    # lily:edition ""@ja ;
+    lily:recordLabel "グリーエンターテインメント"@ja ;
+    lily:format "デジタルシングル"@ja ;
+    schema:datePublished "2023-09-28"^^xsd:date ;
+    schema:numTracks "1"^^xsd:integer ;
+    schema:timeRequired "PT3M46S"^^xsd:duration ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Overcast_Sky> ;
+    ] ;
+    a lily:MusicAlbum ;
+.
+
 <Song_Overcast_Sky>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
@@ -6035,7 +6054,7 @@
     lily:composer "Islet"@ja ;
     lily:arranger "Islet"@ja ;
     lily:additionalInformation "アサルトリリィ Last Bullet メインストーリー 新章グラン・エプレ編のテーマソング"@ja ;
-    schema:duration "PT3M42S"^^xsd:duration ;
+    schema:duration "PT3M46S"^^xsd:duration ;
     lily:singer [
         schema:name "新生グラン・エプレ"@ja ;
         lily:cast [
@@ -6104,6 +6123,25 @@
         ] ;
     ] ;
     a lily:Music ;
+.
+
+<REFLECTIONS>
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "REFLECTIONS"@ja ;
+    # lily:additionalInformation ""@ja ;
+    # lily:musicProducer ""@ja ;
+    lily:artist "ヘルヴォル&クエレブレ"@ja ;
+    # lily:edition ""@ja ;
+    lily:recordLabel "グリーエンターテインメント"@ja ;
+    lily:format "デジタルシングル"@ja ;
+    schema:datePublished "2023-09-28"^^xsd:date ;
+    schema:numTracks "1"^^xsd:integer ;
+    schema:timeRequired "PT4M07S"^^xsd:duration ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_REFLECTIONS> ;
+    ] ;
+    a lily:MusicAlbum ;
 .
 
 <Song_REFLECTIONS>
@@ -6185,6 +6223,76 @@
     a lily:Music ;
 .
 
+<Song_REFLECTIONS_Cuelebre_Ver>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "REFLECTIONS（クエレブレver.）"@ja ;
+    lily:lyricist "吾龍"@ja ;
+    lily:composer "大和"@ja ;
+    lily:arranger "大和"@ja ;
+    lily:additionalInformation "アサルトリリィ Last Bullet 新章ヘルヴォル編のテーマソング"@ja ;
+    schema:duration "PT4M07S"^^xsd:duration ;
+    lily:singer [
+        schema:name "クエレブレ"@ja ;
+        lily:cast [
+            schema:name "集貝はな"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q74548472>,
+                <https://ja.dbpedia.org/resource/集貝はな> ;
+            lily:performAs <Matsumura_Fuka> ;
+            #lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "河瀬茉希"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q24867153>,
+                <http://ja.dbpedia.org/resource/河瀬茉希> ;
+            lily:performAs <Makino_Mitake> ;
+            #lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "木野日菜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q23948726>,
+                <https://ja.dbpedia.org/resource/木野日菜> ;
+            lily:performAs <Kagawa_Makina> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "指出毬亜"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q28689219>,
+                <https://ja.dbpedia.org/resource/指出毬亜> ;
+            lily:performAs <Morimoto_Yuni> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "直田姫奈"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q64783118>,
+                <http://ja.dbpedia.org/resource/直田姫奈> ;
+            lily:performAs <Kariya_Higure> ;
+        # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<Wish_Drop>
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Wish Drop"@ja ;
+    # lily:additionalInformation ""@ja ;
+    # lily:musicProducer ""@ja ;
+    lily:artist "一柳梨璃（CV：赤尾ひかる）＆白井夢結（CV：夏吉ゆうこ）＆相澤一葉（CV：藤井彩加）＆飯島恋花（CV：石飛恵里花）＆今叶星（CV：前田佳織里）＆宮川高嶺（CV：礒部花凜）"@ja ;
+    # lily:edition ""@ja ;
+    lily:recordLabel "グリーエンターテインメント"@ja ;
+    lily:format "デジタルシングル"@ja ;
+    schema:datePublished "2023-09-28"^^xsd:date ;
+    schema:numTracks "1"^^xsd:integer ;
+    schema:timeRequired "PT4M29S"^^xsd:duration ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Wish_Drop> ;
+    ] ;
+    a lily:MusicAlbum ;
+.
+
 <Song_Wish_Drop>
     lily:genre "歌"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
@@ -6193,7 +6301,7 @@
     lily:composer "鈴谷皆人"@ja ;
     lily:arranger "鈴谷皆人"@ja ;
     lily:additionalInformation "ラスバレ2.5周年 リリサマ!! テーマ楽曲"@ja ;
-    schema:duration "PT4M27S"^^xsd:duration ;
+    schema:duration "PT4M29S"^^xsd:duration ;
     lily:singer [
         schema:name "一柳梨璃（CV：赤尾ひかる）＆白井夢結（CV：夏吉ゆうこ）＆相澤一葉（CV：藤井彩加）＆飯島恋花（CV：石飛恵里花）＆今叶星（CV：前田佳織里）＆宮川高嶺（CV：礒部花凜）"@ja ;
         lily:cast [
