@@ -3580,7 +3580,7 @@
     foaf:age "16"^^xsd:integer ;
     schema:height "162.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--05-10"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
