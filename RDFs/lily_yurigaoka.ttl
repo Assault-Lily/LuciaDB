@@ -4051,7 +4051,9 @@
     # schema:birthPlace ""@ja, ""@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "芸術鑑賞"@ja,
+        "美術館巡り"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "天の秤目"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
