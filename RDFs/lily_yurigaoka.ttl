@@ -1883,6 +1883,9 @@
     ], [
         lily:resource <Egawa_Kusumi> ;
         lily:additionalInformation "伍人組"@ja ;
+    ], [
+        lily:resource <Taniguchi_Hijiri> ;
+        lily:additionalInformation "仲が良い"@ja ;
     ] ;
     lily:cast [
         schema:name "茅野愛衣"@ja ;
@@ -2515,6 +2518,9 @@
     ], [
         lily:resource <Ishigami_Mio> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Watanabe_Akane> ;
+        lily:additionalInformation "仲が良い"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
