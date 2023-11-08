@@ -351,7 +351,7 @@
     lily:bloodType "AB"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     lily:color "F189C9"^^xsd:hexBinary ;
-    schema:birthPlace "山梨県"@ja, "Yamanashi"@en ;
+    schema:birthPlace "山梨県甲府市"@ja, "Kofu, Yamanashi"@en ;
     lily:favorite
         "とろとろ卵のオムライス"@ja,
         "マンゴー"@ja,
