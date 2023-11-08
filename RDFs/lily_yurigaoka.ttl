@@ -6207,7 +6207,7 @@
     schema:birthPlace "イタリア"@ja, "Italy"@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent "トランプゲーム"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "カリスマ"^^xsd:string ;
     lily:subSkill "軍神の加護"^^xsd:string ;
