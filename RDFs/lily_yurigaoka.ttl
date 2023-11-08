@@ -7039,7 +7039,7 @@
     lily:nameKana "やなぎさわあやこ"@ja ;
     lily:anotherName "レーヌ（女王）"@ja ;
     foaf:age "17"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "163.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
