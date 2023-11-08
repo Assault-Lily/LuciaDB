@@ -726,7 +726,7 @@
     schema:name "スリュムヘイム"@ja, "Thrymheim"@en ;
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded false ;
-    # lily:legionGrade ""^^xsd:string ;
+    lily:legionGrade "SS"^^xsd:string ;
     # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Noguchi_Shinano>,
