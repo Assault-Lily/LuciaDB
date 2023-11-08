@@ -280,7 +280,7 @@
     lily:givenNameKana "らいむ"@ja ;
     schema:name "岸本・ルチア・来夢"@ja, "Kishimoto Lucia Raimu"@en ;
     lily:nameKana "きしもと・るちあ・らいむ"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "白薔薇姫"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "146.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -406,7 +406,7 @@
     lily:givenNameKana "せれん"@ja ;
     schema:name "天宮・ソフィア・聖恋"@ja, "Amamiya Sofia Seren"@en ;
     lily:nameKana "あまみや・そふぃあ・せれん"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "白薔薇の騎士"@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;

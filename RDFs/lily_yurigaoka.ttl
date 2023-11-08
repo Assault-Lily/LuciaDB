@@ -273,6 +273,10 @@
         lily:resource <Trigrav> ;
         lily:usedIn "ドール Ver.2.0"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Hauteclaire> ;
+        lily:usedIn "舞台 アサルトリリィ新章"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
@@ -348,7 +352,7 @@
     lily:givenNameKana "ふみ"@ja ;
     schema:name "二川二水"@ja, "Futagawa Fumi"@en ;
     lily:nameKana "ふたがわふみ"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "聖学リリィ新聞主筆"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "152.0"^^xsd:float ;
     schema:weight "44.0"^^xsd:float ;

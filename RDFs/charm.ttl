@@ -77,7 +77,8 @@
         <Hishida_Haru>,
         <Tsukioka_Momiji>,
         <Otake_Sunao>,
-        <Maruyama_Amane> ;
+        <Maruyama_Amane>,
+        <Nakahara_Mary_Tomoyo> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
@@ -1648,6 +1649,17 @@
     # lily:generation ""^^xsd:integer ;
     # schema:manufacturer <> ;
     lily:user <Seike_Tomoyo> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Hauteclaire>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "オートクレール"@ja, "Hauteclaire"@en ;
+    schema:name "オートクレール"@ja, "Hauteclaire"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Kaede_Johan_Nouvel> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
