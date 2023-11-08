@@ -430,7 +430,7 @@
     lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    # schema:birthPlace ""@ja, ""@en ;
+    schema:birthPlace "鎌倉府（神奈川県）"@ja, "Kamakura (Kanagawa)"@en ;
     lily:favorite
         "フェレット"@ja,
         "カワウソ"@ja,
