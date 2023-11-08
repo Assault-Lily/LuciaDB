@@ -1663,3 +1663,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Crocea_Mors>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "クロケアモルス"@ja, "Crocea Mors"@en ;
+    schema:name "クロケアモルス"@ja, "Crocea Mors"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Yanagisawa_Ayako> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
