@@ -4074,7 +4074,8 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite
+        "スコーン"@ja ;
     # lily:notGood ""@ja ;
     lily:hobby_talent
         "芸術鑑賞"@ja,
