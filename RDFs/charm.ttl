@@ -1607,3 +1607,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Muramasa_Blade>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ムラマサ・ブレード"@ja, "Muramasa Blade"@en ;
+    schema:name "ムラマサ・ブレード"@ja, "Muramasa Blade"@en ;
+    # lily:generation ""^^xsd:integer ;
+    schema:manufacturer <Amatsu_Heavy_Industry> ;
+    lily:user <Takamatsu_Shiera> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.

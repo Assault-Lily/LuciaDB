@@ -192,11 +192,11 @@
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Muramasa_Blade> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     # lily:rank ""^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
