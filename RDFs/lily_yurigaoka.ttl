@@ -3807,7 +3807,7 @@
     lily:givenNameKana "はんな"@ja ;
     schema:name "黒川・ナディ・絆奈"@ja, "Kurokawa Nady Hanna"@en ;
     lily:nameKana "くろかわ・なでぃ・はんな"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "オズの魔法使い"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "154.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
