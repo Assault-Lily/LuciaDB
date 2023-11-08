@@ -2114,7 +2114,9 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "和菓子全般"@ja ;
+    lily:favorite
+        "和菓子全般"@ja,
+        "花火"@ja ;
     lily:notGood
         "散らかった部屋"@ja,
         "不潔な物"@ja ;
