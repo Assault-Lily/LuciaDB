@@ -9032,7 +9032,8 @@
     schema:birthPlace "鎌倉府（神奈川県）"@ja, "Kamakura (Kanagawa)"@en ;
     lily:favorite
         "地元"@ja,
-        "鷹"@ja ;
+        "鷹"@ja,
+        "蕎麦"@ja ;
     lily:notGood
         "目立つこと"@ja,
         "人前で何かすること"@ja ;
