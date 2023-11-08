@@ -934,7 +934,7 @@
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "ウナギ"@ja ;
-    # lily:notGood ""@ja ;
+    lily:notGood "辛いもの"@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "カリスマ"^^xsd:string ;
