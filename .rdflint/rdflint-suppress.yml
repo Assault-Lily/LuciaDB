@@ -453,6 +453,26 @@ RDFs/charm.ttl:
     message: 'Data LanguageType not matched: lang is en, but Аспид-Змей (line: 1505,
         col: 32, triple: https://luciadb.assaultlily.com/rdf/RDFs/detail/Aspid_Zmey
         - http://schema.org/name - "Аспид-Змей"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '1646'
+    column: '34'
+    subject: https://luciadb.assaultlily.com/rdf/RDFs/detail/Cruadin
+    predicate: https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#seriesName
+    object: '"Cruadín"@en'
+    message: 'Data LanguageType not matched: lang is en, but Cruadín (line: 1646,
+        col: 34, triple: https://luciadb.assaultlily.com/rdf/RDFs/detail/Cruadin -
+        https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#seriesName - "Cruadín"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
+    line: '1647'
+    column: '30'
+    subject: https://luciadb.assaultlily.com/rdf/RDFs/detail/Cruadin
+    predicate: http://schema.org/name
+    object: '"Cruadín"@en'
+    message: 'Data LanguageType not matched: lang is en, but Cruadín (line: 1647,
+        col: 30, triple: https://luciadb.assaultlily.com/rdf/RDFs/detail/Cruadin -
+        http://schema.org/name - "Cruadín"@en)'
 RDFs/lily_herensuge.ttl:
   - key: com.github.imas.rdflint.validator.impl.predictedOutlier
     level: INFO

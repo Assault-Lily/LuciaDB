@@ -1618,3 +1618,36 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Gusisnautar>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "グシスナウタル"@ja, "Gusisnautar"@en ;
+    schema:name "グシスナウタル"@ja, "Gusisnautar"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Murakami_Tokiwa> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Lion_King>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "獅子王"@ja, "Lion King"@en ;
+    schema:name "獅子王"@ja, "Lion King"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Kurokawa_Nady_Hanna> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Cruadin>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "クルージーン"@ja, "Cruadín"@en ;
+    schema:name "クルージーン"@ja, "Cruadín"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Seike_Tomoyo> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.

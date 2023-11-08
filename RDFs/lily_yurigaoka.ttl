@@ -3581,7 +3581,7 @@
     lily:givenNameKana "ととり"@ja ;
     schema:name "木子都々里"@ja, "Kiko Totori"@en ;
     lily:nameKana "きこととり"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "ユングフラウ（聖学の楯）"@ja ;
     foaf:age "16"^^xsd:integer ;
     schema:height "162.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -3594,7 +3594,9 @@
     # schema:birthPlace ""@ja, ""@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "食事（大食家）"@ja,
+        "トレーニング"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ヘリオスフィア"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -3667,7 +3669,10 @@
     schema:birthPlace "鎌倉府（神奈川県）"@ja, "Kamakura (Kanagawa)"@en ;
     lily:favorite "鯖料理"@ja ;
     # lily:notGood ""@ja ;
-    lily:hobby_talent "刀剣の収集"@ja ;
+    lily:hobby_talent
+        "刀剣の収集"@ja,
+        "アンティークボードゲーム収集"@ja,
+        "ガラス工芸品の収集"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "円環の御手"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -3749,7 +3754,7 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     schema:birthPlace "東京都"@ja, "Tokyo"@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite "BBQ"@ja ;
     # lily:notGood ""@ja ;
     lily:hobby_talent "ファッション"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
@@ -3757,11 +3762,11 @@
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Cruadin> ;
+        lily:usedIn "舞台 アサルトリリィ新章"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
     lily:grade "10"^^xsd:integer ;
@@ -3818,19 +3823,24 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     schema:birthPlace "アメリカ・ボストン"@ja, "Boston, USA"@en ;
-    lily:favorite "ステーキ"@ja ;
+    lily:favorite
+        "ステーキ"@ja,
+        "漫画"@ja ;
     # lily:notGood ""@ja ;
-    lily:hobby_talent "かるた"@ja ;
+    lily:hobby_talent
+        "かるた"@ja,
+        "日本各地のお土産品集め（キーホルダーや置物など）"@ja,
+        "暗算"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ファンタズム"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted true ;
     lily:boostedSkill "リジェネレーター"^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Lion_King> ;
+        lily:usedIn "舞台 アサルトリリィ新章"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
     lily:grade "10"^^xsd:integer ;
@@ -3885,7 +3895,7 @@
     foaf:age "15"^^xsd:integer ;
     schema:height "165.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--06-10"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
@@ -3964,7 +3974,7 @@
     lily:givenNameKana "とうか"@ja ;
     schema:name "長谷部冬佳"@ja, "Hasebe Touka"@en ;
     lily:nameKana "はせべとうか"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "リスノワール（黒百合）"@ja ;
     foaf:age "16"^^xsd:integer ;
     schema:height "160.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -4074,6 +4084,10 @@
         lily:resource <Maltet> ;
         # lily:usedIn ""^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
+    ], [
+        lily:resource <Gusisnautar> ;
+        lily:usedIn "舞台 アサルトリリィ新章"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
@@ -4185,11 +4199,11 @@
     lily:givenNameKana "せいら"@ja ;
     schema:name "今井星蘭"@ja, "Imai Seira"@en ;
     lily:nameKana "いまいせいら"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "テンペスタ"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "157.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--05-07"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
@@ -4198,7 +4212,10 @@
     # schema:birthPlace ""@ja, ""@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "アニメ"@ja,
+        "オシャレ"@ja,
+        "古典文学"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     # lily:rareSkill ""^^xsd:string ;
     lily:subSkill "カリスマ"^^xsd:string ;
