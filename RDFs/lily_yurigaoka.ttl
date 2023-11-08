@@ -4049,7 +4049,7 @@
     lily:givenNameKana "ときわ"@ja ;
     schema:name "村上常盤"@ja, "Murakami Tokiwa"@en ;
     lily:nameKana "むらかみときわ"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "イーオケアイラ"@ja ;
     foaf:age "17"^^xsd:integer ;
     schema:height "163.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
