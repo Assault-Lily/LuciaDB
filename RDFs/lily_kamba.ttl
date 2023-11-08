@@ -734,6 +734,16 @@
     lily:relationship [
         lily:resource <Yoshii_Kasumiko> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Izue_Shinobu> ;
+        lily:additionalInformation
+            "友人"@ja,
+            "幕張奪還戦で共闘した"@ja ;
+    ], [
+        lily:resource <Murakami_Tokiwa> ;
+        lily:additionalInformation
+            "友人"@ja,
+            "幕張奪還戦で共闘した" ;
     ] ;
     lily:cast [
         schema:name "伊達さゆり"@ja ;

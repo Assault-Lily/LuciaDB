@@ -4117,6 +4117,11 @@
     lily:relationship [
         lily:resource <Kondo_Misaka> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Ishizuka_Fujino> ;
+        lily:additionalInformation
+            "友人"@ja,
+            "幕張奪還戦で共闘した"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
@@ -6529,6 +6534,11 @@
     ], [
         lily:resource <Maruyama_Amane> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Ishizuka_Fujino> ;
+        lily:additionalInformation
+            "友人"@ja,
+            "幕張奪還戦で共闘した"@ja ;
     ], [
         lily:resource <Maki_Wakana> ;
         lily:additionalInformation "好意を寄せる"@ja ;
