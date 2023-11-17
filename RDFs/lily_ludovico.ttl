@@ -144,7 +144,8 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
-            <Lily_Collection_2023> ;
+            <Lily_Collection_2023>,
+            <New_Chapter_Sanngridr_Oshima> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "石井陽菜"@ja ;
@@ -385,7 +386,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q56253556>,
             <http://ja.dbpedia.org/resource/中川梨花> ;
-        lily:performIn <Lily_Project_Vol_1_Schwester_No_Inori> ;
+        lily:performIn
+            <Lily_Project_Vol_1_Schwester_No_Inori>,
+            <New_Chapter_Sanngridr_Oshima> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "佐倉初"@ja ;
@@ -499,7 +502,8 @@
             <Assault_Lily_Last_Bullet>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <New_Chapter_Sanngridr_Oshima> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "鵜川もえか"@ja ;

@@ -103,7 +103,8 @@
         lily:performIn
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
-            <Lost_Memories> ;
+            <Lost_Memories>,
+            <New_Chapter_Sanngridr_Oshima> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "蒼木るい"@ja ;

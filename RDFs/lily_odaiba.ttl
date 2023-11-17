@@ -116,7 +116,8 @@
             <Assault_Lily_Last_Bullet>,
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
-            <Lily_Collection_2023> ;
+            <Lily_Collection_2023>,
+            <New_Chapter_Sanngridr_Oshima> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -219,7 +220,8 @@
             <Assault_Lily_Last_Bullet>,
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
-            <Lily_Collection_2023> ;
+            <Lily_Collection_2023>,
+            <New_Chapter_Sanngridr_Oshima> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "甲斐千尋"@ja ;
@@ -328,7 +330,8 @@
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
-            <Lily_Collection_2023> ;
+            <Lily_Collection_2023>,
+            <New_Chapter_Sanngridr_Oshima> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

@@ -838,7 +838,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q16097304>,
             <http://ja.dbpedia.org/resource/佐々木優佳里> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn
+            <Assault_Lily_Illuma_The_Gleam_of_Dawn>,
+            <New_Chapter_Sanngridr_Oshima> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1051,7 +1053,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q28418874>,
             <http://ja.dbpedia.org/resource/北澤早紀> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn
+            <Assault_Lily_Illuma_The_Gleam_of_Dawn>,
+            <New_Chapter_Sanngridr_Oshima> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

@@ -1674,3 +1674,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Tekeli_Li>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "テケリ・リ"@ja, "Tekeli-li"@en ;
+    schema:name "テケリ・リ"@ja, "Tekeli-li"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Kinoe_No_Hana> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.

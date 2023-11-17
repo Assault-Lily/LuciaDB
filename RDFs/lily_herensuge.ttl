@@ -89,7 +89,8 @@
             <League_of_Gardens>,
             <The_Fateful_Gift>,
             <Assault_Lily_Last_Bullet>,
-            <Lost_Memories> ;
+            <Lost_Memories>,
+            <New_Chapter_Sanngridr_Oshima> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -491,7 +492,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q74548472>,
             <http://ja.dbpedia.org/resource/集貝はな> ;
-        lily:performIn <Assault_Lily_Last_Bullet> ;
+        lily:performIn
+            <Assault_Lily_Last_Bullet>,
+            <New_Chapter_Sanngridr_Oshima> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

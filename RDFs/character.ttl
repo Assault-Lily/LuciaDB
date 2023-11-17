@@ -37,32 +37,32 @@
     lily:charm [
         lily:resource <Dainsleif> ;
         lily:usedIn "舞台TFG"^^xsd:string ;
-        lily:additionalInformation "川添美鈴の遺品"@ja
+        lily:additionalInformation "川添美鈴の遺品"@ja ;
     ], [
         lily:resource <Tyrfing_type_R> ;
         lily:usedIn "舞台LM"^^xsd:string ;
-        # lily:additionalInformation ""@ja
+        # lily:additionalInformation ""@ja ;
     ] ;
     # schema:parent <> ;
     # schema:sibling [
     #     lily:resource <> ;
-    #     lily:additionalInformation ""@ja
+    #     lily:additionalInformation ""@ja ;
     # ] ;
     lily:relationship [
         lily:resource <Toda_Kotohi> ;
-        lily:additionalInformation "慕われている"@ja
+        lily:additionalInformation "慕われている"@ja ;
     ], [
         lily:resource <Shiba_Tomoshibi> ;
-        lily:additionalInformation "「こちら側」と呼ぶ"@ja
+        lily:additionalInformation "「こちら側」と呼ぶ"@ja ;
     ], [
         lily:resource <L> ;
-        lily:additionalInformation "見つけ出した"@ja
+        lily:additionalInformation "見つけ出した"@ja ;
     ], [
         lily:resource <Shirai_Yuyu> ;
-        lily:additionalInformation "手に入れたい"@ja
+        lily:additionalInformation "手に入れたい"@ja ;
     ], [
         lily:resource <Shirai_Saaya> ;
-        lily:additionalInformation "正体"@ja
+        lily:additionalInformation "正体"@ja ;
     ] ;
     lily:cast [
         schema:name "佃井皆美"@ja ;
@@ -270,16 +270,16 @@
     lily:charm [
         lily:resource <Dainsleif> ;
         lily:usedIn "舞台LM"^^xsd:string ;
-        lily:additionalInformation "川添美鈴の遺品"@ja
+        lily:additionalInformation "川添美鈴の遺品"@ja ;
     ] ;
     # schema:parent <> ;
     # schema:sibling [
     #     lily:resource <> ;
-    #     lily:additionalInformation ""@ja
+    #     lily:additionalInformation ""@ja ;
     # ] ;
     lily:relationship [
         lily:resource <Gozen> ;
-        lily:additionalInformation "御前によって見つけ出された"@ja
+        lily:additionalInformation "御前によって見つけ出された"@ja ;
     ] ;
     lily:cast [
         schema:name "なつぽい"@ja ;
@@ -323,7 +323,7 @@
     # lily:charm [
     #     lily:resource <> ;
     #     lily:usedIn ""^^xsd:string ;
-    #     lily:additionalInformation ""@ja
+    #     lily:additionalInformation ""@ja ;
     # ] ;
     lily:garden "御台場女学校中等科"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
@@ -340,20 +340,22 @@
     # schema:parent <> ;
     schema:sibling [
         lily:resource <Imamura_Yukari> ;
-        lily:additionalInformation "妹"@ja
+        lily:additionalInformation "妹"@ja ;
     ] ;
     lily:relationship [
         lily:resource <Hishida_Haru> ;
-        lily:additionalInformation "「御台場を守る一番のリリィとなる」という夢を託す"@ja , "幼馴染"@ja
+        lily:additionalInformation
+            "「御台場を守る一番のリリィとなる」という夢を託す"@ja,
+            "幼馴染"@ja ;
     ] ;
     lily:relationship [
         lily:resource <Yokoyama_Azusa> ;
-        lily:additionalInformation "幼馴染"@ja
+        lily:additionalInformation "幼馴染"@ja ;
     ] ;
     lily:cast [
         schema:name "柴田茉莉"@ja ;
         # lily:resource <> ;
-        lily:performIn <Assault_Lily_Odaiba_The_Singular_Ability>
+        lily:performIn <Assault_Lily_Odaiba_The_Singular_Ability> ;
     ] ;
     a lily:Character ;
 .
@@ -390,7 +392,7 @@
     # lily:charm [
     #     lily:resource <> ;
     #     lily:usedIn ""^^xsd:string ;
-    #     lily:additionalInformation ""@ja
+    #     lily:additionalInformation ""@ja ;
     # ] ;
     lily:garden "甲斐聖山女子高等学校"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
@@ -407,16 +409,16 @@
     # schema:parent <> ;
     schema:sibling [
         lily:resource <Rokkaku_Shiori> ;
-        lily:additionalInformation "姉"@ja
+        lily:additionalInformation "姉"@ja ;
     ] ;
     # lily:relationship [
     #     lily:resource <> ;
-    #     lily:additionalInformation ""@ja
+    #     lily:additionalInformation ""@ja ;
     # ] ;
     # lily:cast [
         # schema:name ""@ja ;
         # lily:resource <> ;
-        # lily:performIn <>
+        # lily:performIn <> ;
     # ] ;
     a lily:Character ;
 .
@@ -453,7 +455,7 @@
     lily:charm [
         lily:resource <Unknown_Named_Charm_2> ;
         lily:usedIn "ラスバレ"^^xsd:string ;
-        lily:additionalInformation "試作機"@ja
+        lily:additionalInformation "試作機"@ja ;
     ] ;
     lily:garden "シエルリント女学薗"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
@@ -470,16 +472,16 @@
     # schema:parent <> ;
     # schema:sibling [
     #     lily:resource <> ;
-    #     lily:additionalInformation ""@ja
+    #     lily:additionalInformation ""@ja ;
     # ] ;
     # lily:relationship [
     #     lily:resource <> ;
-    #     lily:additionalInformation ""@ja
+    #     lily:additionalInformation ""@ja ;
     # ] ;
     # lily:cast [
     #     schema:name ""@ja ;
     #     lily:resource <> ;
-    #     lily:performIn <>
+    #     lily:performIn <> ;
     # ] ;
     a lily:Madec ;
 .
@@ -516,7 +518,7 @@
     # lily:charm [
     #     lily:resource <> ;
     #     lily:usedIn ""^^xsd:string ;
-    #     lily:additionalInformation ""@ja
+    #     lily:additionalInformation ""@ja ;
     # ] ;
     # lily:garden ""^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
@@ -533,16 +535,16 @@
     # schema:parent <> ;
     # schema:sibling [
         # lily:resource <> ;
-        # lily:additionalInformation ""@ja
+        # lily:additionalInformation ""@ja ;
     # ] ;
     lily:relationship [
         lily:resource <Kaede_Johan_Nouvel> ;
-        lily:additionalInformation "娘"@ja
+        lily:additionalInformation "娘"@ja ;
     ] ;
     # lily:cast [
         # schema:name ""@ja ;
         # lily:resource <> ;
-        # lily:performIn <>
+        # lily:performIn <> ;
     # ] ;
     a lily:Character ;
 .
@@ -579,7 +581,7 @@
     # lily:charm [
     #     lily:resource <> ;
     #     lily:usedIn ""^^xsd:string ;
-    #     lily:additionalInformation ""@ja
+    #     lily:additionalInformation ""@ja ;
     # ] ;
     # lily:garden ""^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
@@ -596,7 +598,7 @@
     # schema:parent <> ;
     # schema:sibling [
         # lily:resource <> ;
-        # lily:additionalInformation ""@ja
+        # lily:additionalInformation ""@ja ;
     # ] ;
     lily:relationship [
         lily:resource <Hitotsuyanagi_Riri> ;
@@ -607,7 +609,7 @@
     # lily:cast [
         # schema:name ""@ja ;
         # lily:resource <> ;
-        # lily:performIn <>
+        # lily:performIn <> ;
     # ] ;
     a lily:Character ;
 .
@@ -644,7 +646,7 @@
     lily:charm [
         lily:resource <Dojigiri_Yasutsuna> ;
         # lily:usedIn ""^^xsd:string ;
-        # lily:additionalInformation ""@ja
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "百合ヶ丘女学院"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
@@ -661,16 +663,587 @@
     # schema:parent <> ;
     # schema:sibling [
         # lily:resource <> ;
-        # lily:additionalInformation ""@ja
+        # lily:additionalInformation ""@ja ;
     # ] ;
     # lily:relationship [
         # lily:resource <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:cast [
-        # schema:name ""@ja ;
+    lily:cast [
+        schema:name "藤岡沙也香"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11516234>,
+            <http://ja.dbpedia.org/resource/藤岡沙也香> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+    ] ;
+    a lily:Character ;
+.
+
+<Kinoe_No_Hana>
+    rdfs:label "甲の花"^^xsd:string ;
+    # schema:familyName ""@ja, ""@en ;
+    # lily:familyNameKana ""@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    # schema:givenName ""@ja, ""@en ;
+    # lily:givenNameKana ""@ja ;
+    schema:name "甲の花"@ja, "Kinoe no Hana"@en ;
+    lily:nameKana "きのえのはな"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""@ja ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Tekeli_Li> ;
+        lily:usedIn "舞台「アサルトリリィ新章」"^^xsd:string ;
+        lily:additionalInformation "実験機"@ja ;
+    ] ;
+    # lily:garden ""^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade "0"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
         # lily:resource <> ;
-        # lily:performIn <>
+        # lily:additionalInformation ""@ja ;
     # ] ;
+    # lily:relationship [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "日永麗"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q112133037> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+    ] ;
+    a lily:Character ;
+.
+
+<Kinoto_No_Hana>
+    rdfs:label "乙の花"^^xsd:string ;
+    # schema:familyName ""@ja, ""@en ;
+    # lily:familyNameKana ""@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    # schema:givenName ""@ja, ""@en ;
+    # lily:givenNameKana ""@ja ;
+    schema:name "乙の花"@ja, "Kinoto no Hana"@en ;
+    lily:nameKana "きのとのはな"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""@ja ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+        # lily:resource <> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:garden ""^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade "0"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "橘里依"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q109318876>,
+            <http://ja.dbpedia.org/resource/橘里依> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+    ] ;
+    a lily:Character ;
+.
+
+<Hinoe_No_Hana>
+    rdfs:label "丙の花"^^xsd:string ;
+    # schema:familyName ""@ja, ""@en ;
+    # lily:familyNameKana ""@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    # schema:givenName ""@ja, ""@en ;
+    # lily:givenNameKana ""@ja ;
+    schema:name "丙の花"@ja, "Hinoe no Hana"@en ;
+    lily:nameKana "ひのえのはな"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""@ja ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+        # lily:resource <> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:garden ""^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade "0"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "槙原唯"@ja ;
+        # lily:resource <> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+    ] ;
+    a lily:Character ;
+.
+
+<Hinoto_No_Hana>
+    rdfs:label "丁の花"^^xsd:string ;
+    # schema:familyName ""@ja, ""@en ;
+    # lily:familyNameKana ""@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    # schema:givenName ""@ja, ""@en ;
+    # lily:givenNameKana ""@ja ;
+    schema:name "丁の花"@ja, "Hinoto no Hana"@en ;
+    lily:nameKana "ひのとのはな"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""@ja ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+        # lily:resource <> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:garden ""^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade "0"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "矢澤梨央"@ja ;
+        # lily:resource <> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+    ] ;
+    a lily:Character ;
+.
+
+<Tsuchinoe_No_Hana>
+    rdfs:label "戊の花"^^xsd:string ;
+    # schema:familyName ""@ja, ""@en ;
+    # lily:familyNameKana ""@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    # schema:givenName ""@ja, ""@en ;
+    # lily:givenNameKana ""@ja ;
+    schema:name "戊の花"@ja, "Tsuchinoe No Hana"@en ;
+    lily:nameKana "つちのえのはな"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""@ja ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+        # lily:resource <> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:garden ""^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade "0"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "真田うるは"@ja ;
+        # lily:resource <> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+    ] ;
+    a lily:Character ;
+.
+
+<Tsuchinoto_no_Hana>
+    rdfs:label "己の花"^^xsd:string ;
+    # schema:familyName ""@ja, ""@en ;
+    # lily:familyNameKana ""@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    # schema:givenName ""@ja, ""@en ;
+    # lily:givenNameKana ""@ja ;
+    schema:name "己の花"@ja, "Tsuchinoto no Hana"@en ;
+    lily:nameKana "つちのとのはな"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""@ja ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+        # lily:resource <> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:garden ""^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade "0"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "宇田川ももか"@ja ;
+        # lily:resource <> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+    ] ;
+    a lily:Character ;
+.
+
+<Kanoe_No_Hana>
+    rdfs:label "庚の花"^^xsd:string ;
+    # schema:familyName ""@ja, ""@en ;
+    # lily:familyNameKana ""@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    # schema:givenName ""@ja, ""@en ;
+    # lily:givenNameKana ""@ja ;
+    schema:name "庚の花"@ja, "Kanoe no Hana"@en ;
+    lily:nameKana "かのえのはな"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""@ja ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+        # lily:resource <> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:garden ""^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade "0"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "星野咲笑"@ja ;
+        # lily:resource <> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+    ] ;
+    a lily:Character ;
+.
+
+<Kanoto_No_Hana>
+    rdfs:label "辛の花"^^xsd:string ;
+    # schema:familyName ""@ja, ""@en ;
+    # lily:familyNameKana ""@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    # schema:givenName ""@ja, ""@en ;
+    # lily:givenNameKana ""@ja ;
+    schema:name "辛の花"@ja, "Kanoto no Hana"@en ;
+    lily:nameKana "かのとのはな"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""@ja ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+        # lily:resource <> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:garden ""^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade "0"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "稲玉洸"@ja ;
+        # lily:resource <> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+    ] ;
+    a lily:Character ;
+.
+
+<Mizunoe_No_Hana>
+    rdfs:label "壬の花"^^xsd:string ;
+    # schema:familyName ""@ja, ""@en ;
+    # lily:familyNameKana ""@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    # schema:givenName ""@ja, ""@en ;
+    # lily:givenNameKana ""@ja ;
+    schema:name "壬の花"@ja, "Mizunoe no Hana"@en ;
+    lily:nameKana "みずのえのはな"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""@ja ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+        # lily:resource <> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:garden ""^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade "0"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "鈴木里奈"@ja ;
+        # lily:resource <> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+    ] ;
     a lily:Character ;
 .

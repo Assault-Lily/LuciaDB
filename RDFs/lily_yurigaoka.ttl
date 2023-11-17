@@ -336,7 +336,8 @@
             <Assault_Lily_Last_Bullet>,
             <League_of_Gardens>,
             <The_Fateful_Gift>,
-            <Lost_Memories> ;
+            <Lost_Memories>,
+            <New_Chapter_Sanngridr_Oshima> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -434,6 +435,11 @@
             <League_of_Gardens>,
             <The_Fateful_Gift>,
             <Lost_Memories> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "遥りさ"@ja ;
+        lily:resource <http://ja.dbpedia.org/resource/遥りさ> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3463,10 +3469,14 @@
         lily:resource <Okada_Kisara> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "伊藤優衣"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11379878>,
+            <http://ja.dbpedia.org/resource/伊藤優衣> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -3568,10 +3578,14 @@
         lily:resource <Luise_Ingels> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "大森莉緒"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q83680542>,
+            <http://ja.dbpedia.org/resource/大森莉緒> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -3643,10 +3657,14 @@
         lily:resource <Imagawa_Homare> ;
         lily:additionalInformation "幼稚舎の頃から共に戦うと誓った仲"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "浜浦彩乃"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27670130>,
+            <http://ja.dbpedia.org/resource/浜浦彩乃> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -3730,10 +3748,14 @@
         lily:resource <Okada_Kisara> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "林田真尋"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q19162226>,
+            <http://ja.dbpedia.org/resource/林田真尋> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -3799,10 +3821,14 @@
         lily:resource <Kaita_Hinoki> ;
         lily:additionalInformation "旧知の友人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "大滝紗緒里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q60989916>,
+            <http://ja.dbpedia.org/resource/大滝紗緒里> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -3878,10 +3904,14 @@
         lily:resource <Kitagawara_Inori> ;
         lily:additionalInformation "特別寮時代に親しくなった友人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "畑美紗起"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q116161488>,
+            <http://ja.dbpedia.org/resource/畑美紗起> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -3961,10 +3991,14 @@
         lily:resource <Mashima_Moyu> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "其原有沙"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27150647>,
+            <http://ja.dbpedia.org/resource/其原有沙> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -4046,10 +4080,14 @@
         lily:resource <Kondo_Misaka> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "牧浦乙葵"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q108777087>,
+            <http://ja.dbpedia.org/resource/牧浦乙葵> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -4124,10 +4162,12 @@
             "友人"@ja,
             "幕張奪還戦で共闘した"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "白石まゆみ"@ja ;
+        # lily:resource <> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -4265,10 +4305,12 @@
         lily:resource <Ushida_Watsuki> ;
         lily:additionalInformation "仲が良い"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "安藤千伽奈"@ja ;
+        lily:resource <http://ja.dbpedia.org/resource/安藤千伽奈> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
