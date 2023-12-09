@@ -6346,3 +6346,103 @@
     ] ;
     a lily:Music ;
 .
+
+<Adabana>
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Adabana"@ja ;
+    # lily:additionalInformation ""@ja ;
+    # lily:musicProducer ""@ja ;
+    lily:artist "一柳隊 with 早川弥宏・富永真"@ja ;
+    # lily:edition ""@ja ;
+    lily:recordLabel "グリーエンターテインメント"@ja ;
+    lily:format "デジタルシングル"@ja ;
+    schema:datePublished "2023-12-01"^^xsd:date ;
+    schema:numTracks "1"^^xsd:integer ;
+    schema:timeRequired "PT4M09S"^^xsd:duration ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Adabana> ;
+    ] ;
+    a lily:MusicAlbum ;
+.
+
+<Song_Adabana>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Adabana"@ja ;
+    lily:lyricist "安藤紗々"@ja ;
+    lily:composer "神田ジョン"@ja ;
+    lily:arranger "神田ジョン"@ja ;
+    lily:additionalInformation "アサルトリリィ Last Bullet メインストーリー「運命のトリニティ」一柳隊編のテーマ楽曲"@ja ;
+    schema:duration "PT4M09S"^^xsd:duration ;
+    schema:inAlbum <Adabana> ;
+    lily:singer [
+        schema:name "一柳隊 with 早川弥宏・富永真"@ja ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "井澤美香子"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20038660>,
+                <http://ja.dbpedia.org/resource/井澤美香子> ;
+            lily:performAs <Kaede_Johan_Nouvel> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "西本りみ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q24902567> ;
+            lily:performAs <Futagawa_Fumi> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "紡木吏佐"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q55534197> ;
+            lily:performAs <Ando_Tazusa> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "岩田陽葵"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q16264369>,
+                <http://ja.dbpedia.org/resource/岩田陽葵> ;
+            lily:performAs <Yoshimura_Thi_Mai> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "星守紗凪"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+            lily:performAs <Kuo_Shenlin> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "遠野ひかる"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q48762060> ;
+            lily:performAs <Wang_Yujia> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "高橋花林"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q20041113>,
+                <http://ja.dbpedia.org/resource/高橋花林> ;
+            lily:performAs <Miliam_Hildegard_von_Guropius> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "大西亜玖璃"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q41693186>,
+                <http://ja.dbpedia.org/resource/大西亜玖璃>;
+            lily:performAs <Hayakawa_Yahiro> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "小泉萌香"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q47472827>,
+                <http://ja.dbpedia.org/resource/小泉萌香>;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
