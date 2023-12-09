@@ -595,6 +595,10 @@
         lily:resource <Gram> ;
         # lily:usedIn ""^^xsd:string ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Hi-ThanKiem> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
