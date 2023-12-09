@@ -5968,7 +5968,9 @@
     lily:arranger "神田ジョン"@ja ;
     lily:additionalInformation "アサルトリリィ Last Bullet 2周年テーマ楽曲"@ja ;
     schema:duration "PT3M43S"^^xsd:duration ;
-    schema:inAlbum <Toumei_Diary> ;
+    schema:inAlbum
+        <Toumei_Diary>,
+        <Toumei_Diary_Wish_Drop> ;
     lily:singer [
         schema:name "一柳隊"@ja ;
         lily:cast [
@@ -6024,6 +6026,16 @@
             # lily:additionalInformation ""@ja ;
         ] ;
     ] ;
+    a lily:Music ;
+.
+
+<Song_Toumei_Diary_Instrumental>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    lily:composer "神田ジョン"@ja ;
+    # lily:additionalInformation ""@ja;
+    schema:duration "PT3M43S"^^xsd:duration ;
+    schema:inAlbum <Toumei_Diary_Wish_Drop> ;
     a lily:Music ;
 .
 
@@ -6302,6 +6314,9 @@
     lily:arranger "鈴谷皆人"@ja ;
     lily:additionalInformation "ラスバレ2.5周年 リリサマ!! テーマ楽曲"@ja ;
     schema:duration "PT4M29S"^^xsd:duration ;
+    schema:inAlbum
+        <Wish_Drop>,
+        <Toumei_Diary_Wish_Drop> ;
     lily:singer [
         schema:name "一柳梨璃（CV：赤尾ひかる）＆白井夢結（CV：夏吉ゆうこ）＆相澤一葉（CV：藤井彩加）＆飯島恋花（CV：石飛恵里花）＆今叶星（CV：前田佳織里）＆宮川高嶺（CV：礒部花凜）"@ja ;
         lily:cast [
@@ -6345,6 +6360,117 @@
         ] ;
     ] ;
     a lily:Music ;
+.
+
+<Song_Wish_Drop_Last_Bullet_Ver>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Wish Drop(Last Bullet ver.)"@ja ;
+    lily:lyricist "安藤紗々"@ja ;
+    lily:composer "鈴谷皆人"@ja ;
+    lily:arranger "鈴谷皆人"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT4M29S"^^xsd:duration ;
+    lily:singer [
+        schema:name "一柳梨璃（CV：赤尾ひかる）＆白井夢結（CV：夏吉ゆうこ）＆相澤一葉（CV：藤井彩加）＆今叶星（CV：前田佳織里）"@ja ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "藤井彩加"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q28068428>,
+                <https://ja.dbpedia.org/resource/藤井彩加> ;
+            lily:performAs <Aizawa_Kazuha> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "前田佳織里"@ja ;
+            lily:resource
+                <https://www.wikidata.org/wiki/Q41693141>,
+                <https://ja.dbpedia.org/page/前田佳織里>;
+            lily:performAs <Kon_Kanaho> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<Song_Wish_Drop_Riri_Yuyu_Ver>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "Wish Drop(梨璃＆夢結ver.)"@ja ;
+    lily:lyricist "安藤紗々"@ja ;
+    lily:composer "鈴谷皆人"@ja ;
+    lily:arranger "鈴谷皆人"@ja ;
+    # lily:additionalInformation ""@ja ;
+    schema:duration "PT4M29S"^^xsd:duration ;
+    schema:inAlbum <Toumei_Diary_Wish_Drop> ;
+    lily:singer [
+        schema:name "一柳梨璃（CV：赤尾ひかる）＆白井夢結（CV：夏吉ゆうこ）"@ja ;
+        lily:cast [
+            schema:name "赤尾ひかる"@ja ;
+            lily:resource <http://www.wikidata.org/entity/Q28685785> ;
+            lily:performAs <Hitotsuyanagi_Riri> ;
+            # lily:additionalInformation ""@ja ;
+        ], [
+            schema:name "夏吉ゆうこ"@ja ;
+            lily:resource <https://www.wikidata.org/wiki/Q66365004> ;
+            lily:performAs <Shirai_Yuyu> ;
+            # lily:additionalInformation ""@ja ;
+        ] ;
+    ] ;
+    a lily:Music ;
+.
+
+<Song_Wish_Drop_Instrumental>
+    lily:genre "歌"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    lily:composer "鈴谷皆人"@ja ;
+    # lily:additionalInformation ""@ja;
+    schema:duration "PT4M29S"^^xsd:duration ;
+    schema:inAlbum <Toumei_Diary_Wish_Drop> ;
+    a lily:Music ;
+.
+
+<Toumei_Diary_Wish_Drop>
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:name "トウメイダイアリー/Wish Drop"@ja ;
+    # lily:additionalInformation ""@ja ;
+    # lily:musicProducer ""@ja ;
+    lily:artist "アサルトリリィ Last Bullet"@ja ;
+    # lily:edition ""@ja ;
+    lily:recordLabel "グリーエンターテインメント"@ja ;
+    lily:format "アルバム"@ja ;
+    schema:datePublished "2023-11-08"^^xsd:date ;
+    schema:numTracks "6"^^xsd:integer ;
+    schema:timeRequired "PT25M36S"^^xsd:duration ;
+    lily:track [
+        lily:listOrder "1"^^xsd:integer ;
+        lily:song <Song_Toumei_Diary> ;
+    ], [
+        lily:listOrder "2"^^xsd:integer ;
+        lily:song <Song_Wish_Drop> ;
+    ], [
+        lily:listOrder "3"^^xsd:integer ;
+        lily:song <Song_Wish_Drop_Last_Bullet_Ver> ;
+    ], [
+        lily:listOrder "4"^^xsd:integer ;
+        lily:song <Song_Wish_Drop_Riri_Yuyu_Ver> ;
+    ], [
+        lily:listOrder "5"^^xsd:integer ;
+        lily:song <Song_Toumei_Diary_Instrumental> ;
+    ], [
+        lily:listOrder "6"^^xsd:integer ;
+        lily:song <Song_Wish_Drop_Instrumental> ;
+    ] ;
+    a lily:MusicAlbum ;
 .
 
 <Adabana>
