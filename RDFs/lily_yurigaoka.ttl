@@ -519,7 +519,7 @@
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
-    # lily:schutzengel <> ;
+    lily:schutzengel <Yoshimura_Thi_Mai> ;
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
@@ -615,7 +615,7 @@
     lily:pastTaskforce <Odaiba_Interception_Taskforce_5> ;
     # lily:schutzengel <> ;
     # lily:pastSchutzengel <> ;
-    # lily:schild <> ;
+    lily:schild <Ando_Tazusa> ;
     # lily:pastSchild <> ;
     # lily:roomMate <> ;
     # schema:parent <> ;
