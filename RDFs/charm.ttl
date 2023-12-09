@@ -303,7 +303,8 @@
         <Kawabata_Hotaru>,
         <Makino_Mitake>,
         <Sejima_Hiromu>,
-        <Izumi_Rosa_Rina> ;
+        <Izumi_Rosa_Rina>,
+        <Tominaga_Shin> ;
     lily:isVariantOf <Tyrfing_Prototype> ;
     schema:isSimilarTo
         <Tyrfing_type_R>,
