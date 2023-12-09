@@ -6067,6 +6067,7 @@
     lily:arranger "Islet"@ja ;
     lily:additionalInformation "アサルトリリィ Last Bullet メインストーリー 新章グラン・エプレ編のテーマソング"@ja ;
     schema:duration "PT3M46S"^^xsd:duration ;
+    schema:inAlbum <Overcast_Sky> ;
     lily:singer [
         schema:name "新生グラン・エプレ"@ja ;
         lily:cast [
@@ -6165,6 +6166,7 @@
     lily:arranger "大和"@ja ;
     lily:additionalInformation "アサルトリリィ Last Bullet 新章ヘルヴォル編のテーマソング"@ja ;
     schema:duration "PT4M07S"^^xsd:duration ;
+    schema:inAlbum <REFLECTIONS> ;
     lily:singer [
         schema:name "ヘルヴォル&クエレブレ"@ja ;
         lily:cast [
