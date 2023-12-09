@@ -38,7 +38,7 @@
         "身体を動かすこと"@ja,
         "水晶集め"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    lily:rareSkill "カリスマ"^^xsd:string ;
+    lily:rareSkill "ラプラス"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
