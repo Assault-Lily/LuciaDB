@@ -376,6 +376,19 @@
     lily:generation "2"^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
     schema:manufacturer <Tsukuyomi_Giken> ;
+    lily:hasVariant <Hi-ThanKiem> ;
+    lily:user <Yoshimura_Thi_Mai> ;
+    a lily:Charm ;
+.
+
+<Hi-ThanKiem>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "タンキエム"@ja, "Than Kiem"@en ;
+    schema:name "Hi-タンキエム"@ja, "Hi-Than Kiem"@en ;
+    # lily:generation ""^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Tsukuyomi_Giken> ;
+    lily:isVariantOf <ThanKiem> ;
     lily:user <Yoshimura_Thi_Mai> ;
     a lily:Charm ;
 .
