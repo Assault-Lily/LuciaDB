@@ -3438,7 +3438,7 @@
     # lily:taskforce <> ;
     lily:pastTaskforce <Odaiba_Interception_Taskforce_4> ;
     # lily:schutzengel <> ;
-    # lily:pastSchutzengel <> ;
+    lily:pastSchutzengel <Yanagisawa_Ayako> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
     # lily:roomMate <> ;
@@ -7260,7 +7260,7 @@
     # lily:schutzengel <> ;
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
-    # lily:pastSchild <> ;
+    lily:pastSchild <Yamanashi_Hibari> ;
     lily:roomMate <Arakawa_Hitomi> ;
     # schema:parent <> ;
     # schema:sibling [
