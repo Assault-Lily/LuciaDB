@@ -276,7 +276,7 @@
     ], [
         lily:resource <Hauteclaire> ;
         lily:usedIn "舞台 アサルトリリィ新章"^^xsd:string ;
-        # lily:additionalInformation ""@ja ;
+        lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;

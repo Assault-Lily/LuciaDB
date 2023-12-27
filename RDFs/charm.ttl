@@ -1215,7 +1215,7 @@
     schema:name "アスカロン"@ja, "Ascalon"@en ;
     # lily:generation ""^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Hihiirokane_International> ;
     lily:user <Yamanashi_Hibari> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
@@ -1535,10 +1535,10 @@
 
 <Gerr_Na_Gcollan>
     # schema:productID ""^^xsd:string ;
-    lily:seriesName "ゲル・ ナ・グコラン"@ja, "Gerr na gCollan"@en ;
-    schema:name "ゲル・ ナ・グコラン"@ja, "Gerr na gCollan"@en ;
+    lily:seriesName "ゲル・ナ・グコラン"@ja, "Gerr na gCollan"@en ;
+    schema:name "ゲル・ナ・グコラン"@ja, "Gerr na gCollan"@en ;
     # lily:generation ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Celticdale> ;
     lily:user <Imagawa_Homare> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
@@ -1659,7 +1659,7 @@
     lily:seriesName "オートクレール"@ja, "Hauteclaire"@en ;
     schema:name "オートクレール"@ja, "Hauteclaire"@en ;
     # lily:generation ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Grand_Guignol> ;
     lily:user <Kaede_Johan_Nouvel> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
