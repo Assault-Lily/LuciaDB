@@ -1686,3 +1686,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Roseblade>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ローズブレイド"@ja, "Roseblade"@en ;
+    schema:name "ローズブレイド"@ja, "Roseblade"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Amamiya_Sofia_Seren> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.

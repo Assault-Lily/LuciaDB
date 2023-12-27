@@ -455,6 +455,10 @@
         lily:resource <Sugaar> ;
         lily:usedIn "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Roseblade> ;
+        lily:usedIn "舞台「アサルトリリィ新章」"^^xsd:string ;
+        lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立ルドビコ女学院"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
