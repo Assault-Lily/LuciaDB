@@ -95,7 +95,7 @@
         "AZ"^^xsd:string,
         "TZ"^^xsd:string ;
     lily:pastLegion <Temple_Legion> ;
-    # lily:taskforce <> ;
+    lily:taskforce <Oshima_Nearshore_Nest_Research_Team> ;
     lily:pastTaskforce <Odaiba_Interception_Taskforce_1> ;
     # lily:olderSchwester <> ;
     lily:pastOlderSchwester <Kishimoto_Maria_Mirai> ;
@@ -338,7 +338,7 @@
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     lily:pastLegion <Temple_Legion> ;
-    # lily:taskforce <> ;
+    lily:taskforce <Oshima_Nearshore_Nest_Research_Team> ;
     # lily:pastTaskforce <> ;
     lily:olderSchwester <Fukuyama_Jeanne_Sachie> ;
     # lily:pastOlderSchwester <> ;
@@ -469,7 +469,7 @@
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     lily:pastLegion <Temple_Legion> ;
-    # lily:taskforce <> ;
+    lily:taskforce <Oshima_Nearshore_Nest_Research_Team> ;
     # lily:pastTaskforce <> ;
     lily:olderSchwester <Kuroki_Francisca_Yuria> ;
     # lily:pastOlderSchwester <> ;

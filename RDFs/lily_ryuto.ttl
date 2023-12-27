@@ -65,7 +65,7 @@
         "TZ"^^xsd:string,
         "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
-    # lily:taskforce <> ;
+    lily:taskforce <Oshima_Nearshore_Nest_Research_Team> ;
     lily:pastTaskforce <Odaiba_Interception_Taskforce_2> ;
     # lily:roomMate <> ;
     # schema:parent <> ;

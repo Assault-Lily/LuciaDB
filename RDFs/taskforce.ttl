@@ -103,6 +103,28 @@
     a lily:Taskforce ;
 .
 
+<Oshima_Nearshore_Nest_Research_Team>
+    schema:name "大島近海ネスト調査隊"@ja, "Oshima Nearshore Nest Research Team"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:numberOfMembers "13"^^xsd:integer ;
+    schema:member
+        <Funada_Kiito>,
+        <Funada_Ui>,
+        <Shiba_Tomoshibi>,
+        <Kaede_Johan_Nouvel>,
+        <Futagawa_Fumi>,
+        <Fukuyama_Jeanne_Sachie>,
+        <Kishimoto_Lucia_Raimu>,
+        <Amamiya_Sofia_Seren>,
+        <Aizawa_Kazuha>,
+        <Matsumura_Fuka>,
+        <Kamigori_Marimo>,
+        <Ueda_Imari>,
+        <Amatsu_Marei> ;
+    a lily:Taskforce ;
+.
+
 ### シエルリント女学薗
 
 <Schwarzes_Kreuz_Madec>

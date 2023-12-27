@@ -78,7 +78,7 @@
     lily:legionJobTitle "隊長"^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
-    # lily:taskforce <> ;
+    lily:taskforce <Oshima_Nearshore_Nest_Research_Team> ;
     # lily:pastTaskforce <> ;
     # lily:roomMate <> ;
     # schema:parent <> ;
@@ -191,7 +191,7 @@
     lily:legionJobTitle "副隊長"^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
-    # lily:taskforce <> ;
+    lily:taskforce <Oshima_Nearshore_Nest_Research_Team> ;
     # lily:pastTaskforce <> ;
     # lily:roomMate <> ;
     # schema:parent <> ;
@@ -295,7 +295,7 @@
         "AZ"^^xsd:string,
         "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
-    # lily:taskforce <> ;
+    lily:taskforce <Oshima_Nearshore_Nest_Research_Team> ;
     # lily:pastTaskforce <> ;
     # lily:roomMate <> ;
     # schema:parent <> ;
