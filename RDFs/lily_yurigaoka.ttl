@@ -4033,7 +4033,14 @@
         "占い"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ヘリオスフィア"^^xsd:string ;
-    # lily:subSkill ""^^xsd:string ;
+    lily:subSkill
+        "虹の軌跡"^^xsd:string,
+        "軍神の加護"^^xsd:string,
+        "魔眼"^^xsd:string,
+        "インビジブルワン"^^xsd:string,
+        "ステルス"^^xsd:string,
+        "狂乱の閾"^^xsd:string,
+        "Awakening"^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
