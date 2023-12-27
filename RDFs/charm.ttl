@@ -1626,7 +1626,7 @@
     lily:seriesName "グシスナウタル"@ja, "Gusisnautar"@en ;
     schema:name "グシスナウタル"@ja, "Gusisnautar"@en ;
     # lily:generation ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Yggdrasill> ;
     lily:user <Murakami_Tokiwa> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
