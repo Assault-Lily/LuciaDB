@@ -2225,8 +2225,7 @@
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
-        "TZ"^^xsd:string,
-        "BZ"^^xsd:string ;
+        "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
