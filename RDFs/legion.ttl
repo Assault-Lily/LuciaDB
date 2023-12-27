@@ -155,6 +155,7 @@
     lily:submember
         <Tetsukawa_Toa>,
         <Imai_Seira>,
+        <Nagasaka_Maho>,
         <Yamaguchi_Chihiro> ;
     a lily:Legion ;
 .
