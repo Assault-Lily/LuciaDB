@@ -4314,6 +4314,71 @@
     a lily:Lily ;
 .
 
+<Yamaguchi_Chihiro>
+    rdfs:label "山口千尋"^^xsd:string ;
+    schema:familyName "山口"@ja, "Yamaguchi"@en ;
+    lily:familyNameKana "やまぐち"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "千尋"@ja, "Chihiro"@en ;
+    lily:givenNameKana "ちひろ"@ja ;
+    schema:name "山口千尋"@ja, "Yamaguchi Chihiro"@en ;
+    lily:nameKana "やまぐちちひろ"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "unknown"^^xsd:string ;
+    lily:killedIn "百合ヶ丘女学院初等部時代、スモール級の群れとの戦いで戦死したとみられる"@ja ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    lily:subSkill "狂乱の閾"^^xsd:string ;
+    lily:isBoosted true ;
+    lily:boostedSkill "リジェネレーター"^^xsd:string ;
+    lily:charm [
+        lily:resource <Dainsleif> ;
+        lily:usedIn "舞台「アサルトリリィ新章」"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade "0"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Sanngridr> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    lily:position
+        "AZ"^^xsd:string,
+        "TZ"^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Kou_No_Hana> ;
+        lily:additionalInformation "『成れの果て』"@ja ;
+    ] ;
+    lily:cast [
+        schema:name "日永麗"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q112133037> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+    ] ;
+    a lily:Lily ;
+.
+
 ### LGローエングリン
 
 <Aoki_Kaho>

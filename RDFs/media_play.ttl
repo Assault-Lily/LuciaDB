@@ -3724,49 +3724,51 @@
     ], [
         schema:name "日永麗"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q112133037> ;
-        lily:performAs <Kinoe_No_Hana> ;
+        lily:performAs
+            <Kou_No_Hana>,
+            <Yamaguchi_Chihiro> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "橘里依"@ja ;
         lily:resource
             <https://www.wikidata.org/wiki/Q109318876>,
             <http://ja.dbpedia.org/resource/橘里依> ;
-        lily:performAs <Kinoto_No_Hana> ;
+        lily:performAs <Otsu_No_Hana> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "槙原唯"@ja ;
         # lily:resource <> ;
-        lily:performAs <Hinoe_No_Hana> ;
+        lily:performAs <Hei_No_Hana> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "矢澤梨央"@ja ;
         # lily:resource <> ;
-        lily:performAs <Hinoto_No_Hana> ;
+        lily:performAs <Tei_No_Hana> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "真田うるは"@ja ;
         # lily:resource <> ;
-        lily:performAs <Tsuchinoe_No_Hana> ;
+        lily:performAs <Bo_No_Hana> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "宇田川ももか"@ja ;
         # lily:resource <> ;
-        lily:performAs <Tsuchinoto_no_Hana> ;
+        lily:performAs <Ki_no_Hana> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "星野咲笑"@ja ;
         # lily:resource <> ;
-        lily:performAs <Kanoe_No_Hana> ;
+        lily:performAs <Kou_No_Hana_Kanoe> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "稲玉洸"@ja ;
         # lily:resource <> ;
-        lily:performAs <Kanoto_No_Hana> ;
+        lily:performAs <Shin_No_Hana> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "鈴木里奈"@ja ;
         # lily:resource <> ;
-        lily:performAs <Mizunoe_No_Hana> ;
+        lily:performAs <Jin_No_Hana> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "藤岡沙也香"@ja ;

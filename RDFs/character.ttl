@@ -648,7 +648,7 @@
         # lily:usedIn ""^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
-    lily:garden "百合ヶ丘女学院"^^xsd:string ;
+    lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
     # lily:grade "0"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
@@ -679,7 +679,7 @@
     a lily:Character ;
 .
 
-<Kinoe_No_Hana>
+<Kou_No_Hana>
     rdfs:label "甲の花"^^xsd:string ;
     # schema:familyName ""@ja, ""@en ;
     # lily:familyNameKana ""@ja ;
@@ -687,9 +687,9 @@
     # lily:additionalNameKana ""@ja ;
     # schema:givenName ""@ja, ""@en ;
     # lily:givenNameKana ""@ja ;
-    schema:name "甲の花"@ja, "Kinoe no Hana"@en ;
-    lily:nameKana "きのえのはな"@ja ;
-    # lily:anotherName ""@ja ;
+    schema:name "甲の花"@ja, "Kou no Hana"@en ;
+    lily:nameKana "こうのはな"@ja ;
+    lily:anotherName "『最果ての花々』"@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -706,8 +706,8 @@
     # lily:skillerVal ""^^xsd:integer ;
     # lily:rareSkill ""^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted false ;
-    # lily:boostedSkill ""^^xsd:string ;
+    lily:isBoosted true ;
+    lily:boostedSkill "リジェネレーター"^^xsd:string ;
     lily:charm [
         lily:resource <Tekeli_Li> ;
         lily:usedIn "舞台「アサルトリリィ新章」"^^xsd:string ;
@@ -730,10 +730,10 @@
         # lily:resource <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Yamaguchi_Chihiro> ;
+        lily:additionalInformation "『最果ての花々』になる前の姿"@ja ;
+    ] ;
     lily:cast [
         schema:name "日永麗"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q112133037> ;
@@ -742,7 +742,7 @@
     a lily:Character ;
 .
 
-<Kinoto_No_Hana>
+<Otsu_No_Hana>
     rdfs:label "乙の花"^^xsd:string ;
     # schema:familyName ""@ja, ""@en ;
     # lily:familyNameKana ""@ja ;
@@ -750,9 +750,9 @@
     # lily:additionalNameKana ""@ja ;
     # schema:givenName ""@ja, ""@en ;
     # lily:givenNameKana ""@ja ;
-    schema:name "乙の花"@ja, "Kinoto no Hana"@en ;
-    lily:nameKana "きのとのはな"@ja ;
-    # lily:anotherName ""@ja ;
+    schema:name "乙の花"@ja, "Otsu no Hana"@en ;
+    lily:nameKana "おつのはな"@ja ;
+    lily:anotherName "『最果ての花々』"@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -807,7 +807,7 @@
     a lily:Character ;
 .
 
-<Hinoe_No_Hana>
+<Hei_No_Hana>
     rdfs:label "丙の花"^^xsd:string ;
     # schema:familyName ""@ja, ""@en ;
     # lily:familyNameKana ""@ja ;
@@ -815,9 +815,9 @@
     # lily:additionalNameKana ""@ja ;
     # schema:givenName ""@ja, ""@en ;
     # lily:givenNameKana ""@ja ;
-    schema:name "丙の花"@ja, "Hinoe no Hana"@en ;
-    lily:nameKana "ひのえのはな"@ja ;
-    # lily:anotherName ""@ja ;
+    schema:name "丙の花"@ja, "Hei no Hana"@en ;
+    lily:nameKana "へいのはな"@ja ;
+    lily:anotherName "『最果ての花々』"@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -870,7 +870,7 @@
     a lily:Character ;
 .
 
-<Hinoto_No_Hana>
+<Tei_No_Hana>
     rdfs:label "丁の花"^^xsd:string ;
     # schema:familyName ""@ja, ""@en ;
     # lily:familyNameKana ""@ja ;
@@ -878,9 +878,9 @@
     # lily:additionalNameKana ""@ja ;
     # schema:givenName ""@ja, ""@en ;
     # lily:givenNameKana ""@ja ;
-    schema:name "丁の花"@ja, "Hinoto no Hana"@en ;
-    lily:nameKana "ひのとのはな"@ja ;
-    # lily:anotherName ""@ja ;
+    schema:name "丁の花"@ja, "Tei no Hana"@en ;
+    lily:nameKana "ていのはな"@ja ;
+    lily:anotherName "『最果ての花々』"@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -933,7 +933,7 @@
     a lily:Character ;
 .
 
-<Tsuchinoe_No_Hana>
+<Bo_No_Hana>
     rdfs:label "戊の花"^^xsd:string ;
     # schema:familyName ""@ja, ""@en ;
     # lily:familyNameKana ""@ja ;
@@ -941,9 +941,9 @@
     # lily:additionalNameKana ""@ja ;
     # schema:givenName ""@ja, ""@en ;
     # lily:givenNameKana ""@ja ;
-    schema:name "戊の花"@ja, "Tsuchinoe No Hana"@en ;
-    lily:nameKana "つちのえのはな"@ja ;
-    # lily:anotherName ""@ja ;
+    schema:name "戊の花"@ja, "Bo No Hana"@en ;
+    lily:nameKana "ぼのはな"@ja ;
+    lily:anotherName "『最果ての花々』"@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -996,7 +996,7 @@
     a lily:Character ;
 .
 
-<Tsuchinoto_no_Hana>
+<Ki_no_Hana>
     rdfs:label "己の花"^^xsd:string ;
     # schema:familyName ""@ja, ""@en ;
     # lily:familyNameKana ""@ja ;
@@ -1004,9 +1004,9 @@
     # lily:additionalNameKana ""@ja ;
     # schema:givenName ""@ja, ""@en ;
     # lily:givenNameKana ""@ja ;
-    schema:name "己の花"@ja, "Tsuchinoto no Hana"@en ;
-    lily:nameKana "つちのとのはな"@ja ;
-    # lily:anotherName ""@ja ;
+    schema:name "己の花"@ja, "Ki no Hana"@en ;
+    lily:nameKana "きのはな"@ja ;
+    lily:anotherName "『最果ての花々』"@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -1059,7 +1059,7 @@
     a lily:Character ;
 .
 
-<Kanoe_No_Hana>
+<Kou_No_Hana_Kanoe>
     rdfs:label "庚の花"^^xsd:string ;
     # schema:familyName ""@ja, ""@en ;
     # lily:familyNameKana ""@ja ;
@@ -1067,9 +1067,9 @@
     # lily:additionalNameKana ""@ja ;
     # schema:givenName ""@ja, ""@en ;
     # lily:givenNameKana ""@ja ;
-    schema:name "庚の花"@ja, "Kanoe no Hana"@en ;
-    lily:nameKana "かのえのはな"@ja ;
-    # lily:anotherName ""@ja ;
+    schema:name "庚の花"@ja, "Kou no Hana"@en ;
+    lily:nameKana "こうのはな"@ja ;
+    lily:anotherName "『最果ての花々』"@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -1122,7 +1122,7 @@
     a lily:Character ;
 .
 
-<Kanoto_No_Hana>
+<Shin_No_Hana>
     rdfs:label "辛の花"^^xsd:string ;
     # schema:familyName ""@ja, ""@en ;
     # lily:familyNameKana ""@ja ;
@@ -1130,9 +1130,9 @@
     # lily:additionalNameKana ""@ja ;
     # schema:givenName ""@ja, ""@en ;
     # lily:givenNameKana ""@ja ;
-    schema:name "辛の花"@ja, "Kanoto no Hana"@en ;
-    lily:nameKana "かのとのはな"@ja ;
-    # lily:anotherName ""@ja ;
+    schema:name "辛の花"@ja, "Shin no Hana"@en ;
+    lily:nameKana "しんのはな"@ja ;
+    lily:anotherName "『最果ての花々』"@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -1185,7 +1185,7 @@
     a lily:Character ;
 .
 
-<Mizunoe_No_Hana>
+<Jin_No_Hana>
     rdfs:label "壬の花"^^xsd:string ;
     # schema:familyName ""@ja, ""@en ;
     # lily:familyNameKana ""@ja ;
@@ -1193,9 +1193,9 @@
     # lily:additionalNameKana ""@ja ;
     # schema:givenName ""@ja, ""@en ;
     # lily:givenNameKana ""@ja ;
-    schema:name "壬の花"@ja, "Mizunoe no Hana"@en ;
-    lily:nameKana "みずのえのはな"@ja ;
-    # lily:anotherName ""@ja ;
+    schema:name "壬の花"@ja, "Jin no Hana"@en ;
+    lily:nameKana "じんのはな"@ja ;
+    lily:anotherName "『最果ての花々』"@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;

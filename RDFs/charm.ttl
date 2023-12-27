@@ -168,7 +168,8 @@
         <L>,
         <Lee_Christina_Susu>,
         <Takatori_Natalie_Towa>,
-        <Toride_Suzanne_Reika> ;
+        <Toride_Suzanne_Reika>,
+        <Yamaguchi_Chihiro> ;
     lily:hasVariant <Dainsleif_Carbin> ;
     lily:hasVariant <Dainsleif_Marksman> ;
     a lily:Charm ;
@@ -1681,7 +1682,7 @@
     schema:name "テケリ・リ"@ja, "Tekeli-li"@en ;
     # lily:generation ""^^xsd:integer ;
     # schema:manufacturer <> ;
-    lily:user <Kinoe_No_Hana> ;
+    lily:user <Kou_No_Hana> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .

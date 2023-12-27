@@ -154,7 +154,8 @@
         <Murakami_Tokiwa> ;
     lily:submember
         <Tetsukawa_Toa>,
-        <Imai_Seira> ;
+        <Imai_Seira>,
+        <Yamaguchi_Chihiro> ;
     a lily:Legion ;
 .
 
