@@ -1637,7 +1637,7 @@
     lily:seriesName "獅子王"@ja, "Lion King"@en ;
     schema:name "獅子王"@ja, "Lion King"@en ;
     # lily:generation ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Amatsu_Heavy_Industry> ;
     lily:user <Kurokawa_Nady_Hanna> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
@@ -1648,7 +1648,7 @@
     lily:seriesName "クルージーン"@ja, "Cruadín"@en ;
     schema:name "クルージーン"@ja, "Cruadín"@en ;
     # lily:generation ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Celticdale> ;
     lily:user <Seike_Tomoyo> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
@@ -1694,6 +1694,8 @@
     # lily:generation ""^^xsd:integer ;
     # schema:manufacturer <> ;
     lily:user <Amamiya_Sofia_Seren> ;
-    # lily:additionalInformation ""@ja ;
+    lily:additionalInformation
+        "ルドビコ女学院工廠科開発"@ja,
+        "実験機"@ja ;
     a lily:Charm ;
 .
