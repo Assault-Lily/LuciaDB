@@ -3102,6 +3102,9 @@
         lily:resource <Rosalinde_Friedegunde_von_Otto> ;
         lily:additionalInformation "友人"@ja ;
     ], [
+        lily:resource <Murakami_Tokiwa> ;
+        lily:additionalInformation "仲が良い"@ja ;
+    ], [
         lily:resource <Yatsuka_Gyokuyo> ;
         lily:additionalInformation "ライバル"@ja ;
     ] ;
@@ -4175,6 +4178,10 @@
         lily:additionalInformation
             "友人"@ja,
             "幕張奪還戦で共闘した"@ja ;
+    ], [
+        lily:resource <Tamura_Nagi> ;
+        lily:additionalInformation
+            "仲が良い"@ja ;
     ] ;
     lily:cast [
         schema:name "白石まゆみ"@ja ;
