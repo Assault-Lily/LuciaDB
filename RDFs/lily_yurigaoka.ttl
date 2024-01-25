@@ -4142,7 +4142,8 @@
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
-        "スコーン"@ja ;
+        "スコーン"@ja,
+        "紅茶"@ja ;
     # lily:notGood ""@ja ;
     lily:hobby_talent
         "芸術鑑賞"@ja,
