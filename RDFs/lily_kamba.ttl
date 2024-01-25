@@ -237,6 +237,9 @@
     lily:relationship [
         lily:resource <Abiko_Hiromi> ;
         lily:additionalInformation "音楽科（声楽）の先輩"@ja ;
+    ], [
+        lily:resource <Akira_Blanton> ;
+        lily:additionalInformation "御台場時代の師"@ja ;
     ] ;
     lily:cast [
         schema:name "東城咲耶子"@ja ;

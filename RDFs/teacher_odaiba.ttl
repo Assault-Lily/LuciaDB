@@ -79,6 +79,9 @@
         lily:resource <Shiba_Tomoshibi> ;
         lily:additionalInformation "御台場女学校への所属に関与"@ja ;
     ], [
+        lily:resource <Toki_Kureha> ;
+        lily:additionalInformation "教え子"@ja ;
+    ], [
         lily:resource <Yoshizaka_Nagisa> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
