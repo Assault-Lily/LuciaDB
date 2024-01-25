@@ -670,7 +670,7 @@
     lily:rareSkill "ファンタズム"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted true ;
-    # lily:boostedSkill ""^^xsd:string ;
+    lily:boostedSkill "リジェネレーター"^^xsd:string ;
     lily:charm [
         lily:resource <Brionac> ;
         lily:usedIn "ラスバレ"^^xsd:string ;
