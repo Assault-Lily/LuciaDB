@@ -1586,7 +1586,8 @@
     lily:hobby_talent
         "石鹸づくり"@ja,
         "ダンス"@ja,
-        "水泳"@ja ;
+        "水泳"@ja,
+        "料理"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ヘリオスフィア"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
