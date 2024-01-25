@@ -1713,3 +1713,14 @@
         "実験機"@ja ;
     a lily:Charm ;
 .
+
+<Aymur>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "アイムール"@ja, "Aymur"@en ;
+    schema:name "アイムール"@ja, "Aymur"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Nagasaka_Maho> ;
+    lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
