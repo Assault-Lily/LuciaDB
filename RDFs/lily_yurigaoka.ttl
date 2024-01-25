@@ -4246,7 +4246,7 @@
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Nagasaka_Maho> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -4387,7 +4387,7 @@
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Tetsukawa_Toa> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
