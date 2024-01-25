@@ -3554,6 +3554,9 @@
     #    lily:additionalInformation ""@ja ;
     # ] ;
     lily:relationship [
+        lily:resource <Hasebe_Touka> ;
+        lily:additionalInformation "親友"@ja ;
+    ], [
         lily:resource <Kiko_Totori> ;
         lily:additionalInformation
             "友人"@ja,
@@ -3568,9 +3571,6 @@
         lily:additionalInformation "友人"@ja ;
     ], [
         lily:resource <Kurokawa_Nady_Hanna> ;
-        lily:additionalInformation "友人"@ja ;
-    ], [
-        lily:resource <Hasebe_Touka> ;
         lily:additionalInformation "友人"@ja ;
     ], [
         lily:resource <Amano_Soraha> ;
@@ -4085,6 +4085,9 @@
     #    lily:additionalInformation ""@ja ;
     # ] ;
     lily:relationship [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation "親友"@ja ;
+    ], [
         lily:resource <Mashima_Moyu> ;
         lily:additionalInformation "親友"@ja ;
     ], [
@@ -4092,9 +4095,6 @@
         lily:additionalInformation "以前のルームメイト"@ja ;
     ], [
         lily:resource <Goto_Sakura> ;
-        lily:additionalInformation "友人"@ja ;
-    ], [
-        lily:resource <Kondo_Misaka> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
