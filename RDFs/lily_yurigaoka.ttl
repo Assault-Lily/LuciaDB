@@ -7063,7 +7063,9 @@
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    # schema:birthPlace ""@ja, ""@en ;
+    schema:birthPlace
+        "ポーランド"@ja,
+        "Poland"@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
