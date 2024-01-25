@@ -4096,6 +4096,9 @@
     ], [
         lily:resource <Goto_Sakura> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Hishida_Haru> ;
+        lily:additionalInformation "貞花との関係を気にしている"@ja ;
     ] ;
     lily:cast [
         schema:name "牧浦乙葵"@ja ;

@@ -1759,6 +1759,9 @@
     ], [
         lily:resource <Ito_Urara> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Hasebe_Touka> ;
+        lily:additionalInformation "貞花との関係を気にされている"@ja ;
     ] ;
     lily:cast [
         schema:name "林田真尋"@ja ;
