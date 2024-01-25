@@ -3592,6 +3592,9 @@
     ], [
         lily:resource <Luise_Ingels> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Yatsuka_Gyokuyo> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "大森莉緒"@ja ;
@@ -4189,8 +4192,10 @@
             "幕張奪還戦で共闘した"@ja ;
     ], [
         lily:resource <Tamura_Nagi> ;
-        lily:additionalInformation
-            "仲が良い"@ja ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Yatsuka_Gyokuyo> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "白石まゆみ"@ja ;
@@ -8660,6 +8665,12 @@
     #    lily:additionalInformation ""@ja ;
     # ] ;
     lily:relationship [
+        lily:resource <Murakami_Tokiwa> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
         lily:resource <Tamura_Nagi> ;
         lily:additionalInformation "ライバル"@ja ;
     ] ;
