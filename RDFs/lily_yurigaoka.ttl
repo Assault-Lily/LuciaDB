@@ -6952,7 +6952,9 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Brynhildr_Line> ;
     lily:legionJobTitle "副隊長"^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position
+        "AZ"^^xsd:string,
+        "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
