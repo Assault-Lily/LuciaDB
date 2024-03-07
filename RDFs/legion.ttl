@@ -320,6 +320,25 @@
     a lily:Legion ;
 .
 
+<Vidofnir>
+    schema:name "ヴィゾーヴニル"@ja, "Víðófnir"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Shinohara_Nayuki>,
+        <Oogi_Rikka>,
+        <Taki_Tsukishiro>,
+        <Chatani_Mashiro>,
+        <Takamatsu_Remon>,
+        <Asada_Sumi>,
+        <Sakakura_Rizumu>,
+        <Suzuki_Tokiha>,
+        <Kojima_Kokoru> ;
+    a lily:Legion ;
+.
+
 ### エレンスゲ女学園
 
 <Hervarar>

@@ -103,6 +103,16 @@ RDFs/legion.ttl:
         - "Geiravör"@en)'
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO
+    line: '324'
+    column: '31'
+    subject: https://luciadb.assaultlily.com/rdf/RDFs/detail/Vidofnir
+    predicate: http://schema.org/name
+    object: '"Víðófnir"@en'
+    message: 'Data LanguageType not matched: lang is en, but Víðófnir (line: 324,
+        col: 31, triple: https://luciadb.assaultlily.com/rdf/RDFs/detail/Vidofnir
+        - http://schema.org/name - "Víðófnir"@en)'
+  - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
+    level: INFO
     line: '642'
     column: '32'
     subject: https://luciadb.assaultlily.com/rdf/RDFs/detail/Himinglaeva
