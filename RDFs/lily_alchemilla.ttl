@@ -25,7 +25,7 @@
     lily:bloodType "A"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    # schema:birthPlace ""@ja, ""@en ;
+    schema:birthPlace "東京都"@ja, "Tokyo"@en ;
     lily:favorite "うなぎ"@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
