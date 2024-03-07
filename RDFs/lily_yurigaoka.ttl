@@ -4015,6 +4015,9 @@
     ], [
         lily:resource <Mashima_Moyu> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Laura_Ingels> ;
+        lily:additionalInformation "オリジナル"@ja ;
     ] ;
     lily:cast [
         schema:name "其原有沙"@ja ;
