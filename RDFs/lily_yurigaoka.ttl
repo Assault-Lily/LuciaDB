@@ -4398,7 +4398,9 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Sanngridr> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position
+        "TZ"^^xsd:string,
+        "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
