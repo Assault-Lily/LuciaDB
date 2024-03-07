@@ -1449,6 +1449,9 @@
     lily:relationship [
         lily:resource <Tetsukawa_Toa> ;
         lily:additionalInformation "仲が良い"@ja ;
+    ], [
+        lily:resource <Nagasaka_Maho> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "関根明良"@ja ;
@@ -2448,6 +2451,9 @@
         lily:additionalInformation
             "友人"@ja,
             "似通ったスペックを持つためよく比較される"@ja ;
+    ], [
+        lily:resource <Nagasaka_Maho> ;
+        lily:additionalInformation "友人"@ja ;
     ], [
         lily:resource <Kitagawara_Inori> ;
         lily:additionalInformation "特別寮時代に親しくなった友人"@ja ;
@@ -4406,10 +4412,22 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Rokkaku_Shiori> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Endo_Araya> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Naito_Hanano> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Fujimura_Ryuka> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Sejima_Hiromu> ;
+        lily:additionalInformation "友人"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
@@ -4624,6 +4642,9 @@
         lily:additionalInformation "友人"@ja ;
     ], [
         lily:resource <Kuramata_Yukiyo> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Nagasaka_Maho> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
@@ -6327,10 +6348,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Nagasaka_Maho> ;
+        lily:additionalInformation "友人"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
@@ -6393,10 +6414,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Nagasaka_Maho> ;
+        lily:additionalInformation "友人"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
