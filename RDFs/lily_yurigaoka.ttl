@@ -5127,6 +5127,9 @@
         lily:resource <Goto_Sakura> ;
         lily:additionalInformation "友人"@ja ;
     ], [
+        lily:resource <Kuma_Ayane> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
         lily:resource <Hata_Matsuri> ;
         lily:additionalInformation "絶縁した元友人"@ja ;
     ], [
@@ -5689,6 +5692,9 @@
         lily:additionalInformation "生涯の友となる"@ja ;
     ], [
         lily:resource <Onogi_Sato> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Kuma_Ayane> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
@@ -8626,10 +8632,13 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Ito_Shizu> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Takegoshi_Chihana> ;
+        lily:additionalInformation "友人"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
