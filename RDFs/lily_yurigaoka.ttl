@@ -2316,7 +2316,7 @@
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Izumi_Botan> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -2681,7 +2681,7 @@
     # lily:pastSchutzengel <> ;
     lily:schild <Kudo_Sakua> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Mozuna_Noa> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
