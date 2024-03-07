@@ -2982,7 +2982,7 @@
     lily:cast [
         schema:name "木下美優"@ja ;
         # lily:resource <> ;
-        # lily:performIn <Mirai_Eno_Jujika> ;
+        lily:performIn <Mirai_Eno_Jujika> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

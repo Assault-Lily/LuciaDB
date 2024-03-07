@@ -489,6 +489,181 @@
     a lily:Play ;
 .
 
+<Mirai_Eno_Jujika>
+    lily:genre "舞台"@ja ;
+    schema:name "アサルトリリィ×私立ルドビコ女学院×人狼TLPT 人狼TLPT S 『未来への十字架』"@ja ;
+    schema:alternateName "未来への十字架"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:location "新宿村LIVE"^^xsd:string ;
+    schema:startDate "2018-02-07"^^xsd:date ;
+    schema:endDate "2018-02-12"^^xsd:date ;
+    # schema:duration ""^^xsd:duration ;
+    lily:showTime
+        "2018-02-07T19:00:00+09:00"^^xsd:dateTime,
+        "2018-02-08T13:00:00+09:00"^^xsd:dateTime,
+        "2018-02-08T19:00:00+09:00"^^xsd:dateTime,
+        "2018-02-09T13:00:00+09:00"^^xsd:dateTime,
+        "2018-02-09T19:00:00+09:00"^^xsd:dateTime,
+        "2018-02-10T13:00:00+09:00"^^xsd:dateTime,
+        "2018-02-10T18:00:00+09:00"^^xsd:dateTime,
+        "2018-02-11T13:00:00+09:00"^^xsd:dateTime,
+        "2018-02-11T18:00:00+09:00"^^xsd:dateTime,
+        "2018-02-12T12:00:00+09:00"^^xsd:dateTime,
+        "2018-02-12T16:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
+    # lily:additionalInformation ""@ja ;
+    schema:abstract "アサルトリリィ×私立ルドビコ女学院が人狼TLPTとコラボレーション！！\nテンプルレギオン選抜優先権獲得を懸けて人狼ゲームで戦うリリィ達\nこれより始まるは今をおいて他にないたった一度の物語\n観客参加型新感覚ライブエンターテインメント！！"@ja ;
+    # lily:previousWork <>;
+    # lily:nextWork <Mirai_Eno_Jujika_2>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
+    lily:originalAuthor "尾花沢軒栄"@ja ;
+    # lily:supervisor ""@ja ;
+    # lily:executiveProducer ""@ja ;
+    lily:producer "林修司"@ja ;
+    lily:scenarioWriter "桜木さやか"@ja ;
+    lily:episodeDirection
+        "永石匠"@ja,
+        "桜木さやか"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:planning
+        "桜庭未那"@ja,
+        "属結司"@ja ;
+    # lily:production ""@ja ;
+    # lily:contributor ""@ja ;
+    lily:cooperation "児玉健"@ja ;
+    lily:organizer ""@ja ;
+    ### キャスト一覧はTBW
+    # lily:cast [
+    #     schema:name "前田美里"@ja ;
+    #     lily:resource <https://www.wikidata.org/wiki/Q63131313> ;
+    #     lily:performAs <Kishimoto_Lucia_Raimu> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "星守紗凪"@ja ;
+    #     lily:resource <https://www.wikidata.org/wiki/Q69635313> ;
+    #     lily:performAs <Amamiya_Sofia_Seren> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "石井陽菜"@ja ;
+    #     lily:resource
+    #         <https://www.wikidata.org/wiki/Q18817351>,
+    #         <http://ja.dbpedia.org/resource/石井陽菜> ;
+    #     lily:performAs <Fukuyama_Jeanne_Sachie> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "黒原優梨"@ja ;
+    #     # lily:resource <> ;
+    #     lily:performAs <Kishimoto_Maria_Mirai> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "栞菜"@ja ;
+    #     lily:resource
+    #         <https://www.wikidata.org/wiki/Q1193372>,
+    #         <http://ja.dbpedia.org/resource/栞菜> ;
+    #     lily:performAs <Ichinomiya_Michaela_Himari> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "緒方有里沙"@ja ;
+    #     # lily:resource <> ;
+    #     lily:performAs <Matsunaga_Brigitta_Kayo> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "白河優菜"@ja ;
+    #     lily:resource
+    #         <https://www.wikidata.org/wiki/Q11579954>,
+    #         <http://ja.dbpedia.org/resource/白河優菜> ;
+    #     lily:performAs <Tachibana_Theresia_Nagisa> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "広沢麻衣"@ja ;
+    #     lily:resource <https://www.wikidata.org/wiki/Q34856960> ;
+    #     lily:performAs <Hojo_Monica_Asahi> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "安藤遥"@ja ;
+    #     lily:resource
+    #         <https://www.wikidata.org/wiki/Q11451430>,
+    #         <http://ja.dbpedia.org/resource/安藤遥> ;
+    #     lily:performAs <Kuroki_Francisca_Yuria> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "藤堂光結"@ja ;
+    #     lily:resource <https://www.wikidata.org/wiki/Q105711377> ;
+    #     lily:performAs <Sano_Matilda_Kokoro> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "さいとう雅子"@ja ;
+    #     lily:resource <https://www.wikidata.org/wiki/Q11500389> ;
+    #     lily:performAs <Narumi_Clara_Yuko> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "小菅怜衣"@ja ;
+    #     # lily:resource <> ;
+    #     lily:performAs <Saeki_Julia_Karen> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "長橋有沙"@ja ;
+    #     lily:resource <https://www.wikidata.org/wiki/Q29526415> ;
+    #     lily:performAs <Hasegawa_Gabriela_Tsugumi> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "夏目愛海"@ja ;
+    #     lily:resource <https://www.wikidata.org/wiki/Q47582342> ;
+    #     lily:performAs <Haneda_Catalina_Mei> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "小野瀬みらい"@ja ;
+    #     lily:resource
+    #         <https://www.wikidata.org/wiki/Q16769880>,
+    #         <http://ja.dbpedia.org/resource/小野瀬みらい> ;
+    #     lily:performAs <Seto_Veronica_Ichika> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "朝比奈南"@ja ;
+    #     # lily:resource <> ;
+    #     lily:performAs <Nagase_Marta_Nonoka> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "伊藤みのり"@ja ;
+    #     # lily:resource <> ;
+    #     lily:performAs <Igarashi_Bernadetta_Sumire> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "藤井彩加"@ja ;
+    #     lily:resource <https://www.wikidata.org/wiki/Q28068428> ;
+    #     lily:performAs <Kagami_Agnes_Mio> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "荒井杏子"@ja ;
+    #     # lily:resource <> ;
+    #     lily:performAs <Yamabuki_Elizabeth_Keito> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "石川純"@ja ;
+    #     # lily:resource <> ;
+    #     lily:performAs <Horie_Agata_Yukino> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "今吉めぐみ"@ja ;
+    #     lily:resource <https://www.wikidata.org/wiki/Q3304445> ;
+    #     lily:performAs <Izumi_Rosa_Rina> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "木村若菜"@ja ;
+    #     # lily:resource <> ;
+    #     lily:performAs <Kosaka_Anastasiya_Ryoko> ;
+    #     # lily:additionalInformation ""@ja ;
+    # ], [
+    #     schema:name "桜木さやか"@ja ;
+    #     # lily:resource <> ;
+    #     lily:performAs <Akutsu_Magdalena_Maaya> ;
+    #     lily:additionalInformation "「あくつ “ルシファ” 魔妖」として幕間の特別訓練に登場"@ja ;
+    # ] ;
+    a lily:Play ;
+.
+
 <Yakusoku_No_Yukue>
     lily:genre "舞台"@ja ;
     schema:name "アサルトリリィ×私立ルドビコ女学院vol.4 『白きレジスタンス～約束の行方～』"@ja ;
