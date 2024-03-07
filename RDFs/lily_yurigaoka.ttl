@@ -4391,7 +4391,9 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "ジンジャーエール"@ja ;
+    lily:favorite
+        "ジンジャーエール"@ja,
+        "辛いもの"@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
