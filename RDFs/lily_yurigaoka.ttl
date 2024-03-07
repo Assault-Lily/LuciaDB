@@ -2006,6 +2006,9 @@
     ], [
         lily:resource <Fukuya_Maasa> ;
         lily:additionalInformation "ライバル"@ja ;
+    ], [
+        lily:resource <Imai_Seira> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "広瀬ゆうき"@ja ;
@@ -4360,6 +4363,12 @@
     lily:relationship [
         lily:resource <Ushida_Watsuki> ;
         lily:additionalInformation "仲が良い"@ja ;
+    ], [
+        lily:resource <Shinohara_Nayuki> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Kanabako_Misora> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "安藤千伽奈"@ja ;
@@ -9144,10 +9153,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Imai_Seira> ;
+        lily:additionalInformation "友人"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
