@@ -4260,10 +4260,10 @@
     # lily:pastSchild <> ;
     lily:roomMate <Nagasaka_Maho> ;
     # schema:parent <> ;
-    # schema:sibling [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    schema:sibling [
+        lily:resource <Tetsukawa_Kiyo> ;
+        lily:additionalInformation "姉"@ja ;
+    ] ;
     lily:relationship [
         lily:resource <Endo_Araya> ;
         lily:additionalInformation "仲が良い"@ja ;
