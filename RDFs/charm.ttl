@@ -1721,6 +1721,17 @@
     # lily:generation ""^^xsd:integer ;
     # schema:manufacturer <> ;
     lily:user <Nagasaka_Maho> ;
-    lily:additionalInformation ""@ja ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Chastiefol>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "シャスティフォル"@ja, "Chastiefol"@en ;
+    schema:name "シャスティフォル"@ja, "Chastiefol"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <> ;
+    lily:user <Tetsukawa_Toa> ;
+    # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
