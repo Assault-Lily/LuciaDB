@@ -599,7 +599,7 @@
     lily:givenNameKana "すてら"@ja ;
     schema:name "ステラ・エル・サッソン"@ja ; #, ""@en ;
     lily:nameKana "すてら・える・さっそん"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "ファラオ"@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -630,7 +630,9 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Michael> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position
+        "TZ"^^xsd:string,
+        "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
