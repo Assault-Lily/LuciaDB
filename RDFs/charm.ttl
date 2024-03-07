@@ -1181,7 +1181,7 @@
     schema:name "メギンギョルズ"@ja, "Megingjörð"@en ;
     # lily:generation ""^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Yggdrasill> ;
     lily:user <Maki_Wakana> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
