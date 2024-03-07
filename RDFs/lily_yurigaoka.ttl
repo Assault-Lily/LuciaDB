@@ -3772,6 +3772,9 @@
     ], [
         lily:resource <Okada_Kisara> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Nagasaka_Maho> ;
+        lily:additionalInformation "誉の練習会に参加"@ja ;
     ] ;
     lily:cast [
         schema:name "林田真尋"@ja ;
@@ -3845,6 +3848,9 @@
     ], [
         lily:resource <Kaita_Hinoki> ;
         lily:additionalInformation "旧知の友人"@ja ;
+    ], [
+        lily:resource <Nagasaka_Maho> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "大滝紗緒里"@ja ;
@@ -4431,6 +4437,12 @@
         lily:additionalInformation "友人"@ja ;
     ], [
         lily:resource <Sejima_Hiromu> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Imagawa_Homare> ;
+        lily:additionalInformation "誉の練習会に参加"@ja ;
+    ], [
+        lily:resource <Seike_Tomoyo> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
