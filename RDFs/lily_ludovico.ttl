@@ -2919,3 +2919,71 @@
     ] ;
     a lily:Lily ;
 .
+
+<Fujimoto_Balbina_Otome>
+    rdfs:label "藤元・バルビナ・乙女"^^xsd:string ;
+    schema:familyName "藤元"@ja, "Fujimoto"@en ;
+    lily:familyNameKana "ふじもと"@ja ;
+    schema:additionalName "バルビナ"@ja, "Balbina"@en ;
+    lily:additionalNameKana "ばるびな"@ja ;
+    schema:givenName "乙女"@ja, "Otome"@en ;
+    lily:givenNameKana "おとめ"@ja ;
+    schema:name "藤元・バルビナ・乙女"@ja, "Fujimoto Balbina Otome"@en ;
+    lily:nameKana "ふじもと・ばるびな・おとめ"@ja ;
+    # lily:anotherName ""@ja ;
+    foaf:age "16"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "縮地"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Dainsleif_Carbin> ;
+        lily:usedIn "舞台 未来への十字架"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    lily:garden "私立ルドビコ女学院"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    lily:grade "11"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    lily:gardenJobTitle "風紀委員長"@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:olderSchwester <> ;
+    # lily:pastOlderSchwester <> ;
+    # lily:youngerSchwester <> ;
+    # lily:pastYoungerSchwester <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "木下美優"@ja ;
+        # lily:resource <> ;
+        # lily:performIn <Mirai_Eno_Jujika> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Lily ;
+.

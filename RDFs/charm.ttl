@@ -203,7 +203,8 @@
         <Izumi_Rosa_Rina>,
         <Rokkaku_Shiori>,
         <Amatsu_Marei>,
-        <Miyairi_Fubuki> ;
+        <Miyairi_Fubuki>,
+        <Fujimoto_Balbina_Otome> ;
     lily:isVariantOf <Dainsleif> ;
     a lily:Charm ;
 .

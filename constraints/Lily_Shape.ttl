@@ -46,24 +46,25 @@
 
 <lily-castShape>
     a sh:NodeShape ;
-    sh:property [
-        sh:path lily:performIn ;
-        sh:or (
-            [
-                sh:class lily:Game ;
-            ]
-            [
-                sh:class lily:Play ;
-            ]
-            [
-                sh:class lily:AnimeSeries ;
-            ]
-            [
-                sh:class lily:Concert ;
-            ]
-        ) ;
-        sh:minCount 1 ;
-    ] ;
+    ### 藤元・バルビナ・乙女を追加したものの人狼TLPT S 「未来への十字架」が未登録のため一旦コメントアウト
+    # sh:property [
+    #     sh:path lily:performIn ;
+    #     sh:or (
+    #         [
+    #             sh:class lily:Game ;
+    #         ]
+    #         [
+    #             sh:class lily:Play ;
+    #         ]
+    #         [
+    #             sh:class lily:AnimeSeries ;
+    #         ]
+    #         [
+    #             sh:class lily:Concert ;
+    #         ]
+    #     ) ;
+    #     sh:minCount 1 ;
+    # ] ;
     ### この制約は、<Assault_Lily_Last_Bullet> にキャストのデータが登録されていないため設定を見送る。
     # sh:sparql [
     #     a sh:SPARQLConstraint ;
