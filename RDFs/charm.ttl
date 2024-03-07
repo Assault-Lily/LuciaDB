@@ -433,7 +433,8 @@
         <Asanaga_Ichigo>,
         <Kagawa_Makina>,
         <Amano_Soraha>,
-        <Kuramata_Yukiyo> ;
+        <Kuramata_Yukiyo>,
+        <Yamanashi_Hibari> ;
     a lily:Charm ;
 .
 

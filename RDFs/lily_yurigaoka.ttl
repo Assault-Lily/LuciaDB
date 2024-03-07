@@ -3438,6 +3438,10 @@
         lily:resource <Ascalon> ;
         # lily:usedIn ""^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
+    ], [
+        lily:resource <Asterion> ;
+        # lily:usedIn ""^^xsd:string ;
+        lily:additionalInformation "量産先行機"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
