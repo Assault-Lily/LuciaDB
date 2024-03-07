@@ -2276,7 +2276,7 @@
     lily:givenNameKana "のあ"@ja ;
     schema:name "毛綱乃彩"@ja, "Mozuna Noa"@en ;
     lily:nameKana "もづなのあ"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "妖精（ピクシー）"@ja ;
     foaf:age "16"^^xsd:integer ;
     schema:height "163.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
