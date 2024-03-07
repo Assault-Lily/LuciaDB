@@ -1719,7 +1719,7 @@
     lily:seriesName "アイムール"@ja, "Aymur"@en ;
     schema:name "アイムール"@ja, "Aymur"@en ;
     # lily:generation ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Hihiirokane_International> ;
     lily:user <Nagasaka_Maho> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
@@ -1730,7 +1730,9 @@
     lily:seriesName "シャスティフォル"@ja, "Chastiefol"@en ;
     schema:name "シャスティフォル"@ja, "Chastiefol"@en ;
     # lily:generation ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer
+        <Grand_Guignol>,
+        <Camelot_Castle> ;
     lily:user <Tetsukawa_Toa> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
