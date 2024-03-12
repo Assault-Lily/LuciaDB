@@ -145,7 +145,8 @@
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
             <Lily_Collection_2023>,
-            <New_Chapter_Sanngridr_Oshima> ;
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "石井陽菜"@ja ;
@@ -388,7 +389,8 @@
             <http://ja.dbpedia.org/resource/中川梨花> ;
         lily:performIn
             <Lily_Project_Vol_1_Schwester_No_Inori>,
-            <New_Chapter_Sanngridr_Oshima> ;
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "佐倉初"@ja ;
@@ -507,7 +509,8 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
-            <New_Chapter_Sanngridr_Oshima> ;
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "鵜川もえか"@ja ;

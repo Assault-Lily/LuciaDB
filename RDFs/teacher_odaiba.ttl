@@ -128,12 +128,12 @@
         # lily:usedIn ""^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
-    lily:garden "御台場女学校"^^xsd:string ;
+    # lily:garden ""^^xsd:string ;
     # lily:rank ""^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
     # lily:grade ""^^xsd:integer ;
     # lily:class ""^^xsd:string ;
-    lily:gardenJobTitle "常駐学校医（軍医）"@ja ;
+    lily:gardenJobTitle "国防軍軍医"@ja ;
     # lily:legion <> ;
     # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
@@ -161,7 +161,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <New_Chapter_Sanngridr_Oshima> ;
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Teacher ;

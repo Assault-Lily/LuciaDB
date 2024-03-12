@@ -842,6 +842,13 @@
             <Assault_Lily_Illuma_The_Gleam_of_Dawn>,
             <New_Chapter_Sanngridr_Oshima> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "福岡聖菜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q28069217>,
+            <http://ja.dbpedia.org/resource/福岡聖菜> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima_2> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
 .
@@ -1055,7 +1062,8 @@
             <http://ja.dbpedia.org/resource/北澤早紀> ;
         lily:performIn
             <Assault_Lily_Illuma_The_Gleam_of_Dawn>,
-            <New_Chapter_Sanngridr_Oshima> ;
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

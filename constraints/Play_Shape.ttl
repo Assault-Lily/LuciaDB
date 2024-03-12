@@ -30,7 +30,8 @@
     sh:property [
         sh:path lily:performAs ;
         sh:class lily:Character ;
-        sh:minCount 1 ;
+        # sh:minCount 1 ;
+        ### ????役が判明するまで、performAsがない場合を許容する
     ] ;
     sh:sparql [
         a sh:SPARQLConstraint ;

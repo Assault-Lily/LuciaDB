@@ -674,7 +674,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q11516234>,
             <http://ja.dbpedia.org/resource/藤岡沙也香> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
     ] ;
     a lily:Character ;
 .
@@ -802,7 +804,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q109318876>,
             <http://ja.dbpedia.org/resource/橘里依> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
     ] ;
     a lily:Character ;
 .
@@ -865,7 +869,9 @@
     lily:cast [
         schema:name "槙原唯"@ja ;
         # lily:resource <> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
     ] ;
     a lily:Character ;
 .
@@ -928,7 +934,9 @@
     lily:cast [
         schema:name "矢澤梨央"@ja ;
         # lily:resource <> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
     ] ;
     a lily:Character ;
 .
@@ -991,7 +999,9 @@
     lily:cast [
         schema:name "真田うるは"@ja ;
         # lily:resource <> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
     ] ;
     a lily:Character ;
 .
@@ -1054,7 +1064,9 @@
     lily:cast [
         schema:name "宇田川ももか"@ja ;
         # lily:resource <> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
     ] ;
     a lily:Character ;
 .
@@ -1117,7 +1129,9 @@
     lily:cast [
         schema:name "星野咲笑"@ja ;
         # lily:resource <> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
     ] ;
     a lily:Character ;
 .
@@ -1180,7 +1194,9 @@
     lily:cast [
         schema:name "稲玉洸"@ja ;
         # lily:resource <> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
     ] ;
     a lily:Character ;
 .
@@ -1243,7 +1259,9 @@
     lily:cast [
         schema:name "鈴木里奈"@ja ;
         # lily:resource <> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
     ] ;
     a lily:Character ;
 .

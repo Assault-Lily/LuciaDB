@@ -339,6 +339,13 @@
             <Lost_Memories>,
             <New_Chapter_Sanngridr_Oshima> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "朝倉ふゆな"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11517262>,
+            <http://ja.dbpedia.org/resource/朝倉ふゆな> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima_2> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
 .
@@ -434,7 +441,8 @@
             <Assault_Lily_Last_Bullet>,
             <League_of_Gardens>,
             <The_Fateful_Gift>,
-            <Lost_Memories> ;
+            <Lost_Memories>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "遥りさ"@ja ;
@@ -1691,7 +1699,8 @@
             <http://ja.dbpedia.org/resource/津田美波> ;
         lily:performIn
             <Assault_Lily_Bouquet>,
-            <Assault_Lily_Last_Bullet> ;
+            <Assault_Lily_Last_Bullet>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3497,7 +3506,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q11379878>,
             <http://ja.dbpedia.org/resource/伊藤優衣> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3614,7 +3625,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q83680542>,
             <http://ja.dbpedia.org/resource/大森莉緒> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3694,7 +3707,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q27670130>,
             <http://ja.dbpedia.org/resource/浜浦彩乃> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3788,7 +3803,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q19162226>,
             <http://ja.dbpedia.org/resource/林田真尋> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3864,7 +3881,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q60989916>,
             <http://ja.dbpedia.org/resource/大滝紗緒里> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3947,7 +3966,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q116161488>,
             <http://ja.dbpedia.org/resource/畑美紗起> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4037,7 +4058,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q27150647>,
             <http://ja.dbpedia.org/resource/其原有沙> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4136,7 +4159,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q108777087>,
             <http://ja.dbpedia.org/resource/牧浦乙葵> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4224,6 +4249,13 @@
         schema:name "白石まゆみ"@ja ;
         # lily:resource <> ;
         lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "陽高真白"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q115529746>,
+            <http://ja.dbpedia.org/resource/陽高真白> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4373,7 +4405,9 @@
     lily:cast [
         schema:name "安藤千伽奈"@ja ;
         lily:resource <http://ja.dbpedia.org/resource/安藤千伽奈> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4536,7 +4570,9 @@
     lily:cast [
         schema:name "日永麗"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q112133037> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima>,
+            <New_Chapter_Sanngridr_Oshima_2> ;
     ] ;
     a lily:Lily ;
 .
@@ -9794,6 +9830,13 @@
         lily:performIn
             <Assault_Lily_Bouquet>,
             <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "斉藤瑞季"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q111113022>,
+            <http://ja.dbpedia.org/resource/斉藤瑞季> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
