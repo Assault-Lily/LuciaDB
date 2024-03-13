@@ -825,7 +825,7 @@
     ] ;
     lily:cast [
         schema:name "小菅怜衣"@ja ;
-        # lily:resource <> ;
+        lily:resource <https://www.wikidata.org/wiki/Q118522538> ;
         lily:performIn
             <Schwester_No_Inori>,
             <Schwester_No_Himitsu>,
@@ -950,7 +950,7 @@
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "七海とろろ"@ja ;
-        # lily:resource <> ;
+        lily:resource <https://www.wikidata.org/wiki/Q123405497> ;
         lily:performIn
             <Yakusoku_No_Yukue>,
             <Shinjitsu_No_Yaiba>,

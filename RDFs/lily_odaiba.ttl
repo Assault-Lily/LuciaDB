@@ -2646,7 +2646,7 @@
     ] ;
     lily:cast [
         schema:name "小菅怜衣"@ja ;
-        # lily:resource <> ;
+        lily:resource <https://www.wikidata.org/wiki/Q118522538> ;
         lily:performIn
             <Ludovico_Liveshow_2022>,
             <Lily_Collection_2023> ;

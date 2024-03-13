@@ -31,7 +31,7 @@
         sh:path lily:performAs ;
         sh:class lily:Character ;
         # sh:minCount 1 ;
-        ### ????役が判明するまで、performAsがない場合を許容する
+        ### ????役のような未公開の場合や、リリスクのようなキャスト本人として出演する場合など、performAsがないのを許容する
     ] ;
     sh:sparql [
         a sh:SPARQLConstraint ;
