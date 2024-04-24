@@ -4425,7 +4425,7 @@
     lily:givenNameKana "まほ"@ja ;
     schema:name "長坂稀星"@ja, "Nagasaka Maho"@en ;
     lily:nameKana "ながさかまほ"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "アザレア色の死神"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "160.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -4437,6 +4437,7 @@
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
+        "魚介類"@ja,
         "ジンジャーエール"@ja,
         "辛いもの"@ja ;
     # lily:notGood ""@ja ;
