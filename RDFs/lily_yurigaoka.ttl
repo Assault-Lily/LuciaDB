@@ -4271,7 +4271,7 @@
     lily:givenNameKana "とあ"@ja ;
     schema:name "鉄川兎愛"@ja, "Tetsukawa Toa"@en ;
     lily:nameKana "てつかわとあ"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "アルミラージ"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "159.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
