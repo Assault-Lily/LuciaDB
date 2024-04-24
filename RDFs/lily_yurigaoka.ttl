@@ -6771,6 +6771,9 @@
         lily:resource <Yamanashi_Hibari> ;
         lily:additionalInformation "仲が悪い"@ja ;
     ], [
+        lily:resource <Tsumaki_Natsumi> ;
+        lily:additionalInformation "仲が悪い"@ja ;
+    ], [
         lily:resource <Omodaka_Tae> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
@@ -10446,10 +10449,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Takeda_Mimi> ;
+        lily:additionalInformation "仲が悪い"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
