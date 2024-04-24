@@ -4284,7 +4284,9 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "いちご飴"@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "インテリア"@ja,
+        "水泳"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "フェイズトランセンデンス"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
