@@ -6282,7 +6282,7 @@
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Takeda_Mimi> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -6753,7 +6753,7 @@
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Kimura_Kazuki> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
