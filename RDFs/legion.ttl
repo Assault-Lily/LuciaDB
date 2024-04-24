@@ -699,8 +699,8 @@
 
 ### イルマ女子美術高校
 
-<Illumine_Shines>
-    schema:name "イルミンシャイネス"@ja, "Illumine Shines"@en ;
+<Irmin_Shyness>
+    schema:name "イルミンシャイネス"@ja, "Irmin Shyness"@en ;
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded false ;
     lily:legionGrade "S"^^xsd:string ;

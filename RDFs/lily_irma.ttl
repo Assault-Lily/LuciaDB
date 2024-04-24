@@ -50,7 +50,7 @@
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    lily:legion <Illumine_Shines> ;
+    lily:legion <Irmin_Shyness> ;
     lily:legionJobTitle
         "隊長"^^xsd:string,
         "司令塔"^^xsd:string ;
@@ -140,7 +140,7 @@
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    lily:legion <Illumine_Shines> ;
+    lily:legion <Irmin_Shyness> ;
     lily:legionJobTitle "ディフェンシブAZ"^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
@@ -225,7 +225,7 @@
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    lily:legion <Illumine_Shines> ;
+    lily:legion <Irmin_Shyness> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
@@ -324,7 +324,7 @@
     lily:grade "12"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    lily:legion <Illumine_Shines> ;
+    lily:legion <Irmin_Shyness> ;
     lily:legionJobTitle "リザーブ"^^xsd:string ;
     lily:position
         "TZ"^^xsd:string,
@@ -404,7 +404,7 @@
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    lily:legion <Illumine_Shines> ;
+    lily:legion <Irmin_Shyness> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
@@ -472,7 +472,7 @@
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "生徒会副会長"@ja ;
-    lily:legion <Illumine_Shines> ;
+    lily:legion <Irmin_Shyness> ;
     # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
@@ -540,7 +540,7 @@
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "風紀委員長"@ja ;
-    lily:legion <Illumine_Shines> ;
+    lily:legion <Irmin_Shyness> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
@@ -612,7 +612,7 @@
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "生徒会長"@ja ;
-    lily:legion <Illumine_Shines> ;
+    lily:legion <Irmin_Shyness> ;
     # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
@@ -674,7 +674,7 @@
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    lily:legion <Illumine_Shines> ;
+    lily:legion <Irmin_Shyness> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
@@ -740,7 +740,7 @@
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    lily:legion <Illumine_Shines> ;
+    lily:legion <Irmin_Shyness> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
