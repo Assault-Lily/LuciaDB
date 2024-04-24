@@ -4536,7 +4536,7 @@
             <https://www.wikidata.org/wiki/Q9007946>,
             <http://ja.dbpedia.org/resource/宮崎理奈> ;
         # lily:performAs <> ;
-        lily:additionalInformation "????役"@ja ;
+        lily:additionalInformation "ルサルカ役"@ja ;
     ], [
         schema:name "津田美波"@ja ;
         lily:resource
