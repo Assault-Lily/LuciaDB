@@ -761,8 +761,8 @@
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
-    lily:lifeStatus "alive"^^xsd:string ;
-    # lily:killedIn ""@ja ;
+    lily:lifeStatus "dead"^^xsd:string ;
+    lily:killedIn "『成れの果て』の状態から自我を取り戻したのち、ルサルカとの戦いで戦死"^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
@@ -773,7 +773,7 @@
     # lily:skillerVal ""^^xsd:integer ;
     # lily:rareSkill ""^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted false ;
+    lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
     # lily:charm [
         # lily:resource <> ;
@@ -797,10 +797,10 @@
         # lily:resource <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Tsukamoto_Hekiru> ;
+        lily:additionalInformation "『最果ての花々』になる前の姿"@ja ;
+    ] ;
     lily:cast [
         schema:name "橘里依"@ja ;
         lily:resource

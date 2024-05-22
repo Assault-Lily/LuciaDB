@@ -4401,7 +4401,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q109318876>,
             <http://ja.dbpedia.org/resource/橘里依> ;
-        lily:performAs <Otsu_No_Hana> ;
+        lily:performAs
+            <Otsu_No_Hana>,
+            <Tsukamoto_Hekiru> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "槙原唯"@ja ;
