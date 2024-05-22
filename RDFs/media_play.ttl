@@ -4422,7 +4422,9 @@
     ], [
         schema:name "真田うるは"@ja ;
         # lily:resource <> ;
-        lily:performAs <Bo_No_Hana> ;
+        lily:performAs
+            <Bo_No_Hana>,
+            <Tatara_Uno> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "宇田川ももか"@ja ;
