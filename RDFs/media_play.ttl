@@ -4436,7 +4436,9 @@
     ], [
         schema:name "星野咲笑"@ja ;
         # lily:resource <> ;
-        lily:performAs <Kou_No_Hana_Kanoe> ;
+        lily:performAs
+            <Kou_No_Hana_Kanoe>,
+            <Nakamura_Wako> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "稲玉洸"@ja ;
