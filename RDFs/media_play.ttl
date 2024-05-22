@@ -3928,7 +3928,7 @@
     ], [
         schema:name "宇田川ももか"@ja ;
         # lily:resource <> ;
-        lily:performAs <Ki_no_Hana> ;
+        lily:performAs <Ki_No_Hana> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "星野咲笑"@ja ;
@@ -4429,7 +4429,9 @@
     ], [
         schema:name "宇田川ももか"@ja ;
         # lily:resource <> ;
-        lily:performAs <Ki_no_Hana> ;
+        lily:performAs
+            <Ki_No_Hana>,
+            <Sato_Chisa> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "星野咲笑"@ja ;

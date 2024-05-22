@@ -1008,7 +1008,7 @@
     a lily:Character ;
 .
 
-<Ki_no_Hana>
+<Ki_No_Hana>
     rdfs:label "己の花"^^xsd:string ;
     # schema:familyName ""@ja, ""@en ;
     # lily:familyNameKana ""@ja ;
@@ -1023,8 +1023,8 @@
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
-    lily:lifeStatus "alive"^^xsd:string ;
-    # lily:killedIn ""@ja ;
+    lily:lifeStatus "dead"^^xsd:string ;
+    lily:killedIn "『成れの果て』の状態から自我を取り戻したのち、ルサルカとの戦いで戦死"^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
@@ -1035,7 +1035,7 @@
     # lily:skillerVal ""^^xsd:integer ;
     # lily:rareSkill ""^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted false ;
+    lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
     # lily:charm [
         # lily:resource <> ;
@@ -1059,10 +1059,10 @@
         # lily:resource <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Sato_Chisa> ;
+        lily:additionalInformation "『最果ての花々』になる前の姿"@ja ;
+    ] ;
     lily:cast [
         schema:name "宇田川ももか"@ja ;
         # lily:resource <> ;
@@ -1526,6 +1526,73 @@
     ] ;
     lily:cast [
         schema:name "真田うるは"@ja ;
+        # lily:resource <> ;
+        lily:performIn <New_Chapter_Sanngridr_Oshima_2> ;
+    ] ;
+    a lily:Lily ;
+.
+
+<Sato_Chisa>
+    rdfs:label "佐藤智佐"^^xsd:string ;
+    schema:familyName "佐藤"@ja, "Sato"@en ;
+    lily:familyNameKana "さとう"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "智佐"@ja, "Chisa"@en ;
+    lily:givenNameKana "ちさ"@ja ;
+    schema:name "佐藤智佐"@ja, "Sato Chisa"@en ;
+    lily:nameKana "さとうちさ"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "dead"^^xsd:string ;
+    lily:killedIn "『成れの果て』の状態から自我を取り戻したのち、ルサルカとの戦いで戦死"^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted true ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:garden ""^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:schutzengel <> ;
+    # lily:pastSchutzengel <> ;
+    # lily:schild <> ;
+    # lily:pastSchild <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Ki_No_Hana> ;
+        lily:additionalInformation "『成れの果て』"@ja ;
+    ] ;
+    lily:cast [
+        schema:name "宇田川ももか"@ja ;
         # lily:resource <> ;
         lily:performIn <New_Chapter_Sanngridr_Oshima_2> ;
     ] ;
