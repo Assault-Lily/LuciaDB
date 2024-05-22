@@ -3543,7 +3543,7 @@
         "格闘技"@ja,
         "キャンプ"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "セイクリッドドミネーター"^^xsd:string ;
     lily:subSkill
         "Awakening"^^xsd:string,
         "Whole order"^^xsd:string,
