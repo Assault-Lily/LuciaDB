@@ -4520,8 +4520,8 @@
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     schema:birthDate "--07-09"^^xsd:gMonthDay ;
-    lily:lifeStatus "unknown"^^xsd:string ;
-    lily:killedIn "百合ヶ丘女学院初等部時代、スモール級の群れとの戦いで戦死したとみられる"@ja ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""@ja ;
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
@@ -4531,7 +4531,7 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
     lily:subSkill "狂乱の閾"^^xsd:string ;
     lily:isBoosted true ;
     lily:boostedSkill "リジェネレーター"^^xsd:string ;
@@ -4569,7 +4569,9 @@
         lily:additionalInformation "友人"@ja ;
     ], [
         lily:resource <Kou_No_Hana> ;
-        lily:additionalInformation "『成れの果て』"@ja ;
+        lily:additionalInformation
+            "『成れの果て』"@ja,
+            "自我を取り戻した"@ja ;
     ] ;
     lily:cast [
         schema:name "日永麗"@ja ;
