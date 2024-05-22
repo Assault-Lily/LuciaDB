@@ -411,7 +411,7 @@
     # lily:pastLegion <> ;
     lily:taskforce <Oshima_Nearshore_Nest_Research_Team> ;
     # lily:pastTaskforce <> ;
-    # lily:schutzengel <> ;
+    lily:schutzengel <Yamanashi_Hibari> ;
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
@@ -3469,7 +3469,7 @@
     lily:pastTaskforce <Odaiba_Interception_Taskforce_4> ;
     # lily:schutzengel <> ;
     lily:pastSchutzengel <Yanagisawa_Ayako> ;
-    # lily:schild <> ;
+    lily:schild <Futagawa_Fumi> ;
     # lily:pastSchild <> ;
     # lily:roomMate <> ;
     # schema:parent <> ;
