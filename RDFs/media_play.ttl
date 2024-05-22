@@ -4443,7 +4443,9 @@
     ], [
         schema:name "稲玉洸"@ja ;
         # lily:resource <> ;
-        lily:performAs <Shin_No_Hana> ;
+        lily:performAs
+            <Shin_No_Hana>,
+            <Kato_Ayame> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "鈴木里奈"@ja ;
