@@ -4415,7 +4415,9 @@
     ], [
         schema:name "矢澤梨央"@ja ;
         # lily:resource <> ;
-        lily:performAs <Tei_No_Hana> ;
+        lily:performAs
+            <Tei_No_Hana>,
+            <Watsuji_Ryo> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "真田うるは"@ja ;
