@@ -4450,7 +4450,9 @@
     ], [
         schema:name "鈴木里奈"@ja ;
         # lily:resource <> ;
-        lily:performAs <Jin_No_Hana> ;
+        lily:performAs
+            <Jin_No_Hana>,
+            <Saito_Motoko> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "藤岡沙也香"@ja ;
