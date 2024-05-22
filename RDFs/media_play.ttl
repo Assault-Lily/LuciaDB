@@ -4408,7 +4408,9 @@
     ], [
         schema:name "槙原唯"@ja ;
         # lily:resource <> ;
-        lily:performAs <Hei_No_Hana> ;
+        lily:performAs
+            <Hei_No_Hana>,
+            <Inokuchi_Tomi> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "矢澤梨央"@ja ;
