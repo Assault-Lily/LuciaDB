@@ -3686,7 +3686,7 @@
     lily:pastTaskforce <Odaiba_Interception_Taskforce_2> ;
     # lily:schutzengel <> ;
     # lily:pastSchutzengel <> ;
-    # lily:schild <> ;
+    lily:schild <Nagasaka_Maho> ;
     # lily:pastSchild <> ;
     lily:roomMate <Imagawa_Homare> ;
     # schema:parent <> ;
@@ -4466,7 +4466,7 @@
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
-    # lily:schutzengel <> ;
+    lily:schutzengel <Kiko_Totori> ;
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
