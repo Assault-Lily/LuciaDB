@@ -4154,6 +4154,9 @@
     ], [
         lily:resource <Hishida_Haru> ;
         lily:additionalInformation "貞花との関係を気にしている"@ja ;
+    ], [
+        lily:resource <Tsukamoto_Hekiru> ;
+        lily:additionalInformation "初等部時代仲が良かった"@ja ;
     ] ;
     lily:cast [
         schema:name "牧浦乙葵"@ja ;
@@ -10910,7 +10913,9 @@
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position
+        "TZ"^^xsd:string,
+        "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
@@ -10927,6 +10932,9 @@
     lily:relationship [
         lily:resource <Otsu_No_Hana> ;
         lily:additionalInformation "『成れの果て』"@ja ;
+    ], [
+        lily:resource <Hasebe_Touka> ;
+        lily:additionalInformation "初等部時代仲が良かった"@ja ;
     ] ;
     lily:cast [
         schema:name "橘里依"@ja ;
