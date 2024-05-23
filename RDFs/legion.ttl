@@ -316,7 +316,8 @@
     # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Sono_Mao>,
-        <Inui_Shuko> ;
+        <Inui_Shuko>,
+        <Nagayama_Kaname> ;
     a lily:Legion ;
 .
 
