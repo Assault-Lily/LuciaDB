@@ -4146,6 +4146,9 @@
         lily:resource <Mashima_Moyu> ;
         lily:additionalInformation "親友"@ja ;
     ], [
+        lily:resource <Hayashi_Kaoru> ;
+        lily:additionalInformation "師匠"@ja ;
+    ], [
         lily:resource <Takegoshi_Chihana> ;
         lily:additionalInformation "以前のルームメイト"@ja ;
     ], [
@@ -5404,7 +5407,10 @@
     lily:gardenJobTitle "新館寮長"@ja ;
     lily:legion <Lohengrin> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position
+        "AZ"^^xsd:string,
+        "TZ"^^xsd:string,
+        "BZ"^^xsd:string ;
     lily:pastLegion <Alfheim_First> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
@@ -5418,10 +5424,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Hasebe_Touka> ;
+        lily:additionalInformation "弟子"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
