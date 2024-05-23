@@ -317,7 +317,8 @@
     schema:member
         <Sono_Mao>,
         <Inui_Shuko>,
-        <Nagayama_Kaname> ;
+        <Nagayama_Kaname>,
+        <Noda_Ameri> ;
     a lily:Legion ;
 .
 
