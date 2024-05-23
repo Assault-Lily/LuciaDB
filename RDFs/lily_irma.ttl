@@ -614,7 +614,7 @@
     lily:gardenJobTitle "生徒会長"@ja ;
     lily:legion <Irmin_Shyness> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
