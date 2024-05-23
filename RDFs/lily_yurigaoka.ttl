@@ -1890,7 +1890,7 @@
     # lily:pastSchutzengel <> ;
     lily:schild <Takasuga_Tsukushi> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Yamanashi_Hibari> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -3471,7 +3471,7 @@
     lily:pastSchutzengel <Yanagisawa_Ayako> ;
     lily:schild <Futagawa_Fumi> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Watanabe_Akane> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
