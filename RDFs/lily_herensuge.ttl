@@ -634,6 +634,15 @@
     lily:relationship [
         lily:resource <Kariya_Higure> ;
         lily:additionalInformation "慕っている"@ja ;
+    ], [
+        lily:resource <Shiba_Tomoshibi> ;
+        lily:additionalInformation "GEHENA鞍馬ラボ時代に仲が良かった"@ja ;
+    ], [
+        lily:resource <Saito_Motoko> ;
+        lily:additionalInformation "GEHENA鞍馬ラボ時代に仲が良かった"@ja ;
+    ], [
+        lily:resource <Kato_Ayame> ;
+        lily:additionalInformation "GEHENA鞍馬ラボ時代に仲が良かった"@ja ;
     ] ;
     lily:cast [
         schema:name "木野日菜"@ja ;

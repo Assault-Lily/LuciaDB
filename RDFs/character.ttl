@@ -1726,6 +1726,15 @@
     lily:relationship [
         lily:resource <Shin_No_Hana> ;
         lily:additionalInformation "『成れの果て』"@ja ;
+    ], [
+        lily:resource <Shiba_Tomoshibi> ;
+        lily:additionalInformation "GEHENA鞍馬ラボ時代に仲が良かった"@ja ;
+    ], [
+        lily:resource <Saito_Motoko> ;
+        lily:additionalInformation "GEHENA鞍馬ラボ時代に仲が良かった"@ja ;
+    ], [
+        lily:resource <Kagawa_Makina> ;
+        lily:additionalInformation "GEHENA鞍馬ラボ時代に仲が良かった"@ja ;
     ] ;
     lily:cast [
         schema:name "稲玉洸"@ja ;
@@ -1793,6 +1802,15 @@
     lily:relationship [
         lily:resource <Jin_No_Hana> ;
         lily:additionalInformation "『成れの果て』"@ja ;
+    ], [
+        lily:resource <Shiba_Tomoshibi> ;
+        lily:additionalInformation "GEHENA鞍馬ラボ時代に仲が良かった"@ja ;
+    ], [
+        lily:resource <Kato_Ayame> ;
+        lily:additionalInformation "GEHENA鞍馬ラボ時代に仲が良かった"@ja ;
+    ], [
+        lily:resource <Kagawa_Makina> ;
+        lily:additionalInformation "GEHENA鞍馬ラボ時代に仲が良かった"@ja ;
     ] ;
     lily:cast [
         schema:name "鈴木里奈"@ja ;
