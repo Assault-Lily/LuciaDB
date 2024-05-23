@@ -1478,7 +1478,7 @@
     schema:name "多々良卯乃"@ja, "Tatara Uno"@en ;
     lily:nameKana "たたらうの"@ja ;
     # lily:anotherName ""@ja ;
-    # foaf:age ""^^xsd:integer ;
+    foaf:age "17"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
