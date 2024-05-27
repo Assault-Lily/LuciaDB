@@ -10879,14 +10879,14 @@
 .
 
 <Tsukamoto_Hekiru>
-    rdfs:label "塚本碧流"^^xsd:string ;
+    rdfs:label "塚本碧琉"^^xsd:string ;
     schema:familyName "塚本"@ja, "Tsukamoto"@en ;
     lily:familyNameKana "つかもと"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "碧流"@ja, "Hekiru"@en ;
+    schema:givenName "碧琉"@ja, "Hekiru"@en ;
     lily:givenNameKana "へきる"@ja ;
-    schema:name "塚本碧流"@ja, "Tsukamoto Hekiru"@en ;
+    schema:name "塚本碧琉"@ja, "Tsukamoto Hekiru"@en ;
     lily:nameKana "つかもとへきる"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
