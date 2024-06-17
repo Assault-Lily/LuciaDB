@@ -1612,7 +1612,7 @@
     schema:name "仲村倭子"@ja, "Nakamura Wako"@en ;
     lily:nameKana "なかむらわこ"@ja ;
     # lily:anotherName ""@ja ;
-    # foaf:age ""^^xsd:integer ;
+    foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
