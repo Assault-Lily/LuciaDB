@@ -1278,7 +1278,7 @@
     lily:nameKana "さいごうくれな"@ja ;
     lily:anotherName "台場の劔鬼"@ja ;
     foaf:age "16"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "160.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     schema:birthDate "--07-02"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
