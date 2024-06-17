@@ -1545,7 +1545,7 @@
     schema:name "佐藤智佐"@ja, "Sato Chisa"@en ;
     lily:nameKana "さとうちさ"@ja ;
     # lily:anotherName ""@ja ;
-    # foaf:age ""^^xsd:integer ;
+    foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
@@ -1559,7 +1559,7 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "鷹の目"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
