@@ -775,7 +775,8 @@
     # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Sengo_Yuna>,
-        <Amatsu_Marei> ;
+        <Amatsu_Marei>,
+        <Okazaki_Kanna> ;
     a lily:Legion ;
 .
 
