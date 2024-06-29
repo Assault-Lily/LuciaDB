@@ -883,7 +883,8 @@
         <Iwashita_Kiriko>,
         <Kuki_Nuyuna>,
         <Omodaka_Tae>,
-        <Karatani_Merin> ;
+        <Karatani_Merin>,
+        <Nakajima_Hiiro> ;
     a lily:Legion ;
 .
 
