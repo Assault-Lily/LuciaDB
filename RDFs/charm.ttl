@@ -1739,3 +1739,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Sharur>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "シャルウル"@ja, "Sharur"@en ;
+    schema:name "シャルウル"@ja, "Sharur"@en ;
+    # lily:generation ""^^xsd:integer ;
+    schema:manufacturer <Hihiirokane_International>;
+    lily:user <Komai_Sumire> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.

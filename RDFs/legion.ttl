@@ -476,7 +476,7 @@
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded false ;
     lily:legionGrade "S"^^xsd:string ;
-    lily:numberOfMembers "9"^^xsd:integer ;
+    lily:numberOfMembers "10"^^xsd:integer ;
     schema:member
         <Funada_Kiito>,
         <Funada_Ui>,
@@ -487,6 +487,8 @@
         <Fujita_Asagao>,
         <Imamura_Yukari>,
         <Nagasawa_Yuki> ;
+    lily:submember
+        <Komai_Sumire> ;
     a lily:Legion ;
 .
 
