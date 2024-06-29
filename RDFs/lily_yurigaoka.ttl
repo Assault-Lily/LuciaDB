@@ -8719,7 +8719,7 @@
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Tada_Shiera> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -8862,7 +8862,7 @@
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Kuma_Ayane> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
