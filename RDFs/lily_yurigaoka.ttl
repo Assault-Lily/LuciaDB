@@ -7845,6 +7845,9 @@
     ], [
         lily:resource <Kurokawa_Nady_Hanna> ;
         lily:additionalInformation "特別寮時代に親しくなった友人"@ja ;
+    ], [
+        lily:resource <Tiuccia_Paumgartner> ;
+        lily:additionalInformation "親友"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
