@@ -85,10 +85,14 @@
         lily:resource <Yoshizaka_Nagisa> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "舞川みやこ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q29525949>,
+            <http://ja.dbpedia.org/resource/舞川みやこ> ;
+        lily:performIn <Assault_Lily_Odaiba_The_Snowdrop> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Teacher ;
 .
 
@@ -162,7 +166,8 @@
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2> ;
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Odaiba_The_Snowdrop> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Teacher ;
@@ -235,7 +240,8 @@
             <http://ja.dbpedia.org/resource/石原美沙紀> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <Assault_Lily_Odaiba_The_Battle_To_Overcome> ;
+            <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
+            <Assault_Lily_Odaiba_The_Snowdrop> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Teacher ;

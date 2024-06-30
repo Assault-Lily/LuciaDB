@@ -2894,7 +2894,7 @@
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
     lily:previousWork <Assault_Lily_Odaiba_The_Empathy_Phenomenon>;
-    # lily:nextWork <>;
+    lily:nextWork <Assault_Lily_Odaiba_The_Snowdrop>;
     # lily:originalWork <>;
     # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -3363,8 +3363,8 @@
     ], [
         schema:name "舞川みやこ"@ja ;
         lily:resource
-            <https://www.wikidata.org/wiki/Q106960679>,
-            <http://ja.dbpedia.org/resource/蒼木るい> ;
+            <https://www.wikidata.org/wiki/Q29525949>,
+            <http://ja.dbpedia.org/resource/舞川みやこ> ;
         lily:performAs <Izumi_Rosa_Rina> ;
         # lily:additionalInformation ""@ja ;
     ], [
@@ -4562,6 +4562,202 @@
             <http://ja.dbpedia.org/resource/津田美波> ;
         lily:performAs <Amano_Soraha> ;
         lily:additionalInformation "特別出演"@ja ;
+    ] ;
+    a lily:Play ;
+.
+
+<Assault_Lily_Odaiba_The_Snowdrop>
+    lily:genre "舞台"@ja ;
+    schema:name "アサルトリリィ・御台場女学校編 ―The Snowdrop―"@ja ;
+    schema:alternateName "御台場TSD"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:location "紀伊國屋サザンシアター TAKASHIMAYA"^^xsd:string ;
+    schema:startDate "2024-08-01"^^xsd:date ;
+    schema:endDate "2024-01-11"^^xsd:date ;
+    schema:duration "PT2H"^^xsd:duration ;
+    lily:showTime
+        "2024-08-01T19:00:00+09:00"^^xsd:dateTime,
+        "2024-08-03T13:00:00+09:00"^^xsd:dateTime,
+        "2024-08-03T18:00:00+09:00"^^xsd:dateTime,
+        "2024-08-04T13:00:00+09:00"^^xsd:dateTime,
+        "2024-08-06T19:00:00+09:00"^^xsd:dateTime,
+        "2024-08-07T19:00:00+09:00"^^xsd:dateTime,
+        "2024-08-09T19:00:00+09:00"^^xsd:dateTime,
+        "2024-08-10T13:00:00+09:00"^^xsd:dateTime,
+        "2024-08-10T18:00:00+09:00"^^xsd:dateTime,
+        "2024-08-11T12:30:00+09:00"^^xsd:dateTime,
+        "2024-08-11T17:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
+    # lily:additionalInformation ""@ja ;
+    schema:abstract "大島にある猪子海底ネストS級が休火山状態から活動を始めたことが判明、ガーデン横断風紀委員会「ジャスティファイ」は、\n御台場女学校を含む東京御三家ら東京地区のガーデンで直接対応することを取り決めた。\nしかし、猪子海底ネストのマギの流れが周辺のヒュージやネストに影響を及ぼし始めた。\n東京ではケイブが頻発、元々ケイブ頻発地域である御台場女学校ではこの状況が顕著であり、リリィ達は対応に追われていた。\n\nそんな中、「西の百合ヶ丘」と呼ばれる名門ガーデン、アンブロシア女学苑高等學校から駒井菫（1年）が転校してくる。\nアキラ・ブラントンは、ロネスネスかヘオロットセインツのどちらかに所属するように勧め、菫はロネスネスを選んだ。\n正式に加入が決まるまで、ロネスネスの訓練に参加したり、燈のお茶会に参加して、交流を深めていく菫だが、彼女には秘めた想いがあって…。\n\n菫はなぜ御台場女学校にやって来たのか、ロネスネスに加入することになるのか、そして現れる稲葉檀…。\n船田姉妹と燈が大島近海ネスト調査隊として派遣されるまでの前日譚！"@ja ;
+    lily:previousWork <Assault_Lily_Odaiba_The_Battle_To_Overcome>;
+    # lily:nextWork <>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
+    lily:originalAuthor "尾花沢軒栄"@ja ;
+    # lily:supervisor ""@ja ;
+    # lily:executiveProducer ""@ja ;
+    # lily:producer ""@ja ;
+    lily:scenarioWriter "桜木さやか"@ja ;
+    lily:episodeDirection "佐野瑞樹"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:planning "ピウス"@ja ;
+    lily:production "ピウス"@ja ;
+    # lily:contributor ""@ja ;
+    # lily:cooperation ""@ja ;
+    lily:organizer
+        "ピウス"@ja,
+        "アゾンインターナショナル"@ja ;
+    lily:cast [
+        schema:name "石井陽菜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q18817351>,
+            <http://ja.dbpedia.org/resource/石井陽菜> ;
+        lily:performAs <Funada_Kiito> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "西葉瑞希"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q98734254>,
+            <http://ja.dbpedia.org/resource/西葉瑞希> ;
+        lily:performAs <Funada_Ui> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "野元空"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q18999130>,
+            <http://ja.dbpedia.org/resource/野元空> ;
+        lily:performAs <Shiba_Tomoshibi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "長谷川里桃"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q38279051>,
+            <http://ja.dbpedia.org/resource/長谷川里桃> ;
+        lily:performAs <Nagasawa_Yuki> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "吉宮瑠織"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q54292702> ;
+        lily:performAs <Igusa_Subaru> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "春咲暖"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q35172355>,
+            <http://ja.dbpedia.org/resource/春咲暖> ;
+        lily:performAs <Fujita_Asagao> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "田崎礼奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27918099>,
+            <http://ja.dbpedia.org/resource/田崎礼奈> ;
+        lily:performAs <Kawabata_Hotaru> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "柴田茉莉"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Imamura_Yukari> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "有沢澪風"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q30933448>,
+            <http://ja.dbpedia.org/resource/有沢澪風> ;
+        lily:performAs <Kozue_West> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "矢野妃菜喜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q56253675>,
+            <http://ja.dbpedia.org/resource/矢野妃菜喜> ;
+        lily:performAs <Tsukioka_Momiji> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "あわつまい"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q35567820>,
+            <http://ja.dbpedia.org/resource/あわつまい> ;
+        lily:performAs <Kawamura_Yuzuriha> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "林田真尋"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q19162226>,
+            <http://ja.dbpedia.org/resource/林田真尋> ;
+        lily:performAs <Hishida_Haru> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "星希成奏"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q35172322>,
+            <http://ja.dbpedia.org/resource/星希成奏> ;
+        lily:performAs <Saigo_Kurena> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "西田有愛"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Kawanabe_Nazuna> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "橘里依"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q109318876>,
+            <http://ja.dbpedia.org/resource/橘里依> ;
+        lily:performAs <Yokoyama_Azusa> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "今村美歩"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q30936947>,
+            <http://ja.dbpedia.org/resource/今村美歩> ;
+        lily:performAs <Maruyama_Amane> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "栞菜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q1193372>,
+            <http://ja.dbpedia.org/resource/栞菜> ;
+        lily:performAs <Hayami_Katsura> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "斎藤愛莉"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q116936083> ;
+        lily:performAs <Suzuki_Chinami> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "山本栞"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Takehisa_Nakaba> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "横山結衣"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q30949810>,
+            <http://ja.dbpedia.org/resource/横山結衣> ;
+        lily:performAs <Komai_Sumire> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "舞川みやこ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q29525949>,
+            <http://ja.dbpedia.org/resource/舞川みやこ> ;
+        lily:performAs <Akira_Blanton> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "石原美沙紀"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q30926411>,
+            <http://ja.dbpedia.org/resource/石原美沙紀> ;
+        lily:performAs <Inaba_Mayumi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "保坂エマ"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q123406117> ;
+        lily:performAs <Nakazawa_Kumi> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Play ;
 .
