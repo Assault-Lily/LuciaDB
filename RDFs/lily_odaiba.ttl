@@ -985,7 +985,7 @@
     lily:givenNameKana "すみれ"@ja ;
     schema:name "駒井菫"@ja, "Komai Sumire"@en ;
     lily:nameKana "こまいすみれ"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "ネメシス"@ja ;
     foaf:age "15"^^xsd:integer ;
     schema:height "160.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
