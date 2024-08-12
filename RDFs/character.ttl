@@ -1688,19 +1688,19 @@
 
 <Nakazawa_Kumi>
     rdfs:label "中澤久実"^^xsd:string ;
-    schema:familyName "中澤"@ja ;#, ""@en ;
-    # lily:familyNameKana ""@ja ;
+    schema:familyName "中澤"@ja, "Nakazawa"@en ;
+    lily:familyNameKana "なかざわ"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "久実"@ja ;#, ""@en ;
-    # lily:givenNameKana ""@ja ;
-    schema:name "中澤久実"@ja ;#, ""@en ;
-    # lily:nameKana ""@ja ;
+    schema:givenName "久実"@ja, "Kumi"@en ;
+    lily:givenNameKana "くみ"@ja ;
+    schema:name "中澤久実"@ja, "Nakazawa Kumi"@en ;
+    lily:nameKana "なかざわくみ"@ja ;
     # lily:anotherName ""@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--03-19"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
@@ -1709,7 +1709,9 @@
     # schema:birthPlace ""@ja, ""@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "読書"@ja,
+        "手芸"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     # lily:rareSkill ""^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
