@@ -1481,7 +1481,7 @@
     foaf:age "17"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--09-05"^^xsd:gMonthDay ;
     lily:lifeStatus "dead"^^xsd:string ;
     lily:killedIn "『成れの果て』の状態から自我を取り戻したのち、ルサルカとの戦いで戦死"^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
