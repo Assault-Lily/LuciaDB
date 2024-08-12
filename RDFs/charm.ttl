@@ -1497,7 +1497,7 @@
     lily:seriesName "フォンドリル"@ja, "Fondril"@en ;
     schema:name "フォンドリル"@ja, "Fondril"@en ;
     # lily:generation ""^^xsd:integer ;
-    # schema:manufacturer <> ;
+    schema:manufacturer <Auniamendi_Systemas> ;
     lily:user <Matsumura_Fuka> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
