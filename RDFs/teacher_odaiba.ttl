@@ -15,7 +15,7 @@
     lily:givenNameKana "あきら"@ja ;
     schema:name "アキラ・ブラントン"@ja, "Akira Blanton"@en ;
     lily:nameKana "あきら・ぶらんとん"@ja ;
-    lily:anotherName "不世出の天才"@ja ;
+    lily:anotherName "オーバーロード"@ja ;
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -26,9 +26,11 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite
+        "お酒"@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "ビリヤード"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "この世の理"^^xsd:string ;
     lily:subSkill
