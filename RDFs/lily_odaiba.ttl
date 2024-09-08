@@ -1136,6 +1136,9 @@
         lily:resource <Asanaga_Ichigo> ;
         lily:additionalInformation "友人"@ja ;
     ], [
+        lily:resource <Uemura_Warabi> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
         lily:resource <Otake_Sunao> ;
         lily:additionalInformation "ライバル視されている"@ja ;
     ], [
@@ -2295,10 +2298,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Hayami_Katsura> ;
+        lily:additionalInformation "友人"@ja ;
+    ] ;
     # lily:cast [
         # schema:name ""@ja ;
         # lily:resource <> ;
