@@ -156,7 +156,7 @@
         <Tetsukawa_Toa>,
         <Imai_Seira>,
         <Nagasaka_Maho>,
-        <Yamaguchi_Chihiro> ;
+        <Yamaguchi_Chihiro>,
         <Mashima_Moyu> ;
     schema:alumni
         <Sekino_Yoko>,
