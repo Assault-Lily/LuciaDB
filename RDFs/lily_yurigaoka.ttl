@@ -10105,7 +10105,9 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Ginnungagap> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position
+        "AZ"^^xsd:string,
+        "BZ"^^xsd:string ;
     lily:pastLegion <Sanngridr> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
