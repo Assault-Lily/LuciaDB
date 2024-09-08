@@ -148,7 +148,9 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Gram> ;
-        lily:usedIn "ドール Ver.2.0"^^xsd:string ;
+        lily:usedIn
+            "ドール Ver.2.0"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Brionac> ;
@@ -1071,7 +1073,9 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Brionac> ;
-        lily:usedIn "アニメ"^^xsd:string ;
+        lily:usedIn
+            "アニメ"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -1106,7 +1110,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q49566>,
             <http://ja.dbpedia.org/resource/川澄綾子> ;
-        lily:performIn <Assault_Lily_Bouquet> ;
+        lily:performIn
+            <Assault_Lily_Bouquet>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -2163,6 +2169,10 @@
         lily:resource <Megingjord> ;
         # lily:usedIn ""^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
+    ], [
+        lily:resource <Gram> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
@@ -2192,10 +2202,14 @@
         lily:resource <Miyairi_Fubuki> ;
         lily:additionalInformation "親友"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "羊宮妃那"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q106957998>,
+            <http://ja.dbpedia.org/resource/羊宮妃那> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -2234,6 +2248,10 @@
         lily:resource <Hofud> ;
         # lily:usedIn ""^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
+    ], [
+        lily:resource <Gram> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
@@ -2268,10 +2286,14 @@
         lily:resource <Yamanashi_Hibari> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "鈴木愛奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q20749333>,
+            <http://ja.dbpedia.org/resource/鈴木愛奈> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -2312,6 +2334,10 @@
         lily:resource <Terminus_Est> ;
         # lily:usedIn ""^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
+    ], [
+        lily:resource <Chrysaor> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
@@ -2344,10 +2370,14 @@
         lily:resource <Yamanashi_Hibari> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "田中ちえ美"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q30278278>,
+            <http://ja.dbpedia.org/resource/田中ちえ美> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -3445,7 +3475,9 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Tyrfing_type_T> ;
-        lily:usedIn "アニメ"^^xsd:string ;
+        lily:usedIn
+            "アニメ"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Ascalon> ;
@@ -3509,7 +3541,8 @@
             <http://ja.dbpedia.org/resource/伊藤優衣> ;
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2> ;
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -8843,11 +8876,15 @@
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Durandal> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Charlemagne> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
@@ -8881,10 +8918,14 @@
         lily:resource <Mori_Tatsuki> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "林鼓子"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11533390>,
+            <http://ja.dbpedia.org/resource/林鼓子> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 

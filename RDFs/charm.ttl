@@ -495,7 +495,9 @@
         <Banshoya_Ena>,
         <Yoshimura_Thi_Mai>,
         <Akashi_Manaka>,
-        <Aoki_Kaho> ;
+        <Aoki_Kaho>,
+        <Okada_Kisara>,
+        <Maki_Wakana> ;
     lily:hasVariant <Gram_Extra> ;
     a lily:Charm ;
 .
@@ -550,7 +552,8 @@
     lily:user
         <Watanabe_Akane>,
         <Iijima_Renka>,
-        <Ito_Shizu> ;
+        <Ito_Shizu>,
+        <Takashima_Yakumo> ;
     a lily:Charm ;
 .
 
@@ -568,7 +571,8 @@
         <Fujita_Asagao>,
         <Tachihara_Sayu>,
         <Takasuga_Tsukushi>,
-        <Ishizuka_Fujino> ;
+        <Ishizuka_Fujino>,
+        <Mozuna_Noa> ;
     a lily:Charm ;
 .
 
@@ -656,6 +660,7 @@
         <Hata_Matsuri>,
         <Tsukioka_Momiji>,
         <Hayakawa_Yahiro>,
+        <Tada_Shiera>,
         <Hishida_Haru> ;
     a lily:Charm ;
 .
@@ -873,7 +878,8 @@
         <Takasuga_Tsukushi>,
         <Nakabayashi_Kaina>,
         <Kawabata_Hotaru>,
-        <Ueda_Imari> ;
+        <Ueda_Imari>,
+        <Tada_Shiera> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .

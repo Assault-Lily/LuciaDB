@@ -34,11 +34,11 @@
     # lily:subSkill ""^^xsd:string;
     lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Bruncvik> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
     # lily:rank ""^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
@@ -61,10 +61,14 @@
         lily:resource <Shinoda_Mioko> ;
         lily:additionalInformation "知人"@ja ;
     ];
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "日笠陽子"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q50023>,
+            <http://ja.dbpedia.org/resource/日笠陽子> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Teacher ;
 .
 
