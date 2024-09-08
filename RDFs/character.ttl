@@ -1701,7 +1701,7 @@
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     schema:birthDate "--03-19"^^xsd:gMonthDay ;
-    lily:lifeStatus "alive"^^xsd:string ;
+    lily:lifeStatus "dead"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
@@ -1753,5 +1753,76 @@
         lily:performIn <Assault_Lily_Odaiba_The_Snowdrop> ;
         # liiy:additionalInformation ""@ja ;
     ] ;
+    a lily:Character ;
+.
+
+<Komai_Sasara>
+    rdfs:label "駒井咲々良"^^xsd:string ;
+    schema:familyName "駒井"@ja, "Komai"@en ;
+    lily:familyNameKana "こまい"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "咲々良"@ja, "Sasara"@en ;
+    lily:givenNameKana "ささら"@ja ;
+    schema:name "駒井咲々良"@ja, "Komai Sasara"@en ;
+    lily:nameKana "こまいささら"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "dead"^^xsd:string ;
+    lily:killedIn "GEHENA鞍馬山ラボでの研究中に死亡"^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:garden ""^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    lily:gardenJobTitle "マギ研究者"@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:schutzengel <> ;
+    # lily:pastSchutzengel <> ;
+    # lily:schild <> ;
+    # lily:pastSchild <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Komai_Sumire> ;
+        lily:additionalInformation "娘"@ja ;
+    ], [
+        lily:resource <Shiba_Tomoshibi> ;
+        lily:additionalInformation "GEHENA鞍馬ラボで関係の深かったリリィ"@ja ;
+    ] ;
+    # lily:cast [
+        # schema:name ""@ja ;
+        # lily:resource <> ;
+        # lily:performIn <> ;
+        # liiy:additionalInformation ""@ja ;
+    # ] ;
     a lily:Character ;
 .

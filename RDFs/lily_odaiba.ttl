@@ -329,6 +329,9 @@
         lily:resource <Kagawa_Makina> ;
         lily:additionalInformation "GEHENA鞍馬ラボ時代に仲が良かった"@ja ;
     ], [
+        lily:resource <Komai_Sasara> ;
+        lily:additionalInformation "GEHENA鞍馬ラボ時代に関係の深かった研究員"@ja ;
+    ], [
         lily:resource <Komai_Sumire> ;
         lily:additionalInformation "GEHENA鞍馬ラボ時代に関係の深かった研究員の娘"@ja ;
     ] ;
@@ -1030,7 +1033,7 @@
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
     # lily:roomMate <> ;
-    # schema:parent <> ;
+    schema:parent <Komai_Sasara> ;
     # schema:sibling [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
