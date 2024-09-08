@@ -69,7 +69,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q11465532>,
             <http://ja.dbpedia.org/resource/MoeMi> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Teacher ;

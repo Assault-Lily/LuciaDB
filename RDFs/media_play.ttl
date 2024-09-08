@@ -3053,9 +3053,9 @@
     a lily:Play ;
 .
 
-<Assault_Lily_Illuma_The_Gleam_of_Dawn>
+<Assault_Lily_Irma_The_Gleam_of_Dawn>
     lily:genre "舞台"@ja ;
-    schema:name "アサルトリリィ・イルマ女子美術高校編 The Gleam of Dawn"@ja ;
+    schema:name "アサルトリリィ・イルマ女子美術高校編 -The Gleam of Dawn-"@ja ;
     schema:alternateName "イルマTGD"@ja ;
     schema:inLanguage "ja-JP"^^xsd:language ;
     schema:location "かめありリリオホール"^^xsd:string ;
@@ -4758,6 +4758,249 @@
         lily:resource <https://www.wikidata.org/wiki/Q123406117> ;
         lily:performAs <Nakazawa_Kumi> ;
         # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Play ;
+.
+
+<Assault_Lily_Irma_The_Bond_with_the_White_Rose>
+    lily:genre "舞台"@ja ;
+    schema:name "アサルトリリィ・イルマ女子美術高校編 -The Bond with the White Rose-"@ja ;
+    schema:alternateName "イルマTBW"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:location "こくみん共済 coop ホール／スペース・ゼロ"^^xsd:string ;
+    schema:startDate "2024-12-05"^^xsd:date ;
+    schema:endDate "2024-12-15"^^xsd:date ;
+    # schema:duration ""^^xsd:duration ;
+    lily:showTime
+        "2024-12-05T19:00:00+09:00"^^xsd:dateTime,
+        "2024-12-07T13:00:00+09:00"^^xsd:dateTime,
+        "2024-12-07T18:00:00+09:00"^^xsd:dateTime,
+        "2024-12-08T13:00:00+09:00"^^xsd:dateTime,
+        "2024-12-10T19:00:00+09:00"^^xsd:dateTime,
+        "2024-12-12T19:00:00+09:00"^^xsd:dateTime,
+        "2024-12-13T19:00:00+09:00"^^xsd:dateTime,
+        "2024-12-14T13:00:00+09:00"^^xsd:dateTime,
+        "2024-12-14T18:00:00+09:00"^^xsd:dateTime,
+        "2024-12-15T12:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
+    lily:additionalInformation "公演期間中以下の日程で過去の上演作品をキャストと一緒に楽しむ上映会イベントを開催。\n12月6日(金) 19:00 御台場女学校「The Snowdrop」（2024年8月上演）\n12月8日(日) 18:00 新章「種の最果ての地で／金瘡小草の咲く時」（2023年12月上演）\n12月15日(日) 17:00 新章「花々の黄昏／玲瓏たる深潭」（2024年5月上演）"@ja ;
+    schema:abstract "イルマ女子美術高校1年生の上田伊万里は、憧れの先輩リリィ、神郡鞠萠と共に、鞠萠の理想の戦いを目指すレギオン「ハコルベランド」を結成。\n初陣(ういじん)はイルマ女子からルドビコ女学院へ転校した一之宮・ミカエラ・日葵を救うための戦いだった。\n日葵を襲ったケイブはヒュージサーチャーに反応がない不可解なものだったが、親玉ギガント級ヒュージがルド女へ向かっている事を知ったハコルベランドは内密に出撃、日葵やルド女の危機を未然に防ぐことが出来た。二つのレギオンは、日葵やルド女には真相は知らせぬまま、これからも彼女たちを守ろうと誓う。\n\nそんな中、ルド女の動向に注視していた教導官、篠田澪湖が異変に気づく。ルド女の校舎に無数のヒュージが集まり、増え続けているのだ。しかし、ヒュージサーチャーには反応がないことから、他ガーデンが気づくにはまだ時間がかかる。\nこのままではルド女が危ない！イルミンシャイネスとハコルベランドは一刻も早くこの危機を救うため、ルド女へ向かい同時出撃した。\n「真実の刃」の裏側で起きた、イルマ女子のリリィ達の奮戦！そして、かつてルド女のリリィ達がイルマ女子に遺したものとは…。イルマ女子とルド女の絆の物語！"@ja ;
+    # lily:previousWork <>;
+    # lily:nextWork <>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
+    lily:originalAuthor "尾花沢軒栄"@ja ;
+    # lily:supervisor ""@ja ;
+    # lily:executiveProducer ""@ja ;
+    # lily:producer ""@ja ;
+    lily:scenarioWriter "桜木さやか"@ja ;
+    lily:episodeDirection "田邊俊喜"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:planning "ピウス"@ja ;
+    lily:production "ピウス"@ja ;
+    # lily:contributor ""@ja ;
+    # lily:cooperation ""@ja ;
+    lily:organizer
+        "ピウス"@ja,
+        "アゾンインターナショナル"@ja,
+        "acus"@ja ;
+    lily:cast [
+        schema:name "北澤早紀"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q28418874>,
+            <http://ja.dbpedia.org/resource/北澤早紀> ;
+        lily:performAs <Ueda_Imari> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "福岡聖菜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q28069217>,
+            <http://ja.dbpedia.org/resource/福岡聖菜> ;
+        lily:performAs <Kamigori_Marimo> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "朝倉ふゆな"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11517262>,
+            <http://ja.dbpedia.org/resource/朝倉ふゆな> ;
+        lily:performAs <Moroi_Saho> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "集貝はな"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q74548472>,
+            <http://ja.dbpedia.org/resource/集貝はな> ;
+        lily:performAs <Higashikuze_Tokuko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "矢新愛梨"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q111113483>,
+            <http://ja.dbpedia.org/resource/矢新愛梨> ;
+        lily:performAs <Tsuzuki_Hisui> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "陽高真白"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q115529746>,
+            <http://ja.dbpedia.org/resource/陽高真白> ;
+        lily:performAs <Hirotsu_Yuzutsu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "小松穂葉"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24867742>,
+            <http://ja.dbpedia.org/resource/小松穂葉> ;
+        lily:performAs <Miwada_Rito> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "斎藤愛莉"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q116936083>,
+            <http://ja.dbpedia.org/resource/斎藤愛莉> ;
+        lily:performAs <Tsujimoto_Yunagi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "熊田茜音"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q59072330>,
+            <http://ja.dbpedia.org/resource/熊田茜音> ;
+        lily:performAs <Tashiro_Ayumu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "佐藤遥"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27918100>,
+            <http://ja.dbpedia.org/resource/佐藤遥> ;
+        lily:performAs <Nishikawa_Miharu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "熊沢世莉奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q60806778>,
+            <http://ja.dbpedia.org/resource/熊沢世莉奈> ;
+        lily:performAs <Tejima_Komachi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "髙橋彩音"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q60796806>,
+            <http://ja.dbpedia.org/resource/髙橋彩音> ;
+        lily:performAs <Hibino_Waku> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "梅原サエリ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q74146771>,
+            <http://ja.dbpedia.org/resource/梅原サエリ> ;
+        lily:performAs <Iwaya_Kukuri> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "川原美咲"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q60796207>,
+            <http://ja.dbpedia.org/resource/川原美咲> ;
+        lily:performAs <Kusakabe_Rengetsu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "結木ことは"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Kusakabe_Murasame> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "松田彩希"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24865341>,
+            <http://ja.dbpedia.org/resource/松田彩希> ;
+        lily:performAs <Miyamoto_Komuku> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "西田奈未"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Hidai_Miyazu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "鵜川もえか"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q104538909>,
+            <http://ja.dbpedia.org/resource/鵜川もえか> ;
+        lily:performAs <Nakabayashi_Kaina> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "遥りさ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q95162327>,
+            <http://ja.dbpedia.org/resource/遥りさ> ;
+        lily:performAs <Yoshii_Kasumiko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "MoeMi"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11465532>,
+            <http://ja.dbpedia.org/resource/MoeMi> ;
+        lily:performAs <Shinoda_Mioko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "西本りみ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24902567>,
+            <http://ja.dbpedia.org/resource/西本りみ> ;
+        lily:performAs <Ichinomiya_Michaela_Himari> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "一本鎗希華"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q98757922>,
+            <http://ja.dbpedia.org/resource/一本鎗希華> ;
+        lily:performAs <Narumi_Clara_Yuko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "山﨑悠稀"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Hojo_Monica_Asahi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "小菅怜衣"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q118522538> ;
+        lily:performAs <Saeki_Julia_Karen> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "岩倉あずさ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q96715454>,
+            <http://ja.dbpedia.org/resource/岩倉あずさ> ;
+        lily:performAs <Hanaoka_Angela_Moe> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "小野瀬みらい"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q16769880>,
+            <http://ja.dbpedia.org/resource/小野瀬みらい> ;
+        lily:performAs <Nosaka_Jacqueline_Kazane> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "甲斐千尋"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q59134848>,
+            <http://ja.dbpedia.org/resource/甲斐千尋> ;
+        lily:performAs <Takatori_Natalie_Towa> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "白城もえの"@ja ;
+        # lily:resource <>;
+        lily:performAs <Lee_Christina_Susu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "あわつまい"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q56253675> ;
+        lily:performAs <Kishimoto_Maria_Mirai> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "MEW"@ja ;
+        # lily:resource <> ;
+        # lily:performAs <> ;
+        lily:additionalInformation "？？？役"@ja ;
     ] ;
     a lily:Play ;
 .

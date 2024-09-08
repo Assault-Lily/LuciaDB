@@ -259,7 +259,8 @@
         lily:performIn
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
-            <Lily_Collection_2023> ;
+            <Lily_Collection_2023>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "中野あいみ"@ja ;
@@ -741,7 +742,8 @@
         lily:performIn
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -838,7 +840,8 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
-            <Lily_Collection_2023> ;
+            <Lily_Collection_2023>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "早川あひる"@ja ;
@@ -1061,7 +1064,8 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
-            <Lily_Collection_2023> ;
+            <Lily_Collection_2023>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1407,7 +1411,8 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
-            <Lily_Collection_2023> ;
+            <Lily_Collection_2023>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "渡邉結衣"@ja ;
@@ -1542,8 +1547,9 @@
             <Schwester_No_Himitsu_2021>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Assault_Lily_Illuma_The_Gleam_of_Dawn>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Shinjitsu_No_Yaiba_2023>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "花奈澪"@ja ;
@@ -1676,7 +1682,8 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
-            <Lily_Collection_2023> ;
+            <Lily_Collection_2023>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "斎藤愛莉"@ja ;
@@ -2104,13 +2111,16 @@
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "岩倉あずさ"@ja ;
-        lily:resource <https://www.wikidata.org/wiki/Q96715454> ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q96715454>,
+            <http://ja.dbpedia.org/resource/岩倉あずさ> ;
         lily:performIn
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "槙原唯"@ja ;
@@ -2305,7 +2315,8 @@
         lily:performIn
             <Shinjitsu_No_Yaiba>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

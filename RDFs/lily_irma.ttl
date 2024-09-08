@@ -89,7 +89,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q27918100>,
             <http://ja.dbpedia.org/resource/佐藤遥> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -176,7 +178,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q60806778>,
             <http://ja.dbpedia.org/resource/熊沢世莉奈> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -277,7 +281,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q60796806>,
             <http://ja.dbpedia.org/resource/髙橋彩音> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -359,7 +365,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q95162327>,
             <http://ja.dbpedia.org/resource/遥りさ> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -423,7 +431,9 @@
     lily:cast [
         schema:name "西田奈未"@ja ;
         # lily:resource <> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -493,7 +503,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q104538909>,
             <http://ja.dbpedia.org/resource/鵜川もえか> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -567,7 +579,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q24865341>,
             <http://ja.dbpedia.org/resource/松田彩希> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -628,10 +642,14 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "梅原サエリ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q74146771>,
+            <http://ja.dbpedia.org/resource/梅原サエリ> ;
+        lily:performIn <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -695,7 +713,14 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q30945761>,
             <http://ja.dbpedia.org/resource/坂口渚沙> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn <Assault_Lily_Irma_The_Gleam_of_Dawn> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "川原美咲"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q60796207>,
+            <http://ja.dbpedia.org/resource/川原美咲> ;
+        lily:performIn <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -762,7 +787,9 @@
     lily:cast [
         schema:name "結木ことは"@ja ;
         # lily:resource <> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -839,7 +866,7 @@
             <https://www.wikidata.org/wiki/Q16097304>,
             <http://ja.dbpedia.org/resource/佐々木優佳里> ;
         lily:performIn
-            <Assault_Lily_Illuma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
             <New_Chapter_Sanngridr_Oshima> ;
         # lily:additionalInformation ""@ja ;
     ], [
@@ -847,7 +874,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q28069217>,
             <http://ja.dbpedia.org/resource/福岡聖菜> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima_2> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -915,7 +944,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q74548472>,
             <http://ja.dbpedia.org/resource/集貝はな> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -978,8 +1009,12 @@
     ] ;
     lily:cast [
         schema:name "陽高真白"@ja ;
-        lily:resource <https://www.wikidata.org/wiki/Q115529746> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q115529746>,
+            <http://ja.dbpedia.org/resource/陽高真白> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1061,9 +1096,10 @@
             <https://www.wikidata.org/wiki/Q28418874>,
             <http://ja.dbpedia.org/resource/北澤早紀> ;
         lily:performIn
-            <Assault_Lily_Illuma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
             <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2> ;
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1136,7 +1172,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q111113483>,
             <http://ja.dbpedia.org/resource/矢新愛梨> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1205,7 +1243,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q11517262>,
             <http://ja.dbpedia.org/resource/朝倉ふゆな> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1276,7 +1316,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q24867742>,
             <http://ja.dbpedia.org/resource/小松穂葉> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1345,8 +1387,12 @@
     ] ;
     lily:cast [
         schema:name "斎藤愛莉"@ja ;
-        # lily:resource <> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q116936083>,
+            <http://ja.dbpedia.org/resource/斎藤愛莉> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1414,7 +1460,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q59072330>,
             <http://ja.dbpedia.org/resource/熊田茜音> ;
-        lily:performIn <Assault_Lily_Illuma_The_Gleam_of_Dawn> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Gleam_of_Dawn>,
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
