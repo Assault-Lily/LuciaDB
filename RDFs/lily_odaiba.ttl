@@ -1448,7 +1448,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022>,
-            <Assault_Lily_Odaiba_The_Snowdrop> ;
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "安藤千伽奈"@ja ;
@@ -1850,6 +1851,10 @@
         lily:resource <Yotunschwert> ;
         lily:usedIn "リリコレ 2023"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <Durandal> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        lily:additionalInformation "SP機体"@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
@@ -1915,7 +1920,8 @@
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
-            <Assault_Lily_Odaiba_The_Snowdrop> ;
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "矢新愛梨"@ja ;

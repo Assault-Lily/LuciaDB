@@ -655,7 +655,8 @@
         <Uchida_Mayuri>,
         <Hata_Matsuri>,
         <Tsukioka_Momiji>,
-        <Hayakawa_Yahiro> ;
+        <Hayakawa_Yahiro>,
+        <Hishida_Haru> ;
     a lily:Charm ;
 .
 
