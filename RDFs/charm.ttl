@@ -1764,7 +1764,7 @@
 .
 
 <Sharur>
-    # schema:productID ""^^xsd:string ;
+    schema:productID "AC-39"^^xsd:string ;
     lily:seriesName "シャルウル"@ja, "Sharur"@en ;
     schema:name "シャルウル"@ja, "Sharur"@en ;
     # lily:generation ""^^xsd:integer ;
