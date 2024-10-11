@@ -703,7 +703,8 @@
     # lily:legionGrade ""^^xsd:string ;
     # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
-        <Pulmu_Sibelius> ;
+        <Pulmu_Sibelius>,
+        <Felicia_Waddington> ;
     a lily:Legion ;
 .
 

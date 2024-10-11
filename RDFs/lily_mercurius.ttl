@@ -1033,6 +1033,68 @@
     a lily:Lily ;
 .
 
+<Felicia_Waddington>
+    rdfs:label "フェリシア・ウォディントン"^^xsd:string ;
+    schema:familyName "ウォディントン"@ja, "Waddington"@en ;
+    lily:familyNameKana "うぉでぃんとん"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "フェリシア"@ja, "Felicia"@en ;
+    lily:givenNameKana "ふぇりしあ"@ja ;
+    schema:name "フェリシア・ウォディントン"@ja, "Felicia Waddington"@en ;
+    lily:nameKana "ふぇりしあ・うぉでぃんとん"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "聖メルクリウスインターナショナルスクール"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Ramiel> ;
+    lily:legionJobTitle "副隊長"^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
+
 <Nagano_Shizuki>
     rdfs:label "永野紫月"^^xsd:string ;
     schema:familyName "永野"@ja, "Nagano"@en ;
