@@ -1858,7 +1858,9 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "ヨーグルト"@ja ;
+    lily:favorite
+        "ヨーグルト"@ja,
+        "パスタ"@ja ;
     lily:notGood "怪談奇談"@ja ;
     lily:hobby_talent
         "楽器演奏（フルート）"@ja,
