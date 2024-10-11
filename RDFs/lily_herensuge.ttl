@@ -243,6 +243,9 @@
     ], [
         lily:resource <Homma_Akehi> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Tsuboi_Nanaho> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "石飛恵里花"@ja ;
@@ -811,26 +814,28 @@
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--03-19"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "AB"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "甘いもの（特にチョコバナナ）"@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite
+        "甘いもの（特にチョコバナナ）"@ja,
+        "ハムスター"@ja ;
+    lily:notGood "高い所"@ja ;
+    lily:hobby_talent "読書"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "縮地"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Sugaar> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "エレンスゲ女学園"^^xsd:string ;
     lily:rank "3"^^xsd:integer ;
     # lily:gardenDepartment ""^^xsd:string ;
@@ -850,13 +855,23 @@
     #    lily:additionalInformation ""@ja ;
     # ] ;
     lily:relationship [
+        lily:resource <Iijima_Renka> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Fujita_Asagao> ;
+        lily:additionalInformation "『ブラックコーヒー同盟』"@ja ;
+    ], [
         lily:resource <Matsumura_Fuka> ;
         lily:additionalInformation "仲が悪い"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "和泉風花"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q71679217>,
+            <http://ja.dbpedia.org/resource/和泉風花> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 

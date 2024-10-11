@@ -642,7 +642,8 @@
     lily:user
         <Toki_Kureha>,
         <Yukawa_Mizuki>,
-        <Amamiya_Sofia_Seren> ;
+        <Amamiya_Sofia_Seren>,
+        <Tsuboi_Nanaho> ;
     a lily:Charm ;
 .
 

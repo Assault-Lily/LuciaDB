@@ -754,6 +754,9 @@
     ], [
         lily:resource <Kawabata_Hotaru> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Tsuboi_Nanaho> ;
+        lily:additionalInformation "『ブラックコーヒー同盟』"@ja ;
     ] ;
     lily:cast [
         schema:name "春咲暖"@ja ;
