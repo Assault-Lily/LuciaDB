@@ -177,10 +177,10 @@
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--05-15"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "A"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
@@ -188,10 +188,10 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "アマツカミ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted true ;
-    # lily:boostedSkill ""^^xsd:string ;
+    lily:boostedSkill "ノスフェラトゥ"^^xsd:string ;
     lily:charm [
         lily:resource <Muramasa_Blade> ;
         lily:usedIn "ラスバレ"^^xsd:string ;
