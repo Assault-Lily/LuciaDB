@@ -90,7 +90,7 @@
     schema:name "カタリナ・アセンシオ"@ja, "Catalina Asensio"@en ;
     lily:nameKana "かたりな・あせんしお"@ja ;
     # lily:anotherName ""@ja ;
-    # foaf:age ""^^xsd:integer ;
+    foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
@@ -115,7 +115,7 @@
     # ] ;
     lily:garden "聖メルクリウスインターナショナルスクール"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
-    # lily:grade ""^^xsd:integer ;
+    lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Raguel> ;
