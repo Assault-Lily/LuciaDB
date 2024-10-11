@@ -170,8 +170,9 @@
         <Takatori_Natalie_Towa>,
         <Toride_Suzanne_Reika>,
         <Yamaguchi_Chihiro> ;
-    lily:hasVariant <Dainsleif_Carbin> ;
-    lily:hasVariant <Dainsleif_Marksman> ;
+    lily:hasVariant
+        <Dainsleif_Carbin>,
+        <Dainsleif_Marksman> ;
     a lily:Charm ;
 .
 
@@ -206,6 +207,20 @@
         <Miyairi_Fubuki>,
         <Fujimoto_Balbina_Otome> ;
     lily:isVariantOf <Dainsleif> ;
+    lily:hasVariant <Lagulf> ;
+    a lily:Charm ;
+.
+
+<Lagulf>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "ダインスレイフ"@ja, "Dainsleif"@en ;
+    schema:name "ラーグルフ"@ja, "Lagulf"@en ;
+    lily:generation "2"^^xsd:decimal ;
+    # lily:requiredSkillerVal ""^^xsd:integer ;
+    schema:manufacturer <Yggdrasill> ;
+    lily:user <Iwaya_Kukuri> ;
+    lily:isVariantOf <Dainsleif_Carbin> ;
+    lily:additionalInformation "ダインスレイフ・カービンの再設計機"@ja ;
     a lily:Charm ;
 .
 
