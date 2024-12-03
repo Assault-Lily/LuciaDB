@@ -4575,7 +4575,8 @@
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
-        "和歌"@ja ;
+        "和歌"@ja,
+        "和菓子"@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
