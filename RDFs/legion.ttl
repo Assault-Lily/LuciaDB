@@ -906,3 +906,19 @@
         <Yoshioka_Tomoha> ;
     a lily:Legion ;
 .
+
+### シエルリント女学薗
+
+<Rosenheim>
+    schema:name "カヴン・ローゼンハイム"@ja, "Coven Rosenheim"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    lily:legionGrade "SSS"^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Horaigyoku>,
+        <Kinaigyoku>,
+        <Ginaigyoku>,
+        <Kuroyurinokimi> ;
+    a lily:Legion ;
+.

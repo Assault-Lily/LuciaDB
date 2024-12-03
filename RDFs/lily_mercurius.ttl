@@ -71,6 +71,9 @@
     ], [
         lily:resource <Izue_Shinobu> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Horaigyoku> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;
