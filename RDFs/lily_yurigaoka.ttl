@@ -6093,7 +6093,7 @@
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "旧館寮長"@ja ;
     lily:legion <Schwartz_Grail> ;
-    # lily:legionJobTitle ""^^xsd:string ;
+    lily:legionJobTitle "副隊長"^^xsd:string ;
     lily:position "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
