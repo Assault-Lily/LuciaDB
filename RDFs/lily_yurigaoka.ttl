@@ -5441,7 +5441,7 @@
     # lily:class ""^^xsd:string ;
     lily:gardenJobTitle "新館寮長"@ja ;
     lily:legion <Lohengrin> ;
-    # lily:legionJobTitle ""^^xsd:string ;
+    lily:legionJobTitle "副隊長"^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
         "TZ"^^xsd:string,
