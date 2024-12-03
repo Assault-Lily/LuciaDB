@@ -200,7 +200,7 @@
         "大樹の至宝"@ja,
         "元「イルマ四天王」"@ja ;
     foaf:age "16"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "154.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     schema:birthDate "--09-22"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
