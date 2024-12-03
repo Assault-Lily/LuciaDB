@@ -631,7 +631,9 @@
     lily:favorite
         "鉱物収集"@ja,
         "エビフライ"@ja ;
-    lily:notGood "注射"@ja ;
+    lily:notGood
+        "注射"@ja,
+        "とろろ"@ja ;
     lily:hobby_talent
         "絵を描くこと"@ja,
         "博物学"@ja ;
