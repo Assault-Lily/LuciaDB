@@ -679,7 +679,9 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "古生物、恐竜"@ja ;
+    lily:favorite "古生物"@ja,
+        "恐竜"@ja,
+        "コロッケ"@ja ;
     lily:notGood "物を捨てること"@ja ;
     lily:hobby_talent
         "読書"@ja,
