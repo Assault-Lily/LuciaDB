@@ -528,7 +528,8 @@
     schema:member
         <Hirose_Minato>,
         <Soga_Suzuna>,
-        <Kishida_Hanabusa> ;
+        <Kishida_Hanabusa>,
+        <Munakata_Tsubomi> ;
     lily:submember
         <Munakata_Ushio> ;
     a lily:Legion ;
