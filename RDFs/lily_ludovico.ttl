@@ -655,13 +655,13 @@
 
 <Lee_Christina_Susu>
     rdfs:label "李・クリスティーナ・思思"^^xsd:string ;
-    schema:familyName "李"@ja, "Li"@en ;
+    schema:familyName "李"@ja, "Lee"@en ;
     lily:familyNameKana "りー"@ja ;
-    schema:additionalName "クリスティーナ"@ja, "Clystina"@en ;
+    schema:additionalName "クリスティーナ"@ja, "Christina"@en ;
     lily:additionalNameKana "くりすてぃーな"@ja ;
-    schema:givenName "思思"@ja, "Sisi"@en ;
+    schema:givenName "思思"@ja, "Susu"@en ;
     lily:givenNameKana "すーすー"@ja ;
-    schema:name "李・クリスティーナ・思思"@ja, "Li Clystina Sisi"@en ;
+    schema:name "李・クリスティーナ・思思"@ja, "Lee Christina Susu"@en ;
     lily:nameKana "りー・くりすてぃーな・すーすー"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "17"^^xsd:integer ;
