@@ -370,6 +370,14 @@ lily:producer           a   rdf:Property ;
     rdfs:comment            "プロデューサーを表すプロパティ" ;
     rdfs:label              "プロデューサー"@ja .
 
+lily:associateProducer  a   rdf:Property ;
+    rdfs:comment            "アソシエイトプロデューサーを表すプロパティ" ;
+    rdfs:label              "アソシエイトプロデューサー"@ja .
+
+lily:assistantProducer  a   rdf:Property ;
+    rdfs:comment            "アシスタントプロデューサーを表すプロパティ" ;
+    rdfs:label              "アシスタントプロデューサー"@ja .
+
 lily:scenarioWriter     a   rdf:Property ;
     rdfs:comment            "脚本を表すプロパティ" ;
     rdfs:label              "脚本"@ja .
