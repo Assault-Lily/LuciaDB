@@ -1130,7 +1130,7 @@
         "犬"@ja,
         "ピザ"@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent "長距離攻撃"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ヘリオスフィア"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
