@@ -975,7 +975,7 @@
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite "ウナギ"@ja ;
     lily:notGood "辛いもの"@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent "花を愛でること"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "カリスマ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
