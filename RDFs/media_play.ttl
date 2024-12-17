@@ -5002,8 +5002,8 @@
     ], [
         schema:name "MEW"@ja ;
         # lily:resource <> ;
-        # lily:performAs <> ;
-        lily:additionalInformation "？？？役"@ja ;
+        lily:performAs <Lovisa> ;
+        lily:additionalInformation "当初「？？？役」として紹介された"@ja ;
     ] ;
     a lily:Play ;
 .
