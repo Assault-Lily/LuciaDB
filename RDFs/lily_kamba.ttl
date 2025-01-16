@@ -198,7 +198,7 @@
     lily:bloodType "A"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     lily:color "81E6CB"^^xsd:hexBinary ;
-    # schema:birthPlace ""@ja, ""@en ;
+    schema:birthPlace "徳島県"@ja, "Tokushima"@en ;
     lily:favorite
         "麻婆豆腐"@ja,
         "辛いもの"@ja ;
