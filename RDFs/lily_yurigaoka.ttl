@@ -2096,7 +2096,7 @@
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
-    # lily:schutzengel <> ;
+    lily:schutzengel <Tada_Shiera> ;
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
@@ -8909,7 +8909,7 @@
     lily:pastTaskforce <Odaiba_Interception_Taskforce_3> ;
     lily:schutzengel <Yatsuka_Gyokuyo> ;
     # lily:pastSchutzengel <> ;
-    # lily:schild <> ;
+    lily:schild <Mori_Tatsuki> ;
     # lily:pastSchild <> ;
     lily:roomMate <Kuma_Ayane> ;
     # schema:parent <> ;
