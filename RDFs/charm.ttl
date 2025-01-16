@@ -1774,3 +1774,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Morddure>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "モルデュール"@ja, "Morddure"@en ;
+    schema:name "モルデュール"@ja, "Morddure"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <>;
+    lily:user <Tsumaki_Natsumi> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
