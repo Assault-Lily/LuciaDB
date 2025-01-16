@@ -4266,7 +4266,7 @@
     # lily:pastSchutzengel <> ;
     lily:schild <Kondo_Misaka> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Sekino_Yoko> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -10124,7 +10124,7 @@
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
-    # lily:roomMate <> ;
+    lily:roomMate <Murakami_Tokiwa> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
