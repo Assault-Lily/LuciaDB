@@ -127,10 +127,14 @@
         # lily:resource <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "楠世蓮"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11541155>,
+            <http://ja.dbpedia.org/resource/楠世蓮> ;
+        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -191,10 +195,14 @@
         # lily:resource <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "末永みゆ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11519760>,
+            <http://ja.dbpedia.org/resource/末永みゆ> ;
+        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 

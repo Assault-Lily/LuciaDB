@@ -349,7 +349,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q11517262>,
             <http://ja.dbpedia.org/resource/朝倉ふゆな> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima_2> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Sturm_Sanngridr> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -447,7 +449,8 @@
             <League_of_Gardens>,
             <The_Fateful_Gift>,
             <Lost_Memories>,
-            <New_Chapter_Sanngridr_Oshima_2> ;
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Sturm_Sanngridr> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "遥りさ"@ja ;
@@ -2523,6 +2526,13 @@
             <Assault_Lily_Bouquet>,
             <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "河内美里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q65272225>,
+            <http://ja.dbpedia.org/resource/河内美里> ;
+        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
 .
@@ -2613,10 +2623,21 @@
         lily:resource <Watanabe_Akane> ;
         lily:additionalInformation "仲が良い"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "小松未可子"@ja ;
+        lily:resource
+            <hhttps://www.wikidata.org/wiki/Q1593184>,
+            <http://ja.dbpedia.org/resource/小松未可子> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "込山榛香"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27917702>,
+            <http://ja.dbpedia.org/resource/込山榛香> ;
+        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -3555,7 +3576,8 @@
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Last_Bullet> ;
+            <Assault_Lily_Last_Bullet>,
+            <Assault_Lily_Sturm_Sanngridr> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3677,7 +3699,8 @@
             <http://ja.dbpedia.org/resource/大森莉緒> ;
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2> ;
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Sturm_Sanngridr> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3760,6 +3783,13 @@
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "小松穂葉"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24867742>,
+            <http://ja.dbpedia.org/resource/小松穂葉> ;
+        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3855,7 +3885,8 @@
             <http://ja.dbpedia.org/resource/林田真尋> ;
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2> ;
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Sturm_Sanngridr> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3933,7 +3964,8 @@
             <http://ja.dbpedia.org/resource/大滝紗緒里> ;
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2> ;
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Sturm_Sanngridr> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4018,7 +4050,8 @@
             <http://ja.dbpedia.org/resource/畑美紗起> ;
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2> ;
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Sturm_Sanngridr> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4111,6 +4144,12 @@
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "稲玉洸"@ja ;
+        # lily:resource <> ;
+        lily:performIn
+            <Assault_Lily_Sturm_Sanngridr> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4217,7 +4256,8 @@
             <http://ja.dbpedia.org/resource/牧浦乙葵> ;
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2> ;
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Sturm_Sanngridr> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4314,7 +4354,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q115529746>,
             <http://ja.dbpedia.org/resource/陽高真白> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima_2> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Sturm_Sanngridr> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4384,10 +4426,23 @@
         lily:resource <Endo_Araya> ;
         lily:additionalInformation "仲が良い"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "反田葉月"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q34858256>,
+            <http://ja.dbpedia.org/resource/反田葉月> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Sturm_Sanngridr> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "黒木美佑"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q34858256>,
+            <http://ja.dbpedia.org/resource/反田葉月> ;
+        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -4469,7 +4524,8 @@
         lily:resource <http://ja.dbpedia.org/resource/安藤千伽奈> ;
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2> ;
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Sturm_Sanngridr> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4560,10 +4616,137 @@
         lily:resource <Seike_Tomoyo> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
-    # lily:cast [
+    lily:cast [
+        schema:name "林鼓子"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11533390>,
+            <http://ja.dbpedia.org/resource/林鼓子> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Sturm_Sanngridr> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "松村芽久未"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q124590595>,
+            <http://ja.dbpedia.org/resource/松村芽久未> ;
+        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Lily ;
+.
+
+<Mashima_Moyu>
+    rdfs:label "真島百由"^^xsd:string ;
+    schema:familyName "真島"@ja, "Mashima"@en ;
+    lily:familyNameKana "ましま"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "百由"@ja, "Moyu"@en ;
+    lily:givenNameKana "もゆ"@ja ;
+    schema:name "真島百由"@ja, "Mashima Moyu"@en ;
+    lily:nameKana "ましまもゆ"@ja ;
+    lily:anotherName "聖学工房の魔術師"@ja ;
+    foaf:age "16"^^xsd:integer ;
+    schema:height "164.0"^^xsd:float ;
+    schema:weight "52.0"^^xsd:float ;
+    schema:birthDate "--09-19"^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    lily:bloodType "O"^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    lily:favorite "肉料理"@ja ;
+    lily:notGood "ねずみ"@ja ;
+    lily:hobby_talent "CHARMの研究開発"@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "この世の理"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Asterion> ;
+        lily:usedIn
+            "アニメ"^^xsd:string,
+            "ドール Ver.1.5"^^xsd:string,
+            "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <First_Generation_Charm> ;
+        lily:usedIn "ドールVer.1.0"^^xsd:string ;
+        lily:additionalInformation
+            "ブレードタイプ"@ja,
+            "クロータイプ"@ja,
+            "ショットガンタイプ"@ja,
+            "ハンドガンタイプ"@ja ;
+    ], [
+        lily:resource <Zeroshiki_Mikasa> ;
+        lily:usedIn "小説"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
+    lily:gardenDepartment "工廠科"^^xsd:string ;
+    lily:grade "11"^^xsd:integer ;
+    lily:class "檜組"^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Sanngridr> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:schutzengel <> ;
+    # lily:pastSchutzengel <> ;
+    lily:schild <Miliam_Hildegard_von_Guropius> ;
+    # lily:pastSchild <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
+    lily:relationship [
+        lily:resource <Hasebe_Touka> ;
+        lily:additionalInformation "親友"@ja ;
+    ], [
+        lily:resource <Amano_Soraha> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Nagasawa_Yuki> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Banshoya_Ena> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Amatsu_Marei> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Takahata_Masaki> ;
+        lily:additionalInformation "仲の良かった後輩"@ja ;
+    ], [
+        lily:resource <Luise_Ingels> ;
+        lily:additionalInformation "友人"@ja ;
+    ] ;
+    lily:cast [
+        schema:name "水瀬いのり"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11548933>,
+            <http://ja.dbpedia.org/resource/水瀬いのり> ;
+        lily:performIn
+            <Assault_Lily_Bouquet>,
+            <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "斉藤瑞季"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q111113022>,
+            <http://ja.dbpedia.org/resource/斉藤瑞季> ;
+        lily:performIn
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Sturm_Sanngridr> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -4641,7 +4824,8 @@
         lily:resource <https://www.wikidata.org/wiki/Q112133037> ;
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2> ;
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Sturm_Sanngridr> ;
     ] ;
     a lily:Lily ;
 .
@@ -10153,10 +10337,14 @@
         # lily:resource <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "吉岡茉祐"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q15731360>,
+            <http://ja.dbpedia.org/resource/吉岡茉祐> ;
+        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -10227,118 +10415,6 @@
 .
 
 ### LG不明・無所属
-
-<Mashima_Moyu>
-    rdfs:label "真島百由"^^xsd:string ;
-    schema:familyName "真島"@ja, "Mashima"@en ;
-    lily:familyNameKana "ましま"@ja ;
-    # schema:additionalName ""@ja, ""@en ;
-    # lily:additionalNameKana ""@ja ;
-    schema:givenName "百由"@ja, "Moyu"@en ;
-    lily:givenNameKana "もゆ"@ja ;
-    schema:name "真島百由"@ja, "Mashima Moyu"@en ;
-    lily:nameKana "ましまもゆ"@ja ;
-    lily:anotherName "聖学工房の魔術師"@ja ;
-    foaf:age "16"^^xsd:integer ;
-    schema:height "164.0"^^xsd:float ;
-    schema:weight "52.0"^^xsd:float ;
-    schema:birthDate "--09-19"^^xsd:gMonthDay ;
-    lily:lifeStatus "alive"^^xsd:string ;
-    # lily:killedIn ""^^xsd:string ;
-    lily:bloodType "O"^^xsd:string ;
-    schema:gender "female"^^xsd:string ;
-    # lily:color ""^^xsd:hexBinary ;
-    # schema:birthPlace ""@ja, ""@en ;
-    lily:favorite "肉料理"@ja ;
-    lily:notGood "ねずみ"@ja ;
-    lily:hobby_talent "CHARMの研究開発"@ja ;
-    # lily:skillerVal ""^^xsd:integer ;
-    lily:rareSkill "この世の理"^^xsd:string ;
-    # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted false ;
-    # lily:boostedSkill ""^^xsd:string ;
-    lily:charm [
-        lily:resource <Asterion> ;
-        lily:usedIn
-            "アニメ"^^xsd:string,
-            "ドール Ver.1.5"^^xsd:string,
-            "ラスバレ"^^xsd:string ;
-        # lily:additionalInformation ""@ja ;
-    ], [
-        lily:resource <First_Generation_Charm> ;
-        lily:usedIn "ドールVer.1.0"^^xsd:string ;
-        lily:additionalInformation
-            "ブレードタイプ"@ja,
-            "クロータイプ"@ja,
-            "ショットガンタイプ"@ja,
-            "ハンドガンタイプ"@ja ;
-    ], [
-        lily:resource <Zeroshiki_Mikasa> ;
-        lily:usedIn "小説"^^xsd:string ;
-        # lily:additionalInformation ""@ja ;
-    ] ;
-    lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
-    lily:gardenDepartment "工廠科"^^xsd:string ;
-    lily:grade "11"^^xsd:integer ;
-    lily:class "檜組"^^xsd:string ;
-    # lily:gardenJobTitle ""@ja ;
-    lily:legion <Sanngridr> ;
-    # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
-    # lily:pastLegion <> ;
-    # lily:taskforce <> ;
-    # lily:pastTaskforce <> ;
-    # lily:schutzengel <> ;
-    # lily:pastSchutzengel <> ;
-    lily:schild <Miliam_Hildegard_von_Guropius> ;
-    # lily:pastSchild <> ;
-    # lily:roomMate <> ;
-    # schema:parent <> ;
-    # schema:sibling [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
-    lily:relationship [
-        lily:resource <Hasebe_Touka> ;
-        lily:additionalInformation "親友"@ja ;
-    ], [
-        lily:resource <Amano_Soraha> ;
-        lily:additionalInformation "友人"@ja ;
-    ], [
-        lily:resource <Nagasawa_Yuki> ;
-        lily:additionalInformation "友人"@ja ;
-    ], [
-        lily:resource <Banshoya_Ena> ;
-        lily:additionalInformation "友人"@ja ;
-    ], [
-        lily:resource <Amatsu_Marei> ;
-        lily:additionalInformation "友人"@ja ;
-    ], [
-        lily:resource <Takahata_Masaki> ;
-        lily:additionalInformation "仲の良かった後輩"@ja ;
-    ], [
-        lily:resource <Luise_Ingels> ;
-        lily:additionalInformation "友人"@ja ;
-    ] ;
-    lily:cast [
-        schema:name "水瀬いのり"@ja ;
-        lily:resource
-            <https://www.wikidata.org/wiki/Q11548933>,
-            <http://ja.dbpedia.org/resource/水瀬いのり> ;
-        lily:performIn
-            <Assault_Lily_Bouquet>,
-            <Assault_Lily_Last_Bullet> ;
-        # lily:additionalInformation ""@ja ;
-    ], [
-        schema:name "斉藤瑞季"@ja ;
-        lily:resource
-            <https://www.wikidata.org/wiki/Q111113022>,
-            <http://ja.dbpedia.org/resource/斉藤瑞季> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima_2> ;
-        # lily:additionalInformation ""@ja ;
-    ] ;
-    a lily:Lily ;
-.
 
 <Masuzawa_Koto>
     rdfs:label "増沢湖都"^^xsd:string ;
@@ -10824,10 +10900,14 @@
         lily:resource <Takeda_Mimi> ;
         lily:additionalInformation "仲が悪い"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "佐々木優佳里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q16097304>,
+            <http://ja.dbpedia.org/resource/佐々木優佳里> ;
+        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 

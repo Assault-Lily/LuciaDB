@@ -4296,7 +4296,7 @@
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
     lily:previousWork <New_Chapter_Sanngridr_Oshima>;
-    # lily:nextWork <>;
+    lily:nextWork <Assault_Lily_Sturm_Sanngridr>;
     # lily:originalWork <>;
     # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -4369,6 +4369,20 @@
             <https://www.wikidata.org/wiki/Q116161488>,
             <http://ja.dbpedia.org/resource/畑美紗起> ;
         lily:performAs <Kurokawa_Nady_Hanna> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "反田葉月"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q34858256>,
+            <http://ja.dbpedia.org/resource/反田葉月> ;
+        lily:performAs <Tetsukawa_Toa> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "林鼓子"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11533390>,
+            <http://ja.dbpedia.org/resource/林鼓子> ;
+        lily:performAs <Nagasaka_Maho> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "大滝紗緒里"@ja ;
@@ -5005,5 +5019,230 @@
         lily:performAs <Lovisa> ;
         lily:additionalInformation "当初「？？？役」として紹介された"@ja ;
     ] ;
+    a lily:Play ;
+.
+
+<Assault_Lily_Sturm_Sanngridr>
+    lily:genre "舞台"@ja ;
+    schema:name "「アサルトリリィ・シュツルム」～サングリーズル編～"@ja ;
+    schema:alternateName "シュツルム"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:location "かめありリリオホール"^^xsd:string ;
+    schema:startDate "2025-04-25"^^xsd:date ;
+    schema:endDate "2025-04-30"^^xsd:date ;
+    # schema:duration "PT2H15M"^^xsd:duration ;
+    lily:showTime
+        "2025-04-25T19:00:00+09:00"^^xsd:dateTime,
+        "2025-04-26T13:00:00+09:00"^^xsd:dateTime,
+        "2025-04-26T18:00:00+09:00"^^xsd:dateTime,
+        "2025-04-27T13:00:00+09:00"^^xsd:dateTime,
+        "2025-04-27T18:00:00+09:00"^^xsd:dateTime,
+        "2025-04-29T13:00:00+09:00"^^xsd:dateTime,
+        "2025-04-29T18:00:00+09:00"^^xsd:dateTime,
+        "2025-04-30T13:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
+    # lily:additionalInformation ""@ja ;
+    schema:abstract "大島近海ネスト郡のデスゾーンが解消された直後、近藤貞花の姿が消えた…！\n真島百由が貞花のCHARMコアのログデータを解析すると、ルサルカによって甲州に連れ去られたことがわかった。怒り心頭のサングリーズルはすぐに甲州へ向かおうとするが、甲州は長らくデスゾーン区域の為、セイクリッドドミネーターの力を持つ貞花がいない状態での突貫は自殺行為である。\n百合ヶ丘女学院は、それでも出撃しようとするサングリーズルヘ支援物資とともに増援メンバーを送った。また、大島近海ネスト調査隊であった二川二水は、シュッツエンゲルである山梨日羽梨とともに戦うことを決め、楓・J・ヌーベルも二水と共に甲州へ行くことに。楓の出撃を聞いた相模女子の石川葵、松永遊糸も甲州に向かった。\nなんとか甲州に入り、貞花の居場所に辿り着いたリリィ達。しかしそこには、力を封じられて衰弱した貞花の姿があった。\nデスゾーンの中、貞花奪還戦が始まる！！"@ja ;
+    lily:previousWork <New_Chapter_Sanngridr_Oshima_2>;
+    # lily:nextWork <>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
+    lily:originalAuthor "尾花沢軒栄"@ja ;
+    # lily:supervisor ""@ja ;
+    # lily:executiveProducer ""@ja ;
+    # lily:producer "林修司"@ja ;
+    lily:scenarioWriter "桜木さやか"@ja ;
+    lily:episodeDirection "田邊俊喜"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
+    # lily:composer ""@ja ;
+    lily:planning "ピウス"@ja ;
+    lily:production "ピウス"@ja ;
+    # lily:contributor ""@ja ;
+    # lily:cooperation ""@ja ;
+    lily:organizer
+        "ピウス"@ja,
+        "アゾンインターナショナル"@ja ;
+    lily:cast [
+        schema:name "大森莉緒"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q83680542>,
+            <http://ja.dbpedia.org/resource/大森莉緒> ;
+        lily:performAs <Kondo_Misaka> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "牧浦乙葵"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q108777087>,
+            <http://ja.dbpedia.org/resource/牧浦乙葵> ;
+        lily:performAs <Hasebe_Touka> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "稲玉洸"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Luise_Ingels> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "陽高真白"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q115529746>,
+            <http://ja.dbpedia.org/resource/陽高真白> ;
+        lily:performAs <Murakami_Tokiwa> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "小松穂葉"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24867742>,
+            <http://ja.dbpedia.org/resource/小松穂葉> ;
+        lily:performAs <Kiko_Totori> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "林田真尋"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q19162226>,
+            <http://ja.dbpedia.org/resource/林田真尋> ;
+        lily:performAs <Imagawa_Homare> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "伊藤優衣"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11379878>,
+            <http://ja.dbpedia.org/resource/伊藤優衣> ;
+        lily:performAs <Yamanashi_Hibari> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "畑美紗起"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q116161488>,
+            <http://ja.dbpedia.org/resource/畑美紗起> ;
+        lily:performAs <Kurokawa_Nady_Hanna> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "反田葉月"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q34858256>,
+            <http://ja.dbpedia.org/resource/反田葉月> ;
+        lily:performAs <Tetsukawa_Toa> ;
+        lily:additionalInformation "Wキャスト。出演日: 4/25(金), 4/29(火), 4/30(水)"@ja ;
+    ], [
+        schema:name "黒木美佑"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q79739191>,
+            <http://ja.dbpedia.org/resource/黒木美佑> ;
+        lily:performAs <Tetsukawa_Toa> ;
+        lily:additionalInformation "Wキャスト。出演日: 4/26(土), 4/27(日)"@ja ;
+    ], [
+        schema:name "林鼓子"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11533390>,
+            <http://ja.dbpedia.org/resource/林鼓子> ;
+        lily:performAs <Nagasaka_Maho> ;
+        lily:additionalInformation "Wキャスト。出演日: 4/29(火), 4/30(水)"@ja ;
+    ], [
+        schema:name "松村芽久未"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q124590595>,
+            <http://ja.dbpedia.org/resource/松村芽久未> ;
+        lily:performAs <Nagasaka_Maho> ;
+        lily:additionalInformation "Wキャスト。出演日: 4/25(金), 4/26(土), 4/27(日)"@ja ;
+    ], [
+        schema:name "大滝紗緒里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q60989916>,
+            <http://ja.dbpedia.org/resource/大滝紗緒里> ;
+        lily:performAs <Seike_Tomoyo> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "安藤千伽奈"@ja ;
+        lily:resource <http://ja.dbpedia.org/resource/安藤千伽奈> ;
+        lily:performAs <Imai_Seira> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "斉藤瑞季"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q111113022>,
+            <http://ja.dbpedia.org/resource/斉藤瑞季> ;
+        lily:performAs <Mashima_Moyu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "日永麗"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q112133037> ;
+        lily:performAs <Yamaguchi_Chihiro> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "佐々木優佳里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q16097304>,
+            <http://ja.dbpedia.org/resource/佐々木優佳里> ;
+        lily:performAs <Tsumaki_Natsumi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "吉岡茉祐"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q15731360>,
+            <http://ja.dbpedia.org/resource/吉岡茉祐> ;
+        lily:performAs <Sekino_Yoko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "朝倉ふゆな"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11517262>,
+            <http://ja.dbpedia.org/resource/朝倉ふゆな> ;
+        lily:performAs <Kaede_Johan_Nouvel> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "西本りみ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24902567>,
+            <http://ja.dbpedia.org/resource/西本りみ> ;
+        lily:performAs <Futagawa_Fumi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "河内美里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q65272225>,
+            <http://ja.dbpedia.org/resource/河内美里> ;
+        lily:performAs <Rokkaku_Shiori> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "込山榛香"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27917702>,
+            <http://ja.dbpedia.org/resource/込山榛香> ;
+        lily:performAs <Taniguchi_Hijiri> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "蛭田愛梨"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q130553876> ;
+        lily:performAs <Ishikawa_Aoi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "清水凜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q105704315>,
+            <http://ja.dbpedia.org/resource/清水凜> ;
+        lily:performAs <Matsunaga_Yui> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "楠世蓮"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11541155>,
+            <http://ja.dbpedia.org/resource/楠世蓮> ;
+        lily:performAs <Kinrangyoku> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "末永みゆ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11519760>,
+            <http://ja.dbpedia.org/resource/末永みゆ> ;
+        lily:performAs <Ginrangyoku> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "宮崎理奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q9007946>,
+            <http://ja.dbpedia.org/resource/宮崎理奈> ;
+        # lily:performAs <> ;
+        lily:additionalInformation "ルサルカ役"@ja ;
+    ];
     a lily:Play ;
 .

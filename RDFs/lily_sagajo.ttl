@@ -80,10 +80,14 @@
         lily:resource <Miyazaki_Hikaru> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "清水凜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q105704315>,
+            <http://ja.dbpedia.org/resource/清水凜> ;
+        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -198,6 +202,11 @@
         lily:performIn
             <League_of_Gardens>,
             <The_Fateful_Gift> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "蛭田愛梨"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q130553876> ;
+        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
