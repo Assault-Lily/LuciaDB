@@ -83,6 +83,9 @@
         lily:resource <Hitotsuyanagi_Yuri> ;
         lily:additionalInformation "かけがえのない存在"@ja ;
     ], [
+        lily:resource <Takahashi_Yayori> ;
+        lily:additionalInformation "仲が良い"@ja ;
+    ], [
         lily:resource <Hamaguchi_Kayu> ;
         lily:additionalInformation
             "共に甲州から避難した"@ja,
@@ -5683,16 +5686,16 @@
 .
 
 <Takahashi_Yayori>
-    rdfs:label "髙橋耶依"^^xsd:string ;
-    schema:familyName "髙橋"@ja, "Takahashi"@en ;
+    rdfs:label "高橋耶依"^^xsd:string ;
+    schema:familyName "高橋"@ja, "Takahashi"@en ;
     lily:familyNameKana "たかはし"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
     schema:givenName "耶依"@ja, "Yayori"@en ;
     lily:givenNameKana "やより"@ja ;
-    schema:name "髙橋耶依"@ja, "Takahashi Yayori"@en ;
+    schema:name "高橋耶依"@ja, "Takahashi Yayori"@en ;
     lily:nameKana "たかはしやより"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "シュバルツグレイルのマスコット"@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -5737,10 +5740,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Hitotsuyanagi_Riri> ;
+        lily:additionalInformation "仲が良い"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
