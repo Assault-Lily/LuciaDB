@@ -914,11 +914,11 @@
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded false ;
     lily:legionGrade "SSS"^^xsd:string ;
-    # lily:numberOfMembers ""^^xsd:integer ;
+    lily:numberOfMembers "13"^^xsd:integer ;
     schema:member
         <Horaigyoku>,
-        <Kinaigyoku>,
-        <Ginaigyoku>,
+        <Kinrangyoku>,
+        <Ginrangyoku>,
         <Kuroyurinokimi> ;
     a lily:Legion ;
 .

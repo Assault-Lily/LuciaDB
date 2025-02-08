@@ -70,7 +70,7 @@
     a lily:Lily ;
 .
 
-<Kinaigyoku>
+<Kinrangyoku>
     rdfs:label "金藍玉"^^xsd:string ;
     # schema:familyName ""@ja, ""@en ;
     # lily:familyNameKana ""@ja ;
@@ -78,8 +78,8 @@
     # lily:additionalNameKana ""@ja ;
     # schema:givenName ""@ja, ""@en ;
     # lily:givenNameKana ""@ja ;
-    schema:name "金藍玉"@ja ;#, ""@en ;
-    # lily:nameKana ""@ja ;
+    schema:name "金藍玉"@ja, "Kinrangyoku"@en ;
+    lily:nameKana "きんらんぎょく"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -95,7 +95,7 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "フェイズトランセンデンス"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
@@ -111,14 +111,16 @@
     lily:gardenJobTitle "風紀委員長"@ja ;
     lily:legion <Rosenheim> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position
+        "AZ"^^xsd:string,
+        "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
     # lily:roomMate <> ;
     # schema:parent <> ;
     schema:sibling [
-        lily:resource <Ginaigyoku> ;
+        lily:resource <Ginrangyoku> ;
         lily:additionalInformation "双子の妹"@ja ;
     ] ;
     # lily:relationship [
@@ -132,7 +134,7 @@
     a lily:Lily ;
 .
 
-<Ginaigyoku>
+<Ginrangyoku>
     rdfs:label "銀藍玉"^^xsd:string ;
     # schema:familyName ""@ja, ""@en ;
     # lily:familyNameKana ""@ja ;
@@ -140,8 +142,8 @@
     # lily:additionalNameKana ""@ja ;
     # schema:givenName ""@ja, ""@en ;
     # lily:givenNameKana ""@ja ;
-    schema:name "銀藍玉"@ja ;#, ""@en ;
-    # lily:nameKana ""@ja ;
+    schema:name "銀藍玉"@ja, "Ginrangyoku"@en ;
+    lily:nameKana "ぎんらんぎょく"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
@@ -157,7 +159,7 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "ヘリオスフィア"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
@@ -170,17 +172,19 @@
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
-    # lily:gardenJobTitle ""@ja ;
+    lily:gardenJobTitle "風紀委員長"@ja ;
     lily:legion <Rosenheim> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position
+        "AZ"^^xsd:string,
+        "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
     # lily:roomMate <> ;
     # schema:parent <> ;
     schema:sibling [
-        lily:resource <Kinaigyoku> ;
+        lily:resource <Kinrangyoku> ;
         lily:additionalInformation "双子の姉"@ja ;
     ] ;
     # lily:relationship [
