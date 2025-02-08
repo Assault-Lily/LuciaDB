@@ -2544,7 +2544,7 @@
     lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    # schema:birthPlace ""@ja, ""@en ;
+    schema:birthPlace "東京・神田"@ja, "Kanda, Tokyo"@en ;
     lily:favorite
         "麺類"@ja,
         "棒付き飴"@ja,
