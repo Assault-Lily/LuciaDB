@@ -1254,7 +1254,7 @@
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
-    # lily:schutzengel <> ;
+    lily:schutzengel <Banshoya_Ena> ;
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
@@ -1797,7 +1797,7 @@
     lily:pastTaskforce <Odaiba_Interception_Taskforce_3> ;
     lily:schutzengel <Okada_Kisara> ;
     # lily:pastSchutzengel <> ;
-    # lily:schild <> ;
+    lily:schild <Tanaka_Ichi> ;
     # lily:pastSchild <> ;
     lily:roomMate <Amano_Soraha> ;
     # schema:parent <> ;
