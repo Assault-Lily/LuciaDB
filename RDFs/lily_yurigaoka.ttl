@@ -10094,17 +10094,17 @@
 
 <Sekino_Yoko>
     rdfs:label "関野陽子"^^xsd:string ;
-    schema:familyName "関野"@ja ;#, "Sekino"@en ;
-    # lily:familyNameKana "せきの"@ja ;
+    schema:familyName "関野"@ja, "Sekino"@en ;
+    lily:familyNameKana "せきの"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "陽子"@ja ;#, "Yoko"@en ;
-    # lily:givenNameKana "ようこ"@ja ;
-    schema:name "関野陽子"@ja ;#, "Sekino Yoko"@en ;
-    # lily:nameKana "せきのようこ"@ja ;
-    # lily:anotherName ""@ja ;
-    # foaf:age ""^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:givenName "陽子"@ja, "Yoko"@en ;
+    lily:givenNameKana "ようこ"@ja ;
+    schema:name "関野陽子"@ja, "Sekino Yoko"@en ;
+    lily:nameKana "せきのようこ"@ja ;
+    lily:anotherName "夜叉姫"@ja ;
+    foaf:age "17"^^xsd:integer ;
+    schema:height "157.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
@@ -10121,14 +10121,14 @@
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Areadbhair> ;
+        # lily:usedIn ""^^xsd:string ;
+        lily:additionalInformation "ユニーク機体"@ja ;
+    ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
-    # lily:grade ""^^xsd:integer ;
+    lily:grade "12"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Ginnungagap> ;

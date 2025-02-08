@@ -1785,3 +1785,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Areadbhair>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "アラドヴァル"@ja, "Areadbhair"@en ;
+    schema:name "アラドヴァル"@ja, "Areadbhair"@en ;
+    # lily:generation ""^^xsd:integer ;
+    schema:manufacturer <Celticdale>;
+    lily:user <Sekino_Yoko> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
