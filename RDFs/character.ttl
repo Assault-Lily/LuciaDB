@@ -667,10 +667,10 @@
         # lily:resource <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Tsumaki_Natsumi> ;
+        lily:additionalInformation "古文・漢籍の教え子"@ja ;
+    ] ;
     lily:cast [
         schema:name "藤岡沙也香"@ja ;
         lily:resource

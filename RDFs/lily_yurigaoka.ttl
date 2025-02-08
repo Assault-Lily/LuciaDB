@@ -2262,7 +2262,7 @@
     lily:gardenDepartment "普通科"^^xsd:string ;
     lily:grade "12"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
-    lily:gardenJobTitle "風紀委員長"@ja ;
+    lily:gardenJobTitle "元風紀委員長"@ja ;
     lily:legion <Alfheim> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position
@@ -3665,6 +3665,9 @@
         lily:additionalInformation "友人"@ja ;
     ], [
         lily:resource <Yatsuka_Gyokuyo> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Tsumaki_Natsumi> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
@@ -5248,6 +5251,9 @@
         lily:additionalInformation "盟友"@ja ;
     ], [
         lily:resource <Aoki_Kaho> ;
+        lily:additionalInformation "親友"@ja ;
+    ], [
+        lily:resource <Tsumaki_Natsumi> ;
         lily:additionalInformation "親友"@ja ;
     ], [
         lily:resource <Tada_Shiera> ;
@@ -10067,7 +10073,7 @@
     # lily:pastTaskforce <> ;
     # lily:schutzengel <> ;
     # lily:pastSchutzengel <> ;
-    # lily:schild <> ;
+    lily:schild <Tsumaki_Natsumi> ;
     # lily:pastSchild <> ;
     # lily:roomMate <> ;
     # schema:parent <> ;
@@ -10760,7 +10766,7 @@
     lily:nameKana "つまきなつみ"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "159.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     # schema:birthDate ""^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
@@ -10773,9 +10779,9 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "ファンタズム"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted false ;
+    lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Morddure> ;
@@ -10786,14 +10792,16 @@
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
-    lily:gardenJobTitle "新聞部部長"@ja ;
+    lily:gardenJobTitle
+        "元新聞部部長"@ja,
+        "風紀委員長"@ja ;
     # lily:legion <> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
-    # lily:schutzengel <> ;
+    lily:schutzengel <Noda_Ameri> ;
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
@@ -10804,6 +10812,15 @@
     #    lily:additionalInformation ""@ja ;
     # ] ;
     lily:relationship [
+        lily:resource <Takegoshi_Chihana> ;
+        lily:additionalInformation "親友"@ja ;
+    ], [
+        lily:resource <Kondo_Misaka> ;
+        lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Kojima_Nadeshiko> ;
+        lily:additionalInformation "古文・漢籍の師匠"@ja ;
+    ], [
         lily:resource <Takeda_Mimi> ;
         lily:additionalInformation "仲が悪い"@ja ;
     ] ;
