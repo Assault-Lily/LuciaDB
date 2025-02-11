@@ -96,8 +96,8 @@
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "フェイズトランセンデンス"^^xsd:string ;
-    # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted false ;
+    lily:subSkill "カリスマ"^^xsd:string ;
+    lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
     # lily:charm [
     #    lily:resource <> ;
@@ -164,7 +164,7 @@
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ヘリオスフィア"^^xsd:string ;
-    # lily:subSkill ""^^xsd:string ;
+    lily:subSkill "カリスマ"^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
     # lily:charm [
