@@ -522,6 +522,9 @@
     ], [
         lily:resource <Iijima_Renka> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Torii_Miho> ;
+        lily:additionalInformation "エレンスゲマディック隊時代の知人"@ja ;
     ] ;
     lily:cast [
         schema:name "山根綺"@ja ;

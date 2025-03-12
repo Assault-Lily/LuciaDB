@@ -1894,3 +1894,71 @@
     ] ;
     a lily:Character ;
 .
+
+<Torii_Miho>
+    rdfs:label "鳥居美歩"^^xsd:string ;
+    schema:familyName "鳥居"@ja ;#, "Torii"@en ;
+    # lily:familyNameKana "とりい"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "美歩"@ja ;#, "Miho"@en ;
+    # lily:givenNameKana "みほ"@ja ;
+    schema:name "鳥居美歩"@ja ;#, "Torii Miho"@en ;
+    # lily:nameKana "とりいみほ"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "dead"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #    lily:resource <> ;
+    #    lily:usedIn ""^^xsd:string ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "エレンスゲ女学園中等部"^^xsd:string ;
+    # lily:rank ""^^xsd:integer ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Matsumura_Fuka> ;
+        lily:additionalInformation
+            "マディック隊時代の親友"@ja,
+            "将来の共闘を誓った同志"@ja ;
+    ], [
+        lily:resource <Homma_Akehi> ;
+        lily:additionalInformation "マディック隊時代の知人"@ja ;
+    ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Madec ;
+.

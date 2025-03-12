@@ -490,6 +490,11 @@
     ], [
         lily:resource <Shibata_Rindo> ;
         lily:additionalInformation "入魂の間柄"@ja ;
+    ], [
+        lily:resource <Torii_Miho> ;
+        lily:additionalInformation
+            "マディック隊時代の親友"@ja,
+            "将来の共闘を誓った同志"@ja ;
     ] ;
     lily:cast [
         schema:name "集貝はな"@ja ;
