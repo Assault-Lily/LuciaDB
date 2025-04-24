@@ -131,6 +131,7 @@
         lily:usedIn
             "舞台LoG"^^xsd:string,
             "舞台TFG"^^xsd:string,
+            "舞台シュツルム"^^xsd:string,
             "ドール Ver.1.0"^^xsd:string,
             "ドール Ver.2.0"^^xsd:string ;
         lily:additionalInformation
