@@ -37,6 +37,7 @@
     lily:hobby_talent
         "貯金"@ja,
         "将棋"@ja,
+        "チェス"@ja,
         "茶道"@ja,
         "華道"@ja,
         "香道"@ja ;
@@ -47,7 +48,7 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Trigrav> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "舞台シュツルム"^^xsd:string ;
         lily:additionalInformation "試作機"@ja ;
     ] ;
     lily:garden "相模女子高等学館"^^xsd:string ;
