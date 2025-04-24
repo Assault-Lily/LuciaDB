@@ -2329,6 +2329,7 @@
     lily:favorite
         "きのこ"@ja,
         "アイスクリーム（主にバニラ）"@ja,
+        "レモン"@ja,
         "散歩"@ja,
         "日光浴"@ja ;
     lily:notGood
