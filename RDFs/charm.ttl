@@ -169,7 +169,8 @@
         <Lee_Christina_Susu>,
         <Takatori_Natalie_Towa>,
         <Toride_Suzanne_Reika>,
-        <Yamaguchi_Chihiro> ;
+        <Yamaguchi_Chihiro>,
+        <Ginrangyoku> ;
     lily:hasVariant
         <Dainsleif_Carbin>,
         <Dainsleif_Marksman> ;

@@ -152,7 +152,7 @@
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--09-02"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
@@ -161,17 +161,21 @@
     # schema:birthPlace ""@ja, ""@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "魔法"@ja,
+        "世界の神話の勉強"@ja,
+        "占い"@ja,
+        "お菓子作り"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ヘリオスフィア"^^xsd:string ;
     lily:subSkill "カリスマ"^^xsd:string ;
-    lily:isBoosted false ;
+    lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Dainsleif> ;
+        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        lily:additionalInformation "SP機体"@ja ;
+    ] ;
     lily:garden "シエルリント女学薗"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;
