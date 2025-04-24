@@ -1066,7 +1066,7 @@
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    # schema:birthPlace ""@ja, ""@en ;
+    schema:birthPlace "東京・清澄白河"@ja, "Kiyosumi-Shirakawa, Tokyo"@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
     lily:hobby_talent "カリンバの演奏と収集"@ja ;
