@@ -7451,7 +7451,9 @@
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "10"^^xsd:integer ;
     lily:class "李組"^^xsd:string ;
-    # lily:gardenJobTitle ""@ja ;
+    lily:gardenJobTitle
+        "TZ"^^xsd:string ,
+        "AZ"^^xsd:string ;
     lily:legion <Brynhildr_Line> ;
     # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
