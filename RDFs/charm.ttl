@@ -170,6 +170,7 @@
         <Takatori_Natalie_Towa>,
         <Toride_Suzanne_Reika>,
         <Yamaguchi_Chihiro>,
+        <Kinrangyoku>,
         <Ginrangyoku> ;
     lily:hasVariant
         <Dainsleif_Carbin>,
