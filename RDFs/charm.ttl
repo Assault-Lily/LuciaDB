@@ -514,7 +514,8 @@
         <Akashi_Manaka>,
         <Aoki_Kaho>,
         <Okada_Kisara>,
-        <Maki_Wakana> ;
+        <Maki_Wakana>,
+        <Taniguchi_Hijiri> ;
     lily:hasVariant <Gram_Extra> ;
     a lily:Charm ;
 .
@@ -1724,7 +1725,9 @@
     schema:name "テケリ・リ"@ja, "Tekeli-li"@en ;
     # lily:generation ""^^xsd:integer ;
     # schema:manufacturer <> ;
-    lily:user <Kou_No_Hana> ;
+    lily:user
+        <Kou_No_Hana>,
+        <Yamaguchi_Chihiro> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
@@ -1795,6 +1798,17 @@
     # lily:generation ""^^xsd:integer ;
     schema:manufacturer <Celticdale>;
     lily:user <Sekino_Yoko> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Magi_Divider>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "マギディヴァイダー"@ja, "Magi Divider"@en ;
+    schema:name "マギディヴァイダー"@ja, "Magi Divider"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <>;
+    lily:user <Mashima_Moyu> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
