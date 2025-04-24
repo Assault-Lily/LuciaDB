@@ -10317,7 +10317,7 @@
     foaf:age "17"^^xsd:integer ;
     schema:height "157.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--04-29"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
@@ -10326,7 +10326,13 @@
     # schema:birthPlace ""@ja, ""@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "トレーニング"@ja,
+        "戦譜分析"@ja,
+        "戦術理解"@ja,
+        "CHARM研究"@ja,
+        "ヒュージ分析"@ja,
+        "ニッケルハルパの演奏"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ブレイブ"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -10334,7 +10340,7 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Areadbhair> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "舞台シュツルム"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
