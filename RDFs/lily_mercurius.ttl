@@ -57,6 +57,11 @@
     #    lily:additionalInformation ""@ja ;
     # ] ;
     lily:relationship [
+        lily:resource <Learidel_Eschenbach> ;
+        lily:additionalInformation
+            "側近"@ja,
+            "リーアリデルが副帝を名乗ることを認めている"@ja ;
+    ], [
         lily:resource <Kuroki_Francisca_Yuria> ;
         lily:additionalInformation "御台場迎撃戦で才能を引き出す"@ja ;
     ], [
@@ -74,6 +79,70 @@
     ], [
         lily:resource <Horaigyoku> ;
         lily:additionalInformation "友人"@ja ;
+    ] ;
+    # lily:cast [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
+
+<Learidel_Eschenbach>
+    rdfs:label "リーアリデル・エッシェンバッハ"^^xsd:string ;
+    schema:familyName "エッシェンバッハ"@ja, "Eschenbach"@en ;
+    lily:familyNameKana "えっしぇんばっは"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "リーアリデル"@ja, "Learidel"@en ;
+    lily:givenNameKana "りーありでる"@ja ;
+    schema:name "リーアリデル・エッシェンバッハ"@ja, "Learidel Eschenbach"@en ;
+    lily:nameKana "りーありでる・えっしぇんばっは"@ja ;
+    lily:anotherName "副帝"@ja ;
+    foaf:age "16"^^xsd:integer ;
+    schema:height "164.0"^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "ファンタズム"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted true ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+        # lily:resource <> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "聖メルクリウスインターナショナルスクール"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    lily:grade "11"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Raguel> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    lily:position "BZ"^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    lily:pastTaskforce <Odaiba_Interception_Taskforce_4> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Tiuccia_Paumgartner> ;
+        lily:additionalInformation
+            "ティシアの側近"@ja,
+            "ティシアに忠誠を誓っている"@ja ;
     ] ;
     # lily:cast [
     #    lily:resource <> ;

@@ -680,6 +680,7 @@
     # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Tiuccia_Paumgartner>,
+        <Learidel_Eschenbach>,
         <Catalina_Asensio>,
         <Natasha_Metter>,
         <Krista_Frykberg> ;
