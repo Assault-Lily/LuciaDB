@@ -7197,10 +7197,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Yamamoto_Kikyo> ;
+        lily:additionalInformation "桔梗が百合ヶ丘女学院に在籍していた時、懇意にしていた"@ja ;
+    ] ;
     # lily:cast [
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;

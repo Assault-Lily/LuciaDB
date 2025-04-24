@@ -74,3 +74,65 @@
     # ] ;
     a lily:Lily ;
 .
+
+<Yamamoto_Kikyo>
+    rdfs:label "山本桔梗"^^xsd:string ;
+    schema:familyName "山本"@ja, "Yamamoto"@en ;
+    lily:familyNameKana "やまもと"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "桔梗"@ja, "Kikyo"@en ;
+    lily:givenNameKana "ききょう"@ja ;
+    schema:name "山本桔梗"@ja, "Yamamoto Kikyo"@en ;
+    lily:nameKana "やまもとききょう"@ja ;
+    # lily:anotherName ""@ja ;
+    foaf:age "16"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #     lily:resource <> ;
+    #     lily:usedIn ""^^xsd:string ;
+    #     lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "江ノ島臨海女学校"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    lily:grade "11"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    lily:position "AZ"^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #     lily:resource <> ;
+    #     lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Soyogi_Ataru> ;
+        lily:additionalInformation "百合ヶ丘女学院在籍時に懇意にしていた"@ja ;
+    ] ;
+    # lily:cast [
+    #     lily:resource <> ;
+    #     lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
