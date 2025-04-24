@@ -10873,7 +10873,7 @@
     lily:givenNameKana "なつみ"@ja ;
     schema:name "妻木奈摘"@ja, "Tsumaki Natsumi"@en ;
     lily:nameKana "つまきなつみ"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "光をもたらす者"@ja ;
     foaf:age "16"^^xsd:integer ;
     schema:height "159.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
@@ -10884,9 +10884,12 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite "和菓子"@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "文筆"@ja,
+        "ファッション"@ja,
+        "ピアノ"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ファンタズム"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -10894,7 +10897,7 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Morddure> ;
-        # lily:usedIn ""^^xsd:string ;
+        lily:usedIn "舞台シュツルム"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
