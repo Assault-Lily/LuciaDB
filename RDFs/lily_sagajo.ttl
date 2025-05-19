@@ -58,7 +58,9 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Sagajo_Tokusentai> ;
     lily:legionJobTitle "隊長"^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position
+        "TZ"^^xsd:string,
+        "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
