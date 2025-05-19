@@ -1577,7 +1577,7 @@
 .
 
 <Gerr_Na_Gcollan>
-    # schema:productID ""^^xsd:string ;
+    schema:productID "AC-34"^^xsd:string ;
     lily:seriesName "ゲル・ナ・グコラン"@ja, "Gerr na gCollan"@en ;
     schema:name "ゲル・ナ・グコラン"@ja, "Gerr na gCollan"@en ;
     # lily:generation ""^^xsd:integer ;
