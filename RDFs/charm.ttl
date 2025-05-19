@@ -105,7 +105,8 @@
         <Miliam_Hildegard_von_Guropius>,
         <Wang_Yujia>,
         <Kosaka_Anastasiya_Ryoko>,
-        <Yoshizaka_Nagisa> ;
+        <Yoshizaka_Nagisa>,
+        <Karasawa_Aisa> ;
     lily:hasVariant <Gungnir_Carbin> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;

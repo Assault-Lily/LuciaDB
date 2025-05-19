@@ -10363,7 +10363,7 @@
     # lily:schutzengel <> ;
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
-    # lily:pastSchild <> ;
+    lily:pastSchild <Karasawa_Aisa> ;
     lily:roomMate <Murakami_Tokiwa> ;
     # schema:parent <> ;
     # schema:sibling [
@@ -11154,5 +11154,72 @@
             <http://ja.dbpedia.org/resource/橘里依> ;
         lily:performIn <New_Chapter_Sanngridr_Oshima_2> ;
     ] ;
+    a lily:Lily ;
+.
+
+<Karasawa_Aisa>
+    rdfs:label "柄沢秋早"^^xsd:string ;
+    schema:familyName "柄沢"@ja, "Karasawa"@en ;
+    lily:familyNameKana "からさわ"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "秋早"@ja, "Aisa"@en ;
+    lily:givenNameKana "あいさ"@ja ;
+    schema:name "柄沢秋早"@ja, "Karasawa Aisa"@en ;
+    lily:nameKana "からさわあいさ"@ja ;
+    # lily:anotherName ""@ja ;
+    foaf:age "16"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "dead"^^xsd:string ;
+    lily:killedIn "中等部3年時に甲州撤退戦に巻き込まれ死亡"^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Gungnir> ;
+        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    lily:grade "9"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:schutzengel <> ;
+    lily:pastSchutzengel <Sekino_Youko> ;
+    # lily:schild <> ;
+    # lily:pastSchild <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:cast [
+        # schema:name ""@ja ;
+        # lily:resource <> ;
+        # lily:performIn <> ;
+    # ] ;
     a lily:Lily ;
 .
