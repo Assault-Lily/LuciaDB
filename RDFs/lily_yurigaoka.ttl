@@ -4490,8 +4490,8 @@
         "オシャレ"@ja,
         "古典文学"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
-    lily:subSkill "カリスマ"^^xsd:string ;
+    lily:rareSkill "ラプラス"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
