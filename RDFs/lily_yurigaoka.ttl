@@ -4514,7 +4514,7 @@
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
-    # lily:schutzengel <> ;
+    lily:schutzengel <Yamaguchi_Chihiro> ;
     # lily:pastSchutzengel <> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
@@ -4822,6 +4822,10 @@
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
+    # lily:schutzengel <> ;
+    # lily:pastSchutzengel <> ;
+    lily:schild <Imai_Seira> ;
+    # lily:pastSchild <> ;
     # lily:roomMate <> ;
     # schema:parent <> ;
     # schema:sibling [
