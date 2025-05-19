@@ -1676,7 +1676,7 @@
 .
 
 <Lion_King>
-    # schema:productID ""^^xsd:string ;
+    schema:productID "GC-27"^^xsd:string ;
     lily:seriesName "獅子王"@ja, "Lion King"@en ;
     schema:name "獅子王"@ja, "Lion King"@en ;
     # lily:generation ""^^xsd:integer ;
