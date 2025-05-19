@@ -1687,7 +1687,7 @@
 .
 
 <Cruadin>
-    # schema:productID ""^^xsd:string ;
+    schema:productID "AC-36"^^xsd:string ;
     lily:seriesName "クルージーン"@ja, "Cruadín"@en ;
     schema:name "クルージーン"@ja, "Cruadín"@en ;
     # lily:generation ""^^xsd:integer ;
