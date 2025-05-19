@@ -1665,7 +1665,7 @@
 .
 
 <Gusisnautar>
-    # schema:productID ""^^xsd:string ;
+    schema:productID "SC-24"^^xsd:string ;
     lily:seriesName "グシスナウタル"@ja, "Gusisnautar"@en ;
     schema:name "グシスナウタル"@ja, "Gusisnautar"@en ;
     # lily:generation ""^^xsd:integer ;
