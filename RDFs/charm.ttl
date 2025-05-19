@@ -1253,7 +1253,7 @@
 .
 
 <Ascalon>
-    # schema:productID ""^^xsd:string ;
+    schema:productID "GC-23"^^xsd:string ;
     lily:seriesName "アスカロン"@ja, "Ascalon"@en ;
     schema:name "アスカロン"@ja, "Ascalon"@en ;
     # lily:generation ""^^xsd:decimal ;
