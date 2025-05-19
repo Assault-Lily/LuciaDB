@@ -1599,7 +1599,7 @@
 .
 
 <Achalbars>
-    # schema:productID ""^^xsd:string ;
+    schema:productID "GC-26"^^xsd:string ;
     lily:seriesName "アチャルバルス"@ja, "Achalbars"@en ;
     schema:name "アチャルバルス"@ja, "Achalbars"@en ;
     lily:generation "3"^^xsd:integer ;
