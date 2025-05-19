@@ -159,7 +159,7 @@
         <Yamaguchi_Chihiro>,
         <Mashima_Moyu> ;
     schema:alumni
-        <Sekino_Yoko>,
+        <Sekino_Youko>,
         <Takeuchi_Ritsuko> ;
     a lily:Legion ;
 .
@@ -323,7 +323,7 @@
         <Inui_Shuko>,
         <Nagayama_Kaname>,
         <Noda_Ameri>,
-        <Sekino_Yoko>,
+        <Sekino_Youko>,
         <Takeuchi_Ritsuko> ;
     a lily:Legion ;
 .

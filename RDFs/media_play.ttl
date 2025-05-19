@@ -5180,7 +5180,7 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q15731360>,
             <http://ja.dbpedia.org/resource/吉岡茉祐> ;
-        lily:performAs <Sekino_Yoko> ;
+        lily:performAs <Sekino_Youko> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "朝倉ふゆな"@ja ;

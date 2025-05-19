@@ -4335,7 +4335,7 @@
     # lily:pastSchutzengel <> ;
     lily:schild <Kondo_Misaka> ;
     # lily:pastSchild <> ;
-    lily:roomMate <Sekino_Yoko> ;
+    lily:roomMate <Sekino_Youko> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -10307,15 +10307,15 @@
     a lily:Lily ;
 .
 
-<Sekino_Yoko>
+<Sekino_Youko>
     rdfs:label "関野陽子"^^xsd:string ;
     schema:familyName "関野"@ja, "Sekino"@en ;
     lily:familyNameKana "せきの"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "陽子"@ja, "Yoko"@en ;
+    schema:givenName "陽子"@ja, "Youko"@en ;
     lily:givenNameKana "ようこ"@ja ;
-    schema:name "関野陽子"@ja, "Sekino Yoko"@en ;
+    schema:name "関野陽子"@ja, "Sekino Youko"@en ;
     lily:nameKana "せきのようこ"@ja ;
     lily:anotherName "夜叉姫"@ja ;
     foaf:age "17"^^xsd:integer ;

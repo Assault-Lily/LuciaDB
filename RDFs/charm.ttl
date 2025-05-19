@@ -1797,7 +1797,7 @@
     schema:name "アラドヴァル"@ja, "Areadbhair"@en ;
     # lily:generation ""^^xsd:integer ;
     schema:manufacturer <Celticdale>;
-    lily:user <Sekino_Yoko> ;
+    lily:user <Sekino_Youko> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
