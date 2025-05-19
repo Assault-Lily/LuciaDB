@@ -1632,7 +1632,7 @@
 .
 
 <Polydeukes>
-    # schema:productID ""^^xsd:string ;
+    schema:productID "AC-35"^^xsd:string ;
     lily:seriesName "ポリュデウケス"@ja, "Polydeukes"@en ;
     schema:name "ポリュデウケス"@ja, "Polydeukes"@en ;
     # lily:generation ""^^xsd:integer ;
