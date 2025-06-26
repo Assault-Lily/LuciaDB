@@ -64,10 +64,10 @@
     #     lily:resource <> ;
     #     lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-    #     lily:resource <> ;
-    #     lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Takahashi_Michiru> ;
+        lily:additionalInformation "友人"@ja ;
+    ] ;
     # lily:cast [
     #     lily:resource <> ;
     #     lily:additionalInformation ""@ja ;
@@ -129,6 +129,68 @@
     lily:relationship [
         lily:resource <Soyogi_Ataru> ;
         lily:additionalInformation "百合ヶ丘女学院在籍時に懇意にしていた"@ja ;
+    ] ;
+    # lily:cast [
+    #     lily:resource <> ;
+    #     lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
+
+<Takahashi_Michiru>
+    rdfs:label "高橋美散"^^xsd:string ;
+    schema:familyName "高橋"@ja, "Takahashi"@en ;
+    lily:familyNameKana "たかはし"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "美散"@ja, "Michiru"@en ;
+    lily:givenNameKana "みちる"@ja ;
+    schema:name "高橋美散"@ja, "Takahashi Michiru"@en ;
+    lily:nameKana "たかはしみちる"@ja ;
+    # lily:anotherName ""@ja ;
+    foaf:age "15"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+    #     lily:resource <> ;
+    #     lily:usedIn ""^^xsd:string ;
+    #     lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "江ノ島臨海女学校"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    lily:grade "10"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #     lily:resource <> ;
+    #     lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Kawakubo_Orika> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     # lily:cast [
     #     lily:resource <> ;
