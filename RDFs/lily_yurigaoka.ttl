@@ -8988,7 +8988,9 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Schwertleite> ;
     lily:legionJobTitle "隊長"^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position
+        "BZ"^^xsd:string,
+        "TZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
