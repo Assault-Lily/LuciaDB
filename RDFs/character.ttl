@@ -1916,9 +1916,11 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite "いくら"@ja ;
+    lily:notGood
+        "狭いところ"@ja,
+        "高いところ"@ja ;
+    lily:hobby_talent "絵本集め"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     # lily:rareSkill ""^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -1956,9 +1958,13 @@
         lily:resource <Homma_Akehi> ;
         lily:additionalInformation "マディック隊時代の知人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "小山百代"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q38278910>,
+            <http://ja.dbpedia.org/resource/小山百代> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Madec ;
 .
