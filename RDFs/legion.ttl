@@ -684,6 +684,7 @@
         <Catalina_Asensio>,
         <Natasha_Metter>,
         <Krista_Frykberg>,
+        <Cynthia_Lafontaine>,
         <Catrinel_Enescu> ;
     a lily:Legion ;
 .
