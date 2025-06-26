@@ -65,6 +65,9 @@
     #     lily:additionalInformation ""@ja ;
     # ] ;
     lily:relationship [
+        lily:resource <Yamamoto_Kikyo> ;
+        lily:additionalInformation "幼馴染"@ja ;
+    ], [
         lily:resource <Takahashi_Michiru> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
@@ -89,21 +92,27 @@
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--07-10"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "A"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     schema:birthPlace "江ノ島"@ja, "Enoshima"@en ;
-    # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
-    # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
-    # lily:subSkill ""^^xsd:string ;
-    lily:isBoosted false ;
-    # lily:boostedSkill ""^^xsd:string ;
+    lily:favorite
+        "煎餅"@ja,
+        "緑茶"@ja,
+        "カピバラ"@ja ;
+    lily:notGood "野菜"@ja ;
+    lily:hobby_talent "ぬいぐるみ作り"@ja ;
+    lily:skillerVal "90"^^xsd:integer ;
+    lily:rareSkill "レジスタ"^^xsd:string ;
+    lily:subSkill
+        "虹の軌跡"^^xsd:string,
+        "狂乱の閾"^^xsd:string,
+        "聖域転換"^^xsd:string ;
+    lily:isBoosted true ;
+    lily:boostedSkill "リジェネレーター"^^xsd:string ;
     # lily:charm [
     #     lily:resource <> ;
     #     lily:usedIn ""^^xsd:string ;
@@ -127,6 +136,9 @@
     #     lily:additionalInformation ""@ja ;
     # ] ;
     lily:relationship [
+        lily:resource <Kawakubo_Orika> ;
+        lily:additionalInformation "幼馴染"@ja ;
+    ], [
         lily:resource <Soyogi_Ataru> ;
         lily:additionalInformation "百合ヶ丘女学院在籍時に懇意にしていた"@ja ;
     ] ;
