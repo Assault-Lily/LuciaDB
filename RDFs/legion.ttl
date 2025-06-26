@@ -683,7 +683,8 @@
         <Learidel_Eschenbach>,
         <Catalina_Asensio>,
         <Natasha_Metter>,
-        <Krista_Frykberg> ;
+        <Krista_Frykberg>,
+        <Catrinel_Enescu> ;
     a lily:Legion ;
 .
 
