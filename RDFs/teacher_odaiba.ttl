@@ -93,7 +93,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q29525949>,
             <http://ja.dbpedia.org/resource/舞川みやこ> ;
-        lily:performIn <Assault_Lily_Odaiba_The_Snowdrop> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Teacher ;

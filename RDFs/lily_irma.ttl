@@ -93,7 +93,8 @@
             <http://ja.dbpedia.org/resource/佐藤遥> ;
         lily:performIn
             <Assault_Lily_Irma_The_Gleam_of_Dawn>,
-            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -184,7 +185,8 @@
             <http://ja.dbpedia.org/resource/熊沢世莉奈> ;
         lily:performIn
             <Assault_Lily_Irma_The_Gleam_of_Dawn>,
-            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -519,7 +521,8 @@
             <http://ja.dbpedia.org/resource/鵜川もえか> ;
         lily:performIn
             <Assault_Lily_Irma_The_Gleam_of_Dawn>,
-            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -597,7 +600,8 @@
             <http://ja.dbpedia.org/resource/松田彩希> ;
         lily:performIn
             <Assault_Lily_Irma_The_Gleam_of_Dawn>,
-            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

@@ -781,10 +781,14 @@
         lily:resource <Ishikawa_Aoi> ;
         lily:additionalInformation "葵のメルクリウス中等部時代に世話を焼いていた"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "天麻ゆうき"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q112239537>,
+            <http://ja.dbpedia.org/resource/天麻ゆうき> ;
+        lily:performIn <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 

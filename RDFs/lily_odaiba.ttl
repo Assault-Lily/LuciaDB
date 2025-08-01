@@ -456,7 +456,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
-            <Assault_Lily_Odaiba_The_Snowdrop> ;
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -768,7 +769,13 @@
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
-            <Assault_Lily_Odaiba_The_Snowdrop> ;
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "槙原唯"@ja ;
+        # lily:resource <> ;
+        lily:performIn <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1803,7 +1810,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q109318876>,
             <http://ja.dbpedia.org/resource/橘里依> ;
-        lily:performIn <Assault_Lily_Odaiba_The_Snowdrop> ;
+        lily:performIn
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
     ] ;
     a lily:Lily ;
 .
@@ -1927,7 +1936,8 @@
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
             <Assault_Lily_Odaiba_The_Snowdrop>,
-            <Assault_Lily_Last_Bullet> ;
+            <Assault_Lily_Last_Bullet>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "矢新愛梨"@ja ;
@@ -2058,7 +2068,8 @@
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
-            <Assault_Lily_Odaiba_The_Snowdrop> ;
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

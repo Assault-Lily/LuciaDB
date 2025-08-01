@@ -1356,7 +1356,9 @@
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "野中深愛"@ja ;
-        # lily:resource <> ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q110403836>,
+            <http://ja.dbpedia.org/resource/野中深愛> ;
         lily:performAs <Serizawa_Chikaru> ;
         # lily:additionalInformation ""@ja ;
     ], [
@@ -2029,7 +2031,9 @@
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "野中深愛"@ja ;
-        # lily:resource <> ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q110403836>,
+            <http://ja.dbpedia.org/resource/野中深愛> ;
         lily:performAs <Serizawa_Chikaru> ;
         lily:additionalInformation "アンダーキャストの小菅怜衣さんが代役として出演"@ja ;
     ], [
@@ -5030,7 +5034,7 @@
     schema:location "かめありリリオホール"^^xsd:string ;
     schema:startDate "2025-04-25"^^xsd:date ;
     schema:endDate "2025-04-30"^^xsd:date ;
-    # schema:duration "PT2H15M"^^xsd:duration ;
+    schema:duration "PT2H15M"^^xsd:duration ;
     lily:showTime
         "2025-04-25T19:00:00+09:00"^^xsd:dateTime,
         "2025-04-26T13:00:00+09:00"^^xsd:dateTime,
@@ -5044,7 +5048,7 @@
     # lily:additionalInformation ""@ja ;
     schema:abstract "大島近海ネスト郡のデスゾーンが解消された直後、近藤貞花の姿が消えた…！\n真島百由が貞花のCHARMコアのログデータを解析すると、ルサルカによって甲州に連れ去られたことがわかった。怒り心頭のサングリーズルはすぐに甲州へ向かおうとするが、甲州は長らくデスゾーン区域の為、セイクリッドドミネーターの力を持つ貞花がいない状態での突貫は自殺行為である。\n百合ヶ丘女学院は、それでも出撃しようとするサングリーズルヘ支援物資とともに増援メンバーを送った。また、大島近海ネスト調査隊であった二川二水は、シュッツエンゲルである山梨日羽梨とともに戦うことを決め、楓・J・ヌーベルも二水と共に甲州へ行くことに。楓の出撃を聞いた相模女子の石川葵、松永遊糸も甲州に向かった。\nなんとか甲州に入り、貞花の居場所に辿り着いたリリィ達。しかしそこには、力を封じられて衰弱した貞花の姿があった。\nデスゾーンの中、貞花奪還戦が始まる！！"@ja ;
     lily:previousWork <New_Chapter_Sanngridr_Oshima_2>;
-    # lily:nextWork <>;
+    lily:nextWork <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>;
     # lily:originalWork <>;
     # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -5243,6 +5247,243 @@
             <http://ja.dbpedia.org/resource/宮崎理奈> ;
         # lily:performAs <> ;
         lily:additionalInformation "ルサルカ役"@ja ;
+    ];
+    a lily:Play ;
+.
+
+<Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>
+    lily:genre "舞台"@ja ;
+    schema:name "「アサルトリリィ」-眞說・御台場迎撃戦-"@ja ;
+    schema:alternateName "御台場迎撃戦"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:location "シアター1010"^^xsd:string ;
+    schema:startDate "2025-09-20"^^xsd:date ;
+    schema:endDate "2025-09-25"^^xsd:date ;
+    # schema:duration "PT2H15M"^^xsd:duration ;
+    lily:showTime
+        "2025-09-20T13:00:00+09:00"^^xsd:dateTime,
+        "2025-09-20T18:00:00+09:00"^^xsd:dateTime,
+        "2025-09-21T13:00:00+09:00"^^xsd:dateTime,
+        "2025-09-21T18:00:00+09:00"^^xsd:dateTime,
+        "2025-09-22T18:30:00+09:00"^^xsd:dateTime,
+        "2025-09-23T13:00:00+09:00"^^xsd:dateTime,
+        "2025-09-23T18:00:00+09:00"^^xsd:dateTime,
+        "2025-09-24T18:30:00+09:00"^^xsd:dateTime,
+        "2025-09-25T12:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
+    # lily:additionalInformation ""@ja ;
+    # schema:abstract ""@ja ;
+    lily:previousWork <Assault_Lily_Sturm_Sanngridr>;
+    # lily:nextWork <>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
+    lily:originalAuthor "尾花沢軒栄"@ja ;
+    # lily:supervisor ""@ja ;
+    # lily:executiveProducer ""@ja ;
+    # lily:producer "林修司"@ja ;
+    lily:scenarioWriter "桜木さやか"@ja ;
+    lily:episodeDirection "田邊俊喜"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
+    lily:composer "谷ナオキ"@ja ;
+    lily:planning "ピウス"@ja ;
+    lily:production "ピウス"@ja ;
+    # lily:contributor ""@ja ;
+    # lily:cooperation ""@ja ;
+    lily:organizer
+        "ピウス"@ja,
+        "アゾンインターナショナル"@ja ;
+    lily:cast [
+        schema:name "横山結衣"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q30949810>,
+            <http://ja.dbpedia.org/resource/横山結衣> ;
+        lily:performAs <Amano_Soraha> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "岩田陽葵"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q16264369>,
+            <http://ja.dbpedia.org/resource/岩田陽葵> ;
+        lily:performAs <Yoshimura_Thi_Mai> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "大森莉緒"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q83680542>,
+            <http://ja.dbpedia.org/resource/大森莉緒> ;
+        lily:performAs <Kondo_Misaka> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "加藤里保菜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q16769950>,
+            <http://ja.dbpedia.org/resource/加藤里保菜> ;
+        lily:performAs <Banshoya_Ena> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "星守紗凪"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q69635313>,
+            <http://ja.dbpedia.org/resource/星守紗凪> ;
+        lily:performAs <Watanabe_Akane> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "藍染カレン"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q65281297>,
+            <http://ja.dbpedia.org/resource/藍染カレン> ;
+        lily:performAs <Aoki_Kaho> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "本西彩希帆"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q64783594>,
+            <http://ja.dbpedia.org/resource/本西彩希帆> ;
+        lily:performAs <Akashi_Manaka> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "浜浦彩乃"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27670130>,
+            <http://ja.dbpedia.org/resource/浜浦彩乃> ;
+        lily:performAs <Kiko_Totori> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "牧浦乙葵"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q108777087>,
+            <http://ja.dbpedia.org/resource/牧浦乙葵> ;
+        lily:performAs <Hasebe_Touka> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "林鼓子"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11533390>,
+            <http://ja.dbpedia.org/resource/林鼓子> ;
+        lily:performAs <Tada_Shiera> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "矢野妃菜喜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q56253675>,
+            <http://ja.dbpedia.org/resource/矢野妃菜喜> ;
+        lily:performAs <Tsukioka_Momiji> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "林田真尋"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q19162226>,
+            <http://ja.dbpedia.org/resource/林田真尋> ;
+        lily:performAs <Hishida_Haru> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "春咲暖"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q35172355>,
+            <http://ja.dbpedia.org/resource/春咲暖>;
+        lily:performAs <Fujita_Asagao> ;
+        lily:additionalInformation "Wキャスト。出演日: 9月23日（火祝）〜9月25日（木）"@ja ;
+    ], [
+        schema:name "槙原唯"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Fujita_Asagao> ;
+        lily:additionalInformation "Wキャスト。出演日: 9月20日（土）〜9月22日（月）"@ja ;
+    ], [
+        schema:name "田崎礼奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27918099>,
+            <http://ja.dbpedia.org/resource/田崎礼奈> ;
+        lily:performAs <Kawabata_Hotaru> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "橘里依"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q109318876>,
+            <http://ja.dbpedia.org/resource/橘里依> ;
+        lily:performAs <Yokoyama_Azusa> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "佐藤遥"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27918100>,
+            <http://ja.dbpedia.org/resource/佐藤遥> ;
+        lily:performAs <Nishikawa_Miharu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "熊沢世莉奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q60806778>,
+            <http://ja.dbpedia.org/resource/熊沢世莉奈> ;
+        lily:performAs <Tejima_Komachi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "松田彩希"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24865341>,
+            <http://ja.dbpedia.org/resource/松田彩希> ;
+        lily:performAs <Miyamoto_Komuku> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "鵜川もえか"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q104538909>,
+            <http://ja.dbpedia.org/resource/鵜川もえか> ;
+        lily:performAs <Nakabayashi_Kaina> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "小山百代"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q38278910>,
+            <http://ja.dbpedia.org/resource/小山百代> ;
+        lily:performAs <Sengo_Yuna> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "武藤志織"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q17217245>,
+            <http://ja.dbpedia.org/resource/武藤志織> ;
+        lily:performAs <Amatsu_Marei> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "天麻ゆうき"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q112239537>,
+            <http://ja.dbpedia.org/resource/天麻ゆうき> ;
+        lily:performAs <Altea_Alessandrini> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "七海とろろ"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q123405497> ;
+        lily:performAs <Seto_Veronica_Ichika> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "野中深愛"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q110403836>,
+            <http://ja.dbpedia.org/resource/野中深愛> ;
+        lily:performAs <Serizawa_Chikaru> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "舞川みやこ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q29525949>,
+            <http://ja.dbpedia.org/resource/舞川みやこ> ;
+        lily:performAs <Akira_Blanton> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "富田麻帆"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q9026977>,
+            <http://ja.dbpedia.org/resource/富田麻帆> ;
+        # lily:performAs <> ;
+        lily:additionalInformation "巫 役"@ja ;
+    ], [
+        schema:name "星波"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q76283887>,
+            <http://ja.dbpedia.org/resource/星波> ;
+        # lily:performAs <> ;
+        lily:additionalInformation "白雪 役"@ja ;
     ];
     a lily:Play ;
 .

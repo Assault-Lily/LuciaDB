@@ -407,7 +407,8 @@
         lily:performIn
             <The_Fateful_Gift>,
             <Assault_Lily_Last_Bullet>,
-            <Lost_Memories> ;
+            <Lost_Memories>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

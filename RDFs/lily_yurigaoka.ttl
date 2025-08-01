@@ -671,7 +671,8 @@
             <Assault_Lily_Last_Bullet>,
             <League_of_Gardens>,
             <The_Fateful_Gift>,
-            <Lost_Memories> ;
+            <Lost_Memories>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1191,10 +1192,14 @@
         lily:resource <Ban_Kaya> ;
         lily:additionalInformation "シュッツエンゲルの契りを結ぶ約束をしていた後輩"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "本西彩希帆"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q64783594>,
+            <http://ja.dbpedia.org/resource/本西彩希帆> ;
+        lily:performIn <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -1717,6 +1722,13 @@
             <Assault_Lily_Last_Bullet>,
             <New_Chapter_Sanngridr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "横山結衣"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q30949810>,
+            <http://ja.dbpedia.org/resource/横山結衣> ;
+        lily:performIn <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
 .
@@ -1842,6 +1854,13 @@
             <Assault_Lily_Bouquet>,
             <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "加藤里保菜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q16769950>,
+            <http://ja.dbpedia.org/resource/加藤里保菜> ;
+        lily:performIn <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
 .
@@ -1938,6 +1957,13 @@
             <https://ja.dbpedia.org/resource/茅野愛衣>,
             <https://www.wikidata.org/wiki/Q1187078> ;
         lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "星守紗凪"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q69635313>,
+            <http://ja.dbpedia.org/resource/星守紗凪> ;
+        lily:performIn <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3709,7 +3735,8 @@
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Sturm_Sanngridr> ;
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3791,7 +3818,8 @@
             <http://ja.dbpedia.org/resource/浜浦彩乃> ;
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2> ;
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "小松穂葉"@ja ;
@@ -4270,7 +4298,8 @@
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Sturm_Sanngridr> ;
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4918,10 +4947,14 @@
         lily:resource <Takegoshi_Chihana> ;
         lily:additionalInformation "親友"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "藍染カレン"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q65281297>,
+            <http://ja.dbpedia.org/resource/藍染カレン> ;
+        lily:performIn <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -9168,7 +9201,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q11533390>,
             <http://ja.dbpedia.org/resource/林鼓子> ;
-        lily:performIn <Assault_Lily_Last_Bullet> ;
+        lily:performIn
+            <Assault_Lily_Last_Bullet>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

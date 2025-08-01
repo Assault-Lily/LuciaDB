@@ -966,7 +966,8 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
-            <Lily_Collection_2023> ;
+            <Lily_Collection_2023>,
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "小松穂葉"@ja ;
