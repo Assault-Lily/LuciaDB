@@ -313,6 +313,9 @@
     lily:relationship [
         lily:resource <Kozue_West> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Tozaki_Moka> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "進藤あまね"@ja ;
@@ -454,6 +457,9 @@
     #    lily:additionalInformation ""@ja ;
     # ] ;
     lily:relationship [
+        lily:resource <Tozaki_Moka> ;
+        lily:additionalInformation "幼馴染"@ja ;
+    ], [
         lily:resource <Shiozaki_Suzume> ;
         lily:additionalInformation "神庭に通うことを勧める"@ja ;
     ], [
@@ -896,5 +902,83 @@
         # lily:performIn <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
+    a lily:Lily ;
+.
+
+<Tozaki_Moka>
+    rdfs:label "外崎杏花"^^xsd:string ;
+    schema:familyName "外崎"@ja, "Tozaki"@en ;
+    lily:familyNameKana "とざき"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "杏花"@ja, "Moka"@en ;
+    lily:givenNameKana "もか"@ja ;
+    schema:name "外崎杏花"@ja, "Tozaki Moka"@en ;
+    lily:nameKana "とざきもか"@ja ;
+    # lily:anotherName ""@ja ;
+    foaf:age "16"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    schema:birthDate "--03-17"^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    lily:bloodType "O"^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    lily:favorite
+        "ドラゴン"@ja,
+        "CHARMの妖精チャーミィ"@ja,
+        "トマトハンバーグ"@ja,
+        "砂糖とミルクと大量に入れたコーヒー"@ja ;
+    lily:notGood
+        "論理的思考"@ja,
+        "ゾンビ"@ja ;
+    lily:hobby_talent
+        "魔法使いについての研究"@ja,
+        "神秘学"@ja,
+        "幻獣の絵を描くこと"@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "ルナティックトランサー"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted true ;
+    # lily:boostedSkill ""^^xsd:string ;
+    lily:charm [
+        lily:resource <Gungnir> ;
+        lily:usedIn "ラスバレ"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    lily:garden "神庭女子藝術高校"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    lily:grade "11"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Homma_Akehi> ;
+        lily:additionalInformation "幼馴染"@ja ;
+    ], [
+        lily:resource <Tamba_Akari> ;
+        lily:additionalInformation "友人"@ja ;
+    ] ;
+    lily:cast [
+        schema:name "高柳知葉"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q28691709>,
+            <http://ja.dbpedia.org/resource/高柳知葉> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
