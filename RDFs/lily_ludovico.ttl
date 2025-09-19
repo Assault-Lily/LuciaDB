@@ -1557,7 +1557,8 @@
             <Ludovico_Liveshow_2022>,
             <Assault_Lily_Irma_The_Gleam_of_Dawn>,
             <Shinjitsu_No_Yaiba_2023>,
-            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose>,
+            <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "花奈澪"@ja ;
