@@ -386,7 +386,8 @@
     # lily:legionGrade ""^^xsd:string ;
     # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
-        <Tsuboi_Nanaho> ;
+        <Tsuboi_Nanaho>,
+        <Yamanouchi_Noi> ;
     a lily:Legion ;
 .
 
