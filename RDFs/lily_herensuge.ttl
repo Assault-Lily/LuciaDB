@@ -890,7 +890,7 @@
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
     schema:givenName "昇依"@ja, "Noi"@en ;
-    lily:givenNameKana "ななほ"@ja ;
+    lily:givenNameKana "のい"@ja ;
     schema:name "山内昇依"@ja, "Yamanouchi Noi"@en ;
     lily:nameKana "やまのうちのい"@ja ;
     # lily:anotherName ""@ja ;
