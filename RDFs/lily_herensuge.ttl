@@ -950,6 +950,71 @@
     a lily:Lily ;
 .
 
+<Otsuka_Uru>
+    rdfs:label "大塚雨琉"^^xsd:string ;
+    schema:familyName "大塚"@ja, "Otsuka"@en ;
+    lily:familyNameKana "おおつか"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "雨琉"@ja, "Uru"@en ;
+    lily:givenNameKana "うる"@ja ;
+    schema:name "大塚雨琉"@ja, "Otsuka Uru"@en ;
+    lily:nameKana "おおつかうる"@ja ;
+    # lily:anotherName ""@ja ;
+    foaf:age "15"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+        # lily:resource <> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "エレンスゲ女学園"^^xsd:string ;
+    # lily:rank ""^^xsd:integer ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    lily:grade "10"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Basa_Andre> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+        # lily:resource <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:cast [
+        # schema:name ""@ja ;
+        # lily:resource <> ;
+        # lily:performIn <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
+
 ### LGオレンツァロ
 
 <Shibata_Rindo>

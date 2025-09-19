@@ -387,7 +387,8 @@
     # lily:numberOfMembers ""^^xsd:integer ;
     schema:member
         <Tsuboi_Nanaho>,
-        <Yamanouchi_Noi> ;
+        <Yamanouchi_Noi>,
+        <Otsuka_Uru> ;
     a lily:Legion ;
 .
 
