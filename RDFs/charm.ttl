@@ -1814,3 +1814,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Orochi_no_Aramasa>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "蛇之麁正"@ja, "Orochi no Aramasa"@en ;
+    schema:name "蛇之麁正"@ja, "Orochi no Aramasa"@en ;
+    # lily:generation ""^^xsd:integer ;
+    schema:manufacturer <Amatsu_Heavy_Industry>;
+    lily:user <Tsukioka_Chino> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
