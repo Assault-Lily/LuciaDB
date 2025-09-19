@@ -836,7 +836,7 @@
     lily:hobby_talent "読書"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "縮地"^^xsd:string ;
-    # lily:subSkill ""^^xsd:string ;
+    lily:subSkill "軍神の加護"^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
