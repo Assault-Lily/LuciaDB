@@ -353,7 +353,8 @@
             <http://ja.dbpedia.org/resource/朝倉ふゆな> ;
         lily:performIn
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Sturm_Sanngridr> ;
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -453,7 +454,8 @@
             <The_Fateful_Gift>,
             <Lost_Memories>,
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Sturm_Sanngridr> ;
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "遥りさ"@ja ;
@@ -3612,7 +3614,8 @@
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
             <Assault_Lily_Last_Bullet>,
-            <Assault_Lily_Sturm_Sanngridr> ;
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3736,7 +3739,8 @@
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
             <Assault_Lily_Sturm_Sanngridr>,
-            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4477,7 +4481,8 @@
             <http://ja.dbpedia.org/resource/反田葉月> ;
         lily:performIn
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Sturm_Sanngridr> ;
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "黒木美佑"@ja ;
@@ -4667,7 +4672,8 @@
             <http://ja.dbpedia.org/resource/林鼓子> ;
         lily:performIn
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Sturm_Sanngridr> ;
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "松村芽久未"@ja ;
@@ -7806,10 +7812,12 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "橘⼆葉"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q56349893> ;
+        lily:performIn <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 

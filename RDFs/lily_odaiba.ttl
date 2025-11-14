@@ -120,7 +120,8 @@
             <Lily_Collection_2023>,
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Odaiba_The_Snowdrop> ;
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -227,7 +228,8 @@
             <Lily_Collection_2023>,
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Odaiba_The_Snowdrop> ;
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "甲斐千尋"@ja ;
@@ -355,7 +357,8 @@
             <Lily_Collection_2023>,
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Odaiba_The_Snowdrop> ;
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1937,7 +1940,8 @@
             <Lily_Collection_2023>,
             <Assault_Lily_Odaiba_The_Snowdrop>,
             <Assault_Lily_Last_Bullet>,
-            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "矢新愛梨"@ja ;

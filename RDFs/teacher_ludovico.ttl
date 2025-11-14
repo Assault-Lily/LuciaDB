@@ -105,7 +105,8 @@
             <Schwester_No_Himitsu_2021>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "舞川みやこ"@ja ;
@@ -225,7 +226,8 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
-            <Lily_Collection_2023> ;
+            <Lily_Collection_2023>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "鈴木亜里紗"@ja ;

@@ -667,7 +667,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q74146771>,
             <http://ja.dbpedia.org/resource/梅原サエリ> ;
-        lily:performIn <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1283,7 +1285,8 @@
             <http://ja.dbpedia.org/resource/朝倉ふゆな> ;
         lily:performIn
             <Assault_Lily_Irma_The_Gleam_of_Dawn>,
-            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

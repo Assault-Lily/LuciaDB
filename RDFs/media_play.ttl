@@ -5259,7 +5259,7 @@
     schema:location "シアター1010"^^xsd:string ;
     schema:startDate "2025-09-20"^^xsd:date ;
     schema:endDate "2025-09-25"^^xsd:date ;
-    # schema:duration "PT2H15M"^^xsd:duration ;
+    schema:duration "PT2H15M"^^xsd:duration ;
     lily:showTime
         "2025-09-20T13:00:00+09:00"^^xsd:dateTime,
         "2025-09-20T18:00:00+09:00"^^xsd:dateTime,
@@ -5484,6 +5484,258 @@
             <http://ja.dbpedia.org/resource/星波> ;
         # lily:performAs <> ;
         lily:additionalInformation "白雪 役"@ja ;
+    ];
+    a lily:Play ;
+.
+
+<Alternative_Dimension_Reading_Stage_RED_And_BLUE>
+    lily:genre "朗読劇"@ja ;
+    schema:name "異空間リーディングステージ「アサルトリリィ」- RED - & - BLUE -"@ja ;
+    schema:alternateName "異空間リーディングステージ"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:location "シアターサンモール"^^xsd:string ;
+    schema:startDate "2025-11-28"^^xsd:date ;
+    schema:endDate "2025-12-07"^^xsd:date ;
+    schema:duration "PT2H15M"^^xsd:duration ;
+    lily:showTime
+        "2025-11-28T19:00:00+09:00"^^xsd:dateTime,
+        "2025-11-29T13:00:00+09:00"^^xsd:dateTime,
+        "2025-11-29T18:00:00+09:00"^^xsd:dateTime,
+        "2025-11-30T13:00:00+09:00"^^xsd:dateTime,
+        "2025-11-30T18:30:00+09:00"^^xsd:dateTime,
+        "2025-12-02T19:00:00+09:00"^^xsd:dateTime,
+        "2025-12-03T13:00:00+09:00"^^xsd:dateTime,
+        "2025-12-03T19:30:00+09:00"^^xsd:dateTime,
+        "2025-12-04T19:00:00+09:00"^^xsd:dateTime,
+        "2025-12-05T19:00:00+09:00"^^xsd:dateTime,
+        "2025-12-06T13:00:00+09:00"^^xsd:dateTime,
+        "2025-12-06T18:30:00+09:00"^^xsd:dateTime,
+        "2025-12-07T12:00:00+09:00"^^xsd:dateTime,
+        "2025-12-07T16:30:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
+    lily:additionalInformation "RED 公演（エピソード1～4）: 11月28日19時公演、11月29日13時公演、11月30日18時公演、12月3日13時公演、12月5日19時公演、12月6日13時公演、12月6日19時公演\nBLUE公演（エピソード5～8）: 11月29日18時公演、11月30日13時公演、12月2日19時公演、12月3日19時公演、12月4日19時公演、12月7日12時公演、12月7日16時半公演"@ja ;
+    # schema:abstract ""@ja ;
+    # lily:previousWork <>;
+    # lily:nextWork <>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
+    lily:originalAuthor "尾花沢軒栄"@ja ;
+    # lily:supervisor ""@ja ;
+    # lily:executiveProducer ""@ja ;
+    # lily:producer "林修司"@ja ;
+    lily:scenarioWriter
+        "桜木さやか（エピソード2・4・6・7）"@ja,
+        "平瀬美紀（エピソード1・5）"@ja,
+        "月森葵（エピソード3・8）"@ja ;
+    lily:episodeDirection "田邊俊喜"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
+    # lily:composer ""@ja ;
+    lily:planning "ピウス"@ja ;
+    lily:production "ピウス"@ja ;
+    # lily:contributor ""@ja ;
+    # lily:cooperation ""@ja ;
+    lily:organizer
+        "ピウス"@ja,
+        "アゾンインターナショナル"@ja ;
+    lily:cast [
+        schema:name "石井陽菜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q18817351>,
+            <http://ja.dbpedia.org/resource/石井陽菜> ;
+        lily:performAs <Funada_Kiito> ;
+        lily:additionalInformation "エピソード1・5"@ja ;
+    ], [
+        schema:name "西葉瑞希"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q98734254>,
+            <http://ja.dbpedia.org/resource/西葉瑞希> ;
+        lily:performAs <Funada_Ui> ;
+        lily:additionalInformation "エピソード1・5"@ja ;
+    ], [
+        schema:name "野元空"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q18999130>,
+            <http://ja.dbpedia.org/resource/野元空> ;
+        lily:performAs <Shiba_Tomoshibi> ;
+        lily:additionalInformation "エピソード1"@ja ;
+    ], [
+        schema:name "梅原サエリ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q74146771>,
+            <http://ja.dbpedia.org/resource/梅原サエリ> ;
+        lily:performAs <Iwaya_Kukuri> ;
+        lily:additionalInformation "エピソード2"@ja ;
+    ], [
+        schema:name "朝倉ふゆな"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11517262>,
+            <http://ja.dbpedia.org/resource/朝倉ふゆな> ;
+        lily:performAs <Moroi_Saho> ;
+        lily:additionalInformation "エピソード2"@ja ;
+    ], [
+        schema:name "矢澤梨央"@ja ;
+        # lily:resource <> ;
+        # lily:performAs <> ;
+        lily:additionalInformation
+            "喫茶店店主 役"@ja,
+            "エピソード2"@ja ;
+    ], [
+        schema:name "福田沙奈"@ja ;
+        # lily:resource <> ;
+        # lily:performAs <> ;
+        lily:additionalInformation
+            "女の子 役"@ja,
+            "エピソード2"@ja ;
+    ], [
+        schema:name "林田真尋"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q19162226>,
+            <http://ja.dbpedia.org/resource/林田真尋> ;
+        lily:performAs <Hishida_Haru> ;
+        lily:additionalInformation "エピソード3"@ja ;
+    ], [
+        schema:name "大森莉緒"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q83680542>,
+            <http://ja.dbpedia.org/resource/大森莉緒> ;
+        lily:performAs <Kondo_Misaka> ;
+        lily:additionalInformation "エピソード3"@ja ;
+    ], [
+        schema:name "⽻野瑠華"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q105259061> ;
+        lily:performAs <Imamura_Sakumi> ;
+        lily:additionalInformation "エピソード3"@ja ;
+    ], [
+        schema:name "星守紗凪"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q69635313>,
+            <http://ja.dbpedia.org/resource/星守紗凪> ;
+        lily:performAs <Amamiya_Sofia_Seren> ;
+        lily:additionalInformation "エピソード4"@ja ;
+    ], [
+        schema:name "梅原サエリ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q74146771>,
+            <http://ja.dbpedia.org/resource/梅原サエリ> ;
+        lily:performAs <Kuroki_Francisca_Yuria> ;
+        lily:additionalInformation "エピソード4・6"@ja ;
+    ], [
+        schema:name "楠世蓮"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11541155>,
+            <http://ja.dbpedia.org/resource/楠世蓮> ;
+        lily:performAs <Izumi_Rosa_Rina> ;
+        lily:additionalInformation "エピソード4"@ja ;
+    ], [
+        schema:name "遠藤三貴"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q55177725>,
+            <http://ja.dbpedia.org/resource/遠藤三貴> ;
+        lily:performAs <Kosaka_Anastasiya_Ryoko> ;
+        lily:additionalInformation "エピソード4"@ja ;
+    ], [
+        schema:name "佐當友莉亜"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q134569529> ;
+        lily:performAs <Morishita_Miyabi> ;
+        lily:additionalInformation "エピソード5"@ja ;
+    ], [
+        schema:name "⽴⽯凛"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q118322879> ;
+        lily:performAs <Tsukioka_Chino> ;
+        lily:additionalInformation
+            "エピソード5"@ja,
+            "出演日: 12月2日～7日"@ja ;
+    ], [
+        schema:name "渡邉結⾐"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Tsukioka_Chino> ;
+        lily:additionalInformation
+            "エピソード5"@ja,
+            "出演日: 11月29日、30日"@ja ;
+    ], [
+        schema:name "大滝紗緒里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q60989916>,
+            <http://ja.dbpedia.org/resource/大滝紗緒里> ;
+        lily:performAs <Matsunaga_Brigitta_Kayo> ;
+        lily:additionalInformation "エピソード6"@ja ;
+    ], [
+        schema:name "清水凜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q105704315>,
+            <http://ja.dbpedia.org/resource/清水凜> ;
+        lily:performAs <Sano_Matilda_Kokoro> ;
+        lily:additionalInformation "エピソード6"@ja ;
+    ], [
+        schema:name "西田有愛"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Hasegawa_Gabriela_Tsugumi> ;
+        lily:additionalInformation "エピソード6"@ja ;
+    ], [
+        schema:name "七海とろろ"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q123405497> ;
+        lily:performAs <Seto_Veronica_Ichika> ;
+        lily:additionalInformation "エピソード6"@ja ;
+    ], [
+        schema:name "橘⼆葉"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q56349893> ;
+        lily:performAs <Yanagisawa_Ayako> ;
+        lily:additionalInformation "エピソード7"@ja ;
+    ], [
+        schema:name "伊藤優衣"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11379878>,
+            <http://ja.dbpedia.org/resource/伊藤優衣> ;
+        lily:performAs <Yamanashi_Hibari> ;
+        lily:additionalInformation "エピソード7"@ja ;
+    ], [
+        schema:name "西本りみ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24902567>,
+            <http://ja.dbpedia.org/resource/西本りみ> ;
+        lily:performAs <Futagawa_Fumi> ;
+        lily:additionalInformation "エピソード7"@ja ;
+    ], [
+        schema:name "朝倉ふゆな"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11517262>,
+            <http://ja.dbpedia.org/resource/朝倉ふゆな> ;
+        lily:performAs <Kaede_Johan_Nouvel> ;
+        lily:additionalInformation "エピソード7"@ja ;
+    ], [
+        schema:name "林鼓子"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11533390>,
+            <http://ja.dbpedia.org/resource/林鼓子> ;
+        lily:performAs <Nagasaka_Maho> ;
+        lily:additionalInformation "エピソード8"@ja ;
+    ], [
+        schema:name "反田葉月"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q34858256>,
+            <http://ja.dbpedia.org/resource/反田葉月> ;
+        lily:performAs <Tetsukawa_Toa> ;
+        lily:additionalInformation "エピソード8"@ja ;
+    ], [
+        schema:name "日名子蓮"@ja ;
+        # lily:resource <> ;
+        # lily:performAs <> ;
+        lily:additionalInformation "パフォーマー（全エピソード）"@ja ;
+    ], [
+        schema:name "椿莉歩"@ja ;
+        # lily:resource <> ;
+        # lily:performAs <> ;
+        lily:additionalInformation "パフォーマー（全エピソード）"@ja ;
+    ], [
+        schema:name "佐竹季和"@ja ;
+        # lily:resource <> ;
+        # lily:performAs <> ;
+        lily:additionalInformation "パフォーマー（全エピソード）"@ja ;
+    ], [
+        schema:name "佐竹真依"@ja ;
+        # lily:resource <> ;
+        # lily:performAs <> ;
+        lily:additionalInformation "パフォーマー（全エピソード）"@ja ;
     ];
     a lily:Play ;
 .

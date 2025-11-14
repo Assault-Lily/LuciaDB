@@ -512,7 +512,8 @@
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
             <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2> ;
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "鵜川もえか"@ja ;
@@ -641,7 +642,8 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
-            <Lily_Collection_2023> ;
+            <Lily_Collection_2023>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "末永みゆ"@ja ;
@@ -967,7 +969,8 @@
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
             <Lily_Collection_2023>,
-            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "小松穂葉"@ja ;
@@ -1186,7 +1189,8 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
-            <Lily_Collection_2023> ;
+            <Lily_Collection_2023>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "遥りさ"@ja ;
@@ -1291,7 +1295,8 @@
             <Schwester_No_Himitsu_2021>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "齋藤茉日"@ja ;
@@ -1918,7 +1923,8 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
-            <Lily_Collection_2023> ;
+            <Lily_Collection_2023>,
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "星乃まりな"@ja ;

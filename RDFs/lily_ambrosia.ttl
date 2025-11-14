@@ -69,10 +69,12 @@
         lily:resource <Rosalinde_Friedegunde_von_Otto> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "佐當友莉亜"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q134569529> ;
+        lily:performIn <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -262,9 +264,16 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "⽴⽯凛"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q118322879> ;
+        lily:performIn <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "渡邉結⾐"@ja ;
+        # lily:resource <> ;
+        lily:performIn <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
