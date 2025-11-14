@@ -803,16 +803,20 @@
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--07-11"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "O"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
-    # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    schema:birthPlace "東京都"@ja, "Tokyo"@en ;
+    lily:favorite
+        "流行のもの"@ja,
+        "ジャンクなB級グルメ"@ja ;
+    lily:notGood "香水"@ja ;
+    lily:hobby_talent
+        "スニーカー集め"@ja,
+        "ヨーヨー"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     # lily:rareSkill ""^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -824,7 +828,7 @@
         # lily:additionalInformation ""@ja ;
     # ] ;
     lily:garden "神庭女子藝術高校"^^xsd:string ;
-    # lily:gardenDepartment ""^^xsd:string ;
+    lily:gardenDepartment "美術科（絵画）"^^xsd:string ;
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
@@ -844,12 +848,14 @@
         lily:resource <Abiko_Hiromi> ;
         lily:additionalInformation "賛同している"@ja ;
     ] ;
-    # lily:cast [
-        # schema:name ""@ja ;
-        # lily:resource <> ;
-        # lily:performIn <> ;
+    lily:cast [
+        schema:name "河野ひより"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q43427019>,
+            <http://ja.dbpedia.org/resource/河野ひより> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
-    # ] ;
+    ] ;
     a lily:Lily ;
 .
 
