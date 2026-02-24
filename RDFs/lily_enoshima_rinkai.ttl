@@ -210,3 +210,79 @@
     # ] ;
     a lily:Lily ;
 .
+
+<Miyake_Sae>
+    rdfs:label "三宅彩栄"^^xsd:string ;
+    schema:familyName "三宅"@ja, "Miyake"@en ;
+    lily:familyNameKana "みやけ"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "彩栄"@ja, "Sae"@en ;
+    lily:givenNameKana "さえ"@ja ;
+    schema:name "三宅彩栄"@ja, "Miyake Sae"@en ;
+    lily:nameKana "みやけさえ"@ja ;
+    # lily:anotherName ""@ja ;
+    foaf:age "16"^^xsd:integer ;
+    schema:height "163.0"^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    schema:birthDate "--10-18"^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    lily:bloodType "AB"^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    lily:favorite
+        "江ノ島のB級グルメ全般"@ja,
+        "タコ"@ja,
+        "深海魚"@ja ;
+    lily:notGood
+        "整理整頓"@ja,
+        "持久走"@ja ;
+    lily:hobby_talent
+        "PCゲーム"@ja,
+        "レトロガジェットの収集と修理"@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "円環の御手"^^xsd:string ;
+    lily:subSkill
+        "虹の軌跡"^^xsd:string,
+        "軍神の加護"^^xsd:string,
+        "聖域転換"^^xsd:string ;
+    lily:isBoosted true ;
+    lily:boostedSkill
+        "リジェネレーター"^^xsd:string,
+        "エンハンスメント"^^xsd:string ;
+    # lily:charm [
+    #     lily:resource <> ;
+    #     lily:usedIn ""^^xsd:string ;
+    #     lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "江ノ島臨海女学校"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    lily:grade "10"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    lily:position
+        "TZ"^^xsd:string,
+        "BZ"^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #     lily:resource <> ;
+    #     lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Kawakubo_Orika> ;
+        lily:additionalInformation "特別な感情を抱く"@ja ;
+    ] ;
+    # lily:cast [
+    #     lily:resource <> ;
+    #     lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
