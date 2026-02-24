@@ -136,7 +136,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q11541155>,
             <http://ja.dbpedia.org/resource/楠世蓮> ;
-        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
+        lily:performIn
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -208,7 +210,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q11519760>,
             <http://ja.dbpedia.org/resource/末永みゆ> ;
-        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
+        lily:performIn
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

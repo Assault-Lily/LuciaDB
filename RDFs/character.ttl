@@ -72,6 +72,11 @@
         lily:performIn
             <The_Fateful_Gift>,
             <Lost_Memories> ;
+    ], [
+        schema:name "⾕⼝布実"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q126006117> ;
+        lily:performIn <Assault_Lily_Sturm_Sanngridr_2> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
 .
@@ -233,6 +238,11 @@
             <League_of_Gardens>,
             <The_Fateful_Gift>,
             <Lost_Memories> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "鈴木桃子"@ja ;
+        # lily:resource <> ;
+        lily:performIn <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1893,8 +1903,10 @@
     lily:cast [
         schema:name "MEW"@ja ;
         # lily:resource <> ;
-        lily:performIn <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
-        lily:additionalInformation "当初「？？？」役として紹介された"@ja ;
+        lily:performIn
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Character ;
 .

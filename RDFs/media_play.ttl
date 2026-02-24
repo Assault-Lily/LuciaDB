@@ -2998,7 +2998,9 @@
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "安藤千伽奈"@ja ;
-        lily:resource <http://ja.dbpedia.org/resource/安藤千伽奈> ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q133464836>,
+            <http://ja.dbpedia.org/resource/安藤千伽奈> ;
         lily:performAs <Saigo_Kurena> ;
         # lily:additionalInformation ""@ja ;
     ], [
@@ -3682,7 +3684,9 @@
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "安藤千伽奈"@ja ;
-        lily:resource <http://ja.dbpedia.org/resource/安藤千伽奈> ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q133464836>,
+            <http://ja.dbpedia.org/resource/安藤千伽奈> ;
         lily:performAs <Saigo_Kurena> ;
         # lily:additionalInformation ""@ja ;
     ], [
@@ -3897,7 +3901,9 @@
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "安藤千伽奈"@ja ;
-        lily:resource <http://ja.dbpedia.org/resource/安藤千伽奈> ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q133464836>,
+            <http://ja.dbpedia.org/resource/安藤千伽奈> ;
         lily:performAs <Imai_Seira> ;
         # lily:additionalInformation ""@ja ;
     ], [
@@ -4104,7 +4110,9 @@
         lily:additionalInformation "出演: 【4月18日】昼の部・夜の部 【4月19日】昼の部・夜の部"@ja ;
     ], [
         schema:name "安藤千伽奈"@ja ;
-        lily:resource <http://ja.dbpedia.org/resource/安藤千伽奈> ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q133464836>,
+            <http://ja.dbpedia.org/resource/安藤千伽奈> ;
         # lily:performAs <> ;
         lily:additionalInformation "出演: 【4月18日】昼の部・夜の部"@ja ;
     ], [
@@ -4397,7 +4405,9 @@
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "安藤千伽奈"@ja ;
-        lily:resource <http://ja.dbpedia.org/resource/安藤千伽奈> ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q133464836>,
+            <http://ja.dbpedia.org/resource/安藤千伽奈> ;
         lily:performAs <Imai_Seira> ;
         # lily:additionalInformation ""@ja ;
     ], [
@@ -5157,7 +5167,9 @@
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "安藤千伽奈"@ja ;
-        lily:resource <http://ja.dbpedia.org/resource/安藤千伽奈> ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q133464836>,
+            <http://ja.dbpedia.org/resource/安藤千伽奈> ;
         lily:performAs <Imai_Seira> ;
         # lily:additionalInformation ""@ja ;
     ], [
@@ -5274,7 +5286,7 @@
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
     lily:previousWork <Assault_Lily_Sturm_Sanngridr>;
-    # lily:nextWork <>;
+    lily:nextWork <Assault_Lily_Sturm_Sanngridr_2>;
     # lily:originalWork <>;
     # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -5736,6 +5748,228 @@
         # lily:resource <> ;
         # lily:performAs <> ;
         lily:additionalInformation "パフォーマー（全エピソード）"@ja ;
+    ];
+    a lily:Play ;
+.
+
+<Assault_Lily_Sturm_Sanngridr_2>
+    lily:genre "舞台"@ja ;
+    schema:name "「アサルトリリィ・シュツルム」サングリーズル編 第2弾"@ja ;
+    schema:alternateName "シュツルム2"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:location "こくみん共済 coop ホール／スペース・ゼロ"^^xsd:string ;
+    schema:startDate "2026-04-18"^^xsd:date ;
+    schema:endDate "2026-04-26"^^xsd:date ;
+    schema:duration "PT2H15M"^^xsd:duration ;
+    lily:showTime
+        "2026-04-18T13:00:00+09:00"^^xsd:dateTime,
+        "2026-04-18T18:00:00+09:00"^^xsd:dateTime,
+        "2026-04-19T13:00:00+09:00"^^xsd:dateTime,
+        "2026-04-20T18:30:00+09:00"^^xsd:dateTime,
+        "2026-04-21T18:30:00+09:00"^^xsd:dateTime,
+        "2026-04-23T18:30:00+09:00"^^xsd:dateTime,
+        "2026-04-24T18:30:00+09:00"^^xsd:dateTime,
+        "2026-04-25T13:00:00+09:00"^^xsd:dateTime,
+        "2026-04-25T18:00:00+09:00"^^xsd:dateTime,
+        "2026-04-26T12:00:00+09:00"^^xsd:dateTime,
+        "2026-04-26T16:30:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
+    # lily:additionalInformation ""@ja ;
+    # schema:abstract ""@ja ;
+    lily:previousWork <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>;
+    # lily:nextWork <>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
+    lily:originalAuthor "尾花沢軒栄"@ja ;
+    # lily:supervisor ""@ja ;
+    # lily:executiveProducer ""@ja ;
+    # lily:producer "林修司"@ja ;
+    lily:scenarioWriter "桜木さやか"@ja ;
+    lily:episodeDirection "田邊俊喜"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
+    # lily:composer ""@ja ;
+    lily:planning "ピウス"@ja ;
+    lily:production "ピウス"@ja ;
+    # lily:contributor ""@ja ;
+    # lily:cooperation ""@ja ;
+    lily:organizer
+        "ピウス"@ja,
+        "アゾンインターナショナル"@ja ;
+    lily:cast [
+        schema:name "大森莉緒"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q83680542>,
+            <http://ja.dbpedia.org/resource/大森莉緒> ;
+        lily:performAs <Kondo_Misaka> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "牧浦乙葵"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q108777087>,
+            <http://ja.dbpedia.org/resource/牧浦乙葵> ;
+        lily:performAs <Hasebe_Touka> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "其原有沙"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27150647>,
+            <http://ja.dbpedia.org/resource/其原有沙> ;
+        lily:performAs <Luise_Ingels> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "陽高真白"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q115529746>,
+            <http://ja.dbpedia.org/resource/陽高真白> ;
+        lily:performAs <Murakami_Tokiwa> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "浜浦彩乃"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27670130>,
+            <http://ja.dbpedia.org/resource/浜浦彩乃> ;
+        lily:performAs <Kiko_Totori> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "林田真尋"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q19162226>,
+            <http://ja.dbpedia.org/resource/林田真尋> ;
+        lily:performAs <Imagawa_Homare> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "伊藤優衣"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11379878>,
+            <http://ja.dbpedia.org/resource/伊藤優衣> ;
+        lily:performAs <Yamanashi_Hibari> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "畑美紗起"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q116161488>,
+            <http://ja.dbpedia.org/resource/畑美紗起> ;
+        lily:performAs <Kurokawa_Nady_Hanna> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "反田葉月"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q34858256>,
+            <http://ja.dbpedia.org/resource/反田葉月> ;
+        lily:performAs <Tetsukawa_Toa> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "林鼓子"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11533390>,
+            <http://ja.dbpedia.org/resource/林鼓子> ;
+        lily:performAs <Nagasaka_Maho> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "大滝紗緒里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q60989916>,
+            <http://ja.dbpedia.org/resource/大滝紗緒里> ;
+        lily:performAs <Seike_Tomoyo> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "安藤千伽奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q133464836>,
+            <http://ja.dbpedia.org/resource/安藤千伽奈> ;
+        lily:performAs <Imai_Seira> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "斉藤瑞季"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q111113022>,
+            <http://ja.dbpedia.org/resource/斉藤瑞季> ;
+        lily:performAs <Mashima_Moyu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "日永麗"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q112133037> ;
+        lily:performAs <Yamaguchi_Chihiro> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "佐々木優佳里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q16097304>,
+            <http://ja.dbpedia.org/resource/佐々木優佳里> ;
+        lily:performAs <Tsumaki_Natsumi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "吉岡茉祐"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q15731360>,
+            <http://ja.dbpedia.org/resource/吉岡茉祐> ;
+        lily:performAs <Sekino_Youko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "河内美里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q65272225>,
+            <http://ja.dbpedia.org/resource/河内美里> ;
+        lily:performAs <Rokkaku_Shiori> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "込山榛香"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27917702>,
+            <http://ja.dbpedia.org/resource/込山榛香> ;
+        lily:performAs <Taniguchi_Hijiri> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "髙橋彩音"@ja ;
+        lily:resource <https://ja.dbpedia.org/resource/髙橋彩音> ;
+        lily:performAs <Kitagawara_Inori> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "蛭田愛梨"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q130553876> ;
+        lily:performAs <Ishikawa_Aoi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "清水凜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q105704315>,
+            <http://ja.dbpedia.org/resource/清水凜> ;
+        lily:performAs <Matsunaga_Yui> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "楠世蓮"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11541155>,
+            <http://ja.dbpedia.org/resource/楠世蓮> ;
+        lily:performAs <Kinrangyoku> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "末永みゆ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11519760>,
+            <http://ja.dbpedia.org/resource/末永みゆ> ;
+        lily:performAs <Ginrangyoku> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "槙原唯"@ja ;
+        # lily:resource <> ;
+        # lily:performAs <> ;
+        lily:additionalInformation "御典医 役"@ja ;
+    ], [
+        schema:name "MEW"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Lovisa> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "⾕⼝布実"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q126006117> ;
+        lily:performAs <Gozen> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "鈴木桃子"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Toda_Kotohi> ;
+        # lily:additionalInformation ""@ja ;
     ];
     a lily:Play ;
 .

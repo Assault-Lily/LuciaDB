@@ -2564,7 +2564,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q65272225>,
             <http://ja.dbpedia.org/resource/河内美里> ;
-        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
+        lily:performIn
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -2672,7 +2674,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q27917702>,
             <http://ja.dbpedia.org/resource/込山榛香> ;
-        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
+        lily:performIn
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3615,7 +3619,8 @@
             <New_Chapter_Sanngridr_Oshima_2>,
             <Assault_Lily_Last_Bullet>,
             <Assault_Lily_Sturm_Sanngridr>,
-            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3740,7 +3745,8 @@
             <New_Chapter_Sanngridr_Oshima_2>,
             <Assault_Lily_Sturm_Sanngridr>,
             <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
-            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -3823,7 +3829,8 @@
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "小松穂葉"@ja ;
@@ -3927,7 +3934,8 @@
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Sturm_Sanngridr> ;
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4008,7 +4016,8 @@
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Sturm_Sanngridr> ;
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4096,7 +4105,8 @@
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Sturm_Sanngridr> ;
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4188,7 +4198,8 @@
             <http://ja.dbpedia.org/resource/其原有沙> ;
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2> ;
+            <New_Chapter_Sanngridr_Oshima_2>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "稲玉洸"@ja ;
@@ -4303,7 +4314,8 @@
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
             <Assault_Lily_Sturm_Sanngridr>,
-            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4404,7 +4416,8 @@
             <http://ja.dbpedia.org/resource/陽高真白> ;
         lily:performIn
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Sturm_Sanngridr> ;
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4482,7 +4495,8 @@
         lily:performIn
             <New_Chapter_Sanngridr_Oshima_2>,
             <Assault_Lily_Sturm_Sanngridr>,
-            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "黒木美佑"@ja ;
@@ -4574,7 +4588,8 @@
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Sturm_Sanngridr> ;
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4673,7 +4688,8 @@
         lily:performIn
             <New_Chapter_Sanngridr_Oshima_2>,
             <Assault_Lily_Sturm_Sanngridr>,
-            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "松村芽久未"@ja ;
@@ -4798,7 +4814,8 @@
             <http://ja.dbpedia.org/resource/斉藤瑞季> ;
         lily:performIn
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Sturm_Sanngridr> ;
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4887,7 +4904,8 @@
         lily:performIn
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
-            <Assault_Lily_Sturm_Sanngridr> ;
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
     ] ;
     a lily:Lily ;
 .
@@ -8164,10 +8182,12 @@
         lily:resource <Tiuccia_Paumgartner> ;
         lily:additionalInformation "親友"@ja ;
     ] ;
-    # lily:cast [
-    #    lily:resource <> ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:cast [
+        schema:name "髙橋彩音"@ja ;
+        lily:resource <https://ja.dbpedia.org/resource/髙橋彩音> ;
+        lily:performIn <Assault_Lily_Sturm_Sanngridr_2> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -10424,7 +10444,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q15731360>,
             <http://ja.dbpedia.org/resource/吉岡茉祐> ;
-        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
+        lily:performIn
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -10990,7 +11012,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q16097304>,
             <http://ja.dbpedia.org/resource/佐々木優佳里> ;
-        lily:performIn <Assault_Lily_Sturm_Sanngridr> ;
+        lily:performIn
+            <Assault_Lily_Sturm_Sanngridr>,
+            <Assault_Lily_Sturm_Sanngridr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
