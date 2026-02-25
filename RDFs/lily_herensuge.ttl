@@ -19,7 +19,7 @@
     lily:nameKana "あいざわかずは"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "15"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "159.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     schema:birthDate "--08-13"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
@@ -109,7 +109,7 @@
     lily:nameKana "ささきらん"@ja ;
     lily:anotherName "ヒュージの姫"@ja ;
     foaf:age "15"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "140.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     schema:birthDate "--03-27"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
@@ -185,7 +185,7 @@
     lily:nameKana "いいじまれんか"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "153.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     schema:birthDate "--05-04"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
@@ -271,7 +271,7 @@
     lily:nameKana "はつかのよう"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "168.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     schema:birthDate "--11-07"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
@@ -348,7 +348,7 @@
     lily:nameKana "せりざわちかる"@ja ;
     # lily:anotherName ""@ja ;
     foaf:age "16"^^xsd:integer ;
-    # schema:height ""^^xsd:float ;
+    schema:height "164.0"^^xsd:float ;
     # schema:weight ""^^xsd:float ;
     schema:birthDate "--10-02"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
