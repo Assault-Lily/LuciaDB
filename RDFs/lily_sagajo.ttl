@@ -48,7 +48,9 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Trigrav> ;
-        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        lily:usedIn
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         lily:additionalInformation "試作機"@ja ;
     ] ;
     lily:garden "相模女子高等学館"^^xsd:string ;
@@ -136,6 +138,7 @@
             "舞台LoG"^^xsd:string,
             "舞台TFG"^^xsd:string,
             "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string,
             "ドール Ver.1.0"^^xsd:string,
             "ドール Ver.2.0"^^xsd:string ;
         lily:additionalInformation

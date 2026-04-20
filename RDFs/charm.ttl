@@ -1248,7 +1248,9 @@
     # lily:generation ""^^xsd:decimal ;
     # lily:requiredSkillerVal ""^^xsd:integer ;
     schema:manufacturer <Vulcanus_Industry> ;
-    lily:user <Hishida_Haru> ;
+    lily:user
+        <Hishida_Haru>,
+        <Sekino_Yoko> ;
     lily:additionalInformation "ダミークリスタルコア搭載"@ja ;
     lily:additionalInformation "「契約代行システム」実験機"@ja ;
     a lily:Charm ;
@@ -1799,7 +1801,7 @@
     schema:name "アラドヴァル"@ja, "Areadbhair"@en ;
     # lily:generation ""^^xsd:integer ;
     schema:manufacturer <Celticdale>;
-    lily:user <Sekino_Youko> ;
+    lily:user <Sekino_Yoko> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
@@ -1822,6 +1824,28 @@
     # lily:generation ""^^xsd:integer ;
     schema:manufacturer <Amatsu_Heavy_Industry>;
     lily:user <Tsukioka_Chino> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<Alecto>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "アレークトー"@ja, "Alecto"@en ;
+    schema:name "アレークトー"@ja, "Alecto"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <>;
+    lily:user <Kitagawara_Inori> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
+
+<QingLong>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "青龍"@ja, "QingLong"@en ;
+    schema:name "青龍"@ja, "QingLong"@en ;
+    # lily:generation ""^^xsd:integer ;
+    # schema:manufacturer <>;
+    lily:user <Gozen> ;
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .

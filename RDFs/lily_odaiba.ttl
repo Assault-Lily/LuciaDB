@@ -121,7 +121,8 @@
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
             <Assault_Lily_Odaiba_The_Snowdrop>,
-            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -229,7 +230,8 @@
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
             <Assault_Lily_Odaiba_The_Snowdrop>,
-            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "甲斐千尋"@ja ;
@@ -358,7 +360,8 @@
             <New_Chapter_Sanngridr_Oshima>,
             <New_Chapter_Sanngridr_Oshima_2>,
             <Assault_Lily_Odaiba_The_Snowdrop>,
-            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -460,7 +463,8 @@
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
             <Assault_Lily_Odaiba_The_Snowdrop>,
-            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -569,7 +573,8 @@
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
-            <Assault_Lily_Odaiba_The_Snowdrop> ;
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -664,7 +669,8 @@
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
-            <Assault_Lily_Odaiba_The_Snowdrop> ;
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -773,7 +779,8 @@
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
             <Assault_Lily_Odaiba_The_Snowdrop>,
-            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "槙原唯"@ja ;
@@ -882,7 +889,8 @@
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
-            <Assault_Lily_Odaiba_The_Snowdrop> ;
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -988,7 +996,8 @@
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
-            <Assault_Lily_Odaiba_The_Snowdrop> ;
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1061,6 +1070,13 @@
             <https://www.wikidata.org/wiki/Q30949810>,
             <http://ja.dbpedia.org/resource/横山結衣> ;
         lily:performIn <Assault_Lily_Odaiba_The_Snowdrop> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "朝倉ふゆな"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11517262>,
+            <http://ja.dbpedia.org/resource/朝倉ふゆな> ;
+        lily:performIn <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1174,7 +1190,8 @@
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
-            <Assault_Lily_Odaiba_The_Snowdrop> ;
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1278,7 +1295,8 @@
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
-            <Lily_Collection_2023> ;
+            <Lily_Collection_2023>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "西田有愛"@ja ;
@@ -1378,13 +1396,18 @@
     ] ;
     lily:cast [
         schema:name "山本栞"@ja ;
-        # lily:resource <> ;
+        lily:resource <https://www.wikidata.org/wiki/Q134508509> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
             <Assault_Lily_Odaiba_The_Snowdrop> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "⻑⽉明⽇⾹"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q115530197> ;
+        lily:performIn <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1465,7 +1488,8 @@
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Snowdrop>,
-            <Assault_Lily_Last_Bullet> ;
+            <Assault_Lily_Last_Bullet>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "安藤千伽奈"@ja ;
@@ -1603,7 +1627,8 @@
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
-            <Assault_Lily_Odaiba_The_Snowdrop> ;
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1701,7 +1726,8 @@
     ], [
         schema:name "斎藤愛莉"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q116936083> ;
-        lily:performIn <Assault_Lily_Odaiba_The_Snowdrop> ;
+        lily:performIn <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1815,7 +1841,8 @@
             <http://ja.dbpedia.org/resource/橘里依> ;
         lily:performIn
             <Assault_Lily_Odaiba_The_Snowdrop>,
-            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
+            <Assault_Lily_Sturm_Odaiba> ;
     ] ;
     a lily:Lily ;
 .
@@ -1941,7 +1968,8 @@
             <Assault_Lily_Odaiba_The_Snowdrop>,
             <Assault_Lily_Last_Bullet>,
             <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
-            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "矢新愛梨"@ja ;
@@ -2073,7 +2101,8 @@
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
             <Assault_Lily_Odaiba_The_Snowdrop>,
-            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -2164,7 +2193,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022>,
-            <Lily_Collection_2023> ;
+            <Lily_Collection_2023>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -2259,7 +2289,8 @@
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
             <Lily_Collection_2022>,
             <Lily_Collection_2023>,
-            <Assault_Lily_Odaiba_The_Snowdrop> ; ;
+            <Assault_Lily_Odaiba_The_Snowdrop>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -2320,12 +2351,14 @@
         lily:resource <Hayami_Katsura> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
-    # lily:cast [
-        # schema:name ""@ja ;
-        # lily:resource <> ;
-        # lily:performIn <> ;
+    lily:cast [
+        schema:name "安藤千伽奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q133464836>,
+            <http://ja.dbpedia.org/resource/安藤千伽奈> ;
+        lily:performIn <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
-    # ] ;
+    ] ;
     a lily:Lily ;
 .
 
@@ -2393,12 +2426,14 @@
         lily:resource <Hishida_Haru> ;
         lily:additionalInformation "友人"@ja ;
     ] ;
-    # lily:cast [
-        # schema:name ""@ja ;
-        # lily:resource <> ;
-        # lily:performIn <> ;
+    lily:cast [
+        schema:name "中川梨花"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q56253556>,
+            <http://ja.dbpedia.org/resource/中川梨花> ;
+        lily:performIn <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
-    # ] ;
+    ] ;
     a lily:Lily ;
 .
 

@@ -786,7 +786,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q112239537>,
             <http://ja.dbpedia.org/resource/天麻ゆうき> ;
-        lily:performIn <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>;
+        lily:performIn
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

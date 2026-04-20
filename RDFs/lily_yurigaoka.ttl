@@ -1199,7 +1199,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q64783594>,
             <http://ja.dbpedia.org/resource/本西彩希帆> ;
-        lily:performIn <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+        lily:performIn
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -2467,6 +2469,7 @@
         "パクチー"@ja,
         "レバー"@ja ;
     lily:hobby_talent
+        "手芸"@ja,
         "陶芸"@ja,
         "茶道"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
@@ -2479,7 +2482,8 @@
         lily:usedIn
             "アニメ"^^xsd:string,
             "ラスバレ"^^xsd:string,
-            "舞台シュツルム"^^xsd:string ;
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         lily:additionalInformation
             "専用機"@ja,
             "ユニーク機体"@ja ;
@@ -2487,7 +2491,9 @@
         lily:resource <Charlemagne> ;
         lily:usedIn
             "アニメ"^^xsd:string,
-            "ラスバレ"^^xsd:string ;
+            "ラスバレ"^^xsd:string,
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         lily:additionalInformation "専用機"@ja ;
     ], [
         lily:resource <Blutgang> ;
@@ -2598,7 +2604,9 @@
         "棒付き飴"@ja,
         "グミ"@ja ;
     lily:notGood "歯医者"@ja ;
-    lily:hobby_talent "裁縫"@ja ;
+    lily:hobby_talent
+        "裁縫"@ja,
+        "麻雀"@ja ;
     lily:skillerVal "97"^^xsd:integer ;
     lily:rareSkill "ファンタズム"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
@@ -2614,7 +2622,9 @@
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Gram> ;
-        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        lily:usedIn
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -3556,7 +3566,9 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Ascalon> ;
-        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        lily:usedIn
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Asterion> ;
@@ -3665,7 +3677,9 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Sohaya_No_Tsurugi> ;
-        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        lily:usedIn
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -3786,7 +3800,9 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Ancile> ;
-        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        lily:usedIn
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -3881,7 +3897,9 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Gerr_Na_Gcollan> ;
-        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        lily:usedIn
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Bronllavyn> ;
@@ -3974,7 +3992,8 @@
         lily:resource <Cruadin> ;
         lily:usedIn
             "舞台 アサルトリリィ新章"^^xsd:string,
-            "舞台シュツルム"^^xsd:string ;
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -4061,7 +4080,8 @@
         lily:resource <Lion_King> ;
         lily:usedIn
             "舞台 アサルトリリィ新章"^^xsd:string,
-            "舞台シュツルム"^^xsd:string ;
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -4151,7 +4171,9 @@
         lily:additionalInformation "試作機"@ja ;
     ],  [
         lily:resource <Polydeukes> ;
-        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        lily:usedIn
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -4259,7 +4281,9 @@
         lily:additionalInformation "起動実証機"@ja ;
     ], [
         lily:resource <Aspid_Zmey> ;
-        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        lily:usedIn
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         lily:additionalInformation "テスト機"@ja ;
     ];
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -4362,7 +4386,8 @@
         lily:resource <Gusisnautar> ;
         lily:usedIn
             "舞台 アサルトリリィ新章"^^xsd:string,
-            "舞台シュツルム"^^xsd:string ;
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -4380,7 +4405,7 @@
     # lily:pastSchutzengel <> ;
     lily:schild <Kondo_Misaka> ;
     # lily:pastSchild <> ;
-    lily:roomMate <Sekino_Youko> ;
+    lily:roomMate <Sekino_Yoko> ;
     # schema:parent <> ;
     # schema:sibling [
     #    lily:resource <> ;
@@ -4457,7 +4482,9 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Chastiefol> ;
-        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        lily:usedIn
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -4544,7 +4571,9 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Achalbars> ;
-        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        lily:usedIn
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -4623,7 +4652,7 @@
     # lily:notGood ""@ja ;
     lily:hobby_talent
         "ネットサーフィン"@ja,
-        "ゲーム"@ja,
+        "インターネットゲーム"@ja,
         "お洒落"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ルナティックトランサー"^^xsd:string ;
@@ -4632,7 +4661,9 @@
     lily:boostedSkill "エーテルボディ"^^xsd:string ;
     lily:charm [
         lily:resource <Aymur> ;
-        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        lily:usedIn
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -4752,7 +4783,9 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Magi_Divider> ;
-        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        lily:usedIn
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -4843,10 +4876,12 @@
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
     lily:favorite
-        "和歌"@ja,
+        "サイベリアン"@ja,
         "和菓子"@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "和歌"@ja,
+        "漢詩"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ゼノンパラドキサ"^^xsd:string ;
     lily:subSkill "狂乱の閾"^^xsd:string ;
@@ -4858,7 +4893,9 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Tekeli_Li> ;
-        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        lily:usedIn
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         lily:additionalInformation "実験機"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -8140,11 +8177,11 @@
     lily:boostedSkill
         "リジェネレーター"^^xsd:string,
         "アルケミートレース"^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Alecto> ;
+        lily:usedIn "舞台シュツルム2"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     lily:gardenDepartment "普通科"^^xsd:string ;
     lily:grade "10"^^xsd:integer ;
@@ -10372,15 +10409,15 @@
     a lily:Lily ;
 .
 
-<Sekino_Youko>
+<Sekino_Yoko>
     rdfs:label "関野陽子"^^xsd:string ;
     schema:familyName "関野"@ja, "Sekino"@en ;
     lily:familyNameKana "せきの"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "陽子"@ja, "Youko"@en ;
+    schema:givenName "陽子"@ja, "Yoko"@en ;
     lily:givenNameKana "ようこ"@ja ;
-    schema:name "関野陽子"@ja, "Sekino Youko"@en ;
+    schema:name "関野陽子"@ja, "Sekino Yoko"@en ;
     lily:nameKana "せきのようこ"@ja ;
     lily:anotherName "夜叉姫"@ja ;
     foaf:age "17"^^xsd:integer ;
@@ -10409,8 +10446,14 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Areadbhair> ;
-        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        lily:usedIn
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
+    ], [
+        lily:resource <Galateia> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
@@ -10968,7 +11011,9 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Morddure> ;
-        lily:usedIn "舞台シュツルム"^^xsd:string ;
+        lily:usedIn
+            "舞台シュツルム"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "私立百合ヶ丘女学院"^^xsd:string ;
@@ -11272,7 +11317,7 @@
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
     # lily:schutzengel <> ;
-    lily:pastSchutzengel <Sekino_Youko> ;
+    lily:pastSchutzengel <Sekino_Yoko> ;
     # lily:schild <> ;
     # lily:pastSchild <> ;
     # lily:roomMate <> ;
