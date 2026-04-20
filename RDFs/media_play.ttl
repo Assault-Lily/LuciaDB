@@ -5760,7 +5760,7 @@
     schema:location "こくみん共済 coop ホール／スペース・ゼロ"^^xsd:string ;
     schema:startDate "2026-04-18"^^xsd:date ;
     schema:endDate "2026-04-26"^^xsd:date ;
-    schema:duration "PT2H15M"^^xsd:duration ;
+    schema:duration "PT2H10M"^^xsd:duration ;
     lily:showTime
         "2026-04-18T13:00:00+09:00"^^xsd:dateTime,
         "2026-04-18T18:00:00+09:00"^^xsd:dateTime,
