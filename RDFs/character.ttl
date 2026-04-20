@@ -19,7 +19,7 @@
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--03-12"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""@ja ;
     # lily:bloodType ""^^xsd:string ;
@@ -30,7 +30,7 @@
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "テスタメント"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted true ;
     lily:boostedSkill "リジェネレーター"^^xsd:string ;
@@ -41,6 +41,10 @@
     ], [
         lily:resource <Tyrfing_type_R> ;
         lily:usedIn "舞台LM"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        lily:resource <QingLong> ;
+        lily:usedIn "舞台シュツルム2"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     # schema:parent <> ;
@@ -195,7 +199,9 @@
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Trigrav> ;
-        lily:usedIn "舞台LM"^^xsd:string ;
+        lily:usedIn
+            "舞台LM"^^xsd:string,
+            "舞台シュツルム2"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     # lily:garden "私立ルドビコ女学院"^^xsd:string ;
@@ -1870,11 +1876,11 @@
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Dainsleif_Carbin> ;
+        lily:usedIn "舞台シュツルム2"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     # lily:garden ""^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
     # lily:grade ""^^xsd:integer ;
