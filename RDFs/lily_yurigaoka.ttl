@@ -1199,7 +1199,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q64783594>,
             <http://ja.dbpedia.org/resource/本西彩希帆> ;
-        lily:performIn <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+        lily:performIn
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
+            <Assault_Lily_Sturm_Odaiba> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
