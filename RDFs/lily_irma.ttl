@@ -609,13 +609,13 @@
 
 <Iwaya_Kukuri>
     rdfs:label "巌谷紅々李"^^xsd:string ;
-    schema:familyName "巌谷"@ja ; #, "Iwaya"@en ;
+    schema:familyName "巌谷"@ja, "Iwaya"@en ;
     lily:familyNameKana "いわや"@ja ;
     # schema:additionalName ""@ja, ""@en ;
     # lily:additionalNameKana ""@ja ;
-    schema:givenName "紅々李"@ja ; #, "Kukuri"@en ;
+    schema:givenName "紅々李"@ja, "Kukuri"@en ;
     lily:givenNameKana "くくり"@ja ;
-    schema:name "巌谷紅々李"@ja ; #, "Iwaya Kukuri"@en ;
+    schema:name "巌谷紅々李"@ja, "Iwaya Kukuri"@en ;
     lily:nameKana "いわやくくり"@ja ;
     lily:anotherName "大樹の蒼竜"@ja ;
     foaf:age "15"^^xsd:integer ;
