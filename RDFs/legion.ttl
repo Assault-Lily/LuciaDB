@@ -927,3 +927,17 @@
         <Kuroyurinokimi> ;
     a lily:Legion ;
 .
+
+### 私学アンブロシア女学苑高等學校
+
+<Amphitrite>
+    schema:name "アンピトリテ"@ja, "Amphitrite"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Morishita_Miyabi>,
+        <Tsukioka_Chino> ;
+    a lily:Legion ;
+.
