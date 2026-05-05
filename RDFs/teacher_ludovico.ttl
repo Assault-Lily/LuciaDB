@@ -34,7 +34,9 @@
     lily:notGood
         "貝類"@ja,
         "お酒"@ja ;
-    lily:hobby_talent "華道"@ja ;
+    lily:hobby_talent
+        "華道"@ja,
+        "茶道"@ja ;
     lily:skillerVal "87"^^xsd:integer ;
     lily:rareSkill "鷹の目"^^xsd:string ;
     lily:subSkill
