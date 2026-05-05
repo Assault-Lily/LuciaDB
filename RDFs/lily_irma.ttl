@@ -630,7 +630,9 @@
     schema:birthPlace "東京・清澄白河"@ja, "Kiyosumi-Shirakawa, Tokyo"@en ;
     # lily:favorite ""@ja ;
     # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:hobby_talent
+        "ボトルキャップ集め"@ja,
+        "戦術論の勉強"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "フェイズトランセンデンス"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
