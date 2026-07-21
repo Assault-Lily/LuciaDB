@@ -348,7 +348,8 @@
         <Hirose_Minato>,
         <Gozen>,
         <Ichinomiya_Michaela_Himari>,
-        <Akashi_Manaka> ;
+        <Akashi_Manaka>,
+        <Uemura_Warabi> ;
     lily:isVariantOf <Tyrfing_Prototype> ;
     schema:isSimilarTo
         <Tyrfing_type_T>,

@@ -2309,30 +2309,32 @@
     lily:givenNameKana "わらび"@ja ;
     schema:name "上村蕨"@ja, "Uemura Warabi"@en ;
     lily:nameKana "うえむらわらび"@ja ;
-    # lily:anotherName ""@ja ;
+    lily:anotherName "台場の守人"@ja ;
     foaf:age "15"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--04-13"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite "おにぎり"@ja ;
+    lily:notGood "冷めて伸びきった麺類"@ja ;
+    lily:hobby_talent
+        "戦術シミュレーション"@ja,
+        "ワラビーグッズの収集"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "Z"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Tyrfing_type_R> ;
+        lily:usedIn "舞台シュツルム御台場"^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
     lily:garden "御台場女学校"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "10"^^xsd:integer ;
@@ -2340,7 +2342,9 @@
     # lily:gardenJobTitle ""@ja ;
     lily:legion <Heorot_Saints> ;
     # lily:legionJobTitle ""^^xsd:string ;
-    # lily:position ""^^xsd:string ;
+    lily:position
+        "TZ"^^xsd:string,
+        "BZ"^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
