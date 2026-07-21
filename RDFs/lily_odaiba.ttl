@@ -1109,7 +1109,7 @@
     lily:favorite
         "犬"@ja,
         "酒盗"@ja ;
-    lily:notGood "過美な物や行い"@ja ;
+    lily:notGood "華美な物や行い"@ja ;
     lily:hobby_talent
         "料理"@ja,
         "釣り"@ja,
