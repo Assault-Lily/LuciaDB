@@ -42,7 +42,8 @@
     lily:charm [
         lily:resource <Dainsleif_Marksman> ;
         lily:usedIn
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ] ;
     lily:garden "御台場女学校"^^xsd:string ;

@@ -63,7 +63,8 @@
             "舞台御台場TEP"^^xsd:string,
             "ラスバレ"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -181,7 +182,8 @@
             "舞台御台場TEP"^^xsd:string,
             "ラスバレ"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -288,7 +290,8 @@
             "舞台御台場TSA"^^xsd:string,
             "舞台御台場TEP"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         lily:additionalInformation "実験機"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -408,7 +411,8 @@
             "舞台御台場TSA"^^xsd:string,
             "舞台御台場TEP"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         lily:additionalInformation "試作機"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -510,7 +514,8 @@
             "舞台御台場TSA"^^xsd:string,
             "舞台御台場TEP"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -620,7 +625,8 @@
             "舞台御台場TSA"^^xsd:string,
             "舞台御台場TEP"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -720,7 +726,8 @@
             "舞台御台場TSA"^^xsd:string,
             "舞台御台場TEP"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         lily:additionalInformation "先行試作機"@ja ;
     ], [
         lily:resource <Chrysaor> ;
@@ -834,7 +841,8 @@
             "舞台御台場TSA"^^xsd:string,
             "舞台御台場TEP"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -936,7 +944,8 @@
             "舞台御台場TSA"^^xsd:string,
             "舞台御台場TEP"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1124,7 +1133,8 @@
         lily:usedIn
             "舞台御台場TEP"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1240,7 +1250,8 @@
             "舞台御台場TSA"^^xsd:string,
             "舞台御台場TEP"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1351,14 +1362,16 @@
         lily:usedIn
             "舞台御台場TEP"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Carnwenhan> ;
         lily:usedIn
             "舞台御台場TEP"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1450,7 +1463,8 @@
         lily:usedIn
             "舞台御台場TEP"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1557,7 +1571,8 @@
             "舞台御台場TSA"^^xsd:string,
             "舞台御台場TEP"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1676,7 +1691,8 @@
             "舞台御台場TSA"^^xsd:string,
             "舞台御台場TEP"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         lily:additionalInformation "試験機"@ja ;
     ], [
         lily:resource <Yotunschwert> ;
@@ -1769,7 +1785,9 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Maltet> ;
-        lily:usedIn "舞台御台場TBO"^^xsd:string ;
+        lily:usedIn
+            "舞台御台場TBO"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Tyrfing_type_R> ;
@@ -1887,7 +1905,8 @@
             "舞台御台場TSA"^^xsd:string,
             "舞台御台場TEP"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ], [
         lily:resource <Galateia> ;
@@ -2029,7 +2048,8 @@
             "ドール"^^xsd:string,
             "舞台御台場TEP"^^xsd:string,
             "舞台御台場TBO"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Ame_No_Habakiri> ;
@@ -2151,7 +2171,8 @@
         lily:resource <Trigrav> ;
         lily:usedIn
             "舞台御台場TEP"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         # lily:additionalInformation ""@ja ;
     ], [
         lily:resource <Yotunschwert> ;

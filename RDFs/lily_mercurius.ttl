@@ -736,7 +736,7 @@
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
         lily:resource <Murgleys> ;
-    #    lily:usedIn ""^^xsd:string ;
+        lily:usedIn "舞台シュツルム御台場"^^xsd:string ;
         lily:additionalInformation "ユニーク機体"@ja ;
     ] ;
     lily:garden "聖メルクリウスインターナショナルスクール"^^xsd:string ;
