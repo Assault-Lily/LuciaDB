@@ -5993,7 +5993,7 @@
         "2026-07-21T13:00:00+09:00"^^xsd:dateTime ;
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     lily:additionalInformation "公演期間中以下の日程で過去の上演作品をキャストと一緒に楽しむ上映会イベントを開催。\n7月17日(金) 19:00 シュツルム サングリーズル編 第2弾（2026年4月上演）\n7月19日(日) 13:00 イルマTBW（2024年12月上演）\n7月21日(火) 19:00 御台場迎撃戦（2025年9月上演）\n7月22日(水) 12:00 Lily Scramble!!!! -Blooming Chord-（2026年3月上演）\n7月22日(水) 16:00 Lily Scramble!!!! -Sparkling Note-（2026年3月上演）"@ja ;
-    # schema:abstract ""@ja ;
+    schema:abstract "大島近海ネスト群を攻略後、御台場女学校のリリィたちの新たな出撃先は、甲州奪還に向けた富士五湖ネスト群討伐に決まった。\n最初の標的は、S級ネスト・河口湖。\n出撃を前に、聖メルクリウスインターナショナルから史上初の譲渡となった方舟「ウェーブクロッサー」が御台場へ届けられ、\nその引き渡しと一作戦帯同のため、アルテア・アレッサンドリーニも訪れる。\n\n方舟の初陣に臨んだリリィたちを待ち受けていたのは、これまでの戦術を覆す能力を持つゲートキーパー、\nそして七大アルトラの一つ・カリブディス。\nさらに、カリブディスから生まれた人型ヒュージ・ルサルカとの遭遇が、リリィたちに思いもよらぬ事実を突きつける――。\n\n甲州奪還を懸けた河口湖決戦。御台場女学校の新たな戦いが、今、幕を開ける。"@ja ;
     lily:previousWork <Assault_Lily_Sturm_Sanngridr_2>;
     # lily:nextWork <>;
     # lily:originalWork <>;
@@ -6001,7 +6001,9 @@
     lily:originalAuthor "尾花沢軒栄"@ja ;
     # lily:supervisor ""@ja ;
     # lily:executiveProducer ""@ja ;
-    # lily:producer "林修司"@ja ;
+    lily:producer
+        "林修司"@ja,
+        "早園正"@ja ;
     lily:scenarioWriter "桜木さやか"@ja ;
     lily:episodeDirection "佐野瑞樹"@ja ;
     # lily:assistantEpisodeDirector ""@ja ;
