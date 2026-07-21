@@ -2375,30 +2375,35 @@
     lily:givenNameKana "うらら"@ja ;
     schema:name "伊藤麗"@ja, "Ito Urara"@en ;
     lily:nameKana "いとううらら"@ja ;
-    lily:anotherName "規格外の戦うアーセナル"@ja ;
+    lily:anotherName "風雅なる一閃"@ja, "規格外の戦うアーセナル"@ja ;
     foaf:age "16"^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--03-07"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
     # lily:bloodType ""^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     schema:birthPlace "熊本県"@ja, "Kumamoto"@en ;
-    # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite
+        "茶の湯"@ja,
+        "辛い食べ物 (特にからし蓮根)"@ja,
+        "墨色"@ja ;
+    lily:notGood
+        "甘すぎるお菓子"@ja,
+        "騒々しく品のない振る舞い"@ja ;
+    lily:hobby_talent "金継ぎ"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "フェイズトランセンデンス"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
-    # lily:charm [
-    #    lily:resource <> ;
-    #    lily:usedIn ""^^xsd:string ;
-    #    lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:charm [
+        lily:resource <Caliburnus> ;
+        lily:usedIn "舞台シュツルム御台場"^^xsd:string ;
+        lily:additionalInformation "ユニーク機体"@ja ;
+    ] ;
     lily:garden "御台場女学校"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
     lily:grade "11"^^xsd:integer ;

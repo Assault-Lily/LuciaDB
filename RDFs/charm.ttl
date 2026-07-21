@@ -1850,3 +1850,14 @@
     # lily:additionalInformation ""@ja ;
     a lily:Charm ;
 .
+
+<Caliburnus>
+    # schema:productID ""^^xsd:string ;
+    lily:seriesName "カリブルヌス"@ja, "Caliburnus"@en ;
+    schema:name "カリブルヌス"@ja, "Caliburnus"@en ;
+    lily:generation "3"^^xsd:integer ;
+    schema:manufacturer <Camelot_Castle> ;
+    lily:user <Ito_Urara> ;
+    # lily:additionalInformation ""@ja ;
+    a lily:Charm ;
+.
