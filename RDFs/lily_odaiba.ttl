@@ -2134,7 +2134,8 @@
     lily:notGood "納豆"@ja ;
     lily:hobby_talent
         "ファッション"@ja,
-        "戦術論・ガーデン制服の研究"@ja ;
+        "戦術論"@ja,
+        "ガーデン制服の研究"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
     lily:rareSkill "ブレイブ"^^xsd:string ;
     lily:subSkill
