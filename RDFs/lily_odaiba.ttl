@@ -2234,10 +2234,11 @@
     lily:isBoosted true ;
     # lily:boostedSkill ""^^xsd:string ;
     lily:charm [
-        lily:resource <Dainsleif> ;
+        lily:resource <Dainsleif_Carbin> ;
         lily:usedIn
             "舞台御台場TEP"^^xsd:string,
-            "舞台御台場TSD"^^xsd:string ;
+            "舞台御台場TSD"^^xsd:string,
+            "舞台シュツルム御台場"^^xsd:string ;
         lily:additionalInformation "高機動型"@ja ;
     ], [
         lily:resource <Yotunschwert> ;

@@ -162,7 +162,6 @@
         <Gozen>,
         <Shirai_Yuyu>,
         <Funada_Kiito>,
-        <Maruyama_Amane>,
         <Rokkaku_Shiori>,
         <Kaede_Johan_Nouvel>,
         <Izumi_Rosa_Rina>,
@@ -209,7 +208,8 @@
         <Rokkaku_Shiori>,
         <Amatsu_Marei>,
         <Miyairi_Fubuki>,
-        <Fujimoto_Balbina_Otome> ;
+        <Fujimoto_Balbina_Otome>,
+        <Maruyama_Amane> ;
     lily:isVariantOf <Dainsleif> ;
     lily:hasVariant <Lagulf> ;
     a lily:Charm ;
