@@ -95,12 +95,14 @@ jobs:
           # Read-only Graph Store Protocol must work for reads.
           expect_status GET "http://localhost:3030/sparql/data?default" 200
 
-          # SPARQL Update endpoint must NOT exist.
+          # SPARQL Update endpoint must NOT exist (no fuseki:update service).
           expect_status POST "http://localhost:3030/sparql/update" 404 \
             --data-urlencode 'update=INSERT DATA { <http://example/s> <http://example/p> "x" }'
 
-          # Graph Store Protocol write must NOT be possible.
-          expect_status POST "http://localhost:3030/sparql/data?default" 404 \
+          # Graph Store Protocol write must be rejected. The service exists
+          # (fuseki:gsp-r, read-only) so Fuseki answers 405 Method Not
+          # Allowed rather than 404 Not Found.
+          expect_status POST "http://localhost:3030/sparql/data?default" 405 \
             -H 'Content-Type: text/turtle' \
             --data '<http://example/s> <http://example/p> "x" .'
 
