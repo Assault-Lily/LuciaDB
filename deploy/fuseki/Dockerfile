@@ -26,8 +26,11 @@
 ## the RDFs/ directory is copied in relative to the repo root. See
 ## deploy/fuseki/docker-compose.yaml for an example.
 
-ARG OPENJDK_VERSION=19
-ARG ALPINE_VERSION=3.15.0
+## Base image / Jena version tracking is kept up to date automatically by
+## Renovate (see renovate.json): the eclipse-temurin tag below and the
+## JENA_VERSION build-args in docker-compose.yaml / fuseki-build.yml.
+ARG JAVA_VERSION=21
+ARG ALPINE_VERSION=3.21.2
 ARG JENA_VERSION=""
 
 # Internal, passed between stages.
@@ -36,7 +39,9 @@ ARG FUSEKI_JAR=jena-fuseki-server-${JENA_VERSION}.jar
 ARG JAVA_MINIMAL=/opt/java-minimal
 
 ## ---- Stage: Download Fuseki and build a reduced-footprint JRE.
-FROM openjdk:${OPENJDK_VERSION}-alpine AS base
+## NOTE: upstream jena-fuseki-docker switched from openjdk:*-alpine (removed
+## from Docker Hub) to eclipse-temurin:*-alpine; we follow that here.
+FROM eclipse-temurin:${JAVA_VERSION}-alpine AS base
 
 ARG JAVA_MINIMAL
 ARG JENA_VERSION
@@ -63,22 +68,26 @@ RUN ./download.sh --chksum sha1 "$JAR_URL"
 
 ## -- Make reduced Java JDK
 
-ARG JDEPS_EXTRA="jdk.crypto.cryptoki,jdk.crypto.ec"
+## Provides locale data. Jdeps does not detect it because of SPI, so add it here.
+ARG JDEPS_EXTRA="jdk.crypto.cryptoki,jdk.crypto.ec,jdk.localedata"
+
+## Optional: comma-separated list of locale language tags to keep from
+## jdk.localedata, e.g. "en,ja". We keep "en,ja" since RDF data and error
+## messages are Japanese/English only; leave empty to include all locales.
+ARG JDK_LOCALES="en,ja"
+
 RUN \
   JDEPS="$(jdeps --multi-release base --print-module-deps --ignore-missing-deps ${FUSEKI_JAR})"  && \
+  if [ -n "${JDK_LOCALES}" ] ; then LOCALE_OPT="--include-locales=${JDK_LOCALES}" ; else LOCALE_OPT="" ; fi && \
   jlink \
         --compress 2 --strip-debug --no-header-files --no-man-pages \
         --output "${JAVA_MINIMAL}" \
-        --add-modules "${JDEPS},${JDEPS_EXTRA}"
+        --add-modules "${JDEPS},${JDEPS_EXTRA}" \
+        ${LOCALE_OPT}
 
 ADD deploy/fuseki/entrypoint.sh .
 ADD deploy/fuseki/log4j2.properties .
 ADD deploy/fuseki/config.ttl .
-
-# Run as this user
-# -H : no home directory
-# -D : no password
-RUN adduser -H -D fuseki fuseki
 
 ## ---- Stage: bake the TDB2 database from repository RDF data.
 ##
@@ -115,7 +124,7 @@ RUN set -eu; \
 ## ---- Stage: runtime image.
 FROM alpine:${ALPINE_VERSION}
 
-RUN apk add curl
+RUN apk add --no-cache curl
 
 ## Import ARGs
 ARG JENA_VERSION
@@ -125,7 +134,6 @@ ARG FUSEKI_JAR
 
 COPY --from=base /opt/java-minimal /opt/java-minimal
 COPY --from=base /fuseki /fuseki
-COPY --from=base /etc/passwd /etc/passwd
 
 # Pre-built, read-only TDB2 database from the tdb2build stage above.
 COPY --from=tdb2build ${FUSEKI_DIR}/databases ${FUSEKI_DIR}/databases
@@ -134,9 +142,20 @@ WORKDIR $FUSEKI_DIR
 
 ARG LOGS=${FUSEKI_DIR}/logs
 
+ARG JENA_USER=fuseki
+ARG JENA_GROUP=$JENA_USER
+ARG JENA_GID=1000
+ARG JENA_UID=1000
+
+# Run as this user
+# -H : no home directory
+# -D : no password
+RUN addgroup -g "${JENA_GID}" "${JENA_GROUP}" && \
+    adduser "${JENA_USER}" -G "${JENA_GROUP}" -s /bin/ash -u "${JENA_UID}" -H -D
+
 RUN \
     mkdir -p $LOGS && \
-    chown -R fuseki ${FUSEKI_DIR} && \
+    chown -R "${JENA_USER}" ${FUSEKI_DIR} && \
     chmod a+x entrypoint.sh
 
 ## Default environment variables.
@@ -147,7 +166,7 @@ ENV \
     FUSEKI_JAR="${FUSEKI_JAR}"          \
     FUSEKI_DIR="${FUSEKI_DIR}"
 
-USER fuseki
+USER $JENA_USER
 
 EXPOSE 3030
 

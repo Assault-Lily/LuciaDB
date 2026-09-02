@@ -17,7 +17,7 @@ services:
       context: ../../
       dockerfile: deploy/fuseki/Dockerfile
       args:
-        JENA_VERSION: "4.10.0"
+        JENA_VERSION: "6.2.0"
     image: fuseki
     ports:
       - "3030:3030"

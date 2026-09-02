@@ -43,7 +43,7 @@ jobs:
           context: .
           file: deploy/fuseki/Dockerfile
           build-args: |
-            JENA_VERSION=4.10.0
+            JENA_VERSION=6.2.0
           tags: fuseki:${{ github.sha }}
           load: true
           push: false

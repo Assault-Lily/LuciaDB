@@ -1,0 +1,29 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "packageRules": [
+    {
+      "description": "Keep Fuseki's own release cadence separate from other deps for easier review.",
+      "matchFileNames": ["deploy/fuseki/**"],
+      "groupName": "fuseki image"
+    }
+  ],
+  "customManagers": [
+    {
+      "description": "Track the latest org.apache.jena:jena-fuseki-server release used to build the Fuseki image, wherever JENA_VERSION is pinned.",
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/^deploy/fuseki/docker-compose\\.yaml$/",
+        "/^\\.github/workflows/fuseki-build\\.yml$/"
+      ],
+      "matchStrings": [
+        "JENA_VERSION:?\\s*[=\"]\\s*(?<currentValue>[0-9.]+)\"?"
+      ],
+      "datasourceTemplate": "maven",
+      "depNameTemplate": "org.apache.jena:jena-fuseki-server",
+      "registryUrlTemplate": "https://repo1.maven.org/maven2"
+    }
+  ]
+}
