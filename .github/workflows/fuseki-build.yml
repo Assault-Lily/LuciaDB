@@ -1,0 +1,117 @@
+name: Build and validate Fuseki image
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "RDFs/**"
+      - "deploy/fuseki/**"
+      - ".github/workflows/fuseki-build.yml"
+  pull_request:
+    paths:
+      - "RDFs/**"
+      - "deploy/fuseki/**"
+      - ".github/workflows/fuseki-build.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java (for rdflint)
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Set up rdflint
+        uses: imas/setup-rdflint@v3
+
+      - name: Run rdflint
+        run: rdflint -config .rdflint/rdflint-config.yml
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build Fuseki image (bakes TDB2 from RDFs/*.ttl)
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: deploy/fuseki/Dockerfile
+          build-args: |
+            JENA_VERSION=6.2.0
+          tags: fuseki:${{ github.sha }}
+          load: true
+          push: false
+          # NOTE: Pushing this image to a registry (e.g. ECR) is intentionally
+          # out of scope here. That will be added once the ECS platform
+          # (registry, task definition, service) exists.
+
+      - name: Start container
+        run: |
+          docker run -d --name fuseki-test -p 3030:3030 fuseki:${{ github.sha }}
+
+      - name: Wait for Fuseki to become healthy
+        run: |
+          for i in $(seq 1 60); do
+            status="$(docker inspect --format='{{.State.Health.Status}}' fuseki-test 2>/dev/null || echo unknown)"
+            echo "attempt $i: health=$status"
+            if [ "$status" = "healthy" ]; then
+              exit 0
+            fi
+            if [ "$status" = "unhealthy" ]; then
+              echo "Container reported unhealthy" >&2
+              exit 1
+            fi
+            sleep 5
+          done
+          echo "Timed out waiting for healthy status" >&2
+          exit 1
+
+      - name: Assert read-only behavior
+        run: |
+          set -eu
+
+          expect_status() {
+            method="$1"; url="$2"; expected="$3"; shift 3
+            actual="$(curl -s -o /tmp/resp_body -w '%{http_code}' -X "$method" "$@" "$url")"
+            echo "$method $url -> $actual (expected $expected)"
+            if [ "$actual" != "$expected" ]; then
+              echo "FAIL: $method $url returned $actual, expected $expected" >&2
+              echo "--- response body ---" >&2
+              cat /tmp/resp_body >&2 || true
+              exit 1
+            fi
+          }
+
+          # Query endpoints must work (read-only, always allowed).
+          expect_status GET "http://localhost:3030/sparql?query=ASK%20%7B%7D" 200
+          expect_status GET "http://localhost:3030/sparql/query?query=ASK%20%7B%7D" 200
+
+          # Read-only Graph Store Protocol must work for reads.
+          expect_status GET "http://localhost:3030/sparql/data?default" 200
+
+          # SPARQL Update endpoint must NOT exist (no fuseki:update service).
+          expect_status POST "http://localhost:3030/sparql/update" 404 \
+            --data-urlencode 'update=INSERT DATA { <http://example/s> <http://example/p> "x" }'
+
+          # Graph Store Protocol write must be rejected. The service exists
+          # (fuseki:gsp-r, read-only) so Fuseki answers 405 Method Not
+          # Allowed rather than 404 Not Found.
+          expect_status POST "http://localhost:3030/sparql/data?default" 405 \
+            -H 'Content-Type: text/turtle' \
+            --data '<http://example/s> <http://example/p> "x" .'
+
+          echo "All read-only assertions passed."
+
+      - name: Dump container logs
+        if: always()
+        run: docker logs fuseki-test || true
+
+      - name: Clean up container
+        if: always()
+        run: docker rm -f fuseki-test || true

@@ -1,0 +1,17 @@
+# Docker build context is the repository root (see deploy/fuseki/Dockerfile
+# and deploy/fuseki/docker-compose.yaml). Keep the build context small and
+# avoid leaking repo-management files into the image.
+
+.git
+.github
+.rdflint
+rdflint-0.2.1.jar
+rdflint-problems.yml
+CONTRIBUTING.md
+LICENSE
+README.md
+
+# Not loaded into the TDB2 dataset (see deploy/fuseki/Dockerfile comments);
+# these are served separately as static files by the reverse proxy.
+IRIs
+constraints
