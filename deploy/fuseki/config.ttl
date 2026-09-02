@@ -16,7 +16,7 @@
 @prefix ja:      <http://jena.hpl.hp.com/2005/11/Assembler#> .
 
 [] rdf:type fuseki:Server ;
-   fuseki:services ( <#service> ) .
+    fuseki:services ( <#service> ) .
 
 <#service> rdf:type fuseki:Service ;
     ## Published at http://host:port/sparql
