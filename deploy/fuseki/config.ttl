@@ -1,0 +1,46 @@
+## Licensed under the terms of http://www.apache.org/licenses/LICENSE-2.0
+##
+## Fuseki assembler configuration: read-only SPARQL endpoint.
+##
+## This service intentionally defines ONLY query and read-only Graph Store
+## Protocol (GSP) endpoints. SPARQL Update, GSP write, and file-upload
+## endpoints are NOT defined here, so requests to them receive 404/405
+## instead of being served. This is the primary enforcement point for the
+## "read-only" requirement; the reverse proxy in front of this service
+## should also avoid forwarding write-oriented requests as defense in depth.
+
+@prefix fuseki:  <http://jena.apache.org/fuseki#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tdb2:    <http://jena.apache.org/2016/tdb#> .
+@prefix ja:      <http://jena.hpl.hp.com/2005/11/Assembler#> .
+
+[] rdf:type fuseki:Server ;
+   fuseki:services ( <#service> ) .
+
+<#service> rdf:type fuseki:Service ;
+    ## Published at http://host:port/sparql
+    fuseki:name "sparql" ;
+
+    ## GET/POST SPARQL query directly at /sparql (matches nginx `location /sparql`).
+    fuseki:endpoint [ fuseki:operation fuseki:query ] ;
+
+    ## GET/POST SPARQL query at /sparql/query (matches README usage and healthcheck).
+    fuseki:endpoint [ fuseki:operation fuseki:query ; fuseki:name "query" ] ;
+
+    ## Read-only Graph Store Protocol at /sparql/data (matches nginx `location /sparql/data`).
+    ## NOTE: fuseki:gsp-r is READ-ONLY GSP. Do not change to fuseki:gsp (which is read-write).
+    fuseki:endpoint [ fuseki:operation fuseki:gsp-r ; fuseki:name "data" ] ;
+
+    ## Intentionally NOT defined:
+    ##   fuseki:endpoint [ fuseki:operation fuseki:update ]   -- SPARQL Update
+    ##   fuseki:endpoint [ fuseki:operation fuseki:gsp ]      -- GSP read-write
+    ##   fuseki:endpoint [ fuseki:operation fuseki:upload ]   -- file upload
+
+    fuseki:dataset <#dataset> .
+
+<#dataset> rdf:type tdb2:DatasetTDB2 ;
+    ## Baked at image build time from RDFs/*.ttl (see Dockerfile). Not rebuilt at
+    ## container startup.
+    tdb2:location "/fuseki/databases" ;
+    tdb2:unionDefaultGraph true .

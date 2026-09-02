@@ -1,0 +1,25 @@
+## Licensed under the terms of http://www.apache.org/licenses/LICENSE-2.0
+#
+# For local development/testing only. Production deployment target is
+# AWS ECS Fargate (task definition managed separately, not this file).
+#
+# Build context is the repository root because Dockerfile COPYs RDFs/
+# relative to the repo root.
+#
+# Usage (from repository root):
+#   docker compose -f deploy/fuseki/docker-compose.yaml build
+#   docker compose -f deploy/fuseki/docker-compose.yaml up
+
+version: "3.4"
+services:
+  fuseki:
+    build:
+      context: ../../
+      dockerfile: deploy/fuseki/Dockerfile
+      args:
+        JENA_VERSION: "4.10.0"
+    image: fuseki
+    ports:
+      - "3030:3030"
+    volumes:
+      - ./logs:/fuseki/logs:z
