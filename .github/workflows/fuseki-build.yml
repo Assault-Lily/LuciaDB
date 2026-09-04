@@ -14,6 +14,14 @@ on:
       - ".github/workflows/fuseki-build.yml"
   workflow_dispatch:
 
+permissions:
+  contents: read
+  id-token: write
+
+env:
+  AWS_REGION: ap-northeast-1
+  ECR_REGISTRY: 353236395445.dkr.ecr.ap-northeast-1.amazonaws.com
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -37,6 +45,23 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
+      - name: Configure AWS credentials for ECR push
+        if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/master')
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-region: ${{ env.AWS_REGION }}
+          role-to-assume: arn:aws:iam::353236395445:role/luciadb-github-actions
+
+      - name: Log in to Amazon ECR
+        if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/master')
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Calculate image metadata
+        id: image-meta
+        shell: bash
+        run: |
+          echo "last_update=$(TZ=Asia/Tokyo git show -s --format=%cd --date=format:'%Y/%m/%d %H:%M:%S' HEAD)" >> "$GITHUB_OUTPUT"
+
       - name: Build Fuseki image (bakes TDB2 from RDFs/*.ttl)
         uses: docker/build-push-action@v6
         with:
@@ -47,23 +72,36 @@ jobs:
           tags: fuseki:${{ github.sha }}
           load: true
           push: false
-          # NOTE: Pushing this image to a registry (e.g. ECR) is intentionally
-          # out of scope here. That will be added once the ECS platform
-          # (registry, task definition, service) exists.
+      - name: Build edge image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: deploy/fuseki/edge/Dockerfile
+          build-args: |
+            LAST_UPDATE=${{ steps.image-meta.outputs.last_update }}
+          tags: fuseki-edge:${{ github.sha }}
+          load: true
+          push: false
 
-      - name: Start container
+      - name: Start Fuseki and edge containers
         run: |
-          docker run -d --name fuseki-test -p 3030:3030 fuseki:${{ github.sha }}
+          docker run -d --name fuseki-test \
+            -p 3030:3030 -p 8080:8080 \
+            fuseki:${{ github.sha }}
+          docker run -d --name edge-test \
+            --network container:fuseki-test \
+            fuseki-edge:${{ github.sha }}
 
-      - name: Wait for Fuseki to become healthy
+      - name: Wait for edge and Fuseki to become healthy
         run: |
           for i in $(seq 1 60); do
-            status="$(docker inspect --format='{{.State.Health.Status}}' fuseki-test 2>/dev/null || echo unknown)"
-            echo "attempt $i: health=$status"
-            if [ "$status" = "healthy" ]; then
+            fuseki_status="$(docker inspect --format='{{.State.Health.Status}}' fuseki-test 2>/dev/null || echo unknown)"
+            edge_status="$(docker inspect --format='{{.State.Health.Status}}' edge-test 2>/dev/null || echo unknown)"
+            echo "attempt $i: fuseki=$fuseki_status edge=$edge_status"
+            if [ "$fuseki_status" = "healthy" ] && [ "$edge_status" = "healthy" ]; then
               exit 0
             fi
-            if [ "$status" = "unhealthy" ]; then
+            if [ "$fuseki_status" = "unhealthy" ] || [ "$edge_status" = "unhealthy" ]; then
               echo "Container reported unhealthy" >&2
               exit 1
             fi
@@ -89,29 +127,44 @@ jobs:
           }
 
           # Query endpoints must work (read-only, always allowed).
-          expect_status GET "http://localhost:3030/sparql?query=ASK%20%7B%7D" 200
-          expect_status GET "http://localhost:3030/sparql/query?query=ASK%20%7B%7D" 200
+          expect_status GET "http://localhost:8080/sparql?query=ASK%20%7B%7D" 200
+          expect_status GET "http://localhost:8080/sparql/query?query=ASK%20%7B%7D" 200
 
           # Read-only Graph Store Protocol must work for reads.
-          expect_status GET "http://localhost:3030/sparql/data?default" 200
+          expect_status GET "http://localhost:8080/sparql/data?default" 200
 
           # SPARQL Update endpoint must NOT exist (no fuseki:update service).
-          expect_status POST "http://localhost:3030/sparql/update" 404 \
+          expect_status POST "http://localhost:8080/sparql/update" 404 \
             --data-urlencode 'update=INSERT DATA { <http://example/s> <http://example/p> "x" }'
 
           # Graph Store Protocol write must be rejected. The service exists
           # (fuseki:gsp-r, read-only) so Fuseki answers 405 Method Not
           # Allowed rather than 404 Not Found.
-          expect_status POST "http://localhost:3030/sparql/data?default" 405 \
+          expect_status POST "http://localhost:8080/sparql/data?default" 405 \
             -H 'Content-Type: text/turtle' \
             --data '<http://example/s> <http://example/p> "x" .'
+
+          expect_status GET "http://localhost:8080/rdf/IRIs/lily_schema.ttl" 200
+          expect_status GET "http://localhost:8080/rdf/constraints/Lily_Shape.ttl" 200
+          expect_status GET "http://localhost:8080/sparql/last-update" 200
 
           echo "All read-only assertions passed."
 
       - name: Dump container logs
         if: always()
-        run: docker logs fuseki-test || true
+        run: |
+          docker logs fuseki-test || true
+          docker logs edge-test || true
+
+      - name: Push validated images to ECR
+        if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/master')
+        run: |
+          set -eu
+          docker tag fuseki:${{ github.sha }} "${ECR_REGISTRY}/luciadb/fuseki:${{ github.sha }}"
+          docker tag fuseki-edge:${{ github.sha }} "${ECR_REGISTRY}/luciadb/edge:${{ github.sha }}"
+          docker push "${ECR_REGISTRY}/luciadb/fuseki:${{ github.sha }}"
+          docker push "${ECR_REGISTRY}/luciadb/edge:${{ github.sha }}"
 
       - name: Clean up container
         if: always()
-        run: docker rm -f fuseki-test || true
+        run: docker rm -f edge-test fuseki-test || true

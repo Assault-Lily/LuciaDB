@@ -1,0 +1,23 @@
+version: "3.4"
+
+services:
+  fuseki:
+    build:
+      context: ../../
+      dockerfile: deploy/fuseki/Dockerfile
+      args:
+        JENA_VERSION: "6.2.0"
+    image: fuseki
+    ports:
+      - "8080:8080"
+
+  edge:
+    build:
+      context: ../../
+      dockerfile: deploy/fuseki/edge/Dockerfile
+      args:
+        LAST_UPDATE: local
+    image: fuseki-edge
+    depends_on:
+      - fuseki
+    network_mode: "service:fuseki"
