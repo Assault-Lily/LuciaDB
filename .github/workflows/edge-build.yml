@@ -127,7 +127,7 @@ jobs:
           expect_status GET "http://localhost:8080/rdf/IRIs/lily_schema.ttl" 200
           expect_status GET "http://localhost:8080/rdf/constraints/Lily_Shape.ttl" 200
           expect_status GET "http://localhost:8080/sparql/last-update" 200
-          grep -Fx '{"last_update": "test"}' /tmp/resp_body
+          jq -e '.last_update == "test"' /tmp/resp_body
           expect_status GET "http://localhost:8080/.well-known/cf-custom-hostname-challenge/test-token" 200
           grep -Fx "test-value" /tmp/resp_body
           expect_status GET "http://localhost:8080/.well-known/acme-challenge/test-dcv-token" 200
