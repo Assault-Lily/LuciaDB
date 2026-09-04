@@ -90,6 +90,8 @@ jobs:
             fuseki:${{ github.sha }}
           docker run -d --name edge-test \
             --network container:fuseki-test \
+            -e CF_CUSTOM_HOSTNAME_CHALLENGE_ID=test-token \
+            -e CF_CUSTOM_HOSTNAME_CHALLENGE_VALUE=test-value \
             fuseki-edge:${{ github.sha }}
 
       - name: Wait for edge and Fuseki to become healthy
@@ -147,6 +149,8 @@ jobs:
           expect_status GET "http://localhost:8080/rdf/IRIs/lily_schema.ttl" 200
           expect_status GET "http://localhost:8080/rdf/constraints/Lily_Shape.ttl" 200
           expect_status GET "http://localhost:8080/sparql/last-update" 200
+          expect_status GET "http://localhost:8080/.well-known/cf-custom-hostname-challenge/test-token" 200
+          grep -Fx "test-value" /tmp/resp_body
 
           echo "All read-only assertions passed."
 
