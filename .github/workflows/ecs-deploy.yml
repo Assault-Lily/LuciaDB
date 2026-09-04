@@ -20,6 +20,8 @@ env:
   ECS_SERVICE: luciadb
   ECS_TASK_FAMILY: luciadb
   ECR_REGISTRY: 353236395445.dkr.ecr.ap-northeast-1.amazonaws.com
+  TUNNEL_TOKEN_SECRET_ARN: arn:aws:secretsmanager:ap-northeast-1:353236395445:secret:luciadb/cloudflare-tunnel-token-ksmvN9
+  CLOUDFLARED_IMAGE: cloudflare/cloudflared:2026.8.3
 
 jobs:
   deploy:
@@ -76,6 +78,8 @@ jobs:
           jq \
             --arg fuseki "$ECR_REGISTRY/luciadb/fuseki:$IMAGE_TAG" \
             --arg edge "$ECR_REGISTRY/luciadb/edge:$IMAGE_TAG" \
+            --arg tunnelSecretArn "$TUNNEL_TOKEN_SECRET_ARN" \
+            --arg cloudflared "$CLOUDFLARED_IMAGE" \
             'del(
               .taskDefinitionArn,
               .revision,
@@ -90,6 +94,36 @@ jobs:
                 elif .name == "edge" then .image = $edge
                 else .
                 end
+              )
+            | .containerDefinitions |= (
+                map(select(.name != "cloudflared"))
+                + [{
+                    name: "cloudflared",
+                    image: $cloudflared,
+                    cpu: 0,
+                    essential: true,
+                    command: ["tunnel", "run"],
+                    secrets: [
+                      {
+                        name: "TUNNEL_TOKEN",
+                        valueFrom: $tunnelSecretArn
+                      }
+                    ],
+                    dependsOn: [
+                      {
+                        containerName: "edge",
+                        condition: "HEALTHY"
+                      }
+                    ],
+                    logConfiguration: {
+                      logDriver: "awslogs",
+                      options: {
+                        "awslogs-group": "/ecs/luciadb",
+                        "awslogs-region": "ap-northeast-1",
+                        "awslogs-stream-prefix": "cloudflared"
+                      }
+                    }
+                  }]
               )' \
             /tmp/task-definition.json \
             > /tmp/task-definition-rendered.json

@@ -24,6 +24,18 @@
       "datasourceTemplate": "maven",
       "depNameTemplate": "org.apache.jena:jena-fuseki-server",
       "registryUrlTemplate": "https://repo1.maven.org/maven2"
+    },
+    {
+      "description": "Track the Cloudflare Tunnel sidecar image used by the ECS deployment.",
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/^\\.github/workflows/ecs-deploy\\.yml$/"
+      ],
+      "matchStrings": [
+        "CLOUDFLARED_IMAGE:\\s*cloudflare/cloudflared:(?<currentValue>[0-9.]+)"
+      ],
+      "datasourceTemplate": "docker",
+      "depNameTemplate": "cloudflare/cloudflared"
     }
   ]
 }

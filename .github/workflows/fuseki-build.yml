@@ -92,6 +92,8 @@ jobs:
             --network container:fuseki-test \
             -e CF_CUSTOM_HOSTNAME_CHALLENGE_ID=test-token \
             -e CF_CUSTOM_HOSTNAME_CHALLENGE_VALUE=test-value \
+            -e CF_CUSTOM_HOSTNAME_DCV_PATH=/.well-known/acme-challenge/test-dcv-token \
+            -e CF_CUSTOM_HOSTNAME_DCV_VALUE=test-dcv-value \
             fuseki-edge:${{ github.sha }}
 
       - name: Wait for edge and Fuseki to become healthy
@@ -151,6 +153,8 @@ jobs:
           expect_status GET "http://localhost:8080/sparql/last-update" 200
           expect_status GET "http://localhost:8080/.well-known/cf-custom-hostname-challenge/test-token" 200
           grep -Fx "test-value" /tmp/resp_body
+          expect_status GET "http://localhost:8080/.well-known/acme-challenge/test-dcv-token" 200
+          grep -Fx "test-dcv-value" /tmp/resp_body
 
           echo "All read-only assertions passed."
 
