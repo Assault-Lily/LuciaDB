@@ -109,6 +109,10 @@ jobs:
                 else .
                 end
               )
+            | .runtimePlatform = {
+                operatingSystemFamily: "LINUX",
+                cpuArchitecture: "ARM64"
+              }
             | .containerDefinitions |= (
                 map(select(.name != "cloudflared"))
                 + [{

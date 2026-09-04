@@ -26,7 +26,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
 
     steps:
       - name: Checkout
@@ -51,6 +51,7 @@ jobs:
         with:
           context: .
           file: deploy/fuseki/Dockerfile
+          platforms: linux/arm64
           build-args: |
             JENA_VERSION=6.2.0
           tags: fuseki:${{ github.sha }}
@@ -62,14 +63,17 @@ jobs:
         with:
           context: .
           file: deploy/edge/Dockerfile
+          platforms: linux/arm64
           tags: fuseki-edge:${{ github.sha }}
           load: true
           push: false
 
       - name: Start Fuseki and edge containers
         run: |
+          test "$(docker image inspect fuseki:${{ github.sha }} --format '{{.Architecture}}')" = "arm64"
+          test "$(docker image inspect fuseki-edge:${{ github.sha }} --format '{{.Architecture}}')" = "arm64"
           docker run -d --name fuseki-test \
-            -p 3030:3030 \
+            -p 3030:3030 -p 8080:8080 \
             fuseki:${{ github.sha }}
           docker run -d --name edge-test \
             --network container:fuseki-test \

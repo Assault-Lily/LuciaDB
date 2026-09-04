@@ -24,7 +24,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
 
     steps:
       - name: Checkout
@@ -61,6 +61,7 @@ jobs:
         with:
           context: .
           file: deploy/fuseki/Dockerfile
+          platforms: linux/arm64
           build-args: |
             JENA_VERSION=6.2.0
           tags: fuseki:${{ github.sha }}
@@ -69,6 +70,7 @@ jobs:
 
       - name: Start Fuseki container
         run: |
+          test "$(docker image inspect fuseki:${{ github.sha }} --format '{{.Architecture}}')" = "arm64"
           docker run -d --name fuseki-test \
             -p 3030:3030 \
             fuseki:${{ github.sha }}
