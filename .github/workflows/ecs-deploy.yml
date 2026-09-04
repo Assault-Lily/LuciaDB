@@ -55,19 +55,26 @@ jobs:
       - name: Resolve immutable image tag
         id: image
         shell: bash
-        run: echo "tag=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+        run: |
+          set -eu
+          echo "fuseki_tag=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "edge_tag=$(git log -1 --format=%H -- deploy/edge IRIs constraints)" >> "$GITHUB_OUTPUT"
+          echo "last_update=$(TZ=Asia/Tokyo date '+%Y/%m/%d %H:%M:%S')" >> "$GITHUB_OUTPUT"
 
       - name: Verify release images exist
         env:
-          IMAGE_TAG: ${{ steps.image.outputs.tag }}
+          FUSEKI_TAG: ${{ steps.image.outputs.fuseki_tag }}
+          EDGE_TAG: ${{ steps.image.outputs.edge_tag }}
         run: |
           set -eu
-          aws ecr describe-images --repository-name luciadb/fuseki --image-ids imageTag="$IMAGE_TAG" >/dev/null
-          aws ecr describe-images --repository-name luciadb/edge --image-ids imageTag="$IMAGE_TAG" >/dev/null
+          aws ecr describe-images --repository-name luciadb/fuseki --image-ids imageTag="$FUSEKI_TAG" >/dev/null
+          aws ecr describe-images --repository-name luciadb/edge --image-ids imageTag="$EDGE_TAG" >/dev/null
 
       - name: Render task definition with release images
         env:
-          IMAGE_TAG: ${{ steps.image.outputs.tag }}
+          FUSEKI_TAG: ${{ steps.image.outputs.fuseki_tag }}
+          EDGE_TAG: ${{ steps.image.outputs.edge_tag }}
+          LAST_UPDATE: ${{ steps.image.outputs.last_update }}
         run: |
           set -eu
           aws ecs describe-task-definition \
@@ -76,8 +83,9 @@ jobs:
             > /tmp/task-definition.json
 
           jq \
-            --arg fuseki "$ECR_REGISTRY/luciadb/fuseki:$IMAGE_TAG" \
-            --arg edge "$ECR_REGISTRY/luciadb/edge:$IMAGE_TAG" \
+            --arg fuseki "$ECR_REGISTRY/luciadb/fuseki:$FUSEKI_TAG" \
+            --arg edge "$ECR_REGISTRY/luciadb/edge:$EDGE_TAG" \
+            --arg lastUpdate "$LAST_UPDATE" \
             --arg tunnelSecretArn "$TUNNEL_TOKEN_SECRET_ARN" \
             --arg cloudflared "$CLOUDFLARED_IMAGE" \
             'del(
@@ -91,7 +99,13 @@ jobs:
             )
             | .containerDefinitions |= map(
                 if .name == "fuseki" then .image = $fuseki
-                elif .name == "edge" then .image = $edge
+                elif .name == "edge" then
+                  .image = $edge
+                  | .environment = (
+                      (.environment // [])
+                      | map(select(.name != "LAST_UPDATE"))
+                      + [{name: "LAST_UPDATE", value: $lastUpdate}]
+                    )
                 else .
                 end
               )

@@ -14,10 +14,10 @@ services:
   edge:
     build:
       context: ../../
-      dockerfile: deploy/fuseki/edge/Dockerfile
-      args:
-        LAST_UPDATE: local
+      dockerfile: deploy/edge/Dockerfile
     image: fuseki-edge
+    environment:
+      LAST_UPDATE: local
     depends_on:
       - fuseki
     network_mode: "service:fuseki"

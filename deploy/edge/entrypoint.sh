@@ -1,6 +1,10 @@
 #!/bin/sh
 set -eu
 
+last_update="${LAST_UPDATE:-unknown}"
+printf '{\n  "last_update": "%s"\n}\n' "$last_update" \
+    > /usr/share/nginx/html/last-update.json
+
 if [ -n "${CF_CUSTOM_HOSTNAME_CHALLENGE_ID:-}" ] &&
    [ -n "${CF_CUSTOM_HOSTNAME_CHALLENGE_VALUE:-}" ]; then
     challenge_dir="/usr/share/nginx/html/.well-known/cf-custom-hostname-challenge"
