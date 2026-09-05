@@ -58,7 +58,25 @@ jobs:
         run: |
           set -eu
           echo "fuseki_tag=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
-          echo "edge_tag=$(git log -1 --format=%H -- deploy/edge IRIs constraints)" >> "$GITHUB_OUTPUT"
+          edge_tag="$(
+            aws ecr describe-images \
+              --repository-name luciadb/edge \
+              --region "$AWS_REGION" \
+              --output json \
+            | jq -r 'sort_by(.imagePushedAt) | reverse | .[].imageTags[]?'
+            | while read -r candidate; do
+                if [[ "$candidate" =~ ^[0-9a-f]{40}$ ]] &&
+                   git merge-base --is-ancestor "$candidate" HEAD; then
+                  printf '%s\n' "$candidate"
+                  break
+                fi
+              done
+          )"
+          if [ -z "$edge_tag" ]; then
+            echo "No ECR edge image found for the release commit." >&2
+            exit 1
+          fi
+          echo "edge_tag=$edge_tag" >> "$GITHUB_OUTPUT"
           echo "last_update=$(TZ=Asia/Tokyo date '+%Y/%m/%d %H:%M:%S')" >> "$GITHUB_OUTPUT"
 
       - name: Verify release images exist
