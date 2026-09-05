@@ -1,6 +1,6 @@
 ## Licensed under the terms of http://www.apache.org/licenses/LICENSE-2.0
 
-FROM nginx:1.27-alpine
+FROM nginx:1.31-alpine
 
 COPY deploy/edge/nginx.conf /etc/nginx/conf.d/default.conf
 COPY deploy/edge/entrypoint.sh /usr/local/bin/edge-entrypoint.sh
