@@ -58,25 +58,39 @@ jobs:
         shell: bash
         run: |
           set -eu
-          echo "fuseki_tag=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
-          edge_tag="$(
-            aws ecr describe-images \
-              --repository-name luciadb/edge \
-              --region "$AWS_REGION" \
-              --output json |
-            jq -r '.imageDetails | sort_by(.imagePushedAt) | reverse | .[].imageTags[]?' |
-            while read -r candidate; do
-                if [[ "$candidate" =~ ^[0-9a-f]{40}$ ]] &&
-                   git merge-base --is-ancestor "$candidate" HEAD; then
-                  printf '%s\n' "$candidate"
-                  break
-                fi
-              done
-          )"
-          if [ -z "$edge_tag" ]; then
+          resolve_image_tag() {
+            local repository="$1"
+            local image_json candidate_tags candidate
+
+            image_json="$(
+              aws ecr describe-images \
+                --repository-name "$repository" \
+                --region "$AWS_REGION" \
+                --output json
+            )"
+            candidate_tags="$(
+              jq -r '.imageDetails | sort_by(.imagePushedAt) | reverse | .[].imageTags[]?' \
+                <<<"$image_json"
+            )"
+            while IFS= read -r candidate; do
+              if [[ "$candidate" =~ ^[0-9a-f]{40}$ ]] &&
+                 git merge-base --is-ancestor "$candidate" HEAD; then
+                printf '%s\n' "$candidate"
+                return 0
+              fi
+            done <<<"$candidate_tags"
+            return 1
+          }
+
+          if ! fuseki_tag="$(resolve_image_tag luciadb/fuseki)"; then
+            echo "No ECR Fuseki image found for the release commit." >&2
+            exit 1
+          fi
+          if ! edge_tag="$(resolve_image_tag luciadb/edge)"; then
             echo "No ECR edge image found for the release commit." >&2
             exit 1
           fi
+          echo "fuseki_tag=$fuseki_tag" >> "$GITHUB_OUTPUT"
           echo "edge_tag=$edge_tag" >> "$GITHUB_OUTPUT"
           echo "last_update=$(TZ=Asia/Tokyo date '+%Y/%m/%d %H:%M:%S')" >> "$GITHUB_OUTPUT"
 
@@ -175,13 +189,34 @@ jobs:
           echo "arn=$arn" >> "$GITHUB_OUTPUT"
 
       - name: Deploy ECS service
+        env:
+          TASK_DEFINITION_ARN: ${{ steps.task.outputs.arn }}
         run: |
           aws ecs update-service \
             --cluster "$ECS_CLUSTER" \
             --service "$ECS_SERVICE" \
-            --task-definition "${{ steps.task.outputs.arn }}" \
+            --task-definition "$TASK_DEFINITION_ARN" \
             --force-new-deployment \
             >/dev/null
           aws ecs wait services-stable \
             --cluster "$ECS_CLUSTER" \
             --services "$ECS_SERVICE"
+
+      - name: Verify deployed ECS task definition
+        env:
+          TASK_DEFINITION_ARN: ${{ steps.task.outputs.arn }}
+        run: |
+          set -eu
+          actual_task_definition="$(
+            aws ecs describe-services \
+              --cluster "$ECS_CLUSTER" \
+              --services "$ECS_SERVICE" \
+              --query 'services[0].taskDefinition' \
+              --output text
+          )"
+          if [ "$actual_task_definition" != "$TASK_DEFINITION_ARN" ]; then
+            echo "ECS service is not using the registered task definition." >&2
+            echo "expected: $TASK_DEFINITION_ARN" >&2
+            echo "actual:   $actual_task_definition" >&2
+            exit 1
+          fi
