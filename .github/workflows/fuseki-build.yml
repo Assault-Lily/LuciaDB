@@ -108,6 +108,42 @@ jobs:
             fi
           }
 
+          # The image must contain the RDF dataset, not only a healthy HTTP
+          # server. Keep this assertion above the endpoint checks so an empty
+          # TDB2 database cannot pass CI.
+          triple_count="$(curl -fsS --get \
+            --data-urlencode 'query=SELECT (COUNT(*) AS ?count) WHERE { ?s ?p ?o }' \
+            'http://localhost:3030/sparql/query' \
+            | jq -r '.results.bindings[0].count.value')"
+          echo "triple count: $triple_count"
+          if ! [[ "$triple_count" =~ ^[0-9]+$ ]] || [ "$triple_count" -lt 1 ]; then
+            echo "FAIL: expected a non-empty RDF dataset" >&2
+            exit 1
+          fi
+
+          representative_query='
+            PREFIX schema: <http://schema.org/>
+            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+            PREFIX lily: <https://luciadb.assaultlily.com/rdf/IRIs/lily_schema.ttl#>
+            SELECT ?name
+            WHERE {
+              ?lily rdf:type lily:Lily;
+                    lily:nameKana ?namekana.
+              FILTER(CONTAINS(?namekana, "あ"))
+              ?lily schema:name ?name.
+              FILTER(lang(?name) = "ja")
+            }
+            LIMIT 1'
+          representative_count="$(curl -fsS --get \
+            --data-urlencode "query=$representative_query" \
+            'http://localhost:3030/sparql/query' \
+            | jq '.results.bindings | length')"
+          echo "representative query rows: $representative_count"
+          if [ "$representative_count" -lt 1 ]; then
+            echo "FAIL: representative Lily query returned no rows" >&2
+            exit 1
+          fi
+
           # Query endpoints must work (read-only, always allowed).
           expect_status GET "http://localhost:3030/sparql?query=ASK%20%7B%7D" 200
           expect_status GET "http://localhost:3030/sparql/query?query=ASK%20%7B%7D" 200

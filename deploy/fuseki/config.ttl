@@ -42,5 +42,4 @@
 <#dataset> rdf:type tdb2:DatasetTDB2 ;
     ## Baked at image build time from RDFs/*.ttl (see Dockerfile). Not rebuilt at
     ## container startup.
-    tdb2:location "/fuseki/databases" ;
-    tdb2:unionDefaultGraph true .
+    tdb2:location "/fuseki/databases" .
