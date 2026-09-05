@@ -30,7 +30,7 @@
 ## Renovate (see renovate.json): the eclipse-temurin tag below and the
 ## JENA_VERSION build-args in docker-compose.yaml / fuseki-build.yml.
 ARG JAVA_VERSION=21
-ARG ALPINE_VERSION=3.21.2
+ARG ALPINE_VERSION=3.24.1
 ARG JENA_VERSION=""
 
 # Internal, passed between stages.
