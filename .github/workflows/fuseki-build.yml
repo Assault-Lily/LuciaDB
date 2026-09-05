@@ -47,7 +47,7 @@ jobs:
 
       - name: Configure AWS credentials for ECR push
         if: github.ref == 'refs/heads/master' && (github.event_name == 'workflow_dispatch' || github.event_name == 'push')
-        uses: aws-actions/configure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@v6
         with:
           aws-region: ${{ env.AWS_REGION }}
           role-to-assume: arn:aws:iam::353236395445:role/luciadb-github-actions
