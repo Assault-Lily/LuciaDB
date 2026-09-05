@@ -15,6 +15,6 @@ jobs:
       with:
         distribution: temurin
         java-version: 17
-    - uses: imas/setup-rdflint@v3
+    - uses: imas/setup-rdflint@v4
     - name: Run rdflint
       run: rdflint -config .rdflint/rdflint-config.yml
