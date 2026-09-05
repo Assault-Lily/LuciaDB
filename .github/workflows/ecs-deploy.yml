@@ -189,13 +189,34 @@ jobs:
           echo "arn=$arn" >> "$GITHUB_OUTPUT"
 
       - name: Deploy ECS service
+        env:
+          TASK_DEFINITION_ARN: ${{ steps.task.outputs.arn }}
         run: |
           aws ecs update-service \
             --cluster "$ECS_CLUSTER" \
             --service "$ECS_SERVICE" \
-            --task-definition "${{ steps.task.outputs.arn }}" \
+            --task-definition "$TASK_DEFINITION_ARN" \
             --force-new-deployment \
             >/dev/null
           aws ecs wait services-stable \
             --cluster "$ECS_CLUSTER" \
             --services "$ECS_SERVICE"
+
+      - name: Verify deployed ECS task definition
+        env:
+          TASK_DEFINITION_ARN: ${{ steps.task.outputs.arn }}
+        run: |
+          set -eu
+          actual_task_definition="$(
+            aws ecs describe-services \
+              --cluster "$ECS_CLUSTER" \
+              --services "$ECS_SERVICE" \
+              --query 'services[0].taskDefinition' \
+              --output text
+          )"
+          if [ "$actual_task_definition" != "$TASK_DEFINITION_ARN" ]; then
+            echo "ECS service is not using the registered task definition." >&2
+            echo "expected: $TASK_DEFINITION_ARN" >&2
+            echo "actual:   $actual_task_definition" >&2
+            exit 1
+          fi
