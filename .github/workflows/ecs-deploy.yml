@@ -1,0 +1,168 @@
+name: Deploy LuciaDB to ECS
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Git ref or release tag to deploy
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  id-token: write
+
+env:
+  AWS_REGION: ap-northeast-1
+  ECS_CLUSTER: luciadb
+  ECS_SERVICE: luciadb
+  ECS_TASK_FAMILY: luciadb
+  ECR_REGISTRY: 353236395445.dkr.ecr.ap-northeast-1.amazonaws.com
+  TUNNEL_TOKEN_SECRET_ARN: arn:aws:secretsmanager:ap-northeast-1:353236395445:secret:luciadb/cloudflare-tunnel-token-ksmvN9
+  CLOUDFLARED_IMAGE: cloudflare/cloudflared:2026.8.3
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Select release ref
+        id: ref
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "release" ]; then
+            echo "value=${{ github.event.release.tag_name }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=${{ inputs.tag }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout release
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.ref.outputs.value }}
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-region: ${{ env.AWS_REGION }}
+          role-to-assume: arn:aws:iam::353236395445:role/luciadb-github-actions
+
+      - name: Log in to Amazon ECR
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Resolve immutable image tag
+        id: image
+        shell: bash
+        run: |
+          set -eu
+          echo "fuseki_tag=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "edge_tag=$(git log -1 --format=%H -- deploy/edge IRIs constraints)" >> "$GITHUB_OUTPUT"
+          echo "last_update=$(TZ=Asia/Tokyo date '+%Y/%m/%d %H:%M:%S')" >> "$GITHUB_OUTPUT"
+
+      - name: Verify release images exist
+        env:
+          FUSEKI_TAG: ${{ steps.image.outputs.fuseki_tag }}
+          EDGE_TAG: ${{ steps.image.outputs.edge_tag }}
+        run: |
+          set -eu
+          aws ecr describe-images --repository-name luciadb/fuseki --image-ids imageTag="$FUSEKI_TAG" >/dev/null
+          aws ecr describe-images --repository-name luciadb/edge --image-ids imageTag="$EDGE_TAG" >/dev/null
+
+      - name: Render task definition with release images
+        env:
+          FUSEKI_TAG: ${{ steps.image.outputs.fuseki_tag }}
+          EDGE_TAG: ${{ steps.image.outputs.edge_tag }}
+          LAST_UPDATE: ${{ steps.image.outputs.last_update }}
+        run: |
+          set -eu
+          aws ecs describe-task-definition \
+            --task-definition "$ECS_TASK_FAMILY" \
+            --query taskDefinition \
+            > /tmp/task-definition.json
+
+          jq \
+            --arg fuseki "$ECR_REGISTRY/luciadb/fuseki:$FUSEKI_TAG" \
+            --arg edge "$ECR_REGISTRY/luciadb/edge:$EDGE_TAG" \
+            --arg lastUpdate "$LAST_UPDATE" \
+            --arg tunnelSecretArn "$TUNNEL_TOKEN_SECRET_ARN" \
+            --arg cloudflared "$CLOUDFLARED_IMAGE" \
+            'del(
+              .taskDefinitionArn,
+              .revision,
+              .status,
+              .requiresAttributes,
+              .compatibilities,
+              .registeredAt,
+              .registeredBy
+            )
+            | .containerDefinitions |= map(
+                if .name == "fuseki" then .image = $fuseki
+                elif .name == "edge" then
+                  .image = $edge
+                  | .environment = (
+                      (.environment // [])
+                      | map(select(.name != "LAST_UPDATE"))
+                      + [{name: "LAST_UPDATE", value: $lastUpdate}]
+                    )
+                else .
+                end
+              )
+            | .runtimePlatform = {
+                operatingSystemFamily: "LINUX",
+                cpuArchitecture: "ARM64"
+              }
+            | .containerDefinitions |= (
+                map(select(.name != "cloudflared"))
+                + [{
+                    name: "cloudflared",
+                    image: $cloudflared,
+                    cpu: 0,
+                    essential: true,
+                    command: ["tunnel", "run"],
+                    secrets: [
+                      {
+                        name: "TUNNEL_TOKEN",
+                        valueFrom: $tunnelSecretArn
+                      }
+                    ],
+                    dependsOn: [
+                      {
+                        containerName: "edge",
+                        condition: "HEALTHY"
+                      }
+                    ],
+                    logConfiguration: {
+                      logDriver: "awslogs",
+                      options: {
+                        "awslogs-group": "/ecs/luciadb",
+                        "awslogs-region": "ap-northeast-1",
+                        "awslogs-stream-prefix": "cloudflared"
+                      }
+                    }
+                  }]
+              )' \
+            /tmp/task-definition.json \
+            > /tmp/task-definition-rendered.json
+
+      - name: Register task definition
+        id: task
+        run: |
+          arn="$(aws ecs register-task-definition \
+            --cli-input-json file:///tmp/task-definition-rendered.json \
+            --query 'taskDefinition.taskDefinitionArn' \
+            --output text)"
+          echo "arn=$arn" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy ECS service
+        run: |
+          aws ecs update-service \
+            --cluster "$ECS_CLUSTER" \
+            --service "$ECS_SERVICE" \
+            --task-definition "${{ steps.task.outputs.arn }}" \
+            --force-new-deployment \
+            >/dev/null
+          aws ecs wait services-stable \
+            --cluster "$ECS_CLUSTER" \
+            --services "$ECS_SERVICE"

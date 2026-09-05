@@ -14,9 +14,17 @@ on:
       - ".github/workflows/fuseki-build.yml"
   workflow_dispatch:
 
+permissions:
+  contents: read
+  id-token: write
+
+env:
+  AWS_REGION: ap-northeast-1
+  ECR_REGISTRY: 353236395445.dkr.ecr.ap-northeast-1.amazonaws.com
+
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
 
     steps:
       - name: Checkout
@@ -37,33 +45,45 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
+      - name: Configure AWS credentials for ECR push
+        if: github.ref == 'refs/heads/master' && (github.event_name == 'workflow_dispatch' || github.event_name == 'push')
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-region: ${{ env.AWS_REGION }}
+          role-to-assume: arn:aws:iam::353236395445:role/luciadb-github-actions
+
+      - name: Log in to Amazon ECR
+        if: github.ref == 'refs/heads/master' && (github.event_name == 'workflow_dispatch' || github.event_name == 'push')
+        uses: aws-actions/amazon-ecr-login@v2
+
       - name: Build Fuseki image (bakes TDB2 from RDFs/*.ttl)
         uses: docker/build-push-action@v6
         with:
           context: .
           file: deploy/fuseki/Dockerfile
+          platforms: linux/arm64
           build-args: |
             JENA_VERSION=6.2.0
           tags: fuseki:${{ github.sha }}
           load: true
           push: false
-          # NOTE: Pushing this image to a registry (e.g. ECR) is intentionally
-          # out of scope here. That will be added once the ECS platform
-          # (registry, task definition, service) exists.
 
-      - name: Start container
+      - name: Start Fuseki container
         run: |
-          docker run -d --name fuseki-test -p 3030:3030 fuseki:${{ github.sha }}
+          test "$(docker image inspect fuseki:${{ github.sha }} --format '{{.Architecture}}')" = "arm64"
+          docker run -d --name fuseki-test \
+            -p 3030:3030 \
+            fuseki:${{ github.sha }}
 
       - name: Wait for Fuseki to become healthy
         run: |
           for i in $(seq 1 60); do
-            status="$(docker inspect --format='{{.State.Health.Status}}' fuseki-test 2>/dev/null || echo unknown)"
-            echo "attempt $i: health=$status"
-            if [ "$status" = "healthy" ]; then
+            fuseki_status="$(docker inspect --format='{{.State.Health.Status}}' fuseki-test 2>/dev/null || echo unknown)"
+            echo "attempt $i: fuseki=$fuseki_status"
+            if [ "$fuseki_status" = "healthy" ]; then
               exit 0
             fi
-            if [ "$status" = "unhealthy" ]; then
+            if [ "$fuseki_status" = "unhealthy" ]; then
               echo "Container reported unhealthy" >&2
               exit 1
             fi
@@ -110,7 +130,15 @@ jobs:
 
       - name: Dump container logs
         if: always()
-        run: docker logs fuseki-test || true
+        run: |
+          docker logs fuseki-test || true
+
+      - name: Push validated images to ECR
+        if: github.ref == 'refs/heads/master' && (github.event_name == 'workflow_dispatch' || github.event_name == 'push')
+        run: |
+          set -eu
+          docker tag fuseki:${{ github.sha }} "${ECR_REGISTRY}/luciadb/fuseki:${{ github.sha }}"
+          docker push "${ECR_REGISTRY}/luciadb/fuseki:${{ github.sha }}"
 
       - name: Clean up container
         if: always()

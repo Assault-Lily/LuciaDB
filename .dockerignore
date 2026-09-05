@@ -11,7 +11,5 @@ CONTRIBUTING.md
 LICENSE
 README.md
 
-# Not loaded into the TDB2 dataset (see deploy/fuseki/Dockerfile comments);
-# these are served separately as static files by the reverse proxy.
-IRIs
-constraints
+# IRIs and SHACL constraints are not loaded into the TDB2 dataset, but they
+# are copied into the edge image and served as static files.
