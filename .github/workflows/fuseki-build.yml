@@ -57,7 +57,7 @@ jobs:
         uses: aws-actions/amazon-ecr-login@v2
 
       - name: Build Fuseki image (bakes TDB2 from RDFs/*.ttl)
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: deploy/fuseki/Dockerfile
