@@ -63,7 +63,7 @@ jobs:
               --repository-name luciadb/edge \
               --region "$AWS_REGION" \
               --output json |
-            jq -r 'sort_by(.imagePushedAt) | reverse | .[].imageTags[]?' |
+            jq -r '.imageDetails | sort_by(.imagePushedAt) | reverse | .[].imageTags[]?' |
             while read -r candidate; do
                 if [[ "$candidate" =~ ^[0-9a-f]{40}$ ]] &&
                    git merge-base --is-ancestor "$candidate" HEAD; then
