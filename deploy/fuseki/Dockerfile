@@ -119,7 +119,8 @@ RUN set -eu; \
     for f in $files; do \
       echo "Loading $f"; \
       "$JAVA_HOME/bin/java" $JAVA_OPTIONS -cp "${FUSEKI_DIR}/${FUSEKI_JAR}:/javalibs/*" tdb2.tdbloader --loader=parallel --loc "${FUSEKI_DIR}/databases" "$f"; \
-    done
+    done; \
+    rm -f "${FUSEKI_DIR}/databases/tdb.lock"
 
 ## ---- Stage: runtime image.
 FROM alpine:${ALPINE_VERSION}
