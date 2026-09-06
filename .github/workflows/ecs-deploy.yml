@@ -20,7 +20,7 @@ env:
   ECS_SERVICE: luciadb
   ECS_TASK_FAMILY: luciadb
   ECR_REGISTRY: 353236395445.dkr.ecr.ap-northeast-1.amazonaws.com
-  TUNNEL_TOKEN_SECRET_ARN: arn:aws:secretsmanager:ap-northeast-1:353236395445:secret:luciadb/cloudflare-tunnel-token-ksmvN9
+  TUNNEL_TOKEN_PARAMETER_ARN: arn:aws:ssm:ap-northeast-1:353236395445:parameter/luciadb/cloudflare-tunnel-token
   CLOUDFLARED_IMAGE: cloudflare/cloudflared:2026.8.3
 
 jobs:
@@ -119,7 +119,7 @@ jobs:
             --arg fuseki "$ECR_REGISTRY/luciadb/fuseki:$FUSEKI_TAG" \
             --arg edge "$ECR_REGISTRY/luciadb/edge:$EDGE_TAG" \
             --arg lastUpdate "$LAST_UPDATE" \
-            --arg tunnelSecretArn "$TUNNEL_TOKEN_SECRET_ARN" \
+            --arg tunnelParameterArn "$TUNNEL_TOKEN_PARAMETER_ARN" \
             --arg cloudflared "$CLOUDFLARED_IMAGE" \
             'del(
               .taskDefinitionArn,
@@ -157,7 +157,7 @@ jobs:
                     secrets: [
                       {
                         name: "TUNNEL_TOKEN",
-                        valueFrom: $tunnelSecretArn
+                        valueFrom: $tunnelParameterArn
                       }
                     ],
                     dependsOn: [
