@@ -21,7 +21,7 @@ env:
   ECS_TASK_FAMILY: luciadb
   ECR_REGISTRY: 353236395445.dkr.ecr.ap-northeast-1.amazonaws.com
   TUNNEL_TOKEN_PARAMETER_ARN: arn:aws:ssm:ap-northeast-1:353236395445:parameter/luciadb/cloudflare-tunnel-token
-  CLOUDFLARED_IMAGE: cloudflare/cloudflared:2026.8.3
+  CLOUDFLARED_IMAGE: cloudflare/cloudflared:2026.9.3
 
 jobs:
   deploy:
