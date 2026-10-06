@@ -467,8 +467,8 @@
     schema:member
         <Shibukawa_Chie>,
         <Abiko_Hiromi>,
-        <Muramoto_Anzu> ;
-        # <Otsuki_Yoshiko>,
+        <Muramoto_Anzu>,
+        <Otsuki_Yoshiko> ;
         # <Niitsu_Kurumi> ;
     a lily:Legion ;
 .
