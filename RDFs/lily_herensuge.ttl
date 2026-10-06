@@ -489,6 +489,9 @@
         lily:resource <Tsuboi_Nanaho> ;
         lily:additionalInformation "仲が悪い"@ja ;
     ], [
+        lily:resource <Yamanouchi_Noi> ;
+        lily:additionalInformation "ライバル視されている"@ja ;
+    ], [
         lily:resource <Shibata_Rindo> ;
         lily:additionalInformation "入魂の間柄"@ja ;
     ], [
@@ -871,6 +874,9 @@
     ], [
         lily:resource <Matsumura_Fuka> ;
         lily:additionalInformation "仲が悪い"@ja ;
+    ], [
+        lily:resource <Yamanouchi_Noi> ;
+        lily:additionalInformation "敬愛されている"@ja ;
     ] ;
     lily:cast [
         schema:name "和泉風花"@ja ;
@@ -904,7 +910,9 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite
+        "カヌレ"@ja,
+        "マカロン"@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
@@ -937,16 +945,21 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
+    lily:relationship [
+        lily:resource <Tsuboi_Nanaho> ;
+        lily:additionalInformation "敬愛している"@ja ;
+    ], [
+        lily:resource <Matsumura_Fuka> ;
+        lily:additionalInformation "ライバル視している"@ja ;
+    ] ;
+    lily:cast [
+        schema:name "由良朱合"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q105258966>,
+            <http://ja.dbpedia.org/resource/由良朱合> ;
+        lily:performIn <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
-    # ] ;
-    # lily:cast [
-        # schema:name ""@ja ;
-        # lily:resource <> ;
-        # lily:performIn <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    ] ;
     a lily:Lily ;
 .
 
