@@ -316,6 +316,9 @@
     ], [
         lily:resource <Tozaki_Moka> ;
         lily:additionalInformation "友人"@ja ;
+    ], [
+        lily:resource <Niitsu_Kurumi> ;
+        lily:additionalInformation "友人"@ja ;
     ] ;
     lily:cast [
         schema:name "進藤あまね"@ja ;
@@ -954,7 +957,7 @@
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
+    lily:favorite "ドラゴン"@ja ;
     # lily:notGood ""@ja ;
     # lily:hobby_talent ""@ja ;
     # lily:skillerVal ""^^xsd:integer ;
@@ -988,6 +991,70 @@
         # lily:resource <> ;
         # lily:additionalInformation ""@ja ;
     # ] ;
+    # lily:cast [
+        # schema:name ""@ja ;
+        # lily:resource <> ;
+        # lily:performIn <> ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    a lily:Lily ;
+.
+
+<Niitsu_Kurumi>
+    rdfs:label "新津胡桃"^^xsd:string ;
+    schema:familyName "新津"@ja, "Niitsu"@en ;
+    lily:familyNameKana "にいつ"@ja ;
+    # schema:additionalName ""@ja, ""@en ;
+    # lily:additionalNameKana ""@ja ;
+    schema:givenName "胡桃"@ja, "Kurumi"@en ;
+    lily:givenNameKana "くるみ"@ja ;
+    schema:name "新津胡桃"@ja, "Niitsu Kurumi"@en ;
+    lily:nameKana "にいつくるみ"@ja ;
+    # lily:anotherName ""@ja ;
+    foaf:age "15"^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    lily:rareSkill "テスタメント"^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+        # lily:resource <> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "神庭女子藝術高校"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    lily:grade "10"^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    lily:legion <Heidrun> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:relationship [
+        lily:resource <Tamba_Akari> ;
+        lily:additionalInformation "友人"@ja ;
+    ] ;
     # lily:cast [
         # schema:name ""@ja ;
         # lily:resource <> ;

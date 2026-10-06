@@ -468,8 +468,8 @@
         <Shibukawa_Chie>,
         <Abiko_Hiromi>,
         <Muramoto_Anzu>,
-        <Otsuki_Yoshiko> ;
-        # <Niitsu_Kurumi> ;
+        <Otsuki_Yoshiko>,
+        <Niitsu_Kurumi> ;
     a lily:Legion ;
 .
 
