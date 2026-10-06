@@ -19,18 +19,24 @@
     # foaf:age ""^^xsd:integer ;
     # schema:height ""^^xsd:float ;
     # schema:weight ""^^xsd:float ;
-    # schema:birthDate ""^^xsd:gMonthDay ;
+    schema:birthDate "--09-16"^^xsd:gMonthDay ;
     lily:lifeStatus "alive"^^xsd:string ;
     # lily:killedIn ""^^xsd:string ;
-    # lily:bloodType ""^^xsd:string ;
+    lily:bloodType "B"^^xsd:string ;
     schema:gender "female"^^xsd:string ;
     # lily:color ""^^xsd:hexBinary ;
     # schema:birthPlace ""@ja, ""@en ;
-    # lily:favorite ""@ja ;
-    # lily:notGood ""@ja ;
-    # lily:hobby_talent ""@ja ;
+    lily:favorite
+        "バスタイム"@ja,
+        "植物"@ja,
+        "ビオトープ"@ja,
+        "和食"@ja ;
+    lily:notGood "肉料理"@ja ;
+    lily:hobby_talent
+        "時代劇鑑賞"@ja,
+        "忍者について学ぶこと"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "縮地"^^xsd:string ;
     # lily:subSkill ""^^xsd:string;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
@@ -48,7 +54,7 @@
     # lily:legion <> ;
     # lily:legionJobTitle ""^^xsd:string ;
     # lily:position ""^^xsd:string ;
-    # lily:pastLegion <> ;
+    lily:pastLegion <Irumin_Shines> ;
     # lily:taskforce <> ;
     # lily:pastTaskforce <> ;
     # lily:roomMate <> ;
@@ -60,6 +66,9 @@
     lily:relationship [
         lily:resource <Shinoda_Mioko> ;
         lily:additionalInformation "腕輪を交換した仲"@ja ;
+    ], [
+        lily:resource <Takashima_Yakumo> ;
+        lily:additionalInformation "現役時代に共闘したことがある"@ja ;
     ] ;
     # lily:cast [
         # schema:name ""@ja ;

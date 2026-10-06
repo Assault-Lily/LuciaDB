@@ -732,8 +732,8 @@
 
 ### イルマ女子美術高校
 
-<Irmin_Shyness>
-    schema:name "イルミンシャイネス"@ja, "Irmin Shyness"@en ;
+<Irumin_Shines>
+    schema:name "イルミンシャイネス"@ja, "Irumin Shines"@en ;
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded false ;
     lily:legionGrade "S"^^xsd:string ;
@@ -752,7 +752,8 @@
     lily:submember
         <Ueda_Imari> ;
     schema:alumni
-        <Ichinomiya_Michaela_Himari> ;
+        <Ichinomiya_Michaela_Himari>,
+        <Kuwata_Io> ;
     a lily:Legion ;
 .
 

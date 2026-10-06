@@ -60,7 +60,10 @@
     lily:relationship [
         lily:resource <Shinoda_Mioko> ;
         lily:additionalInformation "知人"@ja ;
-    ];
+    ], [
+        lily:resource <Kuwata_Io> ;
+        lily:additionalInformation "現役時代に共闘したことがある"@ja ;
+    ] ;
     lily:cast [
         schema:name "日笠陽子"@ja ;
         lily:resource

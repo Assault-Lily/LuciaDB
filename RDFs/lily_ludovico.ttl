@@ -1502,7 +1502,7 @@
     lily:position "BZ"^^xsd:string ;
     lily:pastLegion
         <Temple_Legion>,
-        <Irmin_Shyness> ;
+        <Irumin_Shines> ;
     # lily:taskforce <> ;
     lily:pastTaskforce <Odaiba_Interception_Taskforce_1> ;
     # lily:olderSchwester <> ;
