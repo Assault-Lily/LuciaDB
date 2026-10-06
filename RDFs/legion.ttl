@@ -388,7 +388,8 @@
     schema:member
         <Tsuboi_Nanaho>,
         <Yamanouchi_Noi>,
-        <Otsuka_Uru> ;
+        <Otsuka_Uru>,
+        <Shima_Hitoe> ;
     a lily:Legion ;
 .
 
