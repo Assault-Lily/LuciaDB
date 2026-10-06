@@ -458,6 +458,21 @@
     a lily:Legion ;
 .
 
+<Heidrun>
+    schema:name "ヘイズルーン"@ja, "Heidrun"@en ;
+    # schema:alternateName ""@ja, ""@en ;
+    lily:disbanded false ;
+    # lily:legionGrade ""^^xsd:string ;
+    # lily:numberOfMembers ""^^xsd:integer ;
+    schema:member
+        <Shibukawa_Chie> ;
+        # <Abiko_Hiromi>,
+        # <Muramoto_Anzu>,
+        # <Otsuki_Yoshiko>,
+        # <Niitsu_Kurumi> ;
+    a lily:Legion ;
+.
+
 <Kamba_Seitokai_Boueitai>
     schema:name "生徒会防衛隊"@ja, "Seitokai Boueitai"@en ;
     # schema:alternateName ""@ja, ""@en ;

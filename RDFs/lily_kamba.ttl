@@ -816,9 +816,10 @@
     lily:notGood "香水"@ja ;
     lily:hobby_talent
         "スニーカー集め"@ja,
-        "ヨーヨー"@ja ;
+        "ヨーヨー"@ja,
+        "風景画を描くこと"@ja ;
     # lily:skillerVal ""^^xsd:integer ;
-    # lily:rareSkill ""^^xsd:string ;
+    lily:rareSkill "ファンタズム"^^xsd:string ;
     # lily:subSkill ""^^xsd:string ;
     lily:isBoosted false ;
     # lily:boostedSkill ""^^xsd:string ;
@@ -832,8 +833,8 @@
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    # lily:legion <> ;
-    # lily:legionJobTitle ""^^xsd:string ;
+    lily:legion <Heidrun> ;
+    lily:legionJobTitle "隊長"^^xsd:string ;
     # lily:position ""^^xsd:string ;
     # lily:pastLegion <> ;
     # lily:taskforce <> ;
@@ -847,6 +848,9 @@
     lily:relationship [
         lily:resource <Abiko_Hiromi> ;
         lily:additionalInformation "賛同している"@ja ;
+    ], [
+        lily:resource <Muramoto_Anzu> ;
+        lily:additionalInformation "親友"@ja ;
     ] ;
     lily:cast [
         schema:name "河野ひより"@ja ;
@@ -910,10 +914,10 @@
     #    lily:resource <> ;
     #    lily:additionalInformation ""@ja ;
     # ] ;
-    # lily:relationship [
-        # lily:resource <> ;
-        # lily:additionalInformation ""@ja ;
-    # ] ;
+    lily:relationship [
+        lily:resource <Shibukawa_Chie> ;
+        lily:additionalInformation "親友"@ja ;
+    ] ;
     # lily:cast [
         # schema:name ""@ja ;
         # lily:resource <> ;
