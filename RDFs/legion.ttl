@@ -390,7 +390,8 @@
         <Tsuboi_Nanaho>,
         <Yamanouchi_Noi>,
         <Otsuka_Uru>,
-        <Shima_Hitoe> ;
+        <Shima_Hitoe>,
+        <Osato_Nako> ;
     a lily:Legion ;
 .
 
