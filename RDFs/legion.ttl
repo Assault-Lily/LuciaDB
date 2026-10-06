@@ -375,7 +375,8 @@
         <Makino_Mitake>,
         <Kagawa_Makina>,
         <Morimoto_Yuni>,
-        <Kariya_Higure> ;
+        <Kariya_Higure>,
+        <Torii_Miho> ;
     a lily:Legion ;
 .
 
