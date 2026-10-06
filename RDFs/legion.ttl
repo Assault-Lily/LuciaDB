@@ -308,7 +308,8 @@
         <Kurumatani_Keine>,
         <Kikutake_Rinka>,
         <Tange_Honori>,
-        <Asada_Kohaku> ;
+        <Asada_Kohaku>,
+        <Suzuki_Shoko> ;
     a lily:Legion ;
 .
 
