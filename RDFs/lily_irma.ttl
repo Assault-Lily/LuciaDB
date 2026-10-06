@@ -866,7 +866,7 @@
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    lily:legion <Hacolberand> ;
+    lily:legion <Hakolberand> ;
     lily:legionJobTitle "隊長"^^xsd:string ;
     lily:position
         "TZ"^^xsd:string,
@@ -955,7 +955,7 @@
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    lily:legion <Hacolberand> ;
+    lily:legion <Hakolberand> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
@@ -1025,7 +1025,7 @@
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    lily:legion <Hacolberand> ;
+    lily:legion <Hakolberand> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
@@ -1101,7 +1101,7 @@
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    lily:legion <Hacolberand> ;
+    lily:legion <Hakolberand> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
@@ -1186,7 +1186,7 @@
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    lily:legion <Hacolberand> ;
+    lily:legion <Hakolberand> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "TZ"^^xsd:string,
@@ -1261,7 +1261,7 @@
     lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    lily:legion <Hacolberand> ;
+    lily:legion <Hakolberand> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
@@ -1337,7 +1337,7 @@
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    lily:legion <Hacolberand> ;
+    lily:legion <Hakolberand> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position "AZ"^^xsd:string ;
     # lily:pastLegion <> ;
@@ -1413,7 +1413,7 @@
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    lily:legion <Hacolberand> ;
+    lily:legion <Hakolberand> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position
         "AZ"^^xsd:string,
@@ -1488,7 +1488,7 @@
     lily:grade "10"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
-    lily:legion <Hacolberand> ;
+    lily:legion <Hakolberand> ;
     # lily:legionJobTitle ""^^xsd:string ;
     lily:position "TZ"^^xsd:string ;
     # lily:pastLegion <> ;

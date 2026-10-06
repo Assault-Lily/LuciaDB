@@ -757,8 +757,8 @@
     a lily:Legion ;
 .
 
-<Hacolberand>
-    schema:name "ハコルベランド"@ja, "Hacolberand"@en ;
+<Hakolberand>
+    schema:name "ハコルベランド"@ja, "Hakolberand"@en ;
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded false ;
     lily:legionGrade "AAA"^^xsd:string ;
