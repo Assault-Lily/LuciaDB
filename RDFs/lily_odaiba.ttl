@@ -119,8 +119,8 @@
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
-            <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2>,
+            <New_Chapter_Sanngrthr_Oshima>,
+            <New_Chapter_Sanngrthr_Oshima_2>,
             <Assault_Lily_Odaiba_The_Snowdrop>,
             <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
             <Assault_Lily_Sturm_Odaiba> ;
@@ -229,8 +229,8 @@
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
-            <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2>,
+            <New_Chapter_Sanngrthr_Oshima>,
+            <New_Chapter_Sanngrthr_Oshima_2>,
             <Assault_Lily_Odaiba_The_Snowdrop>,
             <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
             <Assault_Lily_Sturm_Odaiba> ;
@@ -360,8 +360,8 @@
             <Lily_Collection_2022>,
             <Assault_Lily_Odaiba_The_Battle_To_Overcome>,
             <Lily_Collection_2023>,
-            <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2>,
+            <New_Chapter_Sanngrthr_Oshima>,
+            <New_Chapter_Sanngrthr_Oshima_2>,
             <Assault_Lily_Odaiba_The_Snowdrop>,
             <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
             <Assault_Lily_Sturm_Odaiba> ;

@@ -897,7 +897,7 @@
             <http://ja.dbpedia.org/resource/佐々木優佳里> ;
         lily:performIn
             <Assault_Lily_Irma_The_Gleam_of_Dawn>,
-            <New_Chapter_Sanngridr_Oshima> ;
+            <New_Chapter_Sanngrthr_Oshima> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "福岡聖菜"@ja ;
@@ -905,7 +905,7 @@
             <https://www.wikidata.org/wiki/Q28069217>,
             <http://ja.dbpedia.org/resource/福岡聖菜> ;
         lily:performIn
-            <New_Chapter_Sanngridr_Oshima_2>,
+            <New_Chapter_Sanngrthr_Oshima_2>,
             <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;
@@ -1135,8 +1135,8 @@
             <http://ja.dbpedia.org/resource/北澤早紀> ;
         lily:performIn
             <Assault_Lily_Irma_The_Gleam_of_Dawn>,
-            <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2>,
+            <New_Chapter_Sanngrthr_Oshima>,
+            <New_Chapter_Sanngrthr_Oshima_2>,
             <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
         # lily:additionalInformation ""@ja ;
     ] ;

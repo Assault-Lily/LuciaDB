@@ -132,7 +132,7 @@
     lily:cast [
         schema:name "宇田川ももか"@ja ;
         # lily:resource <> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima_2> ;
+        lily:performIn <New_Chapter_Sanngrthr_Oshima_2> ;
     ] ;
     a lily:Lily ;
 .
@@ -199,7 +199,7 @@
     lily:cast [
         schema:name "星野咲笑"@ja ;
         # lily:resource <> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima_2> ;
+        lily:performIn <New_Chapter_Sanngrthr_Oshima_2> ;
     ] ;
     a lily:Lily ;
 .

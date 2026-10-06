@@ -91,8 +91,8 @@
             <https://www.wikidata.org/wiki/Q105704315>,
             <http://ja.dbpedia.org/resource/清水凜> ;
         lily:performIn
-            <Assault_Lily_Sturm_Sanngridr>,
-            <Assault_Lily_Sturm_Sanngridr_2> ;
+            <Assault_Lily_Sturm_Sanngrthr>,
+            <Assault_Lily_Sturm_Sanngrthr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -216,8 +216,8 @@
         schema:name "蛭田愛梨"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q130553876> ;
         lily:performIn
-            <Assault_Lily_Sturm_Sanngridr>,
-            <Assault_Lily_Sturm_Sanngridr_2> ;
+            <Assault_Lily_Sturm_Sanngrthr>,
+            <Assault_Lily_Sturm_Sanngrthr_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

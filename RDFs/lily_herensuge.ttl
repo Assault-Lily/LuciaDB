@@ -90,8 +90,8 @@
             <The_Fateful_Gift>,
             <Assault_Lily_Last_Bullet>,
             <Lost_Memories>,
-            <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2> ;
+            <New_Chapter_Sanngrthr_Oshima>,
+            <New_Chapter_Sanngrthr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -507,12 +507,12 @@
             <http://ja.dbpedia.org/resource/集貝はな> ;
         lily:performIn
             <Assault_Lily_Last_Bullet>,
-            <New_Chapter_Sanngridr_Oshima> ;
+            <New_Chapter_Sanngrthr_Oshima> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "星乃まりな"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q108531445> ;
-        lily:performIn <New_Chapter_Sanngridr_Oshima_2> ;
+        lily:performIn <New_Chapter_Sanngrthr_Oshima_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

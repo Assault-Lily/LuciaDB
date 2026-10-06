@@ -55,11 +55,11 @@ RDFs/legion.ttl:
     level: INFO
     line: '138'
     column: '31'
-    subject: https://luciadb.assaultlily.com/rdf/RDFs/detail/Sanngridr
+    subject: https://luciadb.assaultlily.com/rdf/RDFs/detail/Sanngrthr
     predicate: http://schema.org/name
     object: '"Sanngrídr"@en'
     message: 'Data LanguageType not matched: lang is en, but Sanngrídr (line: 138,
-        col: 31, triple: https://luciadb.assaultlily.com/rdf/RDFs/detail/Sanngridr - http://schema.org/name
+        col: 31, triple: https://luciadb.assaultlily.com/rdf/RDFs/detail/Sanngrthr - http://schema.org/name
         - "Sanngrídr"@en)'
   - key: com.github.imas.rdflint.validator.impl.notmatchedLanguageType
     level: INFO

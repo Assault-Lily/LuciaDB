@@ -136,8 +136,8 @@
     a lily:Legion ;
 .
 
-<Sanngridr>
-    schema:name "サングリーズル"@ja, "Sanngrídr"@en ;
+<Sanngrthr>
+    schema:name "サングリーズル"@ja, "Sanngrthr"@en ;
     # schema:alternateName ""@ja, ""@en ;
     lily:disbanded false ;
     lily:legionGrade "SSS"^^xsd:string ;

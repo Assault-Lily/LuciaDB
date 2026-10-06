@@ -172,8 +172,8 @@
         lily:performIn
             <Assault_Lily_Odaiba_The_Singular_Ability>,
             <Assault_Lily_Odaiba_The_Empathy_Phenomenon>,
-            <New_Chapter_Sanngridr_Oshima>,
-            <New_Chapter_Sanngridr_Oshima_2>,
+            <New_Chapter_Sanngrthr_Oshima>,
+            <New_Chapter_Sanngrthr_Oshima_2>,
             <Assault_Lily_Odaiba_The_Snowdrop> ;
         # lily:additionalInformation ""@ja ;
     ] ;

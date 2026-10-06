@@ -3796,7 +3796,7 @@
     a lily:Play ;
 .
 
-<New_Chapter_Sanngridr_Oshima>
+<New_Chapter_Sanngrthr_Oshima>
     lily:genre "舞台"@ja ;
     schema:name "「アサルトリリィ・新章」 サングリーズル編『種の最果ての地で』／大島近海ネスト調査隊編『金瘡小草の咲く時』"@ja ;
     schema:alternateName "新章"@ja ;
@@ -3820,7 +3820,7 @@
     lily:additionalInformation "二川二水役の西本りみさんが体調不良により降板。(11月6日発表)"@ja ;
     schema:abstract "突如、大島周辺に４つのヒュージネストが現れた！\n\n大島近海には既に S 級ネストが根を張っており、これによって５つのネストが大島近海に存在することとなる。\n百合ケ丘女学院は甲州奪還作戦始動の前に眼前の脅威を取り除くべく「アールヴヘイム」と「サングリーズル」の外征を決定。強行偵察を兼ねた先遣隊として「サングリーズル」が緊急出撃することとなった。\n\n一方「大島管轄任務」を共同で負っている東京地区のガーデンは、この事態を受け、ガーデン横断風紀委員『ジャスティファイ』での「東京島嶼部防衛構想会議」を開催。この大島近海の新ネスト発生は、東京地区での異常 なヒュージの発生と関係があるのではないかとの強い疑念を抱く。ジャスティファイは会議の末「大島近海ネスト群調査隊」を選出、これを派遣すると決定した。秘密裏に選出されたこの調査隊は「ネスト群討滅ミッション と同時に現在は閉鎖された”大島 GEHENA 研究所跡地”の調査」を目的としていた。\n\nサングリーズル、大島近海ネスト群調査隊の二つの戦いが今、大島の地で交わる！！\nこの戦いが大きな戦いの幕開けに過ぎないことを彼女たちはまだ知らない…。"@ja ;
     # lily:previousWork <>;
-    lily:nextWork <New_Chapter_Sanngridr_Oshima_2>;
+    lily:nextWork <New_Chapter_Sanngrthr_Oshima_2>;
     # lily:originalWork <>;
     # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -4285,7 +4285,7 @@
     a lily:Play ;
 .
 
-<New_Chapter_Sanngridr_Oshima_2>
+<New_Chapter_Sanngrthr_Oshima_2>
     lily:genre "舞台"@ja ;
     schema:name "「アサルトリリィ・新章」 サングリーズル編『花々の黄昏』／大島近海ネスト調査隊編『玲瓏たる深潭』"@ja ;
     schema:alternateName "新章2"@ja ;
@@ -4307,8 +4307,8 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
-    lily:previousWork <New_Chapter_Sanngridr_Oshima>;
-    lily:nextWork <Assault_Lily_Sturm_Sanngridr>;
+    lily:previousWork <New_Chapter_Sanngrthr_Oshima>;
+    lily:nextWork <Assault_Lily_Sturm_Sanngrthr>;
     # lily:originalWork <>;
     # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -5036,7 +5036,7 @@
     a lily:Play ;
 .
 
-<Assault_Lily_Sturm_Sanngridr>
+<Assault_Lily_Sturm_Sanngrthr>
     lily:genre "舞台"@ja ;
     schema:name "「アサルトリリィ・シュツルム」～サングリーズル編～"@ja ;
     schema:alternateName "シュツルム"@ja ;
@@ -5057,7 +5057,7 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     schema:abstract "大島近海ネスト郡のデスゾーンが解消された直後、近藤貞花の姿が消えた…！\n真島百由が貞花のCHARMコアのログデータを解析すると、ルサルカによって甲州に連れ去られたことがわかった。怒り心頭のサングリーズルはすぐに甲州へ向かおうとするが、甲州は長らくデスゾーン区域の為、セイクリッドドミネーターの力を持つ貞花がいない状態での突貫は自殺行為である。\n百合ヶ丘女学院は、それでも出撃しようとするサングリーズルヘ支援物資とともに増援メンバーを送った。また、大島近海ネスト調査隊であった二川二水は、シュッツエンゲルである山梨日羽梨とともに戦うことを決め、楓・J・ヌーベルも二水と共に甲州へ行くことに。楓の出撃を聞いた相模女子の石川葵、松永遊糸も甲州に向かった。\nなんとか甲州に入り、貞花の居場所に辿り着いたリリィ達。しかしそこには、力を封じられて衰弱した貞花の姿があった。\nデスゾーンの中、貞花奪還戦が始まる！！"@ja ;
-    lily:previousWork <New_Chapter_Sanngridr_Oshima_2>;
+    lily:previousWork <New_Chapter_Sanngrthr_Oshima_2>;
     lily:nextWork <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>;
     # lily:originalWork <>;
     # lily:remakeWork <>;
@@ -5285,8 +5285,8 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
-    lily:previousWork <Assault_Lily_Sturm_Sanngridr>;
-    lily:nextWork <Assault_Lily_Sturm_Sanngridr_2>;
+    lily:previousWork <Assault_Lily_Sturm_Sanngrthr>;
+    lily:nextWork <Assault_Lily_Sturm_Sanngrthr_2>;
     # lily:originalWork <>;
     # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -5752,7 +5752,7 @@
     a lily:Play ;
 .
 
-<Assault_Lily_Sturm_Sanngridr_2>
+<Assault_Lily_Sturm_Sanngrthr_2>
     lily:genre "舞台"@ja ;
     schema:name "「アサルトリリィ・シュツルム」サングリーズル編 第2弾"@ja ;
     schema:alternateName "シュツルム2"@ja ;
@@ -5994,7 +5994,7 @@
     # lily:cancelledShowTime ""^^xsd:dateTime ;
     lily:additionalInformation "公演期間中以下の日程で過去の上演作品をキャストと一緒に楽しむ上映会イベントを開催。\n7月17日(金) 19:00 シュツルム サングリーズル編 第2弾（2026年4月上演）\n7月19日(日) 13:00 イルマTBW（2024年12月上演）\n7月21日(火) 19:00 御台場迎撃戦（2025年9月上演）\n7月22日(水) 12:00 Lily Scramble!!!! -Blooming Chord-（2026年3月上演）\n7月22日(水) 16:00 Lily Scramble!!!! -Sparkling Note-（2026年3月上演）"@ja ;
     schema:abstract "大島近海ネスト群を攻略後、御台場女学校のリリィたちの新たな出撃先は、甲州奪還に向けた富士五湖ネスト群討伐に決まった。\n最初の標的は、S級ネスト・河口湖。\n出撃を前に、聖メルクリウスインターナショナルから史上初の譲渡となった方舟「ウェーブクロッサー」が御台場へ届けられ、\nその引き渡しと一作戦帯同のため、アルテア・アレッサンドリーニも訪れる。\n\n方舟の初陣に臨んだリリィたちを待ち受けていたのは、これまでの戦術を覆す能力を持つゲートキーパー、\nそして七大アルトラの一つ・カリブディス。\nさらに、カリブディスから生まれた人型ヒュージ・ルサルカとの遭遇が、リリィたちに思いもよらぬ事実を突きつける――。\n\n甲州奪還を懸けた河口湖決戦。御台場女学校の新たな戦いが、今、幕を開ける。"@ja ;
-    lily:previousWork <Assault_Lily_Sturm_Sanngridr_2>;
+    lily:previousWork <Assault_Lily_Sturm_Sanngrthr_2>;
     # lily:nextWork <>;
     # lily:originalWork <>;
     # lily:remakeWork <>;
