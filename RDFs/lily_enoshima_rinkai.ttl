@@ -259,7 +259,7 @@
     # ] ;
     lily:garden "江ノ島臨海女学校"^^xsd:string ;
     # lily:gardenDepartment ""^^xsd:string ;
-    lily:grade "10"^^xsd:integer ;
+    lily:grade "11"^^xsd:integer ;
     # lily:class ""^^xsd:string ;
     # lily:gardenJobTitle ""@ja ;
     # lily:legion <> ;
