@@ -354,7 +354,8 @@
         lily:performIn
             <New_Chapter_Sanngrthr_Oshima_2>,
             <Assault_Lily_Sturm_Sanngrthr>,
-            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Alternative_Dimension_Reading_Stage_Vol_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -771,7 +772,8 @@
             <Assault_Lily_Last_Bullet>,
             <League_of_Gardens>,
             <The_Fateful_Gift>,
-            <Lost_Memories> ;
+            <Lost_Memories>,
+            <Alternative_Dimension_Reading_Stage_Vol_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -2584,7 +2586,8 @@
             <http://ja.dbpedia.org/resource/河内美里> ;
         lily:performIn
             <Assault_Lily_Sturm_Sanngrthr>,
-            <Assault_Lily_Sturm_Sanngrthr_2> ;
+            <Assault_Lily_Sturm_Sanngrthr_2>,
+            <Alternative_Dimension_Reading_Stage_Vol_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -2698,7 +2701,8 @@
             <http://ja.dbpedia.org/resource/込山榛香> ;
         lily:performIn
             <Assault_Lily_Sturm_Sanngrthr>,
-            <Assault_Lily_Sturm_Sanngrthr_2> ;
+            <Assault_Lily_Sturm_Sanngrthr_2>,
+            <Alternative_Dimension_Reading_Stage_Vol_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4233,7 +4237,8 @@
         lily:performIn
             <New_Chapter_Sanngrthr_Oshima>,
             <New_Chapter_Sanngrthr_Oshima_2>,
-            <Assault_Lily_Sturm_Sanngrthr_2> ;
+            <Assault_Lily_Sturm_Sanngrthr_2>,
+            <Alternative_Dimension_Reading_Stage_Vol_2> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "稲玉洸"@ja ;
@@ -4351,7 +4356,8 @@
             <New_Chapter_Sanngrthr_Oshima_2>,
             <Assault_Lily_Sturm_Sanngrthr>,
             <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
-            <Assault_Lily_Sturm_Sanngrthr_2> ;
+            <Assault_Lily_Sturm_Sanngrthr_2>,
+            <Alternative_Dimension_Reading_Stage_Vol_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4630,7 +4636,8 @@
             <New_Chapter_Sanngrthr_Oshima>,
             <New_Chapter_Sanngrthr_Oshima_2>,
             <Assault_Lily_Sturm_Sanngrthr>,
-            <Assault_Lily_Sturm_Sanngrthr_2> ;
+            <Assault_Lily_Sturm_Sanngrthr_2>,
+            <Alternative_Dimension_Reading_Stage_Vol_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -4732,7 +4739,8 @@
             <New_Chapter_Sanngrthr_Oshima_2>,
             <Assault_Lily_Sturm_Sanngrthr>,
             <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
-            <Assault_Lily_Sturm_Sanngrthr_2> ;
+            <Assault_Lily_Sturm_Sanngrthr_2>,
+            <Alternative_Dimension_Reading_Stage_Vol_2> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "松村芽久未"@ja ;
@@ -4954,7 +4962,8 @@
             <New_Chapter_Sanngrthr_Oshima>,
             <New_Chapter_Sanngrthr_Oshima_2>,
             <Assault_Lily_Sturm_Sanngrthr>,
-            <Assault_Lily_Sturm_Sanngrthr_2> ;
+            <Assault_Lily_Sturm_Sanngrthr_2>,
+            <Alternative_Dimension_Reading_Stage_Vol_2> ;
     ] ;
     a lily:Lily ;
 .
@@ -5025,7 +5034,9 @@
         lily:resource
             <https://www.wikidata.org/wiki/Q65281297>,
             <http://ja.dbpedia.org/resource/藍染カレン> ;
-        lily:performIn <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle> ;
+        lily:performIn
+            <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
+            <Alternative_Dimension_Reading_Stage_Vol_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -5108,6 +5119,9 @@
             <Assault_Lily_Bouquet>,
             <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "阿久津友理"@ja ;
+        lily:performIn <Alternative_Dimension_Reading_Stage_Vol_2> ;
     ] ;
     a lily:Lily ;
 .
@@ -5292,6 +5306,9 @@
             <Assault_Lily_Bouquet>,
             <Assault_Lily_Last_Bullet> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "⼤⻄桃⾹"@ja ;
+        lily:performIn <Alternative_Dimension_Reading_Stage_Vol_2> ;
     ] ;
     a lily:Lily ;
 .

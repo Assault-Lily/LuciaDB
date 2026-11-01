@@ -274,7 +274,9 @@
     lily:cast [
         schema:name "⽴⽯凛"@ja ;
         lily:resource <https://www.wikidata.org/wiki/Q118322879> ;
-        lily:performIn <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+        lily:performIn
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Alternative_Dimension_Reading_Stage_Vol_2> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "渡邉結⾐"@ja ;

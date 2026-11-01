@@ -6199,3 +6199,181 @@
     ] ;
     a lily:Play ;
 .
+
+<Alternative_Dimension_Reading_Stage_Vol_2>
+    lily:genre "朗読劇"@ja ;
+    schema:name "異空間リーディングステージ「アサルトリリィ」 vol.2"@ja ;
+    schema:alternateName "異空間リーディングステージ2"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:location "シアターサンモール"^^xsd:string ;
+    schema:startDate "2026-10-28"^^xsd:date ;
+    schema:endDate "2026-11-01"^^xsd:date ;
+    schema:duration "PT2H30M"^^xsd:duration ;
+    lily:showTime
+        "2026-10-28T13:00:00+09:00"^^xsd:dateTime,
+        "2026-10-28T18:30:00+09:00"^^xsd:dateTime,
+        "2026-10-30T18:30:00+09:00"^^xsd:dateTime,
+        "2026-10-31T13:00:00+09:00"^^xsd:dateTime,
+        "2026-10-31T18:00:00+09:00"^^xsd:dateTime,
+        "2026-11-01T12:00:00+09:00"^^xsd:dateTime,
+        "2026-11-01T16:30:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
+    lily:additionalInformation "10月28日13時公演はプレビュー公演"@ja ;
+    # schema:abstract ""@ja ;
+    # lily:previousWork <>;
+    # lily:nextWork <>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
+    lily:originalAuthor "尾花沢軒栄"@ja ;
+    # lily:supervisor ""@ja ;
+    # lily:executiveProducer ""@ja ;
+    # lily:producer "林修司"@ja ;
+    lily:scenarioWriter "桜木さやか"@ja ;
+    lily:episodeDirection "田邊俊喜"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
+    # lily:composer ""@ja ;
+    lily:planning "ピウス"@ja ;
+    lily:production "ピウス"@ja ;
+    # lily:contributor ""@ja ;
+    # lily:cooperation ""@ja ;
+    lily:organizer
+        "ピウス"@ja,
+        "アゾンインターナショナル"@ja ;
+    lily:cast [
+        schema:name "矢野妃菜喜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q35567820>,
+            <http://ja.dbpedia.org/resource/矢野妃菜喜> ;
+        lily:performAs <Tsukioka_Momiji> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "⽴⽯凛"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q118322879>,
+            <http://ja.dbpedia.org/resource/⽴⽯凛> ;
+        lily:performAs <Tsukioka_Chino> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "槙原唯"@ja ;
+        # lily:resource <> ;
+        # lily:performAs <> ;
+        lily:additionalInformation "御典医 役"@ja ;
+    ], [
+        schema:name "和久井優"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q23948953>,
+            <http://ja.dbpedia.org/resource/和久井優> ;
+        # lily:performAs <> ;
+        lily:additionalInformation "⿃⼭真赭 役"@ja ;
+    ], [
+        schema:name "月城莉奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q111113071>,
+            <http://ja.dbpedia.org/resource/月城莉奈> ;
+        # lily:performAs <> ;
+        lily:additionalInformation "喜多幅⽟緒 役"@ja ;
+    ], [
+        schema:name "岡⽥絆奈"@ja ;
+        # lily:resource <> ;
+        # lily:performAs <> ;
+        lily:additionalInformation "秋⼭⽟響 役"@ja ;
+    ], [
+        schema:name "星守紗凪"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q69635313>,
+            <http://ja.dbpedia.org/resource/星守紗凪> ;
+        lily:performAs <Kuo_Shenlin> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "朝倉ふゆな"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11517262>,
+            <http://ja.dbpedia.org/resource/朝倉ふゆな> ;
+        lily:performAs <Kaede_Johan_Nouvel> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "⼤⻄桃⾹"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q47672161>,
+            <http://ja.dbpedia.org/resource/⼤⻄桃⾹> ;
+        lily:performAs <Tachihara_Sayu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "牧浦乙葵"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q108777087>,
+            <http://ja.dbpedia.org/resource/牧浦乙葵> ;
+        lily:performAs <Hasebe_Touka> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "其原有沙"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27150647>,
+            <http://ja.dbpedia.org/resource/其原有沙> ;
+        lily:performAs <Luise_Ingels> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "林鼓子"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11533390>,
+            <http://ja.dbpedia.org/resource/林鼓子> ;
+        lily:performAs <Nagasaka_Maho> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "安藤千伽奈"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q133464836>,
+            <http://ja.dbpedia.org/resource/安藤千伽奈> ;
+        lily:performAs <Imai_Seira> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "日永麗"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q112133037>,
+            <http://ja.dbpedia.org/resource/日永麗> ;
+        lily:performAs <Yamaguchi_Chihiro> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "込山榛香"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q27917702>,
+            <http://ja.dbpedia.org/resource/込山榛香> ;
+        lily:performAs <Taniguchi_Hijiri> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "河内美里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q65272225>,
+            <http://ja.dbpedia.org/resource/河内美里> ;
+        lily:performAs <Rokkaku_Shiori> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "藍染カレン"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q65281297>,
+            <http://ja.dbpedia.org/resource/藍染カレン> ;
+        lily:performAs <Aoki_Kaho> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "阿久津友理"@ja ;
+        # lily:resource <> ;
+        lily:performAs <Sejima_Hiromu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "結月花"@ja ;
+        # lily:resource <> ;
+        # lily:performAs <> ;
+        lily:additionalInformation "パフォーマー"@ja ;
+    ], [
+        schema:name "椿莉歩"@ja ;
+        # lily:resource <> ;
+        # lily:performAs <> ;
+        lily:additionalInformation "パフォーマー"@ja ;
+    ], [
+        schema:name "稲田有梨"@ja ;
+        # lily:resource <> ;
+        # lily:performAs <> ;
+        lily:additionalInformation "パフォーマー"@ja ;
+    ] ;
+    a lily:Play ;
+.

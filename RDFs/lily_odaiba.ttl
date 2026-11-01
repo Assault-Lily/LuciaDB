@@ -2123,7 +2123,8 @@
             <Lily_Collection_2023>,
             <Assault_Lily_Odaiba_The_Snowdrop>,
             <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
-            <Assault_Lily_Sturm_Odaiba> ;
+            <Assault_Lily_Sturm_Odaiba>,
+            <Alternative_Dimension_Reading_Stage_Vol_2> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
