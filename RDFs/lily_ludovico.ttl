@@ -146,7 +146,8 @@
             <Shinjitsu_No_Yaiba_2023>,
             <Lily_Collection_2023>,
             <New_Chapter_Sanngrthr_Oshima>,
-            <New_Chapter_Sanngrthr_Oshima_2> ;
+            <New_Chapter_Sanngrthr_Oshima_2>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "石井陽菜"@ja ;
@@ -261,7 +262,8 @@
             <Schwester_No_Inori_2021>,
             <Schwester_No_Himitsu_2021>,
             <Lily_Collection_2023>,
-            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "中野あいみ"@ja ;
@@ -392,7 +394,8 @@
         lily:performIn
             <Lily_Project_Vol_1_Schwester_No_Inori>,
             <New_Chapter_Sanngrthr_Oshima>,
-            <New_Chapter_Sanngrthr_Oshima_2> ;
+            <New_Chapter_Sanngrthr_Oshima_2>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "佐倉初"@ja ;
@@ -513,7 +516,8 @@
             <Shinjitsu_No_Yaiba_2023>,
             <New_Chapter_Sanngrthr_Oshima>,
             <New_Chapter_Sanngrthr_Oshima_2>,
-            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "鵜川もえか"@ja ;
@@ -643,7 +647,8 @@
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
             <Lily_Collection_2023>,
-            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "末永みゆ"@ja ;
@@ -747,7 +752,8 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
-            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -846,7 +852,8 @@
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
             <Lily_Collection_2023>,
-            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "早川あひる"@ja ;
@@ -970,7 +977,8 @@
             <Shinjitsu_No_Yaiba_2023>,
             <Lily_Collection_2023>,
             <Assault_Lily_The_Truth_Of_The_Odaiba_Intercept_Battle>,
-            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "小松穂葉"@ja ;
@@ -1073,7 +1081,8 @@
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
             <Lily_Collection_2023>,
-            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1190,7 +1199,8 @@
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
             <Lily_Collection_2023>,
-            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "遥りさ"@ja ;
@@ -1296,7 +1306,8 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
-            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "齋藤茉日"@ja ;
@@ -1423,7 +1434,8 @@
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
             <Lily_Collection_2023>,
-            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "渡邉結衣"@ja ;
@@ -1563,7 +1575,8 @@
             <Assault_Lily_Irma_The_Gleam_of_Dawn>,
             <Shinjitsu_No_Yaiba_2023>,
             <Assault_Lily_Irma_The_Bond_with_the_White_Rose>,
-            <Assault_Lily_Last_Bullet> ;
+            <Assault_Lily_Last_Bullet>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "花奈澪"@ja ;
@@ -1698,7 +1711,8 @@
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
             <Lily_Collection_2023>,
-            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "斎藤愛莉"@ja ;
@@ -1820,7 +1834,8 @@
             <Schwester_No_Himitsu_2021>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;
@@ -1924,7 +1939,8 @@
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
             <Lily_Collection_2023>,
-            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "星乃まりな"@ja ;
@@ -2027,7 +2043,8 @@
             <Schwester_No_Himitsu_2021>,
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
-            <Shinjitsu_No_Yaiba_2023> ;
+            <Shinjitsu_No_Yaiba_2023>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "宇田川ももか"@ja ;
@@ -2137,7 +2154,8 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
-            <Assault_Lily_Irma_The_Bond_with_the_White_Rose> ;
+            <Assault_Lily_Irma_The_Bond_with_the_White_Rose>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "槙原唯"@ja ;
@@ -2245,6 +2263,11 @@
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023> ;
         # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "沖田あすか"@ja ;
+        # lily:resource <> ;
+        lily:performIn <Shirobara_No_Pascha> ;
+        lily:additionalInformation "2024年3月までは「沖あすか」として活動"@ja ;
     ], [
         schema:name "薄倉里奈"@ja ;
         lily:resource
@@ -3015,6 +3038,148 @@
         schema:name "木下美優"@ja ;
         # lily:resource <> ;
         lily:performIn <Mirai_Eno_Jujika> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "中野あいみ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q20041846>,
+            <http://ja.dbpedia.org/resource/中野あいみ> ;
+        lily:performIn <Shirobara_No_Pascha> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Lily ;
+.
+
+<Osawa_Dolores_Nishiki>
+    rdfs:label "大沢・ドロレス・錦"^^xsd:string ;
+    schema:familyName "大沢"@ja, "Osawa"@en ;
+    lily:familyNameKana "おおさわ"@ja ;
+    schema:additionalName "ドロレス"@ja, "Dolores"@en ;
+    lily:additionalNameKana "どろれす"@ja ;
+    schema:givenName "錦"@ja, "Nishiki"@en ;
+    lily:givenNameKana "にしき"@ja ;
+    schema:name "大沢・ドロレス・錦"@ja, "Osawa Dolores Nishiki"@en ;
+    lily:nameKana "おおさわ・どろれす・にしき"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+        # lily:resource <> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "私立ルドビコ女学院"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:olderSchwester <> ;
+    # lily:pastOlderSchwester <> ;
+    # lily:youngerSchwester <> ;
+    # lily:pastYoungerSchwester <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "松村芽久未"@ja ;
+        lily:resource <http://ja.dbpedia.org/resource/松村芽久未> ;
+        lily:performIn <Shirobara_No_Pascha> ;
+        # lily:additionalInformation ""@ja ;
+    ] ;
+    a lily:Lily ;
+.
+
+<Namiki_Cecilia_Meguru>
+    rdfs:label "波木・セシリア・恵琉"^^xsd:string ;
+    schema:familyName "波木"@ja, "Namiki"@en ;
+    lily:familyNameKana "なみき"@ja ;
+    schema:additionalName "セシリア"@ja, "Cecilia"@en ;
+    lily:additionalNameKana "せしりあ"@ja ;
+    schema:givenName "恵琉"@ja, "Meguru"@en ;
+    lily:givenNameKana "めぐる"@ja ;
+    schema:name "波木・セシリア・恵琉"@ja, "Namiki Cecilia Meguru"@en ;
+    lily:nameKana "なみき・せしりあ・めぐる"@ja ;
+    # lily:anotherName ""@ja ;
+    # foaf:age ""^^xsd:integer ;
+    # schema:height ""^^xsd:float ;
+    # schema:weight ""^^xsd:float ;
+    # schema:birthDate ""^^xsd:gMonthDay ;
+    lily:lifeStatus "alive"^^xsd:string ;
+    # lily:killedIn ""^^xsd:string ;
+    # lily:bloodType ""^^xsd:string ;
+    schema:gender "female"^^xsd:string ;
+    # lily:color ""^^xsd:hexBinary ;
+    # schema:birthPlace ""@ja, ""@en ;
+    # lily:favorite ""@ja ;
+    # lily:notGood ""@ja ;
+    # lily:hobby_talent ""@ja ;
+    # lily:skillerVal ""^^xsd:integer ;
+    # lily:rareSkill ""^^xsd:string ;
+    # lily:subSkill ""^^xsd:string ;
+    lily:isBoosted false ;
+    # lily:boostedSkill ""^^xsd:string ;
+    # lily:charm [
+        # lily:resource <> ;
+        # lily:usedIn ""^^xsd:string ;
+        # lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:garden "私立ルドビコ女学院"^^xsd:string ;
+    # lily:gardenDepartment ""^^xsd:string ;
+    # lily:grade ""^^xsd:integer ;
+    # lily:class ""^^xsd:string ;
+    # lily:gardenJobTitle ""@ja ;
+    # lily:legion <> ;
+    # lily:legionJobTitle ""^^xsd:string ;
+    # lily:position ""^^xsd:string ;
+    # lily:pastLegion <> ;
+    # lily:taskforce <> ;
+    # lily:pastTaskforce <> ;
+    # lily:olderSchwester <> ;
+    # lily:pastOlderSchwester <> ;
+    # lily:youngerSchwester <> ;
+    # lily:pastYoungerSchwester <> ;
+    # lily:roomMate <> ;
+    # schema:parent <> ;
+    # schema:sibling [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    # lily:relationship [
+    #    lily:resource <> ;
+    #    lily:additionalInformation ""@ja ;
+    # ] ;
+    lily:cast [
+        schema:name "矢島美音"@ja ;
+        lily:performIn <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Lily ;

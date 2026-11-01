@@ -3418,7 +3418,7 @@
     # lily:additionalInformation ""@ja ;
     # schema:abstract ""@ja ;
     lily:previousWork <Yakusoku_No_Yukue_2022>;
-    # lily:nextWork <>;
+    lily:nextWork <Shirobara_No_Pascha>;
     lily:originalWork <Shinjitsu_No_Yaiba>;
     # lily:remakeWork <>;
     lily:originalAuthor "尾花沢軒栄"@ja ;
@@ -6374,6 +6374,188 @@
         # lily:resource <> ;
         # lily:performAs <> ;
         lily:additionalInformation "パフォーマー"@ja ;
+    ] ;
+    a lily:Play ;
+.
+
+<Shirobara_No_Pascha>
+    lily:genre "舞台"@ja ;
+    schema:name "舞台「アサルトリリィ×私立ルドビコ女学院」〜白薔薇のパスカ〜"@ja ;
+    schema:alternateName "白薔薇のパスカ"@ja ;
+    schema:inLanguage "ja-JP"^^xsd:language ;
+    schema:location "こくみん共済 coop ホール／スペース・ゼロ"^^xsd:string ;
+    schema:startDate "2027-01-08"^^xsd:date ;
+    schema:endDate "2027-01-12"^^xsd:date ;
+    # schema:duration "PT2H30M"^^xsd:duration ;
+    lily:showTime
+        "2027-01-08T19:00:00+09:00"^^xsd:dateTime,
+        "2027-01-09T13:00:00+09:00"^^xsd:dateTime,
+        "2027-01-09T18:00:00+09:00"^^xsd:dateTime,
+        "2027-01-10T13:00:00+09:00"^^xsd:dateTime,
+        "2027-01-10T18:00:00+09:00"^^xsd:dateTime,
+        "2027-01-12T13:00:00+09:00"^^xsd:dateTime ;
+    # lily:cancelledShowTime ""^^xsd:dateTime ;
+    # lily:additionalInformation ""@ja ;
+    schema:abstract "崩壊した私立ルドビコ女学院。\n自分たちのガーデンを取り戻すため、ルド女のリリィたちは戦い続けていた。\nしかし、失ったものは大きく、あの日の傷は今も癒えない。\n\n亡きシュベスター・未来への想いを胸に、自らが下した決断に今も葛藤を抱えながら、仲間の先頭に立つアイアンサイドの隊長、福山・ジャンヌ・幸恵。\nテンプルレギオンの存続に悩みながら、仲間と共に歩む道を探す一之宮・ミカエラ・日葵。\n\n二人を支えたいと願うリリィたちもまた、それぞれの迷いを抱えながら、真実の先へと踏み出そうとしていた。\nそんな彼女たちのもとに、八王子キャンパスから新たな仲間が訪れて……。\n\n受け継いだ想いと白薔薇の誇りを胸に、リリィたちは今、ガーデン奪還に挑む――！"@ja ;
+    lily:previousWork <Shinjitsu_No_Yaiba_2023>;
+    # lily:nextWork <>;
+    # lily:originalWork <>;
+    # lily:remakeWork <>;
+    lily:originalAuthor "尾花沢軒栄"@ja ;
+    # lily:supervisor ""@ja ;
+    # lily:executiveProducer ""@ja ;
+    # lily:producer "林修司"@ja ;
+    lily:scenarioWriter "桜木さやか"@ja ;
+    lily:episodeDirection
+        # "林修司"@ja,
+        "桜木さやか"@ja ;
+    # lily:assistantEpisodeDirector ""@ja ;
+    # lily:composer "谷ナオキ"@ja ;
+    lily:planning "ピウス"@ja ;
+    lily:production "ピウス"@ja ;
+    # lily:contributor ""@ja ;
+    # lily:cooperation ""@ja ;
+    lily:organizer
+        "ピウス"@ja,
+        "acus"@ja,
+        "アゾンインターナショナル"@ja ;
+    lily:cast [
+        schema:name "中村裕香里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q60613344>,
+            <http://ja.dbpedia.org/resource/中村裕香里> ;
+        lily:performAs <Fukuyama_Jeanne_Sachie> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "七海とろろ"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q123405497> ;
+        lily:performAs <Seto_Veronica_Ichika> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "梅原サエリ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q74146771>,
+            <http://ja.dbpedia.org/resource/梅原サエリ> ;
+        lily:performAs <Kuroki_Francisca_Yuria> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "星守紗凪"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q69635313>,
+            <http://ja.dbpedia.org/resource/星守紗凪> ;
+        lily:performAs <Amamiya_Sofia_Seren> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "中川梨花"@ja ;
+        lily:resource <http://ja.dbpedia.org/resource/中川梨花> ;
+        lily:performAs <Kishimoto_Lucia_Raimu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "大滝紗緒里"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q60989916>,
+            <http://ja.dbpedia.org/resource/大滝紗緒里> ;
+        lily:performAs <Matsunaga_Brigitta_Kayo> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "甲斐千尋"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q59134848>,
+            <http://ja.dbpedia.org/resource/甲斐千尋> ;
+        lily:performAs <Takatori_Natalie_Towa> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "白城もえの"@ja ;
+        # lily:resource <>;
+        lily:performAs <Lee_Christina_Susu> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "小菅怜衣"@ja ;
+        lily:resource <https://www.wikidata.org/wiki/Q118522538> ;
+        lily:performAs <Saeki_Julia_Karen> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "西田有愛"@ja ;
+        # lily:resource <>;
+        lily:performAs <Hasegawa_Gabriela_Tsugumi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "西本りみ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q24902567>,
+            <http://ja.dbpedia.org/resource/西本りみ> ;
+        lily:performAs <Ichinomiya_Michaela_Himari> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "石井陽菜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q18817351>,
+            <http://ja.dbpedia.org/resource/石井陽菜> ;
+        lily:performAs <Tachibana_Theresia_Nagisa> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "清水凜"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q105704315>,
+            <http://ja.dbpedia.org/resource/清水凜> ;
+        lily:performAs <Sano_Matilda_Kokoro> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "一本鎗希華"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q98757922>,
+            <http://ja.dbpedia.org/resource/一本鎗希華> ;
+        lily:performAs <Narumi_Clara_Yuko> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "山﨑悠稀"@ja ;
+        # lily:resource <>;
+        lily:performAs <Hojo_Monica_Asahi> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "岩倉あずさ"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q96715454>,
+            <http://ja.dbpedia.org/resource/岩倉あずさ> ;
+        lily:performAs <Hanaoka_Angela_Moe> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "湯田陽花"@ja ;
+        # lily:resource <>;
+        lily:performAs <Haneda_Catalina_Mei> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "沖田あすか"@ja ;
+        # lily:resource <>;
+        lily:performAs <Nagase_Marta_Nonoka> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "松村芽久未"@ja ;
+        lily:resource <http://ja.dbpedia.org/resource/松村芽久未> ;
+        lily:performAs <Osawa_Dolores_Nishiki> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "中野あいみ"@ja ;
+        lily:resource <http://ja.dbpedia.org/resource/中野あいみ> ;
+        lily:performAs <Fujimoto_Balbina_Otome> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "矢島美音"@ja ;
+        # lily:resource <>;
+        lily:performAs <Namiki_Cecilia_Meguru> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "あわつまい"@ja ;
+        lily:resource <http://ja.dbpedia.org/resource/あわつまい> ;
+        lily:performAs <Kishimoto_Maria_Mirai> ;
+        # lily:additionalInformation ""@ja ;
+    ], [
+        schema:name "楠世蓮"@ja ;
+        lily:resource
+            <https://www.wikidata.org/wiki/Q11541155>,
+            <http://ja.dbpedia.org/resource/楠世蓮> ;
+        lily:performAs <Izumi_Rosa_Rina> ;
+        # lily:additionalInformation ""@ja ;
     ] ;
     a lily:Play ;
 .

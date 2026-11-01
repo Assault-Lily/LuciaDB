@@ -108,7 +108,8 @@
             <Yakusoku_No_Yukue_2022>,
             <Ludovico_Liveshow_2022>,
             <Shinjitsu_No_Yaiba_2023>,
-            <Alternative_Dimension_Reading_Stage_RED_And_BLUE> ;
+            <Alternative_Dimension_Reading_Stage_RED_And_BLUE>,
+            <Shirobara_No_Pascha> ;
         # lily:additionalInformation ""@ja ;
     ], [
         schema:name "舞川みやこ"@ja ;
